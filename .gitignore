@@ -20,3 +20,13 @@ tsconfig.tsbuildinfo
 # scrapers (local only)
 scrape_mu.js
 masters_union_ad_intelligence_report.md
+
+# Python / Streamlit
+__pycache__/
+*.py[cod]
+.env
+*.egg-info/
+ad-factory/outputs/*
+!ad-factory/outputs/.gitkeep
+ad-factory/assets/*
+!ad-factory/assets/.gitkeep
