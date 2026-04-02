@@ -521,41 +521,34 @@ with st.container():
         label_visibility="collapsed",
     )
 
-    key_col1, key_col2 = st.columns([2, 2])
-    with key_col1:
-        anthropic_api_key = st.text_input(
-            "🧠 Claude API key (Anthropic)", type="password",
-            help="Generates & scores ad copies. Get yours at console.anthropic.com",
-        )
-    with key_col2:
-        grok_api_key = st.text_input(
-            "🎨 Grok API key (xAI)", type="password",
-            help="Enhances images with design principles. Get yours at console.x.ai",
-        )
+    grok_api_key = st.text_input(
+        "🔑 Grok API key (xAI)", type="password",
+        help="One key powers everything — copy generation, scoring, and image creation. Get yours at console.x.ai",
+    )
 
     generate_btn = st.button("🚀 Generate Ad Copies", type="primary", use_container_width=False)
 
 
 # ── Generate on button click ──────────────────────────────────────────────────
 if generate_btn:
-    if not anthropic_api_key:
-        # Fall back to demo data if no Claude key
-        with st.spinner("Loading demo data (add Claude API key for custom copies)…"):
+    if not grok_api_key:
+        # Fall back to demo data if no key
+        with st.spinner("Loading demo data (add Grok API key for custom copies)…"):
             st.session_state.ads    = SAMPLE_ADS
             st.session_state.scores = SAMPLE_SCORES
-        st.info("💡 Using demo data. Add your Claude API key above to generate custom copies from your brief.")
+        st.info("💡 Using demo data. Add your Grok API key above to generate custom copies from your brief.")
     else:
         brief = parse_prompt_to_brief(user_prompt or "Drive Intake 3 applications — April 19 deadline")
-        with st.spinner("🧠 Claude generating 20 ad copies from your brief…"):
+        with st.spinner("🧠 Grok generating 20 ad copies from your brief…"):
             try:
-                st.session_state.ads = generate_ads_with_anthropic(brief, anthropic_api_key)
+                st.session_state.ads = generate_ads_with_grok(brief, grok_api_key)
             except Exception as e:
                 st.error(f"Generation error: {e}")
                 st.session_state.ads = SAMPLE_ADS
 
-        with st.spinner("⚖️ Claude scoring all ads…"):
+        with st.spinner("⚖️ Grok scoring all ads…"):
             try:
-                st.session_state.scores = score_ads_with_anthropic(st.session_state.ads, anthropic_api_key)
+                st.session_state.scores = score_ads_with_grok(st.session_state.ads, grok_api_key)
             except Exception as e:
                 st.error(f"Scoring error: {e}")
                 st.session_state.scores = SAMPLE_SCORES

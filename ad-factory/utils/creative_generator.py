@@ -35,8 +35,13 @@ BUCKET_COLORS = {
 }
 
 ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../assets/ssb_images")
+LOGOS_DIR  = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../assets/logos")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Pre-load logo (white version for dark backgrounds)
+_LOGO_WHITE_PATH = os.path.join(LOGOS_DIR, "ssb_logo_white.png")
+_LOGO_GREEN_PATH = os.path.join(LOGOS_DIR, "ssb_logo_green.png")
 
 
 def _font(spec, size):
@@ -131,14 +136,9 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     cta      = _clean(ad.get("cta_text", "Apply Now >"))
     accent   = BUCKET_COLORS.get(bucket, (0, 212, 255))
 
-    # Design guideline: 30-35 chars headline, 45 chars subheader
-    # Truncate gracefully if copy is longer
-    if len(headline) > 35:
-        # Try to break at a word boundary
-        trunc = headline[:35]
-        last_space = trunc.rfind(" ")
-        if last_space > 20:
-            headline = trunc[:last_space]
+    # Note: 30-35 char headline limit is enforced at the COPY GENERATION stage
+    # (in prompts/p01_generate_ads.py). The Pillow renderer shows whatever copy
+    # it receives — no truncation here. The text wrapping handles long headlines.
     if len(body) > 150:
         body = body[:150] + "..."
 
@@ -217,11 +217,25 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     bx = M - 22
     draw.rectangle([bx, int(H*0.355), bx+6, int(H*0.355)+int(H*0.32)], fill=accent)
 
-    # ── 4. Brand header ────────────────────────────────────────────────────────
-    fb  = _font(FONT_BOLD,  34)
-    fl  = _font(FONT_LIGHT, 27)
-    _text_with_shadow(draw, (M, 52), "SCALER SCHOOL", fb, accent_dim)
-    _text_with_shadow(draw, (M, 92), "OF BUSINESS",   fl, (150,155,165))
+    # ── 4. Brand logo (top-left, small) ───────────────────────────────────────
+    logo_path = _LOGO_WHITE_PATH  # white logo for dark/photo backgrounds
+    LOGO_H = 55  # target logo height in pixels (small, top-left)
+    try:
+        logo = Image.open(logo_path).convert("RGBA")
+        logo_aspect = logo.width / logo.height
+        logo_w = int(LOGO_H * logo_aspect)
+        logo = logo.resize((logo_w, LOGO_H), Image.LANCZOS)
+        # Paste with transparency onto canvas (need RGBA composite)
+        logo_layer = Image.new("RGBA", canvas.size, (0,0,0,0))
+        logo_layer.paste(logo, (M, 42))
+        canvas = Image.alpha_composite(canvas.convert("RGBA"), logo_layer).convert("RGB")
+        draw = ImageDraw.Draw(canvas)  # re-create draw after composite
+    except Exception:
+        # Fallback: text header if logo file missing
+        fb  = _font(FONT_BOLD,  34)
+        fl  = _font(FONT_LIGHT, 27)
+        _text_with_shadow(draw, (M, 52), "SCALER SCHOOL", fb, accent_dim)
+        _text_with_shadow(draw, (M, 92), "OF BUSINESS",   fl, (150,155,165))
 
     # Intake badge
     fbg = _font(FONT_BOLD, 27)
