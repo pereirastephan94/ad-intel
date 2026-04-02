@@ -195,90 +195,181 @@ def img_to_b64(path: str) -> str:
         return base64.b64encode(f.read()).decode()
 
 
-# ── AI Image generation (Grok / Ideogram / Together / HuggingFace) ────────────
-def generate_ai_background(prompt: str, api_key: str, provider: str = "grok") -> str | None:
+# ── Design Principles Prompt (7 principles, pick max 2) ───────────────────────
+DESIGN_STRATEGIST_PROMPT = """You are a high-performance creative strategist and visual designer.
+
+Your task is to generate a creative direction for a marketing ad background image using:
+1. The uploaded photo (described below)
+2. The ad copy/message
+3. The target audience
+
+### DESIGN PRINCIPLES (pick MAXIMUM 2):
+- Balance: Distributes elements for a stable, structured layout
+- Repetition: Repeats elements for consistency and flow
+- Contrast: Uses differences to highlight key elements
+- Proportion: Scales elements for balance and focus
+- Emphasis: Draws attention to important details
+- Unity: Ensures a cohesive, harmonious look
+- Movement: Guides the eye through the design
+
+### HARD RULES:
+- Do NOT overload the creative
+- Do NOT use more than 2 principles
+- Prioritise clarity > aesthetics
+- Design for mobile-first (9:16 portrait)
+- The output image must have NO text, NO logos — just the enhanced photo as ad background
+
+### YOUR TASK:
+1. Pick the 2 best design principles for this audience + message
+2. Write a single image generation prompt (max 80 words) that describes
+   how to recreate this photo as a professional ad background following
+   those 2 principles. Include: the scene, people, lighting, mood, color grading,
+   and how the 2 chosen principles shape the composition.
+
+Return ONLY the image generation prompt, nothing else."""
+
+
+# ── Grok image pipeline ──────────────────────────────────────────────────────
+
+def _grok_headers(api_key: str) -> dict:
+    return {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+
+
+def _grok_describe_photo(photo_path: str, api_key: str) -> str:
+    """Use Grok vision to describe an uploaded photo."""
+    import base64, requests
+    with open(photo_path, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+    ext = photo_path.rsplit(".", 1)[-1].lower()
+    mime = {"jpg":"jpeg","jpeg":"jpeg","png":"png","webp":"webp"}.get(ext, "jpeg")
+    resp = requests.post(
+        "https://api.x.ai/v1/chat/completions",
+        headers=_grok_headers(api_key),
+        json={
+            "model": "grok-4-fast-non-reasoning",
+            "messages": [{"role": "user", "content": [
+                {"type": "image_url", "image_url": {"url": f"data:image/{mime};base64,{b64}"}},
+                {"type": "text", "text": (
+                    "Describe this photo in 2 sentences. Focus on the people, their activity, "
+                    "the setting, lighting, colors, and mood. Be specific and visual."
+                )}
+            ]}],
+            "max_tokens": 200
+        },
+        timeout=30
+    )
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"]
+
+
+def _grok_design_direction(photo_desc: str, ad: dict, api_key: str) -> str:
+    """Use Grok strategist to pick 2 design principles and write an image prompt."""
+    import requests
+    audience = ad.get("audience_segment", "career pivoters and aspiring founders")
+    headline = ad.get("headline", "")
+    bucket   = ad.get("bucket", "STARTUP")
+    resp = requests.post(
+        "https://api.x.ai/v1/chat/completions",
+        headers=_grok_headers(api_key),
+        json={
+            "model": "grok-4-fast-non-reasoning",
+            "messages": [
+                {"role": "system", "content": DESIGN_STRATEGIST_PROMPT},
+                {"role": "user", "content": (
+                    f"PHOTO DESCRIPTION: {photo_desc}\n\n"
+                    f"AD HEADLINE: {headline}\n"
+                    f"BUCKET: {bucket}\n"
+                    f"TARGET AUDIENCE: {audience}\n"
+                    f"OBJECTIVE: Lead generation for Scaler School of Business\n\n"
+                    f"Write the image generation prompt."
+                )}
+            ],
+            "max_tokens": 200
+        },
+        timeout=30
+    )
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"]
+
+
+def _grok_generate_image(prompt: str, api_key: str, slug: str) -> str | None:
+    """Generate an image with grok-imagine-image and save it."""
+    import requests
+    out_dir = os.path.join(os.path.dirname(__file__), "assets", "ssb_images", "enhanced")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"{slug}.jpg")
+    if os.path.exists(out_path):
+        return out_path
+
+    resp = requests.post(
+        "https://api.x.ai/v1/images/generations",
+        headers=_grok_headers(api_key),
+        json={"model": "grok-imagine-image", "prompt": prompt, "response_format": "url"},
+        timeout=90
+    )
+    resp.raise_for_status()
+    url = resp.json()["data"][0]["url"]
+    img_data = requests.get(url, timeout=30).content
+    with open(out_path, "wb") as f:
+        f.write(img_data)
+    return out_path
+
+
+def enhance_photo_with_grok(photo_path: str, ad: dict, api_key: str) -> str | None:
     """
-    Generate an AI background image and save it to assets/ssb_images/ai_bg_<hash>.ext.
-    Returns the saved file path, or None if it fails.
+    Full Grok pipeline:
+    1. Vision describes the uploaded photo
+    2. Strategist picks 2 design principles + writes image prompt
+    3. Imagine generates the enhanced ad-ready background
+    Returns path to enhanced image, or None on failure.
     """
+    import hashlib
+    try:
+        slug = hashlib.md5(f"{photo_path}_{ad.get('ad_id','')}".encode()).hexdigest()[:10]
+
+        # Check cache
+        cached = os.path.join(os.path.dirname(__file__), "assets", "ssb_images", "enhanced", f"{slug}.jpg")
+        if os.path.exists(cached):
+            return cached
+
+        # Step 1: Describe photo
+        desc = _grok_describe_photo(photo_path, api_key)
+
+        # Step 2: Design direction (picks 2 principles, writes image prompt)
+        img_prompt = _grok_design_direction(desc, ad, api_key)
+
+        # Step 3: Generate enhanced background
+        return _grok_generate_image(img_prompt, api_key, slug)
+
+    except Exception as e:
+        st.warning(f"Grok enhancement failed: {e}")
+        return None
+
+
+def generate_ai_background(prompt: str, api_key: str) -> str | None:
+    """Generate an image from scratch with Grok (when no uploaded photo)."""
     import hashlib, requests
     slug = hashlib.md5(prompt.encode()).hexdigest()[:8]
     out_dir = os.path.join(os.path.dirname(__file__), "assets", "ssb_images")
     os.makedirs(out_dir, exist_ok=True)
     out_path = os.path.join(out_dir, f"ai_bg_{slug}.jpg")
     if os.path.exists(out_path):
-        return out_path  # cache hit
-
+        return out_path
     try:
-        if provider == "grok":
-            # xAI Grok Imagine API  →  https://api.x.ai/v1/images/generations
-            # Get your key at console.x.ai
-            resp = requests.post(
-                "https://api.x.ai/v1/images/generations",
-                headers={"Authorization": f"Bearer {api_key}",
-                         "Content-Type": "application/json"},
-                json={"model": "grok-imagine-image",
-                      "prompt": prompt,
-                      "response_format": "url"},
-                timeout=90
-            )
-            resp.raise_for_status()
-            url = resp.json()["data"][0]["url"]
-            img_data = requests.get(url, timeout=30).content
-            with open(out_path, "wb") as f:
-                f.write(img_data)
-            return out_path
-
-        elif provider == "ideogram":
-            # Ideogram v2 API  →  https://api.ideogram.ai/generate
-            resp = requests.post(
-                "https://api.ideogram.ai/generate",
-                headers={"Api-Key": api_key, "Content-Type": "application/json"},
-                json={"image_request": {"prompt": prompt, "aspect_ratio": "ASPECT_9_16",
-                                        "model": "V_2", "magic_prompt_option": "ON"}},
-                timeout=60
-            )
-            resp.raise_for_status()
-            url = resp.json()["data"][0]["url"]
-            img_data = requests.get(url, timeout=30).content
-            with open(out_path, "wb") as f:
-                f.write(img_data)
-            return out_path
-
-        elif provider == "together":
-            # Together AI — Flux.1-schnell  ($0.0003/img)
-            resp = requests.post(
-                "https://api.together.xyz/v1/images/generations",
-                headers={"Authorization": f"Bearer {api_key}",
-                         "Content-Type": "application/json"},
-                json={"model": "black-forest-labs/FLUX.1-schnell-Free",
-                      "prompt": prompt, "width": 1080, "height": 1920,
-                      "steps": 4, "n": 1},
-                timeout=90
-            )
-            resp.raise_for_status()
-            url = resp.json()["data"][0]["url"]
-            img_data = requests.get(url, timeout=30).content
-            with open(out_path, "wb") as f:
-                f.write(img_data)
-            return out_path
-
-        elif provider == "huggingface":
-            # HuggingFace Inference API — FLUX.1-schnell (free with HF token)
-            resp = requests.post(
-                "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell",
-                headers={"Authorization": f"Bearer {api_key}",
-                         "Content-Type": "application/json"},
-                json={"inputs": prompt, "parameters": {"width": 1080, "height": 1920}},
-                timeout=120
-            )
-            resp.raise_for_status()
-            with open(out_path, "wb") as f:
-                f.write(resp.content)
-            return out_path
-
+        resp = requests.post(
+            "https://api.x.ai/v1/images/generations",
+            headers=_grok_headers(api_key),
+            json={"model": "grok-imagine-image", "prompt": prompt, "response_format": "url"},
+            timeout=90
+        )
+        resp.raise_for_status()
+        url = resp.json()["data"][0]["url"]
+        img_data = requests.get(url, timeout=30).content
+        with open(out_path, "wb") as f:
+            f.write(img_data)
+        return out_path
     except Exception as e:
-        st.warning(f"AI image generation failed ({provider}): {e}")
+        st.warning(f"Grok image generation failed: {e}")
         return None
 
 
@@ -342,33 +433,16 @@ with st.container():
 
     generate_btn = st.button("🚀 Generate Ad Copies", type="primary", use_container_width=False)
 
-    # AI image generation settings (collapsed by default)
-    with st.expander("🎨 AI background image settings (optional)"):
-        st.caption("Generate AI backgrounds or upload your own images per ad card below.")
-        img_gen_provider = st.selectbox(
-            "Image generation provider",
-            ["None — use SSB photos",
-             "Grok (xAI — $25 free credits, best quality)",
-             "Ideogram (free tier)",
-             "Together AI (Flux, ~$0.0003/img)",
-             "HuggingFace (Flux, free)"],
+    # Grok API key — primary image tool
+    with st.expander("🎨 Grok Image Settings", expanded=False):
+        st.caption(
+            "Grok enhances your uploaded photos into ad-ready backgrounds using design principles "
+            "(Balance, Contrast, Emphasis, etc.). Upload photos per ad card below."
         )
-        img_gen_key = st.text_input(
-            "Image API key", type="password",
-            help="Grok: console.x.ai | Ideogram: api.ideogram.ai/manage | Together: api.together.xyz | HuggingFace: huggingface.co/settings/tokens"
+        grok_api_key = st.text_input(
+            "Grok API key (xAI)", type="password",
+            help="Get yours at console.x.ai",
         )
-        img_gen_prompt_override = st.text_input(
-            "Background image prompt override (optional)",
-            placeholder="e.g. Young Indian students selling handmade products at a street market, cinematic, warm light"
-        )
-        provider_map = {
-            "None — use SSB photos": None,
-            "Grok (xAI — $25 free credits, best quality)": "grok",
-            "Ideogram (free tier)": "ideogram",
-            "Together AI (Flux, ~$0.0003/img)": "together",
-            "HuggingFace (Flux, free)": "huggingface",
-        }
-        selected_provider = provider_map[img_gen_provider]
 
 
 # ── Generate on button click ──────────────────────────────────────────────────
@@ -497,31 +571,51 @@ if st.session_state.ads and st.session_state.scores:
                     # ── Batch: one creative per uploaded image ─────────────────
                     saved = _save_uploaded_images(uploaded_imgs[:10], ad_id)
                     results = []
-                    progress = st.progress(0, text="Rendering creatives…")
+                    total_steps = len(saved) * (2 if grok_api_key else 1)
+                    progress = st.progress(0, text="Processing…")
+                    step = 0
+
                     for idx, img_path in enumerate(saved):
-                        progress.progress((idx+1)/len(saved),
-                                          text=f"Rendering {idx+1}/{len(saved)}…")
-                        path = render_creative(ad, size=size_code, bg_image=img_path)
+                        bg = img_path  # default: use raw upload
+
+                        # Grok enhancement: vision → design principles → regenerate
+                        if grok_api_key:
+                            progress.progress(
+                                (step + 1) / total_steps,
+                                text=f"🧠 Grok analyzing photo {idx+1}/{len(saved)} (picking design principles)…"
+                            )
+                            enhanced = enhance_photo_with_grok(img_path, ad, grok_api_key)
+                            if enhanced:
+                                bg = enhanced
+                            step += 1
+
+                        progress.progress(
+                            (step + 1) / total_steps,
+                            text=f"🎨 Rendering creative {idx+1}/{len(saved)}…"
+                        )
+                        path = render_creative(ad, size=size_code, bg_image=bg)
                         if path:
                             results.append(path)
+                        step += 1
+
                     progress.empty()
 
-                    # Store all results
                     for i, p in enumerate(results):
                         st.session_state.generated_creatives[f"{ad_id}_{size_code}_u{i}"] = p
                     if results:
-                        st.success(f"✅ {len(results)} creative(s) rendered!")
+                        st.success(f"✅ {len(results)} creative(s) rendered with design principles!")
 
                 else:
-                    # ── Single: AI background or default SSB photo ────────────
+                    # ── No uploads: Grok generates from scratch or use SSB photo ──
                     bg_img = None
-                    if selected_provider and img_gen_key:
-                        bg_prompt = img_gen_prompt_override or (
+                    if grok_api_key:
+                        bg_prompt = (
                             f"Young Indian business students {ad.get('image_prompt', 'in a modern classroom setting')}, "
-                            "photorealistic, warm natural light, authentic, no text overlay"
+                            "photorealistic, cinematic warm natural light, shallow depth of field, "
+                            "professional ad background, portrait 9:16, authentic, no text overlay"
                         )
-                        with st.spinner(f"🖼️ Generating AI background with {img_gen_provider}…"):
-                            bg_img = generate_ai_background(bg_prompt, img_gen_key, selected_provider)
+                        with st.spinner("🖼️ Grok generating background…"):
+                            bg_img = generate_ai_background(bg_prompt, grok_api_key)
 
                     with st.spinner(f"Rendering {size_code} creative for {ad_id}…"):
                         path = render_creative(ad, size=size_code, bg_image=bg_img)
