@@ -208,32 +208,70 @@ def generate_ads_with_grok(brief: dict, grok_key: str):
 
 
 def score_ads_with_grok(ads, grok_key: str):
-    """Score ads using Grok instead of Claude."""
+    """Score ads using Grok. Scores in batches of 5 to avoid truncation."""
     import requests
     from prompts.p03_judge_ads import SYSTEM_PROMPT_JUDGE, USER_PROMPT_JUDGE_BATCH
-    r = requests.post(
-        "https://api.x.ai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
-        json={
-            "model": "grok-4-fast-non-reasoning",
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT_JUDGE},
-                {"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
-                    num_ads=len(ads), ads_json=json.dumps(ads, indent=2)
-                )}
-            ],
-            "max_tokens": 8000,
-            "temperature": 0.3
-        },
-        timeout=120
-    )
-    r.raise_for_status()
-    text = r.json()["choices"][0]["message"]["content"]
-    if "```json" in text:
-        text = text.split("```json")[1].split("```")[0]
-    elif "```" in text:
-        text = text.split("```")[1].split("```")[0]
-    return json.loads(text.strip())
+
+    all_scores = []
+    batch_size = 5
+
+    for i in range(0, len(ads), batch_size):
+        batch = ads[i:i+batch_size]
+        r = requests.post(
+            "https://api.x.ai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
+            json={
+                "model": "grok-4-fast-non-reasoning",
+                "messages": [
+                    {"role": "system", "content": SYSTEM_PROMPT_JUDGE},
+                    {"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
+                        num_ads=len(batch), ads_json=json.dumps(batch, indent=2)
+                    )}
+                ],
+                "max_tokens": 4000,
+                "temperature": 0.3
+            },
+            timeout=120
+        )
+        r.raise_for_status()
+        text = r.json()["choices"][0]["message"]["content"]
+        if "```json" in text:
+            text = text.split("```json")[1].split("```")[0]
+        elif "```" in text:
+            text = text.split("```")[1].split("```")[0]
+
+        batch_scores = json.loads(text.strip())
+        if isinstance(batch_scores, list):
+            all_scores.extend(batch_scores)
+        elif isinstance(batch_scores, dict) and "scores" in batch_scores:
+            all_scores.extend(batch_scores["scores"])
+
+    # Normalize: ensure every score has composite_score
+    for s in all_scores:
+        if "composite_score" not in s:
+            # Try to compute from sub-scores
+            dims = s.get("scores", {})
+            if isinstance(dims, dict):
+                vals = [v.get("score", v) if isinstance(v, dict) else v
+                        for v in dims.values() if isinstance(v, (int, float, dict))]
+                nums = [v for v in vals if isinstance(v, (int, float))]
+                s["composite_score"] = int(sum(nums) / len(nums) * 10) if nums else 50
+            else:
+                s["composite_score"] = 50
+        if "verdict" not in s:
+            sc = s["composite_score"]
+            s["verdict"] = "LAUNCH" if sc >= 80 else "ITERATE" if sc >= 60 else "REWORK" if sc >= 40 else "KILL"
+        if "top_strength" not in s:
+            s["top_strength"] = s.get("critical_weakness", "")
+        if "improvement" not in s:
+            s["improvement"] = s.get("improvement_suggestion", "")
+        # Copy bucket from ad if missing
+        if "bucket" not in s:
+            matching = [a for a in ads if a.get("ad_id") == s.get("ad_id")]
+            if matching:
+                s["bucket"] = matching[0].get("bucket", "STARTUP")
+
+    return all_scores
 
 
 def render_creative(ad: dict, size: str = "9:16", bg_image: str = None) -> str | None:
@@ -563,7 +601,7 @@ if st.session_state.ads and st.session_state.scores:
     ads    = st.session_state.ads
     scores = st.session_state.scores
 
-    scores_sorted = sorted(scores, key=lambda x: x["composite_score"], reverse=True)
+    scores_sorted = sorted(scores, key=lambda x: x.get("composite_score", 0), reverse=True)
     ad_lookup     = {a["ad_id"]: a for a in ads}
     score_lookup  = {s["ad_id"]: s for s in scores}
 
