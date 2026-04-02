@@ -159,43 +159,31 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
         image_path = pick_best_image(bucket)
 
     canvas = Image.new("RGB", (W, H), BG)
+    img_bottom_y = 0  # tracks where the image ends — text starts right after
     if image_path and os.path.exists(image_path):
         try:
             bg = Image.open(image_path).convert("RGB")
-
-            # Fit the entire image into the top portion of the canvas
-            # — no cropping, the full photo is visible (person + background)
-            # Image occupies the top ~65% of the canvas, text goes in the bottom 35%
-            fit_h = int(H * 0.65)  # image fills top 65%
-            fit_w = W
-
             img_ratio = bg.width / bg.height
-            fit_ratio = fit_w / fit_h
 
-            if img_ratio > fit_ratio:
-                # Wider than slot → fit by width, image may be shorter
-                nw = fit_w
-                nh = int(fit_w / img_ratio)
-            else:
-                # Taller than slot → fit by height, image may be narrower
-                nh = fit_h
-                nw = int(fit_h * img_ratio)
+            # Scale image to fill full width, preserve aspect ratio
+            nw = W
+            nh = int(W / img_ratio)
+
+            # Cap: image shouldn't exceed 65% of canvas height
+            if nh > int(H * 0.65):
+                nh = int(H * 0.65)
+                nw = int(nh * img_ratio)
 
             bg = bg.resize((nw, nh), Image.LANCZOS)
-            # Center the image horizontally, top-align vertically
             x0 = (W - nw) // 2
-            y0 = 0
-            canvas.paste(bg, (x0, y0))
+            canvas.paste(bg, (x0, 0))
+            img_bottom_y = nh
 
-            # Soft blur on the very edges for a clean blend into dark BG
-            # (only if image doesn't fill full width)
+            # If image is narrower than canvas, fill sides with blurred version
             if nw < W:
-                bg_blur = bg.resize((W, nh), Image.LANCZOS).filter(ImageFilter.GaussianBlur(25))
-                blur_layer = Image.new("RGB", (W, H), BG)
-                blur_layer.paste(bg_blur, (0, 0))
-                # Paste sharp image on top of blurred full-width version
-                canvas.paste(blur_layer, (0, 0))
-                canvas.paste(bg, (x0, y0))
+                bg_full = bg.resize((W, nh), Image.LANCZOS).filter(ImageFilter.GaussianBlur(25))
+                canvas.paste(bg_full, (0, 0))
+                canvas.paste(bg, (x0, 0))  # sharp on top
         except Exception:
             pass
 
@@ -222,8 +210,8 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     for y in range(int(H*0.12)):
         od.line([(0,y),(W,y)], fill=(0,0,0, int(top_alpha_max*(1-y/(H*0.12)))))
 
-    # Bottom fade — starts at ~55% to darken only the text zone at bottom
-    bot_start = int(H * max(0.50, 0.60 - (grad_strength - 1.0) * 0.10))
+    # Bottom fade — starts just above where the image ends
+    bot_start = max(int(img_bottom_y * 0.85), int(H * 0.40))
     bot_alpha_min = int(min(220, 160 * grad_strength))
     bot_alpha_max = int(min(250, 240 * grad_strength))
     for y in range(bot_start, H):
@@ -234,22 +222,26 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     canvas = Image.alpha_composite(canvas.convert("RGBA"), ov).convert("RGB")
 
     # ── 2b. Post-gradient luminance check — darken text zone if still bright ──
-    post_text_lum = _region_luminance(canvas, (M, int(H*0.55), W-M, int(H*0.90)))
+    text_zone_top = max(img_bottom_y, int(H*0.50))
+    post_text_lum = _region_luminance(canvas, (M, text_zone_top, W-M, int(H*0.90)))
     if post_text_lum > 110:
         dark_ov = Image.new("RGBA", (W, H), (0,0,0,0))
         dark_d  = ImageDraw.Draw(dark_ov)
         extra_alpha = min(170, int((post_text_lum - 110) * 2.5))
         dark_d.rectangle(
-            [0, int(H*0.50), W, H],
+            [0, text_zone_top, W, H],
             fill=(10, 10, 26, extra_alpha)
         )
         canvas = Image.alpha_composite(canvas.convert("RGBA"), dark_ov).convert("RGB")
 
     draw = ImageDraw.Draw(canvas)
 
-    # ── 3. Left accent bar (SSB green) — aligned with text block ─────────────
+    # ── 3. Text start position — right below the image, minimal gap ──────────
+    text_start_y = img_bottom_y + 20 if img_bottom_y > 0 else int(H * 0.55)
+
+    # Left accent bar (SSB green) — aligned with text
     bx = M - 22
-    draw.rectangle([bx, int(H*0.66), bx+5, int(H*0.66)+int(H*0.14)], fill=accent)
+    draw.rectangle([bx, text_start_y, bx+5, text_start_y + int(H*0.14)], fill=accent)
 
     # ── 4. Brand logo (top-left, small) ───────────────────────────────────────
     logo_path = _LOGO_WHITE_PATH  # white logo for dark/photo backgrounds
@@ -281,8 +273,8 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     else:
         fused, lh = fh, 96
 
-    # ── Text block at bottom 30% — maximum space for the photo subject ───────
-    hy = int(H * 0.68)
+    # ── Text block starts right after image ──────────────────────────────────
+    hy = text_start_y
 
     # Use smaller font if needed to keep everything in bottom 30%
     headline_font = fused
