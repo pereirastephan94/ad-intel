@@ -180,7 +180,7 @@ def score_ads_with_anthropic(ads, api_key: str):
 
 
 def generate_ads_with_grok(brief: dict, grok_key: str):
-    """Generate 20 ad copies using Grok instead of Claude."""
+    """Generate 20 ad copies using Grok."""
     import requests
     from prompts.p01_generate_ads import SYSTEM_PROMPT_GENERATE, USER_PROMPT_GENERATE
     r = requests.post(
@@ -199,12 +199,52 @@ def generate_ads_with_grok(brief: dict, grok_key: str):
     )
     r.raise_for_status()
     text = r.json()["choices"][0]["message"]["content"]
-    # Extract JSON from possible markdown code blocks
+    return _parse_json_lenient(text)
+
+
+def _parse_json_lenient(text: str):
+    """Parse JSON from Grok responses, handling common formatting issues."""
+    import re
+    # Strip markdown code blocks
     if "```json" in text:
         text = text.split("```json")[1].split("```")[0]
     elif "```" in text:
         text = text.split("```")[1].split("```")[0]
-    return json.loads(text.strip())
+    text = text.strip()
+
+    # Try direct parse first
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    # Fix common issues: trailing commas, unescaped quotes in strings
+    cleaned = re.sub(r',\s*}', '}', text)   # trailing comma before }
+    cleaned = re.sub(r',\s*\]', ']', cleaned)  # trailing comma before ]
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # Try to find the outermost JSON array
+    match = re.search(r'\[.*\]', cleaned, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+
+    # Last resort: parse what we can up to the error
+    for end in range(len(cleaned), 100, -1):
+        chunk = cleaned[:end]
+        # Try to close any open arrays/objects
+        for suffix in [']', ']}', '"]', '"}]']:
+            try:
+                return json.loads(chunk + suffix)
+            except json.JSONDecodeError:
+                continue
+
+    raise json.JSONDecodeError("Could not parse Grok response", text, 0)
 
 
 def score_ads_with_grok(ads, grok_key: str):
@@ -217,34 +257,42 @@ def score_ads_with_grok(ads, grok_key: str):
 
     for i in range(0, len(ads), batch_size):
         batch = ads[i:i+batch_size]
-        r = requests.post(
-            "https://api.x.ai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
-            json={
-                "model": "grok-4-fast-non-reasoning",
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT_JUDGE},
-                    {"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
-                        num_ads=len(batch), ads_json=json.dumps(batch, indent=2)
-                    )}
-                ],
-                "max_tokens": 4000,
-                "temperature": 0.3
-            },
-            timeout=120
-        )
-        r.raise_for_status()
-        text = r.json()["choices"][0]["message"]["content"]
-        if "```json" in text:
-            text = text.split("```json")[1].split("```")[0]
-        elif "```" in text:
-            text = text.split("```")[1].split("```")[0]
-
-        batch_scores = json.loads(text.strip())
-        if isinstance(batch_scores, list):
-            all_scores.extend(batch_scores)
-        elif isinstance(batch_scores, dict) and "scores" in batch_scores:
-            all_scores.extend(batch_scores["scores"])
+        try:
+            r = requests.post(
+                "https://api.x.ai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "grok-4-fast-non-reasoning",
+                    "messages": [
+                        {"role": "system", "content": SYSTEM_PROMPT_JUDGE},
+                        {"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
+                            num_ads=len(batch), ads_json=json.dumps(batch, indent=2)
+                        )}
+                    ],
+                    "max_tokens": 4000,
+                    "temperature": 0.3
+                },
+                timeout=120
+            )
+            r.raise_for_status()
+            text = r.json()["choices"][0]["message"]["content"]
+            batch_scores = _parse_json_lenient(text)
+            if isinstance(batch_scores, list):
+                all_scores.extend(batch_scores)
+            elif isinstance(batch_scores, dict) and "scores" in batch_scores:
+                all_scores.extend(batch_scores["scores"])
+        except Exception:
+            # If a batch fails, assign default scores
+            for ad in batch:
+                all_scores.append({
+                    "ad_id": ad.get("ad_id", f"AD-{i+1:03d}"),
+                    "composite_score": 55,
+                    "verdict": "ITERATE",
+                    "bucket": ad.get("bucket", "STARTUP"),
+                    "top_strength": "Scoring failed for this batch",
+                    "improvement": "Retry",
+                    "scores": {}
+                })
 
     # If scoring returned fewer results than ads, backfill missing ones
     scored_ids = {s.get("ad_id") for s in all_scores if "ad_id" in s}
