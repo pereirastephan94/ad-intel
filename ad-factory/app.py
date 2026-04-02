@@ -211,13 +211,13 @@ def generate_ai_background(prompt: str, api_key: str, provider: str = "grok") ->
 
     try:
         if provider == "grok":
-            # xAI Grok-2 Image API  →  https://api.x.ai/v1/images/generations
-            # Get your key at console.x.ai  ($25 free credits on signup)
+            # xAI Grok Imagine API  →  https://api.x.ai/v1/images/generations
+            # Get your key at console.x.ai
             resp = requests.post(
                 "https://api.x.ai/v1/images/generations",
                 headers={"Authorization": f"Bearer {api_key}",
                          "Content-Type": "application/json"},
-                json={"model": "grok-2-image",
+                json={"model": "grok-imagine-image",
                       "prompt": prompt,
                       "response_format": "url"},
                 timeout=90
@@ -264,10 +264,11 @@ def generate_ai_background(prompt: str, api_key: str, provider: str = "grok") ->
             return out_path
 
         elif provider == "huggingface":
-            # HuggingFace Inference API — FLUX.1-schnell (free, rate-limited)
+            # HuggingFace Inference API — FLUX.1-schnell (free with HF token)
             resp = requests.post(
-                "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell",
-                headers={"Authorization": f"Bearer {api_key}"},
+                "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell",
+                headers={"Authorization": f"Bearer {api_key}",
+                         "Content-Type": "application/json"},
                 json={"inputs": prompt, "parameters": {"width": 1080, "height": 1920}},
                 timeout=120
             )
