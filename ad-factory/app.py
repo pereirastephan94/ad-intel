@@ -246,8 +246,29 @@ def score_ads_with_grok(ads, grok_key: str):
         elif isinstance(batch_scores, dict) and "scores" in batch_scores:
             all_scores.extend(batch_scores["scores"])
 
-    # Normalize: ensure every score has composite_score
+    # If scoring returned fewer results than ads, backfill missing ones
+    scored_ids = {s.get("ad_id") for s in all_scores if "ad_id" in s}
+    for ad in ads:
+        if ad.get("ad_id") not in scored_ids:
+            all_scores.append({
+                "ad_id": ad["ad_id"],
+                "composite_score": 50,
+                "verdict": "ITERATE",
+                "bucket": ad.get("bucket", "STARTUP"),
+                "top_strength": "Not scored",
+                "improvement": "Retry scoring",
+                "scores": {}
+            })
+
+    # Normalize: ensure every score has required fields
     for s in all_scores:
+        if "ad_id" not in s:
+            # Try to match by index
+            idx = all_scores.index(s)
+            if idx < len(ads):
+                s["ad_id"] = ads[idx].get("ad_id", f"AD-{idx+1:03d}")
+            else:
+                s["ad_id"] = f"AD-{idx+1:03d}"
         if "composite_score" not in s:
             # Try to compute from sub-scores
             dims = s.get("scores", {})
@@ -603,7 +624,7 @@ if st.session_state.ads and st.session_state.scores:
 
     scores_sorted = sorted(scores, key=lambda x: x.get("composite_score", 0), reverse=True)
     ad_lookup     = {a["ad_id"]: a for a in ads}
-    score_lookup  = {s["ad_id"]: s for s in scores}
+    score_lookup  = {s.get("ad_id", f"UNKNOWN-{i}"): s for i, s in enumerate(scores)}
 
     st.divider()
 
