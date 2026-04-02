@@ -1,6 +1,11 @@
 """
 Creative Generator — renders a 1080x1920 (9:16) ad creative
 using real SSB background images + copy overlay.
+
+Design principles enforced:
+  • Adaptive gradient: bright backgrounds get heavier darkening
+  • Text shadow on all copy for legibility safety net
+  • Pill/badge backgrounds adapt to sampled local brightness
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os, glob
@@ -16,6 +21,8 @@ BG        = (10,  10,  26)
 WHITE     = (255, 255, 255)
 WHITE_DIM = (180, 180, 190)
 WHITE_MED = (220, 220, 225)
+BLACK     = (0, 0, 0)
+SHADOW    = (5, 5, 15)
 
 BUCKET_COLORS = {
     "STARTUP":      (124,  58, 237),
@@ -42,8 +49,9 @@ def _font(spec, size):
 
 def _clean(text):
     """Replace glyphs Helvetica can't render."""
-    return (text.replace("→",">").replace("←","<").replace("—","-")
-                .replace("\u2019","'").replace("\u201c",'"').replace("\u201d",'"'))
+    return (text.replace("\u2192",">").replace("\u2190","<").replace("\u2014","-")
+                .replace("\u2019","'").replace("\u201c",'"').replace("\u201d",'"')
+                .replace("\u2018","'"))
 
 
 def _blend(color, alpha, bg=BG):
@@ -65,6 +73,31 @@ def _wrap(text, font, max_w, draw):
     return lines
 
 
+# ── Brightness analysis ───────────────────────────────────────────────────────
+
+def _region_luminance(img, box):
+    """Average perceived luminance (0-255) of a rectangular region.
+    box = (x0, y0, x1, y1).  Uses ITU-R BT.601 weights."""
+    x0, y0, x1, y1 = box
+    x0, y0 = max(0, x0), max(0, y0)
+    x1, y1 = min(img.width, x1), min(img.height, y1)
+    if x1 <= x0 or y1 <= y0:
+        return 30  # assume dark
+    region = img.crop((x0, y0, x1, y1)).resize((64, 64), Image.BILINEAR)
+    pixels = list(region.getdata())
+    total = sum(0.299*r + 0.587*g + 0.114*b for r, g, b in pixels)
+    return total / len(pixels)
+
+
+def _text_with_shadow(draw, pos, text, font, fill, shadow_color=SHADOW, offset=2):
+    """Draw text with a dark shadow for legibility on any background."""
+    x, y = pos
+    draw.text((x + offset, y + offset), text, font=font, fill=shadow_color)
+    draw.text((x, y), text, font=font, fill=fill)
+
+
+# ── Image selection ───────────────────────────────────────────────────────────
+
 def pick_best_image(bucket=None):
     # CLEAN images only — ssb_5/6/7 have pre-printed text that clashes with our overlay
     MAP = {
@@ -79,12 +112,13 @@ def pick_best_image(bucket=None):
     for name in MAP.get(bucket, ["ssb_19.webp","ssb_17.webp","ssb_20.webp"]):
         p = os.path.join(ASSETS_DIR, name)
         if os.path.exists(p): return p
-    # Fallback: any clean image (exclude known text-heavy ones)
     AVOID = {"ssb_5.webp", "ssb_6.webp", "ssb_7.webp"}
     all_ = glob.glob(os.path.join(ASSETS_DIR, "ssb_*.webp"))
     clean = [x for x in all_ if os.path.basename(x) not in AVOID]
     return clean[0] if clean else (all_[0] if all_ else None)
 
+
+# ── Main generator ────────────────────────────────────────────────────────────
 
 def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> str:
     W, H = {"9:16":(1080,1920),"1:1":(1080,1080),"16:9":(1920,1080)}.get(size,(1080,1920))
@@ -97,7 +131,7 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     cta      = _clean(ad.get("cta_text", "Apply Now >"))
     accent   = BUCKET_COLORS.get(bucket, (0, 212, 255))
 
-    # Pre-blended colour variants
+    # Pre-blended colour variants (will be recalculated if bg is bright)
     accent_dim  = _blend(accent, 190, BG)
     accent_soft = _blend(accent, 90,  BG)
 
@@ -119,16 +153,52 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
         except Exception:
             pass
 
-    # ── 2. Gradient overlay (composited via RGBA layer) ────────────────────────
+    # ── 1b. Analyze brightness at key text zones BEFORE gradient ───────────────
+    # Sample 3 horizontal bands where text will be drawn
+    header_lum   = _region_luminance(canvas, (0, 0, W, int(H*0.15)))           # brand header
+    headline_lum = _region_luminance(canvas, (0, int(H*0.35), W, int(H*0.60))) # headline+body
+    bottom_lum   = _region_luminance(canvas, (0, int(H*0.70), W, H))           # pills+CTA+footer
+
+    # Compute adaptive gradient strength
+    # Higher values = more darkening.  Range: 0.6 (dark bg) to 1.4 (bright bg)
+    avg_lum = (header_lum + headline_lum * 2 + bottom_lum) / 4
+    if avg_lum > 170:       grad_strength = 1.4   # very bright photo
+    elif avg_lum > 130:     grad_strength = 1.2   # medium-bright
+    elif avg_lum > 80:      grad_strength = 1.0   # medium (current default)
+    else:                   grad_strength = 0.7   # already dark — go lighter
+
+    # ── 2. Adaptive gradient overlay ───────────────────────────────────────────
     ov = Image.new("RGBA", (W, H), (0,0,0,0))
     od = ImageDraw.Draw(ov)
+
+    # Top fade (brand header area)
+    top_alpha_max = int(min(200, 155 * grad_strength))
     for y in range(int(H*0.22)):
-        od.line([(0,y),(W,y)], fill=(0,0,0, int(155*(1-y/(H*0.22)))))
-    fs = int(H*0.46)
-    for y in range(fs, H):
-        p = (y-fs)/(H-fs)
-        od.line([(0,y),(W,y)], fill=(10,10,26, int(178+77*p)))
+        od.line([(0,y),(W,y)], fill=(0,0,0, int(top_alpha_max*(1-y/(H*0.22)))))
+
+    # Bottom fade (headline → footer)
+    bot_start = int(H * max(0.30, 0.46 - (grad_strength - 1.0) * 0.16))  # starts higher when bright
+    bot_alpha_min = int(min(240, 178 * grad_strength))
+    bot_alpha_max = int(min(255, 255 * grad_strength))
+    for y in range(bot_start, H):
+        p = (y - bot_start) / (H - bot_start)
+        alpha = int(bot_alpha_min + (bot_alpha_max - bot_alpha_min) * p)
+        od.line([(0,y),(W,y)], fill=(10,10,26, min(255, alpha)))
+
     canvas = Image.alpha_composite(canvas.convert("RGBA"), ov).convert("RGB")
+
+    # ── 2b. Post-gradient luminance check — add local darkening if needed ──────
+    post_headline_lum = _region_luminance(canvas, (M, int(H*0.35), W-M, int(H*0.60)))
+    if post_headline_lum > 120:
+        # Still too bright after gradient — add a semi-transparent dark rectangle
+        dark_ov = Image.new("RGBA", (W, H), (0,0,0,0))
+        dark_d  = ImageDraw.Draw(dark_ov)
+        extra_alpha = min(180, int((post_headline_lum - 120) * 2.5))
+        dark_d.rectangle(
+            [0, int(H*0.33), W, int(H*0.72)],
+            fill=(10, 10, 26, extra_alpha)
+        )
+        canvas = Image.alpha_composite(canvas.convert("RGBA"), dark_ov).convert("RGB")
 
     draw = ImageDraw.Draw(canvas)
 
@@ -139,8 +209,8 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     # ── 4. Brand header ────────────────────────────────────────────────────────
     fb  = _font(FONT_BOLD,  34)
     fl  = _font(FONT_LIGHT, 27)
-    draw.text((M, 52), "SCALER SCHOOL", font=fb, fill=accent_dim)
-    draw.text((M, 92), "OF BUSINESS",   font=fl, fill=(150,155,165))
+    _text_with_shadow(draw, (M, 52), "SCALER SCHOOL", fb, accent_dim)
+    _text_with_shadow(draw, (M, 92), "OF BUSINESS",   fl, (150,155,165))
 
     # Intake badge
     fbg = _font(FONT_BOLD, 27)
@@ -150,7 +220,7 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     bx2 = W-M-bw2
     draw.rounded_rectangle([bx2,54,bx2+bw2,54+bh2], radius=7,
                             fill=accent_soft, outline=accent_dim, width=1)
-    draw.text((bx2+13, 62), btx, font=fbg, fill=accent_dim)
+    _text_with_shadow(draw, (bx2+13, 62), btx, fbg, accent_dim)
 
     # ── 5. Headline ────────────────────────────────────────────────────────────
     TW = W - M*2
@@ -164,7 +234,7 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
 
     hy = int(H*0.375)
     for ln in lines[:4]:
-        draw.text((M, hy), ln, font=fused, fill=WHITE)
+        _text_with_shadow(draw, (M, hy), ln, fused, WHITE, offset=3)
         hy += lh
 
     # ── 6. Body ────────────────────────────────────────────────────────────────
@@ -172,23 +242,35 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     bdy = (body[:150]+"...") if len(body)>150 else body
     by2 = hy+30
     for ln in _wrap(bdy, fbd, TW, draw)[:4]:
-        draw.text((M, by2), ln, font=fbd, fill=WHITE_MED)
+        _text_with_shadow(draw, (M, by2), ln, fbd, WHITE_MED)
         by2 += 52
 
-    # ── 7. Proof pills ─────────────────────────────────────────────────────────
+    # ── 7. Proof pills ────────────────────────────────────────────────────────
     fpf   = _font(FONT_BOLD, 28)
     pills = ["100% PLACED", "68% PIVOTS", "Rs.50K DAY 1"]
     py    = int(H*0.735)
     px    = M
-    PILL_BG      = _blend(WHITE, 25, BG)    # very dark near-BG tint
-    PILL_OUTLINE = _blend(WHITE, 85, BG)    # slightly lighter
+
+    # Adaptive pill colors — sample local background brightness
+    pill_zone_lum = _region_luminance(canvas, (M, py-5, W-M, py+45))
+    if pill_zone_lum > 120:
+        # Light background → dark pills
+        PILL_BG      = (20, 20, 36)
+        PILL_OUTLINE = (60, 60, 80)
+        PILL_TEXT    = WHITE
+    else:
+        # Dark background → keep translucent look
+        PILL_BG      = _blend(WHITE, 30, BG)
+        PILL_OUTLINE = _blend(WHITE, 85, BG)
+        PILL_TEXT    = WHITE_MED
+
     for pill in pills:
         pb  = draw.textbbox((0,0), pill, font=fpf)
         pw  = pb[2]-pb[0]+24
         pht = pb[3]-pb[1]+16
         draw.rounded_rectangle([px, py, px+pw, py+pht], radius=6,
                                 fill=PILL_BG, outline=PILL_OUTLINE, width=1)
-        draw.text((px+12, py+8), pill, font=fpf, fill=WHITE_MED)
+        draw.text((px+12, py+8), pill, font=fpf, fill=PILL_TEXT)
         px += pw+12
 
     # ── 8. Divider ─────────────────────────────────────────────────────────────
@@ -207,13 +289,13 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
 
     # ── 10. Footer ─────────────────────────────────────────────────────────────
     fwm = _font(FONT_LIGHT, 25)
-    draw.text((M, H-50), "scaler.com/school-of-business",
-              font=fwm, fill=_blend(WHITE,90,BG))
+    _text_with_shadow(draw, (M, H-50), "scaler.com/school-of-business",
+                      fwm, _blend(WHITE,120,BG))
     fbk = _font(FONT_BOLD, 25)
     blt = f"#{bucket}"
     blb = draw.textbbox((0,0), blt, font=fbk)
-    draw.text((W-M-(blb[2]-blb[0]), H-50), blt, font=fbk,
-              fill=_blend(accent,160,BG))
+    _text_with_shadow(draw, (W-M-(blb[2]-blb[0]), H-50), blt,
+                      fbk, _blend(accent,180,BG))
 
     # ── Save ───────────────────────────────────────────────────────────────────
     out = os.path.join(OUTPUT_DIR, f"{ad_id}_{size.replace(':','x')}.png")

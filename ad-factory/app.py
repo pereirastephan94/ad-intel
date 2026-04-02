@@ -195,10 +195,10 @@ def img_to_b64(path: str) -> str:
         return base64.b64encode(f.read()).decode()
 
 
-# ── AI Image generation (Ideogram / Together / HuggingFace) ───────────────────
-def generate_ai_background(prompt: str, api_key: str, provider: str = "ideogram") -> str | None:
+# ── AI Image generation (Grok / Ideogram / Together / HuggingFace) ────────────
+def generate_ai_background(prompt: str, api_key: str, provider: str = "grok") -> str | None:
     """
-    Generate an AI background image and save it to assets/ssb_images/ai_bg_<hash>.jpg.
+    Generate an AI background image and save it to assets/ssb_images/ai_bg_<hash>.ext.
     Returns the saved file path, or None if it fails.
     """
     import hashlib, requests
@@ -210,7 +210,26 @@ def generate_ai_background(prompt: str, api_key: str, provider: str = "ideogram"
         return out_path  # cache hit
 
     try:
-        if provider == "ideogram":
+        if provider == "grok":
+            # xAI Grok-2 Image API  →  https://api.x.ai/v1/images/generations
+            # Get your key at console.x.ai  ($25 free credits on signup)
+            resp = requests.post(
+                "https://api.x.ai/v1/images/generations",
+                headers={"Authorization": f"Bearer {api_key}",
+                         "Content-Type": "application/json"},
+                json={"model": "grok-2-image",
+                      "prompt": prompt,
+                      "response_format": "url"},
+                timeout=90
+            )
+            resp.raise_for_status()
+            url = resp.json()["data"][0]["url"]
+            img_data = requests.get(url, timeout=30).content
+            with open(out_path, "wb") as f:
+                f.write(img_data)
+            return out_path
+
+        elif provider == "ideogram":
             # Ideogram v2 API  →  https://api.ideogram.ai/generate
             resp = requests.post(
                 "https://api.ideogram.ai/generate",
@@ -227,7 +246,7 @@ def generate_ai_background(prompt: str, api_key: str, provider: str = "ideogram"
             return out_path
 
         elif provider == "together":
-            # Together AI — Flux.1-schnell  (512 tokens, $0.0003/img)
+            # Together AI — Flux.1-schnell  ($0.0003/img)
             resp = requests.post(
                 "https://api.together.xyz/v1/images/generations",
                 headers={"Authorization": f"Bearer {api_key}",
@@ -260,6 +279,22 @@ def generate_ai_background(prompt: str, api_key: str, provider: str = "ideogram"
     except Exception as e:
         st.warning(f"AI image generation failed ({provider}): {e}")
         return None
+
+
+def _save_uploaded_images(uploaded_files, ad_id: str) -> list[str]:
+    """Save uploaded files to disk and return list of paths."""
+    import hashlib
+    out_dir = os.path.join(os.path.dirname(__file__), "assets", "ssb_images", "uploads")
+    os.makedirs(out_dir, exist_ok=True)
+    paths = []
+    for i, uf in enumerate(uploaded_files):
+        ext = os.path.splitext(uf.name)[1] or ".jpg"
+        slug = hashlib.md5(uf.getvalue()[:1024]).hexdigest()[:6]
+        path = os.path.join(out_dir, f"{ad_id}_{slug}{ext}")
+        with open(path, "wb") as f:
+            f.write(uf.getbuffer())
+        paths.append(path)
+    return paths
 
 
 # ── Session state init ─────────────────────────────────────────────────────────
@@ -308,18 +343,26 @@ with st.container():
 
     # AI image generation settings (collapsed by default)
     with st.expander("🎨 AI background image settings (optional)"):
+        st.caption("Generate AI backgrounds or upload your own images per ad card below.")
         img_gen_provider = st.selectbox(
             "Image generation provider",
-            ["None — use SSB photos", "Ideogram (free tier)", "Together AI (Flux, ~$0.0003/img)", "HuggingFace (Flux, free)"],
+            ["None — use SSB photos",
+             "Grok (xAI — $25 free credits, best quality)",
+             "Ideogram (free tier)",
+             "Together AI (Flux, ~$0.0003/img)",
+             "HuggingFace (Flux, free)"],
         )
-        img_gen_key = st.text_input("Image API key", type="password",
-                                    help="Ideogram: api.ideogram.ai/manage | Together: api.together.xyz | HuggingFace: huggingface.co/settings/tokens")
+        img_gen_key = st.text_input(
+            "Image API key", type="password",
+            help="Grok: console.x.ai | Ideogram: api.ideogram.ai/manage | Together: api.together.xyz | HuggingFace: huggingface.co/settings/tokens"
+        )
         img_gen_prompt_override = st.text_input(
             "Background image prompt override (optional)",
             placeholder="e.g. Young Indian students selling handmade products at a street market, cinematic, warm light"
         )
         provider_map = {
             "None — use SSB photos": None,
+            "Grok (xAI — $25 free credits, best quality)": "grok",
             "Ideogram (free tier)": "ideogram",
             "Together AI (Flux, ~$0.0003/img)": "together",
             "HuggingFace (Flux, free)": "huggingface",
@@ -420,7 +463,7 @@ if st.session_state.ads and st.session_state.scores:
                     if isinstance(val, (int, float)):
                         st.progress(val / 10, text=f"{dim}: {val}/10")
 
-        # ── Generate Creative button ──────────────────────────────────────────
+        # ── Image upload + Generate Creative ─────────────────────────────────────
         with st.container():
             g_col1, g_col2, g_col3 = st.columns([1, 1, 2])
             with g_col1:
@@ -432,44 +475,78 @@ if st.session_state.ads and st.session_state.scores:
                 gen_btn = st.button(
                     "🎨 Generate Creative",
                     key=f"gen_{key_prefix}",
-                    help="Render the 1080×1920 PNG ad creative"
+                    help="Renders one PNG per uploaded image, or one using the default/AI background"
                 )
+
+            # Image upload — 1 to 10 custom background images
+            uploaded_imgs = st.file_uploader(
+                "Upload background images (1-10)",
+                type=["jpg", "jpeg", "png", "webp"],
+                accept_multiple_files=True,
+                key=f"upload_{key_prefix}",
+                help="Drop your own photos here. One creative will be generated per image."
+            )
 
             size_code = size_choice.split()[0]  # "9:16", "1:1", or "16:9"
 
             if gen_btn:
                 ad_id = s["ad_id"]
 
-                # Optionally generate AI background first
-                bg_img = None
-                if selected_provider and img_gen_key:
-                    bg_prompt = img_gen_prompt_override or (
-                        f"Young Indian business students {ad.get('image_prompt', 'in a modern classroom setting')}, "
-                        "photorealistic, warm natural light, authentic, no text"
-                    )
-                    with st.spinner(f"🖼️ Generating AI background with {img_gen_provider}…"):
-                        bg_img = generate_ai_background(bg_prompt, img_gen_key, selected_provider)
+                if uploaded_imgs:
+                    # ── Batch: one creative per uploaded image ─────────────────
+                    saved = _save_uploaded_images(uploaded_imgs[:10], ad_id)
+                    results = []
+                    progress = st.progress(0, text="Rendering creatives…")
+                    for idx, img_path in enumerate(saved):
+                        progress.progress((idx+1)/len(saved),
+                                          text=f"Rendering {idx+1}/{len(saved)}…")
+                        path = render_creative(ad, size=size_code, bg_image=img_path)
+                        if path:
+                            results.append(path)
+                    progress.empty()
 
-                with st.spinner(f"Rendering {size_code} creative for {ad_id}…"):
-                    path = render_creative(ad, size=size_code, bg_image=bg_img)
+                    # Store all results
+                    for i, p in enumerate(results):
+                        st.session_state.generated_creatives[f"{ad_id}_{size_code}_u{i}"] = p
+                    if results:
+                        st.success(f"✅ {len(results)} creative(s) rendered!")
 
-                if path:
-                    st.session_state.generated_creatives[f"{ad_id}_{size_code}"] = path
-
-            # Show previously generated creative for this ad+size
-            cache_key = f"{s['ad_id']}_{size_code}"
-            if cache_key in st.session_state.generated_creatives:
-                img_path = st.session_state.generated_creatives[cache_key]
-                if os.path.exists(img_path):
-                    st.image(img_path, caption=f"{s['ad_id']} — {size_code}", width=300)
-                    with open(img_path, "rb") as f:
-                        st.download_button(
-                            f"⬇️ Download {s['ad_id']} {size_code}",
-                            data=f,
-                            file_name=os.path.basename(img_path),
-                            mime="image/png",
-                            key=f"dl_{key_prefix}",
+                else:
+                    # ── Single: AI background or default SSB photo ────────────
+                    bg_img = None
+                    if selected_provider and img_gen_key:
+                        bg_prompt = img_gen_prompt_override or (
+                            f"Young Indian business students {ad.get('image_prompt', 'in a modern classroom setting')}, "
+                            "photorealistic, warm natural light, authentic, no text overlay"
                         )
+                        with st.spinner(f"🖼️ Generating AI background with {img_gen_provider}…"):
+                            bg_img = generate_ai_background(bg_prompt, img_gen_key, selected_provider)
+
+                    with st.spinner(f"Rendering {size_code} creative for {ad_id}…"):
+                        path = render_creative(ad, size=size_code, bg_image=bg_img)
+
+                    if path:
+                        st.session_state.generated_creatives[f"{ad_id}_{size_code}"] = path
+
+            # ── Show generated creatives (gallery) ────────────────────────────
+            ad_id_for_cache = s["ad_id"]
+            # Collect all cached creatives for this ad+size (single + batch)
+            matching = [(k, v) for k, v in st.session_state.generated_creatives.items()
+                        if k.startswith(f"{ad_id_for_cache}_{size_code}") and os.path.exists(v)]
+
+            if matching:
+                cols = st.columns(min(len(matching), 3))
+                for idx, (cache_key, img_path) in enumerate(matching):
+                    with cols[idx % 3]:
+                        st.image(img_path, caption=f"v{idx+1}", width=280)
+                        with open(img_path, "rb") as f:
+                            st.download_button(
+                                f"⬇️ v{idx+1}",
+                                data=f,
+                                file_name=os.path.basename(img_path),
+                                mime="image/png",
+                                key=f"dl_{key_prefix}_{idx}",
+                            )
 
         st.divider()
 
