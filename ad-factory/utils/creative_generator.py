@@ -131,6 +131,17 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     cta      = _clean(ad.get("cta_text", "Apply Now >"))
     accent   = BUCKET_COLORS.get(bucket, (0, 212, 255))
 
+    # Design guideline: 30-35 chars headline, 45 chars subheader
+    # Truncate gracefully if copy is longer
+    if len(headline) > 35:
+        # Try to break at a word boundary
+        trunc = headline[:35]
+        last_space = trunc.rfind(" ")
+        if last_space > 20:
+            headline = trunc[:last_space]
+    if len(body) > 150:
+        body = body[:150] + "..."
+
     # Pre-blended colour variants (will be recalculated if bg is bright)
     accent_dim  = _blend(accent, 190, BG)
     accent_soft = _blend(accent, 90,  BG)

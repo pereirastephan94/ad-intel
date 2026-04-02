@@ -235,39 +235,78 @@ def _grok_headers(api_key: str) -> dict:
     return {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
 
 
-def _grok_describe_photo(photo_path: str, api_key: str) -> str:
-    """Use Grok vision to describe an uploaded photo."""
-    import base64, requests
-    with open(photo_path, "rb") as f:
+def _img_to_data_url(path: str) -> str:
+    """Convert image file to data URL for Grok vision."""
+    import base64
+    with open(path, "rb") as f:
         b64 = base64.b64encode(f.read()).decode()
-    ext = photo_path.rsplit(".", 1)[-1].lower()
+    ext = path.rsplit(".", 1)[-1].lower()
     mime = {"jpg":"jpeg","jpeg":"jpeg","png":"png","webp":"webp"}.get(ext, "jpeg")
+    return f"data:image/{mime};base64,{b64}"
+
+
+def _grok_describe_photo(photo_path: str, api_key: str, reference_path: str = None) -> tuple[str, str]:
+    """Use Grok vision to describe the stock photo and optionally the reference image.
+    Returns (stock_description, reference_description_or_empty)."""
+    import requests
+
+    # Build message content with stock image
+    content = [
+        {"type": "image_url", "image_url": {"url": _img_to_data_url(photo_path)}},
+    ]
+
+    if reference_path:
+        content.append({"type": "image_url", "image_url": {"url": _img_to_data_url(reference_path)}})
+        content.append({"type": "text", "text": (
+            "Two images are provided.\n"
+            "IMAGE 1 (STOCK): Describe the photo in 2 sentences — people, activity, setting, lighting, mood.\n"
+            "IMAGE 2 (REFERENCE): Describe the visual style, color palette, composition, design treatment, "
+            "and overall aesthetic in 2 sentences.\n"
+            "Format your response as:\n"
+            "STOCK: ...\nREFERENCE STYLE: ..."
+        )})
+    else:
+        content.append({"type": "text", "text": (
+            "Describe this photo in 2 sentences. Focus on the people, their activity, "
+            "the setting, lighting, colors, and mood. Be specific and visual."
+        )})
+
     resp = requests.post(
         "https://api.x.ai/v1/chat/completions",
         headers=_grok_headers(api_key),
         json={
             "model": "grok-4-fast-non-reasoning",
-            "messages": [{"role": "user", "content": [
-                {"type": "image_url", "image_url": {"url": f"data:image/{mime};base64,{b64}"}},
-                {"type": "text", "text": (
-                    "Describe this photo in 2 sentences. Focus on the people, their activity, "
-                    "the setting, lighting, colors, and mood. Be specific and visual."
-                )}
-            ]}],
-            "max_tokens": 200
+            "messages": [{"role": "user", "content": content}],
+            "max_tokens": 300
         },
-        timeout=30
+        timeout=45
     )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"]
+    text = resp.json()["choices"][0]["message"]["content"]
+
+    if reference_path and "REFERENCE STYLE:" in text:
+        parts = text.split("REFERENCE STYLE:")
+        stock_desc = parts[0].replace("STOCK:", "").strip()
+        ref_desc = parts[1].strip()
+        return stock_desc, ref_desc
+    return text, ""
 
 
-def _grok_design_direction(photo_desc: str, ad: dict, api_key: str) -> str:
+def _grok_design_direction(photo_desc: str, ref_desc: str, ad: dict, api_key: str) -> str:
     """Use Grok strategist to pick 2 design principles and write an image prompt."""
     import requests
     audience = ad.get("audience_segment", "career pivoters and aspiring founders")
     headline = ad.get("headline", "")
     bucket   = ad.get("bucket", "STARTUP")
+
+    ref_block = ""
+    if ref_desc:
+        ref_block = (
+            f"\n\nREFERENCE STYLE TO MATCH: {ref_desc}\n"
+            "You MUST incorporate this visual style (color palette, composition, mood, "
+            "design treatment) into your image generation prompt."
+        )
+
     resp = requests.post(
         "https://api.x.ai/v1/chat/completions",
         headers=_grok_headers(api_key),
@@ -276,11 +315,12 @@ def _grok_design_direction(photo_desc: str, ad: dict, api_key: str) -> str:
             "messages": [
                 {"role": "system", "content": DESIGN_STRATEGIST_PROMPT},
                 {"role": "user", "content": (
-                    f"PHOTO DESCRIPTION: {photo_desc}\n\n"
+                    f"STOCK PHOTO DESCRIPTION: {photo_desc}\n\n"
                     f"AD HEADLINE: {headline}\n"
                     f"BUCKET: {bucket}\n"
                     f"TARGET AUDIENCE: {audience}\n"
-                    f"OBJECTIVE: Lead generation for Scaler School of Business\n\n"
+                    f"OBJECTIVE: Lead generation for Scaler School of Business"
+                    f"{ref_block}\n\n"
                     f"Write the image generation prompt."
                 )}
             ],
@@ -315,28 +355,30 @@ def _grok_generate_image(prompt: str, api_key: str, slug: str) -> str | None:
     return out_path
 
 
-def enhance_photo_with_grok(photo_path: str, ad: dict, api_key: str) -> str | None:
+def enhance_photo_with_grok(photo_path: str, ad: dict, api_key: str,
+                            reference_path: str = None) -> str | None:
     """
     Full Grok pipeline:
-    1. Vision describes the uploaded photo
-    2. Strategist picks 2 design principles + writes image prompt
+    1. Vision describes the stock photo + reference image style
+    2. Strategist picks 2 design principles + writes image prompt (matching reference style)
     3. Imagine generates the enhanced ad-ready background
     Returns path to enhanced image, or None on failure.
     """
     import hashlib
     try:
-        slug = hashlib.md5(f"{photo_path}_{ad.get('ad_id','')}".encode()).hexdigest()[:10]
+        ref_hash = hashlib.md5(reference_path.encode()).hexdigest()[:4] if reference_path else "noref"
+        slug = hashlib.md5(f"{photo_path}_{ad.get('ad_id','')}_{ref_hash}".encode()).hexdigest()[:10]
 
         # Check cache
         cached = os.path.join(os.path.dirname(__file__), "assets", "ssb_images", "enhanced", f"{slug}.jpg")
         if os.path.exists(cached):
             return cached
 
-        # Step 1: Describe photo
-        desc = _grok_describe_photo(photo_path, api_key)
+        # Step 1: Describe stock photo + reference style
+        stock_desc, ref_desc = _grok_describe_photo(photo_path, api_key, reference_path)
 
-        # Step 2: Design direction (picks 2 principles, writes image prompt)
-        img_prompt = _grok_design_direction(desc, ad, api_key)
+        # Step 2: Design direction (picks 2 principles, writes image prompt, matches reference)
+        img_prompt = _grok_design_direction(stock_desc, ref_desc, ad, api_key)
 
         # Step 3: Generate enhanced background
         return _grok_generate_image(img_prompt, api_key, slug)
@@ -538,9 +580,9 @@ if st.session_state.ads and st.session_state.scores:
                     if isinstance(val, (int, float)):
                         st.progress(val / 10, text=f"{dim}: {val}/10")
 
-        # ── Image upload + Generate Creative ─────────────────────────────────────
+        # ── Image uploads + Generate Creative ────────────────────────────────────
         with st.container():
-            g_col1, g_col2, g_col3 = st.columns([1, 1, 2])
+            g_col1, g_col2 = st.columns([1, 1])
             with g_col1:
                 size_choice = st.selectbox(
                     "Format", ["9:16 (Meta/Reels)", "1:1 (Square)", "16:9 (YouTube)"],
@@ -550,41 +592,59 @@ if st.session_state.ads and st.session_state.scores:
                 gen_btn = st.button(
                     "🎨 Generate Creative",
                     key=f"gen_{key_prefix}",
-                    help="Renders one PNG per uploaded image, or one using the default/AI background"
+                    help="Grok enhances your stock image using the reference style, then Pillow overlays the copy"
                 )
 
-            # Image upload — 1 to 10 custom background images
-            uploaded_imgs = st.file_uploader(
-                "Upload background images (1-10)",
-                type=["jpg", "jpeg", "png", "webp"],
-                accept_multiple_files=True,
-                key=f"upload_{key_prefix}",
-                help="Drop your own photos here. One creative will be generated per image."
-            )
+            # Two separate uploaders
+            up_col1, up_col2 = st.columns(2)
+            with up_col1:
+                stock_imgs = st.file_uploader(
+                    "📸 Stock image (background)",
+                    type=["jpg", "jpeg", "png", "webp"],
+                    accept_multiple_files=True,
+                    key=f"stock_{key_prefix}",
+                    help="The actual photo that becomes the ad background. Upload 1-10."
+                )
+            with up_col2:
+                ref_img = st.file_uploader(
+                    "🎨 Reference image (style/vibe)",
+                    type=["jpg", "jpeg", "png", "webp"],
+                    accept_multiple_files=False,
+                    key=f"ref_{key_prefix}",
+                    help="A reference creative or mood board image. Grok will match this visual style."
+                )
 
             size_code = size_choice.split()[0]  # "9:16", "1:1", or "16:9"
 
             if gen_btn:
                 ad_id = s["ad_id"]
 
-                if uploaded_imgs:
-                    # ── Batch: one creative per uploaded image ─────────────────
-                    saved = _save_uploaded_images(uploaded_imgs[:10], ad_id)
+                # Save reference image if uploaded
+                ref_path = None
+                if ref_img:
+                    ref_saved = _save_uploaded_images([ref_img], f"{ad_id}_ref")
+                    ref_path = ref_saved[0] if ref_saved else None
+
+                if stock_imgs:
+                    # ── Batch: one creative per stock image ────────────────────
+                    saved = _save_uploaded_images(stock_imgs[:10], ad_id)
                     results = []
                     total_steps = len(saved) * (2 if grok_api_key else 1)
                     progress = st.progress(0, text="Processing…")
                     step = 0
 
                     for idx, img_path in enumerate(saved):
-                        bg = img_path  # default: use raw upload
+                        bg = img_path  # default: use raw stock photo
 
-                        # Grok enhancement: vision → design principles → regenerate
                         if grok_api_key:
                             progress.progress(
                                 (step + 1) / total_steps,
-                                text=f"🧠 Grok analyzing photo {idx+1}/{len(saved)} (picking design principles)…"
+                                text=f"🧠 Grok enhancing photo {idx+1}/{len(saved)} "
+                                     f"(design principles + {'reference style' if ref_path else 'auto style'})…"
                             )
-                            enhanced = enhance_photo_with_grok(img_path, ad, grok_api_key)
+                            enhanced = enhance_photo_with_grok(
+                                img_path, ad, grok_api_key, reference_path=ref_path
+                            )
                             if enhanced:
                                 bg = enhanced
                             step += 1
@@ -603,10 +663,10 @@ if st.session_state.ads and st.session_state.scores:
                     for i, p in enumerate(results):
                         st.session_state.generated_creatives[f"{ad_id}_{size_code}_u{i}"] = p
                     if results:
-                        st.success(f"✅ {len(results)} creative(s) rendered with design principles!")
+                        st.success(f"✅ {len(results)} creative(s) rendered!")
 
                 else:
-                    # ── No uploads: Grok generates from scratch or use SSB photo ──
+                    # ── No stock images: Grok generates from scratch or use SSB photo
                     bg_img = None
                     if grok_api_key:
                         bg_prompt = (
