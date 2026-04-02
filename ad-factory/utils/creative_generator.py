@@ -190,15 +190,15 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     ov = Image.new("RGBA", (W, H), (0,0,0,0))
     od = ImageDraw.Draw(ov)
 
-    # Top fade (brand header area)
-    top_alpha_max = int(min(200, 155 * grad_strength))
-    for y in range(int(H*0.22)):
-        od.line([(0,y),(W,y)], fill=(0,0,0, int(top_alpha_max*(1-y/(H*0.22)))))
+    # Top fade (just enough for logo readability)
+    top_alpha_max = int(min(160, 120 * grad_strength))
+    for y in range(int(H*0.12)):
+        od.line([(0,y),(W,y)], fill=(0,0,0, int(top_alpha_max*(1-y/(H*0.12)))))
 
-    # Bottom fade (headline → footer)
-    bot_start = int(H * max(0.30, 0.46 - (grad_strength - 1.0) * 0.16))  # starts higher when bright
-    bot_alpha_min = int(min(240, 178 * grad_strength))
-    bot_alpha_max = int(min(255, 255 * grad_strength))
+    # Bottom fade — starts at ~50% to darken only the text zone
+    bot_start = int(H * max(0.45, 0.55 - (grad_strength - 1.0) * 0.10))
+    bot_alpha_min = int(min(220, 160 * grad_strength))
+    bot_alpha_max = int(min(250, 240 * grad_strength))
     for y in range(bot_start, H):
         p = (y - bot_start) / (H - bot_start)
         alpha = int(bot_alpha_min + (bot_alpha_max - bot_alpha_min) * p)
@@ -206,24 +206,23 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
 
     canvas = Image.alpha_composite(canvas.convert("RGBA"), ov).convert("RGB")
 
-    # ── 2b. Post-gradient luminance check — add local darkening if needed ──────
-    post_headline_lum = _region_luminance(canvas, (M, int(H*0.35), W-M, int(H*0.60)))
-    if post_headline_lum > 120:
-        # Still too bright after gradient — add a semi-transparent dark rectangle
+    # ── 2b. Post-gradient luminance check — darken text zone if still bright ──
+    post_text_lum = _region_luminance(canvas, (M, int(H*0.55), W-M, int(H*0.90)))
+    if post_text_lum > 110:
         dark_ov = Image.new("RGBA", (W, H), (0,0,0,0))
         dark_d  = ImageDraw.Draw(dark_ov)
-        extra_alpha = min(180, int((post_headline_lum - 120) * 2.5))
+        extra_alpha = min(170, int((post_text_lum - 110) * 2.5))
         dark_d.rectangle(
-            [0, int(H*0.33), W, int(H*0.72)],
+            [0, int(H*0.50), W, H],
             fill=(10, 10, 26, extra_alpha)
         )
         canvas = Image.alpha_composite(canvas.convert("RGBA"), dark_ov).convert("RGB")
 
     draw = ImageDraw.Draw(canvas)
 
-    # ── 3. Left accent bar (SSB green) ───────────────────────────────────────
+    # ── 3. Left accent bar (SSB green) — positioned with text at bottom ─────
     bx = M - 22
-    draw.rectangle([bx, int(H*0.40), bx+6, int(H*0.40)+int(H*0.22)], fill=accent)
+    draw.rectangle([bx, int(H*0.58), bx+6, int(H*0.58)+int(H*0.18)], fill=accent)
 
     # ── 4. Brand logo (top-left, small) ───────────────────────────────────────
     logo_path = _LOGO_WHITE_PATH  # white logo for dark/photo backgrounds
@@ -255,38 +254,39 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     else:
         fused, lh = fh, 96
 
-    hy = int(H*0.42)
+    # ── Text block starts at ~60% from top — keeps faces/subjects visible ────
+    hy = int(H * 0.60)
     for ln in lines[:4]:
         _text_with_shadow(draw, (M, hy), ln, fused, WHITE, offset=3)
         hy += lh
 
     # ── 6. Subheading (45 chars max) ──────────────────────────────────────────
-    fbd = _font(FONT_REG, 37 if size=="9:16" else 30)
-    by2 = hy + 20
+    fbd = _font(FONT_REG, 35 if size=="9:16" else 28)
+    by2 = hy + 12
     for ln in _wrap(body, fbd, TW, draw)[:2]:
         _text_with_shadow(draw, (M, by2), ln, fbd, WHITE_MED)
-        by2 += 52
+        by2 += 48
 
     # ── 7. Intake closing date ────────────────────────────────────────────────
-    fdate = _font(FONT_BOLD, 32)
+    fdate = _font(FONT_BOLD, 30)
     date_txt = "Intake 3 closes April 19"
-    dy = by2 + 40
-    _text_with_shadow(draw, (M, dy), date_txt, fdate, WHITE)
+    dy = by2 + 24
+    _text_with_shadow(draw, (M, dy), date_txt, fdate, accent)
 
     # ── 8. CTA button — "Apply Now" ──────────────────────────────────────────
-    fct  = _font(FONT_BOLD, 44)
-    cy   = dy + 60
+    fct  = _font(FONT_BOLD, 40)
+    cy   = dy + 50
     ctxt = "Apply Now"
     cb   = draw.textbbox((0,0), ctxt, font=fct)
-    cw   = cb[2]-cb[0]+60
-    ch   = 74
-    draw.rounded_rectangle([M, cy, M+cw, cy+ch], radius=12, fill=accent)
-    draw.text((M+30, cy+16), ctxt, font=fct, fill=WHITE)
+    cw   = cb[2]-cb[0]+56
+    ch   = 68
+    draw.rounded_rectangle([M, cy, M+cw, cy+ch], radius=10, fill=accent)
+    draw.text((M+28, cy+14), ctxt, font=fct, fill=WHITE)
 
     # ── 9. Footer ─────────────────────────────────────────────────────────────
-    fwm = _font(FONT_LIGHT, 24)
-    _text_with_shadow(draw, (M, H-48), "scaler.com/school-of-business",
-                      fwm, _blend(WHITE,120,BG))
+    fwm = _font(FONT_LIGHT, 22)
+    _text_with_shadow(draw, (M, H-42), "scaler.com/school-of-business",
+                      fwm, _blend(WHITE,100,BG))
 
     # ── Save ───────────────────────────────────────────────────────────────────
     out = os.path.join(OUTPUT_DIR, f"{ad_id}_{size.replace(':','x')}.png")

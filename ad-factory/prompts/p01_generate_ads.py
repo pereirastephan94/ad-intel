@@ -104,32 +104,29 @@ Return ONLY valid JSON (no markdown, no backticks, no preamble). Array of ad obj
 
 USER_PROMPT_GENERATE = """Generate {num_ads} ad variants for SSB's Intake 3 campaign.
 
-CAMPAIGN BRIEF:
-- Goal: {campaign_goal}
-- Primary audience: {primary_audience}
-- Deadline to feature: April 19, 2026
-- Platforms: {platforms}
-- Tone: {tone}
-- Special focus: {special_focus}
+THE USER'S BRIEF (THIS IS THE MOST IMPORTANT INPUT — your ads MUST directly address this concept):
+"{campaign_goal}"
 
-REQUIREMENTS:
-1. Platform mix: {platform_mix}
-2. Audience split: roughly equal across all 3 segments unless brief specifies otherwise
-3. Bucket coverage: at least 1 ad per bucket, weighted toward {priority_buckets}
-4. Hook variety: use at least 5 different hook types
-5. Every ad MUST include at least 1 specific proof point (real name, number, or verifiable fact from brand facts)
-6. No generic "transform your career" language — be ruthlessly specific
-7. CTAs must include the deadline (April 19) where possible
+CRITICAL: All 20 ads must be about the concept described above. If the user says "leaders who built billion dollar businesses", every ad must be about faculty/backers. If they say "D2C startup challenge", every ad must be about the startup program. DO NOT generate random ads about unrelated topics.
 
-CHARACTER LIMITS (CRITICAL — these are hard design constraints, count every character):
-8. HEADLINES: Maximum 30-35 characters. Every headline MUST be punchy and under 35 chars. Count carefully. Examples: "₹25L to build your startup." (28 chars), "Your MBA taught case studies." (30 chars)
-9. PRIMARY TEXT (subheader): Maximum 45 characters. This is the subheader below the headline on the visual creative. It MUST be under 45 chars. Examples: "6 months. MVP to ₹25L funding." (31 chars), "150+ hrs AI. 25+ tools. Ship 3 products." (41 chars)
-10. CTA TEXT: Maximum 25 characters. Short, action-oriented. Examples: "Apply by April 19 >", "Get Curriculum >"
+Target audience: {primary_audience}
+Platforms: {platforms}
+Tone: {tone}
+Priority buckets: {priority_buckets}
 
-11. Image prompts must describe a concept that ADDS INFORMATION (not decorative)
-12. Video scripts should be 15-sec max, scene-by-scene
+CHARACTER LIMITS (HARD DESIGN CONSTRAINTS — count every character):
+1. HEADLINES: Maximum 30-35 characters. Be punchy. Count carefully.
+   Examples: "Learn from Zomato's founder." (29 chars), "Your MBA taught case studies." (30 chars)
+2. PRIMARY TEXT (subheader): Maximum 45 characters.
+   Examples: "6 months. MVP to ₹25L funding." (31 chars), "Deepinder, Kunal, Binny teach here." (36 chars)
+3. CTA TEXT: Maximum 25 characters.
+   Examples: "Apply Now", "Get Curriculum >"
 
-Make these ads demonstrably better than anything Masters Union, MESA, or any IIM is running today. Be bold. Be specific. Be conversion-obsessed.
+OTHER RULES:
+- Every ad MUST include at least 1 specific proof point from the brand facts
+- No generic language — be specific to SSB
+- Use at least 4 different hook types across the 20 ads
+- Platform mix: {platform_mix}
 
 {additional_context}
 """
