@@ -221,9 +221,9 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
 
     draw = ImageDraw.Draw(canvas)
 
-    # ── 3. Left accent bar ─────────────────────────────────────────────────────
+    # ── 3. Left accent bar (SSB green) ───────────────────────────────────────
     bx = M - 22
-    draw.rectangle([bx, int(H*0.355), bx+6, int(H*0.355)+int(H*0.32)], fill=accent)
+    draw.rectangle([bx, int(H*0.40), bx+6, int(H*0.40)+int(H*0.22)], fill=accent)
 
     # ── 4. Brand logo (top-left, small) ───────────────────────────────────────
     logo_path = _LOGO_WHITE_PATH  # white logo for dark/photo backgrounds
@@ -245,16 +245,6 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
         _text_with_shadow(draw, (M, 52), "SCALER SCHOOL", fb, accent_dim)
         _text_with_shadow(draw, (M, 92), "OF BUSINESS",   fl, (150,155,165))
 
-    # Intake badge
-    fbg = _font(FONT_BOLD, 27)
-    btx = "INTAKE 3  APR 19"
-    bb  = draw.textbbox((0,0), btx, font=fbg)
-    bw2, bh2 = bb[2]-bb[0]+26, bb[3]-bb[1]+18
-    bx2 = W-M-bw2
-    draw.rounded_rectangle([bx2,54,bx2+bw2,54+bh2], radius=7,
-                            fill=accent_soft, outline=accent_dim, width=1)
-    _text_with_shadow(draw, (bx2+13, 62), btx, fbg, accent_dim)
-
     # ── 5. Headline ────────────────────────────────────────────────────────────
     TW = W - M*2
     fh  = _font(FONT_BOLD, 76 if size=="9:16" else 54)
@@ -265,70 +255,38 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     else:
         fused, lh = fh, 96
 
-    hy = int(H*0.375)
+    hy = int(H*0.42)
     for ln in lines[:4]:
         _text_with_shadow(draw, (M, hy), ln, fused, WHITE, offset=3)
         hy += lh
 
-    # ── 6. Body ────────────────────────────────────────────────────────────────
+    # ── 6. Subheading (45 chars max) ──────────────────────────────────────────
     fbd = _font(FONT_REG, 37 if size=="9:16" else 30)
-    bdy = (body[:150]+"...") if len(body)>150 else body
-    by2 = hy+30
-    for ln in _wrap(bdy, fbd, TW, draw)[:4]:
+    by2 = hy + 20
+    for ln in _wrap(body, fbd, TW, draw)[:2]:
         _text_with_shadow(draw, (M, by2), ln, fbd, WHITE_MED)
         by2 += 52
 
-    # ── 7. Proof pills ────────────────────────────────────────────────────────
-    fpf   = _font(FONT_BOLD, 28)
-    pills = ["100% PLACED", "68% PIVOTS", "Rs.50K DAY 1"]
-    py    = int(H*0.735)
-    px    = M
+    # ── 7. Intake closing date ────────────────────────────────────────────────
+    fdate = _font(FONT_BOLD, 32)
+    date_txt = "Intake 3 closes April 19"
+    dy = by2 + 40
+    _text_with_shadow(draw, (M, dy), date_txt, fdate, WHITE)
 
-    # Adaptive pill colors — sample local background brightness
-    pill_zone_lum = _region_luminance(canvas, (M, py-5, W-M, py+45))
-    if pill_zone_lum > 120:
-        # Light background → dark pills
-        PILL_BG      = (20, 20, 36)
-        PILL_OUTLINE = (60, 60, 80)
-        PILL_TEXT    = WHITE
-    else:
-        # Dark background → keep translucent look
-        PILL_BG      = _blend(WHITE, 30, BG)
-        PILL_OUTLINE = _blend(WHITE, 85, BG)
-        PILL_TEXT    = WHITE_MED
-
-    for pill in pills:
-        pb  = draw.textbbox((0,0), pill, font=fpf)
-        pw  = pb[2]-pb[0]+24
-        pht = pb[3]-pb[1]+16
-        draw.rounded_rectangle([px, py, px+pw, py+pht], radius=6,
-                                fill=PILL_BG, outline=PILL_OUTLINE, width=1)
-        draw.text((px+12, py+8), pill, font=fpf, fill=PILL_TEXT)
-        px += pw+12
-
-    # ── 8. Divider ─────────────────────────────────────────────────────────────
-    dy = int(H*0.735)+58
-    draw.line([(M,dy),(W-M,dy)], fill=_blend(WHITE,55,BG), width=1)
-
-    # ── 9. CTA button ──────────────────────────────────────────────────────────
-    fct  = _font(FONT_BOLD, 46)
-    cy   = dy+36
-    ctxt = cta[:38]+("..." if len(cta)>38 else "")
+    # ── 8. CTA button — "Apply Now" ──────────────────────────────────────────
+    fct  = _font(FONT_BOLD, 44)
+    cy   = dy + 60
+    ctxt = "Apply Now"
     cb   = draw.textbbox((0,0), ctxt, font=fct)
-    cw   = min(cb[2]-cb[0]+64, W-M*2)
-    ch   = 80
-    draw.rounded_rectangle([M,cy,M+cw,cy+ch], radius=14, fill=accent)
-    draw.text((M+32, cy+17), ctxt, font=fct, fill=BG)
+    cw   = cb[2]-cb[0]+60
+    ch   = 74
+    draw.rounded_rectangle([M, cy, M+cw, cy+ch], radius=12, fill=accent)
+    draw.text((M+30, cy+16), ctxt, font=fct, fill=WHITE)
 
-    # ── 10. Footer ─────────────────────────────────────────────────────────────
-    fwm = _font(FONT_LIGHT, 25)
-    _text_with_shadow(draw, (M, H-50), "scaler.com/school-of-business",
+    # ── 9. Footer ─────────────────────────────────────────────────────────────
+    fwm = _font(FONT_LIGHT, 24)
+    _text_with_shadow(draw, (M, H-48), "scaler.com/school-of-business",
                       fwm, _blend(WHITE,120,BG))
-    fbk = _font(FONT_BOLD, 25)
-    blt = f"#{bucket}"
-    blb = draw.textbbox((0,0), blt, font=fbk)
-    _text_with_shadow(draw, (W-M-(blb[2]-blb[0]), H-50), blt,
-                      fbk, _blend(accent,180,BG))
 
     # ── Save ───────────────────────────────────────────────────────────────────
     out = os.path.join(OUTPUT_DIR, f"{ad_id}_{size.replace(':','x')}.png")
