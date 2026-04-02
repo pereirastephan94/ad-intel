@@ -24,14 +24,19 @@ WHITE_MED = (220, 220, 225)
 BLACK     = (0, 0, 0)
 SHADOW    = (5, 5, 15)
 
+# SSB brand green — extracted from official logo (#1a8452)
+SSB_GREEN = (26, 132, 82)
+
+# Max 2 colours per creative: SSB_GREEN + WHITE
+# All buckets use the same brand green — no random colours
 BUCKET_COLORS = {
-    "STARTUP":      (124,  58, 237),
-    "OUTCOME":      ( 34, 197,  94),
-    "CURRICULUM":   (  6, 182, 212),
-    "FACULTY":      (245, 158,  11),
-    "SOCIAL_PROOF": (236,  72, 153),
-    "URGENCY":      (239,  68,  68),
-    "EMOTIONAL":    (139,  92, 246),
+    "STARTUP":      SSB_GREEN,
+    "OUTCOME":      SSB_GREEN,
+    "CURRICULUM":   SSB_GREEN,
+    "FACULTY":      SSB_GREEN,
+    "SOCIAL_PROOF": SSB_GREEN,
+    "URGENCY":      SSB_GREEN,
+    "EMOTIONAL":    SSB_GREEN,
 }
 
 ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../assets/ssb_images")
@@ -136,11 +141,14 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     cta      = _clean(ad.get("cta_text", "Apply Now >"))
     accent   = BUCKET_COLORS.get(bucket, (0, 212, 255))
 
-    # Note: 30-35 char headline limit is enforced at the COPY GENERATION stage
-    # (in prompts/p01_generate_ads.py). The Pillow renderer shows whatever copy
-    # it receives — no truncation here. The text wrapping handles long headlines.
-    if len(body) > 150:
-        body = body[:150] + "..."
+    # Subheader: 45 char limit (design constraint). Truncate at word boundary.
+    if len(body) > 45:
+        trunc = body[:45]
+        last_space = trunc.rfind(" ")
+        if last_space > 25:
+            body = trunc[:last_space]
+        else:
+            body = trunc
 
     # Pre-blended colour variants (will be recalculated if bg is bright)
     accent_dim  = _blend(accent, 190, BG)
