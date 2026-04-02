@@ -166,7 +166,11 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
             if r > W/H:  nw, nh = int(H*r), H
             else:         nw, nh = W, int(W/r)
             bg = bg.resize((nw, nh), Image.LANCZOS)
-            bg = bg.crop(((nw-W)//2,(nh-H)//2,(nw-W)//2+W,(nh-H)//2+H))
+            # Top-biased crop: keep the top of the image (where faces are)
+            # Horizontal: center crop. Vertical: start from top, not center.
+            x0 = (nw - W) // 2
+            y0 = 0  # top-aligned, not center
+            bg = bg.crop((x0, y0, x0 + W, y0 + H))
             bg = bg.filter(ImageFilter.GaussianBlur(1.2))
             canvas.paste(bg, (0,0))
         except Exception:
@@ -195,8 +199,8 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     for y in range(int(H*0.12)):
         od.line([(0,y),(W,y)], fill=(0,0,0, int(top_alpha_max*(1-y/(H*0.12)))))
 
-    # Bottom fade — starts at ~50% to darken only the text zone
-    bot_start = int(H * max(0.45, 0.55 - (grad_strength - 1.0) * 0.10))
+    # Bottom fade — starts at ~55% to darken only the text zone at bottom
+    bot_start = int(H * max(0.50, 0.60 - (grad_strength - 1.0) * 0.10))
     bot_alpha_min = int(min(220, 160 * grad_strength))
     bot_alpha_max = int(min(250, 240 * grad_strength))
     for y in range(bot_start, H):
@@ -220,9 +224,9 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
 
     draw = ImageDraw.Draw(canvas)
 
-    # ── 3. Left accent bar (SSB green) — positioned with text at bottom ─────
+    # ── 3. Left accent bar (SSB green) — aligned with text block ─────────────
     bx = M - 22
-    draw.rectangle([bx, int(H*0.58), bx+6, int(H*0.58)+int(H*0.18)], fill=accent)
+    draw.rectangle([bx, int(H*0.66), bx+5, int(H*0.66)+int(H*0.14)], fill=accent)
 
     # ── 4. Brand logo (top-left, small) ───────────────────────────────────────
     logo_path = _LOGO_WHITE_PATH  # white logo for dark/photo backgrounds
@@ -254,39 +258,47 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     else:
         fused, lh = fh, 96
 
-    # ── Text block starts at ~60% from top — keeps faces/subjects visible ────
-    hy = int(H * 0.60)
-    for ln in lines[:4]:
-        _text_with_shadow(draw, (M, hy), ln, fused, WHITE, offset=3)
-        hy += lh
+    # ── Text block at bottom 30% — maximum space for the photo subject ───────
+    hy = int(H * 0.68)
+
+    # Use smaller font if needed to keep everything in bottom 30%
+    headline_font = fused
+    headline_lh = lh
+    if len(lines) > 2:
+        headline_font = fhs
+        lines = _wrap(headline, fhs, TW, draw)
+        headline_lh = 72
+
+    for ln in lines[:3]:
+        _text_with_shadow(draw, (M, hy), ln, headline_font, WHITE, offset=3)
+        hy += headline_lh
 
     # ── 6. Subheading (45 chars max) ──────────────────────────────────────────
-    fbd = _font(FONT_REG, 35 if size=="9:16" else 28)
-    by2 = hy + 12
+    fbd = _font(FONT_REG, 32 if size=="9:16" else 26)
+    by2 = hy + 8
     for ln in _wrap(body, fbd, TW, draw)[:2]:
         _text_with_shadow(draw, (M, by2), ln, fbd, WHITE_MED)
-        by2 += 48
+        by2 += 42
 
-    # ── 7. Intake closing date ────────────────────────────────────────────────
-    fdate = _font(FONT_BOLD, 30)
+    # ── 7. Intake date + CTA on same row ─────────────────────────────────────
+    fdate = _font(FONT_BOLD, 26)
     date_txt = "Intake 3 closes April 19"
-    dy = by2 + 24
-    _text_with_shadow(draw, (M, dy), date_txt, fdate, accent)
+    row_y = by2 + 16
+    _text_with_shadow(draw, (M, row_y), date_txt, fdate, accent)
 
-    # ── 8. CTA button — "Apply Now" ──────────────────────────────────────────
-    fct  = _font(FONT_BOLD, 40)
-    cy   = dy + 50
+    fct  = _font(FONT_BOLD, 36)
+    cy   = row_y + 38
     ctxt = "Apply Now"
     cb   = draw.textbbox((0,0), ctxt, font=fct)
-    cw   = cb[2]-cb[0]+56
-    ch   = 68
+    cw   = cb[2]-cb[0]+48
+    ch   = 60
     draw.rounded_rectangle([M, cy, M+cw, cy+ch], radius=10, fill=accent)
-    draw.text((M+28, cy+14), ctxt, font=fct, fill=WHITE)
+    draw.text((M+24, cy+12), ctxt, font=fct, fill=WHITE)
 
-    # ── 9. Footer ─────────────────────────────────────────────────────────────
-    fwm = _font(FONT_LIGHT, 22)
-    _text_with_shadow(draw, (M, H-42), "scaler.com/school-of-business",
-                      fwm, _blend(WHITE,100,BG))
+    # ── 8. Footer ─────────────────────────────────────────────────────────────
+    fwm = _font(FONT_LIGHT, 20)
+    _text_with_shadow(draw, (M, H-36), "scaler.com/school-of-business",
+                      fwm, _blend(WHITE,90,BG))
 
     # ── Save ───────────────────────────────────────────────────────────────────
     out = os.path.join(OUTPUT_DIR, f"{ad_id}_{size.replace(':','x')}.png")
