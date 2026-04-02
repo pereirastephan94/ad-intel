@@ -162,17 +162,40 @@ def generate_creative(ad: dict, image_path: str = None, size: str = "9:16") -> s
     if image_path and os.path.exists(image_path):
         try:
             bg = Image.open(image_path).convert("RGB")
-            r  = bg.width / bg.height
-            if r > W/H:  nw, nh = int(H*r), H
-            else:         nw, nh = W, int(W/r)
+
+            # Fit the entire image into the top portion of the canvas
+            # — no cropping, the full photo is visible (person + background)
+            # Image occupies the top ~65% of the canvas, text goes in the bottom 35%
+            fit_h = int(H * 0.65)  # image fills top 65%
+            fit_w = W
+
+            img_ratio = bg.width / bg.height
+            fit_ratio = fit_w / fit_h
+
+            if img_ratio > fit_ratio:
+                # Wider than slot → fit by width, image may be shorter
+                nw = fit_w
+                nh = int(fit_w / img_ratio)
+            else:
+                # Taller than slot → fit by height, image may be narrower
+                nh = fit_h
+                nw = int(fit_h * img_ratio)
+
             bg = bg.resize((nw, nh), Image.LANCZOS)
-            # Top-biased crop: keep the top of the image (where faces are)
-            # Horizontal: center crop. Vertical: start from top, not center.
-            x0 = (nw - W) // 2
-            y0 = 0  # top-aligned, not center
-            bg = bg.crop((x0, y0, x0 + W, y0 + H))
-            bg = bg.filter(ImageFilter.GaussianBlur(1.2))
-            canvas.paste(bg, (0,0))
+            # Center the image horizontally, top-align vertically
+            x0 = (W - nw) // 2
+            y0 = 0
+            canvas.paste(bg, (x0, y0))
+
+            # Soft blur on the very edges for a clean blend into dark BG
+            # (only if image doesn't fill full width)
+            if nw < W:
+                bg_blur = bg.resize((W, nh), Image.LANCZOS).filter(ImageFilter.GaussianBlur(25))
+                blur_layer = Image.new("RGB", (W, H), BG)
+                blur_layer.paste(bg_blur, (0, 0))
+                # Paste sharp image on top of blurred full-width version
+                canvas.paste(blur_layer, (0, 0))
+                canvas.paste(bg, (x0, y0))
         except Exception:
             pass
 
