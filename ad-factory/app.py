@@ -666,44 +666,27 @@ if st.session_state.ads and st.session_state.scores:
                     ref_path = ref_saved[0] if ref_saved else None
 
                 if stock_imgs:
-                    # ── Batch: one creative per stock image ────────────────────
+                    # ── Batch: use each stock image directly as background ─────
                     saved = _save_uploaded_images(stock_imgs[:10], ad_id)
                     results = []
-                    total_steps = len(saved) * (2 if grok_api_key else 1)
-                    progress = st.progress(0, text="Processing…")
-                    step = 0
+                    progress = st.progress(0, text="Rendering creatives…")
 
                     for idx, img_path in enumerate(saved):
-                        bg = img_path  # default: use raw stock photo
-
-                        if grok_api_key:
-                            progress.progress(
-                                (step + 1) / total_steps,
-                                text=f"🧠 Grok enhancing photo {idx+1}/{len(saved)} "
-                                     f"(design principles + {'reference style' if ref_path else 'auto style'})…"
-                            )
-                            enhanced = enhance_photo_with_grok(
-                                img_path, ad, grok_api_key, reference_path=ref_path
-                            )
-                            if enhanced:
-                                bg = enhanced
-                            step += 1
-
                         progress.progress(
-                            (step + 1) / total_steps,
-                            text=f"🎨 Rendering creative {idx+1}/{len(saved)}…"
+                            (idx + 1) / len(saved),
+                            text=f"🎨 Rendering creative {idx+1}/{len(saved)} with your stock photo…"
                         )
-                        path = render_creative(ad, size=size_code, bg_image=bg)
+                        # Use the actual uploaded stock photo as background
+                        path = render_creative(ad, size=size_code, bg_image=img_path)
                         if path:
                             results.append(path)
-                        step += 1
 
                     progress.empty()
 
                     for i, p in enumerate(results):
                         st.session_state.generated_creatives[f"{ad_id}_{size_code}_u{i}"] = p
                     if results:
-                        st.success(f"✅ {len(results)} creative(s) rendered!")
+                        st.success(f"✅ {len(results)} creative(s) rendered with your stock photos!")
 
                 else:
                     # ── No stock images: Grok generates from scratch or use SSB photo
