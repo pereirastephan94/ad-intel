@@ -1,548 +1,682 @@
 """
 🏭 AI Ad Creative Factory — Scaler School of Business
 =====================================================
-A working MVP that takes a campaign brief and generates, scores, and ranks ad creatives.
-Built for Scaler's 5-hour hackathon.
+Start with a plain-English brief → Get 20 scored ad copies →
+Pick the ones you like → Generate the actual 1080×1920 PNG creative.
 
 Run: streamlit run app.py
 """
 import streamlit as st
 import json
+import os
+import sys
+import base64
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime
 
-# ---- PAGE CONFIG ----
+sys.path.insert(0, '.')
+from data.sample_data import SAMPLE_ADS, SAMPLE_SCORES
+
+# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Ad Creative Factory | SSB",
     page_icon="🏭",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
-# ---- CUSTOM CSS ----
+# ── CSS ────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
     .stApp { background-color: #0a0a1a; }
-    .main-header { 
-        font-size: 2.5rem; font-weight: 800; 
+    .main-header {
+        font-size: 2.4rem; font-weight: 800;
         background: linear-gradient(90deg, #00d4ff, #7c3aed);
         -webkit-background-clip: text; -webkit-text-fill-color: transparent;
         margin-bottom: 0;
     }
-    .sub-header { color: #94a3b8; font-size: 1.1rem; margin-top: 0; }
+    .sub-header { color: #94a3b8; font-size: 1rem; margin-top: 0; }
     .score-card {
         background: linear-gradient(135deg, #1e1e3a, #2a2a4a);
-        border-radius: 12px; padding: 20px; text-align: center;
+        border-radius: 12px; padding: 16px; text-align: center;
         border: 1px solid #333366;
     }
-    .score-big { font-size: 2.8rem; font-weight: 800; margin: 0; }
-    .score-label { color: #94a3b8; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; }
+    .score-big { font-size: 2.6rem; font-weight: 800; margin: 0; }
+    .score-label { color: #94a3b8; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
     .verdict-launch { color: #22c55e; font-weight: 700; }
     .verdict-iterate { color: #f59e0b; font-weight: 700; }
-    .verdict-rework { color: #ef4444; font-weight: 700; }
-    .verdict-kill { color: #dc2626; font-weight: 700; }
+    .verdict-rework { color: #f97316; font-weight: 700; }
+    .verdict-kill   { color: #ef4444; font-weight: 700; }
     .ad-card {
         background: #12122a; border-radius: 12px; padding: 20px;
         border-left: 4px solid #7c3aed; margin-bottom: 16px;
     }
     .bucket-tag {
-        display: inline-block; padding: 4px 12px; border-radius: 20px;
-        font-size: 0.75rem; font-weight: 600; margin-right: 6px;
+        display: inline-block; padding: 3px 10px; border-radius: 20px;
+        font-size: 0.72rem; font-weight: 600; margin-right: 5px;
     }
-    .bucket-STARTUP { background: #7c3aed22; color: #a78bfa; border: 1px solid #7c3aed44; }
-    .bucket-OUTCOME { background: #22c55e22; color: #86efac; border: 1px solid #22c55e44; }
-    .bucket-CURRICULUM { background: #06b6d422; color: #67e8f9; border: 1px solid #06b6d444; }
-    .bucket-FACULTY { background: #f59e0b22; color: #fcd34d; border: 1px solid #f59e0b44; }
-    .bucket-SOCIAL_PROOF { background: #ec489922; color: #f9a8d4; border: 1px solid #ec489944; }
-    .bucket-URGENCY { background: #ef444422; color: #fca5a5; border: 1px solid #ef444444; }
-    .bucket-EMOTIONAL { background: #8b5cf622; color: #c4b5fd; border: 1px solid #8b5cf644; }
-    div[data-testid="stMetricValue"] { font-size: 2rem; }
+    .bucket-STARTUP      { background:#7c3aed22; color:#a78bfa; border:1px solid #7c3aed44; }
+    .bucket-OUTCOME      { background:#22c55e22; color:#86efac; border:1px solid #22c55e44; }
+    .bucket-CURRICULUM   { background:#06b6d422; color:#67e8f9; border:1px solid #06b6d444; }
+    .bucket-FACULTY      { background:#f59e0b22; color:#fcd34d; border:1px solid #f59e0b44; }
+    .bucket-SOCIAL_PROOF { background:#ec489922; color:#f9a8d4; border:1px solid #ec489944; }
+    .bucket-URGENCY      { background:#ef444422; color:#fca5a5; border:1px solid #ef444444; }
+    .bucket-EMOTIONAL    { background:#8b5cf622; color:#c4b5fd; border:1px solid #8b5cf644; }
+    div[data-testid="stMetricValue"] { font-size: 1.8rem; }
+    .brief-box {
+        background: #12122a; border-radius: 14px; padding: 28px;
+        border: 1px solid #2a2a4a; margin-bottom: 24px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-# ---- LOAD SAMPLE DATA ----
-import sys
-sys.path.insert(0, '.')
-from data.sample_data import SAMPLE_ADS, SAMPLE_SCORES
 
-# ---- TRY LOADING ANTHROPIC ----
+# ── Helpers ────────────────────────────────────────────────────────────────────
 try:
     import anthropic
     HAS_ANTHROPIC = True
 except ImportError:
     HAS_ANTHROPIC = False
 
-# ---- HELPER FUNCTIONS ----
 
-def get_verdict_class(verdict):
-    return f"verdict-{verdict.lower()}"
+def score_color(s):
+    if s >= 80: return "#22c55e"
+    elif s >= 60: return "#f59e0b"
+    elif s >= 40: return "#f97316"
+    return "#ef4444"
 
-def score_color(score):
-    if score >= 80: return "#22c55e"
-    elif score >= 60: return "#f59e0b"
-    elif score >= 40: return "#f97316"
-    else: return "#ef4444"
 
-def bucket_html(bucket):
-    return f'<span class="bucket-tag bucket-{bucket}">{bucket}</span>'
+def bucket_html(b):
+    return f'<span class="bucket-tag bucket-{b}">{b}</span>'
 
-def generate_ads_with_api(brief, api_key):
-    """Call Claude API to generate ads. Falls back to sample data."""
+
+def parse_prompt_to_brief(prompt: str) -> dict:
+    """Keyword-based brief parser — no API needed."""
+    p = prompt.lower()
+
+    audience = []
+    if any(x in p for x in ["fresher", "graduate", "college", "first job", "entry level"]):
+        audience.append("Ambitious Freshers")
+    if any(x in p for x in ["professional", "career", "pivot", "switch", "corporate", "job change"]):
+        audience.append("Career Pivoters (2-4 yrs exp)")
+    if any(x in p for x in ["founder", "startup", "build", "entrepreneur", "venture", "d2c"]):
+        audience.append("Aspiring Founders")
+    if not audience:
+        audience = ["Career Pivoters (2-4 yrs exp)", "Aspiring Founders"]
+
+    buckets = []
+    if any(x in p for x in ["startup", "d2c", "fund", "hustle", "capital", "₹50k", "50,000"]):
+        buckets.append("STARTUP")
+    if any(x in p for x in ["placement", "salary", "outcome", "hired", "job", "revenue", "20l", "crore"]):
+        buckets.append("OUTCOME")
+    if any(x in p for x in ["curriculum", "ai", "tools", "learn", "course", "150 hours", "product"]):
+        buckets.append("CURRICULUM")
+    if any(x in p for x in ["faculty", "mentor", "deepinder", "kunal", "binny", "founder teach"]):
+        buckets.append("FACULTY")
+    if any(x in p for x in ["student", "alumni", "story", "testimonial", "social proof", "real"]):
+        buckets.append("SOCIAL_PROOF")
+    if any(x in p for x in ["urgent", "deadline", "april 19", "last", "closing", "limited seats"]):
+        buckets.append("URGENCY")
+    if any(x in p for x in ["dream", "transform", "aspire", "future", "inspire", "emotional"]):
+        buckets.append("EMOTIONAL")
+    if not buckets:
+        buckets = ["STARTUP", "OUTCOME", "SOCIAL_PROOF"]
+
+    platforms = []
+    if any(x in p for x in ["meta", "facebook", "instagram", "reel", "story", "feed"]):
+        platforms += ["Meta Feed", "Meta Stories"]
+    if any(x in p for x in ["google", "search", "display"]):
+        platforms += ["Google Search", "Google Display"]
+    if any(x in p for x in ["linkedin"]):
+        platforms.append("LinkedIn")
+    if any(x in p for x in ["youtube", "video", "pre-roll"]):
+        platforms.append("YouTube")
+    if not platforms:
+        platforms = ["Meta Feed", "Google Search", "LinkedIn"]
+
+    tone = "Bold"
+    if any(x in p for x in ["professional", "serious", "formal"]):
+        tone = "Professional"
+    elif any(x in p for x in ["aggressive", "hard", "urgent"]):
+        tone = "Aggressive"
+    elif any(x in p for x in ["provocative", "controversial"]):
+        tone = "Provocative"
+
+    return {
+        "num_ads": 20,
+        "campaign_goal": prompt,
+        "primary_audience": ", ".join(audience),
+        "platforms": ", ".join(platforms),
+        "tone": tone,
+        "special_focus": ", ".join(buckets),
+        "platform_mix": "Distribute evenly across selected platforms",
+        "priority_buckets": ", ".join(buckets),
+        "additional_context": "",
+    }
+
+
+def generate_ads_with_api(brief: dict, api_key: str):
     from prompts.p01_generate_ads import SYSTEM_PROMPT_GENERATE, USER_PROMPT_GENERATE
-    
     client = anthropic.Anthropic(api_key=api_key)
-    user_msg = USER_PROMPT_GENERATE.format(**brief)
-    
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=8000,
+    r = client.messages.create(
+        model="claude-sonnet-4-20250514", max_tokens=8000,
         system=SYSTEM_PROMPT_GENERATE,
-        messages=[{"role": "user", "content": user_msg}]
+        messages=[{"role": "user", "content": USER_PROMPT_GENERATE.format(**brief)}]
     )
-    return json.loads(response.content[0].text)
+    return json.loads(r.content[0].text)
 
-def score_ads_with_api(ads, api_key):
-    """Call Claude API to score ads."""
+
+def score_ads_with_api(ads, api_key: str):
     from prompts.p03_judge_ads import SYSTEM_PROMPT_JUDGE, USER_PROMPT_JUDGE_BATCH
-    
     client = anthropic.Anthropic(api_key=api_key)
-    user_msg = USER_PROMPT_JUDGE_BATCH.format(
-        num_ads=len(ads),
-        ads_json=json.dumps(ads, indent=2)
-    )
-    
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=8000,
+    r = client.messages.create(
+        model="claude-sonnet-4-20250514", max_tokens=8000,
         system=SYSTEM_PROMPT_JUDGE,
-        messages=[{"role": "user", "content": user_msg}]
+        messages=[{"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
+            num_ads=len(ads), ads_json=json.dumps(ads, indent=2)
+        )}]
     )
-    return json.loads(response.content[0].text)
+    return json.loads(r.content[0].text)
 
 
-# ===============================
-# SIDEBAR — CAMPAIGN BRIEF INPUT
-# ===============================
-with st.sidebar:
-    st.markdown("### 📋 Campaign brief")
-    
-    mode = st.radio("Mode", ["🎭 Demo (sample data)", "🔑 Live (Claude API)"], index=0)
-    
-    if mode == "🔑 Live (Claude API)":
-        api_key = st.text_input("Anthropic API Key", type="password", 
-                                help="Get yours at console.anthropic.com")
-    else:
-        api_key = None
-    
-    st.divider()
-    
-    campaign_goal = st.text_area(
-        "Campaign goal",
-        value="Drive applications for Intake 3 (deadline April 19, 2026)",
-        height=68
-    )
-    
-    audience = st.multiselect(
-        "Target audience",
-        ["Career Pivoters (2-4 yrs exp)", "Ambitious Freshers", "Aspiring Founders"],
-        default=["Career Pivoters (2-4 yrs exp)", "Aspiring Founders"]
-    )
-    
-    platforms = st.multiselect(
-        "Platforms",
-        ["Meta Feed", "Meta Stories", "Google Search", "Google Display", "LinkedIn", "YouTube"],
-        default=["Meta Feed", "Google Search", "LinkedIn"]
-    )
-    
-    priority_buckets = st.multiselect(
-        "Priority ad buckets",
-        ["STARTUP", "OUTCOME", "CURRICULUM", "FACULTY", "SOCIAL_PROOF", "URGENCY", "EMOTIONAL"],
-        default=["STARTUP", "OUTCOME"]
-    )
-    
-    tone = st.select_slider(
-        "Tone",
-        options=["Conservative", "Professional", "Bold", "Provocative", "Aggressive"],
-        value="Bold"
-    )
-    
-    num_ads = st.slider("Number of ads to generate", 5, 30, 20)
-    
-    st.divider()
-    generate_btn = st.button("🚀 Generate & Score Ads", type="primary", use_container_width=True)
+def render_creative(ad: dict, size: str = "9:16", bg_image: str = None) -> str | None:
+    """Call creative_generator and return path to PNG, or None on error."""
+    try:
+        from utils.creative_generator import generate_creative, pick_best_image
+        img_path = bg_image if bg_image else pick_best_image(ad.get("bucket"))
+        return generate_creative(ad, image_path=img_path, size=size)
+    except Exception as e:
+        st.error(f"Creative render failed: {e}")
+        return None
 
 
-# ===============================
-# MAIN AREA
-# ===============================
+def img_to_b64(path: str) -> str:
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
 
-# Header
+
+# ── AI Image generation (Ideogram / Together / HuggingFace) ───────────────────
+def generate_ai_background(prompt: str, api_key: str, provider: str = "ideogram") -> str | None:
+    """
+    Generate an AI background image and save it to assets/ssb_images/ai_bg_<hash>.jpg.
+    Returns the saved file path, or None if it fails.
+    """
+    import hashlib, requests
+    slug = hashlib.md5(prompt.encode()).hexdigest()[:8]
+    out_dir = os.path.join(os.path.dirname(__file__), "assets", "ssb_images")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"ai_bg_{slug}.jpg")
+    if os.path.exists(out_path):
+        return out_path  # cache hit
+
+    try:
+        if provider == "ideogram":
+            # Ideogram v2 API  →  https://api.ideogram.ai/generate
+            resp = requests.post(
+                "https://api.ideogram.ai/generate",
+                headers={"Api-Key": api_key, "Content-Type": "application/json"},
+                json={"image_request": {"prompt": prompt, "aspect_ratio": "ASPECT_9_16",
+                                        "model": "V_2", "magic_prompt_option": "ON"}},
+                timeout=60
+            )
+            resp.raise_for_status()
+            url = resp.json()["data"][0]["url"]
+            img_data = requests.get(url, timeout=30).content
+            with open(out_path, "wb") as f:
+                f.write(img_data)
+            return out_path
+
+        elif provider == "together":
+            # Together AI — Flux.1-schnell  (512 tokens, $0.0003/img)
+            resp = requests.post(
+                "https://api.together.xyz/v1/images/generations",
+                headers={"Authorization": f"Bearer {api_key}",
+                         "Content-Type": "application/json"},
+                json={"model": "black-forest-labs/FLUX.1-schnell-Free",
+                      "prompt": prompt, "width": 1080, "height": 1920,
+                      "steps": 4, "n": 1},
+                timeout=90
+            )
+            resp.raise_for_status()
+            url = resp.json()["data"][0]["url"]
+            img_data = requests.get(url, timeout=30).content
+            with open(out_path, "wb") as f:
+                f.write(img_data)
+            return out_path
+
+        elif provider == "huggingface":
+            # HuggingFace Inference API — FLUX.1-schnell (free, rate-limited)
+            resp = requests.post(
+                "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={"inputs": prompt, "parameters": {"width": 1080, "height": 1920}},
+                timeout=120
+            )
+            resp.raise_for_status()
+            with open(out_path, "wb") as f:
+                f.write(resp.content)
+            return out_path
+
+    except Exception as e:
+        st.warning(f"AI image generation failed ({provider}): {e}")
+        return None
+
+
+# ── Session state init ─────────────────────────────────────────────────────────
+for key in ["ads", "scores", "generated_creatives"]:
+    if key not in st.session_state:
+        st.session_state[key] = None if key != "generated_creatives" else {}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  HEADER
+# ══════════════════════════════════════════════════════════════════════════════
 st.markdown('<p class="main-header">🏭 AI Ad Creative Factory</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Scaler School of Business — Intake 3 Campaign Engine</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Scaler School of Business — Intake 3 | Type a brief → get 20 scored copies → pick the best → generate the PNG</p>',
+            unsafe_allow_html=True)
 
-# ---- STATE MANAGEMENT ----
-if 'ads' not in st.session_state:
-    st.session_state.ads = None
-    st.session_state.scores = None
+st.divider()
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  STEP 1 — BRIEF
+# ══════════════════════════════════════════════════════════════════════════════
+with st.container():
+    st.markdown("### Step 1 — Describe what you want")
+
+    col_brief, col_opts = st.columns([3, 1])
+
+    with col_brief:
+        user_prompt = st.text_area(
+            "Your campaign brief",
+            height=100,
+            placeholder=(
+                "e.g.  Create a Meta campaign around how our students built a D2C brand "
+                "to ₹20L revenue. Real student photos in the background for authenticity. "
+                "Target career pivoters and aspiring founders. Deadline: April 19."
+            ),
+            label_visibility="collapsed",
+        )
+
+    with col_opts:
+        mode = st.radio("Mode", ["🎭 Demo", "🔑 Live (Claude API)"], index=0)
+        api_key = None
+        if mode == "🔑 Live (Claude API)":
+            api_key = st.text_input("Anthropic API key", type="password")
+
+    generate_btn = st.button("🚀 Generate Ad Copies", type="primary", use_container_width=False)
+
+    # AI image generation settings (collapsed by default)
+    with st.expander("🎨 AI background image settings (optional)"):
+        img_gen_provider = st.selectbox(
+            "Image generation provider",
+            ["None — use SSB photos", "Ideogram (free tier)", "Together AI (Flux, ~$0.0003/img)", "HuggingFace (Flux, free)"],
+        )
+        img_gen_key = st.text_input("Image API key", type="password",
+                                    help="Ideogram: api.ideogram.ai/manage | Together: api.together.xyz | HuggingFace: huggingface.co/settings/tokens")
+        img_gen_prompt_override = st.text_input(
+            "Background image prompt override (optional)",
+            placeholder="e.g. Young Indian students selling handmade products at a street market, cinematic, warm light"
+        )
+        provider_map = {
+            "None — use SSB photos": None,
+            "Ideogram (free tier)": "ideogram",
+            "Together AI (Flux, ~$0.0003/img)": "together",
+            "HuggingFace (Flux, free)": "huggingface",
+        }
+        selected_provider = provider_map[img_gen_provider]
+
+
+# ── Generate on button click ──────────────────────────────────────────────────
 if generate_btn:
-    if mode == "🔑 Live (Claude API)" and api_key:
-        with st.spinner("🧠 Generating ads with Claude..."):
-            try:
-                brief = {
-                    "num_ads": num_ads,
-                    "campaign_goal": campaign_goal,
-                    "primary_audience": ", ".join(audience),
-                    "platforms": ", ".join(platforms),
-                    "tone": tone,
-                    "special_focus": ", ".join(priority_buckets),
-                    "platform_mix": "Auto-distribute across selected platforms",
-                    "priority_buckets": ", ".join(priority_buckets),
-                    "additional_context": ""
-                }
-                st.session_state.ads = generate_ads_with_api(brief, api_key)
-                st.success(f"✅ Generated {len(st.session_state.ads)} ads!")
-            except Exception as e:
-                st.error(f"API Error: {e}")
-                st.session_state.ads = SAMPLE_ADS
-        
-        with st.spinner("⚖️ Scoring ads..."):
-            try:
-                st.session_state.scores = score_ads_with_api(st.session_state.ads, api_key)
-            except Exception as e:
-                st.error(f"Scoring Error: {e}")
-                st.session_state.scores = SAMPLE_SCORES
-    else:
-        # Demo mode
-        with st.spinner("Loading demo data..."):
-            st.session_state.ads = SAMPLE_ADS
+    if mode == "🎭 Demo":
+        with st.spinner("Loading demo data…"):
+            st.session_state.ads    = SAMPLE_ADS
             st.session_state.scores = SAMPLE_SCORES
+        st.success("✅ Loaded 20 demo ads — scroll down to browse and generate creatives!")
+    else:
+        if not api_key:
+            st.error("Add your Anthropic API key to use live mode.")
+        else:
+            brief = parse_prompt_to_brief(user_prompt or "Drive Intake 3 applications — April 19 deadline")
+            with st.spinner("🧠 Generating 20 ad copies with Claude…"):
+                try:
+                    st.session_state.ads = generate_ads_with_api(brief, api_key)
+                except Exception as e:
+                    st.error(f"Generation error: {e}")
+                    st.session_state.ads = SAMPLE_ADS
+
+            with st.spinner("⚖️ Scoring all 20 ads…"):
+                try:
+                    st.session_state.scores = score_ads_with_api(st.session_state.ads, api_key)
+                except Exception as e:
+                    st.error(f"Scoring error: {e}")
+                    st.session_state.scores = SAMPLE_SCORES
+
+            st.success(f"✅ {len(st.session_state.ads)} ads generated and scored!")
 
 
-# ---- DISPLAY RESULTS ----
+# ══════════════════════════════════════════════════════════════════════════════
+#  RESULTS
+# ══════════════════════════════════════════════════════════════════════════════
 if st.session_state.ads and st.session_state.scores:
-    ads = st.session_state.ads
+    ads    = st.session_state.ads
     scores = st.session_state.scores
-    
-    # Sort scores by composite_score
-    scores_sorted = sorted(scores, key=lambda x: x['composite_score'], reverse=True)
-    
-    # Create lookup
-    ad_lookup = {ad['ad_id']: ad for ad in ads}
-    score_lookup = {s['ad_id']: s for s in scores}
-    
-    # ===============================
-    # TAB LAYOUT
-    # ===============================
+
+    scores_sorted = sorted(scores, key=lambda x: x["composite_score"], reverse=True)
+    ad_lookup     = {a["ad_id"]: a for a in ads}
+    score_lookup  = {s["ad_id"]: s for s in scores}
+
+    st.divider()
+
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "🏆 Top 5 Ads", "📊 Scoreboard", "📈 Analytics", "🔍 All Ads", "🎯 Recommendations"
     ])
-    
-    # ---- TAB 1: TOP 5 ----
+
+
+    # ── helper: creative card with "Generate Creative" button ─────────────────
+    def creative_card(rank_label, s, ad, key_prefix):
+        bucket  = s.get("bucket", ad.get("bucket", "STARTUP"))
+        score   = s["composite_score"]
+        verdict = s["verdict"]
+
+        col_copy, col_score = st.columns([3, 1])
+
+        with col_copy:
+            st.markdown(f"""
+            <div class="ad-card">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+                    <div>
+                        <span style="font-size:1.3rem;font-weight:800;color:#e2e8f0;">{rank_label}</span>
+                        <span style="margin-left:8px;color:#94a3b8;font-size:0.8rem;">{s['ad_id']}</span>
+                        {bucket_html(bucket)}
+                        <span class="bucket-tag" style="background:#1e293b;color:#94a3b8;border:1px solid #334155;">{ad.get('platform','')}</span>
+                    </div>
+                    <span class="verdict-{verdict.lower()}" style="font-size:1rem;">{verdict}</span>
+                </div>
+                <h3 style="color:#f1f5f9;margin:0 0 8px 0;font-size:1.15rem;">{ad.get('headline','')}</h3>
+                <p style="color:#cbd5e1;font-size:0.92rem;line-height:1.6;margin:0 0 10px 0;">{ad.get('primary_text','')}</p>
+                <div style="border-top:1px solid #1e293b;padding-top:8px;">
+                    <span style="color:#22c55e;font-size:0.82rem;">💪 {s.get('top_strength','')}</span><br>
+                    <span style="color:#f59e0b;font-size:0.82rem;">🔧 {s.get('improvement','')}</span>
+                </div>
+                <div style="margin-top:8px;">
+                    <span style="color:#7c3aed;font-size:0.82rem;">🎯 CTA: <strong>{ad.get('cta_text','')}</strong></span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col_score:
+            st.markdown(f"""
+            <div class="score-card">
+                <p class="score-big" style="color:{score_color(score)}">{score}</p>
+                <p class="score-label">Composite Score</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+            dims = s.get("scores", {})
+            if isinstance(dims, dict):
+                for dim, val in dims.items():
+                    if isinstance(val, (int, float)):
+                        st.progress(val / 10, text=f"{dim}: {val}/10")
+
+        # ── Generate Creative button ──────────────────────────────────────────
+        with st.container():
+            g_col1, g_col2, g_col3 = st.columns([1, 1, 2])
+            with g_col1:
+                size_choice = st.selectbox(
+                    "Format", ["9:16 (Meta/Reels)", "1:1 (Square)", "16:9 (YouTube)"],
+                    key=f"size_{key_prefix}", label_visibility="collapsed"
+                )
+            with g_col2:
+                gen_btn = st.button(
+                    "🎨 Generate Creative",
+                    key=f"gen_{key_prefix}",
+                    help="Render the 1080×1920 PNG ad creative"
+                )
+
+            size_code = size_choice.split()[0]  # "9:16", "1:1", or "16:9"
+
+            if gen_btn:
+                ad_id = s["ad_id"]
+
+                # Optionally generate AI background first
+                bg_img = None
+                if selected_provider and img_gen_key:
+                    bg_prompt = img_gen_prompt_override or (
+                        f"Young Indian business students {ad.get('image_prompt', 'in a modern classroom setting')}, "
+                        "photorealistic, warm natural light, authentic, no text"
+                    )
+                    with st.spinner(f"🖼️ Generating AI background with {img_gen_provider}…"):
+                        bg_img = generate_ai_background(bg_prompt, img_gen_key, selected_provider)
+
+                with st.spinner(f"Rendering {size_code} creative for {ad_id}…"):
+                    path = render_creative(ad, size=size_code, bg_image=bg_img)
+
+                if path:
+                    st.session_state.generated_creatives[f"{ad_id}_{size_code}"] = path
+
+            # Show previously generated creative for this ad+size
+            cache_key = f"{s['ad_id']}_{size_code}"
+            if cache_key in st.session_state.generated_creatives:
+                img_path = st.session_state.generated_creatives[cache_key]
+                if os.path.exists(img_path):
+                    st.image(img_path, caption=f"{s['ad_id']} — {size_code}", width=300)
+                    with open(img_path, "rb") as f:
+                        st.download_button(
+                            f"⬇️ Download {s['ad_id']} {size_code}",
+                            data=f,
+                            file_name=os.path.basename(img_path),
+                            mime="image/png",
+                            key=f"dl_{key_prefix}",
+                        )
+
+        st.divider()
+
+
+    # ── TAB 1: TOP 5 ──────────────────────────────────────────────────────────
     with tab1:
         st.markdown("### 🏆 Top 5 launch-ready ads")
-        st.markdown("*These scored highest across hook strength, proof density, audience fit, visual concept, brand differentiation, CTA urgency, and platform fit.*")
-        
-        top5 = scores_sorted[:5]
-        
-        for rank, s in enumerate(top5, 1):
-            ad = ad_lookup.get(s['ad_id'], {})
-            col1, col2 = st.columns([3, 1])
-            
-            with col1:
-                st.markdown(f"""
-                <div class="ad-card">
-                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-                        <div>
-                            <span style="font-size:1.4rem; font-weight:800; color:#e2e8f0;">#{rank}</span>
-                            <span style="margin-left:8px; color:#94a3b8;">{s['ad_id']}</span>
-                            {bucket_html(s.get('bucket', ad.get('bucket', 'N/A')))}
-                            <span class="bucket-tag" style="background:#1e293b; color:#94a3b8; border:1px solid #334155;">{ad.get('platform', 'N/A')}</span>
-                        </div>
-                        <span class="{get_verdict_class(s['verdict'])}" style="font-size:1.1rem;">{s['verdict']}</span>
-                    </div>
-                    <h3 style="color:#f1f5f9; margin:0 0 8px 0; font-size:1.2rem;">{ad.get('headline', 'N/A')}</h3>
-                    <p style="color:#cbd5e1; font-size:0.95rem; line-height:1.6;">{ad.get('primary_text', 'N/A')}</p>
-                    <div style="margin-top:12px; padding-top:12px; border-top:1px solid #1e293b;">
-                        <span style="color:#22c55e; font-size:0.85rem;">💪 {s.get('top_strength', '')}</span><br>
-                        <span style="color:#f59e0b; font-size:0.85rem;">🔧 {s.get('improvement', '')}</span>
-                    </div>
-                    <div style="margin-top:8px;">
-                        <span style="color:#7c3aed; font-size:0.85rem;">🎯 CTA: {ad.get('cta_text', 'N/A')}</span>
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
-            
-            with col2:
-                st.markdown(f"""
-                <div class="score-card">
-                    <p class="score-big" style="color:{score_color(s['composite_score'])}">{s['composite_score']}</p>
-                    <p class="score-label">Composite Score</p>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                # Mini score breakdown
-                dims = s.get('scores', {})
-                if isinstance(dims, dict):
-                    for dim_name, val in dims.items():
-                        if isinstance(val, (int, float)):
-                            st.progress(val / 10, text=f"{dim_name}: {val}/10")
-    
-    # ---- TAB 2: SCOREBOARD ----
+        st.caption("Highest-scoring across hook strength, proof density, audience fit, visual concept, brand differentiation, CTA urgency, and platform fit.")
+
+        for rank, s in enumerate(scores_sorted[:5], 1):
+            ad = ad_lookup.get(s["ad_id"], {})
+            creative_card(f"#{rank}", s, ad, key_prefix=f"top{rank}")
+
+
+    # ── TAB 2: SCOREBOARD ─────────────────────────────────────────────────────
     with tab2:
-        st.markdown("### 📊 Full scoreboard — all 20 ads ranked")
-        
-        # Build dataframe
+        st.markdown("### 📊 Full scoreboard — all ads ranked")
+
         df_data = []
         for s in scores_sorted:
-            ad = ad_lookup.get(s['ad_id'], {})
-            row = {
-                'Rank': len(df_data) + 1,
-                'Ad ID': s['ad_id'],
-                'Score': s['composite_score'],
-                'Verdict': s['verdict'],
-                'Bucket': s.get('bucket', ad.get('bucket', '')),
-                'Platform': ad.get('platform', ''),
-                'Audience': ad.get('audience_segment', ''),
-                'Headline': ad.get('headline', '')[:60] + '...' if len(ad.get('headline', '')) > 60 else ad.get('headline', ''),
-                'Hook': s.get('scores', {}).get('hook', 0) if isinstance(s.get('scores', {}).get('hook'), (int, float)) else 0,
-                'Proof': s.get('scores', {}).get('proof', 0) if isinstance(s.get('scores', {}).get('proof'), (int, float)) else 0,
-            }
-            df_data.append(row)
-        
+            ad = ad_lookup.get(s["ad_id"], {})
+            hl = ad.get("headline", "")
+            df_data.append({
+                "Rank":     len(df_data) + 1,
+                "Ad ID":    s["ad_id"],
+                "Score":    s["composite_score"],
+                "Verdict":  s["verdict"],
+                "Bucket":   s.get("bucket", ad.get("bucket", "")),
+                "Platform": ad.get("platform", ""),
+                "Audience": ad.get("audience_segment", ""),
+                "Headline": hl[:60] + ("…" if len(hl) > 60 else ""),
+            })
+
         df = pd.DataFrame(df_data)
-        
-        # Color the score column
         st.dataframe(
             df,
-            column_config={
-                "Score": st.column_config.ProgressColumn(
-                    "Score",
-                    min_value=0,
-                    max_value=100,
-                    format="%d"
-                ),
-                "Hook": st.column_config.NumberColumn("Hook /10", format="%d"),
-                "Proof": st.column_config.NumberColumn("Proof /10", format="%d"),
-            },
-            hide_index=True,
-            use_container_width=True,
-            height=700
+            column_config={"Score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%d")},
+            hide_index=True, use_container_width=True, height=700
         )
-    
-    # ---- TAB 3: ANALYTICS ----
+
+
+    # ── TAB 3: ANALYTICS ──────────────────────────────────────────────────────
     with tab3:
         st.markdown("### 📈 Creative performance analytics")
-        
-        col1, col2, col3, col4 = st.columns(4)
-        avg_score = sum(s['composite_score'] for s in scores) / len(scores)
-        launch_count = sum(1 for s in scores if s['verdict'] == 'LAUNCH')
-        top_bucket = max(set(s.get('bucket', '') for s in scores[:5]), 
-                        key=lambda b: sum(1 for s in scores[:5] if s.get('bucket') == b))
-        
-        col1.metric("Avg score", f"{avg_score:.0f}/100")
-        col2.metric("Launch-ready", f"{launch_count}/{len(scores)}")
-        col3.metric("Top bucket", top_bucket)
-        col4.metric("Total ads", len(scores))
-        
+
+        avg_score    = sum(s["composite_score"] for s in scores) / len(scores)
+        launch_count = sum(1 for s in scores if s["verdict"] == "LAUNCH")
+
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Avg score",     f"{avg_score:.0f}/100")
+        m2.metric("Launch-ready",  f"{launch_count}/{len(scores)}")
+        m3.metric("Total ads",     len(scores))
+        m4.metric("Top score",     scores_sorted[0]["composite_score"])
+
         st.divider()
-        
+
         c1, c2 = st.columns(2)
-        
+
         with c1:
-            # Score distribution by bucket
             bucket_scores = {}
             for s in scores:
-                b = s.get('bucket', 'Unknown')
-                bucket_scores.setdefault(b, []).append(s['composite_score'])
-            
-            bucket_avg = {b: sum(v)/len(v) for b, v in bucket_scores.items()}
-            fig1 = px.bar(
-                x=list(bucket_avg.keys()), y=list(bucket_avg.values()),
-                title="Average score by ad bucket",
-                labels={"x": "Bucket", "y": "Avg Score"},
-                color=list(bucket_avg.values()),
-                color_continuous_scale="viridis"
-            )
-            fig1.update_layout(
-                plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
-                font_color='#94a3b8', showlegend=False
-            )
+                b = s.get("bucket", "?")
+                bucket_scores.setdefault(b, []).append(s["composite_score"])
+            ba = {b: sum(v)/len(v) for b, v in bucket_scores.items()}
+            fig1 = px.bar(x=list(ba.keys()), y=list(ba.values()),
+                          title="Avg score by bucket", labels={"x":"Bucket","y":"Avg Score"},
+                          color=list(ba.values()), color_continuous_scale="viridis")
+            fig1.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                               font_color="#94a3b8", showlegend=False)
             st.plotly_chart(fig1, use_container_width=True)
-        
+
         with c2:
-            # Verdict distribution
-            verdicts = [s['verdict'] for s in scores]
-            verdict_counts = {v: verdicts.count(v) for v in set(verdicts)}
-            colors = {'LAUNCH': '#22c55e', 'ITERATE': '#f59e0b', 'REWORK': '#ef4444', 'KILL': '#dc2626'}
-            
-            fig2 = px.pie(
-                names=list(verdict_counts.keys()),
-                values=list(verdict_counts.values()),
-                title="Verdict distribution",
-                color=list(verdict_counts.keys()),
-                color_discrete_map=colors
-            )
-            fig2.update_layout(
-                plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
-                font_color='#94a3b8'
-            )
+            verdicts = [s["verdict"] for s in scores]
+            vc = {v: verdicts.count(v) for v in set(verdicts)}
+            colors = {"LAUNCH":"#22c55e","ITERATE":"#f59e0b","REWORK":"#f97316","KILL":"#ef4444"}
+            fig2 = px.pie(names=list(vc.keys()), values=list(vc.values()),
+                          title="Verdict distribution",
+                          color=list(vc.keys()), color_discrete_map=colors)
+            fig2.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                               font_color="#94a3b8")
             st.plotly_chart(fig2, use_container_width=True)
-        
-        # Score distribution histogram
-        fig3 = px.histogram(
-            x=[s['composite_score'] for s in scores],
-            nbins=10,
-            title="Score distribution",
-            labels={"x": "Composite Score", "y": "Count"},
-            color_discrete_sequence=["#7c3aed"]
-        )
-        fig3.update_layout(
-            plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
-            font_color='#94a3b8'
-        )
+
+        fig3 = px.histogram(x=[s["composite_score"] for s in scores], nbins=10,
+                            title="Score distribution", labels={"x":"Score","y":"Count"},
+                            color_discrete_sequence=["#7c3aed"])
+        fig3.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                           font_color="#94a3b8")
         st.plotly_chart(fig3, use_container_width=True)
-        
-        # Platform breakdown
+
         c3, c4 = st.columns(2)
         with c3:
-            platform_scores = {}
+            ps = {}
             for s in scores:
-                ad = ad_lookup.get(s['ad_id'], {})
-                p = ad.get('platform', 'Unknown')
-                platform_scores.setdefault(p, []).append(s['composite_score'])
-            
-            plat_avg = {p: sum(v)/len(v) for p, v in platform_scores.items()}
-            fig4 = px.bar(
-                x=list(plat_avg.keys()), y=list(plat_avg.values()),
-                title="Avg score by platform",
-                color_discrete_sequence=["#06b6d4"]
-            )
-            fig4.update_layout(
-                plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
-                font_color='#94a3b8'
-            )
+                ad = ad_lookup.get(s["ad_id"], {})
+                ps.setdefault(ad.get("platform","?"), []).append(s["composite_score"])
+            pa = {p: sum(v)/len(v) for p, v in ps.items()}
+            fig4 = px.bar(x=list(pa.keys()), y=list(pa.values()),
+                          title="Avg score by platform", color_discrete_sequence=["#06b6d4"])
+            fig4.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                               font_color="#94a3b8")
             st.plotly_chart(fig4, use_container_width=True)
-        
+
         with c4:
-            audience_scores = {}
+            aus = {}
             for s in scores:
-                ad = ad_lookup.get(s['ad_id'], {})
-                a = ad.get('audience_segment', 'Unknown')
-                audience_scores.setdefault(a, []).append(s['composite_score'])
-            
-            aud_avg = {a: sum(v)/len(v) for a, v in audience_scores.items()}
-            fig5 = px.bar(
-                x=list(aud_avg.keys()), y=list(aud_avg.values()),
-                title="Avg score by audience",
-                color_discrete_sequence=["#ec4899"]
-            )
-            fig5.update_layout(
-                plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
-                font_color='#94a3b8'
-            )
+                ad = ad_lookup.get(s["ad_id"], {})
+                aus.setdefault(ad.get("audience_segment","?"), []).append(s["composite_score"])
+            aa = {a: sum(v)/len(v) for a, v in aus.items()}
+            fig5 = px.bar(x=list(aa.keys()), y=list(aa.values()),
+                          title="Avg score by audience", color_discrete_sequence=["#ec4899"])
+            fig5.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                               font_color="#94a3b8")
             st.plotly_chart(fig5, use_container_width=True)
-    
-    # ---- TAB 4: ALL ADS ----
+
+
+    # ── TAB 4: ALL ADS ────────────────────────────────────────────────────────
     with tab4:
         st.markdown("### 🔍 Browse all generated ads")
-        
-        # Filters
+        st.caption("Use the 'Generate Creative' button on any ad to render the actual PNG.")
+
         fc1, fc2, fc3 = st.columns(3)
         with fc1:
-            filter_bucket = st.selectbox("Filter by bucket", ["All"] + list(set(
-                s.get('bucket', ad_lookup.get(s['ad_id'], {}).get('bucket', '')) for s in scores
+            filter_bucket = st.selectbox("Bucket", ["All"] + sorted(set(
+                s.get("bucket", ad_lookup.get(s["ad_id"], {}).get("bucket", "")) for s in scores
             )))
         with fc2:
-            filter_verdict = st.selectbox("Filter by verdict", ["All", "LAUNCH", "ITERATE", "REWORK", "KILL"])
+            filter_verdict = st.selectbox("Verdict", ["All", "LAUNCH", "ITERATE", "REWORK", "KILL"])
         with fc3:
-            filter_platform = st.selectbox("Filter by platform", ["All"] + list(set(
-                ad_lookup.get(s['ad_id'], {}).get('platform', '') for s in scores
+            filter_platform = st.selectbox("Platform", ["All"] + sorted(set(
+                ad_lookup.get(s["ad_id"], {}).get("platform", "") for s in scores
             )))
-        
-        for s in scores_sorted:
-            ad = ad_lookup.get(s['ad_id'], {})
-            bucket = s.get('bucket', ad.get('bucket', ''))
-            platform = ad.get('platform', '')
-            
-            # Apply filters
-            if filter_bucket != "All" and bucket != filter_bucket:
-                continue
-            if filter_verdict != "All" and s['verdict'] != filter_verdict:
-                continue
-            if filter_platform != "All" and platform != filter_platform:
-                continue
-            
-            with st.expander(f"**{s['ad_id']}** | Score: {s['composite_score']} | {s['verdict']} | {bucket} | {platform}"):
-                st.markdown(f"**Headline:** {ad.get('headline', 'N/A')}")
-                st.markdown(f"**Primary text:** {ad.get('primary_text', 'N/A')}")
-                if ad.get('description'):
-                    st.markdown(f"**Description:** {ad['description']}")
-                st.markdown(f"**CTA:** {ad.get('cta_text', 'N/A')}")
-                st.markdown(f"**Hook type:** {ad.get('hook_type', 'N/A')}")
-                st.markdown(f"**Audience:** {ad.get('audience_segment', 'N/A')}")
-                st.markdown(f"**Key proof point:** {ad.get('key_proof_point', 'N/A')}")
-                if ad.get('image_prompt'):
-                    st.markdown(f"**🎨 Image concept:** {ad['image_prompt']}")
-                if ad.get('video_script'):
-                    st.markdown(f"**🎬 Video script:** {ad['video_script']}")
-                
-                st.divider()
-                st.markdown(f"💪 **Strength:** {s.get('top_strength', 'N/A')}")
-                st.markdown(f"🔧 **Improve:** {s.get('improvement', 'N/A')}")
-    
-    # ---- TAB 5: RECOMMENDATIONS ----
+
+        shown = 0
+        for i, s in enumerate(scores_sorted):
+            ad = ad_lookup.get(s["ad_id"], {})
+            bucket   = s.get("bucket", ad.get("bucket", ""))
+            platform = ad.get("platform", "")
+
+            if filter_bucket  != "All" and bucket   != filter_bucket:  continue
+            if filter_verdict != "All" and s["verdict"] != filter_verdict: continue
+            if filter_platform != "All" and platform != filter_platform: continue
+
+            with st.expander(
+                f"**{s['ad_id']}** | {s['composite_score']}/100 | {s['verdict']} | {bucket} | {platform}"
+            ):
+                creative_card("", s, ad, key_prefix=f"all{i}")
+                with st.container():
+                    st.markdown(f"**Audience:** {ad.get('audience_segment','')}")
+                    st.markdown(f"**Hook type:** {ad.get('hook_type','')}")
+                    st.markdown(f"**Key proof point:** {ad.get('key_proof_point','')}")
+                    if ad.get("image_prompt"):
+                        st.markdown(f"🎨 **Image concept:** {ad['image_prompt']}")
+                    if ad.get("video_script"):
+                        st.markdown(f"🎬 **Video script:** {ad['video_script']}")
+            shown += 1
+
+        if shown == 0:
+            st.info("No ads match the current filters.")
+
+
+    # ── TAB 5: RECOMMENDATIONS ────────────────────────────────────────────────
     with tab5:
         st.markdown("### 🎯 Strategic recommendations")
-        
+
         st.markdown("""
-        <div class="ad-card" style="border-left-color: #22c55e;">
-            <h4 style="color:#22c55e; margin-top:0;">✅ Immediate wins</h4>
+        <div class="ad-card" style="border-left-color:#22c55e;">
+            <h4 style="color:#22c55e;margin-top:0;">✅ Immediate wins</h4>
             <ol style="color:#cbd5e1;">
-                <li><strong>Double down on STARTUP bucket</strong> — your highest-scoring ads all leverage the ₹25L funding and D2C challenge. No competitor can match this.</li>
-                <li><strong>Lead every ad with a specific proof point</strong> — ads with named students + companies score 15-20 points higher than generic claims.</li>
-                <li><strong>Add April 19 deadline to ALL ads</strong> — urgency in CTA boosts score by ~8 points on average.</li>
+                <li><strong>Double down on STARTUP bucket</strong> — top-scoring ads all leverage the ₹25L Hustle Program + D2C Challenge. No competitor can match this.</li>
+                <li><strong>Lead every ad with a specific proof point</strong> — named students + company logos score 15–20 pts higher than generic claims.</li>
+                <li><strong>Add "April 19" to ALL ads</strong> — urgency in CTA lifts score ~8 pts on average.</li>
             </ol>
         </div>
-        
-        <div class="ad-card" style="border-left-color: #f59e0b;">
-            <h4 style="color:#f59e0b; margin-top:0;">⚠️ Gaps to fill</h4>
+        <div class="ad-card" style="border-left-color:#f59e0b;">
+            <h4 style="color:#f59e0b;margin-top:0;">⚠️ Gaps to fill</h4>
             <ol style="color:#cbd5e1;">
-                <li><strong>Video content is underdeveloped</strong> — generate more YouTube pre-roll and Instagram Reels scripts. Video ads have 2x engagement on Meta.</li>
-                <li><strong>Aspiring founders segment is underserved</strong> — only 5/20 ads target founders. This is SSB's strongest unique segment.</li>
-                <li><strong>Google Search ads need differentiation</strong> — current search ads are functional but generic. Add more unique SSB angles.</li>
+                <li><strong>Video is underdeveloped</strong> — generate more YouTube pre-roll + Instagram Reels scripts. Video has 2× engagement on Meta.</li>
+                <li><strong>Founders segment is underserved</strong> — only 5/20 ads target aspiring founders. This is SSB's strongest unique angle.</li>
+                <li><strong>Google Search lacks differentiation</strong> — current search ads are functional but generic. Add more SSB-specific angles.</li>
             </ol>
         </div>
-        
-        <div class="ad-card" style="border-left-color: #7c3aed;">
-            <h4 style="color:#7c3aed; margin-top:0;">🧪 Creative angles to test next</h4>
+        <div class="ad-card" style="border-left-color:#7c3aed;">
+            <h4 style="color:#7c3aed;margin-top:0;">🧪 Creative angles to test next</h4>
             <ol style="color:#cbd5e1;">
                 <li><strong>"Your office has a startup floor"</strong> — campus ecosystem angle. No IIM, MU, or MESA can claim 10+ live startups on campus.</li>
-                <li><strong>"₹25K on Day 1"</strong> — D2C challenge funding as a hook. Tangible, immediate, unique.</li>
-                <li><strong>"Scaler put more people in Amazon than all IITs"</strong> — legacy proof transferred to SSB credibility.</li>
-                <li><strong>Student founder vs. MBA student side-by-side</strong> — visual format showing what SSB students DO vs what MBA students STUDY.</li>
+                <li><strong>"₹50K on Day 1"</strong> — D2C challenge funding as a hook. Tangible, immediate, unique.</li>
+                <li><strong>"Scaler placed more people in Amazon than all IITs"</strong> — legacy proof transferred to SSB credibility.</li>
+                <li><strong>Student founder vs. MBA student side-by-side</strong> — visual showing what SSB students DO vs what MBA students STUDY.</li>
             </ol>
         </div>
-        
-        <div class="ad-card" style="border-left-color: #06b6d4;">
-            <h4 style="color:#06b6d4; margin-top:0;">💰 Suggested budget allocation</h4>
+        <div class="ad-card" style="border-left-color:#06b6d4;">
+            <h4 style="color:#06b6d4;margin-top:0;">💰 Suggested budget split</h4>
             <ol style="color:#cbd5e1;">
                 <li><strong>Meta (Feed + Stories): 45%</strong> — highest creative flexibility, best for visual storytelling and social proof</li>
-                <li><strong>Google Search: 25%</strong> — captures high-intent "business school" and "career change" searches</li>
-                <li><strong>LinkedIn: 20%</strong> — career pivoters are most active here, best for professional positioning</li>
-                <li><strong>YouTube: 10%</strong> — video pre-roll for awareness, retarget search visitors</li>
+                <li><strong>Google Search: 25%</strong> — high-intent "business school" and "career change" traffic</li>
+                <li><strong>LinkedIn: 20%</strong> — career pivoters most active here</li>
+                <li><strong>YouTube: 10%</strong> — video pre-roll for awareness; retarget search visitors</li>
             </ol>
         </div>
         """, unsafe_allow_html=True)
 
 
-# ---- FOOTER ----
+# ── Footer ─────────────────────────────────────────────────────────────────────
 st.divider()
 st.markdown("""
-<div style="text-align:center; color:#475569; font-size:0.85rem;">
-    Built with Claude API + Streamlit | Scaler School of Business — AI Ad Creative Factory
-    <br>Hackathon MVP — 5-hour build | April 2026
+<div style="text-align:center;color:#475569;font-size:0.82rem;">
+    🏭 AI Ad Creative Factory — Scaler School of Business &nbsp;|&nbsp;
+    Claude API + Streamlit + Pillow &nbsp;|&nbsp; Intake 3 — April 2026
 </div>
 """, unsafe_allow_html=True)
