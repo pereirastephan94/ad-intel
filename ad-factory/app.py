@@ -155,7 +155,7 @@ def parse_prompt_to_brief(prompt: str) -> dict:
     }
 
 
-def generate_ads_with_api(brief: dict, api_key: str):
+def generate_ads_with_anthropic(brief: dict, api_key: str):
     from prompts.p01_generate_ads import SYSTEM_PROMPT_GENERATE, USER_PROMPT_GENERATE
     client = anthropic.Anthropic(api_key=api_key)
     r = client.messages.create(
@@ -166,7 +166,7 @@ def generate_ads_with_api(brief: dict, api_key: str):
     return json.loads(r.content[0].text)
 
 
-def score_ads_with_api(ads, api_key: str):
+def score_ads_with_anthropic(ads, api_key: str):
     from prompts.p03_judge_ads import SYSTEM_PROMPT_JUDGE, USER_PROMPT_JUDGE_BATCH
     client = anthropic.Anthropic(api_key=api_key)
     r = client.messages.create(
@@ -177,6 +177,63 @@ def score_ads_with_api(ads, api_key: str):
         )}]
     )
     return json.loads(r.content[0].text)
+
+
+def generate_ads_with_grok(brief: dict, grok_key: str):
+    """Generate 20 ad copies using Grok instead of Claude."""
+    import requests
+    from prompts.p01_generate_ads import SYSTEM_PROMPT_GENERATE, USER_PROMPT_GENERATE
+    r = requests.post(
+        "https://api.x.ai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
+        json={
+            "model": "grok-4-fast-non-reasoning",
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT_GENERATE},
+                {"role": "user", "content": USER_PROMPT_GENERATE.format(**brief)}
+            ],
+            "max_tokens": 8000,
+            "temperature": 0.8
+        },
+        timeout=120
+    )
+    r.raise_for_status()
+    text = r.json()["choices"][0]["message"]["content"]
+    # Extract JSON from possible markdown code blocks
+    if "```json" in text:
+        text = text.split("```json")[1].split("```")[0]
+    elif "```" in text:
+        text = text.split("```")[1].split("```")[0]
+    return json.loads(text.strip())
+
+
+def score_ads_with_grok(ads, grok_key: str):
+    """Score ads using Grok instead of Claude."""
+    import requests
+    from prompts.p03_judge_ads import SYSTEM_PROMPT_JUDGE, USER_PROMPT_JUDGE_BATCH
+    r = requests.post(
+        "https://api.x.ai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {grok_key}", "Content-Type": "application/json"},
+        json={
+            "model": "grok-4-fast-non-reasoning",
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT_JUDGE},
+                {"role": "user", "content": USER_PROMPT_JUDGE_BATCH.format(
+                    num_ads=len(ads), ads_json=json.dumps(ads, indent=2)
+                )}
+            ],
+            "max_tokens": 8000,
+            "temperature": 0.3
+        },
+        timeout=120
+    )
+    r.raise_for_status()
+    text = r.json()["choices"][0]["message"]["content"]
+    if "```json" in text:
+        text = text.split("```json")[1].split("```")[0]
+    elif "```" in text:
+        text = text.split("```")[1].split("```")[0]
+    return json.loads(text.strip())
 
 
 def render_creative(ad: dict, size: str = "9:16", bg_image: str = None) -> str | None:
@@ -453,67 +510,57 @@ st.divider()
 with st.container():
     st.markdown("### Step 1 — Describe what you want")
 
-    col_brief, col_opts = st.columns([3, 1])
+    user_prompt = st.text_area(
+        "Your campaign brief",
+        height=100,
+        placeholder=(
+            "e.g.  Create a Meta campaign around how our students built a D2C brand "
+            "to ₹20L revenue. Real student photos in the background for authenticity. "
+            "Target career pivoters and aspiring founders. Deadline: April 19."
+        ),
+        label_visibility="collapsed",
+    )
 
-    with col_brief:
-        user_prompt = st.text_area(
-            "Your campaign brief",
-            height=100,
-            placeholder=(
-                "e.g.  Create a Meta campaign around how our students built a D2C brand "
-                "to ₹20L revenue. Real student photos in the background for authenticity. "
-                "Target career pivoters and aspiring founders. Deadline: April 19."
-            ),
-            label_visibility="collapsed",
+    key_col1, key_col2 = st.columns([2, 2])
+    with key_col1:
+        anthropic_api_key = st.text_input(
+            "🧠 Claude API key (Anthropic)", type="password",
+            help="Generates & scores ad copies. Get yours at console.anthropic.com",
         )
-
-    with col_opts:
-        mode = st.radio("Mode", ["🎭 Demo", "🔑 Live (Claude API)"], index=0)
-        api_key = None
-        if mode == "🔑 Live (Claude API)":
-            api_key = st.text_input("Anthropic API key", type="password")
+    with key_col2:
+        grok_api_key = st.text_input(
+            "🎨 Grok API key (xAI)", type="password",
+            help="Enhances images with design principles. Get yours at console.x.ai",
+        )
 
     generate_btn = st.button("🚀 Generate Ad Copies", type="primary", use_container_width=False)
-
-    # Grok API key — primary image tool
-    with st.expander("🎨 Grok Image Settings", expanded=False):
-        st.caption(
-            "Grok enhances your uploaded photos into ad-ready backgrounds using design principles "
-            "(Balance, Contrast, Emphasis, etc.). Upload photos per ad card below."
-        )
-        grok_api_key = st.text_input(
-            "Grok API key (xAI)", type="password",
-            help="Get yours at console.x.ai",
-        )
 
 
 # ── Generate on button click ──────────────────────────────────────────────────
 if generate_btn:
-    if mode == "🎭 Demo":
-        with st.spinner("Loading demo data…"):
+    if not anthropic_api_key:
+        # Fall back to demo data if no Claude key
+        with st.spinner("Loading demo data (add Claude API key for custom copies)…"):
             st.session_state.ads    = SAMPLE_ADS
             st.session_state.scores = SAMPLE_SCORES
-        st.success("✅ Loaded 20 demo ads — scroll down to browse and generate creatives!")
+        st.info("💡 Using demo data. Add your Claude API key above to generate custom copies from your brief.")
     else:
-        if not api_key:
-            st.error("Add your Anthropic API key to use live mode.")
-        else:
-            brief = parse_prompt_to_brief(user_prompt or "Drive Intake 3 applications — April 19 deadline")
-            with st.spinner("🧠 Generating 20 ad copies with Claude…"):
-                try:
-                    st.session_state.ads = generate_ads_with_api(brief, api_key)
-                except Exception as e:
-                    st.error(f"Generation error: {e}")
-                    st.session_state.ads = SAMPLE_ADS
+        brief = parse_prompt_to_brief(user_prompt or "Drive Intake 3 applications — April 19 deadline")
+        with st.spinner("🧠 Claude generating 20 ad copies from your brief…"):
+            try:
+                st.session_state.ads = generate_ads_with_anthropic(brief, anthropic_api_key)
+            except Exception as e:
+                st.error(f"Generation error: {e}")
+                st.session_state.ads = SAMPLE_ADS
 
-            with st.spinner("⚖️ Scoring all 20 ads…"):
-                try:
-                    st.session_state.scores = score_ads_with_api(st.session_state.ads, api_key)
-                except Exception as e:
-                    st.error(f"Scoring error: {e}")
-                    st.session_state.scores = SAMPLE_SCORES
+        with st.spinner("⚖️ Claude scoring all ads…"):
+            try:
+                st.session_state.scores = score_ads_with_anthropic(st.session_state.ads, anthropic_api_key)
+            except Exception as e:
+                st.error(f"Scoring error: {e}")
+                st.session_state.scores = SAMPLE_SCORES
 
-            st.success(f"✅ {len(st.session_state.ads)} ads generated and scored!")
+        st.success(f"✅ {len(st.session_state.ads)} ads generated and scored from your brief!")
 
 
 # ══════════════════════════════════════════════════════════════════════════════

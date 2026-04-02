@@ -120,9 +120,14 @@ REQUIREMENTS:
 5. Every ad MUST include at least 1 specific proof point (real name, number, or verifiable fact from brand facts)
 6. No generic "transform your career" language — be ruthlessly specific
 7. CTAs must include the deadline (April 19) where possible
-8. Character limits: Headlines <40 chars for Google, <125 for Meta. Primary text <125 chars Meta feed, <90 stories
-9. Image prompts must describe a concept that ADDS INFORMATION (not decorative)
-10. Video scripts should be 15-sec max, scene-by-scene
+
+CHARACTER LIMITS (CRITICAL — these are hard constraints for ad creative design):
+8. HEADLINES: Maximum 30-35 characters. This is a design constraint for the visual creative. Every headline MUST be punchy and under 35 chars. Examples: "₹25L to build your startup." (28 chars), "Your MBA taught case studies." (30 chars)
+9. PRIMARY TEXT (subheader): Maximum 90-100 characters. This appears as body copy on the creative. Keep it tight.
+10. CTA TEXT: Maximum 25 characters. Short, action-oriented. Examples: "Apply Before April 19 >", "Download Curriculum >"
+
+11. Image prompts must describe a concept that ADDS INFORMATION (not decorative)
+12. Video scripts should be 15-sec max, scene-by-scene
 
 Make these ads demonstrably better than anything Masters Union, MESA, or any IIM is running today. Be bold. Be specific. Be conversion-obsessed.
 
