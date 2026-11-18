@@ -1,0 +1,208 @@
+{
+ "done": [
+  {
+   "media": "all",
+   "sort": "total_impressions",
+   "dir": "desc"
+  }
+ ],
+ "queue": [
+  {
+   "media": "all",
+   "sort": "total_impressions",
+   "dir": "asc"
+  },
+  {
+   "media": "all",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "media": "video",
+   "sort": "total_impressions",
+   "dir": "desc"
+  },
+  {
+   "media": "video",
+   "sort": "total_impressions",
+   "dir": "asc"
+  },
+  {
+   "media": "video",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "media": "image",
+   "sort": "total_impressions",
+   "dir": "desc"
+  },
+  {
+   "media": "image",
+   "sort": "total_impressions",
+   "dir": "asc"
+  },
+  {
+   "media": "image",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "desc"
+  },
+  {
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "asc"
+  },
+  {
+   "media": "meme",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "from": "2026-11-16",
+   "to": "2026-11-18",
+   "span": 3
+  },
+  {
+   "from": "2026-11-13",
+   "to": "2026-11-15",
+   "span": 3
+  },
+  {
+   "from": "2026-11-10",
+   "to": "2026-11-12",
+   "span": 3
+  },
+  {
+   "from": "2026-11-07",
+   "to": "2026-11-09",
+   "span": 3
+  },
+  {
+   "from": "2026-11-04",
+   "to": "2026-11-06",
+   "span": 3
+  },
+  {
+   "from": "2026-11-01",
+   "to": "2026-11-03",
+   "span": 3
+  },
+  {
+   "from": "2026-10-29",
+   "to": "2026-10-31",
+   "span": 3
+  },
+  {
+   "from": "2026-10-26",
+   "to": "2026-10-28",
+   "span": 3
+  },
+  {
+   "from": "2026-10-23",
+   "to": "2026-10-25",
+   "span": 3
+  },
+  {
+   "from": "2026-10-20",
+   "to": "2026-10-22",
+   "span": 3
+  },
+  {
+   "from": "2026-10-17",
+   "to": "2026-10-19",
+   "span": 3
+  },
+  {
+   "from": "2026-10-14",
+   "to": "2026-10-16",
+   "span": 3
+  },
+  {
+   "from": "2026-10-11",
+   "to": "2026-10-13",
+   "span": 3
+  },
+  {
+   "from": "2026-10-08",
+   "to": "2026-10-10",
+   "span": 3
+  },
+  {
+   "from": "2026-09-24",
+   "to": "2026-10-07",
+   "span": 14
+  },
+  {
+   "from": "2026-09-10",
+   "to": "2026-09-23",
+   "span": 14
+  },
+  {
+   "from": "2026-08-27",
+   "to": "2026-09-09",
+   "span": 14
+  },
+  {
+   "from": "2026-08-13",
+   "to": "2026-08-26",
+   "span": 14
+  },
+  {
+   "from": "2026-07-30",
+   "to": "2026-08-12",
+   "span": 14
+  },
+  {
+   "from": "2026-07-16",
+   "to": "2026-07-29",
+   "span": 14
+  },
+  {
+   "from": "2026-07-02",
+   "to": "2026-07-15",
+   "span": 14
+  },
+  {
+   "from": "2026-06-18",
+   "to": "2026-07-01",
+   "span": 14
+  },
+  {
+   "from": "2026-06-04",
+   "to": "2026-06-17",
+   "span": 14
+  },
+  {
+   "from": "2026-05-21",
+   "to": "2026-06-03",
+   "span": 14
+  },
+  {
+   "from": "2025-11-18",
+   "to": "2026-05-22",
+   "span": 185
+  },
+  {
+   "to": "2025-11-17",
+   "span": 9999
+  }
+ ],
+ "total": 320,
+ "log": [
+  "2026-11-18T20:27:35.769Z   video 2675241806240281 ok (38.2s, 16 stills)",
+  "2026-11-18T20:27:55.383Z   video 997098783438393 ok (58.7s, 16 stills)",
+  "2026-11-18T20:28:13.294Z   video 1643453487361491 ok (61.9s, 16 stills)",
+  "2026-11-18T20:28:41.056Z   video 2124234518477657 ok (105.5s, 16 stills)",
+  "2026-11-18T20:29:01.973Z   video 1136750059311367 ok (60.1s, 16 stills)",
+  "2026-11-18T20:29:16.232Z   video 1618980263048227 ok (39.3s, 16 stills)",
+  "2026-11-18T20:29:33.492Z   video 1363507122202704 ok (44s, 16 stills)",
+  "2026-11-18T20:30:01.066Z   video 2146264469300756 ok (90.1s, 16 stills)",
+  "2026-11-18T20:30:20.934Z   video 28765653616421636 ok (61.7s, 16 stills)",
+  "2026-11-18T20:30:21.339Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 320), 30 new, 30 unique of ~320"
+ ]
+}

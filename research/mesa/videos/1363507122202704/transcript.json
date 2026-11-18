@@ -1,0 +1,117 @@
+{
+ "asset": "1363507122202704",
+ "first_seen_in": "1488536809855650",
+ "duration_s": 44,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 10.8,
+   "why": "scene change"
+  },
+  {
+   "t": 16,
+   "why": "scene change"
+  },
+  {
+   "t": 21,
+   "why": "scene change"
+  },
+  {
+   "t": 21.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22.3,
+   "why": "scene change"
+  },
+  {
+   "t": 23.3,
+   "why": "scene change"
+  },
+  {
+   "t": 26.2,
+   "why": "scene change"
+  },
+  {
+   "t": 33.3,
+   "why": "scene change"
+  },
+  {
+   "t": 43.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Average salary post the program is upwards of 25 lakhs and students are working in some remarkably exciting startups in roles like Founders Office, Entrepreneur in residence, category lead, marketing lead, product strategist, even top VCs like Titan Capital, Elevation have hired from Mesa. But I keep telling students that don't come here just for the jobs, Mesa is much more than that. Startups like students who have built a business, done sales, built products using NoCode AI, built agents and those who understand what zero to one means. That's what the program focuses on. We like students who will invest in learning. Then our super strong careers team will make sure you get a great job.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.9,
+    "text": "Average salary post the program is upwards of 25 lakhs and students are working in some"
+   },
+   {
+    "start": 4.9,
+    "end": 9.4,
+    "text": "remarkably exciting startups in roles like Founders Office, Entrepreneur in residence,"
+   },
+   {
+    "start": 9.4,
+    "end": 15.1,
+    "text": "category lead, marketing lead, product strategist, even top VCs like Titan Capital, Elevation have"
+   },
+   {
+    "start": 15.1,
+    "end": 20,
+    "text": "hired from Mesa. But I keep telling students that don't come here just for the jobs, Mesa is much"
+   },
+   {
+    "start": 20,
+    "end": 24.7,
+    "text": "more than that. Startups like students who have built a business, done sales, built products"
+   },
+   {
+    "start": 24.7,
+    "end": 30.3,
+    "text": "using NoCode AI, built agents and those who understand what zero to one means. That's what"
+   },
+   {
+    "start": 30.3,
+    "end": 35.5,
+    "text": "the program focuses on. We like students who will invest in learning. Then our super strong"
+   },
+   {
+    "start": 35.5,
+    "end": 37.5,
+    "text": "careers team will make sure you get a great job."
+   }
+  ]
+ }
+}

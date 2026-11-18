@@ -1,0 +1,127 @@
+{
+ "asset": "997098783438393",
+ "first_seen_in": "40210023251944395",
+ "duration_s": 58.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.8,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 33.5,
+   "why": "scene change"
+  },
+  {
+   "t": 37.4,
+   "why": "scene change"
+  },
+  {
+   "t": 39.8,
+   "why": "scene change"
+  },
+  {
+   "t": 50.2,
+   "why": "scene change"
+  },
+  {
+   "t": 58.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Mesa Alumni see a 50 to 60% increase in salaries one year into the job that they got post Mesa. And even when we speak to the managers of these alumni, they usually end up saying very similar things. You know, taking massive ownership is a solid decision maker who understands business trade-offs, very good at talking to customers, doing sales, distribution, very good at data, AI, can present to senior leaders. And that's why more than 100 plus startups trust talent from Mesa. This includes the big ones like Urban Company, Zepto, Zomato, Swiggy, fast growing startups, AI startups. I think it ties back to how Mesa chooses its students, the experience that they get here, people that they get to know and meet, the real businesses that they get to build here as a part of the program. And I think it just prepares them for the world that they're going to really enter into, which is going to be a post AI era world.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.6,
+    "text": "Mesa Alumni see a 50 to 60% increase in salaries one year into the job that they got post Mesa."
+   },
+   {
+    "start": 7.2,
+    "end": 11,
+    "text": "And even when we speak to the managers of these alumni, they usually end up saying very similar"
+   },
+   {
+    "start": 11,
+    "end": 15.4,
+    "text": "things. You know, taking massive ownership is a solid decision maker who understands business"
+   },
+   {
+    "start": 15.4,
+    "end": 21.4,
+    "text": "trade-offs, very good at talking to customers, doing sales, distribution, very good at data, AI,"
+   },
+   {
+    "start": 21.4,
+    "end": 27.5,
+    "text": "can present to senior leaders. And that's why more than 100 plus startups trust talent from Mesa."
+   },
+   {
+    "start": 27.6,
+    "end": 32.5,
+    "text": "This includes the big ones like Urban Company, Zepto, Zomato, Swiggy, fast growing startups,"
+   },
+   {
+    "start": 32.5,
+    "end": 39.8,
+    "text": "AI startups. I think it ties back to how Mesa chooses its students, the experience that they get here,"
+   },
+   {
+    "start": 39.8,
+    "end": 44.9,
+    "text": "people that they get to know and meet, the real businesses that they get to build here as a part"
+   },
+   {
+    "start": 44.9,
+    "end": 49.8,
+    "text": "of the program. And I think it just prepares them for the world that they're going to really enter"
+   },
+   {
+    "start": 49.8,
+    "end": 52.4,
+    "text": "into, which is going to be a post AI era world."
+   }
+  ]
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "asset": "2124234518477657",
+ "first_seen_in": "1102583582400522",
+ "duration_s": 105.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 16.6,
+   "why": "scene change"
+  },
+  {
+   "t": 26.4,
+   "why": "scene change"
+  },
+  {
+   "t": 32.4,
+   "why": "scene change"
+  },
+  {
+   "t": 47.2,
+   "why": "scene change"
+  },
+  {
+   "t": 49.6,
+   "why": "scene change"
+  },
+  {
+   "t": 51.9,
+   "why": "scene change"
+  },
+  {
+   "t": 61.4,
+   "why": "scene change"
+  },
+  {
+   "t": 64.5,
+   "why": "scene change"
+  },
+  {
+   "t": 79.6,
+   "why": "scene change"
+  },
+  {
+   "t": 105.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "the actual efficient size of a company shrinking very rapidly. And so the future will be almost all startups. Finally, somebody said it. I completely agree with Naval Ravi Khan. I feel the size of an average company is going to drop to 30 employees. And this is something that future generations that are looking for wealth creation, jobs, opportunities need to keep in mind. Historically, our entire business education system has trained people who become the 10,001th employee in our MNC. Trust me, those kind of jobs are gone. Almost 95% of jobs in MNCs are going to be taken away by AI. And what that means is, theoretically speaking, there are only two kinds of roles that are going to remain. Either you become the entrepreneur or you become the person who works very closely with an entrepreneur. Now, both these kinds of personas need to learn how to build things from zero to one, how to build real businesses with real revenue, how to talk to customers, how to launch product. And this is exactly what the business education space in India and the world does not teach. And that's where Mesa comes into the picture. We've built a curriculum which is focused specifically on new age skills that develop entrepreneurs, that develop people who can work with entrepreneurs. We have an entire system of startups where students get to work on projects with startups to understand how decision making in startups works. We've got an entire system where each one of our students build a real business from scratch with real product, reaching revenues of almost one crore. We've got an in-house incubator and we've got a career prep engine that makes sure that each one of our students lands fantastic jobs where they get to work with founders directly solving very pressing problems for India's startup ecosystem. If you are somebody who's interested, then Mesa is still accepting applications. Apply as quickly as possible.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.4,
+    "text": "the actual efficient size of a company shrinking very rapidly."
+   },
+   {
+    "start": 4.6,
+    "end": 7.8,
+    "text": "And so the future will be almost all startups."
+   },
+   {
+    "start": 7.9,
+    "end": 9.6,
+    "text": "Finally, somebody said it."
+   },
+   {
+    "start": 9.7,
+    "end": 12,
+    "text": "I completely agree with Naval Ravi Khan."
+   },
+   {
+    "start": 12.2,
+    "end": 15.6,
+    "text": "I feel the size of an average company is going to drop to 30 employees."
+   },
+   {
+    "start": 15.6,
+    "end": 18.4,
+    "text": "And this is something that future generations that are looking for wealth"
+   },
+   {
+    "start": 18.4,
+    "end": 21.4,
+    "text": "creation, jobs, opportunities need to keep in mind."
+   },
+   {
+    "start": 21.6,
+    "end": 26,
+    "text": "Historically, our entire business education system has trained people who"
+   },
+   {
+    "start": 26,
+    "end": 28.7,
+    "text": "become the 10,001th employee in our MNC."
+   },
+   {
+    "start": 28.8,
+    "end": 30.3,
+    "text": "Trust me, those kind of jobs are gone."
+   },
+   {
+    "start": 30.4,
+    "end": 34,
+    "text": "Almost 95% of jobs in MNCs are going to be taken away by AI."
+   },
+   {
+    "start": 34,
+    "end": 37.4,
+    "text": "And what that means is, theoretically speaking, there are only two kinds of"
+   },
+   {
+    "start": 37.4,
+    "end": 38.5,
+    "text": "roles that are going to remain."
+   },
+   {
+    "start": 38.5,
+    "end": 41.4,
+    "text": "Either you become the entrepreneur or you become the person who works"
+   },
+   {
+    "start": 41.4,
+    "end": 42.9,
+    "text": "very closely with an entrepreneur."
+   },
+   {
+    "start": 42.9,
+    "end": 47.2,
+    "text": "Now, both these kinds of personas need to learn how to build things from zero to one,"
+   },
+   {
+    "start": 47.3,
+    "end": 50.9,
+    "text": "how to build real businesses with real revenue, how to talk to customers,"
+   },
+   {
+    "start": 50.9,
+    "end": 51.9,
+    "text": "how to launch product."
+   },
+   {
+    "start": 51.9,
+    "end": 56.2,
+    "text": "And this is exactly what the business education space in India and the world"
+   },
+   {
+    "start": 56.2,
+    "end": 57,
+    "text": "does not teach."
+   },
+   {
+    "start": 57,
+    "end": 58.7,
+    "text": "And that's where Mesa comes into the picture."
+   },
+   {
+    "start": 58.7,
+    "end": 63.4,
+    "text": "We've built a curriculum which is focused specifically on new age skills"
+   },
+   {
+    "start": 63.4,
+    "end": 66.5,
+    "text": "that develop entrepreneurs, that develop people who can work with entrepreneurs."
+   },
+   {
+    "start": 66.6,
+    "end": 70.8,
+    "text": "We have an entire system of startups where students get to work on projects"
+   },
+   {
+    "start": 70.8,
+    "end": 73.8,
+    "text": "with startups to understand how decision making in startups works."
+   },
+   {
+    "start": 73.9,
+    "end": 78.1,
+    "text": "We've got an entire system where each one of our students build a real business"
+   },
+   {
+    "start": 78.1,
+    "end": 81.2,
+    "text": "from scratch with real product, reaching revenues of almost one crore."
+   },
+   {
+    "start": 81.3,
+    "end": 84.7,
+    "text": "We've got an in-house incubator and we've got a career prep engine that"
+   },
+   {
+    "start": 84.7,
+    "end": 88.2,
+    "text": "makes sure that each one of our students lands fantastic jobs where they get to"
+   },
+   {
+    "start": 88.2,
+    "end": 93,
+    "text": "work with founders directly solving very pressing problems for India's startup ecosystem."
+   },
+   {
+    "start": 93.2,
+    "end": 97.7,
+    "text": "If you are somebody who's interested, then Mesa is still accepting applications."
+   },
+   {
+    "start": 97.8,
+    "end": 99,
+    "text": "Apply as quickly as possible."
+   }
+  ]
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "asset": "1618980263048227",
+ "first_seen_in": "2378723356222164",
+ "duration_s": 39.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.3,
+   "why": "scene change"
+  },
+  {
+   "t": 6.2,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 17.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21.6,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 27.4,
+   "why": "scene change"
+  },
+  {
+   "t": 31.3,
+   "why": "scene change"
+  },
+  {
+   "t": 39,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Get up every day, go to office, do the same job over and over again. So many working professionals are just stuck in a rut. There is no learning, there is no challenge, there is no growth, there is no excitement. You know, we built the hybrid formatted PGP in business, AI and entrepreneurship for such folks who cannot quit their jobs but want to truly challenge themselves, learn new things, try a crack at entrepreneurship, use AI to build a tech product from scratch. The outcome could be you doing things you never imagined that you could.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.8,
+    "text": "Get up every day, go to office, do the same job over and over again."
+   },
+   {
+    "start": 4.8,
+    "end": 7.4,
+    "text": "So many working professionals are just stuck in a rut."
+   },
+   {
+    "start": 7.4,
+    "end": 11.8,
+    "text": "There is no learning, there is no challenge, there is no growth, there is no excitement."
+   },
+   {
+    "start": 11.8,
+    "end": 17.7,
+    "text": "You know, we built the hybrid formatted PGP in business, AI and entrepreneurship for such folks"
+   },
+   {
+    "start": 17.7,
+    "end": 22.8,
+    "text": "who cannot quit their jobs but want to truly challenge themselves, learn new things,"
+   },
+   {
+    "start": 22.8,
+    "end": 27.4,
+    "text": "try a crack at entrepreneurship, use AI to build a tech product from scratch."
+   },
+   {
+    "start": 27.4,
+    "end": 32.5,
+    "text": "The outcome could be you doing things you never imagined that you could."
+   }
+  ]
+ }
+}

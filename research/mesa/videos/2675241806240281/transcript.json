@@ -1,0 +1,122 @@
+{
+ "asset": "2675241806240281",
+ "first_seen_in": "2199957264231150",
+ "duration_s": 38.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.1,
+   "why": "scene change"
+  },
+  {
+   "t": 6.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.6,
+   "why": "scene change"
+  },
+  {
+   "t": 17.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "scene change"
+  },
+  {
+   "t": 25.4,
+   "why": "scene change"
+  },
+  {
+   "t": 29.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 37.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We are looking for 200 special people to be a part of the fifth cohort here at Mesa. These people will be trained by founders, business leaders and VCs to build their own companies or to work with leadership positions in startups. The way we do this is in three ways. A new age curriculum that is taught by business experts, via the case-based methodology in the classroom, live projects with startups where every student gets to truly understand how a startup works, and experiences where students build their own startups from scratch. If you are somebody who is interested, you should apply first.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.1,
+    "text": "We are looking for 200 special people to be a part of the fifth cohort here at Mesa."
+   },
+   {
+    "start": 5.1,
+    "end": 9.8,
+    "text": "These people will be trained by founders, business leaders and VCs to build their own companies"
+   },
+   {
+    "start": 9.8,
+    "end": 12.7,
+    "text": "or to work with leadership positions in startups."
+   },
+   {
+    "start": 12.7,
+    "end": 14.9,
+    "text": "The way we do this is in three ways."
+   },
+   {
+    "start": 14.9,
+    "end": 17.8,
+    "text": "A new age curriculum that is taught by business experts,"
+   },
+   {
+    "start": 17.8,
+    "end": 20.3,
+    "text": "via the case-based methodology in the classroom,"
+   },
+   {
+    "start": 20.3,
+    "end": 25.4,
+    "text": "live projects with startups where every student gets to truly understand how a startup works,"
+   },
+   {
+    "start": 25.4,
+    "end": 29.2,
+    "text": "and experiences where students build their own startups from scratch."
+   },
+   {
+    "start": 29.2,
+    "end": 32,
+    "text": "If you are somebody who is interested, you should apply first."
+   }
+  ]
+ }
+}

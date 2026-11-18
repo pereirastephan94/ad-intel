@@ -1,0 +1,142 @@
+{
+ "asset": "28765653616421636",
+ "first_seen_in": "1038867278612663",
+ "duration_s": 61.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 21.9,
+   "why": "scene change"
+  },
+  {
+   "t": 26.4,
+   "why": "scene change"
+  },
+  {
+   "t": 30.8,
+   "why": "scene change"
+  },
+  {
+   "t": 37.1,
+   "why": "scene change"
+  },
+  {
+   "t": 44.2,
+   "why": "scene change"
+  },
+  {
+   "t": 48,
+   "why": "scene change"
+  },
+  {
+   "t": 52,
+   "why": "scene change"
+  },
+  {
+   "t": 61.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You know people ask me, B-School placements in general are really suffering a lot. But on the other hand, Mesa has 100% placements, fantastic salaries, roles, companies, the ROF program is great. You know our careers team, the one that gets job opportunities and prepares our students, is a 60% full-time team of professionals who have themselves worked for top startups, have MBAs from IMs, ISB and Harvard. On the other hand, if you compare that to other business schools which are struggling, they have students who have doubled up as play scots. Now my team is actively in touch with at least 500 startups, understanding their talent needs, revising Mesa's curriculum basis that, working one-on-one with students to crack interviews and roles. There has absolutely been no comparison in the career support that we offer here at Mesa versus any other regular business school out there.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.9,
+    "text": "You know people ask me, B-School placements in general are really suffering a lot."
+   },
+   {
+    "start": 4.9,
+    "end": 10.9,
+    "text": "But on the other hand, Mesa has 100% placements, fantastic salaries, roles, companies, the"
+   },
+   {
+    "start": 10.9,
+    "end": 12.3,
+    "text": "ROF program is great."
+   },
+   {
+    "start": 12.3,
+    "end": 18.2,
+    "text": "You know our careers team, the one that gets job opportunities and prepares our students,"
+   },
+   {
+    "start": 18.2,
+    "end": 25,
+    "text": "is a 60% full-time team of professionals who have themselves worked for top startups,"
+   },
+   {
+    "start": 25,
+    "end": 28,
+    "text": "have MBAs from IMs, ISB and Harvard."
+   },
+   {
+    "start": 28,
+    "end": 31.8,
+    "text": "On the other hand, if you compare that to other business schools which are struggling,"
+   },
+   {
+    "start": 31.8,
+    "end": 35.8,
+    "text": "they have students who have doubled up as play scots."
+   },
+   {
+    "start": 35.8,
+    "end": 42.2,
+    "text": "Now my team is actively in touch with at least 500 startups, understanding their talent needs,"
+   },
+   {
+    "start": 42.2,
+    "end": 47,
+    "text": "revising Mesa's curriculum basis that, working one-on-one with students to crack interviews"
+   },
+   {
+    "start": 47,
+    "end": 48,
+    "text": "and roles."
+   },
+   {
+    "start": 48,
+    "end": 53,
+    "text": "There has absolutely been no comparison in the career support that we offer here at Mesa"
+   },
+   {
+    "start": 53,
+    "end": 55.6,
+    "text": "versus any other regular business school out there."
+   }
+  ]
+ }
+}
