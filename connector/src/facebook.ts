@@ -328,6 +328,29 @@ export async function getAd(libraryId: string): Promise<Ad | null> {
   return adCache.get(libraryId) || null
 }
 
+/** Load one Ad Library URL once (no scrolling, so no "load more" requests) and return what it embeds. */
+export async function loadLibraryUrl(url: string) {
+  const ctx = await newContext()
+  const found: { ads: any[]; pages: any[]; total?: number; rateLimited?: boolean } = { ads: [], pages: [] }
+  try {
+    const page = await ctx.newPage()
+    page.on('response', async (r) => {
+      if (!r.url().startsWith(LIB)) return
+      try {
+        extractFromText(await r.text(), found)
+      } catch {
+        /* body gone */
+      }
+    })
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 })
+    await page.waitForTimeout(5000)
+  } finally {
+    await ctx.close()
+    await closeBrowser()
+  }
+  return { raw: uniq(found.ads), ads: uniq(found.ads).map(normalise), total: found.total ?? null }
+}
+
 export async function closeBrowser() {
   if (browserP) await (await browserP).close().catch(() => {})
   browserP = null

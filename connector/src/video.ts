@@ -96,40 +96,47 @@ export interface VideoResult {
   transcript_error?: string
 }
 
+/** Stills + transcript for an mp4 already on disk. `dir` is a scratch folder for frames and audio. */
+export async function processFile(mp4: string, dir: string, cap = 12): Promise<Omit<VideoResult, 'downloaded_from'>> {
+  const dur = await duration(mp4)
+  const scenes = await sceneChanges(mp4).catch(() => [])
+  const times = pickTimes(dur, scenes, cap)
+
+  const stills: VideoResult['stills'] = []
+  for (const [i, s] of times.entries()) {
+    const f = path.join(dir, `s${i}.jpg`)
+    try {
+      await still(mp4, s.t, f)
+      stills.push({ t: Math.round(s.t * 10) / 10, why: s.why, jpeg_base64: (await readFile(f)).toString('base64') })
+    } catch {
+      /* skip a bad frame */
+    }
+  }
+
+  let transcript: VideoResult['transcript'] = null
+  let transcript_error: string | undefined
+  const wav = path.join(dir, 'a.wav')
+  try {
+    await run('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-i', mp4, '-vn', '-ac', '1', '-ar', '16000', '-y', wav])
+    const { stdout } = await run(PYTHON, [TRANSCRIBE, wav], { maxBuffer: 20 * 1024 * 1024, timeout: 10 * 60 * 1000 })
+    transcript = JSON.parse(stdout.trim().split('\n').pop() || '{}')
+  } catch (e: any) {
+    transcript_error = /does not contain any stream|Output file .* does not contain/i.test(String(e.stderr || e.message))
+      ? 'This video has no audio track.'
+      : `Transcription failed: ${String(e.stderr || e.message).slice(-400)}`
+  }
+  return { duration_s: Math.round(dur * 10) / 10, stills, transcript, transcript_error }
+}
+
+export { download as downloadVideo }
+
 export async function analyzeVideo(videoUrl: string): Promise<VideoResult> {
   const dir = await mkdtemp(path.join(tmpdir(), 'adv-'))
   try {
     const mp4 = path.join(dir, 'v.mp4')
     const host = await download(videoUrl, mp4)
     if ((await stat(mp4)).size < 1000) throw new Error('downloaded file is empty')
-    const dur = await duration(mp4)
-    const scenes = await sceneChanges(mp4).catch(() => [])
-    const times = pickTimes(dur, scenes)
-
-    const stills: VideoResult['stills'] = []
-    for (const [i, s] of times.entries()) {
-      const f = path.join(dir, `s${i}.jpg`)
-      try {
-        await still(mp4, s.t, f)
-        stills.push({ t: Math.round(s.t * 10) / 10, why: s.why, jpeg_base64: (await readFile(f)).toString('base64') })
-      } catch {
-        /* skip a bad frame */
-      }
-    }
-
-    let transcript: VideoResult['transcript'] = null
-    let transcript_error: string | undefined
-    const wav = path.join(dir, 'a.wav')
-    try {
-      await run('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-i', mp4, '-vn', '-ac', '1', '-ar', '16000', '-y', wav])
-      const { stdout } = await run(PYTHON, [TRANSCRIBE, wav], { maxBuffer: 20 * 1024 * 1024, timeout: 10 * 60 * 1000 })
-      transcript = JSON.parse(stdout.trim().split('\n').pop() || '{}')
-    } catch (e: any) {
-      transcript_error = /does not contain any stream|Output file .* does not contain/i.test(String(e.stderr || e.message))
-        ? 'This video has no audio track.'
-        : `Transcription failed: ${String(e.stderr || e.message).slice(-400)}`
-    }
-    return { duration_s: Math.round(dur * 10) / 10, downloaded_from: host, stills, transcript, transcript_error }
+    return { ...(await processFile(mp4, dir)), downloaded_from: host }
   } finally {
     await rm(dir, { recursive: true, force: true })
   }
