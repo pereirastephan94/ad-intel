@@ -79,3 +79,9 @@ Session `session_018VFYVFMCK43rsWuhbLWSYv`, run on Fable for about $4.90 of usag
 - **Start a new session per step.** Write a handoff file before context passes about 40%.
 - **Extract only what you need** from other sessions' transcripts; never read them whole.
 - **Check background sessions rarely**, for example every 30 minutes, not every 15.
+
+## Update 18 Nov 2026 (CPL 2): connector built
+- `connector/` is a remote MCP server ("custom connector") so Stephan can audit ads from his own Claude chat with no API key. Tools: `find_advertiser`, `list_ads`, `analyze_video` (stills as images + Whisper transcript), plus an `audit` prompt. Protected by a secret in the URL path.
+- Tested on Mesa with 3 videos: all worked. Details in `connector/TEST_RESULTS.md`. Still capped at ~30 ads by Facebook's rate limit.
+- Hosting: Fly.io, 2 GB, auto-sleep (about $1–3 a month for light use). Render's 512 MB plans are too small. Steps in `connector/README.md`. Nothing deployed yet; the Docker image has not been built yet.
+- This path answers open question A with "connector": the audit method in `connector/src/prompt.ts` is visible to whoever uses it.

@@ -1,0 +1,27 @@
+# Fly.io settings. Change "app" to the name you pick in step 4 of README.md.
+app = "ad-audit-CHANGE-ME"
+primary_region = "sin"
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"   # sleeps when nobody is using it, so you pay almost nothing
+  auto_start_machines = true    # wakes up on the next request (a few seconds)
+  min_machines_running = 0
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 4
+    hard_limit = 8
+
+[[http_service.checks]]
+  path = "/health"
+  interval = "30s"
+  timeout = "5s"
+  grace_period = "20s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "2gb"
