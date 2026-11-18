@@ -4,14 +4,14 @@
    "media": "all",
    "sort": "total_impressions",
    "dir": "desc"
-  }
- ],
- "queue": [
+  },
   {
    "media": "all",
    "sort": "total_impressions",
    "dir": "asc"
-  },
+  }
+ ],
+ "queue": [
   {
    "media": "all",
    "sort": "relevancy_monthly_grouped",
@@ -203,6 +203,7 @@
   "2026-11-18T20:29:33.492Z   video 1363507122202704 ok (44s, 16 stills)",
   "2026-11-18T20:30:01.066Z   video 2146264469300756 ok (90.1s, 16 stills)",
   "2026-11-18T20:30:20.934Z   video 28765653616421636 ok (61.7s, 16 stills)",
-  "2026-11-18T20:30:21.339Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 320), 30 new, 30 unique of ~320"
+  "2026-11-18T20:30:21.339Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 320), 30 new, 30 unique of ~320",
+  "2026-11-18T20:40:54.683Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 30 ads (window total 320), 0 new, 30 unique of ~320"
  ]
 }
