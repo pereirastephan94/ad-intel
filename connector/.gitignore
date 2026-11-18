@@ -4,3 +4,7 @@ work
 *.mp4
 *.wav
 .env
+.token
+.venv-whisper
+server.log
+tunnel.log

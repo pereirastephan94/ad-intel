@@ -18,6 +18,28 @@ Test results are in [TEST_RESULTS.md](TEST_RESULTS.md).
 
 ---
 
+## Try it first on your Mac (free, about 15 minutes)
+
+This runs the tool on your own Mac and gives claude.ai a temporary link to it through a free
+Cloudflare tunnel (no account needed). It only works while the Terminal window is open.
+
+1. Install Homebrew from brew.sh if you don't have it (copy the one line on that page into Terminal).
+2. Download this branch from GitHub (**Code → Download ZIP**) and unzip it.
+3. In Terminal, go into the `connector` folder, e.g.
+   `cd ~/Downloads/ad-intel-claude-yesterday-cpls-TCJO8/connector`
+4. Run: `bash start-mac.sh`
+   The first run installs what it needs (about 10 minutes). Later runs take seconds.
+5. It prints a **connector link**. In claude.ai go to **Settings → Connectors → Add custom connector**,
+   name it `Ad Audit (test)`, paste the link, and click Add.
+6. Start a new chat, switch on **Ad Audit (test)** in the tools menu, and type **Audit Mesa's ads**.
+7. Press **Ctrl+C** in Terminal to stop it. The link changes each run, so update the connector's URL
+   next time.
+
+If you use Claude Code on your Mac, the script also prints a one-line command that adds the tool
+there directly, with no tunnel.
+
+Once you're happy with it, put it online permanently (below) so it works without your Mac.
+
 ## Which host? Fly.io
 
 The server needs about **2 GB of memory**: the browser uses about 0.4 GB and the speech-to-text
