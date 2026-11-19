@@ -379,6 +379,52 @@
   },
   {
    "q": "today"
+  },
+  {
+   "q": "PGP",
+   "retry": 1
+  },
+  {
+   "q": "undergraduate",
+   "retry": 1
+  },
+  {
+   "q": "CAT",
+   "retry": 1
+  },
+  {
+   "q": "XAT",
+   "retry": 1
+  },
+  {
+   "q": "founders",
+   "retry": 1
+  },
+  {
+   "q": "startup",
+   "retry": 1
+  },
+  {
+   "q": "AI",
+   "retry": 1
+  },
+  {
+   "q": "placement",
+   "retry": 1
+  },
+  {
+   "q": "career",
+   "retry": 1
+  },
+  {
+   "q": "cohort",
+   "retry": 1
+  },
+  {
+   "q": "salary",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
   }
  ],
  "total": 0,

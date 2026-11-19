@@ -59,7 +59,7 @@ if (!state.keywordsQueued) {
   for (const q of words) state.queue.push({ q })
   state.keywordsQueued = true
 }
-const key = (v) => JSON.stringify([v.media || 'all', v.sort || '', v.dir || '', v.from || '', v.to || '', v.q || ''])
+const key = (v) => JSON.stringify([v.media || 'all', v.sort || '', v.dir || '', v.from || '', v.to || '', v.q || '', v.retry || 0])
 const seenViews = new Set(state.done.map(key))
 
 function assetId(u) {
@@ -122,6 +122,8 @@ while (state.queue.length) {
     if (!v.sort) more.push({ ...v, sort: 'relevancy_monthly_grouped', dir: 'desc' })
     state.queue.unshift(...more.filter((m) => !seenViews.has(key(m))))
   }
+  // Facebook sometimes answers a keyword view with nothing even when ads match; try each such view once more, later.
+  if (v.q && !res.ads.length && !v.retry) state.queue.push({ ...v, retry: 1 })
   state.done.push(v)
   save()
   emptyStreak = res.ads.length === 0 && res.total == null ? emptyStreak + 1 : 0
