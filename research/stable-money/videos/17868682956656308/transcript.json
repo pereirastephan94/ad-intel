@@ -1,0 +1,523 @@
+{
+ "asset": "17868682956656308",
+ "first_seen_in": "1690045142234207",
+ "duration_s": 125.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 43.6,
+   "why": "scene change"
+  },
+  {
+   "t": 55.3,
+   "why": "scene change"
+  },
+  {
+   "t": 65,
+   "why": "scene change"
+  },
+  {
+   "t": 75.1,
+   "why": "scene change"
+  },
+  {
+   "t": 79.2,
+   "why": "scene change"
+  },
+  {
+   "t": 84.5,
+   "why": "scene change"
+  },
+  {
+   "t": 89.7,
+   "why": "scene change"
+  },
+  {
+   "t": 99.3,
+   "why": "scene change"
+  },
+  {
+   "t": 113.4,
+   "why": "scene change"
+  },
+  {
+   "t": 124.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "پاپا, میں آپ کا Bank Statement Dekrahta یہ پیسے Cricket ہوتے جا رہے بار بار آپ کو پتایے کیا ہے؟ آپ پتا ہے یہ بونس کے پیوٹ سے بونس پر پاپا یہ کیا ہوتا ہے اور یہ پیسے آئے کہاں سے ایک کر کے سمجھاتا ہوں باکھ پہلے سمجھ یہ پیسے آئے کہاں سے سمپل ہے جیسے تو کسی دوست کو پیسا دیتا ہے اور وہ کہتا ہے میں تو جہر میں نے انترس دوں گا اور ایک fix time کے بعد آپ پیسا بھی آپ اس کر دوں گا بونس بھی یہی ہوتا ہے بس اس دوست کی جگا کوئی کمپنی اگوومنٹ ہوتی ہے میں اونے پیسا لن کرتا ہوں وہ مجھے دیتے ہیں fix return regular payouts سیدہ میری پیکے کہاں پیسے اور جب بون کا 10یور ختم ہوتا ہے میرا ارجنل پیسا بھی آپ اسہ جاتا ہے اسے کہتے ہیں fix income investment instrument اور یہ سیف ہے کیوں کہ یہ سیبی رجیستٹ روکر کے تھو ہوتا ہے سب کچھ رگولیٹیٹ ہے اور Transparenate ہے ہمیں پہلے سے پتا ہوتا ہے کتنا پیسا ملے کا کب ملے کا اور کس دیٹ کو ملے کا پر پاپا بونس میں پیسے اٹک تو نہیں جاتے پہلے مجھے بھی ہی ہی لکتا تھا پر پھر مجھے stable money app کے بارے میں پتا چلا یہ سیبی رجیستٹ روکر ہے یہاں short term bonds بھی available ہیں ایک مہینے تین مہینے چھے مہینے کے اور اگر PESO کی ضرورت پڑے تو maturity سے پہلے سل بھی کر سکتے ہیں اور returns کیто نے ملتے ہیں stable money app ابٹو 9 2 12 % پر آنم fix returns کے bond available ہے اتنا پر انvest کرنے کے لئے بہت پیسا چیو گا نا نہیں اب صرف 1,000 سے شروع کر سکتے ہو اور bonds سیڈے تمہرے دیمیٹ account میں آتے ہیں platform سے independent اب آپ نے mwuja pehle kiwni bhaaya ye sab ki oki mwuja bhaayi deer se pata chala our generation ko lakta tha bonds sur bhaayi inversars ke liye hoote he aur ye such nahi getne jealdi samjo utna bhaayatar isklai abt tome bhaayatar raha hain agar aapke gaar mein bhi conversation abhi tak nahi hui aajhi kare stable money app download kare stable bonds section explore kare link bhaayomne hei fixed returns do not constitute guaranteed or a short returns investments and corporate debt securities municipal debt securities slash securities debt instruments are subject to credit risks market risks and default risks including delay and slash or default payment read all the offer related documents carefully",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.6,
+    "text": "پاپا, میں آپ کا Bank Statement Dekrahta"
+   },
+   {
+    "start": 2.6,
+    "end": 4.7,
+    "text": "یہ پیسے Cricket ہوتے جا رہے بار بار"
+   },
+   {
+    "start": 4.7,
+    "end": 5.7,
+    "text": "آپ کو پتایے کیا ہے؟"
+   },
+   {
+    "start": 5.7,
+    "end": 7.9,
+    "text": "آپ پتا ہے یہ بونس کے پیوٹ سے"
+   },
+   {
+    "start": 7.9,
+    "end": 8.7,
+    "text": "بونس"
+   },
+   {
+    "start": 8.7,
+    "end": 10.1,
+    "text": "پر پاپا یہ کیا ہوتا ہے"
+   },
+   {
+    "start": 10.1,
+    "end": 11.7,
+    "text": "اور یہ پیسے آئے کہاں سے"
+   },
+   {
+    "start": 11.7,
+    "end": 13.1,
+    "text": "ایک کر کے سمجھاتا ہوں"
+   },
+   {
+    "start": 13.1,
+    "end": 13.8,
+    "text": "باکھ"
+   },
+   {
+    "start": 13.8,
+    "end": 16,
+    "text": "پہلے سمجھ یہ پیسے آئے کہاں سے"
+   },
+   {
+    "start": 16,
+    "end": 16.8,
+    "text": "سمپل ہے"
+   },
+   {
+    "start": 16.8,
+    "end": 18.9,
+    "text": "جیسے تو کسی دوست کو پیسا دیتا ہے"
+   },
+   {
+    "start": 18.9,
+    "end": 21.3,
+    "text": "اور وہ کہتا ہے میں تو جہر میں نے انترس دوں گا"
+   },
+   {
+    "start": 21.3,
+    "end": 22.6,
+    "text": "اور ایک fix time کے بعد"
+   },
+   {
+    "start": 22.6,
+    "end": 24.6,
+    "text": "آپ پیسا بھی آپ اس کر دوں گا"
+   },
+   {
+    "start": 24.6,
+    "end": 26.1,
+    "text": "بونس بھی یہی ہوتا ہے"
+   },
+   {
+    "start": 26.1,
+    "end": 27.9,
+    "text": "بس اس دوست کی جگا"
+   },
+   {
+    "start": 27.9,
+    "end": 29.7,
+    "text": "کوئی کمپنی اگوومنٹ ہوتی ہے"
+   },
+   {
+    "start": 29.7,
+    "end": 31.7,
+    "text": "میں اونے پیسا لن کرتا ہوں"
+   },
+   {
+    "start": 31.7,
+    "end": 32.7,
+    "text": "وہ مجھے دیتے ہیں"
+   },
+   {
+    "start": 32.7,
+    "end": 33.6,
+    "text": "fix return"
+   },
+   {
+    "start": 33.6,
+    "end": 34.6,
+    "text": "regular payouts"
+   },
+   {
+    "start": 34.6,
+    "end": 36.2,
+    "text": "سیدہ میری پیکے کہاں پیسے"
+   },
+   {
+    "start": 36.2,
+    "end": 38.5,
+    "text": "اور جب بون کا 10یور ختم ہوتا ہے"
+   },
+   {
+    "start": 38.5,
+    "end": 40.7,
+    "text": "میرا ارجنل پیسا بھی آپ اسہ جاتا ہے"
+   },
+   {
+    "start": 40.7,
+    "end": 41.6,
+    "text": "اسے کہتے ہیں"
+   },
+   {
+    "start": 41.6,
+    "end": 43.7,
+    "text": "fix income investment instrument"
+   },
+   {
+    "start": 43.7,
+    "end": 44.7,
+    "text": "اور یہ سیف ہے"
+   },
+   {
+    "start": 44.7,
+    "end": 46.8,
+    "text": "کیوں کہ یہ سیبی رجیستٹ روکر کے"
+   },
+   {
+    "start": 46.8,
+    "end": 47.5,
+    "text": "تھو ہوتا ہے"
+   },
+   {
+    "start": 47.5,
+    "end": 49,
+    "text": "سب کچھ رگولیٹیٹ ہے"
+   },
+   {
+    "start": 49,
+    "end": 50,
+    "text": "اور Transparenate ہے"
+   },
+   {
+    "start": 50,
+    "end": 52,
+    "text": "ہمیں پہلے سے پتا ہوتا ہے"
+   },
+   {
+    "start": 52,
+    "end": 53.1,
+    "text": "کتنا پیسا ملے کا"
+   },
+   {
+    "start": 53.1,
+    "end": 53.9,
+    "text": "کب ملے کا"
+   },
+   {
+    "start": 53.9,
+    "end": 55.1,
+    "text": "اور کس دیٹ کو ملے کا"
+   },
+   {
+    "start": 55.1,
+    "end": 57.5,
+    "text": "پر پاپا بونس میں پیسے اٹک تو نہیں جاتے"
+   },
+   {
+    "start": 57.5,
+    "end": 59,
+    "text": "پہلے مجھے بھی ہی ہی لکتا تھا"
+   },
+   {
+    "start": 59,
+    "end": 60.2,
+    "text": "پر پھر مجھے"
+   },
+   {
+    "start": 60.2,
+    "end": 62,
+    "text": "stable money app کے بارے میں پتا چلا"
+   },
+   {
+    "start": 62,
+    "end": 64,
+    "text": "یہ سیبی رجیستٹ روکر ہے"
+   },
+   {
+    "start": 64,
+    "end": 65.3,
+    "text": "یہاں short term bonds"
+   },
+   {
+    "start": 65.3,
+    "end": 65.9,
+    "text": "بھی available"
+   },
+   {
+    "start": 65.9,
+    "end": 67,
+    "text": "ہیں ایک مہینے"
+   },
+   {
+    "start": 67,
+    "end": 67.7,
+    "text": "تین مہینے"
+   },
+   {
+    "start": 67.7,
+    "end": 68.5,
+    "text": "چھے مہینے کے"
+   },
+   {
+    "start": 68.5,
+    "end": 68.8,
+    "text": "اور اگر PESO کی"
+   },
+   {
+    "start": 68.8,
+    "end": 70.2,
+    "text": "ضرورت پڑے"
+   },
+   {
+    "start": 70.2,
+    "end": 71.2,
+    "text": "تو maturity سے"
+   },
+   {
+    "start": 71.2,
+    "end": 71.7,
+    "text": "پہلے"
+   },
+   {
+    "start": 71.7,
+    "end": 72.6,
+    "text": "سل بھی کر سکتے ہیں"
+   },
+   {
+    "start": 72.6,
+    "end": 73.5,
+    "text": "اور returns"
+   },
+   {
+    "start": 73.5,
+    "end": 74.4,
+    "text": "کیто نے ملتے ہیں"
+   },
+   {
+    "start": 74.4,
+    "end": 75.8,
+    "text": "stable money app"
+   },
+   {
+    "start": 75.8,
+    "end": 77.5,
+    "text": "ابٹو 9 2 12 %"
+   },
+   {
+    "start": 77.5,
+    "end": 78.6,
+    "text": "پر آنم fix returns"
+   },
+   {
+    "start": 78.6,
+    "end": 79.6,
+    "text": "کے bond available"
+   },
+   {
+    "start": 79.6,
+    "end": 80,
+    "text": "ہے"
+   },
+   {
+    "start": 80,
+    "end": 80.6,
+    "text": "اتنا"
+   },
+   {
+    "start": 80.6,
+    "end": 81.5,
+    "text": "پر انvest کرنے کے لئے"
+   },
+   {
+    "start": 81.5,
+    "end": 82.9,
+    "text": "بہت پیسا چیو گا نا"
+   },
+   {
+    "start": 82.9,
+    "end": 83.7,
+    "text": "نہیں"
+   },
+   {
+    "start": 83.7,
+    "end": 84.9,
+    "text": "اب صرف 1,000 سے"
+   },
+   {
+    "start": 84.9,
+    "end": 86,
+    "text": "شروع کر سکتے ہو"
+   },
+   {
+    "start": 86,
+    "end": 86.8,
+    "text": "اور bonds"
+   },
+   {
+    "start": 86.8,
+    "end": 87.6,
+    "text": "سیڈے تمہرے"
+   },
+   {
+    "start": 87.6,
+    "end": 89,
+    "text": "دیمیٹ account میں آتے ہیں"
+   },
+   {
+    "start": 89,
+    "end": 89.8,
+    "text": "platform سے"
+   },
+   {
+    "start": 89.8,
+    "end": 90.7,
+    "text": "independent"
+   },
+   {
+    "start": 90.7,
+    "end": 92.7,
+    "text": "اب آپ نے mwuja pehle kiwni bhaaya ye sab"
+   },
+   {
+    "start": 92.7,
+    "end": 94.7,
+    "text": "ki oki mwuja bhaayi deer se pata chala"
+   },
+   {
+    "start": 94.7,
+    "end": 96.7,
+    "text": "our generation ko lakta tha"
+   },
+   {
+    "start": 96.7,
+    "end": 98.7,
+    "text": "bonds sur bhaayi inversars ke liye hoote he"
+   },
+   {
+    "start": 98.7,
+    "end": 100.7,
+    "text": "aur ye such nahi"
+   },
+   {
+    "start": 100.7,
+    "end": 102.7,
+    "text": "getne jealdi samjo utna bhaayatar"
+   },
+   {
+    "start": 102.7,
+    "end": 104.7,
+    "text": "isklai abt tome bhaayatar raha hain"
+   },
+   {
+    "start": 104.7,
+    "end": 106.7,
+    "text": "agar aapke gaar mein bhi conversation abhi tak nahi hui"
+   },
+   {
+    "start": 106.7,
+    "end": 107.7,
+    "text": "aajhi kare"
+   },
+   {
+    "start": 107.7,
+    "end": 109.7,
+    "text": "stable money app download kare"
+   },
+   {
+    "start": 109.7,
+    "end": 111.7,
+    "text": "stable bonds section explore kare"
+   },
+   {
+    "start": 111.7,
+    "end": 113.7,
+    "text": "link bhaayomne hei"
+   },
+   {
+    "start": 113.7,
+    "end": 114.7,
+    "text": "fixed returns do not constitute guaranteed"
+   },
+   {
+    "start": 114.7,
+    "end": 115.7,
+    "text": "or a short returns"
+   },
+   {
+    "start": 115.7,
+    "end": 116.7,
+    "text": "investments and corporate debt securities"
+   },
+   {
+    "start": 116.7,
+    "end": 117.7,
+    "text": "municipal debt securities"
+   },
+   {
+    "start": 117.7,
+    "end": 119.7,
+    "text": "slash securities debt instruments"
+   },
+   {
+    "start": 119.7,
+    "end": 120.7,
+    "text": "are subject to credit risks"
+   },
+   {
+    "start": 120.7,
+    "end": 121.7,
+    "text": "market risks and default risks"
+   },
+   {
+    "start": 121.7,
+    "end": 123.7,
+    "text": "including delay and slash or default payment"
+   },
+   {
+    "start": 123.7,
+    "end": 125.7,
+    "text": "read all the offer related documents carefully"
+   }
+  ]
+ }
+}
