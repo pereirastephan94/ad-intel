@@ -62,3 +62,10 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   Target 60 to 90 ads per brand. Then write up the new creatives, rerun concept pass, compute, build, republish at the same link.
 - Cult.fit 30 ads and Fitelo 34 ads pulled; metrics and second-pass transcripts running; then write-ups (2 Sonnet agents per brand + concept pass).
 - Opus agent reviewing comparison 1 against the rubric; it may add an `extras` block (product mix, contradictions, series) and RUBRIC v3.
+
+## Added 23:45 UTC 19 Nov: PULLING NEVER STOPS (owner's instruction: keep pulling, analysis can wait)
+- One job does all pulling now: `connector/scripts/rr-pull.sh <scratch>/sample-videos "Atomberg" "Qubo" "Mokobara" "DailyObjects|Daily Objects" "GIVA" "CaratLane" "Cult.fit" "Fitelo" "Stable Money" "Wint Wealth"`
+  with CHROME_PATH set, in the background, 2 h timeout. It rotates through the brands, one page view each, 5 to 7 minutes apart, and ends by itself after 105 minutes ("RR END" in sample.log).
+  THE MOMENT IT ENDS, START IT AGAIN with the same command. It keeps its place (research/<slug>/crawl-state.json: stage 1 = all/video/image, stage 2 = more media views, stage 3 = keyword views).
+- Do not run sample-run.sh or sample-run-slow.sh any more, and never two pullers at once.
+- Analysis (write-ups, concept pass, compare, publish) happens alongside and must never pause the puller. Before writing up a brand, run prepare.py and retranscribe.py on it.

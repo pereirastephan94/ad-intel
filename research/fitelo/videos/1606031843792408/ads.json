@@ -1,0 +1,39 @@
+[
+ {
+  "library_id": "925451983928233",
+  "link": "https://www.facebook.com/ads/library/?id=925451983928233",
+  "page_id": "296363534190875",
+  "page_name": "Fitelo",
+  "is_active": true,
+  "start_date": "2026-07-14",
+  "days_running": 129,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "https://www.fitelostore.co/products/app-integrated-smart-scale",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNu-hMn4mB5nH_VNjPEgGqdIOPEVyNKvmLRtpbGTEaNrkDpnAL-fk4g-82YU2YRbH7QvnlrsyMmEZOljW7HQzIYdWaAuD8bltu4N44AHQTQ3Q.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Ri668lteLIoQ7kNvwGAiqCl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2MDYwMzE4NDM3OTI0MDgsImFzc2V0X2FnZV9kYXlzIjoxNTUsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo2MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=9d432dbd2112f8e6&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81MjRGRUJEMDZFRjA2MDg0NzIzM0NFNTVCNTYzRUNCQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzdBNDRBRkM4OEVGNkEzOEQ0RDI4M0RGMEUwQjNDMDgwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaw2ODYravaBRUCKAJDMywXQE4lgQYk3S8YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=AANOYnZSpw-tkOMT0sLu1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQT2T4958EMJoxG_3hE0dcevy-vfEAzU0erajq4mI1BeYQ&oe=6B056FDB",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/746662334_1056650840444248_7626031319631149271_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xFEmPu_j_WAQ7kNvwFbt0p9&_nc_oc=AdpupN559x3SCHrINseT00fJMxIkvUlBSEilrzYB0Ga4GXTqDYtOYXuWOpcgDgSvCMQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=AANOYnZSpw-tkOMT0sLu1g&_nc_ss=7b289&oh=00_AQTg4jcdwqz2XlwBBk4RVs_DTrbmEkE31UmQx4FkqYvZKQ&oe=6B053A5F",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "AUDIENCE_NETWORK",
+   "MESSENGER",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Digital Creator"
+   ]
+  },
+  "sample_views": {
+   "all": 16,
+   "video": 15
+  },
+  "video_asset": "1606031843792408"
+ }
+]

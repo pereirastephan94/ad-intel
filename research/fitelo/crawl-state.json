@@ -43,10 +43,6 @@
   "2026-11-19T23:26:13.136Z view {\"media\":\"image\",\"retry\":1} -> 0 ads (window total 0), 0 new, 34 unique of ~182"
  ],
  "keywordsQueued": true,
- "queue": [
-  {
-   "media": "image",
-   "retry": 2
-  }
- ]
+ "queue": [],
+ "stage": 1
 }

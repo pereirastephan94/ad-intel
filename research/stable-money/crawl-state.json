@@ -72,5 +72,6 @@
   "2026-11-19T20:49:02.473Z DONE: 33 unique ads of ~418"
  ],
  "keywordsQueued": true,
- "queue": []
+ "queue": [],
+ "stage": 1
 }

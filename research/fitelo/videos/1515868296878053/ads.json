@@ -1,0 +1,37 @@
+[
+ {
+  "library_id": "1620379199757741",
+  "link": "https://www.facebook.com/ads/library/?id=1620379199757741",
+  "page_id": "296363534190875",
+  "page_name": "Fitelo",
+  "is_active": true,
+  "start_date": "2026-09-24",
+  "days_running": 57,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Book now",
+  "landing_url": "https://wellness.fitelo.co/v31/",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPZCq_2MLfJJF8rTfb9TyoXEPhiYN1cC9FR5mQgFRnRdQ0IIaBke3AWZuyEe1OD4gdO5DYNfE3SaFQt4rYyvysN03vdvb8kUDeFWyP4Rgd6BQ.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Vw1103QRx9QQ7kNvwFa1NLk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MTU4NjgyOTY4NzgwNTMsImFzc2V0X2FnZV9kYXlzIjoyMTksInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=f887aefbd433482d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NjQyNTE0NzU1QTc4MzlEMjUzQ0EyMUU5MjVBOTJCNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzYxNERGNEI3OTA3MTQ2RDJCRDIzNzFDQUI0QzJGNjk0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbK3-T1kquxBRUCKAJDMywXQDeF41P3ztkYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=AANOYnZSpw-tkOMT0sLu1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR8MnfpGXl1AuP1mX_s7v4LVuorKub-ys3gbu3Le0x7Gg&oe=6B056DD4",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/736817167_1631622455639043_2780270575327990734_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bUIBq8OqikMQ7kNvwH05VOE&_nc_oc=AdrPHTj5n4GQzD3p1n_Hqt9-hJfPyrloJKRFUTJaGTKXq0-VD_4tWkW0al1JLril2LA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=AANOYnZSpw-tkOMT0sLu1g&_nc_ss=7b289&oh=00_AQQ6JvNfPbMCAil3qh0dM3fTf9CMb32B5MT5xOhr2BR_UA&oe=6B056B78",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Health & wellness website"
+   ]
+  },
+  "sample_views": {
+   "all": 24,
+   "video": 24
+  },
+  "video_asset": "1515868296878053"
+ }
+]

@@ -89,10 +89,6 @@
   "2026-11-19T22:52:49.889Z PAUSED: 30 unique ads of ~null"
  ],
  "keywordsQueued": true,
- "queue": [
-  {
-   "media": "video",
-   "retry": 2
-  }
- ]
+ "queue": [],
+ "stage": 1
 }
