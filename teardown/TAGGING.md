@@ -131,3 +131,11 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
     - `one_line`: the ad in one sentence, 25 words at most, plain English.
     - `script_twin`: the asset id of another video of this brand with nearly the same script but a different person or edit, else null.
 11. **Catalogue ads.** If the ad text is unfilled placeholders such as `{{product.brand}}`, tag from the creative alone and add `"ad_text_missing": true`.
+
+## Rulings from review 2 (20 Nov 2026, after Stable Money videos 6 to 15)
+1. **People talking to each other** (skit, podcast set, video call, interview with an off-camera voice) is V2, not V1. V1 is only a person addressing the viewer.
+2. **Unlabelled people in a V2 scene** are `actor_model`.
+3. **A series title is a label.** "Papa Explaining", "Nani Tuitions" and the like make the face `character`; quote the title.
+4. **Hook, tighter:** judge the FIRST sentence only. `number_claim` needs a statistic about the world or the product; a character's own bank balance in dialogue is `story_open`. A question one character asks another is `story_open`; `question` is only a question put to the viewer.
+5. **script_twin** includes the same footage re-uploaded in another shape or length.
+6. **Podcast set** with microphones and a dressed room is `studio`.

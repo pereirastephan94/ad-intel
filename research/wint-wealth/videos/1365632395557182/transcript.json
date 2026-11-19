@@ -1,0 +1,120 @@
+{
+ "asset": "1365632395557182",
+ "first_seen_in": "2556193758207208",
+ "duration_s": 42,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 41.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Today I am going to teach you a financial lesson where my son doesn't listen to me you guys listen to me let me tell you about wind well they give you bonds proper asset-backed bond meaning there is real security behind your money and not just promises pick returns up to 11% every year wind well, sebi registered legit, regulated and if you want money in the middle then you can sell the bonds at any time no questions asked I tell you they are more reliable then that gets around today",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2,
+    "text": "Today I am going to teach you a financial lesson"
+   },
+   {
+    "start": 2,
+    "end": 4,
+    "text": "where my son doesn't listen to me"
+   },
+   {
+    "start": 4,
+    "end": 5,
+    "text": "you guys listen to me"
+   },
+   {
+    "start": 5,
+    "end": 7,
+    "text": "let me tell you about wind well"
+   },
+   {
+    "start": 7,
+    "end": 10,
+    "text": "they give you bonds proper asset-backed bond"
+   },
+   {
+    "start": 10,
+    "end": 12,
+    "text": "meaning there is real security behind your money"
+   },
+   {
+    "start": 12,
+    "end": 14,
+    "text": "and not just promises"
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "pick returns up to 11% every year"
+   },
+   {
+    "start": 17,
+    "end": 19,
+    "text": "wind well, sebi registered"
+   },
+   {
+    "start": 19,
+    "end": 21,
+    "text": "legit, regulated"
+   },
+   {
+    "start": 21,
+    "end": 23,
+    "text": "and if you want money in the middle"
+   },
+   {
+    "start": 23,
+    "end": 25,
+    "text": "then you can sell the bonds at any time"
+   },
+   {
+    "start": 25,
+    "end": 27,
+    "text": "no questions asked"
+   },
+   {
+    "start": 27,
+    "end": 29,
+    "text": "I tell you they are more reliable"
+   },
+   {
+    "start": 29,
+    "end": 31,
+    "text": "then that gets around today"
+   }
+  ]
+ }
+}

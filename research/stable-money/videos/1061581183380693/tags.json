@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Influencers ne FD ko bahot zaleel kiya, lekin aaj sab ke sab chup hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Fixed deposits, up to 8.5% p.a.",
+    "one_line": "A man says influencers mocked FD but it beat the stock market, calls FD your emergency fund, and promotes 8.5% rates on Stable Money.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "angle"],
+    "human_checked": false
+  }
+}

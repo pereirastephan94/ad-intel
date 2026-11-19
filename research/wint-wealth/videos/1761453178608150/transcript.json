@@ -1,0 +1,153 @@
+{
+ "asset": "1761453178608150",
+ "first_seen_in": "1010246932113130",
+ "duration_s": 44.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.6,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 16.4,
+   "why": "scene change"
+  },
+  {
+   "t": 21.9,
+   "why": "scene change"
+  },
+  {
+   "t": 27.6,
+   "why": "scene change"
+  },
+  {
+   "t": 30.2,
+   "why": "scene change"
+  },
+  {
+   "t": 32.2,
+   "why": "scene change"
+  },
+  {
+   "t": 34.1,
+   "why": "scene change"
+  },
+  {
+   "t": 44.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We are in the match and we just decided to extend our stay. And for this weather it becomes so much. Because sometimes the best plans are the ones we don't make. And I think that is why we value flexibility so much. Not just while traveling but with our money too. Only you can talk about money in the mountains. No, but it's true since you have started investing in bonds. I feel so much more in control. We get a fixed 11% return and the flexibility to pull out our money whenever our plan changes and that too without breaking our long term goals. Let's start investing in bonds or enjoy the mountains. Fix returns do not constitute guaranteed or the short returns. Investments in corporate debt securities, municipal debt securities and securities debt instruments are subject to credit risks, market risks and default risks, including delay and or default entrainment. Read all the offer related documents carefully.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.6,
+    "text": "We are in the match and we just decided to extend our stay."
+   },
+   {
+    "start": 3.6,
+    "end": 5.6,
+    "text": "And for this weather it becomes so much."
+   },
+   {
+    "start": 5.6,
+    "end": 9,
+    "text": "Because sometimes the best plans are the ones we don't make."
+   },
+   {
+    "start": 9,
+    "end": 12,
+    "text": "And I think that is why we value flexibility so much."
+   },
+   {
+    "start": 12,
+    "end": 14,
+    "text": "Not just while traveling but with our money too."
+   },
+   {
+    "start": 14,
+    "end": 16.4,
+    "text": "Only you can talk about money in the mountains."
+   },
+   {
+    "start": 16.4,
+    "end": 19.8,
+    "text": "No, but it's true since you have started investing in bonds."
+   },
+   {
+    "start": 19.8,
+    "end": 21.8,
+    "text": "I feel so much more in control."
+   },
+   {
+    "start": 21.8,
+    "end": 25.8,
+    "text": "We get a fixed 11% return and the flexibility to pull out our money"
+   },
+   {
+    "start": 25.8,
+    "end": 30,
+    "text": "whenever our plan changes and that too without breaking our long term goals."
+   },
+   {
+    "start": 30,
+    "end": 33.6,
+    "text": "Let's start investing in bonds or enjoy the mountains."
+   },
+   {
+    "start": 33.6,
+    "end": 36,
+    "text": "Fix returns do not constitute guaranteed or the short returns."
+   },
+   {
+    "start": 36,
+    "end": 38.4,
+    "text": "Investments in corporate debt securities, municipal debt securities"
+   },
+   {
+    "start": 38.4,
+    "end": 41.4,
+    "text": "and securities debt instruments are subject to credit risks, market risks and default risks,"
+   },
+   {
+    "start": 41.4,
+    "end": 42.8,
+    "text": "including delay and or default entrainment."
+   },
+   {
+    "start": 42.8,
+    "end": 44.4,
+    "text": "Read all the offer related documents carefully."
+   }
+  ]
+ }
+}

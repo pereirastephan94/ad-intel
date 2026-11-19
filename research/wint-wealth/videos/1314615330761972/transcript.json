@@ -1,0 +1,252 @@
+{
+ "asset": "1314615330761972",
+ "first_seen_in": "1574326737333320",
+ "duration_s": 44.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 11.6,
+   "why": "scene change"
+  },
+  {
+   "t": 12.9,
+   "why": "scene change"
+  },
+  {
+   "t": 19.5,
+   "why": "scene change"
+  },
+  {
+   "t": 23.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 28.1,
+   "why": "scene change"
+  },
+  {
+   "t": 32.8,
+   "why": "scene change"
+  },
+  {
+   "t": 44.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "اگر بھر کو چھوٹا بہی ہوتا تو مصیے ایک اڑوائز سروو چیتا لیف میں تنگ چیزے پہتھاندین ہے Number 1 کسی بیخ سکل پہ بہت کرو کچھا وہ High Income's Kilo یا کمیڈی کشن بس کس کو بیٹھر کرو Number 2 HELL اپنی HELLت پیدھاندو پالتو کنتن کس دیم پہنگ کرو HELL دیکھاو اور دیلیا ویکلی چیم کرو Number 3 اور یہ بس دیدیسی اتو ستیت تمہرے لیئے لنو how to make money جکمہ کوئی اصفر نہیں بہت I invest in bonds کیوں گیارہ پر سنگ کے FIX written pay تم short term جسے 3 من bond پہنگ west کر سنگ and I use wind well for this جلو ااشکل اتنایں فیر ملتے FIX returns do not constitute guaranteed or the short returns investments in corporate debt securities municipal debt securities and securities debt instruments are subject to credit risks market risks and default risks including delay and or default impairment read all the offer related documents carefully",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.1,
+    "text": "اگر بھر کو چھوٹا بہی ہوتا تو مصیے ایک اڑوائز سروو چیتا"
+   },
+   {
+    "start": 3.1,
+    "end": 5.1,
+    "text": "لیف میں تنگ چیزے پہتھاندین ہے"
+   },
+   {
+    "start": 5.1,
+    "end": 6,
+    "text": "Number 1"
+   },
+   {
+    "start": 6,
+    "end": 7.8,
+    "text": "کسی بیخ سکل پہ بہت کرو"
+   },
+   {
+    "start": 7.8,
+    "end": 9,
+    "text": "کچھا وہ High Income's Kilo"
+   },
+   {
+    "start": 9,
+    "end": 10.1,
+    "text": "یا کمیڈی کشن"
+   },
+   {
+    "start": 10.1,
+    "end": 11.6,
+    "text": "بس کس کو بیٹھر کرو"
+   },
+   {
+    "start": 11.6,
+    "end": 12.3,
+    "text": "Number 2"
+   },
+   {
+    "start": 12.3,
+    "end": 12.8,
+    "text": "HELL"
+   },
+   {
+    "start": 12.8,
+    "end": 13.4,
+    "text": "اپنی"
+   },
+   {
+    "start": 13.4,
+    "end": 14.2,
+    "text": "HELLت پیدھاندو"
+   },
+   {
+    "start": 14.2,
+    "end": 16.2,
+    "text": "پالتو کنتن کس دیم پہنگ کرو"
+   },
+   {
+    "start": 16.2,
+    "end": 17.2,
+    "text": "HELL دیکھاو"
+   },
+   {
+    "start": 17.2,
+    "end": 18.8,
+    "text": "اور دیلیا ویکلی چیم کرو"
+   },
+   {
+    "start": 18.8,
+    "end": 19.5,
+    "text": "Number 3"
+   },
+   {
+    "start": 19.5,
+    "end": 21.5,
+    "text": "اور یہ بس دیدیسی اتو ستیت تمہرے لیئے"
+   },
+   {
+    "start": 21.5,
+    "end": 23.4,
+    "text": "لنو how to make money"
+   },
+   {
+    "start": 23.4,
+    "end": 24.8,
+    "text": "جکمہ کوئی اصفر نہیں بہت"
+   },
+   {
+    "start": 24.8,
+    "end": 26,
+    "text": "I invest in bonds"
+   },
+   {
+    "start": 26,
+    "end": 28,
+    "text": "کیوں گیارہ پر سنگ کے FIX written pay"
+   },
+   {
+    "start": 28,
+    "end": 29.1,
+    "text": "تم short term"
+   },
+   {
+    "start": 29.1,
+    "end": 30,
+    "text": "جسے 3 من bond"
+   },
+   {
+    "start": 30,
+    "end": 30.9,
+    "text": "پہنگ west کر سنگ"
+   },
+   {
+    "start": 30.9,
+    "end": 32.7,
+    "text": "and I use wind well for this"
+   },
+   {
+    "start": 32.7,
+    "end": 33.7,
+    "text": "جلو ااشکل اتنایں"
+   },
+   {
+    "start": 33.7,
+    "end": 34.5,
+    "text": "فیر ملتے"
+   },
+   {
+    "start": 34.5,
+    "end": 35.8,
+    "text": "FIX returns do not constitute guaranteed"
+   },
+   {
+    "start": 35.8,
+    "end": 36.6,
+    "text": "or the short returns"
+   },
+   {
+    "start": 36.6,
+    "end": 37.8,
+    "text": "investments in corporate debt securities"
+   },
+   {
+    "start": 37.8,
+    "end": 38.8,
+    "text": "municipal debt securities"
+   },
+   {
+    "start": 38.8,
+    "end": 39.8,
+    "text": "and securities debt instruments"
+   },
+   {
+    "start": 39.8,
+    "end": 40.6,
+    "text": "are subject to credit risks"
+   },
+   {
+    "start": 40.6,
+    "end": 41.7,
+    "text": "market risks and default risks"
+   },
+   {
+    "start": 41.7,
+    "end": 43.2,
+    "text": "including delay and or default impairment"
+   },
+   {
+    "start": 43.2,
+    "end": 44.7,
+    "text": "read all the offer related documents carefully"
+   }
+  ]
+ }
+}

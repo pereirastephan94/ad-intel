@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aapne small finance banks ke baare mein suna hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Small finance bank FDs, up to 8.5%",
+    "one_line": "Two people in a podcast set explain that small finance banks are RBI regulated and pay up to 8.5% on FDs against 5-6% at big banks.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "row", "production"],
+    "human_checked": false
+  }
+}

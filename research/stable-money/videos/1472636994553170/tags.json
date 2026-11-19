@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Credit card lena hai toh options bahut hain.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD-backed lifetime-free credit card",
+    "one_line": "A mic-holding presenter pitches a lifetime-free credit card from a Stable Money FD that earns interest and gives 8 free lounge visits.",
+    "script_twin": null,
+    "offer_also": ["rate_return"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "angle", "production"],
+    "human_checked": false
+  }
+}

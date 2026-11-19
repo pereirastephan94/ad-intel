@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title card: 'Nani Tuitions / How To Book FD Online'; spoken: 'Nani, FDs bhi aapki thodi modern ho gayi hain'",
+    "hook": "story_open",
+    "hook_text": "Nah nah, aaj main aapko FD banana sikhaungi.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD booking in app, up to 8.5%",
+    "one_line": "A grandmother is shown how to book an FD online in the Stable Money app, asks if it is safe, and learns about 8.5% and the 5 lakh cover.",
+    "script_twin": "2183485612579648",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "row", "angle"],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Monthly RD, up to 8.5% returns",
+    "one_line": "A presenter says short-term goals have no savings plan and pitches a Stable Money monthly RD, like an SIP for fixed deposits, at up to 8.5%.",
+    "script_twin": "2933453097006450",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["angle"],
+    "human_checked": false
+  }
+}

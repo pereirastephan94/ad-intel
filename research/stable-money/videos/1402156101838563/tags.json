@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "A boarding pass aur ID?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "FD-backed credit card, free lounge access",
+    "one_line": "Two friends on a video call before a flight: one eats free at the lounge using a lifetime-free credit card he got with a Stable Money FD.",
+    "script_twin": null,
+    "offer_also": ["cashback", "rate_return"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "production"],
+    "human_checked": false
+  }
+}

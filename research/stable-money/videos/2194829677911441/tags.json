@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aapke savings account mein abhi kitna balance hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "FD, up to 8.5% against 2-3% savings",
+    "one_line": "Street interviews open on savings balances, then a presenter says a Stable Money FD pays up to 8,500 rupees on 1 lakh.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "production"],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Airport lounge ke bahar hamesha aapko 2-3 log aise milenge, jo alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko lounge access nahi mil raha.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD-backed credit card, free lounge access",
+    "one_line": "A presenter says most cards have lounge spend limits or lost the perk, then pitches a lifetime-free card from a Stable Money FD with 8 free visits.",
+    "script_twin": "935043619677161",
+    "offer_also": ["cashback", "rate_return"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "production"],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title card: 'Papa Explaining / Jab bhi share market daraye, to purane tareeke apnaayein'",
+    "hook": "story_open",
+    "hook_text": "Papa, bolo beta, mere savings account mein 1 lakh rupaye pade hue hain, kuch karna chahiye kya?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bank FDs up to 8.3%, via app",
+    "one_line": "A son worried about the share market asks his father about 1 lakh idle in savings, and is told FDs pay up to 8.3% and can be booked in the app.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "angle", "row"],
+    "human_checked": false
+  }
+}

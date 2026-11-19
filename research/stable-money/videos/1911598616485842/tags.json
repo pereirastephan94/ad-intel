@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Excuse me ma'am, kya main aapse ek sawaal puch sakta hoon?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD-backed credit card, 8 free lounge visits",
+    "one_line": "A man interviews a woman in a bookshop who says the Stable Money FD-backed card gives 8 free lounge visits with no minimum spend.",
+    "script_twin": null,
+    "offer_also": ["cashback"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "production", "angle"],
+    "human_checked": false
+  }
+}

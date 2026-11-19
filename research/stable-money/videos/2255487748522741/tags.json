@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "You are earning 30% less interest on your FD.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "FD marketplace, 8.5% top rate",
+    "one_line": "A presenter says your FD earns 30% less than the best 8.5% rate and that Stable Money makes switching as easy as matrimony.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["production", "angle", "hook"],
+    "human_checked": false
+  }
+}

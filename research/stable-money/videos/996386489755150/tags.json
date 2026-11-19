@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aur bhai, tu ne nayi gaadi li?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Recurring Deposit (RD), 7-8% returns",
+    "one_line": "Two friends outside a car showroom: one explains he paid for his new car with a Stable Money RD that works like an SIP.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "production", "angle", "hook_text"],
+    "human_checked": false
+  }
+}

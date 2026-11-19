@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Nani Tuition / How To Book FD Online'",
+    "hook": "story_open",
+    "hook_text": "Nani, main aaj aapko FD book karna sikhaungi.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD booking in the app, up to 8.5% p.a.",
+    "one_line": "A staged family tutorial shows nani booking an FD in the Stable Money app, with a 7% versus 8.5% comparison.",
+    "script_twin": "1113897927910622",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "angle"],
+    "human_checked": false
+  }
+}

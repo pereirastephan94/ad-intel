@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Monthly payout FDs",
+    "one_line": "A son asks his father why money lands in his account monthly and learns about monthly payout FDs booked on Stable Money.",
+    "script_twin": "1199052999315565",
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook"],
+    "human_checked": false
+  }
+}

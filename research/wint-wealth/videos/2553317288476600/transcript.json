@@ -1,0 +1,106 @@
+{
+ "asset": "2553317288476600",
+ "first_seen_in": "1122130514055415",
+ "duration_s": 53.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 43.2,
+   "why": "scene change"
+  },
+  {
+   "t": 53.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "As a married couple, we have made one investment that pays us monthly interest and it has completely changed how we plan our finances. And the surprising part, only 10% of Indians know about it. This investment gives us 11% fixed returns a year, which comes into account every month. Look, when you start a family, you have more financial responsibilities, so it makes sense to have an investment in your portfolio that gives you some money every month. And that's why we invested in bonds on wind wealth. Talking about wind wealth, it's a severe registered broker with over 3 lack in investors. And the best part according to me is that wind wealth, in which 2% of their money in all the bonds, so they have skin in the game. And these bonds are bag by assets. So if you are someone looking for monthly interest, check wind wealth now. All the offer related documents carefully.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.4,
+    "text": "As a married couple, we have made one investment that pays us monthly interest and it has completely"
+   },
+   {
+    "start": 4.4,
+    "end": 6.3,
+    "text": "changed how we plan our finances."
+   },
+   {
+    "start": 6.3,
+    "end": 9.9,
+    "text": "And the surprising part, only 10% of Indians know about it."
+   },
+   {
+    "start": 9.9,
+    "end": 14.5,
+    "text": "This investment gives us 11% fixed returns a year, which comes into account every month."
+   },
+   {
+    "start": 14.5,
+    "end": 19.1,
+    "text": "Look, when you start a family, you have more financial responsibilities, so it makes sense"
+   },
+   {
+    "start": 19.1,
+    "end": 23.8,
+    "text": "to have an investment in your portfolio that gives you some money every month."
+   },
+   {
+    "start": 23.8,
+    "end": 26.7,
+    "text": "And that's why we invested in bonds on wind wealth."
+   },
+   {
+    "start": 26.7,
+    "end": 31.3,
+    "text": "Talking about wind wealth, it's a severe registered broker with over 3 lack in investors."
+   },
+   {
+    "start": 31.3,
+    "end": 35.4,
+    "text": "And the best part according to me is that wind wealth, in which 2% of their money in"
+   },
+   {
+    "start": 35.4,
+    "end": 37.7,
+    "text": "all the bonds, so they have skin in the game."
+   },
+   {
+    "start": 37.7,
+    "end": 39.8,
+    "text": "And these bonds are bag by assets."
+   },
+   {
+    "start": 39.8,
+    "end": 52.1,
+    "text": "So if you are someone looking for monthly interest, check wind wealth now."
+   },
+   {
+    "start": 52.1,
+    "end": 53.4,
+    "text": "All the offer related documents carefully."
+   }
+  ]
+ }
+}

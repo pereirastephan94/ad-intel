@@ -1,0 +1,121 @@
+{
+ "asset": "1551790489702609",
+ "first_seen_in": "1087294090969954",
+ "duration_s": 23.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.3,
+   "why": "scene change"
+  },
+  {
+   "t": 4.6,
+   "why": "scene change"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 7.9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.1,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Learn how to make money The Kumagwa is certainly new but I invest in bonds Because on the 15% of the 11% You can invest in a short term like 3-month bond And I use wind well for this Let's see if there is a new firm Fix returns do not constitute guaranteed or the short returns Investments in corporate debt securities, municipal debt securities And securities debt instruments are subject to credit risks Market risks and default risks Including delay and or default impairment Read all the offer related documents carefully",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.7,
+    "text": "Learn how to make money"
+   },
+   {
+    "start": 1.7,
+    "end": 4.4,
+    "text": "The Kumagwa is certainly new but I invest in bonds"
+   },
+   {
+    "start": 4.4,
+    "end": 6.4,
+    "text": "Because on the 15% of the 11%"
+   },
+   {
+    "start": 6.4,
+    "end": 9.4,
+    "text": "You can invest in a short term like 3-month bond"
+   },
+   {
+    "start": 9.4,
+    "end": 11.2,
+    "text": "And I use wind well for this"
+   },
+   {
+    "start": 11.2,
+    "end": 12.9,
+    "text": "Let's see if there is a new firm"
+   },
+   {
+    "start": 12.9,
+    "end": 14.9,
+    "text": "Fix returns do not constitute guaranteed or the short returns"
+   },
+   {
+    "start": 14.9,
+    "end": 17.1,
+    "text": "Investments in corporate debt securities, municipal debt securities"
+   },
+   {
+    "start": 17.1,
+    "end": 19.1,
+    "text": "And securities debt instruments are subject to credit risks"
+   },
+   {
+    "start": 19.1,
+    "end": 20.1,
+    "text": "Market risks and default risks"
+   },
+   {
+    "start": 20.1,
+    "end": 21.5,
+    "text": "Including delay and or default impairment"
+   },
+   {
+    "start": 21.5,
+    "end": 23.2,
+    "text": "Read all the offer related documents carefully"
+   }
+  ]
+ }
+}

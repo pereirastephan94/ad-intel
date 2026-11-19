@@ -1,0 +1,167 @@
+{
+ "asset": "28008431572111270",
+ "first_seen_in": "2292299894864285",
+ "duration_s": 49.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7,
+   "why": "scene change"
+  },
+  {
+   "t": 7.1,
+   "why": "scene change"
+  },
+  {
+   "t": 7.2,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28.2,
+   "why": "scene change"
+  },
+  {
+   "t": 29.4,
+   "why": "scene change"
+  },
+  {
+   "t": 31.1,
+   "why": "scene change"
+  },
+  {
+   "t": 33.7,
+   "why": "scene change"
+  },
+  {
+   "t": 36.5,
+   "why": "scene change"
+  },
+  {
+   "t": 49.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "अ Prayer य membris Beta, first word, eating properly. Yes ma, everything is good. Don't spend too much days, not for kids. Ok ma. Hi take care. Bye ma. She's been saving her entire life for me. When was the last time she invested on herself? Never. So I did something different. Through went wealth, I helped my mother invest in bonds, which gives her 11% fixed returns. Now even she spends guilt free. She gave me everything. This is just the start. Download went wealth.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.8,
+    "text": "अ Prayer"
+   },
+   {
+    "start": 5.8,
+    "end": 7.3,
+    "text": "य membris"
+   },
+   {
+    "start": 7.3,
+    "end": 11.3,
+    "text": "Beta, first word, eating properly."
+   },
+   {
+    "start": 11.3,
+    "end": 13.3,
+    "text": "Yes ma, everything is good."
+   },
+   {
+    "start": 13.3,
+    "end": 15.3,
+    "text": "Don't spend too much days, not for kids."
+   },
+   {
+    "start": 15.3,
+    "end": 17.3,
+    "text": "Ok ma."
+   },
+   {
+    "start": 17.3,
+    "end": 18.3,
+    "text": "Hi take care."
+   },
+   {
+    "start": 18.3,
+    "end": 19.3,
+    "text": "Bye ma."
+   },
+   {
+    "start": 21.3,
+    "end": 23.3,
+    "text": "She's been saving her entire life for me."
+   },
+   {
+    "start": 23.3,
+    "end": 25.3,
+    "text": "When was the last time she invested on herself?"
+   },
+   {
+    "start": 25.3,
+    "end": 26.3,
+    "text": "Never."
+   },
+   {
+    "start": 26.3,
+    "end": 28.3,
+    "text": "So I did something different."
+   },
+   {
+    "start": 28.3,
+    "end": 31.3,
+    "text": "Through went wealth, I helped my mother invest in bonds,"
+   },
+   {
+    "start": 31.3,
+    "end": 33.3,
+    "text": "which gives her 11% fixed returns."
+   },
+   {
+    "start": 33.3,
+    "end": 35.3,
+    "text": "Now even she spends guilt free."
+   },
+   {
+    "start": 35.3,
+    "end": 36.3,
+    "text": "She gave me everything."
+   },
+   {
+    "start": 36.3,
+    "end": 38.3,
+    "text": "This is just the start."
+   },
+   {
+    "start": 38.3,
+    "end": 39.3,
+    "text": "Download went wealth."
+   }
+  ]
+ }
+}

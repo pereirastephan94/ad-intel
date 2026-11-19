@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Kya aapko pata hai, aapki FDs aapko free mein airport lounge access de sakti hain?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "FD-linked free credit card, 8 lounge visits",
+    "one_line": "A woman at a cafe table says a Stable Money FD at up to 8% can bring a lifetime free card with 8 free lounge visits a year.",
+    "script_twin": null,
+    "offer_also": ["rate_return", "cashback"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["production", "angle"],
+    "human_checked": false
+  }
+}

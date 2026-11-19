@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, mujhe to gaadi leni thi, uske liye maine SIP setup kar diya.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Monthly Recurring Deposit (RD), up to 8.5%",
+    "one_line": "A dad tells his son to stop his car-fund SIP and use a monthly Stable Money RD for safe, fixed returns.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "angle", "offer"],
+    "human_checked": false
+  }
+}
