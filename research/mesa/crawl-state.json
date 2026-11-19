@@ -366,9 +366,7 @@
   {
    "q": "work",
    "media": "meme"
-  }
- ],
- "queue": [
+  },
   {
    "q": "work",
    "media": "image"
@@ -388,10 +386,46 @@
    "q": "you"
   },
   {
+   "q": "you",
+   "media": "video"
+  },
+  {
+   "q": "you",
+   "media": "meme"
+  },
+  {
+   "q": "you",
+   "media": "image"
+  },
+  {
+   "q": "you",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
    "q": "your"
   },
   {
    "q": "the"
+  },
+  {
+   "q": "the",
+   "media": "video"
+  }
+ ],
+ "queue": [
+  {
+   "q": "the",
+   "media": "meme"
+  },
+  {
+   "q": "the",
+   "media": "image"
+  },
+  {
+   "q": "the",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   },
   {
    "q": "not"
@@ -684,6 +718,55 @@
    "q": "work",
    "media": "meme",
    "retry": 1
+  },
+  {
+   "q": "work",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "work",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "why",
+   "retry": 1
+  },
+  {
+   "q": "how",
+   "retry": 1
+  },
+  {
+   "q": "you",
+   "media": "video",
+   "retry": 1
+  },
+  {
+   "q": "you",
+   "media": "meme",
+   "retry": 1
+  },
+  {
+   "q": "you",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "you",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "your",
+   "retry": 1
+  },
+  {
+   "q": "the",
+   "media": "video",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -822,7 +905,21 @@
   "2026-11-19T17:16:21.896Z stopping after 14 view(s) as asked",
   "2026-11-19T17:16:21.896Z PAUSED: 221 unique ads of ~0",
   "2026-11-19T17:16:40.120Z view {\"q\":\"work\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
-  "2026-11-19T17:22:49.326Z view {\"q\":\"work\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0"
+  "2026-11-19T17:22:49.326Z view {\"q\":\"work\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:27:01.117Z view {\"q\":\"work\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:31:42.263Z view {\"q\":\"work\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:36:55.070Z view {\"q\":\"why\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:42:43.698Z view {\"q\":\"how\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:47:45.381Z view {\"q\":\"you\"} -> 30 ads (window total 41), 8 new, 229 unique of ~0",
+  "2026-11-19T17:54:21.053Z view {\"q\":\"you\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 229 unique of ~0",
+  "2026-11-19T18:00:34.144Z view {\"q\":\"you\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 229 unique of ~0",
+  "2026-11-19T18:07:32.525Z view {\"q\":\"you\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 229 unique of ~0",
+  "2026-11-19T18:13:41.053Z view {\"q\":\"you\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 229 unique of ~0",
+  "2026-11-19T18:19:44.900Z view {\"q\":\"your\"} -> 0 ads (window total 0), 0 new, 229 unique of ~0",
+  "2026-11-19T18:26:11.810Z view {\"q\":\"the\"} -> 30 ads (window total 43), 12 new, 241 unique of ~0",
+  "2026-11-19T18:30:40.581Z view {\"q\":\"the\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 241 unique of ~0",
+  "2026-11-19T18:30:40.586Z stopping after 14 view(s) as asked",
+  "2026-11-19T18:30:40.586Z PAUSED: 241 unique ads of ~0"
  ],
  "keywordsQueued": true
 }
