@@ -49,6 +49,17 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "अग्टा ते आई मेरी दावेडारी आरी आरी आरी आरी आरी आरी आरी तेरी देरी किजंदरी",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 13.5,
+    "text": "अग्टा ते आई मेरी दावेडारी आरी आरी आरी आरी आरी आरी आरी तेरी देरी किजंदरी"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "Dude!musak yea e hai li who",
   "segments": [

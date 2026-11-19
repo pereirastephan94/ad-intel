@@ -1,10 +1,14 @@
 {
- "query": "Atomberg",
+ "query": "Atomberg Technologies",
  "country": "IN",
  "searched_with": [
-  "exact-phrase search"
+  "page id looked up by hand"
  ],
- "plausible_matches": 0,
- "candidates": [],
- "note": "Nothing came back. Try a shorter or different spelling or another country code, once, after a few minutes. Or ask the user to paste the page link from facebook.com/ads/library."
+ "candidates": [
+  {
+   "page_id": "761127860687721",
+   "page_name": "Atomberg Technologies",
+   "name_match": "exact"
+  }
+ ]
 }

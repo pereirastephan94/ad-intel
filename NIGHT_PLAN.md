@@ -69,3 +69,11 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   THE MOMENT IT ENDS, START IT AGAIN with the same command. It keeps its place (research/<slug>/crawl-state.json: stage 1 = all/video/image, stage 2 = more media views, stage 3 = keyword views).
 - Do not run sample-run.sh or sample-run-slow.sh any more, and never two pullers at once.
 - Analysis (write-ups, concept pass, compare, publish) happens alongside and must never pause the puller. Before writing up a brand, run prepare.py and retranscribe.py on it.
+
+## Added 23:55 UTC 19 Nov
+- Comparison 1 republished as v2 after the Opus rubric review (22 -> 28 of 30; 7 wrong claims in my hand-written verdicts were fixed). RUBRIC is now v3 (17 lines, ship at 30 of 34).
+  LESSON: always have an Opus agent verify every figure in perspectives.json against the tags before publishing, and fill the `extras` block
+  (product mix, series, contradictions per brand from concepts.md). Use the prompt pattern of the "Rubric review of comparison 1" agent.
+- The Ad Library keyword search also returns empties. Page ids looked up by hand and written to research/<slug>/page.json:
+  Atomberg 761127860687721, Qubo 2142425975816266, Mokobara 877758885907009, GIVA 350941852220221, CaratLane 77179773544. DailyObjects still unknown (rr-pull keeps searching).
+- Write-ups running: Cult.fit (14 videos, 2 Sonnet agents), Fitelo (21 videos + 4 images, 2 Sonnet agents). Then a concept pass each, then comparison 2.
