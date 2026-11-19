@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Earn 11% fixed returns* p.a.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed returns",
+    "one_line": "A white card headed Bonds on Wint Wealth shows a huge 11% fixed returns figure beside a stack of banknotes.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook"],
+    "human_checked": false
+  }
+}

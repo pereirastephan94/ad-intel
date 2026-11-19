@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "GET MONTHLY INTEREST",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, monthly interest, 11.75% p.a.",
+    "one_line": "A desert-toned card says Get Monthly Interest, start with 10,000 rupees, with a tilted card showing 11.75% p.a. and 6 months maturity.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook"],
+    "human_checked": false
+  }
+}

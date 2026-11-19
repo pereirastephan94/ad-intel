@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Bonds on Wint Wealth.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, monthly interest to bank account",
+    "one_line": "A white card headed Bonds on Wint Wealth says Earn Monthly Interest credited directly to your bank account, with a calendar picture.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "offer"],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "EARN MONTHLY INTEREST",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, monthly interest, 11% fixed",
+    "one_line": "A dark card says Earn Monthly Interest in huge green type, with a calendar showing 11% fixed returns and a note of 6 months tenure.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook"],
+    "human_checked": false
+  }
+}

@@ -1,9 +1,9 @@
 # Two men explain bonds with a "only 10% know" statistic (2069991826945564)
 - Creative name: not in link
-- Product or programme: Wint Wealth bonds ("teen mahine ke ... short-term bonds"); end card "Earn 11% fixed returns (P.A.) / 3 Month Tenure Bond"
+- Product or programme: Wint Wealth bonds; end card "Earn 11% fixed returns (P.A.) / 3 Month Tenure Bond"
 - Length, shape: 74.7 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish
-- Format: two talking-head explainers on a split screen, with generated-looking b-roll and a screen-recording insert
+- Format: two talking heads on a split screen with generated-looking b-roll
 - Ads using it: 1, earliest start 2026-10-07, total copies 1; links:
   - https://www.facebook.com/ads/library/?id=1139217318446573
 
@@ -30,43 +30,43 @@ Roman spelling is mine from 28 s (machine text is Devanagari); doubtful words [?
 | 50.6-57.6 | Aur agar aapko paise ki requirement ho, toh yahin aap bond bech sakte hain. | And if you need money, you can sell the bond right here. (said twice) |
 | 57.6-60.6 | Agar aapko bhi ek secondary income stream banani hai, | If you too want a secondary income stream, |
 | 60.6-66.1 | Through your investments, download karein Wint Wealth app aur bonds zaroor explore kijiye. | download the Wint Wealth app and do explore bonds. |
-| 66.2-74.7 | End card; no clean speech in the main text. | |
+| 66.2-74.7 | Fixed returns do not constitute guaranteed or assured returns. Investments in ... debt instruments are subject to credit risks, market risks and default risks, including delay and/or default in payment. Read all the offer related documents carefully. | (disclaimer, from the first-pass transcript) |
 
 ## First 3 seconds
-Split screen: a white-framed generated-looking clip on top (office crowd, spotlit group, then "10%" over the group), a man in a plum shirt below. SEBI line from 0.5 s. At 2 s: "As per the SEBI Investor Survey 2025, only 10% of Indians are aware of bonds." Speech from 0 s. Hook: number_claim.
+Split screen: generated-looking clip on top (office crowd, then "10%" over a group), a man in a plum shirt below. At 2 s the caption: "As per the SEBI Investor Survey 2025, only 10% of Indians are aware of bonds." Speech from 0 s. Hook: number_claim.
 
 ## Person on screen
-Two men, no name or role on screen. A name is spoken at 8-10 s, but no caption backs it and I cannot tell which man says it. A: about 40 to 50, curly hair, blue glasses, plum shirt. B: about 55 to 65, grey hair, moustache, black glasses, yellow shirt. Earnest, at or near the lens. They say "hum khud" (we ourselves) invest this way.
+Two men, no name or role on screen. A name is spoken at 8-10 s, but no caption backs it and I cannot tell who says it. A: about 40 to 50, curly hair, blue glasses, plum shirt. B: about 55 to 65, grey hair, moustache, glasses, yellow shirt. Both earnest.
 
 ## Setting, framing and look
-Beige office wall, white table, static medium close-ups, whip and mirror-blur transitions between the men. B-roll looks generated [?]. At 23.5 s a phone frame shows a black screen, no app content.
+Beige office wall, static medium close-ups, whip and mirror-blur transitions between the men. B-roll looks generated [?]. At 23.5 s a phone frame shows only a black screen.
 
 ## On-screen text, captions, logos, graphics
-- White boxes: SEBI name line from 0.5 s (Fourdegreewater Services Private Limited, INZ000313632); survey caption (2 s); "*The inventories offered on the platform offer interest ranging from 9% to 12% fixed returns p.a." (23.5 s); card "IS THIS INVESTMENT SAFE?" (35.7 s); "You are choosing to sell before maturity date therefore the sell transaction will be executed at the rates mentioned above subject to availability of buyer and prevailing interest rate at the time of sell." (54.7 s).
-- End card from 66.2 s: "EARN 11% FIXED RETURNS (P.A.)", "3 Month Tenure Bond", card "11% p.a. / Maturity: 3 months / Navi Bond | A rating | Senior Secured Bond", disclaimer.
+- White boxes: SEBI name line from 0.5 s; survey caption (2 s); "*The inventories offered on the platform offer interest ranging from 9% to 12% fixed returns p.a." (23.5 s); card "IS THIS INVESTMENT SAFE?" (35.7 s); "You are choosing to sell before maturity date therefore the sell transaction will be executed at the rates mentioned above subject to availability of buyer and prevailing interest rate..." (54.7 s).
+- End card from 66.2 s: same as video 1761453178608150 ("EARN 11% FIXED RETURNS (P.A.)", "3 Month Tenure Bond", card "Navi Bond | A rating | Senior Secured Bond").
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 14 cuts (1.87 per 10 s), first cut 4.17 s, 1 cut in the first 5 s. 211 words per minute, speech share 0.99, tempo 123 bpm; music bed not judged.
+Measured by software, not heard, so genre and track cannot be named. 14 cuts (1.87 per 10 s), first cut 4.17 s. 211 words per minute, speech share 0.99, tempo 123 bpm; music bed not judged.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-10 | Hook | 10% aware |
 | 10-40 | Mechanism | Secured bonds |
-| 40-66 | Offer, CTA | 3-month, can sell |
-| 66-74.7 | End card | 11%, disclaimer |
+| 40-66 | Offer, CTA | 3-month, sell |
+| 66-75 | End card | 11% |
 
 ## Claims and proof
-- "Only 10% aware": caption cites "SEBI Investor Survey 2025", no link; speech says "investment option", caption "bonds".
-- "11% ke aaspaas": the caption beside it says "9% to 12%"; the card is one 3-month bond.
-- "Secured, asset-backed": the disclaimer lists credit, market and default risk; returns not "guaranteed or assured".
-- "Bond bech sakte hain" (you can sell): the 54.7 s caption makes the sale depend on a buyer and the rate.
-- "Secondary income stream": the card shows one 3-month maturity, no payout schedule.
+- "Only 10% aware": cites "SEBI Investor Survey 2025", no link; speech says "investment option", caption "bonds".
+- "11% ke aaspaas": caption beside it says "9% to 12%"; the card is one 3-month bond.
+- "Secured, asset-backed": the disclaimer lists credit, market and default risk.
+- "Bond bech sakte hain" (you can sell): the 54.7 s caption makes a sale depend on a buyer and the rate.
+- "Secondary income": one 3-month maturity, no payout schedule.
 
 ## Offer and call to action
 Spoken: "download karein Wint Wealth app". Button "Install now", Google Play. No headline. Ad text: "Did you know? [emoji] Bonds can give you regular interest income while your principal remains invested till maturity. [emoji] Explore bonds with Wint Wealth." plus hashtags #Bonds #BondInvestment #WintWealth #FixedIncome #Investing and a keyword list.
 
 ## Why it may work, and where it is weak
-Works: a sourced-sounding statistic opens it; plain mechanism; safety and "can I sell" answered in the script.
+Works: a sourced-sounding statistic opens it; plain mechanism; safety and selling are answered.
 
-Weak: men never named on screen; blurry cuts and a black phone screen; a 3-month bond sold as "secondary income"; "secured" and "sell" claims are qualified by small print.
+Weak: men never named; blurry cuts, a black phone screen; "secured" and "sell" claims are qualified by small print.

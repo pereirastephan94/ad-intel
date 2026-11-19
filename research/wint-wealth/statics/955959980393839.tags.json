@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "11% FIXED RETURNS* p.a.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed, 3 months",
+    "one_line": "A white square shows a huge 11% fixed returns figure on a brown card, a 3 Months pill, the words Earn Monthly Interest and a stat row.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+  }
+}

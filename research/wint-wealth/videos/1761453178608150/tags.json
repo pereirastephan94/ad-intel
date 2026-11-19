@@ -1,7 +1,7 @@
 {
   "tags": {
     "row": "V2",
-    "face": "creator",
+    "face": "actor_model",
     "founder_evidence": "",
     "hook": "story_open",
     "hook_text": "We are in the mountains [?] and we just decided to extend our stay.",

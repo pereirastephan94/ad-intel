@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "YOU INVEST IN 'BONDS'",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Bonds, monthly interest",
+    "one_line": "A text-only green and white card says you invest in bonds and you earn monthly interest, with no figure on the main text.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "offer"],
+    "human_checked": false
+  }
+}

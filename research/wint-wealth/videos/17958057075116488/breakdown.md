@@ -25,7 +25,7 @@ Middle, 30-96 s (low confidence): could not explain bonds to his mother; Wint's 
 | Time | Line | Gloss |
 |---|---|---|
 | 99.7-100.6 | Yahan pe dekh lo. | Look here. |
-| 104.4-110.7 | ...securities/securitised debt instruments are subject to credit risks, market risks and default risks, including delay and/or default in payment. Read all the offer related documents carefully. | Disclaimer read out; the printed card matches |
+| 104.4-110.7 | ...securities/securitised debt instruments are subject to credit risks, market risks and default risks, including delay and/or default in payment. Read all the offer related documents carefully. | (disclaimer, from the first-pass transcript) |
 
 ## First 3 seconds
 Man in a white polo, gesturing. Caption boxes from 0 s: "My First Paid Post" (white on black), "Wint Wealth" (black on white), "Watch till the end :)". Speech from 0 s: "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna..." Hook: story_open.
