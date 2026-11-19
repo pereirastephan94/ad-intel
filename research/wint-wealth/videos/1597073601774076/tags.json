@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Urvesh, long term investment par toh sab gyaan dete hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bonds, 9 to 12% fixed, easy exit",
+    "one_line": "A couple chat in their kitchen about where to put six months of money; one recommends Wint Wealth bonds, 9 to 12% fixed with easy exit.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "angle"],
+    "human_checked": false
+  }
+}

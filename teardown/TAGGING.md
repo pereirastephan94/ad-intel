@@ -149,3 +149,10 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 6. **Image with no headline** and a small stat row: I2. I1 needs the offer to be the largest or first-read text.
 7. **Image ads can also carry `ad_text_missing`.**
 8. Always note brand-level numbers that disagree across ads (user counts, amounts invested, visit counts) at the end of your reply; they go into the comparison.
+
+## Rulings from review 4 (20 Nov 2026, after Wint Wealth videos 1 to 7)
+1. **An order or promise to the viewer** ("Learn how to make money", "Stop doing this") is `callout`. Use `unclear` only when there are no words and no clear picture.
+2. **Voiceover with no visible speaker:** face `none`. Hand-drawn, paper-craft or stop-motion explainers are V4 even with a short talking head; production value `animation_craft` (new allowed value).
+3. **Creator:** a creator handle or name credited in the ad text, a caption or a partnership label makes the face `creator`. Quote it in `founder_evidence`.
+4. **A spoken legal disclaimer** that only the raw transcript caught belongs in the Script table, marked "(disclaimer, from the first-pass transcript)".
+5. **Romanising:** if a stretch of the main transcript is still not Roman script, romanise it yourself from captions and sound sense and mark [?]. That is expected, not a failure.

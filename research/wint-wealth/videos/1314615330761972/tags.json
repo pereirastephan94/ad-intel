@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Agar mera koi chhota bhai hota, main usse ek advice zarur deta.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed return, 3 month tenure",
+    "one_line": "Paper-craft animation of three pieces of advice for a younger brother, the last being to invest in an 11% 3 month bond on Wint Wealth.",
+    "script_twin": "1551790489702609",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "row", "production"],
+    "human_checked": false
+  }
+}

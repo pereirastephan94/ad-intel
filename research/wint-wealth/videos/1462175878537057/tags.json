@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "11% ka fixed returns on your investments, kya yeh sach mein possible hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed return, 3 month tenure",
+    "one_line": "A man explains with hand-drawn paper sketches how secured bonds pay 11% fixed returns, cites a 10% awareness stat, and tells viewers to download Wint Wealth.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "face"],
+    "human_checked": false
+  }
+}

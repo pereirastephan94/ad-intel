@@ -15,3 +15,11 @@ Read: 1113897927910622 header, verdict section and tags; the bot's report on all
 - New pattern the tags must carry: recurring personas ("Papa Explaining", "Nani Tuitions"). `character` value used correctly.
 - Inconsistent: hook for dialogue openers (number_claim vs story_open vs question) and the row for two people talking. Ruled in "Rulings from review 2".
 - Some second-pass transcripts are still partly Devanagari; the bot romanised them. Acceptable, marked [?].
+
+## Review 3 (20 Nov 2026): Stable Money concept pass (about the 28th write-up)
+- Twins had inconsistent hooks; concept pass fixed them and three more were corrected by hand. Rulings 3 added (same footage = same idea; first sentence only; pure rate claim = outcome).
+- The bots now report numbers that disagree across a brand's ads without being asked. Made it a standing rule.
+
+## Review 4 (20 Nov 2026): Wint Wealth videos 1 to 7 (about the 35th write-up)
+- Read the bot's report in full. Length cap held; small print checked against speech (3-month tenure on cards against "Maturity left 20 months" in the app list; "from 1,000 rupees" against Min. 10k on screen).
+- Gaps: no hook value for an order to the viewer, no production value for paper-craft animation, creator credit in ad text. Ruled in "Rulings from review 4".

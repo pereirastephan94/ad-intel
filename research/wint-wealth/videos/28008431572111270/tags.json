@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Salary credited to your account.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed return",
+    "one_line": "A man gets his first salary, takes a call from his mother, then says he helped her invest in bonds at 11% fixed so she can spend guilt free.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Ek survey ke hisaab se, sirf 10% log hi investment option ke baare mein jaante hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bonds, around 11% fixed, 3 month tenure",
+    "one_line": "Two men on a split screen say only 10% of Indians know bonds, explain secured bonds, and point to Wint Wealth's 3 month bonds at 11%.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "production",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

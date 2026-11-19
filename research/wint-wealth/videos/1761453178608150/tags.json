@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "creator",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "We are in the mountains [?] and we just decided to extend our stay.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Bonds, 11% fixed, 3 month tenure",
+    "one_line": "A couple on a mountain trip talk about flexibility with money, say they get a fixed 11% on bonds, and the card shows a 3 month bond.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
