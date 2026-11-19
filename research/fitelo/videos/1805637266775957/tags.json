@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Mera to free mein weight loss hua hai!",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Diet coaching plan, 100% cashback offer",
+    "one_line": "A housewife says she lost 25 kgs in about 5 months, eating home food, and ends on a 100% cashback cheque with a Book Now button.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -27,10 +27,10 @@ Captions win over the machine text ("chaltein", "chalaya"). Nothing is spoken af
 Not named. Apparent age 20s to 30s, dark curly hair, full beard, maroon and navy striped short-sleeve shirt. Shock, then a grin; mostly looks at the lens.
 
 ## Setting, framing and look
-Phone-shot, natural light, handheld: corridor, shopfront steps (sign in Kannada script and "cult.fit / GYM | GROUP CLASSES"), lift, street. The shopfront repeats after each gag. No workout b-roll.
+Phone-shot, natural light, handheld: corridor, shopfront steps (sign in Kannada script and "cult.fit / GYM | GROUP CLASSES"), lift, street. Shopfront repeats after each gag. No workout b-roll.
 
 ## On-screen text, captions, logos, graphics
-- Captions: white bold sans-serif, centred near the top, one full line at a time.
+- Captions: white bold sans-serif, near the top, one line at a time.
 - End card from about 8 s: blurred shopfront, logo, "Join cult", glass button "Get cultpass ELITE / Best prices + Bonus offers". No price, date or small print.
 
 ## Sound and pacing
@@ -46,10 +46,11 @@ Measured by software, not heard, so the genre and track cannot be named. 7 cuts 
 ## Claims and proof
 - "Best prices + Bonus offers": no price or offer is shown.
 - Headline "Claim your FREE GYM TRIAL" (two ads): the video never mentions a trial. Headline and end card disagree.
-- The Amritsar ad reuses footage with a Kannada-script sign, so it was not shot in Amritsar. The sign names no centre, so Indira Nagar and VIP Road cannot be checked.
+- The Amritsar ad reuses footage with a Kannada-script sign, so it looks shot in Karnataka. The sign names no centre, so Indira Nagar and VIP Road cannot be checked.
+- Same video as 4706620686235689 (a "Cult Neo Gym" ad).
 
 ## Offer and call to action
-Spoken invite only. Button "Get offer" on all three, landing http://fb.me/. Ad text:
+Spoken invite only. Button "Get offer", landing http://fb.me/. Ad text:
 - "Start your fitness journey at Cult Indira Nagar today / Sign up today and we'll call you with all the details. Let's get moving!" (same with "Cult VIP Road")
 - "Start your fitness journey at Cult Mall Road, Amritsar! / Sign up now and our team will connect with all the details. Let's get moving!"
 No price, discount or deadline.
@@ -61,7 +62,6 @@ Works:
 - One template reused across cities.
 
 Weak:
-- Never says what cult sells or costs.
+- Never says what it sells or costs.
 - "Free trial" and "Best prices" tell different stories.
 - Karnataka-looking footage sold as Amritsar.
-- Silent end card with no price or date.

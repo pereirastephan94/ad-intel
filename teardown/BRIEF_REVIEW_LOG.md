@@ -23,3 +23,7 @@ Read: 1113897927910622 header, verdict section and tags; the bot's report on all
 ## Review 4 (20 Nov 2026): Wint Wealth videos 1 to 7 (about the 35th write-up)
 - Read the bot's report in full. Length cap held; small print checked against speech (3-month tenure on cards against "Maturity left 20 months" in the app list; "from 1,000 rupees" against Min. 10k on screen).
 - Gaps: no hook value for an order to the viewer, no production value for paper-craft animation, creator credit in ad text. Ruled in "Rulings from review 4".
+
+## Review 5 (20 Nov 2026): Cult.fit batch B (about the 60th write-up)
+- Read the bot's report. It caught city-by-city prices on identical footage (1,099 / 1,199 / 1,250 / 1,291 "starting at"), a free-trial headline on a video that never mentions a trial, and an Amritsar ad using footage with a Kannada shop sign. That is the level wanted.
+- Gaps: no offer value for a "from" price; deadline without a date; reviewer-tour videos. Ruled in "Rulings from review 5".

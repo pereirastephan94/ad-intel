@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Mera weight loss literally free ho gaya.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A named customer says she lost 26 kgs and her weight loss came free, then the ad launches a 10X cashback offer for the first 100 customers.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle",
+      "deadline",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

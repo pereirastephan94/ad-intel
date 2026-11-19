@@ -13,12 +13,18 @@
     "concept_id": null,
     "product": "Gym access via cultpass ELITE, free trial",
     "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, and each time says let's go to cult.",
-    "script_twin": null,
-    "offer_also": ["other"]
+    "script_twin": "4706620686235689",
+    "offer_also": [
+      "other"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "angle", "offer"],
+    "unsure": [
+      "row",
+      "angle",
+      "offer"
+    ],
     "human_checked": false
   }
 }

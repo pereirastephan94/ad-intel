@@ -35,7 +35,7 @@ Not named by any caption or ad text. Apparent age 20s to 30s, long dark wavy hai
 Phone-shot, bright gym light, handheld. She talks full-length in front of black mesh fencing with yellow hazard stripes and pink wall graphics; "WE ARE CULT" wall at 22.9 s. B-roll: chest-press machine, a moon-wall studio with countdown clock, app screen, dance class, spin bikes, trainers coaching a barbell lift. White brush-stroke wipes between shots.
 
 ## On-screen text, captions, logos, graphics
-- Captions: white bold sans-serif, lower third, 3 to 5 words at a time, no colour highlights.
+- Captions: white bold sans-serif, lower third, 3 to 5 words at a time, no highlights.
 - App close-up at 11.3 s: "2/2 FREE GROUP TRIALS LEFT", classes "ADIDAS STRENGTH+", "BURN", "HRX WORKOUT" at "Cult Vaishali Nagar".
 - End card (about 36-40 s): cult logo, "Get cultpass ELITE", glass button "starting at ₹1,099/mo". No small print.
 
@@ -61,10 +61,10 @@ Spoken: "Ready to switch up your workouts?" Button "Get offer", landing http://f
 ## Why it may work, and where it is weak
 Works:
 - Reviewer tone, not brand-ad tone.
-- Floor, classes, trainers, app in 40 s.
+- Floor, classes, trainers, app.
 
 Weak:
-- Price held back until the last 4 s.
+- Price only in the last 4 s.
 - Reviewer has no label, so no credential.
 - Yoga claimed but not seen; trial seen but not said.
 - Same script appears in other cult videos (2895266577525661, 3315079418677635).

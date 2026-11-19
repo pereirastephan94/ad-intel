@@ -8,6 +8,7 @@
   - https://www.facebook.com/ads/library/?id=1665600734881123
   - https://www.facebook.com/ads/library/?id=1126343416846783
   - https://www.facebook.com/ads/library/?id=2555329068326204
+- Square version: 1175984385095817.
 
 ## Script (verbatim)
 No speech: the transcript is empty and the audio is digital silence. On-screen words only:
@@ -19,49 +20,44 @@ No speech: the transcript is empty and the audio is digital silence. On-screen w
 | 3-5.8 | Ring text around the coin: "OFFERS THAT ARE OUT OF THIS WORLD" | (English) |
 
 ## First 3 seconds
-0 s: night-sky teal backdrop, a small astronaut swimming on a pool-like water line, title "FITSTART DAYS" in orange-pink gradient, and below it the full price panel already in place. 0.5 to 2 s: a large rupee coin rises behind the swimmer while "INDIA'S BIGGEST FITNESS SALE" builds letter by letter. 3 s: ring text starts to wrap round the coin. No speech. Hook: offer (sale and price in the first frame).
+0 s: night-sky teal backdrop, a small astronaut swimming at a water line, title "FITSTART DAYS" in orange-pink gradient, and the full price block below it. 0.5 to 2 s: a large rupee coin rises behind the swimmer while "INDIA'S BIGGEST FITNESS SALE" builds. 3 s: ring text starts to wrap round the coin. No speech. Hook: offer (sale and price in the first frame).
 
 ## Person on screen
-Nobody. The only figure is a small 3D astronaut swimming (a character graphic, not a person).
+Nobody. The only figure is a small 3D astronaut character.
 
 ## Setting, framing and look
-Fully computer-made scene: dark teal sky with stars, a glowing copper rupee coin rising out of water, glitchy horizontal scan lines at the water line, black lower half holding the text. Static frame with motion inside it, no camera cuts. Studio-made motion graphic.
+Computer-made scene: starry teal sky, copper rupee coin rising from water, glitch lines, black lower half for text. No cuts.
 
 ## On-screen text, captions, logos, graphics
-- Title "FITSTART DAYS" in large gradient sans, with "INDIA'S BIGGEST FITNESS SALE" in small white capitals at right.
-- Price block, in view from 0 s and unchanged: "cultpass PLAY" (PLAY in bold), "starting at ₹1,145/month", dotted rule, "+ Exciting Daily Deals".
-- Ring text (from 3 s): "OFFERS THAT ARE OUT OF THIS WORLD".
-- No cult logo is visible in the frames. No end card, no button graphic, no small print.
+- "FITSTART DAYS" in large gradient sans; "INDIA'S BIGGEST FITNESS SALE" small and white beside it.
+- Price block, in view from 0 s: "cultpass PLAY" (PLAY bold), "starting at ₹1,145/month", dotted rule, "+ Exciting Daily Deals".
+- Ring text from 3 s: "OFFERS THAT ARE OUT OF THIS WORLD".
+- No cult logo in the frames, no end card, no button graphic, no small print.
 
 ## Sound and pacing
-Measured by software, not heard: no speech, no sound at all (digital silence), no music bed. 0 cuts in 6.1 s; motion happens inside one scene. Anyone watching with sound on hears nothing.
+Measured by software, not heard: no speech, no sound at all (digital silence), no music bed. 0 cuts in 6.1 s.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-3 | Hook, offer | Sale name, price and "Daily Deals" already visible; coin and tagline build. |
-| 3-6.1 | Reinforce | "Offers that are out of this world" ring; astronaut keeps swimming. |
+| 0-3 | Hook, offer | Sale name, price, "Daily Deals" visible; coin and tagline build. |
+| 3-6.1 | Reinforce | "Offers that are out of this world" ring. |
 
 ## Claims and proof
-- "INDIA'S BIGGEST FITNESS SALE": a claim with no figures or source on screen.
-- "starting at ₹1,145/month": the only price. It differs from the ₹1,099/month used for other cult videos (1097706556434827 and 1111715114658510), which is a different pass.
-- "+ Exciting Daily Deals": no deals, discount sizes, dates or terms shown.
-- "OFFERS THAT ARE OUT OF THIS WORLD": space theme only, no proof.
-- No city, centre, deadline or discount percentage is stated in the video or the ad text. The ad text calls it "Fitstart Sale" while the video says "Fitstart Days".
+- "INDIA'S BIGGEST FITNESS SALE": no figures or source on screen.
+- "starting at ₹1,145/month": the only price. The square cut (1175984385095817) says ₹1,104 for the same pass; the ELITE version (1452653639531649) says ₹1,162*; other Cult videos say ₹1,099 and ₹1,199.
+- "+ Exciting Daily Deals": no deals, sizes or dates shown.
+- No city, centre, discount percentage or deadline in the video or ad text. The ad text says "Fitstart Sale"; the video says "Fitstart Days".
 
 ## Offer and call to action
-No call to action in the video. Button "Get offer", landing "http://fb.me/" (no real destination in the data). Ad text variants (the same in all three ads; the Library puts the long copy in the headline field): body "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸"; headline "New to the game? Or miss your old game days? You need cultpass PLAY either way!  🏅 Train at the best sports facilities 🎯 Learn skills from expert coaches 🤝 Team up anytime with guaranteed partners 🏊‍♂️ Cool down in temperature-controlled pools  Download cult.fit and make your first move with Fitstart today!"
+No call to action in the video. Button "Get offer", landing "http://fb.me/" (no real destination in the data). Ad text (same in all three ads; the Library puts the long copy in the headline field): body "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸"; headline "New to the game? Or miss your old game days? You need cultpass PLAY either way!  🏅 Train at the best sports facilities 🎯 Learn skills from expert coaches 🤝 Team up anytime with guaranteed partners 🏊‍♂️ Cool down in temperature-controlled pools  Download cult.fit and make your first move with Fitstart today!"
 
 ## Why it may work, and where it is weak
 Works:
 - Price, sale name and product in the first frame.
-- Short enough to be watched in full.
-- The astronaut and coin are a distinct visual that is easy to remember.
-- Benefits (pools, coaches, partners) are carried by the ad text.
+- The astronaut and coin are easy to remember.
 
 Weak:
-- Silent, so no voice carries the offer.
+- Silent, so nothing carries the offer by voice.
 - No cult logo in the frames and no call to action.
-- Sale claim has no discount size or date.
-- Daily Deals are not explained.
-- PLAY price (₹1,145) differs from the ₹1,099 shown elsewhere.
+- Sale claim without discount size or date; prices differ across cuts.

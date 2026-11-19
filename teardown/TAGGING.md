@@ -156,3 +156,11 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 3. **Creator:** a creator handle or name credited in the ad text, a caption or a partnership label makes the face `creator`. Quote it in `founder_evidence`.
 4. **A spoken legal disclaimer** that only the raw transcript caught belongs in the Script table, marked "(disclaimer, from the first-pass transcript)".
 5. **Romanising:** if a stretch of the main transcript is still not Roman script, romanise it yourself from captions and sound sense and mark [?]. That is expected, not a failure.
+
+## Rulings from review 5 (20 Nov 2026, after Cult.fit)
+1. **offer has one more value: `price_from`** (a "starting at" or "from" price with no discount stated). A free trial or free classes is `free`.
+2. **deadline** is true only with a date, a day or "today". "Limited-time" with no date is false.
+3. **A reviewer walking round a place** who opens to camera and then shows the venue is V2 if the tour fills more of the runtime; face is `presenter` unless the ad labels a creator or customer.
+4. **"Don't feel like X? Then don't"** style openers are `callout`.
+5. **Same footage with a different price or city on the end card** is the same idea (same concept_id). Record each price and city in `product` or `one_line`, because the spread across cities is itself a finding.
+6. **production `high_film`** is about craft (graded, stabilised, several set-ups), with or without actors.

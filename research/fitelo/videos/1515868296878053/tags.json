@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "From 104 kg to 66 kg",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Weight-loss coaching (not named in the video)",
+    "one_line": "A silent photo slideshow shows a mother going from 104 kg to 66 kg and ends on a Book Now button, with a song under it.",
+    "script_twin": "1395245032722226",
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

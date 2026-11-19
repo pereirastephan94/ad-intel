@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Doctor ne mujhe suggest kiya ki aap weight lose karo.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "Rupam Singh, a homemaker from Jharkhand, says she lost 18 kg and then conceived, followed by a presenter pitching 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "production",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

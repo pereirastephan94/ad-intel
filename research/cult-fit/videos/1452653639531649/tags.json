@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass ELITE starting at ₹1,162/month* + Exciting Daily Deals",
+    "offer": "other",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": null,
+    "product": "cultpass ELITE gym pass from ₹1,162/month",
+    "one_line": "A silent six-second animation of an astronaut lifting a barbell beside a rupee coin announces the Fitstart Days sale and cultpass ELITE from ₹1,162 a month.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "offer",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

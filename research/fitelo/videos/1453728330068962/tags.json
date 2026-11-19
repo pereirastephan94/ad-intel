@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "HE LOST 25 KG IN 90 DAYS!",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss coaching, up to 5 lakh cashback",
+    "one_line": "A silent photo and clip montage claims a man lost 25 kg in 90 days, then offers up to 5 lakh rupees for the first 100 customers.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

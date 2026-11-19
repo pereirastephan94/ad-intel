@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "From 104 kg to 66 kg",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Weight-loss diet plan, up to 30% off",
+    "one_line": "A silent photo slideshow shows a mother going from 104 kg to 66 kg, then asks viewers to comment YES to start.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "production",
+      "face"
+    ],
+    "human_checked": false
+  }
+}
