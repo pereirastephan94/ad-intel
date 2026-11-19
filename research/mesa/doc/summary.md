@@ -16,5 +16,5 @@
 ### What is not known
 
 - Spend and results are not public, so this shows what Mesa is betting on, not what is working.
-- 163 of roughly 320 live ads are in. The rest are still being collected.
+- The pull is still running. The counts at the top of the page are current; the findings below were written on the first 163 ads.
 - Music is measured by software. About half the videos seem to have a music bed; tracks cannot be named.

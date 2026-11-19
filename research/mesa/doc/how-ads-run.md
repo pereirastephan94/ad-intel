@@ -40,4 +40,4 @@ Each creative has a name such as `video_general_vsl_200-cohort` or `video_career
 ### What is still unknown
 
 - Spend, reach and results are not public for these ads. Nothing here says which ad performs best.
-- This pull has 163 of roughly 320 live ads. The counts will shift as the rest come in.
+- These findings were written on the first 163 of roughly 310 live ads. The counts will shift as the rest come in.
