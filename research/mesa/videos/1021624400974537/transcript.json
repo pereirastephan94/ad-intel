@@ -1,0 +1,132 @@
+{
+ "asset": "1021624400974537",
+ "first_seen_in": "1609473000417031",
+ "duration_s": 43.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 10.3,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 18.1,
+   "why": "scene change"
+  },
+  {
+   "t": 21.2,
+   "why": "scene change"
+  },
+  {
+   "t": 26.8,
+   "why": "scene change"
+  },
+  {
+   "t": 31.4,
+   "why": "scene change"
+  },
+  {
+   "t": 34,
+   "why": "scene change"
+  },
+  {
+   "t": 36.4,
+   "why": "scene change"
+  },
+  {
+   "t": 37.2,
+   "why": "scene change"
+  },
+  {
+   "t": 43.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We are looking for 200 people who do not want to learn business the traditional way. Over the next 12 months, these 200 students will go through 2,000 plus hours of hands-on, practical learning, a curriculum designed by the startup ecosystem. You'll learn directly from 200 plus founders and operators, solve 10 plus real business problems from companies like head-out, blink-its, snap-it, and urban company. You will build a real D2C business from scratch, sell to real customers, and generate over 5 lakh in revenue. You'll build AI products using tools like Claude, NETN, Resend, launch them on product hunt, and get real paying users. If that's how you want to learn business, apply to my site.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.5,
+    "text": "We are looking for 200 people who do not want to learn business the traditional way."
+   },
+   {
+    "start": 4.5,
+    "end": 9.2,
+    "text": "Over the next 12 months, these 200 students will go through 2,000 plus hours of hands-on,"
+   },
+   {
+    "start": 9.2,
+    "end": 12.5,
+    "text": "practical learning, a curriculum designed by the startup ecosystem."
+   },
+   {
+    "start": 12.5,
+    "end": 15.9,
+    "text": "You'll learn directly from 200 plus founders and operators,"
+   },
+   {
+    "start": 15.9,
+    "end": 19.4,
+    "text": "solve 10 plus real business problems from companies like head-out,"
+   },
+   {
+    "start": 19.4,
+    "end": 21.2,
+    "text": "blink-its, snap-it, and urban company."
+   },
+   {
+    "start": 21.2,
+    "end": 25.1,
+    "text": "You will build a real D2C business from scratch, sell to real customers,"
+   },
+   {
+    "start": 25.1,
+    "end": 26.8,
+    "text": "and generate over 5 lakh in revenue."
+   },
+   {
+    "start": 26.8,
+    "end": 29.5,
+    "text": "You'll build AI products using tools like Claude,"
+   },
+   {
+    "start": 29.5,
+    "end": 34.1,
+    "text": "NETN, Resend, launch them on product hunt, and get real paying users."
+   },
+   {
+    "start": 34.1,
+    "end": 37.2,
+    "text": "If that's how you want to learn business, apply to my site."
+   }
+  ]
+ }
+}

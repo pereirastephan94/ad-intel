@@ -1,0 +1,177 @@
+{
+ "asset": "1623935609394794",
+ "first_seen_in": "4788179028135367",
+ "duration_s": 78.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.6,
+   "why": "scene change"
+  },
+  {
+   "t": 20,
+   "why": "scene change"
+  },
+  {
+   "t": 27.5,
+   "why": "scene change"
+  },
+  {
+   "t": 39.3,
+   "why": "scene change"
+  },
+  {
+   "t": 50.9,
+   "why": "scene change"
+  },
+  {
+   "t": 57.9,
+   "why": "scene change"
+  },
+  {
+   "t": 59.6,
+   "why": "scene change"
+  },
+  {
+   "t": 64.3,
+   "why": "scene change"
+  },
+  {
+   "t": 65.4,
+   "why": "scene change"
+  },
+  {
+   "t": 68.5,
+   "why": "scene change"
+  },
+  {
+   "t": 77.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I don't know how many people know this but we have professors from M7 Business Schools teaching at Pesna. M7 Business Schools are the top 7 Business Schools in the US. I'll give you an example. So there is this professor called Tim Corkins. He's from the Kellogg School of Management. He's considered to be the best professor in the world for marketing and brand. He teaches also at Kellogg which is supposed to be the best marketing school in the world. Now when he comes to India he teaches only at one Business School method. And he flies down every year from the US. He doesn't need to of course but he still does it. So I asked him one day you know why do you do this every year? You fly to India and UTC students and he told me that the very the perspectives, the depth of the perspectives that he gets from MESSA students. He doesn't get anywhere. The energy here is insane and he loves debating on marketing strategies. And of course one of the biggest things that he does here that he loves doing is this thing called the IPL ad review. For those of you who don't know, the IPL ad review is a session where you look at all the ads that have been produced by different brands for IPL that year. And those are reviewed by marketing geniuses from India along with Professor Balkkin's framework of how to look at ads. It's just an example of the quality of teaching that happened here at Fançon.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.7,
+    "text": "I don't know how many people know this but we have professors from M7 Business Schools teaching at Pesna."
+   },
+   {
+    "start": 5.7,
+    "end": 9.7,
+    "text": "M7 Business Schools are the top 7 Business Schools in the US."
+   },
+   {
+    "start": 9.7,
+    "end": 13,
+    "text": "I'll give you an example. So there is this professor called Tim Corkins."
+   },
+   {
+    "start": 13,
+    "end": 14.7,
+    "text": "He's from the Kellogg School of Management."
+   },
+   {
+    "start": 14.7,
+    "end": 19.2,
+    "text": "He's considered to be the best professor in the world for marketing and brand."
+   },
+   {
+    "start": 19.2,
+    "end": 22.6,
+    "text": "He teaches also at Kellogg which is supposed to be the best marketing school in the world."
+   },
+   {
+    "start": 22.6,
+    "end": 26.9,
+    "text": "Now when he comes to India he teaches only at one Business School method."
+   },
+   {
+    "start": 26.9,
+    "end": 29.4,
+    "text": "And he flies down every year from the US."
+   },
+   {
+    "start": 29.4,
+    "end": 31.6,
+    "text": "He doesn't need to of course but he still does it."
+   },
+   {
+    "start": 31.6,
+    "end": 34.6,
+    "text": "So I asked him one day you know why do you do this every year?"
+   },
+   {
+    "start": 34.6,
+    "end": 38.1,
+    "text": "You fly to India and UTC students and he told me that the very"
+   },
+   {
+    "start": 38.1,
+    "end": 42.2,
+    "text": "the perspectives, the depth of the perspectives that he gets from MESSA students."
+   },
+   {
+    "start": 42.2,
+    "end": 43.3,
+    "text": "He doesn't get anywhere."
+   },
+   {
+    "start": 43.3,
+    "end": 47.6,
+    "text": "The energy here is insane and he loves debating on marketing strategies."
+   },
+   {
+    "start": 47.6,
+    "end": 51.3,
+    "text": "And of course one of the biggest things that he does here that he loves doing is this thing"
+   },
+   {
+    "start": 51.3,
+    "end": 56.8,
+    "text": "called the IPL ad review. For those of you who don't know, the IPL ad review is a session where"
+   },
+   {
+    "start": 56.8,
+    "end": 62.2,
+    "text": "you look at all the ads that have been produced by different brands for IPL that year."
+   },
+   {
+    "start": 62.2,
+    "end": 67.5,
+    "text": "And those are reviewed by marketing geniuses from India along with Professor Balkkin's"
+   },
+   {
+    "start": 67.5,
+    "end": 69.4,
+    "text": "framework of how to look at ads."
+   },
+   {
+    "start": 69.4,
+    "end": 73.8,
+    "text": "It's just an example of the quality of teaching that happened here at Fançon."
+   }
+  ]
+ }
+}

@@ -116,7 +116,7 @@ while (state.queue.length) {
   }
   log(`view ${JSON.stringify(v)} -> ${res.ads.length} ads (window total ${res.total}), ${fresh} new, ${Object.keys(ads).length} unique of ~${state.total}`)
   // A keyword view that still hides ads and is still finding new ones: narrow it by media type and sort.
-  if (v.q && fresh > 0 && res.total > res.ads.length) {
+  if (v.q && res.total > res.ads.length) {
     const more = []
     if (!v.media) for (const media of ['video', 'meme', 'image']) more.push({ q: v.q, media })
     if (!v.sort) more.push({ ...v, sort: 'relevancy_monthly_grouped', dir: 'desc' })

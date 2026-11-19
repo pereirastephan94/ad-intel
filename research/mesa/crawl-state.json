@@ -245,6 +245,69 @@
   },
   {
    "q": "consulting"
+  },
+  {
+   "q": "business",
+   "media": "video"
+  },
+  {
+   "q": "business",
+   "media": "image"
+  },
+  {
+   "q": "business",
+   "media": "meme"
+  },
+  {
+   "q": "business",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "apply",
+   "media": "video"
+  },
+  {
+   "q": "apply",
+   "media": "image"
+  },
+  {
+   "q": "apply",
+   "media": "meme"
+  },
+  {
+   "q": "apply",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "build",
+   "media": "video"
+  },
+  {
+   "q": "build",
+   "media": "video",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "build",
+   "media": "image"
+  },
+  {
+   "q": "build",
+   "media": "meme"
+  },
+  {
+   "q": "build",
+   "media": "meme",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "build",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   }
  ],
  "queue": [
@@ -469,6 +532,67 @@
   {
    "q": "consulting",
    "retry": 1
+  },
+  {
+   "q": "business",
+   "media": "video",
+   "retry": 1
+  },
+  {
+   "q": "business",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "business",
+   "media": "meme",
+   "retry": 1
+  },
+  {
+   "q": "apply",
+   "media": "video",
+   "retry": 1
+  },
+  {
+   "q": "apply",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "apply",
+   "media": "meme",
+   "retry": 1
+  },
+  {
+   "q": "apply",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "build",
+   "media": "video",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "build",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "build",
+   "media": "meme",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "build",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -564,7 +688,26 @@
   "2026-11-19T08:21:43.313Z view {\"q\":\"product\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
   "2026-11-19T08:27:12.548Z view {\"q\":\"consulting\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
   "2026-11-19T08:27:12.551Z stopping after 14 view(s) as asked",
-  "2026-11-19T08:27:12.551Z PAUSED: 163 unique ads of ~0"
+  "2026-11-19T08:27:12.551Z PAUSED: 163 unique ads of ~0",
+  "2026-11-19T10:51:31.627Z view {\"q\":\"business\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T10:56:56.352Z view {\"q\":\"business\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T11:02:35.268Z view {\"q\":\"business\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T11:08:58.979Z   video 1623935609394794 ok (78.1s, 16 stills)",
+  "2026-11-19T11:09:08.091Z   video 1021624400974537 ok (43.7s, 16 stills)",
+  "2026-11-19T11:09:18.252Z   video 3352590311593076 ok (73.9s, 16 stills)",
+  "2026-11-19T11:09:18.253Z view {\"q\":\"business\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 30 ads (window total 309), 11 new, 174 unique of ~0",
+  "2026-11-19T11:14:59.159Z view {\"q\":\"apply\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 174 unique of ~0",
+  "2026-11-19T11:20:19.385Z view {\"q\":\"apply\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 174 unique of ~0",
+  "2026-11-19T11:26:40.712Z view {\"q\":\"apply\",\"media\":\"meme\"} -> 0 ads (window total null), 0 new, 174 unique of ~0",
+  "2026-11-19T11:31:41.680Z view {\"q\":\"apply\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 174 unique of ~0",
+  "2026-11-19T11:38:27.796Z view {\"q\":\"build\",\"media\":\"video\"} -> 30 ads (window total 127), 0 new, 174 unique of ~0",
+  "2026-11-19T11:42:37.876Z view {\"q\":\"build\",\"media\":\"video\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 174 unique of ~0",
+  "2026-11-19T11:48:03.130Z view {\"q\":\"build\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 174 unique of ~0",
+  "2026-11-19T11:54:24.638Z view {\"q\":\"build\",\"media\":\"meme\"} -> 30 ads (window total 47), 16 new, 190 unique of ~0",
+  "2026-11-19T12:01:15.700Z view {\"q\":\"build\",\"media\":\"meme\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
+  "2026-11-19T12:07:22.217Z view {\"q\":\"build\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
+  "2026-11-19T12:07:22.220Z stopping after 14 view(s) as asked",
+  "2026-11-19T12:07:22.220Z PAUSED: 190 unique ads of ~0"
  ],
  "keywordsQueued": true
 }
