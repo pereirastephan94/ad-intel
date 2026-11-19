@@ -471,12 +471,12 @@
   },
   {
    "q": "in"
+  },
+  {
+   "q": "of"
   }
  ],
  "queue": [
-  {
-   "q": "of"
-  },
   {
    "q": "a"
   },
@@ -851,6 +851,10 @@
   {
    "q": "in",
    "retry": 1
+  },
+  {
+   "q": "of",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -1021,7 +1025,8 @@
   "2026-11-19T19:45:03.643Z stopping after 14 view(s) as asked",
   "2026-11-19T19:45:03.643Z PAUSED: 249 unique ads of ~0",
   "2026-11-19T19:45:26.507Z view {\"q\":\"to\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 30 ads (window total 33), 0 new, 249 unique of ~0",
-  "2026-11-19T19:51:07.284Z view {\"q\":\"in\"} -> 0 ads (window total 0), 0 new, 249 unique of ~0"
+  "2026-11-19T19:51:07.284Z view {\"q\":\"in\"} -> 0 ads (window total 0), 0 new, 249 unique of ~0",
+  "2026-11-19T19:56:22.869Z view {\"q\":\"of\"} -> 0 ads (window total 0), 0 new, 249 unique of ~0"
  ],
  "keywordsQueued": true
 }
