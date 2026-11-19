@@ -3,7 +3,7 @@
     "row": "V1",
     "face": "presenter",
     "founder_evidence": "",
-    "hook": "question",
+    "hook": "problem",
     "hook_text": "Credit card lena hai toh options bahut hain.",
     "offer": "free",
     "deadline": false,
@@ -25,6 +25,6 @@
       "angle",
       "production"
     ],
-    "human_checked": false
+    "human_checked": true
   }
 }
