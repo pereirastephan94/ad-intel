@@ -30,3 +30,6 @@ ad-factory/outputs/*
 !ad-factory/outputs/.gitkeep
 ad-factory/assets/*
 !ad-factory/assets/.gitkeep
+
+# ad videos are never committed
+*.mp4

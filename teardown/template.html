@@ -1,0 +1,67 @@
+<title>{{TITLE}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: a research file. Narrow reading column, a sticky row of section links, evidence folded into rows that open. */
+:root {
+  --bg: #f6f7f5; --panel: #ffffff; --fg: #16201d; --muted: #5d6a66; --line: #d9dedb; --accent: #0b6b5a; --mark: #e4f1ec;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif; --text: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111615; --panel: #19201e; --fg: #e6ece9; --muted: #98a6a1; --line: #2c3633; --accent: #5cc7ae; --mark: #1d2f2a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111615; --panel: #19201e; --fg: #e6ece9; --muted: #98a6a1; --line: #2c3633; --accent: #5cc7ae; --mark: #1d2f2a; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--text); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 46rem; margin: 0 auto; padding-block: 2rem 4rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: 2.1rem; font-weight: 600; }
+h2 { font-size: 1.45rem; font-weight: 600; margin-top: 3rem; padding-top: 1rem; border-top: 2px solid var(--fg); scroll-margin-top: 3.5rem; }
+h3 { font-size: 1.08rem; font-weight: 600; margin-top: 1.6rem; }
+h4 { margin: 1.2rem 0 0; font-size: .95rem; }
+p, ul, ol { margin: .7rem 0 0; } li { margin-top: .25rem; } ul, ol { padding-left: 1.3rem; }
+a { color: var(--accent); } a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lede { color: var(--muted); font-size: 1.05rem; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); gap: .75rem; margin-top: 1.5rem; }
+.facts div { border-top: 1px solid var(--line); padding-top: .5rem; }
+.facts b { display: block; font: 600 1.6rem var(--display); font-variant-numeric: tabular-nums; }
+.facts span { color: var(--muted); font-size: .85rem; }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-top: 1.5rem; padding: .5rem 0; display: flex; gap: .25rem 1rem; flex-wrap: wrap; font-size: .85rem; }
+nav a { text-decoration: none; }
+.scroll { overflow-x: auto; margin-top: .8rem; }
+table { border-collapse: collapse; font-size: .88rem; width: 100%; }
+th, td { text-align: left; padding: .35rem .6rem .35rem 0; border-bottom: 1px solid var(--line); vertical-align: top; font-variant-numeric: tabular-nums; }
+th { color: var(--muted); font-weight: 500; }
+code { font: .85em var(--mono); background: var(--mark); padding: 0 .25em; border-radius: 3px; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .6rem; }
+.chips span { font-size: .78rem; background: var(--mark); padding: .1rem .5rem; border-radius: 3px; }
+.script { list-style: none; padding: 0; }
+.script li { display: grid; grid-template-columns: 3rem 1fr; gap: .5rem; }
+.script span { font: .8rem/2 var(--mono); color: var(--muted); }
+details { border-bottom: 1px solid var(--line); padding: .6rem 0; scroll-margin-top: 3.5rem; }
+details[open] { background: var(--panel); margin-inline: -.75rem; padding: .75rem; border: 1px solid var(--line); border-radius: 6px; }
+summary { cursor: pointer; display: flex; flex-direction: column; gap: .1rem; }
+summary small { color: var(--muted); }
+details img { border-radius: 4px; display: block; }
+details .scroll img { max-width: none; height: 200px; }
+.static { display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 1rem; margin-top: .8rem; }
+.static > div { min-width: 0; }
+@media (max-width: 34rem) { .static { grid-template-columns: 1fr; } h1 { font-size: 1.7rem; } }
+.todo, .muted { color: var(--muted); font-style: italic; }
+article { scroll-margin-top: 3.5rem; }
+</style>
+<div class="wrap">
+  <h1>{{COMPANY}}: every ad, taken apart</h1>
+  <p class="lede">What {{COMPANY}} is running on Facebook and Instagram right now, read from the public Ad Library, with every video script written out and every creative broken down.</p>
+  <div class="facts">
+    <div><b>{{N}}</b><span>live ads collected</span></div>
+    <div><b>{{COPIES}}</b><span>copies running, counting duplicates</span></div>
+    <div><b>{{NV}}</b><span>different videos</span></div>
+    <div><b>{{NS}}</b><span>image ads</span></div>
+  </div>
+  <nav aria-label="Sections">
+    {{NAV}}
+  </nav>
+{{BODY}}
+</div>

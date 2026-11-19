@@ -61,6 +61,7 @@ try {
   console.log(JSON.stringify({
     query: name, country: CC, searched_with: steps, plausible_matches: good.length, candidates,
     note: good.length === 1 ? 'One page matches the name. Use it, and tell the user which page it is.'
+      : good.filter((c) => c.name_match === 'exact').length === 1 ? 'One page has exactly this name; the others are related pages (sub-brands or look-alikes). Tell the user which page you will use and name the others, so they can pick a different one.'
       : good.length > 1 ? 'More than one page matches the name. Ask the user which one (show name, likes and the link).'
       : candidates.length ? 'No page name matches the search. Show the user the closest ones, or ask them to paste the page link from facebook.com/ads/library (the number after view_all_page_id is the page id).'
       : 'Nothing came back. Try a shorter or different spelling or another country code, once, after a few minutes. Or ask the user to paste the page link from facebook.com/ads/library.',
