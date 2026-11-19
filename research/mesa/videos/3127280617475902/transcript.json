@@ -1,0 +1,105 @@
+{
+ "asset": "3127280617475902",
+ "first_seen_in": "2019796742036442",
+ "duration_s": 39,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 10.6,
+   "why": "scene change"
+  },
+  {
+   "t": 32.4,
+   "why": "scene change"
+  },
+  {
+   "t": 38.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "In the real world, when you interview for a great role at a great startup, nobody is asking you to take a CAT exam. They're evaluating how you think, how you communicate, how you break down ambiguity and whether you can actually think first principles. So we have designed the MAT in-house, from scratch to mirror exactly how a founder or a CXO will evaluate talent and the format is also not just a test. It's very difficult. You will be solving problems, ask to sell an idea and explain a concept as if you are speaking to a 10-year-old. This is your chance to show the admission panel who you are and what you bring to the table. All the best.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.4,
+    "text": "In the real world, when you interview for a great role at a great startup, nobody is"
+   },
+   {
+    "start": 6.4,
+    "end": 8.3,
+    "text": "asking you to take a CAT exam."
+   },
+   {
+    "start": 8.3,
+    "end": 12,
+    "text": "They're evaluating how you think, how you communicate, how you break down ambiguity"
+   },
+   {
+    "start": 12,
+    "end": 14,
+    "text": "and whether you can actually think first principles."
+   },
+   {
+    "start": 14,
+    "end": 18.5,
+    "text": "So we have designed the MAT in-house, from scratch to mirror exactly how a founder or"
+   },
+   {
+    "start": 18.5,
+    "end": 22.3,
+    "text": "a CXO will evaluate talent and the format is also not just a test."
+   },
+   {
+    "start": 22.3,
+    "end": 23.3,
+    "text": "It's very difficult."
+   },
+   {
+    "start": 23.3,
+    "end": 26.9,
+    "text": "You will be solving problems, ask to sell an idea and explain a concept as if you are"
+   },
+   {
+    "start": 26.9,
+    "end": 28.2,
+    "text": "speaking to a 10-year-old."
+   },
+   {
+    "start": 28.2,
+    "end": 31.4,
+    "text": "This is your chance to show the admission panel who you are and what you bring to the"
+   },
+   {
+    "start": 31.4,
+    "end": 32.4,
+    "text": "table."
+   },
+   {
+    "start": 32.4,
+    "end": 32.4,
+    "text": "All the best."
+   }
+  ]
+ }
+}

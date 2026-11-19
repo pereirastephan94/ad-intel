@@ -1,0 +1,116 @@
+{
+ "asset": "1846255523166302",
+ "first_seen_in": "3285242508531550",
+ "duration_s": 37.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.5,
+   "why": "scene change"
+  },
+  {
+   "t": 10.8,
+   "why": "scene change"
+  },
+  {
+   "t": 17.2,
+   "why": "scene change"
+  },
+  {
+   "t": 20.5,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 32,
+   "why": "scene change"
+  },
+  {
+   "t": 37,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "One of the questions in CAT 2025 was this. Now, here is my point. What skills that are important to be successful in today's world, does this question really test? Zero. None. In today's AI-driven world, we need people who are good communicators, good decision makers, can interpret data, can sell and can think first principles to solve problems. That is exactly what Mesa School tests for when we choose students for our program. If you have these skills, then we don't care how much you scored in just one CAT exam. Apply to Mesa now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6,
+    "text": "One of the questions in CAT 2025 was this."
+   },
+   {
+    "start": 6,
+    "end": 7.7,
+    "text": "Now, here is my point."
+   },
+   {
+    "start": 7.7,
+    "end": 11.6,
+    "text": "What skills that are important to be successful in today's world, does this question really"
+   },
+   {
+    "start": 11.6,
+    "end": 12.6,
+    "text": "test?"
+   },
+   {
+    "start": 12.6,
+    "end": 13.6,
+    "text": "Zero."
+   },
+   {
+    "start": 13.6,
+    "end": 14.6,
+    "text": "None."
+   },
+   {
+    "start": 14.6,
+    "end": 17.8,
+    "text": "In today's AI-driven world, we need people who are good communicators, good decision"
+   },
+   {
+    "start": 17.8,
+    "end": 22.8,
+    "text": "makers, can interpret data, can sell and can think first principles to solve problems."
+   },
+   {
+    "start": 22.8,
+    "end": 26.6,
+    "text": "That is exactly what Mesa School tests for when we choose students for our program."
+   },
+   {
+    "start": 26.6,
+    "end": 31.1,
+    "text": "If you have these skills, then we don't care how much you scored in just one CAT exam."
+   },
+   {
+    "start": 31.1,
+    "end": 31.9,
+    "text": "Apply to Mesa now."
+   }
+  ]
+ }
+}
