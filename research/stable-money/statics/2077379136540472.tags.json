@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "0.5% CASHBACK",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "FD-backed credit card, RuPay Select",
+    "one_line": "A woman laughs in an airport lounge chair inside a card-shaped frame, with 0.5% cashback, up to 8.10% FD interest and 100% approval below.",
+    "script_twin": null,
+    "offer_also": ["rate_return"],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": 20773791365404720,
+    "human_checked": false
+  }
+}

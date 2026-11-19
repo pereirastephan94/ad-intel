@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Earn 8.10% p.a. on FD-backed credit card",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "FD-backed credit card, 8.10% FD rate",
+    "one_line": "A dark card shows a hand holding the Stable Money card with an 8.10% FD rate, 10 free lounge visits, 0.5% cashback and 100% approval.",
+    "script_twin": null,
+    "offer_also": ["free","cashback"],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": 9484063114039690,
+    "human_checked": false
+  }
+}
