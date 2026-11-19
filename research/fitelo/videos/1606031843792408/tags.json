@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "In next 3 dino ke liye Fitelo de raha hai 80% off",
+    "offer": "discount",
+    "deadline": true,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Fitelo Smart Scale, 999 rupees",
+    "one_line": "A woman in a bedroom says the updated Fitelo smart scale is 80% off for 3 days at 999 rupees, tracks 25 metrics and includes a free dietitian call.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row"
+    ],
+    "human_checked": false
+  }
+}
