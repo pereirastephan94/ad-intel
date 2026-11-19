@@ -200,12 +200,12 @@
   },
   {
    "q": "internship"
+  },
+  {
+   "q": "cohort"
   }
  ],
  "queue": [
-  {
-   "q": "cohort"
-  },
   {
    "q": "scholarship"
   },
@@ -457,7 +457,8 @@
   "2026-11-19T06:51:13.759Z view {\"q\":\"salary\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
   "2026-11-19T06:57:20.379Z view {\"q\":\"salary\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
   "2026-11-19T07:04:25.758Z view {\"q\":\"career\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
-  "2026-11-19T07:09:26.055Z view {\"q\":\"internship\"} -> 1 ads (window total 1), 0 new, 163 unique of ~0"
+  "2026-11-19T07:09:26.055Z view {\"q\":\"internship\"} -> 1 ads (window total 1), 0 new, 163 unique of ~0",
+  "2026-11-19T07:15:10.043Z view {\"q\":\"cohort\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0"
  ],
  "keywordsQueued": true
 }
