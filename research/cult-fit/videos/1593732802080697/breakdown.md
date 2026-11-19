@@ -9,7 +9,7 @@
 - Same footage and script as 1097706556434827 up to 32 s. That cut ends "buy cultpass ELITE now" with a ₹1,099/mo end card.
 
 ## Script (verbatim)
-Roman-script pass from transcript.json; burned-in captions win where they differ. The one Devanagari line is romanised from the captions ("setup kafi") and sound [?].
+Captions win where they differ from the transcript. The one Devanagari line is romanised by sound [?].
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -26,13 +26,13 @@ Roman-script pass from transcript.json; burned-in captions win where they differ
 | 36.3-36.5 | End card, no speech. | |
 
 ## First 3 seconds
-0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
+0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Hook: story_open (a review opener); no number or offer.
 
 ## Person on screen
-No name or role is given in captions or ad text. Apparent age 25 to 35, long loose black hair, black zip-front jacket, grey ribbed leggings, thin gold necklace, phone in hand. Smiling, animated hands. Looks at the lens in the first 5 s, then is on a machine or off-camera. Other people in the b-roll are unlabelled.
+No name or role is given in captions or ad text. Apparent age 25 to 35, long loose black hair, black zip-front jacket, grey ribbed leggings, thin gold necklace, phone in hand. Looks at the lens in the first 5 s, then is on a machine or off-camera. Other people in the b-roll are unlabelled.
 
 ## Setting, framing and look
-Indoor gym, bright even light, handheld phone video. Cutaways: machine, moon-mural dance floor, phone close-up of the app (17.6 s: "2/2 FREE GROUP TRIALS LEFT", classes at "Cult Vaishali Nagar"), dance class, spin bikes, barbell coaching. White brush-stroke wipes at 6 s and 29 s.
+Indoor gym, bright even light, handheld phone video. Cutaways: machine, moon-mural dance floor, phone close-up of the app (17.6 s: "2/2 FREE GROUP TRIALS LEFT", classes at "Cult Vaishali Nagar"), dance class, spin bikes, barbell coaching.
 
 ## On-screen text, captions, logos, graphics
 - Captions: bold white sans, lower third, a few words at a time.
@@ -49,7 +49,6 @@ Measured by software, not heard, so genre and track cannot be named. 33 cuts in 
 | 28-36 | CTA | Buy cultpass ELITE. |
 
 ## Claims and proof
-- "clean, spacious and well maintained": b-roll only, no figures.
 - Voice against ad text: the voice says "Buy cultpass ELITE now" (paid); the headline says "Claim your FREE GYM TRIAL" and the copy "Sign up today and we’ll call you". Free trials show only inside the app screen.
 - The ad names Cult Indore; the video never does. The only centre shown is "Cult Vaishali Nagar".
 - No price, discount or deadline anywhere.

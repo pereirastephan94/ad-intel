@@ -9,7 +9,7 @@
 - Same script and footage as 1111715114658510 (9:16), with extra yoga and floor-class b-roll.
 
 ## Script (verbatim)
-The main pass is Devanagari and garbled from 19.8 s; the raw pass is mostly noise. I romanised from the captions ("GYM jaane", "GYM mann", "kyunki"), the timings and the clearer pass of 1111715114658510 [?].
+Main pass garbled; romanised from captions, timings and the clearer pass of 1111715114658510 [?].
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -49,7 +49,7 @@ Measured by software, not heard, so genre and track cannot be named. 17 cuts in 
 | 23-32 | CTA, end card | 2 free group workouts; price. |
 
 ## Claims and proof
-- "2 free group workouts": spoken only; ad text and end card omit them; no terms or expiry.
+- "2 free group workouts": spoken only: ad text and end card omit them.
 - ₹1,199/month: ad text and end card agree; the 9:16 cut's ads say ₹1,099.
 - "5+ workout formats": the voice names five items; the frames show four; not proven.
 - "Limited-time deal - sign up today": no date shown.

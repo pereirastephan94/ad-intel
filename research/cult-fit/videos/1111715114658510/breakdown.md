@@ -13,7 +13,7 @@
 - Square cut of the same footage and script: 1386736823203468.
 
 ## Script (verbatim)
-The main pass had Devanagari for much of the Hindi, so I romanised it by sound [?]. Captions match where they show.
+Romanised by sound [?] where the main pass was Devanagari.
 
 | Time | Line | Gloss |
 |---|---|---|

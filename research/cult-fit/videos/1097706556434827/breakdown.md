@@ -9,7 +9,7 @@
 - Same footage and script as 1593732802080697 up to 32 s. That cut ends differently and its end card has no price.
 
 ## Script (verbatim)
-Roman-script pass from transcript.json; burned-in captions win where they differ. The last two lines were still in Devanagari, so I romanised them from the raw pass and sound [?].
+Captions win where they differ from the transcript. The last two lines were Devanagari; romanised from the raw pass and sound [?].
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -25,7 +25,7 @@ Roman-script pass from transcript.json; burned-in captions win where they differ
 | 36-40.1 | Silent end card. | |
 
 ## First 3 seconds
-0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
+0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Hook: story_open (a review opener); no number or offer.
 
 ## Person on screen
 No name or role is given in captions or ad text. Apparent age 25 to 35, long loose black hair, black zip-front jacket, grey ribbed leggings, thin gold necklace, phone in hand. Smiling, animated hands. Looks at the lens in the first 5 s, then is on a machine or off-camera. Other people in the b-roll are unlabelled.
