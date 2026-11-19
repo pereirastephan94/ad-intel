@@ -26,5 +26,34 @@
    ]
   },
   "video_asset": "1643453487361491"
+ },
+ {
+  "library_id": "2254828798577544",
+  "link": "https://www.facebook.com/ads/library/?id=2254828798577544",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "From MNC managers to ex-founders to first-time builders.\n\nMesa's PGP in Startup Leadership is built for professionals who want to build, and make an impact. \n\nApply now.",
+  "headline": "Your classmates could be your co-founders",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "See details",
+  "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=lookalike_lookalike_2-8-yrs-exp_high-um-db_focus1-2_funding-lp_19-11-2026&utm_content=video_career-outcomes_vsl_bschools-placements_v2_14-10-2026&utm_term=-_-",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1643453487361491"
  }
 ]

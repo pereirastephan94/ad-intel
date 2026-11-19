@@ -147,5 +147,34 @@
    ]
   },
   "video_asset": "2146264469300756"
+ },
+ {
+  "library_id": "1092208893831886",
+  "link": "https://www.facebook.com/ads/library/?id=1092208893831886",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
+  "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=lookalike_lookalike_2-8-yrs-exp_high-um-db_focus1-2_funding-lp_19-11-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
  }
 ]

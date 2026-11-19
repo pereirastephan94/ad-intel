@@ -1,0 +1,31 @@
+[
+ {
+  "library_id": "1130359959636135",
+  "link": "https://www.facebook.com/ads/library/?id=1130359959636135",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "AI is everywhere. But very few people have actually built something with it.\n\nThere are thousands of tools, endless tutorials, and no one to guide you. Mesa solves that with an AI-integrated curriculum: 150+ hours of applied AI where you build an AI product that actually works. Not a demo.\n\nPGP in Startup Leadership & Entrepreneurship. Apply now.",
+  "headline": "150+ Hours of Applied AI",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_interest_tech-ai_-_focus1-2_homepage_03-11-2026&utm_content=video_admissions_vsl_ai-gap_-_21-09-2026&utm_term=-_-",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "3352590311593076"
+ }
+]

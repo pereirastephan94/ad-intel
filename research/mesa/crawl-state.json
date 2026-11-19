@@ -308,12 +308,12 @@
    "q": "build",
    "sort": "relevancy_monthly_grouped",
    "dir": "desc"
+  },
+  {
+   "q": "finance"
   }
  ],
  "queue": [
-  {
-   "q": "finance"
-  },
   {
    "q": "experience"
   },
@@ -593,6 +593,10 @@
    "sort": "relevancy_monthly_grouped",
    "dir": "desc",
    "retry": 1
+  },
+  {
+   "q": "finance",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -707,7 +711,8 @@
   "2026-11-19T12:01:15.700Z view {\"q\":\"build\",\"media\":\"meme\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
   "2026-11-19T12:07:22.217Z view {\"q\":\"build\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
   "2026-11-19T12:07:22.220Z stopping after 14 view(s) as asked",
-  "2026-11-19T12:07:22.220Z PAUSED: 190 unique ads of ~0"
+  "2026-11-19T12:07:22.220Z PAUSED: 190 unique ads of ~0",
+  "2026-11-19T16:00:44.508Z view {\"q\":\"finance\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0"
  ],
  "keywordsQueued": true
 }

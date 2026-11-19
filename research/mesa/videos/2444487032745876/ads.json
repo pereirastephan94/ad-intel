@@ -138,5 +138,33 @@
    ]
   },
   "video_asset": "2444487032745876"
+ },
+ {
+  "library_id": "29404626639222166",
+  "link": "https://www.facebook.com/ads/library/?id=29404626639222166",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "",
+  "headline": "",
+  "link_description": "",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "copies": 5,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2444487032745876"
  }
 ]

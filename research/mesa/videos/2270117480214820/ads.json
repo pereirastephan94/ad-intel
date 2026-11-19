@@ -28,5 +28,35 @@
    ]
   },
   "video_asset": "2270117480214820"
+ },
+ {
+  "library_id": "29162517160068348",
+  "link": "https://www.facebook.com/ads/library/?id=29162517160068348",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "Mesa is selecting 200 ambitious individuals for a transformative year of startup leadership.\n\nYou'll be trained by founders, business leaders, and VCs through: \n- a new-age curriculum, \n- live projects with real startups,\n- hands-on experience building your own ventures from scratch.\n\nGraduate ready to either launch your own company or step into leadership roles at high-growth startups. Apply to Mesa's PGP in Startup Leadership now.",
+  "headline": "The B-school built for builders",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=lookalike_lookalike_2-8-yrs-exp_high-um-db_focus1-2_funding-lp_19-11-2026&utm_content=video_general_vsl_200-cohort_-_13-10-2026&utm_term=-_-",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2270117480214820"
  }
 ]
