@@ -95,6 +95,7 @@ class Images:
 
 
 def img_tag(uri, alt, cls=""):
+    """cls "fit" shows the whole image (static ads); default crops to fill (video stills)."""
     if not uri:
         return f'<div class="{cls}" role="img" aria-label="no still" style="aspect-ratio:4/5;background:var(--line-2)"></div>'
     return f'<img src="{uri}" alt="{E(alt)}" loading="lazy" decoding="async"{f" class={chr(34)}{cls}{chr(34)}" if cls else ""}>'
@@ -134,7 +135,7 @@ class Page:
         a = self.ad(lid)
         uri = self.img.uri(a["brand"], a["still"], 320)
         line = a["hook_text"] or a["headline"]
-        return (f'<article class="card">{img_tag(uri, "Still from the ad")}'
+        return (f'<article class="card">{img_tag(uri, "Still from the ad", "" if a["medium"] == "video" else "fit")}'
                 f'<div class="cb"><div class="q">&ldquo;{E(line)}&rdquo;</div>'
                 f'<div class="meta num">{a["days"]} days live, {plural(a["versions"], "version")}<br>'
                 f'<a href="{E(a["link"])}" target="_blank" rel="noopener">Open in Ad Library</a></div></div></article>')
@@ -287,7 +288,7 @@ class Page:
             by = ", ".join(f'{self.rows[x]["label"] if x in self.rows else "unclear"} {v}'
                            for x, v in sorted(n["by_row"].items(), key=lambda kv: -kv[1]))
             minis = "".join(
-                f'<div class="mini">{img_tag(self.img.uri(k, self.ad(l)["still"], 200), "Still")}'
+                f'<div class="mini">{img_tag(self.img.uri(k, self.ad(l)["still"], 200), "Still", "" if self.ad(l)["medium"] == "video" else "fit")}'
                 f'{E(self.rows[self.ad(l)["row"]]["label"]) if self.ad(l)["row"] else "unclear"}<br>'
                 f'<span class="num">from {fmt_date(self.ad(l)["start_date"], short=True)}</span></div>'
                 for l in n["ad_ids"][:12])
@@ -329,7 +330,7 @@ class Page:
                 bars += (f'<div class="bar" title="{E(self.names[k])}: {v} of {denom[k]}">'
                          f'<div class="track"><div class="fill {k}" style="width:{share * 100:.1f}%"></div></div>'
                          f'<span class="v num">{v} of {denom[k]}</span></div>')
-            rows.append(f'<div class="brow"><div class="bl">{E(nice(c))}</div><div class="bars">{bars}</div></div>')
+            rows.append(f'<div class="brow"><div class="bl">{E(nice(c)[:1].upper() + nice(c)[1:])}</div><div class="bars">{bars}</div></div>')
         return f'<div class="chart"><h3>{E(title)}</h3><p class="sub">{E(sub)}</p>{"".join(rows)}</div>'
 
     def mix_section(self):
@@ -497,7 +498,7 @@ class Page:
                 if a["transcript"]:
                     more += f'\n\nScript: {E(a["transcript"])}'
                 more += f'</p></details>'
-                items.append(f'<div class="ad">{img_tag(self.img.uri(k, a["still"], 160), "Still")}<div>'
+                items.append(f'<div class="ad">{img_tag(self.img.uri(k, a["still"], 160), "Still", "" if a["medium"] == "video" else "fit")}<div>'
                              f'<div class="h q">&ldquo;{E(a["hook_text"] or a["headline"])}&rdquo;</div>'
                              f'<div class="m num">{E(meta)} <a href="{E(a["link"])}" target="_blank" rel="noopener">Ad Library</a></div>'
                              f'{more}</div></div>')
