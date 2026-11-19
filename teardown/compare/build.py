@@ -94,11 +94,30 @@ class Images:
         return uri
 
 
+def thin_frames(frames):
+    """Drop stills that repeat the opening line inside the first 3 seconds, keeping the first and the one nearest 3 s."""
+    early = [f for f in frames if f.get("t") is not None and f["t"] <= 3]
+    keep_early = {id(early[0]), id(early[-1])} if early else set()
+    return [f for f in frames if f.get("t") is None or f["t"] > 3 or id(f) in keep_early or not f.get("spoken_repeat")]
+
+
+def lowfirst(t):
+    """Lower-case a leading capital for use mid-sentence, leaving acronyms such as FD alone."""
+    return t[:1].lower() + t[1:] if len(t) > 1 and t[1].islower() else t
+
+
+def launch_fill(k, v, mx):
+    return f'<div class="fill {k}" style="width:{v / mx * 100:.1f}%"></div>' if v else ""
+
+
 def img_tag(uri, alt, cls=""):
     """cls "fit" shows the whole image (static ads); default crops to fill (video stills)."""
     if not uri:
         return f'<div class="{cls}" role="img" aria-label="no still" style="aspect-ratio:4/5;background:var(--line-2)"></div>'
     return f'<img src="{uri}" alt="{E(alt)}" decoding="async"{f" class={chr(34)}{cls}{chr(34)}" if cls else ""}>'
+
+
+SMALL_BASE = 10  # a medium total under this on either side shows counts, not shares, and a small-base note
 
 
 def heat(share):
@@ -120,6 +139,7 @@ class Page:
         self.img = Images(dirs)
         self.names = {k: comp["meta"]["brands"][k]["name"] for k in ("A", "B")}
         self.rows = {r["id"]: r for r in comp["rows"]}
+        self.extras = persp.get("extras") or {}
 
     # ---------- helpers
     def other(self, k):
@@ -164,8 +184,9 @@ class Page:
         for mv in sorted(p.get("moves", []), key=lambda m: m.get("rank", 9)):
             ev = mv.get("evidence", "thin")
             out.append(f'<li>{E(mv["text"])} <span class="test"><b>First test:</b> {E(mv["first_test"])}</span>'
-                       f'<span class="chips"><span class="chip">Effort {E(mv["effort"])}</span>'
+                       f'<span class="chips"><span class="chip">Effort {E(mv["effort"].lower())}</span>'
                        f'<span class="chip ev-{E(ev)}">Evidence {E(ev)}</span>'
+                       f'<button type="button" class="chip seeads testbtn" data-test-toggle aria-expanded="false">First test</button>'
                        f'<a class="chip seeads" href="#row-{E(mv["row"])}" data-fold="row-{E(mv["row"])}">See the ads</a></span></li>')
         out.append('</ol>')
         out.append('</div>')
@@ -174,20 +195,36 @@ class Page:
     def map(self, me):
         th = self.other(me)
         out = [f'<div class="map only-{me}" aria-label="Gap map">']
-        out.append(f'<div class="mhead"><div></div><div class="who">{E(self.names[me])}<br><span class="muted">you</span></div>'
-                   f'<div class="who">{E(self.names[th])}<br><span class="muted">them</span></div><div>Status<br>evidence</div></div>')
+        anysmall = any(min(self.nmed(me, m), self.nmed(th, m)) < SMALL_BASE for m in ("video", "image"))
+        if not anysmall:
+            out.append(self.top30_line(me))
+        out.append(self.product_line(me))
+        out.append(f'<div class="mhead"><div></div><div class="who"><b>You</b><br><span>{E(self.names[me])}</span></div>'
+                   f'<div class="who"><b>Them</b><br><span>{E(self.names[th])}</span></div><div>Status<br>evidence</div></div>')
         for medium, title in (("video", "Video"), ("image", "Image")):
+            small = min(self.nmed(me, medium), self.nmed(th, medium)) < SMALL_BASE
             out.append(f'<div class="mgroup"><span>{title}</span><span class="num">you {self.nmed(me, medium)}, '
                        f'them {self.nmed(th, medium)} sampled</span></div>')
+            if small:
+                out.append(f'<p class="smallbase">Small base: with under {SMALL_BASE} {medium} ads on one side, '
+                           f'shares are shown as counts and say little about which kind of {medium} ad each brand prefers. '
+                           f'{self.top30_line(me, bare=True)}</p>')
             for r in self.c["rows"]:
                 if r["medium"] != medium:
                     continue
                 cells = []
                 for k in (me, th):
                     s = r[k]
-                    d = f'{s["median_days"]:.0f}d' if s["median_days"] is not None else "0d"
-                    cells.append(f'<div class="cell {k} {heat(s["share"])}"><span class="pct num">{pct(s["share"])}</span>'
-                                 f'<span class="sub num">{s["n"]} ad{"" if s["n"] == 1 else "s"}, {d}</span></div>')
+                    N = self.nmed(k, medium)
+                    big = f'{s["n"]} of {N}' if small else pct(s["share"])
+                    if s["n"] == 0:
+                        cells.append(f'<div class="cell {k} h0 zero"><span class="pct num">{big}</span>'
+                                     f'<span class="sub">no ads</span></div>')
+                        continue
+                    d = f'{s["median_days"]:.0f}d' if s["median_days"] is not None else ""
+                    sub = f'median {d}' if small else f'{s["n"]} ad{"" if s["n"] == 1 else "s"}, {d}'
+                    cells.append(f'<div class="cell {k} {"h0" if small else heat(s["share"])}"><span class="pct num">{big}</span>'
+                                 f'<span class="sub num">{sub}</span></div>')
                 lead = r["lead"] or ""
                 out.append(f'<a class="mrow" href="#row-{r["id"]}" data-fold="row-{r["id"]}"'
                            f' title="{E(r["label"])}: open the evidence">'
@@ -199,16 +236,30 @@ class Page:
         where = [r["label"] for r in self.c["rows"] if r[th]["founder"] or r[me]["founder"]]
         out.append(f'<p class="founder num">Founder says so on screen: you {fa}, them {fb}'
                    f'{" (" + ", ".join(where) + ")" if where else ""}. Counted only where the ad itself says founder.</p>')
-        t = self.c["meta"]["brands"]
-        ta, tb = t[me]["top30_all"], t[self.other(me)]["top30_all"]
-        if ta and tb:
-            out.append(f'<p class="top30 num">In the overall top {max(ta["n"], tb["n"])} by impressions: you {ta["video"]} video, '
-                       f'{ta["image"]} image; {E(self.names[self.other(me)])} {tb["video"]} video, {tb["image"]} image.</p>')
-        else:
-            out.append('<p class="top30">Overall video and image lean: not recorded for this sample.</p>')
         out.append('<p class="maplegend">Share is of each brand\'s sampled ads of that medium; "d" is median days live so far. '
                    'Tap a row for the ads.</p></div>')
         return "".join(out)
+
+    def top30_line(self, me, bare=False):
+        t = self.c["meta"]["brands"]
+        ta, tb = t[me]["top30_all"], t[self.other(me)]["top30_all"]
+        if ta and tb:
+            line = (f'Top {max(ta["n"], tb["n"])} by Library impressions: you {ta["video"]} video, '
+                    f'{ta["image"]} image; {E(self.names[self.other(me)])} {tb["video"]} video, {tb["image"]} image.')
+        else:
+            line = 'Overall video and image lean: not recorded for this sample.'
+        return line if bare else f'<p class="top30 num">{line}</p>'
+
+    def product_line(self, me):
+        pm = self.extras.get("product_mix")
+        if not pm:
+            return ""
+        th = self.other(me)
+        def one(k):
+            items = pm.get(k, {}).get("items", [])
+            return ", ".join(f"{E(lowfirst(n))} {c}" for n, c in items) if items else "not read"
+        return (f'<p class="top30 num">What they sell, ads per product: you, {one(me)}; '
+                f'{E(self.names[th])}, {one(th)}. <a href="#extras" data-fold="extras">More</a></p>')
 
     def first_screen(self):
         left = self.verdict_and_moves("A") + self.verdict_and_moves("B")
@@ -244,6 +295,57 @@ class Page:
         return self.section("map", "Evidence", "The map, row by row", "".join(out),
                             "Each row opens to the ads behind it. An idea is one message with one main visual; "
                             "versions are near-duplicates of it that differ only in crop, caption or button.")
+
+    def ad_links(self, ids):
+        out = []
+        for i, l in enumerate(ids or [], 1):
+            a = self.c["ads"].get(l)
+            if a:
+                out.append(f'<a href="{E(a["link"])}" target="_blank" rel="noopener">ad {i}</a>')
+        return f' <span class="adlinks">{", ".join(out)}</span>' if out else ""
+
+    def extras_section(self):
+        x = self.extras
+        if not x:
+            return ""
+        parts = []
+        pm = x.get("product_mix")
+        if pm:
+            cols = []
+            for k in ("A", "B"):
+                d = pm.get(k) or {}
+                items = d.get("items", [])
+                tot = sum(c for _, c in items) or 1
+                bars = "".join(
+                    f'<div class="brow"><div class="bl">{E(n)}</div><div class="bars"><div class="bar">'
+                    f'<div class="track"><div class="fill {k}" style="width:{c / tot * 100:.1f}%"></div></div>'
+                    f'<span class="v num">{c} of {self.c["meta"]["brands"][k]["n"]}</span></div></div></div>' for n, c in items)
+                note = f'<p class="small muted">{E(d["note"])}</p>' if d.get("note") else ""
+                cols.append(f'<div><h4 class="bh"><span class="sw {k}"></span>{E(self.names[k])}</h4>{bars}{note}</div>')
+            parts.append(f'<h3 class="xh">What they sell</h3><div class="pair">{"".join(cols)}</div>')
+        se = x.get("series")
+        if se:
+            cols = []
+            for k in ("A", "B"):
+                items = "".join(f'<li><b>{E(it["name"])}</b> <span class="num">({plural(len(it.get("ads", [])), "ad")})</span>: '
+                                f'{E(it.get("note", ""))}{self.ad_links(it.get("ads"))}</li>' for it in se.get(k, []))
+                cols.append(f'<div><h4 class="bh"><span class="sw {k}"></span>{E(self.names[k])}</h4>'
+                            f'<ul class="facts">{items or "<li>None found.</li>"}</ul></div>')
+            parts.append(f'<h3 class="xh">Series and recurring lines</h3><div class="pair">{"".join(cols)}</div>')
+        co = x.get("contradictions")
+        if co:
+            for me in ("A", "B"):
+                th = self.other(me)
+                cols = []
+                for k, who in ((me, "Your ads"), (th, f"{self.names[th]}'s ads")):
+                    items = "".join(f'<li>{E(it["text"])}{self.ad_links(it.get("ads"))}</li>' for it in co.get(k, []))
+                    cols.append(f'<div><h4 class="bh"><span class="sw {k}"></span>{E(who)}</h4>'
+                                f'<ul class="facts">{items or "<li>None found.</li>"}</ul></div>')
+                parts.append(f'<div class="only-{me}"><h3 class="xh">Where their own ads disagree</h3>'
+                             f'<p class="small muted">Figures that differ between ads of one brand, or within one ad. '
+                             f'A viewer who sees two of them sees both numbers.</p><div class="pair">{"".join(cols)}</div></div>')
+        lede = E(x.get("source", ""))
+        return self.section("extras", "Beyond the map", "What they sell and what they say", "".join(parts), lede)
 
     def lead_section(self):
         out = []
@@ -302,7 +404,7 @@ class Page:
         for mth in months:
             bars = "".join(
                 f'<div class="bar" title="{E(self.names[k])}: {self.c["launches"][k].get(mth, 0)} ads started in {fmt_month(mth)}">'
-                f'<div class="track"><div class="fill {k}" style="width:{self.c["launches"][k].get(mth, 0) / mx * 100:.1f}%"></div></div>'
+                f'<div class="track">{launch_fill(k, self.c["launches"][k].get(mth, 0), mx)}</div>'
                 f'<span class="v num">{self.c["launches"][k].get(mth, 0)}</span></div>' for k in ("A", "B"))
             rows.append(f'<div class="brow"><div class="bl">{fmt_month(mth)}</div><div class="bars">{bars}</div></div>')
         parts.append(f'<div class="chart" style="margin-top:18px"><h3>When the sampled ads started</h3>'
@@ -316,6 +418,13 @@ class Page:
                 f'<span><i class="sw B"></i>{E(self.names["B"])}</span></div>')
 
     def paired_chart(self, title, sub, data, denom):
+        allc = set(data["A"]) | set(data["B"])
+        if len(allc) == 1:
+            c = next(iter(allc))
+            if all(data[k].get(c, 0) == denom[k] for k in "AB"):
+                return (f'<div class="chart"><h3>{E(title)}</h3><p class="sub">{E(sub)}</p>'
+                        f'<p class="small">Both brands: {E(nice(c))} for every sampled ad '
+                        f'(<span class="num">{denom["A"]} of {denom["A"]} and {denom["B"]} of {denom["B"]}</span>).</p></div>')
         cats = []
         for k in ("A", "B"):
             for c in data[k]:
@@ -328,8 +437,9 @@ class Page:
             for k in ("A", "B"):
                 v = data[k].get(c, 0)
                 share = v / denom[k] if denom[k] else 0
+                fill = f'<div class="fill {k}" style="width:{share * 100:.1f}%"></div>' if v else ""
                 bars += (f'<div class="bar" title="{E(self.names[k])}: {v} of {denom[k]}">'
-                         f'<div class="track"><div class="fill {k}" style="width:{share * 100:.1f}%"></div></div>'
+                         f'<div class="track">{fill}</div>'
                          f'<span class="v num">{v} of {denom[k]}</span></div>')
             rows.append(f'<div class="brow"><div class="bl">{E(nice(c)[:1].upper() + nice(c)[1:])}</div><div class="bars">{bars}</div></div>')
         return f'<div class="chart"><h3>{E(title)}</h3><p class="sub">{E(sub)}</p>{"".join(rows)}</div>'
@@ -363,6 +473,10 @@ class Page:
         ]
         parts.append(f'<div class="charts">{"".join(charts)}</div>')
         ct = []
+        if not any(b["campaign_tags"][k] for k in "AB") and not any(b["deadline"][k] for k in "AB"):
+            parts.append('<p class="small muted" style="margin-top:22px">Neither brand puts campaign tags in its links, '
+                         'and no sampled ad states a deadline.</p>')
+            return self.section("mix", "Detail", "Hooks, offers and destination", "".join(parts))
         for k in "AB":
             tags = "".join(f'<span class="tag num">{E(t)} ({n})</span>' for t, n in b["campaign_tags"][k]) or '<span class="muted small">none in the links</span>'
             ct.append(f'<div><h4 style="margin:0;font:600 13px var(--sans);display:flex;gap:6px;align-items:center">'
@@ -404,14 +518,14 @@ class Page:
                  '(at least one video row when it has one), and in each row the idea with the most days live, ties broken by versions.</p>']
         for k in ("A", "B"):
             parts.append(f'<h3 style="margin:18px 0 6px;display:flex;gap:8px;align-items:center"><span class="sw {k}"></span>{E(self.names[k])}</h3>')
-            for s in self.c["standouts"][k]:
+            for i, s in enumerate(self.c["standouts"][k]):
                 a = self.ad(s["ad_id"])
                 head = (f'<div class="kicker">{E(self.rows[s["row"]]["label"])}</div>'
-                        f'<h3>&ldquo;{E(a["hook_text"] or a["headline"])}&rdquo;</h3><p class="why">{E(s["why"])} '
+                        f'<h3>&ldquo;{E(a["hook_text"] or a["headline"])}&rdquo;</h3><p class="why">{E(self.why(k, s, i))} '
                         f'<a href="{E(a["link"])}" target="_blank" rel="noopener">Open in Ad Library</a></p>')
                 if a["medium"] == "video":
                     fr = []
-                    for f in s["frames"]:
+                    for f in thin_frames(s["frames"]):
                         sp = "" if f.get("spoken_repeat") else f["spoken"]
                         fr.append(f'<div class="frame">{img_tag(self.img.uri(k, f["still"], 240), "Frame")}'
                                   f'<div class="tc">{f["t"]:g} s</div><div class="sp q">{E(sp)}</div></div>')
@@ -424,6 +538,26 @@ class Page:
                             f'<p class="q small" style="white-space:pre-wrap;margin:0">{E(a["body"])}</p></div></div>')
                 parts.append(f'<div class="standout">{head}{body}</div>')
         return self.section("standouts", "Craft", "Standouts, frame by frame", "".join(parts))
+
+    def why(self, k, s, i):
+        """Selection reason built from the rows, so it never claims a lead the numbers do not show."""
+        r = self.rows[s["row"]]
+        th = self.other(k)
+        mine, theirs = r[k]["share"], r[th]["share"]
+        a = self.ad(s["ad_id"])
+        def fig(x):
+            N = self.nmed(x, r["medium"])
+            small = min(self.nmed("A", r["medium"]), self.nmed("B", r["medium"])) < SMALL_BASE
+            return f'{r[x]["n"]} of {N}' if small else pct(r[x]["share"])
+        pair = f'{fig(k)} against {fig(th)}'
+        nth = "widest" if i == 0 else "second widest"
+        if mine > theirs:
+            lead = f'{r["label"]} is {self.names[k]}\'s {nth} gap over {self.names[th]} ({pair}).'
+        else:
+            lead = (f'{r["label"]} is {self.names[k]}\'s other present row; here it trails {self.names[th]} '
+                    f'({pair}).')
+        return (f'{lead} This is the idea in that row with the most days live '
+                f'({a["days"]} days, {plural(a["versions"], "version")}).')
 
     def rerun_section(self):
         rr = self.c.get("rerun")
@@ -444,6 +578,18 @@ class Page:
         return self.section("rerun", "Thirty days on", "Kept, gone, new", "".join(parts),
                             "Gone means stopped, or fell out of the top by impressions; the Library sample cannot tell which.")
 
+    def shares_line(self):
+        mb = self.c["meta"]["brands"]
+        base = "<b>Shares.</b> Video rows are shares of a brand's sampled video ads, image rows of its sampled image ads. "
+        only_top = [k for k in "AB" if mb[k].get("top30_all") and mb[k]["n_image"] <= mb[k]["top30_all"]["image"]]
+        if only_top:
+            who = " and ".join(E(self.names[k]) for k in only_top)
+            return (base + f"No extra image ads were collected for {who}: its image ads are only those inside its top 30, "
+                    f"so image rows on a small base say more about whether a brand runs image ads than which kind. "
+                    f"Image rows with under {SMALL_BASE} ads on a side show counts, not shares.")
+        return (base + "The sample gives video and image a guaranteed look each, so the video and image split of the sample is "
+                "not the brand's real split; the overall lean comes only from its top 30 across both.")
+
     def method_section(self):
         m = self.c["meta"]
         th = m["thresholds"]
@@ -457,9 +603,7 @@ class Page:
         lines += [
             "<b>No spend or results.</b> The Ad Library does not publish spend, reach or results for these ads. "
             "We use what is public: whether the Library ranks an ad highest by impressions, how long it has run, and how many versions run.",
-            "<b>Shares.</b> Video rows are shares of a brand's sampled video ads, image rows of its sampled image ads. "
-            "The sample gives video and image a guaranteed look each, so the video and image split of the sample is not the brand's real split; "
-            "the overall lean comes only from its top 30 across both.",
+            self.shares_line(),
             "<b>Days live</b> are days so far: ads still running are counted to the snapshot date.",
             "<b>Versions</b> are the Library's count of ads that share a creative. Mixed-format set-ups, where Meta combines images, videos and text, "
             "inflate it, so we lean on ideas, not versions.",
@@ -509,7 +653,7 @@ class Page:
         return self.section("appendix", "Appendix", "Every ad", "".join(parts))
 
     def build(self):
-        body = [self.first_screen(), self.folds(), self.lead_section(), self.stakes_section(), self.now_section(),
+        body = [self.first_screen(), self.extras_section(), self.folds(), self.lead_section(), self.stakes_section(), self.now_section(),
                 self.mix_section(), self.pacing_section(), self.standouts_section(), self.rerun_section(),
                 self.method_section(), self.appendix(),
                 f'<footer class="wrap">Built from the public Meta Ad Library on {fmt_date(self.c["meta"]["snapshot_date"])}. '
@@ -537,6 +681,7 @@ def fmt_month(s):
 def lint(html_text, persp, comp=None):
     issues = []
     rows = {r["id"]: r for r in (comp or {}).get("rows", [])}
+    persp = {k: v for k, v in persp.items() if k in ("A", "B")}
     for k, p in persp.items():
         for mv in p.get("moves", []):
             r = rows.get(mv.get("row"))

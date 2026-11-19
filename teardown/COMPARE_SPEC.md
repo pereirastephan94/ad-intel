@@ -65,11 +65,12 @@ Evidence, judged on the side with more ads in the row:
 
 **Table stakes** are the Even rows. **Gaps** for a reader are rows where the rival is Only or leads (Nx). **Edges** are the reverse.
 
-Re-check these thresholds after the first real comparison.
+Re-checked after the first real comparison (Stable Money vs Wint Wealth, 19 Nov 2026). Video cells ran 0 to 16 ads on totals of 19 and 30, and the thresholds sorted them sensibly: the three strong rows (Person to camera, Scene or story, Product or people) each had 9 or more ads across 6 or more ideas; Text and motion at 3 ads across 2 ideas read thin, rightly. They broke on the image side, where one brand had 3 image ads in all: 2 of 3 (67%) shaded as the heaviest cell yet read Neither, and a 1 of 3 cell carried a "strong" gap because evidence is judged only on the side with more ads. Kept: present 3, lead 2x, strong 8 and 3, thin under 4 or 1 idea. Added: the small-base rule below (display now, compute.py to do).
 
 ## Page sections, in order
 
 1. **First screen** (fixed layout below).
+1b. **What they sell and what they say** (only when `extras` is present; see the JSON section).
 2. **The map, row by row**: one fold per row with both brands' counts, ideas, versions, median days, founder count, and up to 2 evidence cards per side (still, opening line, days live, versions, Ad Library link). Card rule: the brand's ads in that row, one per idea, sorted by days live, then versions.
 3. **Where you lead**: the reader's edge rows restated with their evidence (flips with the toggle).
 4. **Table stakes**: the Even rows, "both of you do this, so differentiate inside it".
@@ -97,7 +98,8 @@ Order, top to bottom:
 3. Toggle: [I am Brand A] [I am Brand B]. Remembered per viewer; also set by `#A` or `#B` in the link.
 4. Verdict.
 5. Moves, 2 to 4, ranked, each with Effort and Evidence chips and a "See the ads" link that opens the row's fold (added while building: without it the moves had no tap-through, which fails the Evidence gate).
-6. Top 30 line: "Top 30 overall: you 9 video, 21 image; they 20 video, 10 image."
+6. Top 30 line: "Top 30 overall: you 9 video, 21 image; they 20 video, 10 image." (When a medium has a small base, this line moves into that medium's small-base note inside the map.)
+6b. What they sell line, when `extras.product_mix` is present.
 7. Map: group header per medium ("VIDEO  you 31, them 34 sampled"), 7 rows, then the founder line.
 
 Verdict and moves always fit on the first screen; the map starts on it and finishes within one swipe.
@@ -238,3 +240,29 @@ Optional `tag_check.json` in the research folder: `{"n_checked": 14, "agreement"
 ```
 
 `now_read` and `india_read` are optional; when missing the builder shows the numbers without a reading line (and rubric lines 10 and 14 score 1).
+
+### Optional `extras` block (added after the first real comparison)
+
+The 7-row map cannot show what each brand sells, its recurring series, or where its own ads disagree on figures. A founder wants all three near the top. When `perspectives.json` has a top-level `extras` key, `build.py` renders:
+- one line on the first screen, just above the map: "What they sell, ads per product: you, ...; Rival, ...", with a link to the section below;
+- a section "What they sell and what they say" straight after the first screen, before the row folds: product bars per brand, series and recurring lines per brand, and "Where their own ads disagree" (the reader's own ads first; flips with the toggle).
+
+```json
+"extras": {
+  "source": "One line on how these were read (shown as the section lede).",
+  "product_mix": {"A": {"items": [["Fixed deposits", 11], ["Bonds", 8]], "note": "optional line"}, "B": {}},
+  "series": {"A": [{"name": "Papa Explaining", "ads": ["<library_id>"], "note": "what recurs"}], "B": []},
+  "contradictions": {"A": [{"text": "Money invested: says 11,000 crore over its own 7,000 Cr+ end card.", "ads": ["<library_id>"]}], "B": []}
+}
+```
+
+Rules: every key is optional. `ads` are library ids from comparison.json; each renders as an "ad 1, ad 2" link to the Ad Library (this is the tap-through for rubric line 3). Product counts must add up to the brand's sampled ads. Contradictions are figures that differ between ads of one brand or inside one ad (users, money invested, rate, tenure, minimum, payout schedule, exit), taken from the "Numbers that disagree across ads" list in `research/<brand>/concepts.md`, at most 5 per brand, each with the ads that show it. The wording rules (no banned words, no dashes, no jargon) apply; the lint covers the rendered text.
+
+### Small bases (added after the first real comparison)
+When either brand has fewer than 10 sampled ads of a medium (`SMALL_BASE` in build.py), that medium's map cells show counts ("2 of 3") instead of shares, are not shaded, and the group carries a note: "Small base ... shares say little about which kind of image ad each brand prefers", followed by the top 30 video and image split. Standout reasons use counts in the same case. A verdict or move must not rest on a share of a small base; say "its top 30 holds 3 images" instead. (To do in compute.py: cap evidence at moderate and use status "small base" when the other side's medium total is under 10.)
+
+### Phone first screen (added after the first real comparison)
+Three moves at the full word limits (35 + 25 words each) plus a 30-word verdict do not fit on 390 x 700. Under 720 px the first test sits behind a "First test" chip (one tap), and the move text, Effort, Evidence and "See the ads" stay visible. On wider screens the first test shows inline.
+
+### Standout reason
+The builder writes the reason from the rows, not from compute.py's `why`, so it never claims a lead the numbers do not show: "X is the brand's widest gap over Y (47% against 21%)" or, for a row where the brand trails, "X is the brand's other present row; here it trails Y (53% against 63%)". Frame strips drop stills inside the first 3 seconds that repeat the opening line, keeping the first and the one nearest 3 s.

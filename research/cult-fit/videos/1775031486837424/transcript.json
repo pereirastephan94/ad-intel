@@ -49,6 +49,32 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "Break up hua hai? Chalo cult chaltein."
+   },
+   {
+    "start": 2.0,
+    "end": 4.0,
+    "text": "Boss ne chalaya? Chalo cult chaltein."
+   },
+   {
+    "start": 4.0,
+    "end": 6.0,
+    "text": "Shaadi fix hua hai? Chalo cult chaltein."
+   },
+   {
+    "start": 6.0,
+    "end": 8.0,
+    "text": "Promotion mila hai? Chalo cult chaltein."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "Prika Bhua, Chalo Kalt Chantu Boss Neh Chilaia, Chalo Kalt Chantu Shadi Texua, Chalo Kalt Chantu Promotion Mila, Chalo Kalt Chantu",
   "segments": [
