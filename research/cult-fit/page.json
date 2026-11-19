@@ -1,0 +1,37 @@
+{
+ "query": "Cult.fit",
+ "country": "IN",
+ "searched_with": [
+  "exact-phrase search"
+ ],
+ "plausible_matches": 1,
+ "candidates": [
+  {
+   "page_id": "392046674300717",
+   "page_name": "cult",
+   "name_match": "partial",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 24,
+   "likes": 420458,
+   "categories": [
+    "Health & wellness website"
+   ],
+   "page_url": "https://www.facebook.com/wearecultofficial/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=392046674300717&search_type=page"
+  },
+  {
+   "page_id": "145224884121",
+   "page_name": "Gold's Gym India",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 6,
+   "likes": 521002,
+   "categories": [
+    "Gym"
+   ],
+   "page_url": "https://www.facebook.com/GoldsGymIndia/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=145224884121&search_type=page"
+  }
+ ],
+ "note": "One page matches the name. Use it, and tell the user which page it is."
+}
