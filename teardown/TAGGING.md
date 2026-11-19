@@ -139,3 +139,13 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 4. **Hook, tighter:** judge the FIRST sentence only. `number_claim` needs a statistic about the world or the product; a character's own bank balance in dialogue is `story_open`. A question one character asks another is `story_open`; `question` is only a question put to the viewer.
 5. **script_twin** includes the same footage re-uploaded in another shape or length.
 6. **Podcast set** with microphones and a dressed room is `studio`.
+
+## Rulings from review 3 (20 Nov 2026, after Stable Money was finished)
+1. **Same footage, new shape = same concept_id** (and also list it in script_twin). Same script, different person = new concept.
+2. **A person who never looks at the lens** (reads a paper, answers an off-camera voice, street interview) is V2.
+3. **Street interviews followed by a presenter:** V2 if the interviews fill more of the runtime.
+4. **Hook is the first SENTENCE spoken**, even if a later sentence inside 3 seconds is a question. Twins must carry the same hook.
+5. **angle for a pure rate claim** ("up to 8.5%") is `outcome`. A named product benefit (lounge access, monthly payout) is `feature`.
+6. **Image with no headline** and a small stat row: I2. I1 needs the offer to be the largest or first-read text.
+7. **Image ads can also carry `ad_text_missing`.**
+8. Always note brand-level numbers that disagree across ads (user counts, amounts invested, visit counts) at the end of your reply; they go into the comparison.
