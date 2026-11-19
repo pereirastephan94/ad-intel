@@ -1,0 +1,147 @@
+{
+ "asset": "1647100103480671",
+ "first_seen_in": "1469948041766969",
+ "duration_s": 63.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.8,
+   "why": "scene change"
+  },
+  {
+   "t": 8.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.2,
+   "why": "scene change"
+  },
+  {
+   "t": 18.6,
+   "why": "scene change"
+  },
+  {
+   "t": 28.6,
+   "why": "scene change"
+  },
+  {
+   "t": 33.6,
+   "why": "scene change"
+  },
+  {
+   "t": 36.1,
+   "why": "scene change"
+  },
+  {
+   "t": 38.7,
+   "why": "scene change"
+  },
+  {
+   "t": 44,
+   "why": "scene change"
+  },
+  {
+   "t": 48.4,
+   "why": "scene change"
+  },
+  {
+   "t": 63.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I know somebody who 5x'd the profits of his family business by using AI. He automated the internal processes, a lot of them, that help him cut almost 50% of the workforce. Improved accuracy on the shop floor by using, you know, image recognition, AI, and automated the entire sales process, funnel and pipeline. I'm telling you, young folks who have just taken over their family business have a massive opportunity in front of them, if they can use AI in the right way to solve problems for their family business. Now we here at Mesa have already helped such people very deeply in the past. We have a deep AI curriculum, we have mentors who themselves understand how family businesses work very deeply, and we can provide one-on-one support that makes sure that the right outcomes are actually achieved. That's what led to us building the hybrid PGP in business, AI and entrepreneurship. Those who are in a family business don't need to quit and come full-time. They can pursue this while actually working in their family business.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.3,
+    "text": "I know somebody who 5x'd the profits of his family business by using AI."
+   },
+   {
+    "start": 4.3,
+    "end": 10.2,
+    "text": "He automated the internal processes, a lot of them, that help him cut almost 50% of the workforce."
+   },
+   {
+    "start": 10.2,
+    "end": 15.8,
+    "text": "Improved accuracy on the shop floor by using, you know, image recognition, AI,"
+   },
+   {
+    "start": 15.8,
+    "end": 18.6,
+    "text": "and automated the entire sales process, funnel and pipeline."
+   },
+   {
+    "start": 18.6,
+    "end": 22.3,
+    "text": "I'm telling you, young folks who have just taken over their family business"
+   },
+   {
+    "start": 22.3,
+    "end": 26.6,
+    "text": "have a massive opportunity in front of them, if they can use AI in the right way"
+   },
+   {
+    "start": 26.6,
+    "end": 28.6,
+    "text": "to solve problems for their family business."
+   },
+   {
+    "start": 28.6,
+    "end": 33.3,
+    "text": "Now we here at Mesa have already helped such people very deeply in the past."
+   },
+   {
+    "start": 33.3,
+    "end": 37,
+    "text": "We have a deep AI curriculum, we have mentors who themselves understand"
+   },
+   {
+    "start": 37,
+    "end": 40.9,
+    "text": "how family businesses work very deeply, and we can provide one-on-one support"
+   },
+   {
+    "start": 40.9,
+    "end": 43.9,
+    "text": "that makes sure that the right outcomes are actually achieved."
+   },
+   {
+    "start": 43.9,
+    "end": 48.4,
+    "text": "That's what led to us building the hybrid PGP in business, AI and entrepreneurship."
+   },
+   {
+    "start": 48.4,
+    "end": 52.5,
+    "text": "Those who are in a family business don't need to quit and come full-time."
+   },
+   {
+    "start": 52.5,
+    "end": 56.2,
+    "text": "They can pursue this while actually working in their family business."
+   }
+  ]
+ }
+}

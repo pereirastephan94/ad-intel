@@ -1,0 +1,162 @@
+{
+ "asset": "1086213360672326",
+ "first_seen_in": "967305892765565",
+ "duration_s": 77.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 27.1,
+   "why": "scene change"
+  },
+  {
+   "t": 34,
+   "why": "scene change"
+  },
+  {
+   "t": 40.8,
+   "why": "scene change"
+  },
+  {
+   "t": 49.2,
+   "why": "scene change"
+  },
+  {
+   "t": 56.5,
+   "why": "scene change"
+  },
+  {
+   "t": 60.6,
+   "why": "scene change"
+  },
+  {
+   "t": 66.9,
+   "why": "scene change"
+  },
+  {
+   "t": 77.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "So should I tell you the number one mistake that mid-career working professionals make? So I'm talking about 27 to 32 year olds in a good job. The biggest mistake is the company they are working for is paying them to do one very specific task. Could be accounting, finance, data analysis, marketing, coding, sales, very narrow, very specific. So people restrict themselves to learning about just one thing and they keep going deeper just into one thing. Now what happens when AI comes in is that today, Claude can do accounting better than the best accountants in the world. So all the expertise you have accumulated stands for nothing. And as you go higher up in a hierarchy of a company, it requires people who are horizontal with their expertise. People who know businesses, they understand PNLs, they can build product, they can do sales, they can talk to customers, they can do partnerships, they can build teams, they can manage people. But unfortunately, these people don't end up learning these things. So my advice is simple. Learn to build solutions and products with AI. Learn basics of business like business models, basic PNL. Learn sales and entrepreneurship. Learn to learn something. Sell it and these can be game changers for their careers.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.8,
+    "text": "So should I tell you the number one mistake that mid-career working professionals make?"
+   },
+   {
+    "start": 4.8,
+    "end": 8.4,
+    "text": "So I'm talking about 27 to 32 year olds in a good job."
+   },
+   {
+    "start": 8.4,
+    "end": 13.9,
+    "text": "The biggest mistake is the company they are working for is paying them to do one very specific task."
+   },
+   {
+    "start": 13.9,
+    "end": 20,
+    "text": "Could be accounting, finance, data analysis, marketing, coding, sales, very narrow, very specific."
+   },
+   {
+    "start": 20,
+    "end": 26.1,
+    "text": "So people restrict themselves to learning about just one thing and they keep going deeper just into one thing."
+   },
+   {
+    "start": 26.2,
+    "end": 29.5,
+    "text": "Now what happens when AI comes in is that today,"
+   },
+   {
+    "start": 29.5,
+    "end": 32.9,
+    "text": "Claude can do accounting better than the best accountants in the world."
+   },
+   {
+    "start": 32.9,
+    "end": 36.4,
+    "text": "So all the expertise you have accumulated stands for nothing."
+   },
+   {
+    "start": 36.4,
+    "end": 43,
+    "text": "And as you go higher up in a hierarchy of a company, it requires people who are horizontal with their expertise."
+   },
+   {
+    "start": 43,
+    "end": 47.2,
+    "text": "People who know businesses, they understand PNLs, they can build product, they can do sales,"
+   },
+   {
+    "start": 47.2,
+    "end": 51.7,
+    "text": "they can talk to customers, they can do partnerships, they can build teams, they can manage people."
+   },
+   {
+    "start": 51.7,
+    "end": 55.1,
+    "text": "But unfortunately, these people don't end up learning these things."
+   },
+   {
+    "start": 55.1,
+    "end": 56.6,
+    "text": "So my advice is simple."
+   },
+   {
+    "start": 56.6,
+    "end": 59.8,
+    "text": "Learn to build solutions and products with AI."
+   },
+   {
+    "start": 59.8,
+    "end": 63.8,
+    "text": "Learn basics of business like business models, basic PNL."
+   },
+   {
+    "start": 63.8,
+    "end": 67.1,
+    "text": "Learn sales and entrepreneurship. Learn to learn something."
+   },
+   {
+    "start": 67.1,
+    "end": 71,
+    "text": "Sell it and these can be game changers for their careers."
+   }
+  ]
+ }
+}
