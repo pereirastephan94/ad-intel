@@ -134,13 +134,13 @@
   {
    "q": "Ascend",
    "media": "video"
-  }
- ],
- "queue": [
+  },
   {
    "q": "Ascend",
    "media": "meme"
-  },
+  }
+ ],
+ "queue": [
   {
    "q": "Ascend",
    "media": "image"
@@ -417,7 +417,8 @@
   "2026-11-19T05:09:36.612Z view {\"q\":\"Ascend\"} -> 30 ads (window total 138), 9 new, 98 unique of ~0",
   "2026-11-19T05:16:46.382Z   video 1086213360672326 ok (77.6s, 16 stills)",
   "2026-11-19T05:17:04.957Z   video 1647100103480671 ok (63.6s, 16 stills)",
-  "2026-11-19T05:17:04.958Z view {\"q\":\"Ascend\",\"media\":\"video\"} -> 30 ads (window total 30), 18 new, 116 unique of ~0"
+  "2026-11-19T05:17:04.958Z view {\"q\":\"Ascend\",\"media\":\"video\"} -> 30 ads (window total 30), 18 new, 116 unique of ~0",
+  "2026-11-19T05:23:44.482Z view {\"q\":\"Ascend\",\"media\":\"meme\"} -> 2 ads (window total 2), 2 new, 118 unique of ~0"
  ],
  "keywordsQueued": true
 }

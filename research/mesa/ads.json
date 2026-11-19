@@ -3519,5 +3519,63 @@
    ]
   },
   "video_asset": "1647100103480671"
+ },
+ "2218490036217900": {
+  "library_id": "2218490036217900",
+  "link": "https://www.facebook.com/ads/library/?id=2218490036217900",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 1,
+  "media_type": "IMAGE",
+  "body": "You don’t have to quit your job to build serious business and AI skills.\n\nMesa Ascend is a 12-month hybrid PGP for professionals with 5+ years of experience. Live weekend classes, about 10 hours a week, and three campus weekends in Bangalore.\n\nIn this live info session, Varun Limaye (Co-founder, Mesa) walks you through what the 12 months involve, who the program is built for, and what it asks of you. Live Q&A at the end.\n\n📅 Sunday, 22 Nov | 12 PM IST | Zoom\nReserve your spot.",
+  "headline": "No need to quit your job",
+  "link_description": "For working professional with 5+ yrs of experience",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/ascend-infosession/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/911859452_1341073924733040_4756378945643830181_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9r12JMg8DUAQ7kNvwH_cnag&_nc_oc=Adp7ci07twmMxXfSYteaHKWBFmvYNt1fs9m7m3zroL28b-zuEJC7rJs7yv6yTTQUQps&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=betU26Cg0ZA3K6w885WMJg&_nc_ss=7b289&oh=00_AQRgHqm8HWCw_s6uFqQwHCZWKOuuETsWMV0OqZL9ph_zDw&oe=6B0472E1",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Education website"
+   ]
+  }
+ },
+ "2041094996593471": {
+  "library_id": "2041094996593471",
+  "link": "https://www.facebook.com/ads/library/?id=2041094996593471",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 1,
+  "media_type": "IMAGE",
+  "body": "Somewhere around year five, the career question changes.\n\nIt’s no longer “how do I get better at my job?” It becomes “where does this go next?” More responsibility? A switch? Building something of your own?\n\nIf you’re asking that question, this session is for you. Varun Limaye, Co-founder of Mesa School of Business (Kellogg | Amazon), is going live to talk about:\n→ Where careers go after year five\n→ How AI and smaller teams are changing expectations\n→ What Mesa Ascend is, and who it’s built for\n→ Careers, admissions and live Q&A\n\nMesa Ascend is a 12-month hybrid PGP in Business and AI for professionals with 5+ years of experience.\n\n📅 Sunday, 22 Nov | 12 PM IST | Zoom\nReserve your spot.",
+  "headline": "MBA, Switch or Startup? Hear This First",
+  "link_description": "For working professional with 5+ yrs of experience",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/ascend-infosession/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/905250715_1142708904789694_6499994153213370348_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=L8H4S1yEEH0Q7kNvwFAKVi9&_nc_oc=Adr7bIEz2nKNiZV_Xyv_27Jy8bZshUp3gXTGNJy0XqEw9SPLjnGwpIFZOed2uXF-Jcc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=betU26Cg0ZA3K6w885WMJg&_nc_ss=7b289&oh=00_AQRmH9q2-XcOiFuhVXg6ERf7Wjv6YH2zUcHL_bi7r06fZw&oe=6B046893",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Education website"
+   ]
+  }
  }
 }
