@@ -13,8 +13,8 @@
   "link_description": "{{product.description}}",
   "cta": "Install now",
   "landing_url": "http://play.google.com/store/apps/details?id=in.stablemoney.app",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNn4TGJU0yI5rlbyGlcHYC6F6DAlq-VvQvYvHEn0Edg2TV5OrytUFkSkBvCnoGFnwciDua9fPU53a9Ze7p-BIzHpErFlymaADRCKgjByJCyHA.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=LlesYnhWF6QQ7kNvwGbGRCw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5OTYzODY0ODk3NTUxNTAsImFzc2V0X2FnZV9kYXlzIjoxOTgsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo2MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=81f9256ccd9341f4&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NzRFQURGODJERjY3RkE2NTUxNjc5MTI5Qzg1RTVBNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I0NDBCMzc1RDZCNTA3MTkyNzgxMUU3RjkxMjgyOEFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACacmL_sqY3FAxUCKAJDMywXQE6KPXCj1woYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR6wJn_3HE_VmCwWzuNpLyo1ubMdeCFMy_5PmO4i35Smw&oe=6B053FD3",
-  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/702486659_1908031183213384_2894393531516679697_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Lh_4O6hkXLMQ7kNvwGp2N6S&_nc_oc=AdrEmZUyzWnXYPe4WvXI5rMyxFM7VC2RUtWQlzf73XI4LIYMd5muso-fgu3Q2ne3lqA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQTZlwEc59ogqAK_WZoq9li4DF02DcoHhMbkE_KB1LFODA&oe=6B053323",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNn4TGJU0yI5rlbyGlcHYC6F6DAlq-VvQvYvHEn0Edg2TV5OrytUFkSkBvCnoGFnwciDua9fPU53a9Ze7p-BIzHpErFlymaADRCKgjByJCyHA.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=LlesYnhWF6QQ7kNvwGKBmvR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5OTYzODY0ODk3NTUxNTAsImFzc2V0X2FnZV9kYXlzIjoxOTgsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo2MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=81f9256ccd9341f4&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NzRFQURGODJERjY3RkE2NTUxNjc5MTI5Qzg1RTVBNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I0NDBCMzc1RDZCNTA3MTkyNzgxMUU3RjkxMjgyOEFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACacmL_sqY3FAxUCKAJDMywXQE6KPXCj1woYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQsjjtGEBsIjg8AaIZfH5d96oAowRKm-OY1QkxJED4QIQ&oe=6B053FD3",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/702486659_1908031183213384_2894393531516679697_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Lh_4O6hkXLMQ7kNvwHN6oQ_&_nc_oc=Adq4K2orSfTnbnA75u1l5HsjqnJx2i8zOu0Xw4HdNtwMZ_QA0mpoqJxM8DtmEsTF8wM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&oh=00_AQTWIaJRCBYhmTkOyz3uxOwsuCDTu64b6HNlUv1t-87nVw&oe=6B053323",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -27,6 +27,9 @@
     "Financial Service"
    ]
   },
-  "video_asset": "996386489755150"
+  "video_asset": "996386489755150",
+  "sample_views": {
+   "all": 12
+  }
  }
 ]

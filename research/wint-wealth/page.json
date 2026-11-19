@@ -1,0 +1,51 @@
+{
+ "query": "Wint",
+ "country": "IN",
+ "searched_with": [
+  "exact-phrase search"
+ ],
+ "plausible_matches": 1,
+ "candidates": [
+  {
+   "page_id": "105635868330649",
+   "page_name": "Wint Wealth",
+   "name_match": "partial",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 28,
+   "likes": 3313,
+   "categories": [
+    "Financial service"
+   ],
+   "page_url": "https://www.facebook.com/wintwealth/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=105635868330649&search_type=page"
+  },
+  {
+   "page_id": "1992881840756031",
+   "page_name": "Áo khoác nam, áo thu đông cao cấp tại Hà Nội",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 1,
+   "likes": 27890,
+   "categories": [
+    "Design & Fashion",
+    "Health & Beauty"
+   ],
+   "page_url": "https://www.facebook.com/aokhoacnamhanoi/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=1992881840756031&search_type=page"
+  },
+  {
+   "page_id": "100907784722781",
+   "page_name": "QR 678",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 1,
+   "likes": 30508,
+   "categories": [
+    "Health & Beauty"
+   ],
+   "page_url": "https://www.facebook.com/QR678.hair/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=100907784722781&search_type=page"
+  }
+ ],
+ "note": "One page matches the name. Use it, and tell the user which page it is."
+}

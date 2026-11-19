@@ -1,0 +1,46 @@
+{
+ "done": [
+  {
+   "media": "all",
+   "sort": "total_impressions",
+   "dir": "desc"
+  },
+  {
+   "media": "video",
+   "sort": "total_impressions",
+   "dir": "desc"
+  },
+  {
+   "media": "image",
+   "sort": "total_impressions",
+   "dir": "desc"
+  }
+ ],
+ "total": null,
+ "log": [
+  "2026-11-19T21:04:53.251Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-19T21:11:28.083Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-19T21:16:08.963Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null"
+ ],
+ "keywordsQueued": true,
+ "queue": [
+  {
+   "media": "all",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "media": "video",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "media": "image",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "retry": 1
+  }
+ ]
+}

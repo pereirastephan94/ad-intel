@@ -1,0 +1,181 @@
+{
+ "asset": "2378355306351298",
+ "first_seen_in": "1608750657392609",
+ "duration_s": 68,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.9,
+   "why": "scene change"
+  },
+  {
+   "t": 41.9,
+   "why": "scene change"
+  },
+  {
+   "t": 45.4,
+   "why": "scene change"
+  },
+  {
+   "t": 47.7,
+   "why": "scene change"
+  },
+  {
+   "t": 52.4,
+   "why": "scene change"
+  },
+  {
+   "t": 58.3,
+   "why": "scene change"
+  },
+  {
+   "t": 67.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "10 FahrுپleistSEC'S innovate 20 dramatically Miracleag簡bes T Bai Best part return already fixed You will get a better return In more cases, 11% fixed return per annum Your return will be the same Like the first one was decided I use a Bonds app for rent I use a Vintwell app for rent This is a registered broker And here are 3 lakhs of more investors Here you can get returns, 10,000 and payment date So if you want to buy a side income You can start from 10,000 Download Vintwell Fix returns do not constitute guaranteed or the short returns Investments in corporate debt securities, municipal debt securities and securities debt instruments are subject to credit risks Market risks and default risks Including delay and or default payment",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.2,
+    "text": "10 FahrுپleistSEC'S innovate"
+   },
+   {
+    "start": 1.2,
+    "end": 2.5,
+    "text": "20 dramatically"
+   },
+   {
+    "start": 2.5,
+    "end": 4,
+    "text": "Miracle"
+   },
+   {
+    "start": 13,
+    "end": 15,
+    "text": "ag簡bes"
+   },
+   {
+    "start": 20.1,
+    "end": 21.8,
+    "text": "T Bai"
+   },
+   {
+    "start": 30,
+    "end": 32,
+    "text": "Best part return already fixed"
+   },
+   {
+    "start": 32,
+    "end": 35,
+    "text": "You will get a better return"
+   },
+   {
+    "start": 35,
+    "end": 38,
+    "text": "In more cases, 11% fixed return per annum"
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "Your return will be the same"
+   },
+   {
+    "start": 40,
+    "end": 41,
+    "text": "Like the first one was decided"
+   },
+   {
+    "start": 41,
+    "end": 42,
+    "text": "I use a Bonds app for rent"
+   },
+   {
+    "start": 42,
+    "end": 44,
+    "text": "I use a Vintwell app for rent"
+   },
+   {
+    "start": 44,
+    "end": 46,
+    "text": "This is a registered broker"
+   },
+   {
+    "start": 46,
+    "end": 48,
+    "text": "And here are 3 lakhs of more investors"
+   },
+   {
+    "start": 48,
+    "end": 50,
+    "text": "Here you can get returns, 10,000"
+   },
+   {
+    "start": 50,
+    "end": 52,
+    "text": "and payment date"
+   },
+   {
+    "start": 52,
+    "end": 54,
+    "text": "So if you want to buy a side income"
+   },
+   {
+    "start": 54,
+    "end": 56,
+    "text": "You can start from 10,000"
+   },
+   {
+    "start": 56,
+    "end": 58,
+    "text": "Download Vintwell"
+   },
+   {
+    "start": 58,
+    "end": 60,
+    "text": "Fix returns do not constitute guaranteed or the short returns"
+   },
+   {
+    "start": 60,
+    "end": 62,
+    "text": "Investments in corporate debt securities, municipal debt securities"
+   },
+   {
+    "start": 62,
+    "end": 64,
+    "text": "and securities debt instruments are subject to credit risks"
+   },
+   {
+    "start": 64,
+    "end": 66,
+    "text": "Market risks and default risks"
+   },
+   {
+    "start": 66,
+    "end": 68,
+    "text": "Including delay and or default payment"
+   }
+  ]
+ }
+}

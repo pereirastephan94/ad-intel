@@ -13,8 +13,8 @@
   "link_description": "",
   "cta": "Install now",
   "landing_url": "http://itunes.apple.com/app/id1663244497",
-  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPTRU1edikBOHoVLP85OyXodvDOMVhC2wbaIJomunkZXobTdsft2JiYKKmF5pIZRylxqe76hCCy3ygaAoT2XaaPys3ERYrIXv-RVUK1uQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Bnjlc9T6j5cQ7kNvwGM_p9H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzg2MTE4OTA3MDY1NjMwOSwiYXNzZXRfYWdlX2RheXMiOjI0NywidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjg4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQVk5HwVG8ubZUhXVrdBeOwbL9fJKBM_11QHwwJZIVj-A&oe=6B0536E4",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/653600418_2099833654137211_7746830134819587772_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ln7OWwuaxccQ7kNvwFZA1WD&_nc_oc=Adp4_cxcG2rRAu1xNIKG7l_SfBJWIj78CrvYFGAxP6EwWTgEKNheDhBCxWQ4sh8J0r8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQSvQi6CteEMW-RQ2_SeZy92i8XzAC262EjbT6SPy8f4Fg&oe=6B052230",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPTRU1edikBOHoVLP85OyXodvDOMVhC2wbaIJomunkZXobTdsft2JiYKKmF5pIZRylxqe76hCCy3ygaAoT2XaaPys3ERYrIXv-RVUK1uQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Bnjlc9T6j5cQ7kNvwGBFR_I&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzg2MTE4OTA3MDY1NjMwOSwiYXNzZXRfYWdlX2RheXMiOjI0NywidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjg4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSSJG3xZYrdiXG1IBYdOt_5_swXwkXX3hu0XhOvDdRBXQ&oe=6B0536E4",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/653600418_2099833654137211_7746830134819587772_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ln7OWwuaxccQ7kNvwFIVaoo&_nc_oc=AdouodCnPepmdgMt61Mr9Y4Dux42wV-0XWWByVYckTcKQRPNmDbzNYDmUF626mbtfWA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&oh=00_AQR1gJ-8IMvw2PW1Q-SIwfbc95iMR6ywHzdzP11AJouRTQ&oe=6B052230",
   "copies": 2,
   "platforms": [
    "FACEBOOK",
@@ -27,6 +27,9 @@
     "Education"
    ]
   },
-  "video_asset": "17861189070656308"
+  "video_asset": "17861189070656308",
+  "sample_views": {
+   "all": 8
+  }
  }
 ]

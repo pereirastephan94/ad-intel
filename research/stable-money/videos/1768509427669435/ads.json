@@ -13,8 +13,8 @@
   "link_description": "{{product.description}}",
   "cta": "Install now",
   "landing_url": "http://play.google.com/store/apps/details?id=in.stablemoney.app",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNKbwH1jMa_bkD-fee-dkRV_GcjUb5QsuyjOgHlDgeVIq-SSuhvCglpoGWATB4peresaC0uphI2QbeqjBrA0rt3M3pTFN4noP70wMqsssjFzw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=lnbJVTmw0nUQ7kNvwEm8gsa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3Njg1MDk0Mjc2Njk0MzUsImFzc2V0X2FnZV9kYXlzIjoxMDYsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo1MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4d0a3a931b58ff2b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQjQzNDdFNzMyM0NERkY2QzdGOTQ0MEZGQUJFQ0RBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzMzNDk2QUU1ODg0OUFGQzI5QjM3RTczOUE3NDcwQ0I4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb25r6D5pykBhUCKAJDMywXQErMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSZEwWr__BKftD4mf6GDQIWLcw0mYWqe0TLW7GS8I5_JQ&oe=6B053667",
-  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/763664858_1612889143797883_3229934716504929643_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zTbWiqWEtGAQ7kNvwFd8Zma&_nc_oc=AdorQCqnQhKREdgZOG8gvTDUuHI21RXfNts0iw9hbWzdNYmP3RYB-0hJQCPIWXmjiMw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQQKPM1n2_lCR7Y6-PQvVw6FU6T86E-AlJ3nfbrvCRtb1A&oe=6B053654",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNKbwH1jMa_bkD-fee-dkRV_GcjUb5QsuyjOgHlDgeVIq-SSuhvCglpoGWATB4peresaC0uphI2QbeqjBrA0rt3M3pTFN4noP70wMqsssjFzw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=lnbJVTmw0nUQ7kNvwEohx5-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3Njg1MDk0Mjc2Njk0MzUsImFzc2V0X2FnZV9kYXlzIjoxMDYsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo1MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4d0a3a931b58ff2b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQjQzNDdFNzMyM0NERkY2QzdGOTQ0MEZGQUJFQ0RBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzMzNDk2QUU1ODg0OUFGQzI5QjM3RTczOUE3NDcwQ0I4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb25r6D5pykBhUCKAJDMywXQErMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTOeacpFg3mgS9p-6UV2mb_gN_cXlbaKAV_RKB85UjVEQ&oe=6B053667",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/763664858_1612889143797883_3229934716504929643_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zTbWiqWEtGAQ7kNvwHFw_sI&_nc_oc=AdqzdnVpPNFg_EAom4NZmcTwbawSwrnxpD573FTicOJrcOAruzUwVNu4mmAOivnMb2U&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&oh=00_AQQODGILddoTbbjVxWWVhRglCR9ny46fPH5FU8VhL_hA8w&oe=6B053654",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -27,7 +27,10 @@
     "Profile"
    ]
   },
-  "video_asset": "1768509427669435"
+  "video_asset": "1768509427669435",
+  "sample_views": {
+   "all": 3
+  }
  },
  {
   "library_id": "1094477860035639",
@@ -43,8 +46,8 @@
   "link_description": "",
   "cta": "Install now",
   "landing_url": "http://play.google.com/store/apps/details?id=in.stablemoney.app",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNKbwH1jMa_bkD-fee-dkRV_GcjUb5QsuyjOgHlDgeVIq-SSuhvCglpoGWATB4peresaC0uphI2QbeqjBrA0rt3M3pTFN4noP70wMqsssjFzw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=lnbJVTmw0nUQ7kNvwEm8gsa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3Njg1MDk0Mjc2Njk0MzUsImFzc2V0X2FnZV9kYXlzIjoxMDYsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo1MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4d0a3a931b58ff2b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQjQzNDdFNzMyM0NERkY2QzdGOTQ0MEZGQUJFQ0RBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzMzNDk2QUU1ODg0OUFGQzI5QjM3RTczOUE3NDcwQ0I4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb25r6D5pykBhUCKAJDMywXQErMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSZEwWr__BKftD4mf6GDQIWLcw0mYWqe0TLW7GS8I5_JQ&oe=6B053667",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/855662921_1881638819493913_7706642296192090543_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5rDGWs3ryR4Q7kNvwFGUJ3r&_nc_oc=Adr9EC9IM-4Nv1-8rX_46MOaUPIQ2WWy3NVr-Yg7xT_g_nJi1-HULIJoB2OoPmXB7mU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQTcZ0YLIoK5m1MzK1me5j1r7FU6xrkaFyMjiuwGecgX2g&oe=6B050DC1",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNKbwH1jMa_bkD-fee-dkRV_GcjUb5QsuyjOgHlDgeVIq-SSuhvCglpoGWATB4peresaC0uphI2QbeqjBrA0rt3M3pTFN4noP70wMqsssjFzw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=lnbJVTmw0nUQ7kNvwEohx5-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3Njg1MDk0Mjc2Njk0MzUsImFzc2V0X2FnZV9kYXlzIjoxMDYsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo1MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4d0a3a931b58ff2b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQjQzNDdFNzMyM0NERkY2QzdGOTQ0MEZGQUJFQ0RBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzMzNDk2QUU1ODg0OUFGQzI5QjM3RTczOUE3NDcwQ0I4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb25r6D5pykBhUCKAJDMywXQErMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTOeacpFg3mgS9p-6UV2mb_gN_cXlbaKAV_RKB85UjVEQ&oe=6B053667",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/855662921_1881638819493913_7706642296192090543_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5rDGWs3ryR4Q7kNvwE6CFl4&_nc_oc=AdpQfK0BZMom1Igge8CqULtLa3MAyumbwqNBW12pSOEVX1kIjOBI2Xwim2-xdHuMFL8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=IkAt1BaibSwqC3IVdR0Zeg&_nc_ss=7b289&oh=00_AQS0xKjhLvd_TjccylpXocy6la5DhfLauVUH0_rTv24UZQ&oe=6B054601",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -57,6 +60,9 @@
     "Profile"
    ]
   },
-  "video_asset": "1768509427669435"
+  "video_asset": "1768509427669435",
+  "sample_views": {
+   "all": 9
+  }
  }
 ]
