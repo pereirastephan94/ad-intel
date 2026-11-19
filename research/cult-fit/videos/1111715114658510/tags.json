@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, shows strength, dance and yoga choices, and offers two free group workouts.",
+    "script_twin": null,
+    "offer_also": ["other"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

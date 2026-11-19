@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "VISHAL, Bareilly, UP - WEIGHT 130 kgs",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hindi",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "Posed full-length photos of a named customer with a 130 kgs caption lead to an end card for up to 30% off weight-loss plans.",
+    "script_twin": "992641457088867",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "hook_text",
+      "angle",
+      "language"
+    ],
+    "human_checked": false
+  }
+}

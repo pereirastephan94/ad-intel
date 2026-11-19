@@ -77,3 +77,11 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 - The Ad Library keyword search also returns empties. Page ids looked up by hand and written to research/<slug>/page.json:
   Atomberg 761127860687721, Qubo 2142425975816266, Mokobara 877758885907009, GIVA 350941852220221, CaratLane 77179773544. DailyObjects still unknown (rr-pull keeps searching).
 - Write-ups running: Cult.fit (14 videos, 2 Sonnet agents), Fitelo (21 videos + 4 images, 2 Sonnet agents). Then a concept pass each, then comparison 2.
+
+## Added 00:00 UTC 20 Nov: pull workers on other machines
+- Test running: child session session_018VFYVJ74b98dqPoxK7xT9B ("Ad pull worker: Mokobara and GIVA", Sonnet) pulls Mokobara and GIVA and pushes to branch `pull/worker-1`.
+  It messages this session with full vs empty view counts. If its views come back full, spawn more workers (create_session, same prompt pattern, 2 to 3 brands each,
+  own branch pull/worker-N) and take those brands out of this machine's rr-pull list. To use a worker's data: `git fetch origin pull/worker-1` and
+  `git checkout origin/pull/worker-1 -- research/mokobara research/giva` (videos' mp4s stay on the worker; stills and transcripts are in the repo).
+  NOTE: retranscribe.py needs the mp4s, so ask the worker to run teardown/retranscribe.py itself before its final push.
+- This machine's rr-pull list is now: Atomberg, Qubo, CaratLane, DailyObjects, Cult.fit, Fitelo, Stable Money, Wint Wealth.

@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Weight loss can make you look younger.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "A man tells how he went from 96 kg to losing 28 kg in 6 months with Fitelo, then a presenter pushes 10X cashback for the first 100 customers.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook",
+      "production",
+      "row"
+    ],
+    "human_checked": false
+  }
+}
