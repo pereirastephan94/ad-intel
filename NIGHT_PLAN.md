@@ -35,11 +35,15 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 
 ## Status (update as you go)
 - Mesa full teardown: paused at 249 of ~310 ads. Page https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Google Doc sent. Not a priority tonight.
-- Pull job 1 (Stable Money, Cult.fit; PhonePe skipped): started 19:56 UTC 19 Nov.
-- Pull job 2 (Wint Wealth, Fitelo, Atomberg): not started.
-- Pull job 3 (Qubo, Mokobara, DailyObjects): not started.
-- Pull job 4 (GIVA, CaratLane): not started.
-- Opus agent: writing RUBRIC v2, TAGGING.md, COMPARE_SPEC.md, compare/compute.py, compare/build.py with a dummy test.
+- Pull job 1 done: Stable Money got 30 video ads (25 videos); its "all" and "image" views came back empty. Cult.fit page not found on first try.
+- LESSON: about half of all page views come back empty. slow-crawl now retries empty plain views twice; sample-run.sh takes alternate
+  spellings ("Cult.fit|cultfit|Cult") and MAX_VIEWS=6.
+- Pull job 2 (Stable Money remaining views, Wint Wealth, Cult.fit): started 20:32 UTC 19 Nov.
+- Pull job 3 (Fitelo, Atomberg, Qubo): not started.
+- Pull job 4 (Mokobara, DailyObjects, GIVA): not started.
+- Pull job 5 (CaratLane + any brand that failed): not started.
+- Write-ups: Sonnet pilot on 5 Stable Money videos running; review them (log in teardown/BRIEF_REVIEW_LOG.md) before releasing the other 20.
+- Opus agent finished: RUBRIC v2, TAGGING.md, COMPARE_SPEC.md, compare/compute.py, compare/build.py all written and tested on dummy brands (28 of 30).
 - Comparison pages published: none yet.
 
 ## Published links

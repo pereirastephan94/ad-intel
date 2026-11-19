@@ -14,9 +14,15 @@
    "media": "image",
    "sort": "total_impressions",
    "dir": "desc"
+  },
+  {
+   "media": "all",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "retry": 1
   }
  ],
- "total": null,
+ "total": 418,
  "log": [
   "2026-11-19T20:02:18.366Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-19T20:08:56.415Z   video 17868682956656308 ok (125.1s, 15 stills)",
@@ -47,16 +53,11 @@
   "2026-11-19T20:16:07.570Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 312), 30 new, 30 unique of ~null",
   "2026-11-19T20:21:39.500Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
   "2026-11-19T20:21:39.501Z stopping after 3 view(s) as asked",
-  "2026-11-19T20:21:39.502Z DONE: 30 unique ads of ~null"
+  "2026-11-19T20:21:39.502Z DONE: 30 unique ads of ~null",
+  "2026-11-19T20:32:03.444Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 30 ads (window total 418), 3 new, 33 unique of ~418"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "all",
-   "sort": "total_impressions",
-   "dir": "desc",
-   "retry": 1
-  },
   {
    "media": "image",
    "sort": "total_impressions",

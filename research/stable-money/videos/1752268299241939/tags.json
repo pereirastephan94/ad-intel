@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Moe! Aay! What are you doing?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "language", "angle"],
+    "human_checked": false
+  }
+}
