@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c01",
     "product": "Fixed deposits, up to 8.5% p.a.",
     "one_line": "A man says influencers mocked FD but it beat the stock market, calls FD your emergency fund, and promotes 8.5% rates on Stable Money.",
     "script_twin": null,
@@ -18,7 +18,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle"],
+    "unsure": [
+      "hook",
+      "angle"
+    ],
     "human_checked": false
   }
 }

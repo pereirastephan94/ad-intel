@@ -10,15 +10,21 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c09",
     "product": "FD-backed lifetime-free credit card",
     "one_line": "A mic-holding presenter pitches a lifetime-free credit card from a Stable Money FD that earns interest and gives 8 free lounge visits.",
     "script_twin": null,
-    "offer_also": ["rate_return"]
+    "offer_also": [
+      "rate_return"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle", "production"],
+    "unsure": [
+      "hook",
+      "angle",
+      "production"
+    ],
     "human_checked": false
   }
 }

@@ -10,7 +10,7 @@
     "angle": "convenience_speed",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c02",
     "product": "FD booking in app, up to 8.5%",
     "one_line": "A grandmother is shown how to book an FD online in the Stable Money app, asks if it is safe, and learns about 8.5% and the 5 lakh cover.",
     "script_twin": "2183485612579648",
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["face", "row", "angle"],
+    "unsure": [
+      "face",
+      "row",
+      "angle"
+    ],
     "human_checked": false
   }
 }

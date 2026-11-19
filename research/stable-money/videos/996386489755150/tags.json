@@ -10,7 +10,7 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "SM-c21",
     "product": "Recurring Deposit (RD), 7-8% returns",
     "one_line": "Two friends outside a car showroom: one explains he paid for his new car with a Stable Money RD that works like an SIP.",
     "script_twin": null,
@@ -19,7 +19,12 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["face", "production", "angle", "hook_text"],
+    "unsure": [
+      "face",
+      "production",
+      "angle",
+      "hook_text"
+    ],
     "human_checked": false
   }
 }

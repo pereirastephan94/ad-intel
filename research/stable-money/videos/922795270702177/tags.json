@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c20",
     "product": "FD comparison and booking, up to 8.5%",
     "one_line": "A woman says savings accounts pay 2-3% and own-bank FDs 5-6%, so compare FDs on Stable Money for up to 8.5%.",
     "script_twin": null,
@@ -18,7 +18,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle"],
+    "unsure": [
+      "hook",
+      "angle"
+    ],
     "human_checked": false
   }
 }

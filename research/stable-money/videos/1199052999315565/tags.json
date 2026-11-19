@@ -3,14 +3,14 @@
     "row": "V2",
     "face": "character",
     "founder_evidence": "title card: 'Papa Explaining / Passive Income Kaise Banaye'",
-    "hook": "question",
+    "hook": "story_open",
     "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
     "offer": "none",
     "deadline": false,
     "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c04",
     "product": "Monthly payout FDs",
     "one_line": "A son asks his father why money lands in his account every month, and learns about monthly payout FDs booked on Stable Money.",
     "script_twin": "966609952841691",
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "row", "face"],
+    "unsure": [
+      "hook",
+      "row",
+      "face"
+    ],
     "human_checked": false
   }
 }

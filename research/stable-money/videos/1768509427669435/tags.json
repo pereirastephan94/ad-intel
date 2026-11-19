@@ -4,17 +4,23 @@
     "face": "presenter",
     "founder_evidence": "",
     "hook": "problem",
-    "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai",
+    "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai.",
     "offer": "rate_return",
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A man to camera says idle account money is losing value and pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1752268299241939",
+    "offer_also": [],
+    "concept_id": "SM-c12"
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle", "language", "production"],
+    "unsure": [
+      "hook"
+    ],
     "human_checked": false
   }
 }

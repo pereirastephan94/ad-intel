@@ -10,16 +10,18 @@
     "angle": "feature",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "SM-c23",
     "product": "FD-backed credit card, RuPay Select",
     "one_line": "A woman laughs in an airport lounge chair inside a card-shaped frame, with 0.5% cashback, up to 8.10% FD interest and 100% approval below.",
     "script_twin": null,
-    "offer_also": ["rate_return"],
+    "offer_also": [
+      "rate_return"
+    ],
     "ad_text_missing": true
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": 20773791365404720,
+    "unsure": [],
     "human_checked": false
   }
 }

@@ -1,20 +1,26 @@
 {
   "tags": {
-    "row": "V1",
-    "face": "presenter",
-    "founder_evidence": "",
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title caption: 'Papa Explaining'",
     "hook": "story_open",
-    "hook_text": "Papa, main aapka bank statement dekh raha tha",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
     "offer": "rate_return",
     "deadline": false,
-    "angle": "trust_safety",
+    "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null
+    "product": "Short-term bonds, 9 to 12% fixed returns",
+    "one_line": "A son asks his father about money landing in his account; Papa explains bonds, 9 to 12% returns and a Rs 1,000 start.",
+    "script_twin": null,
+    "offer_also": [],
+    "concept_id": "SM-c14"
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "face", "hook", "angle", "production"],
+    "unsure": [
+      "angle"
+    ],
     "human_checked": false
   }
 }

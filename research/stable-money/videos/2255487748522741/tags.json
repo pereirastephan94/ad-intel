@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "studio",
-    "concept_id": null,
+    "concept_id": "SM-c18",
     "product": "FD marketplace, 8.5% top rate",
     "one_line": "A presenter says your FD earns 30% less than the best 8.5% rate and that Stable Money makes switching as easy as matrimony.",
     "script_twin": null,
@@ -19,7 +19,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["production", "angle", "hook"],
+    "unsure": [
+      "production",
+      "angle",
+      "hook"
+    ],
     "human_checked": false
   }
 }

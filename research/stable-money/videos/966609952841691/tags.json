@@ -10,7 +10,7 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c04",
     "product": "Monthly payout FDs",
     "one_line": "A son asks his father why money lands in his account monthly and learns about monthly payout FDs booked on Stable Money.",
     "script_twin": "1199052999315565",
@@ -19,7 +19,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook"],
+    "unsure": [
+      "row",
+      "hook"
+    ],
     "human_checked": false
   }
 }

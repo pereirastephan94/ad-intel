@@ -10,7 +10,7 @@
     "angle": "trust_safety",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c16",
     "product": "Monthly Recurring Deposit (RD), up to 8.5%",
     "one_line": "A dad tells his son to stop his car-fund SIP and use a monthly Stable Money RD for safe, fixed returns.",
     "script_twin": null,
@@ -18,7 +18,12 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "angle", "offer"],
+    "unsure": [
+      "row",
+      "hook",
+      "angle",
+      "offer"
+    ],
     "human_checked": false
   }
 }

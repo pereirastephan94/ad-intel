@@ -10,16 +10,19 @@
     "angle": "feature",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "SM-c22",
     "product": "FD-backed credit card, 8 free lounge visits",
     "one_line": "A cream card with a smiling woman on a lounge sofa promises 8 free airport lounge visits, 0.5% cashback and up to 8.10% FD interest.",
     "script_twin": null,
-    "offer_also": ["cashback","rate_return"],
+    "offer_also": [
+      "cashback",
+      "rate_return"
+    ],
     "ad_text_missing": true
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": 10226500005517780,
+    "unsure": [],
     "human_checked": false
   }
 }

@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c13",
     "product": "Bank FDs up to 8.3%, via app",
     "one_line": "A son worried about the share market asks his father about 1 lakh idle in savings, and is told FDs pay up to 8.3% and can be booked in the app.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle", "row"],
+    "unsure": [
+      "hook",
+      "angle",
+      "row"
+    ],
     "human_checked": false
   }
 }

@@ -10,15 +10,22 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c15",
     "product": "FD-backed credit card, 8 free lounge visits",
     "one_line": "A man interviews a woman in a bookshop who says the Stable Money FD-backed card gives 8 free lounge visits with no minimum spend.",
     "script_twin": null,
-    "offer_also": ["cashback"]
+    "offer_also": [
+      "cashback"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "face", "production", "angle"],
+    "unsure": [
+      "row",
+      "face",
+      "production",
+      "angle"
+    ],
     "human_checked": false
   }
 }

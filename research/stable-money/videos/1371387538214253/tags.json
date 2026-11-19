@@ -10,7 +10,7 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c05",
     "product": "Monthly RD, up to 8.5% returns",
     "one_line": "A presenter says short-term goals have no savings plan and pitches a Stable Money monthly RD, like an SIP for fixed deposits, at up to 8.5%.",
     "script_twin": "2933453097006450",
@@ -18,7 +18,9 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["angle"],
+    "unsure": [
+      "angle"
+    ],
     "human_checked": false
   }
 }

@@ -4,17 +4,24 @@
     "face": "presenter",
     "founder_evidence": "",
     "hook": "callout",
-    "hook_text": "Agar aapka paisa bhi pichhle chhe mahine se faltu pada ho aur aap us paise pe kuch return karna chahte ho",
+    "hook_text": "Agar aapka paisa bhi pichhle chhe mahine se faltu pada ho aur aap us paise pe ek achha return generate karna chahte ho, toh ye video aapke liye hai.",
     "offer": "rate_return",
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A man plants a tree while telling viewers with idle money to buy Stable Money bonds at 9 to 12% with monthly payouts.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true,
+    "concept_id": "SM-c11"
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "angle", "hook_text"],
+    "unsure": [
+      "angle"
+    ],
     "human_checked": false
   }
 }

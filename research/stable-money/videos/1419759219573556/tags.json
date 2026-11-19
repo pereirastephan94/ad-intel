@@ -3,14 +3,14 @@
     "row": "V2",
     "face": "actor_model",
     "founder_evidence": "",
-    "hook": "number_claim",
+    "hook": "story_open",
     "hook_text": "Yaar, mere saving account mein saadhe chaar lakh pade hain.",
     "offer": "rate_return",
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c07",
     "product": "FDs at up to 8.5%",
     "one_line": "Two people at home compare 2.5% on a savings balance of 4.5 lakh with 8.5% on a Stable Money FD, then point to DICGC cover and the app.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "row", "face"],
-    "human_checked": false
+    "unsure": [
+      "hook",
+      "row",
+      "face"
+    ],
+    "human_checked": true
   }
 }

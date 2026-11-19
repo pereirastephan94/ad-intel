@@ -10,15 +10,22 @@
     "angle": "price_value",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "SM-c06",
     "product": "FD-backed credit card, free lounge access",
     "one_line": "Two friends on a video call before a flight: one eats free at the lounge using a lifetime-free credit card he got with a Stable Money FD.",
     "script_twin": null,
-    "offer_also": ["cashback", "rate_return"]
+    "offer_also": [
+      "cashback",
+      "rate_return"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "production"],
+    "unsure": [
+      "row",
+      "hook",
+      "production"
+    ],
     "human_checked": false
   }
 }

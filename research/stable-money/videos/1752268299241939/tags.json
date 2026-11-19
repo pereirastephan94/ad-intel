@@ -4,17 +4,24 @@
     "face": "presenter",
     "founder_evidence": "",
     "hook": "story_open",
-    "hook_text": "Moe! Aay! What are you doing?",
+    "hook_text": "Mohit!",
     "offer": "rate_return",
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A couple argue over idle account money, then a man to camera pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1768509427669435",
+    "offer_also": [],
+    "concept_id": "SM-c10"
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "language", "angle"],
+    "unsure": [
+      "hook_text",
+      "row"
+    ],
     "human_checked": false
   }
 }

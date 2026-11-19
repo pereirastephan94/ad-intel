@@ -10,15 +10,22 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "SM-c08",
     "product": "FD-backed lifetime-free credit card, 8 lounge visits",
     "one_line": "A man at a desk says lounge cards need big spends, then pitches Stable Money's lifetime free FD-backed card with 8 free visits.",
     "script_twin": "1444888800891750",
-    "offer_also": ["rate_return", "cashback"]
+    "offer_also": [
+      "rate_return",
+      "cashback"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "angle", "production"],
+    "unsure": [
+      "hook",
+      "angle",
+      "production"
+    ],
     "human_checked": false
   }
 }

@@ -10,7 +10,7 @@
     "angle": "trust_safety",
     "language": "hinglish",
     "production": "studio",
-    "concept_id": null,
+    "concept_id": "SM-c03",
     "product": "Small finance bank FDs, up to 8.5%",
     "one_line": "Two people in a podcast set explain that small finance banks are RBI regulated and pay up to 8.5% on FDs against 5-6% at big banks.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["face", "row", "production"],
+    "unsure": [
+      "face",
+      "row",
+      "production"
+    ],
     "human_checked": false
   }
 }
