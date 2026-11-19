@@ -87,5 +87,7 @@ for k, v in dict(SUMMARY=frag('summary'), HOW=frag('how-ads-run'), NUMBERS=numbe
                  STATICS=statics, PATTERNS=frag('patterns'), SSB=frag('ssb-insights'), METHOD=frag('method'),
                  N=str(n), COPIES=str(copies), NV=str(len(vids)), NS=str(len(stat))).items():
     page = page.replace('{{' + k + '}}', v)
+import base64
+page = re.sub(r'src="(img/[^"]+)"', lambda m: 'src="data:image/jpeg;base64,' + base64.b64encode(open(OUT + '/' + m.group(1), 'rb').read()).decode() + '"', page)
 open(OUT + '/index.html', 'w').write(page)
 print(n, 'ads', len(vids), 'videos', len(stat), 'statics', os.path.getsize(OUT + '/index.html') // 1024, 'KB html', len(os.listdir(OUT + '/img')), 'images')

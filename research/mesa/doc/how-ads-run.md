@@ -28,7 +28,7 @@ Mesa leaves its internal campaign names in the links. They show the audiences:
 Each creative has a name such as `video_general_vsl_200-cohort` or `video_career-outcomes_vsl_bschools-placements_v2`. The pattern is format, theme, style, topic, version. Read as a list, it is Mesa's own map of its angles:
 
 - **Themes:** general, career outcomes, admissions, pedagogy.
-- **Styles:** "vsl" (one person selling to camera), influencer, student story, "aa" (animated explainer comparing CAT and Mesa's test).
+- **Styles:** "vsl" (one person selling to camera), influencer, student story, "aa" (meaning not clear; used on videos comparing CAT with Mesa's own test).
 - **Versions:** the same video is re-cut and re-run as v1, v2, v3. The placements video exists in three cuts, with the opening trimmed by 1.6 seconds in one of them.
 
 ### Formats

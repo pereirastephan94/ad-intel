@@ -206,9 +206,7 @@
   },
   {
    "q": "scholarship"
-  }
- ],
- "queue": [
+  },
   {
    "q": "admission"
   },
@@ -247,7 +245,9 @@
   },
   {
    "q": "consulting"
-  },
+  }
+ ],
+ "queue": [
   {
    "q": "finance"
   },
@@ -429,6 +429,46 @@
   {
    "q": "scholarship",
    "retry": 1
+  },
+  {
+   "q": "admission",
+   "retry": 1
+  },
+  {
+   "q": "job",
+   "retry": 1
+  },
+  {
+   "q": "LPA",
+   "retry": 1
+  },
+  {
+   "q": "CTC",
+   "retry": 1
+  },
+  {
+   "q": "immersion",
+   "retry": 1
+  },
+  {
+   "q": "tech",
+   "retry": 1
+  },
+  {
+   "q": "sales",
+   "retry": 1
+  },
+  {
+   "q": "marketing",
+   "retry": 1
+  },
+  {
+   "q": "product",
+   "retry": 1
+  },
+  {
+   "q": "consulting",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -509,7 +549,22 @@
   "2026-11-19T07:04:25.758Z view {\"q\":\"career\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
   "2026-11-19T07:09:26.055Z view {\"q\":\"internship\"} -> 1 ads (window total 1), 0 new, 163 unique of ~0",
   "2026-11-19T07:15:10.043Z view {\"q\":\"cohort\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
-  "2026-11-19T07:17:59.331Z view {\"q\":\"scholarship\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0"
+  "2026-11-19T07:17:59.331Z view {\"q\":\"scholarship\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:23:12.983Z view {\"q\":\"admission\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:27:51.718Z view {\"q\":\"apply\"} -> 30 ads (window total 281), 0 new, 163 unique of ~0",
+  "2026-11-19T07:32:26.584Z view {\"q\":\"job\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:37:20.305Z view {\"q\":\"LPA\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:42:55.122Z view {\"q\":\"CTC\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:47:45.788Z view {\"q\":\"business\"} -> 30 ads (window total 309), 0 new, 163 unique of ~0",
+  "2026-11-19T07:53:15.892Z view {\"q\":\"build\"} -> 30 ads (window total 211), 0 new, 163 unique of ~0",
+  "2026-11-19T07:58:51.918Z view {\"q\":\"immersion\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:04:55.191Z view {\"q\":\"tech\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:10:20.259Z view {\"q\":\"sales\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:17:03.326Z view {\"q\":\"marketing\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:21:43.313Z view {\"q\":\"product\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:27:12.548Z view {\"q\":\"consulting\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T08:27:12.551Z stopping after 14 view(s) as asked",
+  "2026-11-19T08:27:12.551Z PAUSED: 163 unique ads of ~0"
  ],
  "keywordsQueued": true
 }
