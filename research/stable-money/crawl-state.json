@@ -4,19 +4,45 @@
    "media": "all",
    "sort": "total_impressions",
    "dir": "desc"
-  }
- ],
- "total": null,
- "log": [
-  "2026-11-19T20:02:18.366Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null"
- ],
- "keywordsQueued": true,
- "queue": [
+  },
   {
    "media": "video",
    "sort": "total_impressions",
    "dir": "desc"
-  },
+  }
+ ],
+ "total": null,
+ "log": [
+  "2026-11-19T20:02:18.366Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-19T20:08:56.415Z   video 17868682956656308 ok (125.1s, 15 stills)",
+  "2026-11-19T20:09:10.227Z   video 1768509427669435 ok (53.7s, 14 stills)",
+  "2026-11-19T20:09:28.528Z   video 2933453097006450 ok (67.7s, 16 stills)",
+  "2026-11-19T20:09:45.973Z   video 1760917031791377 ok (66.4s, 16 stills)",
+  "2026-11-19T20:10:04.374Z   video 2183485612579648 ok (103.8s, 11 stills)",
+  "2026-11-19T20:10:19.669Z   video 1444888800891750 ok (76.9s, 16 stills)",
+  "2026-11-19T20:10:38.338Z   video 17861189070656308 ok (89s, 6 stills)",
+  "2026-11-19T20:10:49.311Z   video 922795270702177 ok (57.8s, 6 stills)",
+  "2026-11-19T20:11:08.408Z   video 1113897927910622 ok (116.2s, 16 stills)",
+  "2026-11-19T20:11:23.994Z   video 996386489755150 ok (61.2s, 11 stills)",
+  "2026-11-19T20:11:36.001Z   video 2194829677911441 ok (63s, 13 stills)",
+  "2026-11-19T20:12:26.788Z   video 1164032119285655 ok (85.4s, 16 stills)",
+  "2026-11-19T20:12:38.566Z   video 1752268299241939 ok (61.2s, 16 stills)",
+  "2026-11-19T20:12:52.743Z   video 1472636994553170 ok (55.7s, 16 stills)",
+  "2026-11-19T20:13:04.311Z   video 2255487748522741 ok (58.1s, 14 stills)",
+  "2026-11-19T20:13:22.673Z   video 1371387538214253 ok (67.7s, 16 stills)",
+  "2026-11-19T20:13:38.006Z   video 1199052999315565 ok (73.6s, 6 stills)",
+  "2026-11-19T20:13:54.315Z   video 2086076648968459 ok (75.4s, 6 stills)",
+  "2026-11-19T20:14:04.553Z   video 1419759219573556 ok (40.7s, 12 stills)",
+  "2026-11-19T20:14:20.074Z   video 1061581183380693 ok (60.2s, 16 stills)",
+  "2026-11-19T20:14:47.653Z   video 1402156101838563 ok (46.8s, 16 stills)",
+  "2026-11-19T20:15:29.119Z   video 966609952841691 ok (73.6s, 6 stills)",
+  "2026-11-19T20:15:41.578Z   video 4463581000622798 ok (52.6s, 13 stills)",
+  "2026-11-19T20:15:56.363Z   video 935043619677161 ok (76.9s, 16 stills)",
+  "2026-11-19T20:16:07.569Z   video 1911598616485842 ok (39.8s, 16 stills)",
+  "2026-11-19T20:16:07.570Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 312), 30 new, 30 unique of ~null"
+ ],
+ "keywordsQueued": true,
+ "queue": [
   {
    "media": "image",
    "sort": "total_impressions",

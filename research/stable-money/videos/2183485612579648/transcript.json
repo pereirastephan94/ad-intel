@@ -1,0 +1,302 @@
+{
+ "asset": "2183485612579648",
+ "first_seen_in": "1115779077962422",
+ "duration_s": 103.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 33.6,
+   "why": "scene change"
+  },
+  {
+   "t": 37.7,
+   "why": "scene change"
+  },
+  {
+   "t": 41.7,
+   "why": "scene change"
+  },
+  {
+   "t": 52.1,
+   "why": "scene change"
+  },
+  {
+   "t": 53.1,
+   "why": "scene change"
+  },
+  {
+   "t": 103.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Nani, I will teach you how to book an FD. Bhut, I will teach you how to book an FD. And you can also book an online FD. How will you book an online FD? I will teach you how to book an FD online. Open a Play Store in your phone. Open Play Store? Yes. Open Play Store. Now, search for stable money. Stable money. Install. Yes, install stable money. Trusted by investors across India with 11,000 crores. This is my bank. So, you can see who you want to make. I have made FD. I have made FD. So, this is 8.5. Is this safe? This is all the bank's RAM and RBI's RAM. And 5 lakhs of your money is in the bank. Yes, so, I know that. So, I have made 5 lakhs in different bank. First, search for the bank. Then, you will have to get the duration of the time. So, I will do it like you do. Write your own amount. So, I will do 50,000 and see the small amount. Okay. If I find it good, profitable and I will increase. So, you will book the next one. Continue. Continue. So, I will continue. I will payment. I will payment. I will do it. Is it not a form? No, nothing. All the details will be in the app. So, how will we get the details? All these past book sections. Yes. In that, you will see the details of your FD. And, as soon as you increase the interest, it will be there too. Now, you have made FDs like you do. Money for no's, my brother.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.9,
+    "text": "Nani, I will teach you how to book an FD."
+   },
+   {
+    "start": 3.4,
+    "end": 5,
+    "text": "Bhut, I will teach you how to book an FD."
+   },
+   {
+    "start": 5,
+    "end": 7.9,
+    "text": "And you can also book an online FD."
+   },
+   {
+    "start": 7.9,
+    "end": 9.6,
+    "text": "How will you book an online FD?"
+   },
+   {
+    "start": 9.6,
+    "end": 12.4,
+    "text": "I will teach you how to book an FD online."
+   },
+   {
+    "start": 12.4,
+    "end": 14.2,
+    "text": "Open a Play Store in your phone."
+   },
+   {
+    "start": 14.2,
+    "end": 15.2,
+    "text": "Open Play Store?"
+   },
+   {
+    "start": 15.2,
+    "end": 15.7,
+    "text": "Yes."
+   },
+   {
+    "start": 15.7,
+    "end": 16.8,
+    "text": "Open Play Store."
+   },
+   {
+    "start": 16.8,
+    "end": 18.9,
+    "text": "Now, search for stable money."
+   },
+   {
+    "start": 18.9,
+    "end": 21,
+    "text": "Stable money."
+   },
+   {
+    "start": 21,
+    "end": 21.8,
+    "text": "Install."
+   },
+   {
+    "start": 21.8,
+    "end": 23.8,
+    "text": "Yes, install stable money."
+   },
+   {
+    "start": 23.8,
+    "end": 28.9,
+    "text": "Trusted by investors across India with 11,000 crores."
+   },
+   {
+    "start": 28.9,
+    "end": 30.9,
+    "text": "This is my bank."
+   },
+   {
+    "start": 30.9,
+    "end": 33.2,
+    "text": "So, you can see who you want to make."
+   },
+   {
+    "start": 33.2,
+    "end": 34.9,
+    "text": "I have made FD."
+   },
+   {
+    "start": 34.9,
+    "end": 36.9,
+    "text": "I have made FD."
+   },
+   {
+    "start": 36.9,
+    "end": 38.9,
+    "text": "So, this is 8.5."
+   },
+   {
+    "start": 38.9,
+    "end": 40.9,
+    "text": "Is this safe?"
+   },
+   {
+    "start": 40.9,
+    "end": 43.9,
+    "text": "This is all the bank's RAM and RBI's RAM."
+   },
+   {
+    "start": 43.9,
+    "end": 47.9,
+    "text": "And 5 lakhs of your money is in the bank."
+   },
+   {
+    "start": 47.9,
+    "end": 48.9,
+    "text": "Yes, so, I know that."
+   },
+   {
+    "start": 48.9,
+    "end": 51.9,
+    "text": "So, I have made 5 lakhs in different bank."
+   },
+   {
+    "start": 51.9,
+    "end": 55.9,
+    "text": "First, search for the bank."
+   },
+   {
+    "start": 55.9,
+    "end": 59.9,
+    "text": "Then, you will have to get the duration of the time."
+   },
+   {
+    "start": 59.9,
+    "end": 61.9,
+    "text": "So, I will do it like you do."
+   },
+   {
+    "start": 61.9,
+    "end": 63.9,
+    "text": "Write your own amount."
+   },
+   {
+    "start": 63.9,
+    "end": 65.9,
+    "text": "So, I will do 50,000 and see the small amount."
+   },
+   {
+    "start": 65.9,
+    "end": 66.9,
+    "text": "Okay."
+   },
+   {
+    "start": 66.9,
+    "end": 70.9,
+    "text": "If I find it good, profitable and I will increase."
+   },
+   {
+    "start": 70.9,
+    "end": 73.9,
+    "text": "So, you will book the next one."
+   },
+   {
+    "start": 73.9,
+    "end": 74.9,
+    "text": "Continue."
+   },
+   {
+    "start": 74.9,
+    "end": 75.9,
+    "text": "Continue."
+   },
+   {
+    "start": 75.9,
+    "end": 77.9,
+    "text": "So, I will continue."
+   },
+   {
+    "start": 77.9,
+    "end": 78.9,
+    "text": "I will payment."
+   },
+   {
+    "start": 78.9,
+    "end": 80.9,
+    "text": "I will payment."
+   },
+   {
+    "start": 80.9,
+    "end": 82.9,
+    "text": "I will do it."
+   },
+   {
+    "start": 82.9,
+    "end": 83.9,
+    "text": "Is it not a form?"
+   },
+   {
+    "start": 83.9,
+    "end": 84.9,
+    "text": "No, nothing."
+   },
+   {
+    "start": 84.9,
+    "end": 86.9,
+    "text": "All the details will be in the app."
+   },
+   {
+    "start": 86.9,
+    "end": 88.9,
+    "text": "So, how will we get the details?"
+   },
+   {
+    "start": 88.9,
+    "end": 90.9,
+    "text": "All these past book sections."
+   },
+   {
+    "start": 90.9,
+    "end": 91.9,
+    "text": "Yes."
+   },
+   {
+    "start": 91.9,
+    "end": 93.9,
+    "text": "In that, you will see the details of your FD."
+   },
+   {
+    "start": 93.9,
+    "end": 95.9,
+    "text": "And, as soon as you increase the interest,"
+   },
+   {
+    "start": 95.9,
+    "end": 96.9,
+    "text": "it will be there too."
+   },
+   {
+    "start": 96.9,
+    "end": 99.9,
+    "text": "Now, you have made FDs like you do."
+   },
+   {
+    "start": 99.9,
+    "end": 101.9,
+    "text": "Money for no's, my brother."
+   }
+  ]
+ }
+}

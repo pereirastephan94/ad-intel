@@ -1,0 +1,30 @@
+{
+ "A": {
+  "verdict": "Brand B puts a person to camera in 8 of 16 videos; you, 2 of 14. Your edge: offer-led image ads, 8 of 14 against their 2 of 14.",
+  "moves": [
+   {"rank": 1, "row": "V1", "text": "Shoot 3 person-to-camera videos, one doubt each. Brand B runs 8 of 16 this way across 4 ideas; 3 have its co-founder saying so.", "first_test": "Your own staff expert on a phone, Hinglish, 30 seconds, answering \"is my money safe?\".", "effort": "Low", "evidence": "strong"},
+   {"rank": 2, "row": "I3", "text": "Make proof image ads. Brand B runs 6 of 14 across 3 ideas: a rating, a named customer, press. You run 1.", "first_test": "Three cards: your 4.6 rating, one named saver's quote, your saver count.", "effort": "Low", "evidence": "moderate"},
+   {"rank": 3, "row": "I1", "text": "Widen your offer-led image ads: your 8 are only 2 ideas, the rate card and the cashback card.", "first_test": "Add a dated first-deposit bonus card in the same layout as the 9.1% card.", "effort": "Low", "evidence": "moderate"}
+  ],
+  "now_read": "Your 4 launches in the last 30 days are scenes and app demos. Brand B's 7 include 3 new person-to-camera videos, so it is still adding to the row where you are thinnest.",
+  "india_read": [
+   "Language: Brand B speaks Hindi or Hinglish in 15 of 30 ads; you do in 4 of 28.",
+   "Timing: Brand B launched 16 of its 30 in October, ahead of Diwali; your launches are spread from August.",
+   "Destination: you send 18 of 28 to the app store; Brand B sends 11 of 30 to WhatsApp and the rest to its website."
+  ]
+ },
+ "B": {
+  "verdict": "You put a person to camera in 8 of 16 videos; Brand A, 2 of 14. Your gap: offer-led image ads, Brand A 8 of 14, you 2 of 14.",
+  "moves": [
+   {"rank": 1, "row": "V1", "text": "Extend person-to-camera, your edge: 8 of 16 videos across 4 ideas, mostly on trust. Add doubts you have not answered yet.", "first_test": "Your CA on fees and lock-in, Hindi, 30 seconds, phone.", "effort": "Low", "evidence": "strong"},
+   {"rank": 2, "row": "I1", "text": "Test offer-led image ads. Brand A runs 8 of 14 this way across 2 ideas, a rate card and a cashback card; you run 2.", "first_test": "Your rate as the largest text on one card, a first-deposit bonus on a second, same layout.", "effort": "Low", "evidence": "moderate"},
+   {"rank": 3, "row": "I3", "text": "Keep proof image ads, your second edge: 6 of 14 across 3 ideas against Brand A's 1. Put numbers on them.", "first_test": "Add the amount saved to the Priya quote card and run it beside the original.", "effort": "Low", "evidence": "moderate"}
+  ],
+  "now_read": "Your 7 launches in the last 30 days include 3 person-to-camera videos; Brand A's 4 recent launches are scenes and app demos, not a move into your row.",
+  "india_read": [
+   "Language: you speak Hindi or Hinglish in 15 of 30 ads; Brand A does in 4 of 28.",
+   "Timing: you launched 16 of 30 in October, ahead of Diwali; Brand A's launches are spread from August.",
+   "Destination: you send 11 of 30 to WhatsApp; Brand A sends 18 of 28 to the app store."
+  ]
+ }
+}

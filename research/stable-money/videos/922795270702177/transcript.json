@@ -1,0 +1,187 @@
+{
+ "asset": "922795270702177",
+ "first_seen_in": "1624124105890067",
+ "duration_s": 57.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 57.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "آپ ki savings account may 50,000 । zaadarakne mein aapka hi nuksaan hai ki zadata bank savings account may sir 2-3% interest dite hai par aas se bachne ki leh loghe FD bookkar te likin bina rates compare kiye apne ii bank mein aur unhe milta hai sir 5-6% jabki koch ar bia regulated banks 8.5% ka interest dire FD spread same paisea alak decisiona 30-40% zaadaradorn yaha hai pais stable mani kaamat hai ek aap jhape ala ala ala ar bia regulated bank ke FDs compare kare ke 5-6% mehd mehd bookkar se kte ho naia savings account nekul na aur aapka peisa stable mani ke pasnea ta seedha bank jataha hai her bank per 5 lakh ttk bi cgc insurance milta 60 lakhs zaadaradalop all ready stable mani use kare hai aapki apne peisa ko bina riski ye kula aas smartly grokkar na jhape stable mani download karo",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.7,
+    "text": "آپ ki savings account may 50,000 ।"
+   },
+   {
+    "start": 2.7,
+    "end": 5.3,
+    "text": "zaadarakne mein aapka hi nuksaan hai"
+   },
+   {
+    "start": 5.3,
+    "end": 8.1,
+    "text": "ki zadata bank savings account may sir"
+   },
+   {
+    "start": 8.1,
+    "end": 10.4,
+    "text": "2-3% interest dite hai"
+   },
+   {
+    "start": 10.4,
+    "end": 11.6,
+    "text": "par aas se bachne ki leh"
+   },
+   {
+    "start": 11.6,
+    "end": 12.9,
+    "text": "loghe FD bookkar te"
+   },
+   {
+    "start": 12.9,
+    "end": 14.7,
+    "text": "likin bina rates compare kiye"
+   },
+   {
+    "start": 14.7,
+    "end": 15.9,
+    "text": "apne ii bank mein"
+   },
+   {
+    "start": 15.9,
+    "end": 18.8,
+    "text": "aur unhe milta hai sir 5-6%"
+   },
+   {
+    "start": 18.8,
+    "end": 20.9,
+    "text": "jabki koch ar bia regulated banks"
+   },
+   {
+    "start": 20.9,
+    "end": 24.2,
+    "text": "8.5% ka interest dire FD spread"
+   },
+   {
+    "start": 24.2,
+    "end": 25.1,
+    "text": "same paisea"
+   },
+   {
+    "start": 25.1,
+    "end": 26.3,
+    "text": "alak decisiona"
+   },
+   {
+    "start": 26.3,
+    "end": 28.1,
+    "text": "30-40%"
+   },
+   {
+    "start": 28.1,
+    "end": 29.1,
+    "text": "zaadaradorn"
+   },
+   {
+    "start": 29.1,
+    "end": 31.1,
+    "text": "yaha hai pais stable mani kaamat hai"
+   },
+   {
+    "start": 31.1,
+    "end": 34.1,
+    "text": "ek aap jhape ala ala ala ar bia regulated bank"
+   },
+   {
+    "start": 34.1,
+    "end": 36.6,
+    "text": "ke FDs compare kare ke 5-6%"
+   },
+   {
+    "start": 36.6,
+    "end": 38.1,
+    "text": "mehd mehd bookkar se kte ho"
+   },
+   {
+    "start": 38.1,
+    "end": 39.8,
+    "text": "naia savings account nekul na"
+   },
+   {
+    "start": 39.8,
+    "end": 41.2,
+    "text": "aur aapka peisa"
+   },
+   {
+    "start": 41.2,
+    "end": 42.9,
+    "text": "stable mani ke pasnea ta"
+   },
+   {
+    "start": 42.9,
+    "end": 44.5,
+    "text": "seedha bank jataha hai"
+   },
+   {
+    "start": 44.5,
+    "end": 46,
+    "text": "her bank per 5 lakh"
+   },
+   {
+    "start": 46,
+    "end": 48.1,
+    "text": "ttk bi cgc insurance milta"
+   },
+   {
+    "start": 48.1,
+    "end": 49.7,
+    "text": "60 lakhs zaadaradalop"
+   },
+   {
+    "start": 49.7,
+    "end": 51.6,
+    "text": "all ready stable mani use kare hai"
+   },
+   {
+    "start": 51.6,
+    "end": 54,
+    "text": "aapki apne peisa ko bina riski ye"
+   },
+   {
+    "start": 54,
+    "end": 56,
+    "text": "kula aas smartly grokkar na jhape"
+   },
+   {
+    "start": 56,
+    "end": 58,
+    "text": "stable mani download karo"
+   }
+  ]
+ }
+}

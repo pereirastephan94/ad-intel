@@ -1,0 +1,169 @@
+{
+ "asset": "2255487748522741",
+ "first_seen_in": "1019096030980624",
+ "duration_s": 58.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.6,
+   "why": "scene change"
+  },
+  {
+   "t": 12,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 27.7,
+   "why": "scene change"
+  },
+  {
+   "t": 32.3,
+   "why": "scene change"
+  },
+  {
+   "t": 38.7,
+   "why": "scene change"
+  },
+  {
+   "t": 48.1,
+   "why": "scene change"
+  },
+  {
+   "t": 54.9,
+   "why": "scene change"
+  },
+  {
+   "t": 57.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "You are earning 30% less in restaurants on your FD. And no, I'm not talking about taxes. India's highest FD rate is 8.5%. And your bank is just 5% which is a 6%. But you have to switch on the bank for 1-2%. Or you can open a new savings account and then book it. But what if switching was this easy? Just go to the stable money. Compare the FDs to the world and the bank FD is just a matter of money. Book it. It's just like a matter of money. But for FDs, that too is RBI-regulated bank. 100% digital end to end no paperwork. Shit but what about safety? Because you have to see RBI-regulated bank with you. You get 5 lakhs of DICGC insurance on every new bank FD. So, 50 lakhs of more users already invested in 1000 crores. You too do it. Stable money. Download now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.6,
+    "text": "You are earning 30% less in restaurants on your FD."
+   },
+   {
+    "start": 3.6,
+    "end": 5.6,
+    "text": "And no, I'm not talking about taxes."
+   },
+   {
+    "start": 5.6,
+    "end": 8.9,
+    "text": "India's highest FD rate is 8.5%."
+   },
+   {
+    "start": 8.9,
+    "end": 12,
+    "text": "And your bank is just 5% which is a 6%."
+   },
+   {
+    "start": 12,
+    "end": 15,
+    "text": "But you have to switch on the bank for 1-2%."
+   },
+   {
+    "start": 15,
+    "end": 18.2,
+    "text": "Or you can open a new savings account and then book it."
+   },
+   {
+    "start": 18.2,
+    "end": 21.6,
+    "text": "But what if switching was this easy?"
+   },
+   {
+    "start": 21.6,
+    "end": 23.1,
+    "text": "Just go to the stable money."
+   },
+   {
+    "start": 23.1,
+    "end": 26.7,
+    "text": "Compare the FDs to the world and the bank FD is just a matter of money."
+   },
+   {
+    "start": 26.7,
+    "end": 27.7,
+    "text": "Book it."
+   },
+   {
+    "start": 27.7,
+    "end": 29.1,
+    "text": "It's just like a matter of money."
+   },
+   {
+    "start": 29.1,
+    "end": 32.3,
+    "text": "But for FDs, that too is RBI-regulated bank."
+   },
+   {
+    "start": 32.3,
+    "end": 35.7,
+    "text": "100% digital end to end no paperwork."
+   },
+   {
+    "start": 35.7,
+    "end": 38.7,
+    "text": "Shit but what about safety?"
+   },
+   {
+    "start": 38.7,
+    "end": 43.3,
+    "text": "Because you have to see RBI-regulated bank with you."
+   },
+   {
+    "start": 43.3,
+    "end": 48.1,
+    "text": "You get 5 lakhs of DICGC insurance on every new bank FD."
+   },
+   {
+    "start": 48.1,
+    "end": 54.1,
+    "text": "So, 50 lakhs of more users already invested in 1000 crores."
+   },
+   {
+    "start": 54.1,
+    "end": 55.1,
+    "text": "You too do it."
+   },
+   {
+    "start": 55.3,
+    "end": 56.1,
+    "text": "Stable money."
+   },
+   {
+    "start": 56.1,
+    "end": 57.1,
+    "text": "Download now."
+   }
+  ]
+ }
+}

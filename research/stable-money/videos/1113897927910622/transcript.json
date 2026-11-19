@@ -1,0 +1,392 @@
+{
+ "asset": "1113897927910622",
+ "first_seen_in": "1098949122752977",
+ "duration_s": 116.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.4,
+   "why": "scene change"
+  },
+  {
+   "t": 8.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 43.4,
+   "why": "scene change"
+  },
+  {
+   "t": 46.5,
+   "why": "scene change"
+  },
+  {
+   "t": 55.5,
+   "why": "scene change"
+  },
+  {
+   "t": 66.8,
+   "why": "scene change"
+  },
+  {
+   "t": 69,
+   "why": "scene change"
+  },
+  {
+   "t": 77.6,
+   "why": "scene change"
+  },
+  {
+   "t": 99.2,
+   "why": "scene change"
+  },
+  {
+   "t": 115.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Nani, I will teach you how to make FD. FD, I am making it from years. How will you teach me? But you know, you can also book the FD online. I have heard it today. I have seen it. I always do banks. Okay, I will teach you this. Okay. Take how to book FD online. How to book FD online. Go to the play store and download the stable money. Okay. Search the stable money. Search it. But tie it. Yes. STA, P, stable, M, O, N, P, Money, stable money. Yes. Install the lease. Stable money. I have installed it. What do you say? Open app. Open app. Pressed by investors across India with 11,000 crores. Yes, I have different banks. Yes. FD. You are giving 8.5. I have more banks. So what is this safe? All these banks are regulated. They are 5 lakhs. But banks are insured. Yes, I know that. 5 lakhs. So, I have different banks. And you can book their interest rate and FD. First, select bank. Select bank. Select bank. 10 years. How long do you have to spend? 10 years. Yes. One year. Then, you have put the amount. 50,000 crores. Invest now. Yes. 50,000 crores. I have continued. After continuing, you will be paid by UPS. Yes. How will you get the details? Will you not be able to buy it? No, all the details will be available on the app. Okay, the app will be available on the phone. The 5-stroke section here will have all the details of FD. And as soon as the interest is increased, it will be the same. No, FDs are your modern. Yes, they are my followers.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.2,
+    "text": "Nani, I will teach you how to make FD."
+   },
+   {
+    "start": 2.3,
+    "end": 5.2,
+    "text": "FD, I am making it from years. How will you teach me?"
+   },
+   {
+    "start": 5.3,
+    "end": 8.4,
+    "text": "But you know, you can also book the FD online."
+   },
+   {
+    "start": 8.4,
+    "end": 12,
+    "text": "I have heard it today. I have seen it. I always do banks."
+   },
+   {
+    "start": 12.1,
+    "end": 13.6,
+    "text": "Okay, I will teach you this."
+   },
+   {
+    "start": 13.7,
+    "end": 14.4,
+    "text": "Okay."
+   },
+   {
+    "start": 14.4,
+    "end": 16.4,
+    "text": "Take how to book FD online."
+   },
+   {
+    "start": 16.5,
+    "end": 21,
+    "text": "How to book FD online."
+   },
+   {
+    "start": 21.1,
+    "end": 24,
+    "text": "Go to the play store and download the stable money."
+   },
+   {
+    "start": 24.1,
+    "end": 24.6,
+    "text": "Okay."
+   },
+   {
+    "start": 24.7,
+    "end": 27.5,
+    "text": "Search the stable money. Search it."
+   },
+   {
+    "start": 27.6,
+    "end": 29.1,
+    "text": "But tie it."
+   },
+   {
+    "start": 29.1,
+    "end": 29.9,
+    "text": "Yes."
+   },
+   {
+    "start": 30,
+    "end": 31.8,
+    "text": "STA,"
+   },
+   {
+    "start": 32.9,
+    "end": 33.6,
+    "text": "P,"
+   },
+   {
+    "start": 33.7,
+    "end": 34.6,
+    "text": "stable,"
+   },
+   {
+    "start": 35.4,
+    "end": 36.1,
+    "text": "M,"
+   },
+   {
+    "start": 37.3,
+    "end": 38.1,
+    "text": "O,"
+   },
+   {
+    "start": 38.2,
+    "end": 39.5,
+    "text": "N, P,"
+   },
+   {
+    "start": 39.9,
+    "end": 41.2,
+    "text": "Money, stable money."
+   },
+   {
+    "start": 41.3,
+    "end": 41.7,
+    "text": "Yes."
+   },
+   {
+    "start": 41.8,
+    "end": 42.6,
+    "text": "Install the lease."
+   },
+   {
+    "start": 42.7,
+    "end": 43.3,
+    "text": "Stable money."
+   },
+   {
+    "start": 43.4,
+    "end": 44.4,
+    "text": "I have installed it."
+   },
+   {
+    "start": 44.5,
+    "end": 45.4,
+    "text": "What do you say?"
+   },
+   {
+    "start": 45.4,
+    "end": 46.5,
+    "text": "Open app."
+   },
+   {
+    "start": 46.6,
+    "end": 47.6,
+    "text": "Open app."
+   },
+   {
+    "start": 47.7,
+    "end": 52.6,
+    "text": "Pressed by investors across India with 11,000 crores."
+   },
+   {
+    "start": 52.7,
+    "end": 54.4,
+    "text": "Yes, I have different banks."
+   },
+   {
+    "start": 54.4,
+    "end": 55.5,
+    "text": "Yes. FD."
+   },
+   {
+    "start": 55.6,
+    "end": 57.4,
+    "text": "You are giving 8.5."
+   },
+   {
+    "start": 57.4,
+    "end": 60.1,
+    "text": "I have more banks. So what is this safe?"
+   },
+   {
+    "start": 60.2,
+    "end": 63.2,
+    "text": "All these banks are regulated."
+   },
+   {
+    "start": 63.2,
+    "end": 64.2,
+    "text": "They are 5 lakhs."
+   },
+   {
+    "start": 64.2,
+    "end": 66.7,
+    "text": "But banks are insured."
+   },
+   {
+    "start": 66.8,
+    "end": 68.9,
+    "text": "Yes, I know that. 5 lakhs."
+   },
+   {
+    "start": 69,
+    "end": 70.5,
+    "text": "So, I have different banks."
+   },
+   {
+    "start": 70.6,
+    "end": 73.4,
+    "text": "And you can book their interest rate and FD."
+   },
+   {
+    "start": 73.4,
+    "end": 74.8,
+    "text": "First, select bank."
+   },
+   {
+    "start": 74.9,
+    "end": 76,
+    "text": "Select bank."
+   },
+   {
+    "start": 76.1,
+    "end": 77.4,
+    "text": "Select bank."
+   },
+   {
+    "start": 77.5,
+    "end": 79.4,
+    "text": "10 years. How long do you have to spend?"
+   },
+   {
+    "start": 79.5,
+    "end": 80.2,
+    "text": "10 years."
+   },
+   {
+    "start": 80.3,
+    "end": 80.6,
+    "text": "Yes."
+   },
+   {
+    "start": 80.7,
+    "end": 81.4,
+    "text": "One year."
+   },
+   {
+    "start": 81.5,
+    "end": 82.7,
+    "text": "Then, you have put the amount."
+   },
+   {
+    "start": 82.8,
+    "end": 84.2,
+    "text": "50,000 crores."
+   },
+   {
+    "start": 84.3,
+    "end": 85.1,
+    "text": "Invest now."
+   },
+   {
+    "start": 85.2,
+    "end": 86.4,
+    "text": "Yes."
+   },
+   {
+    "start": 86.7,
+    "end": 87.7,
+    "text": "50,000 crores."
+   },
+   {
+    "start": 87.8,
+    "end": 88.7,
+    "text": "I have continued."
+   },
+   {
+    "start": 88.8,
+    "end": 91.9,
+    "text": "After continuing, you will be paid by UPS."
+   },
+   {
+    "start": 92,
+    "end": 93,
+    "text": "Yes."
+   },
+   {
+    "start": 93.1,
+    "end": 94.7,
+    "text": "How will you get the details?"
+   },
+   {
+    "start": 94.8,
+    "end": 96,
+    "text": "Will you not be able to buy it?"
+   },
+   {
+    "start": 96.1,
+    "end": 99.2,
+    "text": "No, all the details will be available on the app."
+   },
+   {
+    "start": 99.3,
+    "end": 101.2,
+    "text": "Okay, the app will be available on the phone."
+   },
+   {
+    "start": 101.2,
+    "end": 103.3,
+    "text": "The 5-stroke section here"
+   },
+   {
+    "start": 103.4,
+    "end": 105.5,
+    "text": "will have all the details of FD."
+   },
+   {
+    "start": 105.6,
+    "end": 107.4,
+    "text": "And as soon as the interest is increased,"
+   },
+   {
+    "start": 107.4,
+    "end": 108.6,
+    "text": "it will be the same."
+   },
+   {
+    "start": 108.6,
+    "end": 111.3,
+    "text": "No, FDs are your modern."
+   },
+   {
+    "start": 111.4,
+    "end": 112.9,
+    "text": "Yes, they are my followers."
+   }
+  ]
+ }
+}

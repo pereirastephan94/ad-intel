@@ -1,0 +1,267 @@
+{
+ "asset": "1444888800891750",
+ "first_seen_in": "1646669466828779",
+ "duration_s": 76.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.6,
+   "why": "scene change"
+  },
+  {
+   "t": 5.2,
+   "why": "scene change"
+  },
+  {
+   "t": 8.2,
+   "why": "scene change"
+  },
+  {
+   "t": 17.5,
+   "why": "scene change"
+  },
+  {
+   "t": 19.5,
+   "why": "scene change"
+  },
+  {
+   "t": 21.1,
+   "why": "scene change"
+  },
+  {
+   "t": 40.2,
+   "why": "scene change"
+  },
+  {
+   "t": 42.8,
+   "why": "scene change"
+  },
+  {
+   "t": 46.4,
+   "why": "scene change"
+  },
+  {
+   "t": 49.9,
+   "why": "scene change"
+  },
+  {
+   "t": 76.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Airport launch ke bahar Khameisha, آپ کو 2-3 loguesaim milenke, jo ki alagla cards nikal rei hai, swipe kar rei, lekein, fir bi unko launch access naim milra. Coop ki unke kart pek koin ako i minimum spend criteria ho ga, launch access ke liye, mutliya fere quarter liye, jo unko ne pura naim ki hao ga. Aur ye se raf inki problem nahi, kaafi kart jo humme, pekhe liye fere launch access ka benefit de te te, wo abhi de value ho chukye. Yaatto launch access ko completely hata diye hai, yaatto hra main ne, ek bada amoud khar chkar na, zharudi kar diye hai. Lekin a kart abhi bhi hai, jaha hai ke kui minuos spend criteria nahi hai, aur free domestic launch access ka benefit mil te te, aap ko lageke ka, arhe, iske liye to koin ako i hefri wala premium kart chaiy ho ga, bilkul nahi. Ek life time free credit card hai, jo sal me aapko 8 free launch access ka benefit de te, bus stable money app download karo, aur surre this small finance bank, jo ki ek RBI regulated bank hai, isme ek evi book karo, 8.5% takh interest mil te, aur usi fd ka gaysk me aapko instantly ek life time free credit card ish ho ga, bhat lab aap ka bheza fd me interest earn kar tha rata hai, aur saat me aapko card ke benefit mil te, 8 complimentary domestic launch visits, haas saal ko bhi bina kesei minuos spend ke, ye ek rupe card hai, to UP payment bhi kar saak te, aur usi 0.5% cash back alak se, free launch access cha hi hai, bina kesei spend ke pressure ke stable money app download karo.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.3,
+    "text": "Airport launch ke bahar Khameisha, آپ کو 2-3 loguesaim milenke,"
+   },
+   {
+    "start": 3.3,
+    "end": 5.8,
+    "text": "jo ki alagla cards nikal rei hai, swipe kar rei,"
+   },
+   {
+    "start": 5.8,
+    "end": 8,
+    "text": "lekein, fir bi unko launch access naim milra."
+   },
+   {
+    "start": 8,
+    "end": 11.2,
+    "text": "Coop ki unke kart pek koin ako i minimum spend criteria ho ga,"
+   },
+   {
+    "start": 11.2,
+    "end": 13.1,
+    "text": "launch access ke liye, mutliya fere quarter liye,"
+   },
+   {
+    "start": 13.1,
+    "end": 14.8,
+    "text": "jo unko ne pura naim ki hao ga."
+   },
+   {
+    "start": 14.8,
+    "end": 16.3,
+    "text": "Aur ye se raf inki problem nahi,"
+   },
+   {
+    "start": 16.3,
+    "end": 17.5,
+    "text": "kaafi kart jo humme,"
+   },
+   {
+    "start": 17.5,
+    "end": 19.5,
+    "text": "pekhe liye fere launch access ka benefit de te te,"
+   },
+   {
+    "start": 19.5,
+    "end": 21,
+    "text": "wo abhi de value ho chukye."
+   },
+   {
+    "start": 21,
+    "end": 23.1,
+    "text": "Yaatto launch access ko completely hata diye hai,"
+   },
+   {
+    "start": 23.1,
+    "end": 24.3,
+    "text": "yaatto hra main ne,"
+   },
+   {
+    "start": 24.3,
+    "end": 25.5,
+    "text": "ek bada amoud khar chkar na,"
+   },
+   {
+    "start": 25.5,
+    "end": 26.3,
+    "text": "zharudi kar diye hai."
+   },
+   {
+    "start": 26.3,
+    "end": 28,
+    "text": "Lekin a kart abhi bhi hai,"
+   },
+   {
+    "start": 28,
+    "end": 30.2,
+    "text": "jaha hai ke kui minuos spend criteria nahi hai,"
+   },
+   {
+    "start": 30.2,
+    "end": 32.8,
+    "text": "aur free domestic launch access ka benefit mil te te,"
+   },
+   {
+    "start": 32.8,
+    "end": 33.6,
+    "text": "aap ko lageke ka,"
+   },
+   {
+    "start": 33.6,
+    "end": 36.8,
+    "text": "arhe, iske liye to koin ako i hefri wala premium kart chaiy ho ga,"
+   },
+   {
+    "start": 36.8,
+    "end": 37.8,
+    "text": "bilkul nahi."
+   },
+   {
+    "start": 37.8,
+    "end": 39.4,
+    "text": "Ek life time free credit card hai,"
+   },
+   {
+    "start": 39.4,
+    "end": 42.5,
+    "text": "jo sal me aapko 8 free launch access ka benefit de te,"
+   },
+   {
+    "start": 42.5,
+    "end": 44.4,
+    "text": "bus stable money app download karo,"
+   },
+   {
+    "start": 44.4,
+    "end": 46.2,
+    "text": "aur surre this small finance bank,"
+   },
+   {
+    "start": 46.2,
+    "end": 48.3,
+    "text": "jo ki ek RBI regulated bank hai,"
+   },
+   {
+    "start": 48.3,
+    "end": 49.9,
+    "text": "isme ek evi book karo,"
+   },
+   {
+    "start": 49.9,
+    "end": 52.1,
+    "text": "8.5% takh interest mil te,"
+   },
+   {
+    "start": 52.1,
+    "end": 54.5,
+    "text": "aur usi fd ka gaysk me aapko instantly"
+   },
+   {
+    "start": 54.5,
+    "end": 56.3,
+    "text": "ek life time free credit card ish ho ga,"
+   },
+   {
+    "start": 56.3,
+    "end": 59.3,
+    "text": "bhat lab aap ka bheza fd me interest earn kar tha rata hai,"
+   },
+   {
+    "start": 59.3,
+    "end": 61.8,
+    "text": "aur saat me aapko card ke benefit mil te,"
+   },
+   {
+    "start": 61.8,
+    "end": 64.1,
+    "text": "8 complimentary domestic launch visits,"
+   },
+   {
+    "start": 64.1,
+    "end": 66.8,
+    "text": "haas saal ko bhi bina kesei minuos spend ke,"
+   },
+   {
+    "start": 66.8,
+    "end": 68.1,
+    "text": "ye ek rupe card hai,"
+   },
+   {
+    "start": 68.1,
+    "end": 69.7,
+    "text": "to UP payment bhi kar saak te,"
+   },
+   {
+    "start": 69.7,
+    "end": 72.5,
+    "text": "aur usi 0.5% cash back alak se,"
+   },
+   {
+    "start": 72.5,
+    "end": 73.7,
+    "text": "free launch access cha hi hai,"
+   },
+   {
+    "start": 73.7,
+    "end": 76.8,
+    "text": "bina kesei spend ke pressure ke stable money app download karo."
+   }
+  ]
+ }
+}

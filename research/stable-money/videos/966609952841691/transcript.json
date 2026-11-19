@@ -1,0 +1,67 @@
+{
+ "asset": "966609952841691",
+ "first_seen_in": "2029258324332952",
+ "duration_s": 73.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 73.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "پاپا میں آپ کا Bank Statement دیکھ رہا تھا یہ پیسے ہر مہینے крیڈٹ ہو رہے ہیں یہ کیا ہے آپ اڑھا یہ میری افڈ ہے میں نے منطلی payout volo option select کرتا ہے منطلی payout افڈی میں ایسا بھی کوئی افشن ہوتا ہے بے کو بےٹھا normal افڈی میں کیا ہوتا ہے آپ پیسے دالٹے ہو پورٹ اینیور ویٹھ کرٹے ہو اور اینے принципالوں کا انٹرس ایک اٹھا تھا rankpot the table flashes'dfast",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.9,
+    "text": "پاپا میں آپ کا Bank Statement دیکھ رہا تھا یہ پیسے ہر مہینے крیڈٹ ہو رہے ہیں یہ کیا ہے"
+   },
+   {
+    "start": 4.9,
+    "end": 9,
+    "text": "آپ اڑھا یہ میری افڈ ہے میں نے منطلی payout volo option select کرتا ہے"
+   },
+   {
+    "start": 9,
+    "end": 12.1,
+    "text": "منطلی payout افڈی میں ایسا بھی کوئی افشن ہوتا ہے"
+   },
+   {
+    "start": 12.1,
+    "end": 15.7,
+    "text": "بے کو بےٹھا normal افڈی میں کیا ہوتا ہے آپ پیسے دالٹے ہو"
+   },
+   {
+    "start": 15.7,
+    "end": 19.5,
+    "text": "پورٹ اینیور ویٹھ کرٹے ہو اور اینے принципالوں کا انٹرس ایک اٹھا تھا"
+   },
+   {
+    "start": 49.5,
+    "end": 72.8,
+    "text": "rankpot the table flashes'dfast"
+   }
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "asset": "1419759219573556",
+ "first_seen_in": "1696884795431012",
+ "duration_s": 40.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 13.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.5,
+   "why": "scene change"
+  },
+  {
+   "t": 18.5,
+   "why": "scene change"
+  },
+  {
+   "t": 27,
+   "why": "scene change"
+  },
+  {
+   "t": 28.7,
+   "why": "scene change"
+  },
+  {
+   "t": 38.6,
+   "why": "scene change"
+  },
+  {
+   "t": 40.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "یا میں نے saving account me sadhe saan lagpane ek baat bata dhai percent return ritaan dhaa tha hai ya saadeh 8% OBVIOUSLY saadeh 8% tufirt saving account me tna pesa keurakrakh hai i tnni manat se ka maa hai yaha se dhod hai percent return mil tha hai inflation bhi beat neyogi ebdi garale saadeh 8% taka return mil tha hai ohello mera bangsef 6% dhe ra hai tu matbana hai apne bangsef stable mani par itne saadeh rbi ay regulated bangse hai saadeh 8% taka return mil tha hai dhai cgc ka 5 lakh taka insurance bhi hai aur bangsef ga ki account bhi ni khol na yeh tuf baat se hai wahi tuf agar aap ko bhi ebdi par zadaa interesse hai tuf abhi stable mani aap download kar lu",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.6,
+    "text": "یا میں نے saving account me sadhe saan lagpane"
+   },
+   {
+    "start": 2.6,
+    "end": 3.5,
+    "text": "ek baat bata"
+   },
+   {
+    "start": 3.5,
+    "end": 6,
+    "text": "dhai percent return ritaan dhaa tha hai ya saadeh 8%"
+   },
+   {
+    "start": 6,
+    "end": 7.8,
+    "text": "OBVIOUSLY saadeh 8%"
+   },
+   {
+    "start": 7.8,
+    "end": 10.4,
+    "text": "tufirt saving account me tna pesa keurakrakh hai"
+   },
+   {
+    "start": 10.4,
+    "end": 11.6,
+    "text": "i tnni manat se ka maa hai"
+   },
+   {
+    "start": 11.6,
+    "end": 13.8,
+    "text": "yaha se dhod hai percent return mil tha hai"
+   },
+   {
+    "start": 13.8,
+    "end": 15.5,
+    "text": "inflation bhi beat neyogi"
+   },
+   {
+    "start": 15.5,
+    "end": 18.4,
+    "text": "ebdi garale saadeh 8% taka return mil tha hai"
+   },
+   {
+    "start": 18.4,
+    "end": 21.5,
+    "text": "ohello mera bangsef 6% dhe ra hai"
+   },
+   {
+    "start": 21.5,
+    "end": 23.5,
+    "text": "tu matbana hai apne bangsef"
+   },
+   {
+    "start": 23.5,
+    "end": 26.6,
+    "text": "stable mani par itne saadeh rbi ay regulated bangse hai"
+   },
+   {
+    "start": 26.6,
+    "end": 28.8,
+    "text": "saadeh 8% taka return mil tha hai"
+   },
+   {
+    "start": 28.8,
+    "end": 31.6,
+    "text": "dhai cgc ka 5 lakh taka insurance bhi hai"
+   },
+   {
+    "start": 31.6,
+    "end": 33.6,
+    "text": "aur bangsef ga ki account bhi ni khol na"
+   },
+   {
+    "start": 33.6,
+    "end": 35,
+    "text": "yeh tuf baat se hai"
+   },
+   {
+    "start": 35,
+    "end": 36.1,
+    "text": "wahi tuf"
+   },
+   {
+    "start": 36.1,
+    "end": 38.4,
+    "text": "agar aap ko bhi ebdi par zadaa interesse hai"
+   },
+   {
+    "start": 38.4,
+    "end": 40.5,
+    "text": "tuf abhi stable mani aap download kar lu"
+   }
+  ]
+ }
+}

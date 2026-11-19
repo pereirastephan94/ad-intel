@@ -1,0 +1,182 @@
+{
+ "asset": "1911598616485842",
+ "first_seen_in": "1059291876995172",
+ "duration_s": 39.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 5.3,
+   "why": "scene change"
+  },
+  {
+   "t": 7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.1,
+   "why": "scene change"
+  },
+  {
+   "t": 13.3,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 17.5,
+   "why": "scene change"
+  },
+  {
+   "t": 24.1,
+   "why": "scene change"
+  },
+  {
+   "t": 25.3,
+   "why": "scene change"
+  },
+  {
+   "t": 31.3,
+   "why": "scene change"
+  },
+  {
+   "t": 39.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Excuse me ma'am, can I ask you a question? Yes. Now how many flights do you have in the year? 6-7 flights to minimum. And which card do you use for lounge access? Stable money is the FD back credit card. It has 8 lounge access to the year. It is free. This card is lifetime free. And the biggest thing is that a lot of accounts have monthly and quarterly minimum spend criteria. This card is not even criteria. How do you get this card? Download the stable money app and the suriode bank which is a RBI regulated bank. You can book your FD. Lifetime free card. Free lounge access. Coffee safe. If you also want this benefits, then download the stable money app right now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3,
+    "text": "Excuse me ma'am, can I ask you a question?"
+   },
+   {
+    "start": 3,
+    "end": 4,
+    "text": "Yes."
+   },
+   {
+    "start": 4,
+    "end": 5,
+    "text": "Now how many flights do you have in the year?"
+   },
+   {
+    "start": 5,
+    "end": 7,
+    "text": "6-7 flights to minimum."
+   },
+   {
+    "start": 7,
+    "end": 9,
+    "text": "And which card do you use for lounge access?"
+   },
+   {
+    "start": 9,
+    "end": 11,
+    "text": "Stable money is the FD back credit card."
+   },
+   {
+    "start": 11,
+    "end": 13,
+    "text": "It has 8 lounge access to the year."
+   },
+   {
+    "start": 13,
+    "end": 14,
+    "text": "It is free."
+   },
+   {
+    "start": 14,
+    "end": 16,
+    "text": "This card is lifetime free."
+   },
+   {
+    "start": 16,
+    "end": 18,
+    "text": "And the biggest thing is that"
+   },
+   {
+    "start": 18,
+    "end": 22,
+    "text": "a lot of accounts have monthly and quarterly minimum spend criteria."
+   },
+   {
+    "start": 22,
+    "end": 24,
+    "text": "This card is not even criteria."
+   },
+   {
+    "start": 24,
+    "end": 25,
+    "text": "How do you get this card?"
+   },
+   {
+    "start": 25,
+    "end": 28,
+    "text": "Download the stable money app and the suriode bank"
+   },
+   {
+    "start": 28,
+    "end": 30,
+    "text": "which is a RBI regulated bank."
+   },
+   {
+    "start": 30,
+    "end": 31,
+    "text": "You can book your FD."
+   },
+   {
+    "start": 31,
+    "end": 32,
+    "text": "Lifetime free card."
+   },
+   {
+    "start": 32,
+    "end": 34,
+    "text": "Free lounge access."
+   },
+   {
+    "start": 34,
+    "end": 35,
+    "text": "Coffee safe."
+   },
+   {
+    "start": 35,
+    "end": 37,
+    "text": "If you also want this benefits,"
+   },
+   {
+    "start": 37,
+    "end": 39,
+    "text": "then download the stable money app right now."
+   }
+  ]
+ }
+}

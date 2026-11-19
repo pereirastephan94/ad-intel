@@ -1,0 +1,170 @@
+{
+ "asset": "2194829677911441",
+ "first_seen_in": "1414345880897775",
+ "duration_s": 63,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.8,
+   "why": "scene change"
+  },
+  {
+   "t": 5.3,
+   "why": "scene change"
+  },
+  {
+   "t": 27.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.6,
+   "why": "scene change"
+  },
+  {
+   "t": 39.7,
+   "why": "scene change"
+  },
+  {
+   "t": 46.4,
+   "why": "scene change"
+  },
+  {
+   "t": 61.1,
+   "why": "scene change"
+  },
+  {
+   "t": 62.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "آپ کے savings account میں ابھی کتنا balance  ہے ہوگے کچھ 2-3 lakh ایک lakh کی aspas ہوگa آپ کے savings account میں ابھی کتنا balance  ہوگa لگ بکچھ 10 lakh یوک savings account میں اتنا pay sa rakhte اور انہیں یہ نہیں پہدا ki ان کی bank une سے 2% interest  ہے مطلب 1 lakh rupeep ayabko miltaisay 2-3,000 rupeep ayas interest پر اگر یہی pay sa ab stable money پہ everyman invest karoghe تو آپ کو milagi inbia's highest emd rates up to 8.5% یعنی اسی ایک lakh per ab aapko milega 8500 rupeep ayas interest اتنا بھتو سے 3 guna's zyada return آپ کی FD RBI regulated bank میں بوکھو تی ہے اور آپ کا pay sa up to 5 lakh inshawd o ta hai per bank باپی پہسا کبھی بھی درو کر سکتے ہو اور یہ سارا pay sa instantly آپ کے existing savings account میں credit o ja hai ka تو آپ بھی اپنے savings account کے pay sa ko kaam pilagaiye آجی stable money ayab download karay اور 5 minute میں اپنے lakh fd book karay stable money download na",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.2,
+    "text": "آپ کے savings account میں ابھی کتنا balance  ہے"
+   },
+   {
+    "start": 2.2,
+    "end": 3.8,
+    "text": "ہوگے کچھ 2-3 lakh"
+   },
+   {
+    "start": 3.8,
+    "end": 5.2,
+    "text": "ایک lakh کی aspas ہوگa"
+   },
+   {
+    "start": 5.2,
+    "end": 7.8,
+    "text": "آپ کے savings account میں ابھی کتنا balance  ہوگa"
+   },
+   {
+    "start": 7.8,
+    "end": 9.9,
+    "text": "لگ بکچھ 10 lakh"
+   },
+   {
+    "start": 11.4,
+    "end": 13.7,
+    "text": "یوک savings account میں اتنا pay sa rakhte"
+   },
+   {
+    "start": 13.7,
+    "end": 17.8,
+    "text": "اور انہیں یہ نہیں پہدا ki ان کی bank une سے 2% interest  ہے"
+   },
+   {
+    "start": 17.8,
+    "end": 22.6,
+    "text": "مطلب 1 lakh rupeep ayabko miltaisay 2-3,000 rupeep ayas interest"
+   },
+   {
+    "start": 22.6,
+    "end": 26.8,
+    "text": "پر اگر یہی pay sa ab stable money پہ everyman invest karoghe"
+   },
+   {
+    "start": 26.8,
+    "end": 31.4,
+    "text": "تو آپ کو milagi inbia's highest emd rates up to 8.5%"
+   },
+   {
+    "start": 31.4,
+    "end": 37.1,
+    "text": "یعنی اسی ایک lakh per ab aapko milega 8500 rupeep ayas interest"
+   },
+   {
+    "start": 37.1,
+    "end": 39.6,
+    "text": "اتنا بھتو سے 3 guna's zyada return"
+   },
+   {
+    "start": 39.6,
+    "end": 42.5,
+    "text": "آپ کی FD RBI regulated bank میں بوکھو تی ہے"
+   },
+   {
+    "start": 42.5,
+    "end": 46.4,
+    "text": "اور آپ کا pay sa up to 5 lakh inshawd o ta hai per bank"
+   },
+   {
+    "start": 46.4,
+    "end": 48.3,
+    "text": "باپی پہسا کبھی بھی درو کر سکتے ہو"
+   },
+   {
+    "start": 48.3,
+    "end": 50.4,
+    "text": "اور یہ سارا pay sa instantly"
+   },
+   {
+    "start": 50.4,
+    "end": 52.9,
+    "text": "آپ کے existing savings account میں credit o ja hai ka"
+   },
+   {
+    "start": 52.9,
+    "end": 56,
+    "text": "تو آپ بھی اپنے savings account کے pay sa ko kaam pilagaiye"
+   },
+   {
+    "start": 56.4,
+    "end": 58.5,
+    "text": "آجی stable money ayab download karay"
+   },
+   {
+    "start": 58.5,
+    "end": 61,
+    "text": "اور 5 minute میں اپنے lakh fd book karay"
+   },
+   {
+    "start": 61,
+    "end": 62.9,
+    "text": "stable money download na"
+   }
+  ]
+ }
+}
