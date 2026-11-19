@@ -1,0 +1,132 @@
+{
+ "asset": "1386736823203468",
+ "first_seen_in": "4606351752947622",
+ "duration_s": 32.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.2,
+   "why": "scene change"
+  },
+  {
+   "t": 5.7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 13.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.7,
+   "why": "scene change"
+  },
+  {
+   "t": 17.3,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 19.7,
+   "why": "scene change"
+  },
+  {
+   "t": 23.4,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Aberifferippo limbsu ajim jhaniya akaman誒 generi Aur dying saущa na salaja w But saщё Because the best workout is the one you enjoy. Don't forget to book your 2 free group workouts on the Galtat.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.3,
+    "text": "Aberifferippo limbsu"
+   },
+   {
+    "start": 3.3,
+    "end": 5.7,
+    "text": "ajim jhaniya akaman誒"
+   },
+   {
+    "start": 5.7,
+    "end": 7.4,
+    "text": "generi"
+   },
+   {
+    "start": 7.4,
+    "end": 8.1,
+    "text": "Aur dying"
+   },
+   {
+    "start": 8.1,
+    "end": 8.3,
+    "text": "saущa"
+   },
+   {
+    "start": 8.3,
+    "end": 10.4,
+    "text": "na salaja"
+   },
+   {
+    "start": 10.4,
+    "end": 19.9,
+    "text": "w But"
+   },
+   {
+    "start": 19.9,
+    "end": 23.1,
+    "text": "sa"
+   },
+   {
+    "start": 23.1,
+    "end": 23.7,
+    "text": "щё"
+   },
+   {
+    "start": 23.7,
+    "end": 25.7,
+    "text": "Because the best workout is the one you enjoy."
+   },
+   {
+    "start": 25.7,
+    "end": 28.7,
+    "text": "Don't forget to book your 2 free group workouts on the Galtat."
+   }
+  ]
+ }
+}

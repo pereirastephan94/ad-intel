@@ -1,0 +1,154 @@
+{
+ "asset": "1522577166344078",
+ "first_seen_in": "1577870316987974",
+ "duration_s": 38.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10.3,
+   "why": "scene change"
+  },
+  {
+   "t": 12.1,
+   "why": "scene change"
+  },
+  {
+   "t": 17.8,
+   "why": "scene change"
+  },
+  {
+   "t": 25,
+   "why": "scene change"
+  },
+  {
+   "t": 26.6,
+   "why": "scene change"
+  },
+  {
+   "t": 30,
+   "why": "scene change"
+  },
+  {
+   "t": 36.8,
+   "why": "scene change"
+  },
+  {
+   "t": 38.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "یہp tawar chappi yabbar me abhid ka mkul ne ke patri mili last year fichal on hedi aath ha 100% cashback weight loss tawar aur jitne peisidhi hai utne wapar faw taw pura na hong ya this bar reward dars guna bada hai fichal has lost a chanek s cashback offer weight lose karni pe 10 chaiin s cashback and you can win up to 5 lakh rupees with a 5 year weight loss warranty fai saai peis hao na tawar weight karni ke liye iste a chan motivation to na himi liye ka but this offer is only a bag of first 200 customers only book your consultation now",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "یہp tawar chappi yabbar me"
+   },
+   {
+    "start": 1.6,
+    "end": 3.8,
+    "text": "abhid ka mkul ne ke patri mili"
+   },
+   {
+    "start": 3.8,
+    "end": 5.6,
+    "text": "last year fichal on hedi aath ha"
+   },
+   {
+    "start": 5.6,
+    "end": 7.2,
+    "text": "100% cashback"
+   },
+   {
+    "start": 7.2,
+    "end": 9.6,
+    "text": "weight loss tawar aur jitne peisidhi hai"
+   },
+   {
+    "start": 9.6,
+    "end": 10.5,
+    "text": "utne wapar"
+   },
+   {
+    "start": 10.5,
+    "end": 12,
+    "text": "faw taw pura na hong ya"
+   },
+   {
+    "start": 12,
+    "end": 14.5,
+    "text": "this bar reward dars guna bada hai"
+   },
+   {
+    "start": 14.5,
+    "end": 17.4,
+    "text": "fichal has lost a chanek s cashback offer"
+   },
+   {
+    "start": 17.4,
+    "end": 20.2,
+    "text": "weight lose karni pe 10 chaiin s cashback"
+   },
+   {
+    "start": 20.2,
+    "end": 22.8,
+    "text": "and you can win up to 5 lakh rupees"
+   },
+   {
+    "start": 22.8,
+    "end": 25,
+    "text": "with a 5 year weight loss warranty"
+   },
+   {
+    "start": 25,
+    "end": 26.6,
+    "text": "fai saai peis hao na"
+   },
+   {
+    "start": 26.6,
+    "end": 28.1,
+    "text": "tawar weight karni ke liye"
+   },
+   {
+    "start": 28.1,
+    "end": 30.1,
+    "text": "iste a chan motivation to na himi liye ka"
+   },
+   {
+    "start": 30.1,
+    "end": 34.6,
+    "text": "but this offer is only a bag of first 200 customers only"
+   },
+   {
+    "start": 34.6,
+    "end": 36.6,
+    "text": "book your consultation now"
+   }
+  ]
+ }
+}

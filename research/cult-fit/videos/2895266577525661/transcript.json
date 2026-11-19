@@ -1,0 +1,132 @@
+{
+ "asset": "2895266577525661",
+ "first_seen_in": "1645883207287485",
+ "duration_s": 40.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.8,
+   "why": "scene change"
+  },
+  {
+   "t": 5.9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.3,
+   "why": "scene change"
+  },
+  {
+   "t": 15.1,
+   "why": "scene change"
+  },
+  {
+   "t": 17.6,
+   "why": "scene change"
+  },
+  {
+   "t": 21.9,
+   "why": "scene change"
+  },
+  {
+   "t": 22.9,
+   "why": "scene change"
+  },
+  {
+   "t": 25.9,
+   "why": "scene change"
+  },
+  {
+   "t": 29.5,
+   "why": "scene change"
+  },
+  {
+   "t": 29.9,
+   "why": "scene change"
+  },
+  {
+   "t": 39.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "I recently checked out Kulfit and let me show you guys how it's like. First, the gym is really clean, spacious and well maintained. In your heart, train training takes three-base or cardio-dug workout. And it's very often done. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. And coaches are also helping out. Whether you want to do a strength training, do a group-class, do cardio, options, coffee, so overall, I set up a lot of convenient for everyday workouts. Ready to switch up your workouts? Bike, curl, elite, pass now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.7,
+    "text": "I recently checked out Kulfit and let me show you guys how it's like."
+   },
+   {
+    "start": 5.8,
+    "end": 10.1,
+    "text": "First, the gym is really clean, spacious and well maintained."
+   },
+   {
+    "start": 10.1,
+    "end": 13.4,
+    "text": "In your heart, train training takes three-base or cardio-dug workout."
+   },
+   {
+    "start": 13.4,
+    "end": 14.7,
+    "text": "And it's very often done."
+   },
+   {
+    "start": 14.7,
+    "end": 16.6,
+    "text": "But the best part is the group workouts."
+   },
+   {
+    "start": 16.6,
+    "end": 20,
+    "text": "Gym, strength training, dance, fitness and yoga."
+   },
+   {
+    "start": 20,
+    "end": 22.5,
+    "text": "And coaches are also helping out."
+   },
+   {
+    "start": 22.5,
+    "end": 27.3,
+    "text": "Whether you want to do a strength training, do a group-class, do cardio, options,"
+   },
+   {
+    "start": 27.3,
+    "end": 32.6,
+    "text": "coffee, so overall, I set up a lot of convenient for everyday workouts."
+   },
+   {
+    "start": 32.6,
+    "end": 34.3,
+    "text": "Ready to switch up your workouts?"
+   },
+   {
+    "start": 34.3,
+    "end": 36.1,
+    "text": "Bike, curl, elite, pass now."
+   }
+  ]
+ }
+}

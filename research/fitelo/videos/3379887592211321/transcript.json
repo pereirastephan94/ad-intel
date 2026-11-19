@@ -1,0 +1,78 @@
+{
+ "asset": "3379887592211321",
+ "first_seen_in": "2166915778033433",
+ "duration_s": 18.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5,
+   "why": "scene change"
+  },
+  {
+   "t": 10.3,
+   "why": "scene change"
+  },
+  {
+   "t": 13,
+   "why": "scene change"
+  },
+  {
+   "t": 16,
+   "why": "scene change"
+  },
+  {
+   "t": 18.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "ur",
+  "text": "کی ہو کے بچا ہت ہے تو تم ایرا ہو گیا ایک دینہ آئی کافی ہے دل میرا جڑ گیا تم اصیح کافی ہے",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.1,
+    "text": "کی ہو کے بچا ہت ہے تو"
+   },
+   {
+    "start": 7.1,
+    "end": 9.9,
+    "text": "تم ایرا ہو گیا"
+   },
+   {
+    "start": 9.9,
+    "end": 12.7,
+    "text": "ایک دینہ آئی کافی ہے"
+   },
+   {
+    "start": 12.7,
+    "end": 15.4,
+    "text": "دل میرا جڑ گیا"
+   },
+   {
+    "start": 15.4,
+    "end": 18.4,
+    "text": "تم اصیح کافی ہے"
+   }
+  ]
+ }
+}

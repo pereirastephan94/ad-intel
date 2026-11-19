@@ -1,0 +1,37 @@
+{
+ "query": "Fitelo",
+ "country": "IN",
+ "searched_with": [
+  "exact-phrase search"
+ ],
+ "plausible_matches": 2,
+ "candidates": [
+  {
+   "page_id": "296363534190875",
+   "page_name": "Fitelo",
+   "name_match": "exact",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 28,
+   "likes": 1511607,
+   "categories": [
+    "Health & wellness website"
+   ],
+   "page_url": "https://www.facebook.com/fiteloapp/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=296363534190875&search_type=page"
+  },
+  {
+   "page_id": "1375129225683853",
+   "page_name": "Ezweight by Fitelo",
+   "name_match": "partial",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 2,
+   "likes": 81,
+   "categories": [
+    "Health & wellness website"
+   ],
+   "page_url": "https://www.facebook.com/61595063535400/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=1375129225683853&search_type=page"
+  }
+ ],
+ "note": "One page has exactly this name; the others are related pages (sub-brands or look-alikes). Tell the user which page you will use and name the others, so they can pick a different one."
+}

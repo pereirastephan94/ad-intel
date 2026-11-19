@@ -1,0 +1,247 @@
+{
+ "asset": "1606031843792408",
+ "first_seen_in": "925451983928233",
+ "duration_s": 60.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.1,
+   "why": "scene change"
+  },
+  {
+   "t": 9,
+   "why": "scene change"
+  },
+  {
+   "t": 13,
+   "why": "scene change"
+  },
+  {
+   "t": 14.3,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 35.9,
+   "why": "scene change"
+  },
+  {
+   "t": 39.1,
+   "why": "scene change"
+  },
+  {
+   "t": 47,
+   "why": "scene change"
+  },
+  {
+   "t": 52.5,
+   "why": "scene change"
+  },
+  {
+   "t": 60.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale. Hello Monster, we have scale 2.2. 18s is either 25 metrics, but now of 89, multi 25 health metrics track possible with 3 lifetime access. Mussel, mass, body fat percentage, visceral fat, metabolic age, water percentage, knees of 2.3. Eskilava, abhiksapta, weight loss, illicate, exact daily gelbees, daily protein requirements, overall health growth, or India may have your health ranks of me age. It is rated 4.2 stars on everyone, and back, by fitness icons, like email and so on, and Nero Baitwa. Best part, this 5,000 scale of abhira, but you can only pay 100,000. This is the result of Joss 999 rupees. And with that, worth 500 rupees of free dietation. So, shop now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.1,
+    "text": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale."
+   },
+   {
+    "start": 6.1,
+    "end": 9,
+    "text": "Hello Monster, we have scale 2.2."
+   },
+   {
+    "start": 9,
+    "end": 11.2,
+    "text": "18s is either 25 metrics,"
+   },
+   {
+    "start": 11.2,
+    "end": 12.9,
+    "text": "but now of 89,"
+   },
+   {
+    "start": 12.9,
+    "end": 16.2,
+    "text": "multi 25 health metrics track possible"
+   },
+   {
+    "start": 16.2,
+    "end": 18.2,
+    "text": "with 3 lifetime access."
+   },
+   {
+    "start": 18.2,
+    "end": 19.2,
+    "text": "Mussel, mass,"
+   },
+   {
+    "start": 19.2,
+    "end": 20.5,
+    "text": "body fat percentage,"
+   },
+   {
+    "start": 20.5,
+    "end": 21.5,
+    "text": "visceral fat,"
+   },
+   {
+    "start": 21.5,
+    "end": 22.7,
+    "text": "metabolic age,"
+   },
+   {
+    "start": 22.7,
+    "end": 23.9,
+    "text": "water percentage,"
+   },
+   {
+    "start": 23.9,
+    "end": 25.2,
+    "text": "knees of 2.3."
+   },
+   {
+    "start": 25.2,
+    "end": 26.2,
+    "text": "Eskilava,"
+   },
+   {
+    "start": 26.2,
+    "end": 26.9,
+    "text": "abhiksapta,"
+   },
+   {
+    "start": 26.9,
+    "end": 27.6,
+    "text": "weight loss,"
+   },
+   {
+    "start": 27.6,
+    "end": 28,
+    "text": "illicate,"
+   },
+   {
+    "start": 28,
+    "end": 29.2,
+    "text": "exact daily gelbees,"
+   },
+   {
+    "start": 29.2,
+    "end": 31,
+    "text": "daily protein requirements,"
+   },
+   {
+    "start": 31,
+    "end": 32.4,
+    "text": "overall health growth,"
+   },
+   {
+    "start": 32.4,
+    "end": 34.8,
+    "text": "or India may have your health ranks"
+   },
+   {
+    "start": 34.8,
+    "end": 35.9,
+    "text": "of me age."
+   },
+   {
+    "start": 35.9,
+    "end": 38.8,
+    "text": "It is rated 4.2 stars on everyone,"
+   },
+   {
+    "start": 38.8,
+    "end": 39.4,
+    "text": "and back,"
+   },
+   {
+    "start": 39.4,
+    "end": 40.9,
+    "text": "by fitness icons,"
+   },
+   {
+    "start": 40.9,
+    "end": 42.2,
+    "text": "like email and so on,"
+   },
+   {
+    "start": 42.2,
+    "end": 43.6,
+    "text": "and Nero Baitwa."
+   },
+   {
+    "start": 43.6,
+    "end": 44.4,
+    "text": "Best part,"
+   },
+   {
+    "start": 44.4,
+    "end": 47,
+    "text": "this 5,000 scale of abhira,"
+   },
+   {
+    "start": 47,
+    "end": 49.2,
+    "text": "but you can only pay 100,000."
+   },
+   {
+    "start": 49.2,
+    "end": 52.5,
+    "text": "This is the result of Joss 999 rupees."
+   },
+   {
+    "start": 52.6,
+    "end": 53.8,
+    "text": "And with that,"
+   },
+   {
+    "start": 53.8,
+    "end": 57.2,
+    "text": "worth 500 rupees of free dietation."
+   },
+   {
+    "start": 57.2,
+    "end": 57.8,
+    "text": "So,"
+   },
+   {
+    "start": 57.8,
+    "end": 59.2,
+    "text": "shop now."
+   }
+  ]
+ }
+}

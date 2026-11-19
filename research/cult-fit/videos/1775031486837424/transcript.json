@@ -1,0 +1,77 @@
+{
+ "asset": "1775031486837424",
+ "first_seen_in": "1644460903932522",
+ "duration_s": 15.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.3,
+   "why": "scene change"
+  },
+  {
+   "t": 4.4,
+   "why": "scene change"
+  },
+  {
+   "t": 5.5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 7.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Prika Bhua, Chalo Kalt Chantu Boss Neh Chilaia, Chalo Kalt Chantu Shadi Texua, Chalo Kalt Chantu Promotion Mila, Chalo Kalt Chantu",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2,
+    "text": "Prika Bhua, Chalo Kalt Chantu"
+   },
+   {
+    "start": 2,
+    "end": 4,
+    "text": "Boss Neh Chilaia, Chalo Kalt Chantu"
+   },
+   {
+    "start": 4,
+    "end": 6,
+    "text": "Shadi Texua, Chalo Kalt Chantu"
+   },
+   {
+    "start": 6,
+    "end": 8,
+    "text": "Promotion Mila, Chalo Kalt Chantu"
+   }
+  ]
+ }
+}

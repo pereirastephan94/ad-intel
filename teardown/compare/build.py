@@ -598,10 +598,11 @@ def main():
             f"and image ads, and what to test next.")
     tpl = (HERE / "template.html").read_text()
     doc = tpl.replace("{{TITLE}}", E(title)).replace("{{DESCRIPTION}}", E(desc)).replace("{{BODY}}", body)
+    doc = doc.replace('\ufffd', '')
+    doc = doc.replace('\u2014', ' - ').replace('\u2013', '-')  # quoted ad text often carries long dashes
     (out / "index.html").write_text(doc)
     size = len(doc.encode())
     print(f"wrote {out / 'index.html'}: {size / 1e6:.2f} MB ({page.img.bytes / 1e6:.2f} MB images)")
-    doc = doc.replace('\u2014', ' - ').replace('\u2013', '-')  # quoted ad text often carries long dashes
     issues = lint(doc, persp, comp)
     print(f"lint: {len(issues)} issue(s)")
     for i in issues:

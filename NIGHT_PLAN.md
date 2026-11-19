@@ -47,9 +47,9 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 - Write-ups: Stable Money and Wint Wealth done (breakdown.md, tags.json, concepts.md). Hindi transcripts need `teardown/retranscribe.py` BEFORE write-ups.
   Per brand: 2 Sonnet agents (videos split in two, images with the second), then 1 Sonnet concept pass. Prompts: copy the pattern used for Wint Wealth
   (briefs + all Rulings sections; example folder research/stable-money/videos/1113897927910622).
-- Comparison 1 (Stable Money vs Wint Wealth): compute.py runs clean; waiting on Wint concept pass, then perspectives.json, build, rubric review, publish.
+- Comparison 1 (Stable Money vs Wint Wealth): PUBLISHED v1 https://claude.ai/artifact/MsxdvaRyVXemXciA35N7KJ . Data in research/compare/stable-money-vs-wint-wealth/. Page file: <scratch>/pages/stable-money-vs-wint-wealth/index.html (republish the same path to keep the link). An Opus agent is doing the rubric review and fixes; rebuild and republish when it reports.
 - Opus agent finished: RUBRIC v2, TAGGING.md, COMPARE_SPEC.md, compare/compute.py, compare/build.py all written and tested on dummy brands (28 of 30).
 - Comparison pages published: none yet.
 
 ## Published links
-(none yet)
+- Stable Money vs Wint Wealth: https://claude.ai/artifact/MsxdvaRyVXemXciA35N7KJ

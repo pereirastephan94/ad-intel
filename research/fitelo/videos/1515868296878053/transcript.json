@@ -1,0 +1,64 @@
+{
+ "asset": "1515868296878053",
+ "first_seen_in": "1620379199757741",
+ "duration_s": 23.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.6,
+   "why": "scene change"
+  },
+  {
+   "t": 15.6,
+   "why": "scene change"
+  },
+  {
+   "t": 23.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "ur",
+  "text": "میں رجا تریبا ہوں میں خاب خاب ہے گہرہ ہوا رنگ آشیدی گہرہ ہوا",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8,
+    "text": "میں رجا تریبا ہوں میں خاب خاب ہے"
+   },
+   {
+    "start": 8,
+    "end": 16,
+    "text": "گہرہ ہوا"
+   },
+   {
+    "start": 16,
+    "end": 23,
+    "text": "رنگ آشیدی گہرہ ہوا"
+   }
+  ]
+ }
+}

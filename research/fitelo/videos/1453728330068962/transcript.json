@@ -1,0 +1,92 @@
+{
+ "asset": "1453728330068962",
+ "first_seen_in": "4832221937013486",
+ "duration_s": 19.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6,
+   "why": "scene change"
+  },
+  {
+   "t": 9,
+   "why": "scene change"
+  },
+  {
+   "t": 12,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.1,
+   "why": "scene change"
+  },
+  {
+   "t": 18.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Dude!musak yea e hai li who",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.3,
+    "text": "Dude!"
+   },
+   {
+    "start": 1.3,
+    "end": 4.9,
+    "text": "musak"
+   },
+   {
+    "start": 6.4,
+    "end": 9.6,
+    "text": "yea"
+   },
+   {
+    "start": 12.4,
+    "end": 14.2,
+    "text": "e"
+   },
+   {
+    "start": 15.9,
+    "end": 18.9,
+    "text": "hai"
+   },
+   {
+    "start": 21.6,
+    "end": 21.8,
+    "text": "li"
+   },
+   {
+    "start": 24.8,
+    "end": 26.3,
+    "text": "who"
+   }
+  ]
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "asset": "423409637350438",
+ "first_seen_in": "1461564966113780",
+ "duration_s": 50.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.6,
+   "why": "scene change"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 13.3,
+   "why": "scene change"
+  },
+  {
+   "t": 21.6,
+   "why": "scene change"
+  },
+  {
+   "t": 27.4,
+   "why": "scene change"
+  },
+  {
+   "t": 32,
+   "why": "scene change"
+  },
+  {
+   "t": 39.1,
+   "why": "scene change"
+  },
+  {
+   "t": 44.2,
+   "why": "scene change"
+  },
+  {
+   "t": 50.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "میں نے fit allo ca 120 days کا diet plan لیا تھا اور یہ میں نے بلکھل بھی expect بھی کیا تھا mommi gadi tu tu tu suhla falki hu bi bilgul Jamme nehi programi njiya fit allo gisha tu mujhe fru relies hano star doa ki nek kha ga gha gha gha gha gha gha After losing weight I could see so many positive changes in my body I can fit into my clothes which were like in my cupboard for past 8 years early mera wait na jadata ki mujhe do gadam chalte hu bi faakhu li le gyaati di tawab chalne me dhok ya doa timbim go di kati rati ya binku lansponsor dvaat karin tum sef mera ghaarezenak channel extorgarlo baakhi tuar iichha amme aapne purani kaplom hai ki hujya ki hujya ki hujya jha mejha liya sabce bhai bhai pitalo ek ke family kita rai aur kabhi ye ni lagagi me tight le nao pitalo fai When you decide within yourself that ok you can do it right now fit allo should be the choice aap bhi meraid tara wait manage kar na chalte hu to aap bhi meraid tara ek bhai fit allo jerur join kare",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.2,
+    "text": "میں نے fit allo ca 120 days کا diet plan"
+   },
+   {
+    "start": 2.2,
+    "end": 2.7,
+    "text": "لیا تھا"
+   },
+   {
+    "start": 2.7,
+    "end": 3.2,
+    "text": "اور یہ میں نے"
+   },
+   {
+    "start": 3.2,
+    "end": 4.6,
+    "text": "بلکھل بھی expect بھی کیا تھا"
+   },
+   {
+    "start": 4.6,
+    "end": 5.2,
+    "text": "mommi gadi"
+   },
+   {
+    "start": 5.2,
+    "end": 6.6,
+    "text": "tu tu tu suhla falki hu bi bilgul"
+   },
+   {
+    "start": 6.6,
+    "end": 7.8,
+    "text": "Jamme nehi programi"
+   },
+   {
+    "start": 7.8,
+    "end": 9.1,
+    "text": "njiya fit allo gisha"
+   },
+   {
+    "start": 9.1,
+    "end": 10.3,
+    "text": "tu mujhe fru"
+   },
+   {
+    "start": 10.3,
+    "end": 11.8,
+    "text": "relies hano star doa ki nek"
+   },
+   {
+    "start": 11.8,
+    "end": 13.1,
+    "text": "kha ga gha gha gha gha gha gha"
+   },
+   {
+    "start": 13.1,
+    "end": 14.3,
+    "text": "After losing weight"
+   },
+   {
+    "start": 14.3,
+    "end": 16.6,
+    "text": "I could see so many positive changes"
+   },
+   {
+    "start": 16.6,
+    "end": 17.5,
+    "text": "in my body"
+   },
+   {
+    "start": 17.5,
+    "end": 18.9,
+    "text": "I can fit into my clothes"
+   },
+   {
+    "start": 18.9,
+    "end": 20.1,
+    "text": "which were like in my cupboard"
+   },
+   {
+    "start": 20.1,
+    "end": 21.5,
+    "text": "for past 8 years"
+   },
+   {
+    "start": 21.5,
+    "end": 22.7,
+    "text": "early mera wait na jadata ki"
+   },
+   {
+    "start": 22.7,
+    "end": 24,
+    "text": "mujhe do gadam chalte hu bi"
+   },
+   {
+    "start": 24,
+    "end": 25,
+    "text": "faakhu li le gyaati di"
+   },
+   {
+    "start": 25,
+    "end": 26.1,
+    "text": "tawab chalne me dhok ya"
+   },
+   {
+    "start": 26.1,
+    "end": 27.4,
+    "text": "doa timbim go di kati rati ya"
+   },
+   {
+    "start": 27.4,
+    "end": 28.9,
+    "text": "binku lansponsor dvaat karin"
+   },
+   {
+    "start": 28.9,
+    "end": 29.4,
+    "text": "tum sef"
+   },
+   {
+    "start": 29.4,
+    "end": 30.4,
+    "text": "mera ghaarezenak channel"
+   },
+   {
+    "start": 30.4,
+    "end": 31.9,
+    "text": "extorgarlo baakhi tuar iichha"
+   },
+   {
+    "start": 31.9,
+    "end": 33.2,
+    "text": "amme aapne purani kaplom"
+   },
+   {
+    "start": 33.2,
+    "end": 34.2,
+    "text": "hai ki hujya ki hujya ki hujya"
+   },
+   {
+    "start": 34.2,
+    "end": 35.2,
+    "text": "jha mejha liya sabce bhai bhai"
+   },
+   {
+    "start": 35.2,
+    "end": 36.9,
+    "text": "pitalo ek ke family kita rai"
+   },
+   {
+    "start": 36.9,
+    "end": 37.9,
+    "text": "aur kabhi ye ni lagagi me"
+   },
+   {
+    "start": 37.9,
+    "end": 39.2,
+    "text": "tight le nao pitalo fai"
+   },
+   {
+    "start": 39.2,
+    "end": 40.8,
+    "text": "When you decide within yourself"
+   },
+   {
+    "start": 40.8,
+    "end": 42.8,
+    "text": "that ok you can do it right now"
+   },
+   {
+    "start": 42.8,
+    "end": 44.2,
+    "text": "fit allo should be the choice"
+   },
+   {
+    "start": 44.2,
+    "end": 45.4,
+    "text": "aap bhi meraid tara wait"
+   },
+   {
+    "start": 45.4,
+    "end": 46.9,
+    "text": "manage kar na chalte hu"
+   },
+   {
+    "start": 46.9,
+    "end": 48.1,
+    "text": "to aap bhi meraid tara"
+   },
+   {
+    "start": 48.1,
+    "end": 49.5,
+    "text": "ek bhai fit allo"
+   },
+   {
+    "start": 49.5,
+    "end": 50.5,
+    "text": "jerur join kare"
+   }
+  ]
+ }
+}

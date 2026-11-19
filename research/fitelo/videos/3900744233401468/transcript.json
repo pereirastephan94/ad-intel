@@ -1,0 +1,87 @@
+{
+ "asset": "3900744233401468",
+ "first_seen_in": "926250147231507",
+ "duration_s": 34.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.8,
+   "why": "scene change"
+  },
+  {
+   "t": 6.8,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.9,
+   "why": "scene change"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 20.8,
+   "why": "scene change"
+  },
+  {
+   "t": 23.9,
+   "why": "scene change"
+  },
+  {
+   "t": 26.6,
+   "why": "scene change"
+  },
+  {
+   "t": 26.6,
+   "why": "scene change"
+  },
+  {
+   "t": 27.5,
+   "why": "scene change"
+  },
+  {
+   "t": 34,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "3 Shenzhen 2 Shenzhen",
+  "segments": [
+   {
+    "start": 1,
+    "end": 1.8,
+    "text": "3 Shenzhen"
+   },
+   {
+    "start": 28.9,
+    "end": 29.6,
+    "text": "2 Shenzhen"
+   }
+  ]
+ }
+}

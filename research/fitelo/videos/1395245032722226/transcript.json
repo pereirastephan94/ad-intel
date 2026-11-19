@@ -1,0 +1,63 @@
+{
+ "asset": "1395245032722226",
+ "first_seen_in": "1777858350163803",
+ "duration_s": 24.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.6,
+   "why": "scene change"
+  },
+  {
+   "t": 15.6,
+   "why": "scene change"
+  },
+  {
+   "t": 22,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "omatic yes to start your journey",
+  "segments": [
+   {
+    "start": 0,
+    "end": 22.5,
+    "text": "omatic"
+   },
+   {
+    "start": 22.5,
+    "end": 23.7,
+    "text": "yes to start your journey"
+   }
+  ]
+ }
+}

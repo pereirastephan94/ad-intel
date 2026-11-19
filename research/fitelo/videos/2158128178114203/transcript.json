@@ -1,0 +1,192 @@
+{
+ "asset": "2158128178114203",
+ "first_seen_in": "4723519161196734",
+ "duration_s": 43.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.3,
+   "why": "scene change"
+  },
+  {
+   "t": 8,
+   "why": "scene change"
+  },
+  {
+   "t": 10.2,
+   "why": "scene change"
+  },
+  {
+   "t": 15.2,
+   "why": "scene change"
+  },
+  {
+   "t": 18.3,
+   "why": "scene change"
+  },
+  {
+   "t": 22.9,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 28.9,
+   "why": "scene change"
+  },
+  {
+   "t": 30.3,
+   "why": "scene change"
+  },
+  {
+   "t": 35.6,
+   "why": "scene change"
+  },
+  {
+   "t": 43.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.8,
+    "text": "Want to lose 20 kg value ya?"
+   },
+   {
+    "start": 1.8,
+    "end": 3,
+    "text": "Listen to her story."
+   },
+   {
+    "start": 3,
+    "end": 6.5,
+    "text": "90 days May 25-26 kg weight reduce kids"
+   },
+   {
+    "start": 6.5,
+    "end": 7.9,
+    "text": "My name is Harpet Kaur"
+   },
+   {
+    "start": 7.9,
+    "end": 9.9,
+    "text": "First I weighed 87 kg"
+   },
+   {
+    "start": 9.9,
+    "end": 12.3,
+    "text": "I consulted with my fellow team"
+   },
+   {
+    "start": 12.3,
+    "end": 14,
+    "text": "My weight is 60 kg"
+   },
+   {
+    "start": 14,
+    "end": 15.2,
+    "text": "I weighed 24 kg"
+   },
+   {
+    "start": 15.2,
+    "end": 16.6,
+    "text": "I weighed 28-29 kg"
+   },
+   {
+    "start": 16.6,
+    "end": 18,
+    "text": "I just felt like I was just saying"
+   },
+   {
+    "start": 18,
+    "end": 20.3,
+    "text": "I was just a single child's mother"
+   },
+   {
+    "start": 20.3,
+    "end": 22.8,
+    "text": "First I weighed 4 kg"
+   },
+   {
+    "start": 22.8,
+    "end": 23.9,
+    "text": "Now I am small"
+   },
+   {
+    "start": 23.9,
+    "end": 25.7,
+    "text": "I get a lot of compliments"
+   },
+   {
+    "start": 25.7,
+    "end": 27.7,
+    "text": "Everyone says that your weight is so good"
+   },
+   {
+    "start": 27.7,
+    "end": 28.7,
+    "text": "I did lose so I won't guess you"
+   },
+   {
+    "start": 28.7,
+    "end": 30.2,
+    "text": "Thank you so much, team Peterloh"
+   },
+   {
+    "start": 30.2,
+    "end": 32.7,
+    "text": "India's biggest weight loss offer is here"
+   },
+   {
+    "start": 32.7,
+    "end": 33.7,
+    "text": "The tele has launched"
+   },
+   {
+    "start": 33.7,
+    "end": 35.7,
+    "text": "At 10 times cash back offer"
+   },
+   {
+    "start": 35.7,
+    "end": 38.7,
+    "text": "lose weight and win 10 times cash back"
+   },
+   {
+    "start": 38.7,
+    "end": 41.2,
+    "text": "Valid for the first 100 customers only"
+   },
+   {
+    "start": 41.2,
+    "end": 43.2,
+    "text": "Book your consultation now"
+   }
+  ]
+ }
+}

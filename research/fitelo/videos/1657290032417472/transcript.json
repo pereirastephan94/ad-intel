@@ -1,0 +1,312 @@
+{
+ "asset": "1657290032417472",
+ "first_seen_in": "2148142946075233",
+ "duration_s": 39.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.3,
+   "why": "scene change"
+  },
+  {
+   "t": 16.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 26,
+   "why": "scene change"
+  },
+  {
+   "t": 28.7,
+   "why": "scene change"
+  },
+  {
+   "t": 29.3,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 33.9,
+   "why": "scene change"
+  },
+  {
+   "t": 39,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "108 kg weight & cravings نے weight loss مشکل بنாதیا meet pile جن کا weight fitello joint کرتے وقت 108 kg جب انہوں نے fitello joint کیا تو سپ سے پہلے سمجھا کیوں کا weight کیوں بڑڑ رہا تھا پہتا چلا high stress & emotional eating کی وجہ سے ان کا routine disturb ہوں رہا تھا ہم نے ان کی busy setting job کو دیکھتے ہوئے easy to prepare meal plan بنیا такی bar bar cooking نہ کر می پڑے Saat hi stress management کیلے mind coach کا support بھی دیا такی وہ sustainable 8 kg 55 kg انہوں نے 30 kg weight loss کیا اور سب سے اچھی بار انہوں نے اپنا weight maintain بھی کیا book your consultation now",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "108 kg weight"
+   },
+   {
+    "start": 1.6,
+    "end": 2.9,
+    "text": "& cravings نے weight loss"
+   },
+   {
+    "start": 2.9,
+    "end": 3.8,
+    "text": "مشکل بنாதیا"
+   },
+   {
+    "start": 3.8,
+    "end": 4.5,
+    "text": "meet pile"
+   },
+   {
+    "start": 4.5,
+    "end": 5.8,
+    "text": "جن کا weight fitello joint"
+   },
+   {
+    "start": 5.8,
+    "end": 6.5,
+    "text": "کرتے وقت"
+   },
+   {
+    "start": 6.5,
+    "end": 7.8,
+    "text": "108 kg"
+   },
+   {
+    "start": 7.8,
+    "end": 9.1,
+    "text": "جب انہوں نے fitello joint"
+   },
+   {
+    "start": 9.1,
+    "end": 9.5,
+    "text": "کیا"
+   },
+   {
+    "start": 9.5,
+    "end": 10.9,
+    "text": "تو سپ سے پہلے سمجھا"
+   },
+   {
+    "start": 10.9,
+    "end": 11.5,
+    "text": "کیوں کا weight"
+   },
+   {
+    "start": 11.5,
+    "end": 12.3,
+    "text": "کیوں بڑڑ رہا تھا"
+   },
+   {
+    "start": 12.3,
+    "end": 13,
+    "text": "پہتا چلا"
+   },
+   {
+    "start": 13,
+    "end": 13.8,
+    "text": "high stress"
+   },
+   {
+    "start": 13.8,
+    "end": 14.7,
+    "text": "& emotional eating"
+   },
+   {
+    "start": 14.7,
+    "end": 15.3,
+    "text": "کی وجہ سے"
+   },
+   {
+    "start": 15.3,
+    "end": 16.3,
+    "text": "ان کا routine disturb"
+   },
+   {
+    "start": 16.3,
+    "end": 16.8,
+    "text": "ہوں رہا تھا"
+   },
+   {
+    "start": 16.8,
+    "end": 17.7,
+    "text": "ہم نے ان کی busy"
+   },
+   {
+    "start": 17.7,
+    "end": 18.2,
+    "text": "setting job"
+   },
+   {
+    "start": 18.2,
+    "end": 19,
+    "text": "کو دیکھتے ہوئے"
+   },
+   {
+    "start": 19,
+    "end": 19.8,
+    "text": "easy to prepare"
+   },
+   {
+    "start": 19.8,
+    "end": 20.3,
+    "text": "meal plan"
+   },
+   {
+    "start": 20.3,
+    "end": 20.6,
+    "text": "بنیا"
+   },
+   {
+    "start": 20.6,
+    "end": 21,
+    "text": "такی"
+   },
+   {
+    "start": 21,
+    "end": 21.7,
+    "text": "bar bar"
+   },
+   {
+    "start": 21.7,
+    "end": 22.1,
+    "text": "cooking"
+   },
+   {
+    "start": 22.1,
+    "end": 22.6,
+    "text": "نہ کر می پڑے"
+   },
+   {
+    "start": 22.6,
+    "end": 23.3,
+    "text": "Saat hi"
+   },
+   {
+    "start": 23.3,
+    "end": 24.2,
+    "text": "stress management"
+   },
+   {
+    "start": 24.2,
+    "end": 24.5,
+    "text": "کیلے"
+   },
+   {
+    "start": 24.5,
+    "end": 25,
+    "text": "mind coach"
+   },
+   {
+    "start": 25,
+    "end": 25.6,
+    "text": "کا support"
+   },
+   {
+    "start": 25.6,
+    "end": 26,
+    "text": "بھی دیا"
+   },
+   {
+    "start": 26,
+    "end": 27.1,
+    "text": "такی وہ sustainable"
+   },
+   {
+    "start": 30,
+    "end": 30.6,
+    "text": "8 kg"
+   },
+   {
+    "start": 30.6,
+    "end": 31.6,
+    "text": "55 kg"
+   },
+   {
+    "start": 31.6,
+    "end": 32.3,
+    "text": "انہوں نے"
+   },
+   {
+    "start": 32.3,
+    "end": 33.6,
+    "text": "30 kg weight loss"
+   },
+   {
+    "start": 33.6,
+    "end": 34,
+    "text": "کیا"
+   },
+   {
+    "start": 34,
+    "end": 34.8,
+    "text": "اور سب سے اچھی بار"
+   },
+   {
+    "start": 34.8,
+    "end": 35.3,
+    "text": "انہوں نے"
+   },
+   {
+    "start": 35.3,
+    "end": 35.8,
+    "text": "اپنا weight"
+   },
+   {
+    "start": 35.8,
+    "end": 36.4,
+    "text": "maintain"
+   },
+   {
+    "start": 36.4,
+    "end": 36.8,
+    "text": "بھی کیا"
+   },
+   {
+    "start": 36.8,
+    "end": 37.8,
+    "text": "book your consultation"
+   },
+   {
+    "start": 37.8,
+    "end": 38.2,
+    "text": "now"
+   }
+  ]
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "asset": "2510744962662566",
+ "first_seen_in": "2404800830259411",
+ "duration_s": 32.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.7,
+   "why": "scene change"
+  },
+  {
+   "t": 8.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 16.9,
+   "why": "scene change"
+  },
+  {
+   "t": 18.3,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 19.9,
+   "why": "scene change"
+  },
+  {
+   "t": 23.6,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "flies are not solved today so studentcm2 can avoid taking good places Well...ingu could be a great place to identify the fact that communicates with Australians bhajda na genu lipa sendo Because the best workout is the one you enjoy Don't forget to book your 2 free group workouts on the call tap",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "flies are not solved today so studentcm2 can avoid taking good places"
+   },
+   {
+    "start": 2.4,
+    "end": 20.2,
+    "text": "Well...ingu could be a great place to identify the"
+   },
+   {
+    "start": 20.2,
+    "end": 22.4,
+    "text": "fact that communicates with Australians"
+   },
+   {
+    "start": 22.4,
+    "end": 23.4,
+    "text": "bhajda na genu lipa sendo"
+   },
+   {
+    "start": 23.4,
+    "end": 25.9,
+    "text": "Because the best workout is the one you enjoy"
+   },
+   {
+    "start": 25.9,
+    "end": 28.9,
+    "text": "Don't forget to book your 2 free group workouts on the call tap"
+   }
+  ]
+ }
+}

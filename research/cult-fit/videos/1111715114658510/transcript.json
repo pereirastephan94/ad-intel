@@ -1,0 +1,152 @@
+{
+ "asset": "1111715114658510",
+ "first_seen_in": "1529622859191185",
+ "duration_s": 32.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.7,
+   "why": "scene change"
+  },
+  {
+   "t": 8.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 16.9,
+   "why": "scene change"
+  },
+  {
+   "t": 18.3,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 19.9,
+   "why": "scene change"
+  },
+  {
+   "t": 23.6,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "اجم جانے کا من نہیں ہے تو مجھا ٹو کی فٹنس کا مطلاف سف جمجانا نہیں ہوتا تبھی ٹرین ٹرینڈگا من قلتا ہے ٹبھی ٦ڑانس کا انا کہتنا تو قبھی ٹوگا سے انمائن کرنے کا یہی تو قلت کو انٹرسٹگ مناتا ہے یہاں اپنے چوائز کی ساپسے وقال کر سکتنا ٹرین ٹرینڈگا ٹرینڈگا ٹرینڈگا ٹھو کی کنسسسے طبی اتی ہے جبہ ٹو ٹو اکوٹ کرنے جنیو لیپسندو because the best workout is the one you enjoy don't forget to book your two free group workouts on the galt app",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "اجم جانے کا من نہیں ہے"
+   },
+   {
+    "start": 1.6,
+    "end": 2.5,
+    "text": "تو مجھا"
+   },
+   {
+    "start": 2.5,
+    "end": 5.1,
+    "text": "ٹو کی فٹنس کا مطلاف سف جمجانا نہیں ہوتا"
+   },
+   {
+    "start": 6.2,
+    "end": 8.1,
+    "text": "تبھی ٹرین ٹرینڈگا من قلتا ہے"
+   },
+   {
+    "start": 8.1,
+    "end": 9.5,
+    "text": "ٹبھی ٦ڑانس کا انا کہتنا"
+   },
+   {
+    "start": 9.5,
+    "end": 11.2,
+    "text": "تو قبھی ٹوگا سے انمائن کرنے کا"
+   },
+   {
+    "start": 11.2,
+    "end": 13,
+    "text": "یہی تو قلت کو انٹرسٹگ مناتا ہے"
+   },
+   {
+    "start": 14.2,
+    "end": 16.8,
+    "text": "یہاں اپنے چوائز کی ساپسے وقال کر سکتنا"
+   },
+   {
+    "start": 16.8,
+    "end": 18.5,
+    "text": "ٹرین ٹرینڈگا"
+   },
+   {
+    "start": 18.5,
+    "end": 19.5,
+    "text": "ٹرینڈگا"
+   },
+   {
+    "start": 19.5,
+    "end": 20.3,
+    "text": "ٹرینڈگا"
+   },
+   {
+    "start": 20.3,
+    "end": 22,
+    "text": "ٹھو کی کنسسسے طبی اتی ہے جبہ ٹو"
+   },
+   {
+    "start": 22,
+    "end": 23.6,
+    "text": "ٹو اکوٹ کرنے جنیو لیپسندو"
+   },
+   {
+    "start": 23.6,
+    "end": 26.1,
+    "text": "because the best workout is the one you enjoy"
+   },
+   {
+    "start": 26.1,
+    "end": 29,
+    "text": "don't forget to book your two free group workouts on the galt app"
+   }
+  ]
+ }
+}
