@@ -53,3 +53,12 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 
 ## Published links
 - Stable Money vs Wint Wealth: https://claude.ai/artifact/MsxdvaRyVXemXciA35N7KJ
+
+## Added 23:40 UTC 19 Nov
+- LESSON 2: dropping the sort did not cure empties. Real pattern: one good view of a page, then empties for roughly 10 to 15 minutes. So: one view per brand per visit, 9 to 12 minutes between any two views (`sample-run-slow.sh`, MAXV=1 NAPMIN=540).
+- Round one: top 30 per brand. Job running: Atomberg, Qubo, Mokobara, DailyObjects. Next job: GIVA, CaratLane.
+- Round two (owner asked "more exhaustive than 30"): after round one, top up every brand with {media: video}, {media: image}, then keyword views
+  (set research/<slug>/crawl-state.json queue by hand, run sample-run-slow.sh with MAXV=1 per visit, cycling through brands so each brand rests 12+ minutes).
+  Target 60 to 90 ads per brand. Then write up the new creatives, rerun concept pass, compute, build, republish at the same link.
+- Cult.fit 30 ads and Fitelo 34 ads pulled; metrics and second-pass transcripts running; then write-ups (2 Sonnet agents per brand + concept pass).
+- Opus agent reviewing comparison 1 against the rubric; it may add an `extras` block (product mix, contradictions, series) and RUBRIC v3.
