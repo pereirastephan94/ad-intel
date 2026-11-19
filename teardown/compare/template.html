@@ -82,6 +82,8 @@ h1 { font-size: 25px; line-height: 1.15; }
 .chips { display: inline-flex; gap: 6px; margin-left: 4px; white-space: nowrap; vertical-align: 1px; }
 .chip { font: 600 10px/1 var(--sans); letter-spacing: .03em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line); border-radius: 4px; padding: 3px 5px; }
 .chip.ev-strong { border-color: var(--ink-2); }
+a.chip.seeads { text-transform: none; letter-spacing: 0; font-size: 11px; text-decoration: none; color: var(--ink); background: var(--panel); }
+.chips { flex-wrap: wrap; }
 .chip.ev-thin { border-style: dashed; color: var(--muted); }
 .top30 { font-size: 12.5px; color: var(--ink-2); margin: 10px 0 0; }
 @media (min-width: 980px) { .top30 { margin-top: 14px; } }
@@ -114,7 +116,6 @@ h1 { font-size: 25px; line-height: 1.15; }
 /* sections */
 section { border-top: 1px solid var(--line); margin-top: 30px; }
 section.wrap { padding-top: 30px; padding-bottom: 4px; }
-@media (min-width: 1112px) { section.wrap { border-top: 0; } section.wrap::before { content: ""; display: block; border-top: 1px solid var(--line); margin: -30px 0 30px; } }
 .kicker { font: 600 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
 .lede { color: var(--ink-2); margin: 0 0 16px; }
 details.fold { border-top: 1px solid var(--line); }
@@ -185,7 +186,9 @@ table.t td.n, table.t th.n { text-align: right; font-variant-numeric: tabular-nu
 /* standouts */
 .standout { margin: 6px 0 26px; }
 .standout .why { font-size: 13px; color: var(--muted); margin: 2px 0 10px; }
-.frames { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 10px; }
+.frames { display: grid; grid-auto-flow: column; grid-auto-columns: 112px; gap: 10px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x proximity; }
+.frame { scroll-snap-align: start; }
+@media (min-width: 720px) { .frames { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); overflow: visible; } }
 .frame { font-size: 12px; line-height: 1.35; }
 .frame img { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 6px; background: var(--line-2); }
 .frame .tc { font-weight: 600; margin: 5px 0 2px; font-variant-numeric: tabular-nums; }

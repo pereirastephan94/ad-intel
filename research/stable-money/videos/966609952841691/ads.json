@@ -1,0 +1,32 @@
+[
+ {
+  "library_id": "2029258324332952",
+  "link": "https://www.facebook.com/ads/library/?id=2029258324332952",
+  "page_id": "107538592238547",
+  "page_name": "Stable Money",
+  "is_active": true,
+  "start_date": "2026-06-25",
+  "days_running": 148,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Install now",
+  "landing_url": "http://itunes.apple.com/app/id1663244497",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPTxMP2NCH1xZZpu5Wq8U1ld6E95XbMOvG9oz5yymqnTP6OBUH-RiHiPFh-3wXvXr52E0PMfof_eflrMOBwldbWETcd-iQzCe4KQ3J8Jlms4w.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=AfS_6zMzF4cQ7kNvwHF5HkE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNjA4LmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk2NjYwOTk1Mjg0MTY5MSwiYXNzZXRfYWdlX2RheXMiOjE2MywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjczLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=e9ed93533f587d95&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82NjRDOEM4M0VDMTVCQzREN0NCNTE3MjUzRUQ5QzhBMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzk4NDBBNUE5Nzc4MkFCMUNGODM1ODkzQTEzNzdEMDhFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa2_4Cujci3AxUCKAJDMywXQFJbtkWhysEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR39d-bfEGqalrGNAL7HG81mIUKPklmyRTlvglkBEDxHw&oe=6B052DF3",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/721082931_1513408190462241_3892702485330101800_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TAQQUKvJnoIQ7kNvwH7aDRx&_nc_oc=Adrx6RWerzfLdKN8cCtYvHd9sjHpWHNt7sYF-Vbe4suTwPY_4ehE5xdHSUEymeyDmLI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQRyH5lmWTgR659KRX2s0exCFbbugFi0n5ZACXgkqQtaVQ&oe=6B05398F",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Financial Service"
+   ]
+  },
+  "video_asset": "966609952841691"
+ }
+]

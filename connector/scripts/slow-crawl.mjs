@@ -121,6 +121,7 @@ while (state.queue.length) {
     if (String(a.page_id) !== String(pageId)) continue
     if (!ads[a.library_id]) { fresh++; ads[a.library_id] = { ...a, extra: { cards: res.raw[i].snapshot?.cards?.length || 0, display_format: res.raw[i].snapshot?.display_format, categories: res.raw[i].snapshot?.page_categories } } }
     else { ads[a.library_id].video_url = a.video_url; ads[a.library_id].thumbnail_url = a.thumbnail_url }
+    const sv = (ads[a.library_id].sample_views ||= {}); const mk = v.q ? 'keyword' : (v.media || 'all'); if (!(mk in sv)) sv[mk] = i + 1
     await handleMedia(ads[a.library_id])
   }
   log(`view ${JSON.stringify(v)} -> ${res.ads.length} ads (window total ${res.total}), ${fresh} new, ${Object.keys(ads).length} unique of ~${state.total}`)
@@ -133,6 +134,8 @@ while (state.queue.length) {
   }
   // Facebook sometimes answers a keyword view with nothing even when ads match; try each such view once more, later.
   if (v.q && !res.ads.length && !v.retry) state.queue.push({ ...v, retry: 1 })
+  // The same happens to plain views; a sample run has only a few, so try those up to twice more.
+  if (!v.q && !v.from && !v.to && !res.ads.length && !res.total && (v.retry || 0) < 2) state.queue.push({ ...v, retry: (v.retry || 0) + 1 })
   state.done.push(v)
   save()
   emptyStreak = res.ads.length === 0 && res.total == null ? emptyStreak + 1 : 0

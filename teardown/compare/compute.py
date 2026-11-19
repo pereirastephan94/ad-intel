@@ -274,7 +274,7 @@ def standouts(key, other, rows, ads, rdir, k=2):
             "ad_id": lid, "row": r["id"], "idea": a["tags"].get("concept_id"),
             "why": (f"{r['label']} is where this brand differs most from the other "
                     f"({round(r[key]['share'] * 100)}% against {round(r[other]['share'] * 100)}%); "
-                    f"this is the idea in that row with the most days live ({a['days']} days, {a['versions']} versions)."),
+                    f"this is the idea in that row with the most days live ({a['days']} days, {a['versions']} version{'' if a['versions'] == 1 else 's'})."),
             "frames": frames_for(rdir, a),
         })
     return out

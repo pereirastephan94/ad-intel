@@ -14,7 +14,7 @@ research/<brand>/ads.json + tags + metrics     (per brand, from the teardown pip
   -> compare/build.py comparison.json perspectives.json A B out_dir   (index.html)
 ```
 
-`build.py` prints a lint report: banned performance words, jargon, em dashes, and verdicts or moves that break the length rules.
+`build.py` prints a lint report: banned performance words, "top" outside "top 30" or "top by", jargon, em and en dashes, verdict over 30 words, move text over 35 or first test over 25 words, fewer than 2 or more than 4 moves, move 1 on thin evidence, and a move whose evidence label differs from its row's. Quoted ad content (scripts, hooks) is excluded from the word checks.
 
 ## Sample rule (printed on the page)
 
@@ -96,7 +96,7 @@ Order, top to bottom:
 2. Sample line: "Meta ads in India, snapshot 19 Nov 2026. A 61 ads, B 74: the ones the Ad Library ranks highest by impressions. No spend or results are public."
 3. Toggle: [I am Brand A] [I am Brand B]. Remembered per viewer; also set by `#A` or `#B` in the link.
 4. Verdict.
-5. Moves, 2 to 4, ranked, each with Effort and Evidence chips.
+5. Moves, 2 to 4, ranked, each with Effort and Evidence chips and a "See the ads" link that opens the row's fold (added while building: without it the moves had no tap-through, which fails the Evidence gate).
 6. Top 30 line: "Top 30 overall: you 9 video, 21 image; they 20 video, 10 image."
 7. Map: group header per medium ("VIDEO  you 31, them 34 sampled"), 7 rows, then the founder line.
 

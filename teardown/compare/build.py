@@ -98,7 +98,7 @@ def img_tag(uri, alt, cls=""):
     """cls "fit" shows the whole image (static ads); default crops to fill (video stills)."""
     if not uri:
         return f'<div class="{cls}" role="img" aria-label="no still" style="aspect-ratio:4/5;background:var(--line-2)"></div>'
-    return f'<img src="{uri}" alt="{E(alt)}" loading="lazy" decoding="async"{f" class={chr(34)}{cls}{chr(34)}" if cls else ""}>'
+    return f'<img src="{uri}" alt="{E(alt)}" decoding="async"{f" class={chr(34)}{cls}{chr(34)}" if cls else ""}>'
 
 
 def heat(share):
@@ -165,7 +165,8 @@ class Page:
             ev = mv.get("evidence", "thin")
             out.append(f'<li>{E(mv["text"])} <span class="test"><b>First test:</b> {E(mv["first_test"])}</span>'
                        f'<span class="chips"><span class="chip">Effort {E(mv["effort"])}</span>'
-                       f'<span class="chip ev-{E(ev)}">Evidence {E(ev)}</span></span></li>')
+                       f'<span class="chip ev-{E(ev)}">Evidence {E(ev)}</span>'
+                       f'<a class="chip seeads" href="#row-{E(mv["row"])}" data-fold="row-{E(mv["row"])}">See the ads</a></span></li>')
         out.append('</ol>')
         out.append('</div>')
         return "".join(out)
@@ -374,13 +375,13 @@ class Page:
 
     def pacing_section(self):
         pa = self.c["pacing"]
-        def f(v, unit=""):
-            return "n/a" if v is None else f"{v:g}{unit}"
-        rows = [("Distinct videos", "videos", ""), ("Length", "duration_s", " s"), ("Cuts per 10 seconds", "cuts_per_10s", ""),
-                ("Words a minute", "wpm", ""), ("First cut at", "first_cut_s", " s")]
+        def f(v, unit="", dp=0):
+            return "n/a" if v is None else f"{round(v, dp):g}{unit}"
+        rows = [("Distinct videos", "videos", "", 0), ("Length", "duration_s", " s", 0), ("Cuts per 10 seconds", "cuts_per_10s", "", 1),
+                ("Words a minute", "wpm", "", 0), ("First cut at", "first_cut_s", " s", 1)]
         head = f'<tr><th></th><th class="n">{E(self.names["A"])}</th><th class="n">{E(self.names["B"])}</th></tr>'
-        body = "".join(f'<tr><td>{lab}</td><td class="n">{f(pa["A"]["all"][key], u)}</td>'
-                       f'<td class="n">{f(pa["B"]["all"][key], u)}</td></tr>' for lab, key, u in rows)
+        body = "".join(f'<tr><td>{lab}</td><td class="n">{f(pa["A"]["all"][key], u, dp)}</td>'
+                       f'<td class="n">{f(pa["B"]["all"][key], u, dp)}</td></tr>' for lab, key, u, dp in rows)
         t1 = f'<div class="tablewrap"><table class="t">{head}{body}</table></div>'
         rws = []
         for r in self.c["rows"]:
@@ -390,7 +391,7 @@ class Page:
             def cell(x):
                 if not x or not x["videos"]:
                     return "n/a"
-                return f'{x["videos"]} videos, {f(x["duration_s"], " s")}, {f(x["cuts_per_10s"])} cuts, {f(x["wpm"])} words'
+                return f'{plural(x["videos"], "video")}, {f(x["duration_s"], " s")}, {f(x["cuts_per_10s"], "", 1)} cuts, {f(x["wpm"])} words'
             rws.append(f'<tr><td>{E(r["label"])}</td><td>{cell(ra)}</td><td>{cell(rb)}</td></tr>')
         t2 = (f'<h3 style="margin-top:20px;font:600 13.5px var(--sans)">By row (medians: length, cuts per 10 s, words a minute)</h3>'
               f'<div class="tablewrap"><table class="t"><tr><th>Row</th><th>{E(self.names["A"])}</th><th>{E(self.names["B"])}</th></tr>'
@@ -490,9 +491,10 @@ class Page:
                 a = self.ad(l)
                 t = a["tags"]
                 row = self.rows[a["row"]]["label"] if a["row"] else "unclear"
-                meta = (f'{a["medium"]}, {row}. {a["days"]} days live from {fmt_date(a["start_date"], short=True)}, '
-                        f'{plural(a["versions"], "version")}. Opens with {nice(t.get("hook"))}; offer {nice(t.get("offer"))}; '
-                        f'on screen {nice(t.get("face"))}; {nice(t.get("language"))}; button goes to {nice(a["destination"])}.')
+                meta = (f'{a["medium"].title()} ad, {row.lower() if a["row"] else row}. {a["days"]} days live from '
+                        f'{fmt_date(a["start_date"], short=True)}, {plural(a["versions"], "version")}. '
+                        f'Opens with: {nice(t.get("hook"))}. Offer: {nice(t.get("offer"))}. On screen: {nice(t.get("face"))}. '
+                        f'Language: {nice(t.get("language"))}. Button goes to: {nice(a["destination"])}.')
                 text = "\n\n".join(x for x in (a["headline"], a["body"]) if x)
                 more = f'<details><summary>Ad text{" and script" if a["transcript"] else ""}</summary><p class="txt q">{E(text)}'
                 if a["transcript"]:
@@ -532,8 +534,16 @@ def fmt_month(s):
     return f"{MONTHS[int(m) - 1][:3]} {y}"
 
 
-def lint(html_text, persp):
+def lint(html_text, persp, comp=None):
     issues = []
+    rows = {r["id"]: r for r in (comp or {}).get("rows", [])}
+    for k, p in persp.items():
+        for mv in p.get("moves", []):
+            r = rows.get(mv.get("row"))
+            if not r:
+                issues.append(f"move {k}{mv.get('rank')} names unknown row {mv.get('row')}")
+            elif r["evidence"] != mv.get("evidence"):
+                issues.append(f"move {k}{mv.get('rank')} says evidence {mv.get('evidence')} but row {r['id']} is {r['evidence']}")
     # visible text only, without quoted ad content (class q) and without attributes
     t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html_text, flags=re.S)
     t = re.sub(r'<(\w+)[^>]*class="[^"]*\bq\b[^"]*"[^>]*>.*?</\1>', " ", t, flags=re.S)
@@ -547,7 +557,7 @@ def lint(html_text, persp):
     for w in JARGON:
         for m in re.finditer(rf"\b{re.escape(w)}", t, flags=re.I if w.islower() else 0):
             issues.append(f"jargon '{w}': ...{t[max(0, m.start() - 40):m.end() + 40].strip()}...")
-    if "—" in html_text or "–" in html_text:
+    if "\u2014" in html_text or "\u2013" in html_text:
         issues.append("em or en dash present")
     for k, p in persp.items():
         n = len(p.get("verdict", "").split())
@@ -579,7 +589,11 @@ def main():
     names = page.names
     title = f"{names['A']} vs {names['B']}"
     if len(title.split()) > 4:
-        title = f"{names['A'].split()[0]} vs {names['B'].split()[0]}"
+        wa, wb = names["A"].split(), names["B"].split()
+        if wa[0] == wb[0] and len(wb) > 1:      # "Brand A vs B"
+            title = f"{names['A']} vs {' '.join(wb[1:])}"
+        if len(title.split()) > 4 or wa[0] != wb[0]:
+            title = f"{wa[0]} vs {wb[0]}"
     desc = (f"Head-to-head of the live Meta ads of {names['A']} and {names['B']}: where each is missing out in video "
             f"and image ads, and what to test next.")
     tpl = (HERE / "template.html").read_text()
@@ -587,7 +601,7 @@ def main():
     (out / "index.html").write_text(doc)
     size = len(doc.encode())
     print(f"wrote {out / 'index.html'}: {size / 1e6:.2f} MB ({page.img.bytes / 1e6:.2f} MB images)")
-    issues = lint(doc, persp)
+    issues = lint(doc, persp, comp)
     print(f"lint: {len(issues)} issue(s)")
     for i in issues:
         print("  -", i)

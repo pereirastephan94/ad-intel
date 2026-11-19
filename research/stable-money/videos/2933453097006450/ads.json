@@ -1,0 +1,62 @@
+[
+ {
+  "library_id": "1044985944652867",
+  "link": "https://www.facebook.com/ads/library/?id=1044985944652867",
+  "page_id": "107538592238547",
+  "page_name": "Stable Money",
+  "is_active": true,
+  "start_date": "2026-07-24",
+  "days_running": 119,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Install now",
+  "landing_url": "http://play.google.com/store/apps/details?id=in.stablemoney.app",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMHGo2C8g2cnLzwkyyITwyVHbOjZTHWrYIY3X7cINVtrV6G2KIpn7Yl0W0WsCKrerssA6hZSLfT9w9A6GRdDHAjNwn205YOxk6eWQwyNBSe9w.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=_lOIWGq4QMMQ7kNvwEQNY4p&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI5MzM0NTMwOTcwMDY0NTAsImFzc2V0X2FnZV9kYXlzIjoxNDEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo2NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=29a54e4d129cb5bb&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GQjQwQ0YwNUM3NUI0NURFMzcwMTRFQjBCMTU2REFBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0E0NDgyNDg3MkZEQTQxQzlBQjc2MDZENjMzQjNDN0EzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbk1f_cuP21ChUCKAJDMywXQFDgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQx5cGirUAczYC2afpj-6vubwWbdUG9U_X6PtjKLwWmKw&oe=6B052D8B",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/749651985_4425063237809742_4852433209170098449_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SxqLW4X7wNsQ7kNvwGIRjui&_nc_oc=Adqw2rdsagEjOqxKpxFeykm-ehUtdsc6PFyUb0aP0KW0QCuvhziSgvdL7CBqRWpJBjU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQRCk6XnZz8-2coljNzooE89BXh4o7GANjW1qJc3uZN9XA&oe=6B051D4C",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Financial service"
+   ]
+  },
+  "video_asset": "2933453097006450"
+ },
+ {
+  "library_id": "991125217069138",
+  "link": "https://www.facebook.com/ads/library/?id=991125217069138",
+  "page_id": "107538592238547",
+  "page_name": "Stable Money",
+  "is_active": true,
+  "start_date": "2026-07-03",
+  "days_running": 140,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Install now",
+  "landing_url": "http://play.google.com/store/apps/details?id=in.stablemoney.app",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMHGo2C8g2cnLzwkyyITwyVHbOjZTHWrYIY3X7cINVtrV6G2KIpn7Yl0W0WsCKrerssA6hZSLfT9w9A6GRdDHAjNwn205YOxk6eWQwyNBSe9w.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=_lOIWGq4QMMQ7kNvwEQNY4p&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI5MzM0NTMwOTcwMDY0NTAsImFzc2V0X2FnZV9kYXlzIjoxNDEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo2NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=29a54e4d129cb5bb&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GQjQwQ0YwNUM3NUI0NURFMzcwMTRFQjBCMTU2REFBRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0E0NDgyNDg3MkZEQTQxQzlBQjc2MDZENjMzQjNDN0EzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbk1f_cuP21ChUCKAJDMywXQFDgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQx5cGirUAczYC2afpj-6vubwWbdUG9U_X6PtjKLwWmKw&oe=6B052D8B",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/738990911_1321554949645037_4396146037105609117_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4D8HrcBGvboQ7kNvwHlv0tt&_nc_oc=Adr_Nkd8WVYDjIRPnqfILhHwydsBluUDCqQFwP2a8ro92-YtWXzKREJjbC_srUM3D5A&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zezGwO0el8HTRab-q9VVnQ&_nc_ss=7b289&oh=00_AQSSSeQAQ79dVE7Zoik4vU5CeK3SZpeDusgkfnlWDwmOYA&oe=6B0520B3",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education"
+   ]
+  },
+  "video_asset": "2933453097006450"
+ }
+]
