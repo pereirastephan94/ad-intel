@@ -4,6 +4,10 @@
 // Each new video is downloaded once (links expire), stills + transcript are saved; mp4s stay outside the repo.
 //
 // Usage: node scripts/slow-crawl.mjs <page_id> <out_dir_in_repo> <video_dir_outside_repo> [minGapMin] [maxGapMin]
+// Optional env: MAX_VIEWS=N      stop after N page views (prints PAUSED; run again to carry on; prints DONE when nothing is left)
+//               COUNTRY=IN       two-letter Ad Library country (default IN)
+//               EXTRA_WORDS=a,b  extra search words (product names and so on), used only when the keyword queue is first built
+import './chrome.mjs'
 import fs from 'node:fs'
 import path from 'node:path'
 import { loadLibraryUrl } from '../dist/facebook.js'
@@ -22,7 +26,8 @@ const save = () => { fs.writeFileSync(ADS, JSON.stringify(ads, null, 1)); fs.wri
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const day = (d) => d.toISOString().slice(0, 10)
 
-const base = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&is_targeted_country=false&search_type=page&view_all_page_id=${pageId}`
+const COUNTRY = (process.env.COUNTRY || 'IN').toUpperCase()
+const base = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=${COUNTRY}&is_targeted_country=false&search_type=page&view_all_page_id=${pageId}`
 function urlFor(v) {
   let u = base + `&media_type=${v.media || 'all'}`
   if (v.sort) u += `&sort_data[mode]=${v.sort}&sort_data[direction]=${v.dir || 'desc'}`
@@ -56,7 +61,10 @@ if (!state.keywordsQueued) {
     'marketing', 'product', 'consulting', 'finance', 'experience', 'learn', 'IIM', 'Bangalore', 'Mesa', 'school', 'year', 'work', 'why',
     'how', 'you', 'your', 'the', 'not', 'from', 'with', 'for', 'and', 'is', 'to', 'in', 'of', 'a', 'I', 'we', 'our', 'this', 'what', 'who',
     'India', 'leaders', 'students', 'class', 'program', 'programme', 'founder', 'CEO', 'real', 'world', 'batch', 'join', 'now', 'today']
-  for (const q of words) state.queue.push({ q })
+  // EXTRA_WORDS go first: they are the advertiser's own product names, so they split the list best.
+  const extra = (process.env.EXTRA_WORDS || '').split(',').map((w) => w.trim()).filter(Boolean)
+  const have = new Set()
+  for (const q of [...extra, ...words]) { if (have.has(q.toLowerCase())) continue; have.add(q.toLowerCase()); state.queue.push({ q }) }
   state.keywordsQueued = true
 }
 const key = (v) => JSON.stringify([v.media || 'all', v.sort || '', v.dir || '', v.from || '', v.to || '', v.q || '', v.retry || 0])
@@ -98,6 +106,7 @@ async function handleMedia(a) {
 
 let emptyStreak = 0
 let views = 0
+let complete = false
 const MAX_VIEWS = Number(process.env.MAX_VIEWS || 0) // 0 = no limit
 while (state.queue.length) {
   const v = state.queue.shift()
@@ -128,9 +137,9 @@ while (state.queue.length) {
   save()
   emptyStreak = res.ads.length === 0 && res.total == null ? emptyStreak + 1 : 0
   if (emptyStreak >= 3) { log('three empty views in a row: Facebook may be refusing us. Pausing 45 min.'); await sleep(45 * 60000); emptyStreak = 0 }
-  if (state.total && Object.keys(ads).length >= state.total) { log('all reported ads collected'); break }
+  if (state.total && Object.keys(ads).length >= state.total) { log('all reported ads collected'); complete = true; break }
   if (MAX_VIEWS && ++views >= MAX_VIEWS) { log(`stopping after ${views} view(s) as asked`); break }
   await sleep((Number(gapMin) + Math.random() * (Number(gapMax) - Number(gapMin))) * 60000)
 }
-log(`${state.queue.length ? 'PAUSED' : 'DONE'}: ${Object.keys(ads).length} unique ads of ~${state.total}`)
+log(`${state.queue.length && !complete ? 'PAUSED' : 'DONE'}: ${Object.keys(ads).length} unique ads of ~${state.total}`)
 save()
