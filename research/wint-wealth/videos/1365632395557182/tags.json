@@ -3,14 +3,14 @@
     "row": "V1",
     "face": "presenter",
     "founder_evidence": "",
-    "hook": "story_open",
+    "hook": "callout",
     "hook_text": "Today I am going to teach you a financial lesson.",
     "offer": "rate_return",
     "deadline": false,
     "angle": "trust_safety",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "WW-c03",
     "product": "Bonds, up to 11% fixed returns",
     "one_line": "A helmeted man talks to camera on a ride about Wint Wealth's asset backed bonds, up to 11% a year, SEBI registration and selling any time.",
     "script_twin": null,
@@ -18,7 +18,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "face"],
+    "unsure": [
+      "hook",
+      "face"
+    ],
     "human_checked": false
   }
 }

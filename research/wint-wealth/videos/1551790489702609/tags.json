@@ -3,14 +3,14 @@
     "row": "V4",
     "face": "none",
     "founder_evidence": "",
-    "hook": "unclear",
+    "hook": "callout",
     "hook_text": "Learn how to make money.",
     "offer": "rate_return",
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
-    "production": "studio",
-    "concept_id": null,
+    "production": "animation_craft",
+    "concept_id": "WW-c02",
     "product": "Bonds, 11% fixed return, 3 month tenure",
     "one_line": "Short paper-craft animation: learn how to make money, I invest in bonds, 11% fixed on a 3 month bond, I use Wint Wealth.",
     "script_twin": "1314615330761972",
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "face", "production"],
+    "unsure": [
+      "hook",
+      "face",
+      "production"
+    ],
     "human_checked": false
   }
 }

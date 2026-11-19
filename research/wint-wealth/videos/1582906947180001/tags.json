@@ -1,7 +1,7 @@
 {
   "tags": {
     "row": "V1",
-    "face": "presenter",
+    "face": "customer",
     "founder_evidence": "",
     "hook": "callout",
     "hook_text": "Second source of income chahiye, maine iske liye investment kiya hai.",
@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "WW-c05",
     "product": "Bonds, fixed 11%, monthly income, sell any time",
     "one_line": "A man to camera gives three reasons he chose Wint Wealth bonds for a second income: fixed 11%, asset-backed safety, selling any time.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "face", "angle"],
+    "unsure": [
+      "hook",
+      "face",
+      "angle"
+    ],
     "human_checked": false
   }
 }

@@ -5,12 +5,12 @@
     "founder_evidence": "",
     "hook": "question",
     "hook_text": "Why BONDS belong in your PORTFOLIO?",
-    "offer": "rate_return",
+    "offer": "none",
     "deadline": false,
     "angle": "feature",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "WW-c20",
     "product": "Bonds, regular income",
     "one_line": "A pale green square asks why bonds belong in your portfolio and answers with a calendar tile saying Earn Regular Income.",
     "script_twin": null,
@@ -18,7 +18,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["offer", "angle"],
+    "unsure": [
+      "offer",
+      "angle"
+    ],
     "human_checked": false
   }
 }

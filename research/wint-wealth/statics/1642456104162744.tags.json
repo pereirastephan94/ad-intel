@@ -3,14 +3,14 @@
     "row": "I2",
     "face": "none",
     "founder_evidence": "",
-    "hook": "offer",
+    "hook": "callout",
     "hook_text": "Earn Monthly Interest with BONDS on Wint",
-    "offer": "rate_return",
+    "offer": "none",
     "deadline": false,
     "angle": "feature",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "WW-c17",
     "product": "Bonds, monthly interest",
     "one_line": "A mostly white card says Earn Monthly Interest with Bonds on Wint, with a coin and arrow sticker and no rate in the main text.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "offer"],
+    "unsure": [
+      "row",
+      "hook",
+      "offer"
+    ],
     "human_checked": false
   }
 }

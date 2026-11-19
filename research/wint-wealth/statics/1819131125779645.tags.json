@@ -1,16 +1,16 @@
 {
   "tags": {
-    "row": "I1",
+    "row": "I2",
     "face": "none",
     "founder_evidence": "",
-    "hook": "offer",
+    "hook": "callout",
     "hook_text": "EARN MONTHLY INTEREST",
     "offer": "rate_return",
     "deadline": false,
     "angle": "feature",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "WW-c19",
     "product": "Bonds, monthly interest, 11% fixed",
     "one_line": "A dark card says Earn Monthly Interest in huge green type, with a calendar showing 11% fixed returns and a note of 6 months tenure.",
     "script_twin": null,
@@ -19,7 +19,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook"],
+    "unsure": [
+      "row",
+      "hook"
+    ],
     "human_checked": false
   }
 }

@@ -10,7 +10,7 @@
     "angle": "convenience_speed",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "WW-c06",
     "product": "Bonds, 9 to 12% fixed, easy exit",
     "one_line": "A couple chat in their kitchen about where to put six months of money; one recommends Wint Wealth bonds, 9 to 12% fixed with easy exit.",
     "script_twin": null,
@@ -18,7 +18,10 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["face", "angle"],
+    "unsure": [
+      "face",
+      "angle"
+    ],
     "human_checked": false
   }
 }

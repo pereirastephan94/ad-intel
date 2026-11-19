@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "WW-c14",
     "product": "Bonds, 11% fixed returns",
     "one_line": "A white card headed Bonds on Wint Wealth shows a huge 11% fixed returns figure beside a stack of banknotes.",
     "script_twin": null,
@@ -18,7 +18,9 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook"],
+    "unsure": [
+      "hook"
+    ],
     "human_checked": false
   }
 }

@@ -1,0 +1,30 @@
+{
+ "A": {
+  "verdict": "Wint Wealth runs 9 of 11 image ads as product-or-people cards; you run 1 of 3. Your edge: scene or story videos, 14 of 30 against 4 of 19.",
+  "moves": [
+   {"rank": 1, "row": "I2", "text": "Build an image-ad line. Wint Wealth runs 9 of 11 images as product-or-people cards across 8 ideas, all on \"Earn Monthly Interest\"; your whole sample holds 3 images.", "first_test": "Three cards for your monthly payout FD: the rupee payout on 1 lakh as the largest text, a calendar, bank and tenure in readable print.", "effort": "Low", "evidence": "strong"},
+   {"rank": 2, "row": "V2", "text": "Extend Papa Explaining, your edge: scene or story is 14 of 30 videos across 11 ideas against Wint Wealth's 4 of 19 across 4. Papa alone carries 6 ads on three products.", "first_test": "A Papa episode on the FD-backed card, your second most advertised product and the one without him: 45 seconds, vertical.", "effort": "Medium", "evidence": "strong"},
+   {"rank": 3, "row": "V1", "text": "Settle your numbers in person-to-camera videos. Wint Wealth's 12 of 19 across 6 ideas repeat one figure, 11%; yours quote 50 and 60 lakh users, 7,000 and 11,000 crore.", "first_test": "Pick one user count and one invested figure, then recut the end cards of your five most used videos to match the voice.", "effort": "Low", "evidence": "strong"}
+  ],
+  "now_read": "8 of your 33 sampled ads launched in the last 30 days: 5 person to camera, 3 scenes. Wint Wealth has 1; 28 of its 30 went live in October in a single burst.",
+  "india_read": [
+   "Language: you speak Hinglish in 30 of 33 ads; Wint Wealth runs 14 of its 30 in English.",
+   "Timing: Wint Wealth launched 28 of 30 in October, around Diwali; you launched 14 of 33 then and have ads from May still live.",
+   "Destination: both send every sampled ad to the app store; neither uses WhatsApp or a web page."
+  ]
+ },
+ "B": {
+  "verdict": "Stable Money runs scene or story videos in 14 of 30, led by its Papa character; you, 4 of 19. Your edge: product-or-people image ads, 9 of 11.",
+  "moves": [
+   {"rank": 1, "row": "V2", "text": "Create a recurring character series. Stable Money runs 14 of 30 videos as scenes across 11 ideas; its Papa Explaining series alone is 6 ads selling three products.", "first_test": "Two 45-second episodes with one fixed pair, a parent and an adult child: \"what is a bond\" and \"can I get my money out\".", "effort": "Medium", "evidence": "strong"},
+   {"rank": 2, "row": "V1", "text": "Make person-to-camera videos agree with their own screens. Stable Money's 16 of 30 across 10 ideas quote two user counts; yours say 3 months and 1,000 rupees over app lists showing 20 months and 10k.", "first_test": "Recut the six-ad \"second income from 10,000\" video so voice, app list and end card state one tenure and one minimum.", "effort": "Low", "evidence": "strong"},
+   {"rank": 3, "row": "I2", "text": "Put a figure on every image ad, your edge: 9 of 11 across 8 ideas against Stable Money's 1 of 3, but 4 of yours show no rate.", "first_test": "Add the monthly payout in rupees on 1 lakh to the two no-rate cards and run each beside its original.", "effort": "Low", "evidence": "strong"}
+  ],
+  "now_read": "28 of your 30 sampled ads went live in October and 1 in the last 30 days. Stable Money launched 8 of 33 in the last 30 days and still runs ads from May.",
+  "india_read": [
+   "Language: you run 14 of 30 ads in English; Stable Money speaks Hinglish in 30 of 33.",
+   "Timing: you launched 28 of 30 in October, around Diwali; Stable Money launched 14 of 33 then and the rest from May.",
+   "Destination: both send every sampled ad to the app store; neither uses WhatsApp or a web page."
+  ]
+ }
+}

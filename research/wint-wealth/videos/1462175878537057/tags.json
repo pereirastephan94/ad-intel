@@ -9,8 +9,8 @@
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
-    "production": "phone_lofi",
-    "concept_id": null,
+    "production": "animation_craft",
+    "concept_id": "WW-c04",
     "product": "Bonds, 11% fixed return, 3 month tenure",
     "one_line": "A man explains with hand-drawn paper sketches how secured bonds pay 11% fixed returns, cites a 10% awareness stat, and tells viewers to download Wint Wealth.",
     "script_twin": null,
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "face"],
+    "unsure": [
+      "row",
+      "hook",
+      "face"
+    ],
     "human_checked": false
   }
 }

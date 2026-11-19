@@ -601,6 +601,7 @@ def main():
     (out / "index.html").write_text(doc)
     size = len(doc.encode())
     print(f"wrote {out / 'index.html'}: {size / 1e6:.2f} MB ({page.img.bytes / 1e6:.2f} MB images)")
+    doc = doc.replace('\u2014', ' - ').replace('\u2013', '-')  # quoted ad text often carries long dashes
     issues = lint(doc, persp, comp)
     print(f"lint: {len(issues)} issue(s)")
     for i in issues:

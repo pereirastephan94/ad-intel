@@ -9,8 +9,8 @@
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
-    "production": "studio",
-    "concept_id": null,
+    "production": "animation_craft",
+    "concept_id": "WW-c02",
     "product": "Bonds, 11% fixed return, 3 month tenure",
     "one_line": "Paper-craft animation of three pieces of advice for a younger brother, the last being to invest in an 11% 3 month bond on Wint Wealth.",
     "script_twin": "1551790489702609",
@@ -18,7 +18,11 @@
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["face", "row", "production"],
+    "unsure": [
+      "face",
+      "row",
+      "production"
+    ],
     "human_checked": false
   }
 }

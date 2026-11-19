@@ -1,0 +1,3872 @@
+{
+ "meta": {
+  "snapshot_date": "2026-11-20",
+  "country": "IN",
+  "rules_version": "rows-v1",
+  "sample_rule": "Per brand, the 30 ads the Ad Library ranks highest by total impressions (all formats). For Stable Money, 3 more from its 30 highest-ranked videos are included. The video-only and image-only views mostly came back empty on the night, so image ads are only those that made each brand's overall top 30.",
+  "brands": {
+   "A": {
+    "name": "Stable Money",
+    "dir": "research/stable-money",
+    "n": 33,
+    "n_video": 30,
+    "n_image": 3,
+    "unique_videos": 25,
+    "unclear": {
+     "video": 0,
+     "image": 0
+    },
+    "top30_all": {
+     "video": 27,
+     "image": 3,
+     "n": 30
+    }
+   },
+   "B": {
+    "name": "Wint Wealth",
+    "dir": "research/wint-wealth",
+    "n": 30,
+    "n_video": 19,
+    "n_image": 11,
+    "unique_videos": 13,
+    "unclear": {
+     "video": 0,
+     "image": 0
+    },
+    "top30_all": {
+     "video": 19,
+     "image": 11,
+     "n": 30
+    }
+   }
+  },
+  "tag_check": {
+   "A": null,
+   "B": null
+  },
+  "thresholds": {
+   "present": 3,
+   "lead_ratio": 2,
+   "strong_ads": 8,
+   "strong_ideas": 3,
+   "thin_ads": 4,
+   "now_days": 30
+  }
+ },
+ "rows": [
+  {
+   "id": "V1",
+   "label": "Person to camera",
+   "medium": "video",
+   "A": {
+    "n": 16,
+    "share": 0.5333,
+    "ideas": 10,
+    "median_days": 38.0,
+    "versions": 18,
+    "founder": 0,
+    "ad_ids": [
+     "1019096030980624",
+     "991125217069138",
+     "1044985944652867",
+     "1318322580372486",
+     "912443471919863",
+     "1462158732420553",
+     "1624124105890067",
+     "1422041222644076",
+     "1650915419954369",
+     "1646669466828779",
+     "1094477860035639",
+     "3115844495284358",
+     "1780853883195705",
+     "1684487993244481",
+     "1064086583323093",
+     "1158491436527705"
+    ]
+   },
+   "B": {
+    "n": 12,
+    "share": 0.6316,
+    "ideas": 6,
+    "median_days": 36.0,
+    "versions": 25,
+    "founder": 0,
+    "ad_ids": [
+     "1452959666055721",
+     "2556193758207208",
+     "26996845726680317",
+     "1139217318446573",
+     "1768735924383603",
+     "1608750657392609",
+     "2876298779421455",
+     "1065702466447240",
+     "1868487757472978",
+     "28133518736321882",
+     "1822092442159366",
+     "1122130514055415"
+    ]
+   },
+   "status": "even",
+   "lead": null,
+   "ratio": 1.18,
+   "evidence": "strong",
+   "cards": {
+    "A": [
+     "1019096030980624",
+     "991125217069138"
+    ],
+    "B": [
+     "1452959666055721",
+     "2556193758207208"
+    ]
+   }
+  },
+  {
+   "id": "V2",
+   "label": "Scene or story",
+   "medium": "video",
+   "A": {
+    "n": 14,
+    "share": 0.4667,
+    "ideas": 11,
+    "median_days": 75.5,
+    "versions": 17,
+    "founder": 0,
+    "ad_ids": [
+     "1359085176241049",
+     "1294109162873838",
+     "1690045142234207",
+     "2057230121811704",
+     "2029258324332952",
+     "1409564451139620",
+     "1059291876995172",
+     "2894685200924911",
+     "2826793054387425",
+     "1414345880897775",
+     "1696884795431012",
+     "2952841455054370",
+     "1115779077962422",
+     "1098949122752977"
+    ]
+   },
+   "B": {
+    "n": 4,
+    "share": 0.2105,
+    "ideas": 4,
+    "median_days": 44.0,
+    "versions": 7,
+    "founder": 0,
+    "ad_ids": [
+     "1042794292127507",
+     "1010246932113130",
+     "2292299894864285",
+     "1953272729391464"
+    ]
+   },
+   "status": "A_lead",
+   "lead": "A",
+   "ratio": 2,
+   "evidence": "strong",
+   "cards": {
+    "A": [
+     "1359085176241049",
+     "1294109162873838"
+    ],
+    "B": [
+     "1042794292127507",
+     "1010246932113130"
+    ]
+   }
+  },
+  {
+   "id": "V3",
+   "label": "Product or app demo",
+   "medium": "video",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "cards": {
+    "A": [],
+    "B": []
+   }
+  },
+  {
+   "id": "V4",
+   "label": "Text and motion",
+   "medium": "video",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 3,
+    "share": 0.1579,
+    "ideas": 2,
+    "median_days": 44,
+    "versions": 6,
+    "founder": 0,
+    "ad_ids": [
+     "1577736273613796",
+     "1574326737333320",
+     "1087294090969954"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "thin",
+   "cards": {
+    "A": [],
+    "B": [
+     "1577736273613796",
+     "1574326737333320"
+    ]
+   }
+  },
+  {
+   "id": "I1",
+   "label": "Offer-led",
+   "medium": "image",
+   "A": {
+    "n": 2,
+    "share": 0.6667,
+    "ideas": 2,
+    "median_days": 158.0,
+    "versions": 2,
+    "founder": 0,
+    "ad_ids": [
+     "948406311403969",
+     "1022650000551778"
+    ]
+   },
+   "B": {
+    "n": 2,
+    "share": 0.1818,
+    "ideas": 2,
+    "median_days": 44.0,
+    "versions": 3,
+    "founder": 0,
+    "ad_ids": [
+     "955959980393839",
+     "1102709929308735"
+    ]
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "cards": {
+    "A": [
+     "948406311403969",
+     "1022650000551778"
+    ],
+    "B": [
+     "955959980393839",
+     "1102709929308735"
+    ]
+   }
+  },
+  {
+   "id": "I2",
+   "label": "Product or people",
+   "medium": "image",
+   "A": {
+    "n": 1,
+    "share": 0.3333,
+    "ideas": 1,
+    "median_days": 133,
+    "versions": 1,
+    "founder": 0,
+    "ad_ids": [
+     "2077379136540472"
+    ]
+   },
+   "B": {
+    "n": 9,
+    "share": 0.8182,
+    "ideas": 8,
+    "median_days": 44,
+    "versions": 12,
+    "founder": 0,
+    "ad_ids": [
+     "1768821550864003",
+     "1637283661235770",
+     "1375574504560912",
+     "1819131125779645",
+     "1078474831621182",
+     "1653556886374383",
+     "2603917993354573",
+     "1642456104162744",
+     "2402074240326667"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "strong",
+   "cards": {
+    "A": [
+     "2077379136540472"
+    ],
+    "B": [
+     "1768821550864003",
+     "1375574504560912"
+    ]
+   }
+  },
+  {
+   "id": "I3",
+   "label": "Proof",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "cards": {
+    "A": [],
+    "B": []
+   }
+  }
+ ],
+ "table_stakes": [
+  "V1"
+ ],
+ "now": {
+  "A": {
+   "n": 8,
+   "ad_ids": [
+    "1115779077962422",
+    "1098949122752977",
+    "1780853883195705",
+    "1684487993244481",
+    "2952841455054370",
+    "1064086583323093",
+    "1158491436527705",
+    "3115844495284358"
+   ],
+   "by_row": {
+    "V2": 3,
+    "V1": 5
+   }
+  },
+  "B": {
+   "n": 1,
+   "ad_ids": [
+    "1122130514055415"
+   ],
+   "by_row": {
+    "V1": 1
+   }
+  }
+ },
+ "launches": {
+  "A": {
+   "2026-05": 3,
+   "2026-06": 3,
+   "2026-07": 5,
+   "2026-08": 3,
+   "2026-09": 3,
+   "2026-10": 14,
+   "2026-11": 2
+  },
+  "B": {
+   "2026-05": 1,
+   "2026-10": 28,
+   "2026-11": 1
+  }
+ },
+ "breakdowns": {
+  "hook": {
+   "A": {
+    "video": {
+     "story_open": 15,
+     "question": 7,
+     "problem": 6,
+     "callout": 1,
+     "number_claim": 1
+    },
+    "image": {
+     "offer": 3
+    }
+   },
+   "B": {
+    "video": {
+     "story_open": 7,
+     "question": 6,
+     "callout": 4,
+     "number_claim": 2
+    },
+    "image": {
+     "callout": 8,
+     "offer": 2,
+     "question": 1
+    }
+   }
+  },
+  "offer": {
+   "A": {
+    "rate_return": 23,
+    "free": 7,
+    "none": 2,
+    "cashback": 1
+   },
+   "B": {
+    "rate_return": 26,
+    "none": 4
+   }
+  },
+  "angle": {
+   "A": {
+    "feature": 14,
+    "outcome": 14,
+    "convenience_speed": 2,
+    "trust_safety": 2,
+    "price_value": 1
+   },
+   "B": {
+    "outcome": 17,
+    "feature": 10,
+    "convenience_speed": 1,
+    "trust_safety": 1,
+    "unclear": 1
+   }
+  },
+  "language": {
+   "A": {
+    "hinglish": 30,
+    "english": 3
+   },
+   "B": {
+    "hinglish": 16,
+    "english": 14
+   }
+  },
+  "production": {
+   "A": {
+    "phone_lofi": 25,
+    "studio": 3,
+    "designed_static": 3,
+    "high_film": 2
+   },
+   "B": {
+    "phone_lofi": 16,
+    "designed_static": 11,
+    "animation_craft": 3
+   }
+  },
+  "face": {
+   "A": {
+    "presenter": 17,
+    "character": 8,
+    "actor_model": 7,
+    "none": 1
+   },
+   "B": {
+    "none": 13,
+    "presenter": 9,
+    "customer": 3,
+    "actor_model": 3,
+    "creator": 2
+   }
+  },
+  "destination": {
+   "A": {
+    "app": 33
+   },
+   "B": {
+    "app": 30
+   }
+  },
+  "deadline": {
+   "A": 0,
+   "B": 0
+  },
+  "campaign_tags": {
+   "A": [],
+   "B": []
+  }
+ },
+ "pacing": {
+  "A": {
+   "all": {
+    "videos": 25,
+    "duration_s": 66.4,
+    "cuts_per_10s": 1.52,
+    "wpm": 193,
+    "first_cut_s": 4.48
+   },
+   "by_row": {
+    "V1": {
+     "videos": 12,
+     "duration_s": 60.7,
+     "cuts_per_10s": 1.98,
+     "wpm": 221.0,
+     "first_cut_s": 5.02
+    },
+    "V2": {
+     "videos": 13,
+     "duration_s": 73.6,
+     "cuts_per_10s": 0.82,
+     "wpm": 177,
+     "first_cut_s": 2.53
+    }
+   }
+  },
+  "B": {
+   "all": {
+    "videos": 13,
+    "duration_s": 49.7,
+    "cuts_per_10s": 2.03,
+    "wpm": 211,
+    "first_cut_s": 3.57
+   },
+   "by_row": {
+    "V1": {
+     "videos": 6,
+     "duration_s": 60.7,
+     "cuts_per_10s": 0.79,
+     "wpm": 188.0,
+     "first_cut_s": 6.9
+    },
+    "V2": {
+     "videos": 4,
+     "duration_s": 47.05,
+     "cuts_per_10s": 2.22,
+     "wpm": 204.5,
+     "first_cut_s": 2.79
+    },
+    "V4": {
+     "videos": 3,
+     "duration_s": 44.7,
+     "cuts_per_10s": 3.0,
+     "wpm": 237,
+     "first_cut_s": 2.0
+    }
+   }
+  }
+ },
+ "standouts": {
+  "A": [
+   {
+    "ad_id": "1359085176241049",
+    "row": "V2",
+    "idea": "SM-c14",
+    "why": "Scene or story is where this brand differs most from the other (47% against 21%); this is the idea in that row with the most days live (200 days, 1 version).",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/17868682956656308/still00_0s.jpg",
+      "spoken": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/17868682956656308/still01_0.5s.jpg",
+      "spoken": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/17868682956656308/still02_1s.jpg",
+      "spoken": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/17868682956656308/still03_2s.jpg",
+      "spoken": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/17868682956656308/still04_3s.jpg",
+      "spoken": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 43.6,
+      "still": "videos/17868682956656308/still05_43.6s.jpg",
+      "spoken": "इसे कहते है fix income investment instrument"
+     },
+     {
+      "t": 55.3,
+      "still": "videos/17868682956656308/still06_55.3s.jpg",
+      "spoken": "हमें पहले से पता होता है, कितना पैसा मिलेगा, कब मिलेगा और किस देट को मिलेगा?"
+     },
+     {
+      "t": 65,
+      "still": "videos/17868682956656308/still07_65s.jpg",
+      "spoken": "यहाँ शॉर्ट टम बांट्स भी अवेलेबल हैं।"
+     },
+     {
+      "t": 75.1,
+      "still": "videos/17868682956656308/still08_75.1s.jpg",
+      "spoken": "Stable Money App पर अपटू 9 तू 12% पर अनम फिक्स रिटन्स के बांट अवेलेबल हैं"
+     },
+     {
+      "t": 79.2,
+      "still": "videos/17868682956656308/still09_79.2s.jpg",
+      "spoken": "Stable Money App पर अपटू 9 तू 12% पर अनम फिक्स रिटन्स के बांट अवेलेबल हैं",
+      "spoken_repeat": true
+     },
+     {
+      "t": 84.5,
+      "still": "videos/17868682956656308/still10_84.5s.jpg",
+      "spoken": "नहीं अब सिर्फ एक हजार से शुरू कर सकते हो"
+     },
+     {
+      "t": 89.7,
+      "still": "videos/17868682956656308/still11_89.7s.jpg",
+      "spoken": "प्लैट्फॉम से इंडिपेंडिंट"
+     },
+     {
+      "t": 99.3,
+      "still": "videos/17868682956656308/still12_99.3s.jpg",
+      "spoken": "और ये सच नहीं, जितनी जल्दी सम्झो उतना बहतर"
+     },
+     {
+      "t": 113.4,
+      "still": "videos/17868682956656308/still13_113.4s.jpg",
+      "spoken": ""
+     },
+     {
+      "t": 124.8,
+      "still": "videos/17868682956656308/still14_124.8s.jpg",
+      "spoken": ""
+     }
+    ]
+   },
+   {
+    "ad_id": "1019096030980624",
+    "row": "V1",
+    "idea": "SM-c18",
+    "why": "Person to camera is where this brand differs most from the other (53% against 63%); this is the idea in that row with the most days live (141 days, 1 version).",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/2255487748522741/still00_0s.jpg",
+      "spoken": "You are earning 30% less interest on your FD."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/2255487748522741/still01_0.5s.jpg",
+      "spoken": "You are earning 30% less interest on your FD.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/2255487748522741/still02_1s.jpg",
+      "spoken": "You are earning 30% less interest on your FD.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/2255487748522741/still03_2s.jpg",
+      "spoken": "You are earning 30% less interest on your FD.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/2255487748522741/still04_3s.jpg",
+      "spoken": "You are earning 30% less interest on your FD.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 5.6,
+      "still": "videos/2255487748522741/still05_5.6s.jpg",
+      "spoken": "And nahi, main taxes ki baat nahi kadi."
+     },
+     {
+      "t": 12,
+      "still": "videos/2255487748522741/still06_12s.jpg",
+      "spoken": "But yaar, ab 1-2% ke liye bank kaun switch karega?"
+     },
+     {
+      "t": 19.3,
+      "still": "videos/2255487748522741/still07_19.3s.jpg",
+      "spoken": "Oh! But what if switching was this easy?"
+     },
+     {
+      "t": 27.7,
+      "still": "videos/2255487748522741/still08_27.7s.jpg",
+      "spoken": "aur jis bank ka FD pasand aaye, usse book kar lo?"
+     },
+     {
+      "t": 32.3,
+      "still": "videos/2255487748522741/still09_32.3s.jpg",
+      "spoken": "100% दिजिटिल एन्टू एन्ट्रो न पेपरॉरक नहीं नहीं पर पर।"
+     },
+     {
+      "t": 38.7,
+      "still": "videos/2255487748522741/still10_38.7s.jpg",
+      "spoken": "अपने वार्ट पर का पर्जाएं पर आप पर्जाएं पर आप पर पर।"
+     },
+     {
+      "t": 48.1,
+      "still": "videos/2255487748522741/still11_48.1s.jpg",
+      "spoken": "आपको हर नियू बांक FD पे 5 Lakh का DIC GC इंशूरेंस का वो मिलता है।"
+     },
+     {
+      "t": 54.9,
+      "still": "videos/2255487748522741/still12_54.9s.jpg",
+      "spoken": "आप भी कर लो, STABLE MONEY, DOWNLOAD NOW."
+     },
+     {
+      "t": 57.8,
+      "still": "videos/2255487748522741/still13_57.8s.jpg",
+      "spoken": ""
+     }
+    ]
+   }
+  ],
+  "B": [
+   {
+    "ad_id": "1768821550864003",
+    "row": "I2",
+    "idea": "WW-c16",
+    "why": "Product or people is where this brand differs most from the other (82% against 33%); this is the idea in that row with the most days live (44 days, 3 versions).",
+    "frames": [
+     {
+      "t": null,
+      "still": "images/1768821550864003.jpg",
+      "spoken": ""
+     }
+    ]
+   },
+   {
+    "ad_id": "1577736273613796",
+    "row": "V4",
+    "idea": "WW-c04",
+    "why": "Text and motion is where this brand differs most from the other (16% against 0%); this is the idea in that row with the most days live (44 days, 4 versions).",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/1462175878537057/still00_0s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/1462175878537057/still01_0.5s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/1462175878537057/still02_1s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/1462175878537057/still03_2s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/1462175878537057/still04_3s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3.9,
+      "still": "videos/1462175878537057/still05_3.9s.jpg",
+      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 5,
+      "still": "videos/1462175878537057/still06_5s.jpg",
+      "spoken": "Maha baat kar raha hu bonds ki, US jay se country mein yeh saalo se popular hai, but India me se 10% logon ko iske baare me pata hai."
+     },
+     {
+      "t": 6.1,
+      "still": "videos/1462175878537057/still07_6.1s.jpg",
+      "spoken": "Maha baat kar raha hu bonds ki, US jay se country mein yeh saalo se popular hai, but India me se 10% logon ko iske baare me pata hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 11.2,
+      "still": "videos/1462175878537057/still08_11.2s.jpg",
+      "spoken": "Badi companies fund raise karne ke liye humse paise borrow karthi hai, aur badle mein aapko milta fix returns."
+     },
+     {
+      "t": 14,
+      "still": "videos/1462175878537057/still09_14s.jpg",
+      "spoken": "Badi companies fund raise karne ke liye humse paise borrow karthi hai, aur badle mein aapko milta fix returns.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 23.3,
+      "still": "videos/1462175878537057/still10_23.3s.jpg",
+      "spoken": "Maha invest karta hu Wint Wealth se, yaha par 3 lakh se bhi zyada investors hai aur aap sif 1000 rupay se bhi start kar sakte ho."
+     },
+     {
+      "t": 27.7,
+      "still": "videos/1462175878537057/still11_27.7s.jpg",
+      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।"
+     },
+     {
+      "t": 29.7,
+      "still": "videos/1462175878537057/still12_29.7s.jpg",
+      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।",
+      "spoken_repeat": true
+     },
+     {
+      "t": 31.5,
+      "still": "videos/1462175878537057/still13_31.5s.jpg",
+      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।",
+      "spoken_repeat": true
+     },
+     {
+      "t": 33.5,
+      "still": "videos/1462175878537057/still14_33.5s.jpg",
+      "spoken": "11% का fix return सिफ paper में लिखने कले नहीं था"
+     },
+     {
+      "t": 48.4,
+      "still": "videos/1462175878537057/still15_48.4s.jpg",
+      "spoken": ""
+     }
+    ]
+   }
+  ]
+ },
+ "ads": {
+  "1690045142234207": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Short-term bonds, 9 to 12% fixed returns",
+    "one_line": "A son asks his father about money landing in his account; Papa explains bonds, 9 to 12% returns and a Rs 1,000 start.",
+    "script_twin": null,
+    "offer_also": [],
+    "concept_id": "SM-c14"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 170,
+   "versions": 2,
+   "start_date": "2026-06-03",
+   "link": "https://www.facebook.com/ads/library/?id=1690045142234207",
+   "still": "videos/17868682956656308/still02_1s.jpg",
+   "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+   "headline": "",
+   "body": "Wealth बनानी है तो spread करो—एक जगह नहीं, हर asset में balance रखो Explained by Papa\n\nComment “Link” to get in your DM or Checkout in Bio 🔗",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar. Aapko pata hi hai kya hai? Haan pata hai, yeh bonds ke payouts hain. Bonds? Par papa yeh kya hota hai? Aur yeh paise aaye kahan se? Ek ek kar ke samjhat aahe hu, sit. Pahle samaj yeh paise aaye kahan se. Simple hai. Jaise tu kisi dost ko paise deta hai, aur wo kehta hai mai tujhe har maine interest dunga. Aur ek fixed time ke baad, tera pura paise bhi waapis kr dunga. Bonds bhi yehi hota hai. Bas usdost ki jaga, koi company aur government hoti hai. मैं वोने पैसा लेंड करता हूं, वो मुझे देते हैं, fix return, regular payouts, सीदा मेरे bank account पे और जब bond का tenure खतम होता है, मेरा original पैसा भी वापिस आ जाता है इसे कहते है fix income investment instrument और यह safe है, क्योकि यह savvy registrant broker के through होता है सब कुछ regulated है और transparent है हमें पहले से पता होता है, कितना पैसा मिलेगा, कब मिलेगा और किस देट को मिलेगा? पर पापा बान्ट्स में पैसे अटक तो नि जाते हैं? पहले मुझे भी यही लगता था पर फिर मुझे स्टेबल मनी अब के बारे में पता चला हैं यह सैबी रेजिर्ट ब्रोकर हैं। यहाँ शॉर्ट टम बांट्स भी अवेलेबल हैं। एक महिने, तीन महिने, चेई महिने के। और अगर पैसो की जुरत पड़े तो मचियावृती से पहले सेल भी कर सकते हैं। और रिटरन्स कितने मिलते हैं? Stable Money App पर अपटू 9 तू 12% पर अनम फिक्स रिटन्स के बांट अवेलेबल हैं इतना पर इंवेस्ट करने के ले बहुत पैसा चीए होगा न? नहीं अब सिर्फ एक हजार से शुरू कर सकते हो और बांट्स सीदे तुमहरे दीमेट अकांट में आते हैं प्लैट्फॉम से इंडिपेंडिंट बाबा आपने मुझे पहले क्यो नहीं बताया ये सब? क्योकि मुझे भी देर से पता चाला हमारी जेनरेशन को लगता था बान्स सिर्प बड़े इंवेस्टर्स के लिए होते हैं और ये सच नहीं, जितनी जल्दी सम्झो उतना बहतर इसक्लिये अप तुम्हें बता रहा हूं अगर आपके गर्मे भी कंवर्सेशन अभी तक नहीं हुई आज ही करे Stable Money app download करे, Stable Bonds section explore करे, link bio में है",
+   "asset": "17868682956656308",
+   "sample_views": {
+    "all": 1
+   }
+  },
+  "1359085176241049": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Short-term bonds, 9 to 12% fixed returns",
+    "one_line": "A son asks his father about money landing in his account; Papa explains bonds, 9 to 12% returns and a Rs 1,000 start.",
+    "script_twin": null,
+    "offer_also": [],
+    "concept_id": "SM-c14"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 200,
+   "versions": 1,
+   "start_date": "2026-05-04",
+   "link": "https://www.facebook.com/ads/library/?id=1359085176241049",
+   "still": "videos/17868682956656308/still02_1s.jpg",
+   "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar.",
+   "headline": "",
+   "body": "Wealth बनानी है तो spread करो—एक जगह नहीं, हर asset में balance रखो Explained by Papa\n\nComment “Link” to get in your DM or Checkout in Bio 🔗",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, main aapka bank statement dekh raha tha, yeh paise credit hote jaa rahe hain baar-baar. Aapko pata hi hai kya hai? Haan pata hai, yeh bonds ke payouts hain. Bonds? Par papa yeh kya hota hai? Aur yeh paise aaye kahan se? Ek ek kar ke samjhat aahe hu, sit. Pahle samaj yeh paise aaye kahan se. Simple hai. Jaise tu kisi dost ko paise deta hai, aur wo kehta hai mai tujhe har maine interest dunga. Aur ek fixed time ke baad, tera pura paise bhi waapis kr dunga. Bonds bhi yehi hota hai. Bas usdost ki jaga, koi company aur government hoti hai. मैं वोने पैसा लेंड करता हूं, वो मुझे देते हैं, fix return, regular payouts, सीदा मेरे bank account पे और जब bond का tenure खतम होता है, मेरा original पैसा भी वापिस आ जाता है इसे कहते है fix income investment instrument और यह safe है, क्योकि यह savvy registrant broker के through होता है सब कुछ regulated है और transparent है हमें पहले से पता होता है, कितना पैसा मिलेगा, कब मिलेगा और किस देट को मिलेगा? पर पापा बान्ट्स में पैसे अटक तो नि जाते हैं? पहले मुझे भी यही लगता था पर फिर मुझे स्टेबल मनी अब के बारे में पता चला हैं यह सैबी रेजिर्ट ब्रोकर हैं। यहाँ शॉर्ट टम बांट्स भी अवेलेबल हैं। एक महिने, तीन महिने, चेई महिने के। और अगर पैसो की जुरत पड़े तो मचियावृती से पहले सेल भी कर सकते हैं। और रिटरन्स कितने मिलते हैं? Stable Money App पर अपटू 9 तू 12% पर अनम फिक्स रिटन्स के बांट अवेलेबल हैं इतना पर इंवेस्ट करने के ले बहुत पैसा चीए होगा न? नहीं अब सिर्फ एक हजार से शुरू कर सकते हो और बांट्स सीदे तुमहरे दीमेट अकांट में आते हैं प्लैट्फॉम से इंडिपेंडिंट बाबा आपने मुझे पहले क्यो नहीं बताया ये सब? क्योकि मुझे भी देर से पता चाला हमारी जेनरेशन को लगता था बान्स सिर्प बड़े इंवेस्टर्स के लिए होते हैं और ये सच नहीं, जितनी जल्दी सम्झो उतना बहतर इसक्लिये अप तुम्हें बता रहा हूं अगर आपके गर्मे भी कंवर्सेशन अभी तक नहीं हुई आज ही करे Stable Money app download करे, Stable Bonds section explore करे, link bio में है",
+   "asset": "17868682956656308",
+   "sample_views": {
+    "all": 2
+   }
+  },
+  "1318322580372486": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A man to camera says idle account money is losing value and pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1752268299241939",
+    "offer_also": [],
+    "concept_id": "SM-c12"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 107,
+   "versions": 1,
+   "start_date": "2026-08-05",
+   "link": "https://www.facebook.com/ads/library/?id=1318322580372486",
+   "still": "videos/1768509427669435/still02_1s.jpg",
+   "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai.",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai. Aur tummise emergency fund ki tere treat kar rahe ho. Teeke, lekin wo paisha grow nahi ho raha hai. Bas apni value khora hai quietly har din. Lekin ek option hai, jaha yeh paisha grow bhi kar sakta hai aur easily accessible bhi rahe sakta hai. Wo option hai bonds on stable money app. Bonds aapko dethe hain up to 9-12% per annum ke fixed returns with regular payouts sida aapke bank account mein. Aur zarut padhe to aap sell bhi kar sakte ho, same day withdrawal hai. और दुपैर दो बजे से पहले सेल किया तो आज ही पैसा अकांट में जीरो इजिट फी कोई एकस्तर चाज नहीं सिर्फ एक हाजार से शुरू होता है विट जीरो ब्रूक्रेइज तो उस सोते हुए एमजिनसी फंट को अप काम पे लगाओ Stable Money App download करो और Stable Bonds section explore करो",
+   "asset": "1768509427669435",
+   "sample_views": {
+    "all": 3
+   }
+  },
+  "1044985944652867": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Monthly RD, up to 8.5% returns",
+    "one_line": "A presenter says short-term goals have no savings plan and pitches a Stable Money monthly RD, like an SIP for fixed deposits, at up to 8.5%.",
+    "script_twin": "1371387538214253",
+    "offer_also": [],
+    "ad_text_missing": true,
+    "concept_id": "SM-c05"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 119,
+   "versions": 1,
+   "start_date": "2026-07-24",
+   "link": "https://www.facebook.com/ads/library/?id=1044985944652867",
+   "still": "videos/2933453097006450/still02_1s.jpg",
+   "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Aap SIP karte ho apne retirement ke liye. 25-30 saal baad ka plan to ready hai. Lekin agle 8-12 mahine me jo naya phone lena hai, Goa trip karna hai, kar ki down payment de niye, uske liye koi plan hai? Shahid nahi. Aur honestly yeh problem sif aapki nahi hai. Hum sab log long term goals ke liye invest karte hai lekin jo cheeze jaldi chahiye hoti hai, unke liye koi saving plan hi nahi hota. Fir jab waqt aata hai, yaad ho stress hota hai, ya compromise. Lekin iska ek simple solution hai, RD yaani recurring deposit. Jaisa mutual funds mein SIP hoti hai, waise fix deposit mein RD hoti hai. हर महिन एक फिक्स रमाउन अटॉनमेटिकली इन्वेस लो जाता है कोई लम्सम की टेंच़ नहीं रितरन्स फिक्स रोते हैं इसले माकेट का कोई रिस्क नहीं होता स्टेबल मनी पर आप इंडिया के हायेस्ट रडी रेट्स एक्स्ट्रोर कर सकते हूँ up to 8.5% interest. आपका पैसा RBI regulated banks में directly invest होता है और पर bank 5 Lakh तक DICGC ishored भी होता है और best part आप कभी भी पैसा विड्रॉग कर सकते हो, installment pause या skip भी कर सकते हो और कोई नहीं नया savings account कहूलने के प्रटी नहीं परती. आज stable money पर 50 Lakh plus users हैं और रूपी 7000 कौड़ प्लस्से ज़ादा इंवेश किया जब जब आपका गोल पास आए पैसा पहले से रदि होगा. ना बरूइंग की जरूत ना कौम्परमाइस, कोई टेंशञ नहीं, स्टेबल मनी डवनोड नाओओ.",
+   "asset": "2933453097006450",
+   "sample_views": {
+    "all": 4
+   }
+  },
+  "912443471919863": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Agar aapka paisa bhi pichhle chhe mahine se faltu pada ho aur aap us paise pe ek achha return generate karna chahte ho, toh ye video aapke liye hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A man plants a tree while telling viewers with idle money to buy Stable Money bonds at 9 to 12% with monthly payouts.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true,
+    "concept_id": "SM-c11"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 95,
+   "versions": 1,
+   "start_date": "2026-08-17",
+   "link": "https://www.facebook.com/ads/library/?id=912443471919863",
+   "still": "videos/1760917031791377/still02_1s.jpg",
+   "hook_text": "Agar aapka paisa bhi pichhle chhe mahine se faltu pada ho aur aap us paise pe ek achha return generate karna chahte ho, toh ye video aapke liye hai.",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "अगर आपका पैसा भी पिछले चेश मैंणे से फाल्डू पड़ा हुआ हैं, और आप उस पैसे पे एक अच्छा रिटरन ज़िन्रिट करना चाते हूँ, तो ये वीडियो आपके लिए हैं. आजके ताम पे भुछ सारी गौमेंट बैक देन्टितीस और कम्पनीस भौन्ड के तुरू पैसा ओथाती हैं रेटेल इंवेस्टर से अगर आप भी एक रेटेल इंवेस्टर हैं तो आप भौन्ड में पैसा इंवेस्ट कर सकते हूँ जहां खम्पनीज आपको 9-12% का फिक्स्ट अनूल रितर्न ज़िन्रेट करती हैं और अगर भीच में पैसों की जरूद भी पर जाया तो आप बाणट्स को बेच सकते हैं मनतलब फूल कुंट्रोल आपके हातो में रहेगा और आपको मन्तली प्यावट भी जन्रेट होता रहेगा तो अब और वेट मत करो, स्टेबल मनी का अप्लिकेशन को ड़ाउलोड करो, उस पे अपना अकांट अपन करो और वहाँ पर भौट सारे बाणज दिये गये हैं। उसको इक्स्लोर करो और अपने पैसे को इन्वेस्ट करो। क्यूकि अगर आप अपने पैसे को इन्वेस्ट नहीं करोगे तो आप हमेशा काम ही करते रह जा होगे। और raw और real finance के लिए हमारे page को follow दरूँ कर लेना और एक पेर जरूँ लगाना इस monsoon season में और link मेरी bio में है उसे जरूँँ देख लेना",
+   "asset": "1760917031791377",
+   "sample_views": {
+    "all": 5
+   }
+  },
+  "1115779077962422": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Nani Tuition / How To Book FD Online'",
+    "hook": "story_open",
+    "hook_text": "Nani, main aaj aapko FD book karna sikhaungi.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c02",
+    "product": "FD booking in the app, up to 8.5% p.a.",
+    "one_line": "A staged family tutorial shows nani booking an FD in the Stable Money app, with a 7% versus 8.5% comparison.",
+    "script_twin": "1113897927910622",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 18,
+   "versions": 1,
+   "start_date": "2026-11-02",
+   "link": "https://www.facebook.com/ads/library/?id=1115779077962422",
+   "still": "videos/2183485612579648/still02_1s.jpg",
+   "hook_text": "Nani, main aaj aapko FD book karna sikhaungi.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Nani, main aaj aapko FD book karna sikhau ngi. Wo to mujhe aati hai beta. Aur aapko pata hai, FD aap online bhi book kar aasakti hai. Kaiso ho jayegaya online book? Main aapko sikhata hu, likhiye how to book FD online. Apne phone me play store gholiye. Open play store? Kar liya open play store. Ab yaha search kariye stable money. Stable Money, install. Haan kariye install stable money. Trusted by investors across India with 11,000 karod. इसमे ना बहुत सारे बैंग्स हैं तो आप देख सकती हैं वो किसकी फडी बनानी हैं? जो मैं फडी बनाईनी हैं वो 7% पे हैं तो ये तो 8.5 दे रहा हैं श्या ये सेफ हैं? इस आप पे सारे बैंग्स वो अर्भिया रेगॉलेटेड हैं अपने प्रभार्भीए रगुलेटिद हैं और पाज लाग तर आपके पैसे पर बैंक इंशॉर्ड होते हैं आप तो वो तो मुझे पता है जीसे लिए मैं डिफ्रिन-डिफ्रिन बैंक पे पाज-पाज लाग की करा रखी हैं पहले देखिये चूस कर लिजे कौनसे बैंट से करनी हैं। अब इसमें द्यूरेशन सिलेक करनी हैं कि अपने टाइम के लिए चाहिया दिखा। तो जासे लिए लिकराती हूं। पो अपनी अमांट लिखी हैं। तो अभी मैं 50,000 करती देखती चोटा माउंट तिकह आ? तीकह? अगर मुझे चाहि लगा प्राफ़ेडबल और तीकह लगा फिर मैं आगे बड़ा दूंगी. तो अप तो आगे नहीं नहीं भुक करनी, आईप खुद कर लेंगी? खुट अपनी खुट गरी हैं. ये बस खुटिन्यू करके हो गया? पेमेंट करेंगी. अच्छा पेमेंट करनी है पेमेंट. होगजा हैं जा? हूँ. कोई फाम वाम नहीं बरना हैं? कुछ नहीं बरना, सब डिटेल अप में ही आजाइंगी. तो हमारे पास क्या डिटेल कैसे आइंगी? ये सारा जो पासबुक सेकशन है न, उस में आपकी FD की डिटैयल दिखिनगी और जैसे जैसे इंटरेस भी बड़ता जायेगा वो भी उदरी शो होगा नानी अब आपकी दरा FD भी पर पराज़ाइ हैं पर पराज़ाइ हैं",
+   "asset": "2183485612579648",
+   "sample_views": {
+    "all": 6
+   }
+  },
+  "1646669466828779": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Airport lounge ke bahar hamesha aapko 2-3 log aise milenge, jo alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko lounge access nahi mil raha.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c08",
+    "product": "FD-backed credit card, free lounge access",
+    "one_line": "A man at a desk says lounge cards need big spends, then pitches a lifetime-free card from a Stable Money FD with 8 free visits.",
+    "script_twin": "935043619677161",
+    "offer_also": [
+     "rate_return",
+     "cashback"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1646669466828779",
+   "still": "videos/1444888800891750/still02_1s.jpg",
+   "hook_text": "Airport lounge ke bahar hamesha aapko 2-3 log aise milenge, jo alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko lounge access nahi mil raha.",
+   "headline": "100% Approval Credit Card",
+   "body": "Get a Stable Money FD-backed Credit Card with 100% approval\n✈️ 8 airport lounge visits\n💵 0.5% cashback\n🆓 Lifetime free, zero joining fee\n📈 FD earns up to 8.10% p.a. 🚫 No CIBIL check needed",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Airport launch ke bahar khamesha aapko 2-3 log aise milenge, jo ki alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko launch access nahi mil raha. Kyuki unke card pe koi na koi minimum spend criteria hoga, launch access ke liye monthly yaa phir quarterly jo unhe poora nahi kiya hoga. Aur yeh sirf inki problem nahi, kaafi cards jo hume pehle free launch access ka benefit dete the, wo ab devalue ho chuke hain. Yaan to launch access ko completely hata diya hai, yaan to har mahi ne ek bada amount karch karna zaruri kar diya hai. लेकिन एक कार्ट अभी भी है जहाँपे कोई मिन्यों लेकिन करिटेरिया नहीं है और फ्री दोमैस्टिक लाईज असस का बेनिफिट मिलता है आपको लगेगा अरे इसके लिए तो कोई नहीं कोई फ्री वाला प्रीमिम्म कार्ट चाहिये होगा बिलकुल नहीं एक लाइफ्टैंट फी क्रेट कार्ड है जो साल में आपको 8 फी लाईज अससेस का बेनिफिट देता है। बस Stable Money app download करो और sooner the small finance bank जोकि एक RBI regulated bank है इसमें एक FD book करो 8.5% तक इंट्रस्ट मिलता है और उसी FD के अगेस में आपको इंस्टिनलिटली एक life time free credit card इशू ओगा बतलब आपका पैसा FD में इंट्रस्ट अर्म करता रहता है और साथ में आपको card के benefits भी मिलते हैं 8 complementary domestic launch visits हर साल वो भी बिना किसी minimum spend के ये एक रूपे card है तो UPA payments भी कर सकते हूँ और उस पे 0.5% cashback अलग से free launch access चाही है बिना किसी spend के pressure के stable money app डवलोड करो",
+   "asset": "1444888800891750",
+   "sample_views": {
+    "all": 7
+   }
+  },
+  "2057230121811704": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title card: 'Papa Explaining / Jab bhi share market daraye, to purane tareeke apnaayein'",
+    "hook": "story_open",
+    "hook_text": "Papa, bolo beta, mere savings account mein 1 lakh rupaye pade hue hain, kuch karna chahiye kya?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c13",
+    "product": "Bank FDs up to 8.3%, via app",
+    "one_line": "A son worried about the share market asks his father about 1 lakh idle in savings, and is told FDs pay up to 8.3% and can be booked in the app.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "angle",
+     "row"
+    ],
+    "human_checked": false
+   },
+   "days": 148,
+   "versions": 2,
+   "start_date": "2026-06-25",
+   "link": "https://www.facebook.com/ads/library/?id=2057230121811704",
+   "still": "videos/17861189070656308/still02_1s.jpg",
+   "hook_text": "Papa, bolo beta, mere savings account mein 1 lakh rupaye pade hue hain, kuch karna chahiye kya?",
+   "headline": "",
+   "body": "Jab Share market daraye, To purane tareeke Apnaye ✅\n\nLink to download Stable Money App in Bio",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, molo beta, mere savings account me 1 lakh rupee padhe hua hai, kuch karna chahiye kya? Kya? Saving account me 1 lakh rupee? Beta aaj kal waha paise kaun rakhta hai? Arey papa, market kitni unpredictable ho gayi hai, wars aur tariff ki wajah se oil prices asmaan choor rahe hain Aur AI ki news se info sales, TCS jaise badi stocks bhi gir jata hai, market me invest karne me to dhar lakta hai बिटा कहे तो तुम सही रहे हो, अभी इक्विटी में सारा पैसा डालना रिस्की हो सकता है लेकिन सेबिंग अकांट भी सोलूशन तो नहीं है वहां सिब 2 या 3% इंटरस्ट मिलता है और इंफलेशन उससे कहीं जादा है वैसे अगर अवर प्राइस बढ़े तो इंफलेशन और भी बढ़ जाएगी सेबिंग अकांट में पैसा पढ़ा पढ़ा अपनी वैल्यू खोता रहता है बेटा तुमने कभी एपदी के बारे में सोचा है क्या? पर एपदी में भी रिटरन्स कम होते है ना 5-6% ही तो मिलता है ये गलत इंफॉरमेशन तुम कहां से लाते हो बेटा काफी बैंक्स अभी 8.3% तक इंटरस्टे दे रहे हैं अप अपड़ मतलब सेबिंग अकांट से 4-5 बुना जाएदा लेकिन वो सेफ होते हैं बिल्कुल सभी बैंक्स अर्भीइ रेगूलेटिट हैं और दी आइ सी जी शी जी जो अरभीइ की सबसिटरी हैं 5 लाग तक का इंशुरॉरस देती है पर बैंक पर इन बैंक्स में अकांट तो खुलना पड़ेगा ना नहीं बेटा बस स्टेबल मनी अब डाउनलोड करो और बिना कोई नहीं नहीं अकांट खोले स्रिफ तीन मिनट में इंडिया की हायेस्ट अफ़ी रेटस पर अपटी बूक कर लो पैसा सीदा बैंक में जायेगा कंफरमेशन वीट बैंक से ही आयेगी सही है पापा, मैं आजी स्टेबल मनी डावलोड करता हूं, अपने पैसे को काम पर लगाता हूं",
+   "asset": "17861189070656308",
+   "sample_views": {
+    "all": 8
+   }
+  },
+  "1094477860035639": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A man to camera says idle account money is losing value and pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1752268299241939",
+    "offer_also": [],
+    "concept_id": "SM-c12"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 31,
+   "versions": 1,
+   "start_date": "2026-10-20",
+   "link": "https://www.facebook.com/ads/library/?id=1094477860035639",
+   "still": "videos/1768509427669435/still02_1s.jpg",
+   "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai.",
+   "headline": "Upto 12% p.a. Fixed Returns with Bonds",
+   "body": "Earn upto 9–12%* p.a. fixed returns with Bonds\n🛡️ SEBI-registered broker\n🔓 Start with just ₹1,000",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai. Aur tummise emergency fund ki tere treat kar rahe ho. Teeke, lekin wo paisha grow nahi ho raha hai. Bas apni value khora hai quietly har din. Lekin ek option hai, jaha yeh paisha grow bhi kar sakta hai aur easily accessible bhi rahe sakta hai. Wo option hai bonds on stable money app. Bonds aapko dethe hain up to 9-12% per annum ke fixed returns with regular payouts sida aapke bank account mein. Aur zarut padhe to aap sell bhi kar sakte ho, same day withdrawal hai. और दुपैर दो बजे से पहले सेल किया तो आज ही पैसा अकांट में जीरो इजिट फी कोई एकस्तर चाज नहीं सिर्फ एक हाजार से शुरू होता है विट जीरो ब्रूक्रेइज तो उस सोते हुए एमजिनसी फंट को अप काम पे लगाओ Stable Money App download करो और Stable Bonds section explore करो",
+   "asset": "1768509427669435",
+   "sample_views": {
+    "all": 9
+   }
+  },
+  "1624124105890067": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Aapke savings account mein 50,000 se zyada rakhne mein aapka hi nuksaan hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c20",
+    "product": "FD comparison and booking, up to 8.5%",
+    "one_line": "A woman says savings accounts pay 2-3% and own-bank FDs 5-6%, so compare FDs on Stable Money for up to 8.5%.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 2,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1624124105890067",
+   "still": "videos/922795270702177/still02_1s.jpg",
+   "hook_text": "Aapke savings account mein 50,000 se zyada rakhne mein aapka hi nuksaan hai.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "आपके savings account में 50,000 से जादा रखने में आपका ही नुक्सान है क्यूकि जादातर banks savings account में सिर्व 2 से 3% interest देते है. और इससे बचने के लिए लोग FD book करते है लिकिन बिना rates compare की हैं अपने ही bank में और उन्हें मिलता है सिर्व 5 से 6% जबकि कुछ RBI Regulated Banks 8.5% का इंटरेस दे रहे हैं FDs पर सेम पैसा, अलग देशिजन और 30-40% जादा रेटरन यहीं पे STABLE MONEY काम आता है एक APP जहां पे अलग-अलग RBI Regulated Bank के FDs कम्पैर करके फाँच मेट में FD book कर सकते हो नया सेविंग्स अकांट ने खुलना और आपका पैसा स्टेबल मनी के पास नहीं आता सीधा बांक जाता है। हर बांक पर 5 लाग तक दिएए सीजी सी इंशारेंस में तार्थ 60 लाग से जादा लोग अप अल्रेडी स्टेबल मनी यूस कर रहे है। अगर आप भी अपने पैसे को बिना रिस्क लिए थोड़ा और समार्टली ग्रो करना चाते हैं, तो स्टेबेल मनी डाउनलोड करो।",
+   "asset": "922795270702177",
+   "sample_views": {
+    "all": 10
+   }
+  },
+  "1098949122752977": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title card: 'Nani Tuitions / How To Book FD Online'; spoken: 'Nani, FDs bhi aapki thodi modern ho gayi hain'",
+    "hook": "story_open",
+    "hook_text": "Nah nah, aaj main aapko FD banana sikhaungi.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c02",
+    "product": "FD booking in app, up to 8.5%",
+    "one_line": "A grandmother is shown how to book an FD online in the Stable Money app, asks if it is safe, and learns about 8.5% and the 5 lakh cover.",
+    "script_twin": "2183485612579648",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "row",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 18,
+   "versions": 1,
+   "start_date": "2026-11-02",
+   "link": "https://www.facebook.com/ads/library/?id=1098949122752977",
+   "still": "videos/1113897927910622/still02_1s.jpg",
+   "hook_text": "Nah nah, aaj main aapko FD banana sikhaungi.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Nah nah, aaj main aapko FD banana sikhahungi. Arre FD to main saalo se banahre hain, tum kya sikhahungi maji? Par aapko bat aap FD online bhi book ho sakti hai. Main ne to aastak nahi suna nahi dekha, kyunki main to aamesha bank se hi kar aati hu. Thik hai, to aaj aapko yehi sikhahungi. Thik hai, likhi hai how to book FD online. How to book FD online? Play Store mein jaakhe stable money ki app download kariye. Okay. Search stable money. Search karke type karlo na. हा S T A P STABLE M O N D MONEY STABLE MONEY हा INSTALL कर लिए STABLE MONEY हा इसके पाथ बता हूँ फिर अब OPPEN APP OPPEN APP TRUSTED BY INVESTORS ACROSS INDIA WITH 11000 CR नहीं हां अलेग अलेग बैंकस दिये हैं हां F D यह तो 8.5 दे रहा है मेरे बैंक से जादर दे रहा है तो क्या यह सेफ है? इस आप पे सारी बैंक्स अर्भी आई रेगूलेटेड हैं और पाच लाग तक आपके पैसे पर बैंक इंशॉर्ड होते हैं आप यह तो मुझे बालूए हैं, पाच लाग तक का हूँ तो नानी Va take From\"! तो ले umm, 1 ye फिर अमाउण दा लि ता है? कफ्या तयू,</ lethalты aayam card hai? फिर ऐवातरा। to investing! कफ्या थयू,\"तुलुजुर Cl그� 454,000 तया। listariya.\"tay.\"।। तया\",大दा siyad-, त्पू? अच्छा अपने पून में जेइगी। बिल्कोल यहाँ पे जो पासबुक सेक्षण हैं उसमें सारी FD's की दीटेयर्ज होगी। और जैसे जैसे इंटरस बरता जायेगा वो भी वहीं शो करेगा। नानी, FD's भी आपकी द्रा मौडन हो गयी हैं। बनी पालोस रहे है प्राद।",
+   "asset": "1113897927910622",
+   "sample_views": {
+    "all": 11
+   }
+  },
+  "1294109162873838": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aur bhai, tu ne nayi gaadi li?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "SM-c21",
+    "product": "Recurring Deposit (RD), 7-8% returns",
+    "one_line": "Two friends outside a car showroom: one explains he paid for his new car with a Stable Money RD that works like an SIP.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production",
+     "angle",
+     "hook_text"
+    ],
+    "human_checked": false
+   },
+   "days": 177,
+   "versions": 1,
+   "start_date": "2026-05-27",
+   "link": "https://www.facebook.com/ads/library/?id=1294109162873838",
+   "still": "videos/996386489755150/still02_1s.jpg",
+   "hook_text": "Aur bhai, tu ne nayi gaadi li?",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Aur bhai, tu ne nahi ghaidi li? Haa, le toh li. But bhai, apni salary toh same hai, toh tere pa sikne paise aaye kahan se? Teg, sach batau, jab teri salary aati hai, tu sab karch deta hai, lekin main asa nahi karta hai. Madhna? Teg samjata hu, main ne na ek RD set ki thi, recurring deposit. Mutual Fund ki duniya mein jaisa SIP hota hai, waise hi fixed deposit ki duniya mein RD hota hai. Jaisa hi salary aati hai na, kuch part automatically RD mein chala jata hai. Aur return ki tana milta hai ispe? FD ki tarah 7-8%, lekin best part pata hai kya? यहाँ पर कोई लॉकिन नहीं है। तुम इमर्जनसी के बक्त आडि रोक भी सकते हो पर पैसा निकाल भी सकते हूँ। चाब! बाई, सही है यह तो कहा की तू नहीं आडि? स्टेबल मनी आप पर यहाँ पर इंजिया के हाईएस्ट आडि रेट्स अवेलेबल है। शेफ है? देख, अभी तक स्टेबल मनी आप पर 7,000 करोड से गी ज्यादा का इंवेसमेंट हो चुका। और जितनी भी बैंक लिस्टेड है न, उसके उपर 5,00,000 का पैसा दी आई सी जी सी के तू इंशॉर्ड है। चो अरभी आई की सब्सीडरी है। अप समझ आया है कि गाडि आई कहां से तू भी स्टेबल मनी आप डाउलोड कर नेक्स गाडि तेरी हो सकती हैं",
+   "asset": "996386489755150",
+   "sample_views": {
+    "all": 12
+   }
+  },
+  "1414345880897775": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Aapke savings account mein abhi kitna balance hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": "SM-c17",
+    "product": "FD, up to 8.5% against 2-3% savings",
+    "one_line": "Street interviews open on savings balances, then a presenter says a Stable Money FD pays up to 8,500 rupees on 1 lakh.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "production"
+    ],
+    "human_checked": true
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1414345880897775",
+   "still": "videos/2194829677911441/still02_1s.jpg",
+   "hook_text": "Aapke savings account mein abhi kitna balance hai?",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Aapke savings account mein abhi kitna balance hai? Honge kuch 2-3 lakh. 1 lakh ke aapas hoga? Aapke savings account mein abhi kitna balance hoga? Lakh ba kuch 10 lakh. Lok savings account mein itna paisa rakhte hai aur unhe yeh nahi pata ki unki bank unhe siv 2-3% interest deta hai. Matlab 1 lakh rupay pe aapko milta hai siv 2-3,000 rupay as interest. Par agar yehi paisa aap stable money pe FD mein invest karoge to aapko milegi India's highest FD rates upto 8.5% yani ussi 1 lakh par ab aapko milega 8500 rupees as interest matlab 2-3 guna zyada return aapki FD RBI regulated bank me book hoti hai aur aapka paisa upto 5 lakhs insured hota hai per bank aap ye paisa kabhi bhi withdraw kar sakte ho aur ye saara paisa instantly aapke existing savings account me credit ho jayega to aap bhi apne savings account ke paisa ko kaam pe laga hiye aaj hi stable money app download kare और पाज मिनिट में अपने लेक एक FD बुक करे स्टेबल मनी ड़ाउलोड नहीं",
+   "asset": "2194829677911441",
+   "sample_views": {
+    "all": 14
+   }
+  },
+  "2826793054387425": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aapne small finance banks ke baare mein suna hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": "SM-c03",
+    "product": "Small finance bank FDs, up to 8.5%",
+    "one_line": "Two people in a podcast set explain that small finance banks are RBI regulated and pay up to 8.5% on FDs against 5-6% at big banks.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "row",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 2,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=2826793054387425",
+   "still": "videos/1164032119285655/still02_1s.jpg",
+   "hook_text": "Aapne small finance banks ke baare mein suna hai?",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "अबने small finance banks के पारेमें सुना है? नहीं, वो क्या होता है? देखो, small finance banks भी RBI regulated banks ही होते हैं. ये पहले बड़े financial institution जैसे NBFCs थे जिन्हें RBI ने रीसेंगी banking license दिया हैं. और जब ये banks थोड़े और बड़े हो जाते हैं, तो RBI ने एक universal bank में upgrade कर देता हैं. और इनका इर्माण्टच क्या होता है? आपके और मेरे जएसे इंवेस्टिस के लिए सबसे बढ़ा इर्माण्टच यही है। फिक्स दिपाजित्स में रेगिलब बैंग से जादा रिटर्न मिलता हैं. बड़े बैंग्स आपको 5-6% देंगे, राइट? और यही बैंग्स आपको अपनी FD पर अप टू 8.5% तक का इंटरस देते हैं, मतलब 30-40% साधा रटॉर. तो क्या बहर बैंग्में नया सेविंग्स अकाउन पड़ेगा सिप FD कुलने के ले? नहीं बिलकुल नहीं बस स्टेबिल मनी आप ड़ाउलोट करो सीदा इन बैंक्स की FD rates कम्पैर करो और अपनी FD app के तुरू ही बुक कर दो कोई नया सेविंग्ज अकाउन नहीं कुलेगा कोई पेपर्वॉक नहीं 100% डिजिटल जोनी और सेव्टी का क्या? जैसे की मैंने बताया, ये बैंक्स भी RBI रगुरेटेट होते हैं और हर बैंक में आपको 5 लाग तक का DIC GC इंशुरेंस बिलता हैं अभी तक 60 लाग से जादा लोगों ने इस्टेबिल मनी यूस किया है और अराउन 7,000 करोर से जादा का इंवेसमेंट अवरी भूछ रहे हैं अपना. अच्छा तो लोग अवरी इसका अर्वाइन्टेज ने रहे हैं? बिल्कूल तो आप भी स्टेबल मनी अब ड़ाउलोड करो और अपने री एक हाई इंट्रिस्ट वाली एफकी बुक करो.",
+   "asset": "1164032119285655",
+   "sample_views": {
+    "all": 15
+   }
+  },
+  "3115844495284358": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Mohit!",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A couple argue over idle account money, then a man to camera pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1768509427669435",
+    "offer_also": [],
+    "concept_id": "SM-c10"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook_text",
+     "row"
+    ],
+    "human_checked": false
+   },
+   "days": 28,
+   "versions": 2,
+   "start_date": "2026-10-23",
+   "link": "https://www.facebook.com/ads/library/?id=3115844495284358",
+   "still": "videos/1752268299241939/still02_1s.jpg",
+   "hook_text": "Mohit!",
+   "headline": "Upto 12% p.a. Fixed Returns with Bonds",
+   "body": "Earn upto 9–12%* p.a. fixed returns with Bonds on Stable Money\n🔄 Sell anytime — no lock-in period\n📈 Regular payout option available on some bonds",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
+   "asset": "1752268299241939",
+   "sample_views": {
+    "all": 16
+   }
+  },
+  "1780853883195705": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Mohit!",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A couple argue over idle account money, then a man to camera pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1768509427669435",
+    "offer_also": [],
+    "concept_id": "SM-c10"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook_text",
+     "row"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1780853883195705",
+   "still": "videos/1752268299241939/still02_1s.jpg",
+   "hook_text": "Mohit!",
+   "headline": "Upto 12% p.a. Fixed Returns with Bonds",
+   "body": "Earn upto 9–12%* p.a. fixed returns with Bonds on Stable Money\n🔄 Sell anytime — no lock-in period\n📈 Regular payout option available on some bonds",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
+   "asset": "1752268299241939",
+   "sample_views": null
+  },
+  "1684487993244481": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Credit card lena hai toh options bahut hain.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c09",
+    "product": "FD-backed lifetime-free credit card",
+    "one_line": "A mic-holding presenter pitches a lifetime-free credit card from a Stable Money FD that earns interest and gives 8 free lounge visits.",
+    "script_twin": null,
+    "offer_also": [
+     "rate_return"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": true
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1684487993244481",
+   "still": "videos/1472636994553170/still02_1s.jpg",
+   "hook_text": "Credit card lena hai toh options bahut hain.",
+   "headline": "Earn cashback on every UPI txn",
+   "body": "FD-Backed Credit Card for UPI — Earn 8.10% interest + 0.5% cashback\n🤳 UPI Integrated — Link to GPay or PhonePe and pay any merchant instantly.\n✈️ Travel in Style — 8 complimentary domestic airport lounge visits with zero spend-based targets.\n⚡ 100% Approval — No income proof or credit history needed. Instant virtual card.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Credit card lena hai to options bahut hai. Lekin kya kabhi kisi aise card ke baadhe me suna hai jo tumhe paise kama ke deta ho? Aao main tumhe stable money aur suyo the bank ke FD back the credit card ke baadhe me batata ho. Yeh ek lifetime free credit card hai. Jaha tumhe apni FD amount pe 8% tak ka interest rate milta hai aur credit card ke multiple benefits ho hai. Saal ke 8 airport launch visits free, bina kisi minimum spending requirement ke. Koi hidden charges nahi, koi annual maintenance fees nahi. तो यह एक ऐसा काड है जो तुमसे पैसे लेता भी नहीं और एफडी इंटर्स्क के रूप में तुम्हें पैसे कमाखर भी देता है। बस स्टेबल मनी एप पर सुयो दे बैंग की एफडी करवानी है और तुम्हारा काड इंस्टेंड इश्यू हो जाएगा। और सबसे इंपहुटिन्ट तुमहारी क्रेडित लिमिट तुमहारी credit limit तुम्हारी credit limit बजाता है। तुम हतिन चौछ और नहीं क्रेडित लिमिट फिलिक्सिबिलिकी है। सोच क्या रहे हैं ? आओर प्रेमियम क्रेडिट कार्ट पाओ वो पी में . दाउलोड अप अप नहीं।",
+   "asset": "1472636994553170",
+   "sample_views": {
+    "all": 17
+   }
+  },
+  "1019096030980624": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "You are earning 30% less interest on your FD.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": "SM-c18",
+    "product": "FD marketplace, 8.5% top rate",
+    "one_line": "A presenter says your FD earns 30% less than the best 8.5% rate and that Stable Money makes switching as easy as matrimony.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production",
+     "angle",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 141,
+   "versions": 1,
+   "start_date": "2026-07-02",
+   "link": "https://www.facebook.com/ads/library/?id=1019096030980624",
+   "still": "videos/2255487748522741/still02_1s.jpg",
+   "hook_text": "You are earning 30% less interest on your FD.",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "You are earning 30% less interest on your FD. And nahi, main taxes ki baat nahi kadi. India ka highest FD rate is 8.5%. Aur aapka bank, bas 5-6% de raha hai. But yaar, ab 1-2% ke liye bank kaun switch karega? Naya savings account kholo, paperwork karo, fir FD book. Oh! But what if switching was this easy? Bus stable money pe jaao, duniya bhar ke FDs compare karo aur jis bank ka FD pasand aaye, usse book kar lo? यह जब का मात्रिमोनी पर आप आप FD के लिए जाएं तो RBI Regulated Bank पर पर आप पराज़े पर। 100% दिजिटिल एन्टू एन्ट्रो न पेपरॉरक नहीं नहीं पर पर। अपने वार्ट पर का पर्जाएं पर आप पर्जाएं पर आप पर पर। क्यूकि आपकी FD सीदा RBI Regulatory Bank के साथ बुक होती है, आपको हर नियू बांक FD पे 5 Lakh का DIC GC इंशूरेंस का वो मिलता है। तब ही तो 50 Lakh से जादा यूसर्स अल्रेडि 7000 करोर से जादा इंवेस्ट कर चुके हैं। आप भी कर लो, STABLE MONEY, DOWNLOAD NOW.",
+   "asset": "2255487748522741",
+   "sample_views": {
+    "all": 18
+   }
+  },
+  "1462158732420553": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c05",
+    "product": "Monthly RD, up to 8.5% returns",
+    "one_line": "A presenter says short-term goals have no savings plan and pitches a Stable Money monthly RD, like an SIP for fixed deposits, at up to 8.5%.",
+    "script_twin": "2933453097006450",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1462158732420553",
+   "still": "videos/1371387538214253/still02_1s.jpg",
+   "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+   "headline": "RD at Up to 8.5% returns",
+   "body": "Save monthly and earn up to 8.5% with a Stable Money RD\n📈 Start small, grow big\n🛡️ DICGC insured deposits\n📲 100% digital, no paperwork\n💰 Build wealth one month at a time",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Aap SIP karte ho apne retirement ke liye. 25-30 saal baad ka plan to ready hai. Lekin agle 8-12 mahine me jo naya phone lena hai, Goa trip karna hai, kar ki down payment de niye, uske liye koi plan hai? Shahid nahi. Aur honestly yeh problem sif aapki nahi hai. Hum sab log long term goals ke liye invest karte hai lekin jo cheeze jaldi chahiye hoti hai, unke liye koi saving plan hi nahi hota. Fir jab waqt aata hai, yaad ho stress hota hai, ya compromise. Lekin iska ek simple solution hai, RD yaani recurring deposit. Jaisa mutual funds mein SIP hoti hai, waise fix deposit mein RD hoti hai. हर महिन एक फिक्स रमाउन अटॉनमेटिकली इन्वेस लो जाता है कोई लम्सम की टेंच़ नहीं रितरन्स फिक्स रोते हैं इसले माकेट का कोई रिस्क नहीं होता स्टेबल मनी पर आप इंडिया के हायेस्ट रडी रेट्स एक्स्ट्रोर कर सकते हूँ up to 8.5% interest. आपका पैसा RBI regulated banks में directly invest होता है और पर bank 5 Lakh तक DICGC ishored भी होता है और best part आप कभी भी पैसा विड्रॉग कर सकते हो, installment pause या skip भी कर सकते हो और कोई नहीं नया savings account कहूलने के प्रटी नहीं परती. आज stable money पर 50 Lakh plus users हैं और रूपी 7000 कौड़ प्लस्से ज़ादा इंवेश किया जब जब आपका गोल पास आए पैसा पहले से रदि होगा. ना बरूइंग की जरूत ना कौम्परमाइस, कोई टेंशञ नहीं, स्टेबल मनी डवनोड नाओओ.",
+   "asset": "1371387538214253",
+   "sample_views": {
+    "all": 19
+   }
+  },
+  "2952841455054370": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "title card: 'Papa Explaining / Passive Income Kaise Banaye'",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c04",
+    "product": "Monthly payout FDs",
+    "one_line": "A son asks his father why money lands in his account every month, and learns about monthly payout FDs booked on Stable Money.",
+    "script_twin": "966609952841691",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "row",
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=2952841455054370",
+   "still": "videos/1199052999315565/still02_1s.jpg",
+   "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahi ne credit ho rahe hain. Yeh kya hai? Haa beta, yeh meri FD hai. Main ne monthly payout wala option select kar rakh hai. Monthly Payout? FD mein aisa bhi koi option hota hai? Dekho beta, normal FD mein kya hota hai, aap paise daalte ho, poora tenure wait kar te ho, aur end me principal aur interest ek atha milta hai. Lekin monthly payout FD mein interest har mahi ne, see the bank account me credit hota raha tha hai. Oh! Matlab aapki FD aapko har mahi ne income deri hai, bina kuch kiye? हां और ये कोई स्टाइड हसल या ट्रेडिंग का जुगाड नहीं हैं मारकेट चाहें गिरें या उपर जाए तुमहारा प्याउट फिक्स रहता है पापा ये सेफ है क्या? मैंने ये FD RBI Regulated Banks में बुक कराई है बेटा और ये 5 लाग कपर बैंक ये पैसे इंशॉरड भी होते हैं। कहां से बुक किया आपना पापा इसको? स्टेबल मनी पर अलग-अलग RBI रगुएटिट बैंक की मन्त्ली प्याउड एप्टी रेट्स एक ही जगा कम्पेर कर लो, वेस्ट अपशन चुनो और दिजिटल कईवाइसी करो, FD book बिना ब्रांच जाए, और पे आउट्स, रेनिवल, मचार्टी, सब एकी डाशबोट पर ट्रैक होता है, पूरी FD का कंट्रोल तुमहारे फोन पर. ये तो सही है पापा, मैं अबी जाता हूं और स्टेबल बनी का आप डाउनॉड कर लेता हूं",
+   "asset": "1199052999315565",
+   "sample_views": {
+    "all": 20
+   }
+  },
+  "2894685200924911": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, mujhe to gaadi leni thi, uske liye maine SIP setup kar diya.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c16",
+    "product": "Monthly Recurring Deposit (RD), up to 8.5%",
+    "one_line": "A dad tells his son to stop his car-fund SIP and use a monthly Stable Money RD for safe, fixed returns.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=2894685200924911",
+   "still": "videos/2086076648968459/still02_1s.jpg",
+   "hook_text": "Papa, mujhe to gaadi leni thi, uske liye maine SIP setup kar diya.",
+   "headline": "Invest Monthly - Earn Steadily",
+   "body": "\"Build your future fund effortlessly — earn up to 8.5% with Stable Money RD\n💰 Set once, grows automatically\n📲 Fully digital process\n🔒 DICGC insured\n📄 No paperwork, no branch visits\"",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, mujhe to gadi lehni thi, uske leh maine SIP setup kar diya. Arre beta, SIP kyu setup kiya? Car to tumhe agle saali lehni hai na? Haa papa, to market me 12-13% return to mili jaayega na, car lehne me help hogi. Nahi beta, aisa sochna galat hai. Isle 2 saal se market ne achha return nahi diya hai. Aur abhi bhi geopolitical situation kaafi volatile hai. Aur jab tumhe gadi lehni ho, tam market niche hua, tumhe loss me sell karna padega. Baat to sahi hai, to car ke liye paise kaise invest karu? अगर तुमारे गोल शॉर्ट टम हैं, तो उसके लिए FD जैसे प्रेडिक्तेबल और सेव अपशन ही बैस्ट हैं। लेकिन अभी तो मेरे पास पूरा अमांट ही नहीं हैं FD कराने के लिए, इससे ले ही तो SIP सोचा था, हर माईने थोड़ा थोड़ा सेव करना था। आप तो बेटा, recurring deposit करो, जैसे mutual fund में SIP होता है, वैसे ही FD की दुनिया में RDA होता है, monthly invest करो, fully automated और fix return मिलेगा, market चाहि उपर हो या निचे. सही है, पर कहां करनी है यह RDA? stable money पर, यहां इंडिया के highest RDA rate मिलते हैं, RBI regulated banks में पूरा digital booking process है और कभी भी पैसे विट्रॉग करतने की सुविदा है RDI installment pause भी कर सकते हूँ अच्छा फिर मैं जल्दी से अपनी SIP रोकता हूँ और stable money में RDI start करता हूँ",
+   "asset": "2086076648968459",
+   "sample_views": {
+    "all": 21
+   }
+  },
+  "1696884795431012": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yaar, mere saving account mein saadhe chaar lakh pade hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c07",
+    "product": "FDs at up to 8.5%",
+    "one_line": "Two people at home compare 2.5% on a savings balance of 4.5 lakh with 8.5% on a Stable Money FD, then point to DICGC cover and the app.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "row",
+     "face"
+    ],
+    "human_checked": true
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1696884795431012",
+   "still": "videos/1419759219573556/still02_1s.jpg",
+   "hook_text": "Yaar, mere saving account mein saadhe chaar lakh pade hain.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Yahaar mere saving account me saadhe saad laakh pade hai. Ek baat bata, 2.5% return zyada hota hai ya saadhe 8%? Obviously saadhe 8% To phir saving account me itna paise kyu rakh rakh hai? Itni mehnat se kamaya hai. Yahaan se 2-2.5% return milta hai. Inflation bhi beat nahi ho gayi. FD karale saadhe 8% ka return mil jaega. Oh hello, mera bank seif 6% de raha hai. To mat banwa apne bank se? Stable Money par itne saare RBI regulated banks hai. Saadhe 8% ka return mil raha hai? DICGC का 5 लाग तक का insurance भी है और bank जाके account भी नहीं खोलना ये तो बहुत सही है वही तो अगर आपको भी FD पर जादा इंटरेस चाहिये तो अभी stable money app download कर लो",
+   "asset": "1419759219573556",
+   "sample_views": {
+    "all": 23
+   }
+  },
+  "1422041222644076": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Influencers ne FD ko bahot zaleel kiya, lekin aaj sab ke sab chup hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c01",
+    "product": "Fixed deposits, up to 8.5% p.a.",
+    "one_line": "A man says influencers mocked FD but it beat the stock market, calls FD your emergency fund, and promotes 8.5% rates on Stable Money.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1422041222644076",
+   "still": "videos/1061581183380693/still02_1s.jpg",
+   "hook_text": "Influencers ne FD ko bahot zaleel kiya, lekin aaj sab ke sab chup hain.",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Influencers ne FD ko bahot zaleel kiya, lekin aaj sabke sab chup hai. Kyuki issi boring FD ne unke pyare stock market ke returns ko beat kar di. Apne nifty 50 ko dekhlo, 2 saal mein 2%, jaha boring se FD ne saalana 1.5% diya. Ab koi aaj aajega comment. Lekin equity ne historically FD se za... Chalo maan lo mai 100% equity mein invested raha ho, aur kal ko mri job chali gai, yaa phir landlord na bola ghar khaali khar, phir to loss mein vechna padega na. मेरे भाई जब बुरा वक्त आता ना तब बचाने सिफ वो बूरिंग सी FD आती है क्योंकि ये तुमहारा एमर्जन्सी फंड है। और अप तो तुमें इंडिया का हाईयस्ट FD रेट एट पॉंट फाईप्रषन बिल रहा है स्टेबल मनी के आप पर। यहाँ तुम RBI Regulated तौप बैंक्स के FD रेट्स को कम्पैर कर सकते हो और दिरेक्ली बुक कर सकते हो वो भी बिना कोई नया savings अकांट खोली नहीं कोई lock-in या hidden fees नहीं और अपकोर्स 5 लाक रुपय का insurance RBI के DICGC के थोड़ 50 lakh users ने 7000 करोड से ज्यादा इन्वेस्ट कीए हैं. आप का नाम है Stable Money. Download Now.",
+   "asset": "1061581183380693",
+   "sample_views": {
+    "all": 24
+   }
+  },
+  "1409564451139620": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "A boarding pass aur ID?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "SM-c06",
+    "product": "FD-backed credit card, free lounge access",
+    "one_line": "Two friends on a video call before a flight: one eats free at the lounge using a lifetime-free credit card he got with a Stable Money FD.",
+    "script_twin": null,
+    "offer_also": [
+     "cashback",
+     "rate_return"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 93,
+   "versions": 1,
+   "start_date": "2026-08-19",
+   "link": "https://www.facebook.com/ads/library/?id=1409564451139620",
+   "still": "videos/1402156101838563/still02_1s.jpg",
+   "hook_text": "A boarding pass aur ID?",
+   "headline": "Unlock 8 free airport lounge access",
+   "body": "The credit card that pays you back — Stable Money FD-backed RuPay Card\n📈 Grow your wealth with up to 8.1% FD returns\n💵 0.5% cashback on all spends\n⚡ Instant approval | No annual fees\n✈️ 8 free domestic lounge visits annually",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "A boarding pass aur ID? Rakliya. Okay, charger? Yeh raha. Suno, khaani ka kuch chak lena ghar se, tum hai batay airport pe sab kita mahinga hota hai. Arey tu relax kar yaar. Airport pe mera khaana ekdum free hai aaj. Kaisa? Lounge pe haram se patke khauga na ma? Ek minute, peri paas lounge access wala credit card kaunta hai? Mane stable money pe FD book kar hi thi na. Haan. FD ke saad mujhe credit card mila tha. Har saal 8 lounge access bilkul free. Par iska kuch minimum spend criteria to hoga? Arey koi minimum spend criteria nahi hai. और इस कार्ड भी लाइफ्टाम के लिए फ्री है। यह तो बहुत सेई है याअई! मैं बूल रह। तुम भी अपलाए करो! Hi FD Returns! फ्री लाउज आक्सिस! इस कार्ड के साथ तुम इप्याइ पेमेंट भी कर सकते हूँ! और तो और 0.5% का cashback भी विलेगा. Wow! चल, see you. अगर आपको free lounge access चाहिए, से बिल्मानी, download now.",
+   "asset": "1402156101838563",
+   "sample_views": {
+    "all": 25
+   }
+  },
+  "2029258324332952": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "character",
+    "founder_evidence": "caption: 'Papa Explaining'",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c04",
+    "product": "Monthly payout FDs",
+    "one_line": "A son asks his father why money lands in his account monthly and learns about monthly payout FDs booked on Stable Money.",
+    "script_twin": "1199052999315565",
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 148,
+   "versions": 1,
+   "start_date": "2026-06-25",
+   "link": "https://www.facebook.com/ads/library/?id=2029258324332952",
+   "still": "videos/966609952841691/still02_1s.jpg",
+   "hook_text": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahine credit ho rahe hain.",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Papa, main aapka bank statement dekh raha tha, yeh paise har mahi ne credit ho rahe hain. Yeh kya hai? Haa beta, yeh meri FD hai. Main ne monthly payout wala option select kar rakh hai. Monthly Payout? FD mein aisa bhi koi option hota hai? Dekho beta, normal FD mein kya hota hai, aap paise daalte ho, poora tenure wait kar te ho, aur end me principal aur interest ek atha milta hai. Lekin monthly payout FD mein interest har mahi ne, see the bank account me credit hota raha tha hai. Oh! Matlab aapki FD aapko har mahi ne income deri hai, bina kuch kiye? हां और ये कोई स्टाइड हसल या ट्रेडिंग का जुगाड नहीं हैं मारकेट चाहें गिरें या उपर जाए तुमहारा प्याउट फिक्स रहता है पापा ये सेफ है क्या? मैंने ये FD RBI Regulated Banks में बुक कराई है बेटा और ये 5 लाग तक पर बैंक ये पैसे इंशॉरड भी होते हैं। कहां से बुक किया आपना पापा इसको? स्टेबल मनी पर अलग-अलग RBI रब्यार्गृतिट बैंक्स की मन्त्ली प्याउड एप्टी रेट्स एक ही जगा कम्पेर कर लो, वेस्ट अपशन चुनो और दिजिटल कईवाइसी करो, FD book बिना ब्रांच जाए, और पे आउट्स, रेनिवल, मच्यौर्टी, सब एकी डाश्बोट पर ट्रैक होता है, पूरी FD का कंट्रोल तुमहारे फोन पर. ये तो सही है पापा, मैं अबी जाता हूं और स्टेबल बनी का आप डाउनॉड कर लेता हूं",
+   "asset": "966609952841691",
+   "sample_views": {
+    "all": 26
+   }
+  },
+  "991125217069138": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Monthly RD, up to 8.5% returns",
+    "one_line": "A presenter says short-term goals have no savings plan and pitches a Stable Money monthly RD, like an SIP for fixed deposits, at up to 8.5%.",
+    "script_twin": "1371387538214253",
+    "offer_also": [],
+    "ad_text_missing": true,
+    "concept_id": "SM-c05"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 140,
+   "versions": 1,
+   "start_date": "2026-07-03",
+   "link": "https://www.facebook.com/ads/library/?id=991125217069138",
+   "still": "videos/2933453097006450/still02_1s.jpg",
+   "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Aap SIP karte ho apne retirement ke liye. 25-30 saal baad ka plan to ready hai. Lekin agle 8-12 mahine me jo naya phone lena hai, Goa trip karna hai, kar ki down payment de niye, uske liye koi plan hai? Shahid nahi. Aur honestly yeh problem sif aapki nahi hai. Hum sab log long term goals ke liye invest karte hai lekin jo cheeze jaldi chahiye hoti hai, unke liye koi saving plan hi nahi hota. Fir jab waqt aata hai, yaad ho stress hota hai, ya compromise. Lekin iska ek simple solution hai, RD yaani recurring deposit. Jaisa mutual funds mein SIP hoti hai, waise fix deposit mein RD hoti hai. हर महिन एक फिक्स रमाउन अटॉनमेटिकली इन्वेस लो जाता है कोई लम्सम की टेंच़ नहीं रितरन्स फिक्स रोते हैं इसले माकेट का कोई रिस्क नहीं होता स्टेबल मनी पर आप इंडिया के हायेस्ट रडी रेट्स एक्स्ट्रोर कर सकते हूँ up to 8.5% interest. आपका पैसा RBI regulated banks में directly invest होता है और पर bank 5 Lakh तक DICGC ishored भी होता है और best part आप कभी भी पैसा विड्रॉग कर सकते हो, installment pause या skip भी कर सकते हो और कोई नहीं नया savings account कहूलने के प्रटी नहीं परती. आज stable money पर 50 Lakh plus users हैं और रूपी 7000 कौड़ प्लस्से ज़ादा इंवेश किया जब जब आपका गोल पास आए पैसा पहले से रदि होगा. ना बरूइंग की जरूत ना कौम्परमाइस, कोई टेंशञ नहीं, स्टेबल मनी डवनोड नाओओ.",
+   "asset": "2933453097006450",
+   "sample_views": {
+    "all": 28
+   }
+  },
+  "1650915419954369": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Kya aapko pata hai, aapki FDs aapko free mein airport lounge access de sakti hain?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c19",
+    "product": "FD-linked free credit card, 8 lounge visits",
+    "one_line": "A woman at a cafe table says a Stable Money FD at up to 8% can bring a lifetime free card with 8 free lounge visits a year.",
+    "script_twin": null,
+    "offer_also": [
+     "rate_return",
+     "cashback"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1650915419954369",
+   "still": "videos/4463581000622798/still02_1s.jpg",
+   "hook_text": "Kya aapko pata hai, aapki FDs aapko free mein airport lounge access de sakti hain?",
+   "headline": "Earn Up to 8.5% p.a. on FD",
+   "body": "Book a Stable Money FD at up to 8.5% p.a. returns\n📲 100% digital booking\n🛡️ ₹5L insured by DICGC\n📄 No paperwork needed\n⏱️ Done in under 10 minutes",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Kya aapko pata hai, aapki FDs aapko free mein airport lounge access de sakti hai? Simple sa concept hai, stable money appte aapko 8% ka high interest wali FDs milti hai, jiske saath aapko lifetime free credit card bhi mil sakta hai. Iss card se aapko milti hai 8 free domestic lounge access every year. Aur sbse badi baad bat aata kya hai? Iss me quarterly a monthly minimum spend ki koi requirement nahi hai, jiske sa baaki ke banks credit cards me hoti hai. Yeh ek rupee card hai, jiske chalte aap UPI se bhi payments kar sakte ho और आपको उसके साथ साथ 0.5% का cashback भी मिलता है। FD amount rupees 5 lakhs तक DIC GC insurance के under covered होता है। मतलब सेफ्टी भी full है। FD की bookings भी सिफ और सिफ 3 मिनेट में हो जाती हैं। और कोई नया saving account खोलने के ज़रूरत नहीं पड़ेगी। और जरूद पढने पर कभी भी विड्रॉल करा सकते हूँ. तो अपनी simple FD को अपग्रेट करो, 8% तक इंट्रिस्त के साथ साथ प्री लाउंज आक्सेस भी पाओ, only on stable money app.",
+   "asset": "4463581000622798",
+   "sample_views": {
+    "all": 29
+   }
+  },
+  "1064086583323093": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Airport lounge ke bahar hamesha aapko 2-3 log aise milenge, jo alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko lounge access nahi mil raha.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c08",
+    "product": "FD-backed lifetime-free credit card, 8 lounge visits",
+    "one_line": "A man at a desk says lounge cards need big spends, then pitches Stable Money's lifetime free FD-backed card with 8 free visits.",
+    "script_twin": "1444888800891750",
+    "offer_also": [
+     "rate_return",
+     "cashback"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1064086583323093",
+   "still": "videos/935043619677161/still02_1s.jpg",
+   "hook_text": "Airport lounge ke bahar hamesha aapko 2-3 log aise milenge, jo alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko lounge access nahi mil raha.",
+   "headline": "100% Approval Credit Card",
+   "body": "Get a Stable Money FD-backed Credit Card with 100% approval\n✈️ 8 airport lounge visits\n💵 0.5% cashback\n🆓 Lifetime free, zero joining fee\n📈 FD earns up to 8.10% p.a. \n🚫 No CIBIL check needed",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Airport launch ke bahar khamesha aapko 2-3 log aise milenge, jo ki alag-alag cards nikal rahe hain, swipe kar rahe hain, lekin phir bhi unko launch access nahi mil raha. Kyuki unke card pe koi na koi minimum spend criteria hoga, launch access ke liye monthly yaa phir quarterly jo unhe poora nahi kiya hoga. Aur yeh sirf inki problem nahi, kaafi cards jo hume pehle free launch access ka benefit dete the, wo ab devalue ho chuke hain. Yaan to launch access ko completely hata diya hai, yaan to har mahi ne ek bada amount karch karna zaruri kar diya hai. लेकिन एक कार्ट अभी भी है जहाँपे कोई मिन्यों लेकिन करिटेरिया नहीं है और फ्री दोमैस्टिक लाईज असस का बेनिफिट मिलता है आपको लगेगा अरे इसके लिए तो कोई नहीं कोई फ्री वाला प्रीमिम्म कार्ट चाहिये होगा बिलकुल नहीं एक लाइफ्टैंट फी क्रेट कार्ड है जो साल में आपको 8 फी लाईज अससेस का बेनिफिट देता है। बस स्टेबल मनी अप्ड़ाब गरो और सुर्डे स्माल फाइनाज बैंक जोके एक अर्भी रेगूलेटेट बैंक है इसमें एक एक एक अप्ड़ बुक करो 8.5% तक इंट्रस्त मिलता है और उसी FD के अगेस में आपको इंस्टिनलिटली एक लाइफ्टैंट फ्री कैग कार्ट इशूओ होगा बतलब आपका पैसा FD में इंट्रस्त अर्न करता रहता है और साथ में आपको कार्ड के बेनिफिट प्यूट प्यूद मिलते हैं 8 complementary domestic launch visits हर साल वो भी बिना किसी minimum spend के ये एक रूपे card है तो UPA payments भी कर सकते हूँ और उस पे 0.5% cashback अलग से free launch access चाही है बिना किसी spend के pressure के stable money app डवलोड करो",
+   "asset": "935043619677161",
+   "sample_views": {
+    "all": 30
+   }
+  },
+  "1059291876995172": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Excuse me ma'am, kya main aapse ek sawaal puch sakta hoon?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "SM-c15",
+    "product": "FD-backed credit card, 8 free lounge visits",
+    "one_line": "A man interviews a woman in a bookshop who says the Stable Money FD-backed card gives 8 free lounge visits with no minimum spend.",
+    "script_twin": null,
+    "offer_also": [
+     "cashback"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 78,
+   "versions": 1,
+   "start_date": "2026-09-03",
+   "link": "https://www.facebook.com/ads/library/?id=1059291876995172",
+   "still": "videos/1911598616485842/still02_1s.jpg",
+   "hook_text": "Excuse me ma'am, kya main aapse ek sawaal puch sakta hoon?",
+   "headline": "Unlock 8 free airport lounge access",
+   "body": "Unlock 8 free airport lounge visits with zero minimum spend — yours with a Stable Money Card\n⚡ 100% approval | Lifetime free credit card\n✈️ No spend-based criteria — access lounges from day one\n📄 No income proof needed | Instant virtual approval",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Excuse me ma'am, kya ma aap se ek sawaal puchh satta hu? Yes. Aap saal mein kitna flights jeta hu? 6-7 flights to minimum. Aur lounge access ke liye kaunsa card use kar te hu? Stable Money ka FD back credit card hai na, usme saal ke 8 lounge access free hai. Belkul free? Yeh card lifetime free hai. Aur sbse badi baat, kaafi saare cards me lounge access ke liye monthly aur quarterly minimum spends ka criteria hota hai. Is card me wo criteria bhi nahi. Kaise milta hai yeh card? Stable Money App download karo Aur Suryoday Bank jo ek RBI regulated bank hai usme apna FD book karo Lifetime Free Card, Free Launch Access kaafi sahi Agar aapko bhi ye benefits chahiye to Stable Money App download karo Right Now",
+   "asset": "1911598616485842",
+   "sample_views": null
+  },
+  "1158491436527705": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Mohit!",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "product": "Bonds, 9 to 12% fixed returns",
+    "one_line": "A couple argue over idle account money, then a man to camera pitches Stable Money bonds at 9 to 12% with same-day withdrawal.",
+    "script_twin": "1768509427669435",
+    "offer_also": [],
+    "concept_id": "SM-c10"
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook_text",
+     "row"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1158491436527705",
+   "still": "videos/1752268299241939/still02_1s.jpg",
+   "hook_text": "Mohit!",
+   "headline": "Fixed Returns. Sell Anytime.",
+   "body": "Earn upto 9–12%* p.a. fixed returns with Bonds\n🛡️ SEBI-registered broker\n🔓 Start with just ₹1,000\n🔄 Sell anytime — no lock-in period",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
+   "asset": "1752268299241939",
+   "sample_views": null
+  },
+  "1022650000551778": {
+   "brand": "A",
+   "medium": "image",
+   "row": "I1",
+   "tags": {
+    "row": "I1",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "8 Free Airport Lounge Access",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "SM-c22",
+    "product": "FD-backed credit card, 8 free lounge visits",
+    "one_line": "A cream card with a smiling woman on a lounge sofa promises 8 free airport lounge visits, 0.5% cashback and up to 8.10% FD interest.",
+    "script_twin": null,
+    "offer_also": [
+     "cashback",
+     "rate_return"
+    ],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 116,
+   "versions": 1,
+   "start_date": "2026-07-27",
+   "link": "https://www.facebook.com/ads/library/?id=1022650000551778",
+   "still": "images/1022650000551778.jpg",
+   "hook_text": "8 Free Airport Lounge Access",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 13
+   }
+  },
+  "948406311403969": {
+   "brand": "A",
+   "medium": "image",
+   "row": "I1",
+   "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Earn 8.10% p.a. on FD-backed credit card",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "SM-c24",
+    "product": "FD-backed credit card, 8.10% FD rate",
+    "one_line": "A dark card shows a hand holding the Stable Money card with an 8.10% FD rate, 10 free lounge visits, 0.5% cashback and 100% approval.",
+    "script_twin": null,
+    "offer_also": [
+     "free",
+     "cashback"
+    ],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 200,
+   "versions": 1,
+   "start_date": "2026-05-04",
+   "link": "https://www.facebook.com/ads/library/?id=948406311403969",
+   "still": "images/948406311403969.jpg",
+   "hook_text": "Earn 8.10% p.a. on FD-backed credit card",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 22
+   }
+  },
+  "2077379136540472": {
+   "brand": "A",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "0.5% CASHBACK",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "SM-c23",
+    "product": "FD-backed credit card, RuPay Select",
+    "one_line": "A woman laughs in an airport lounge chair inside a card-shaped frame, with 0.5% cashback, up to 8.10% FD interest and 100% approval below.",
+    "script_twin": null,
+    "offer_also": [
+     "rate_return"
+    ],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 133,
+   "versions": 1,
+   "start_date": "2026-07-10",
+   "link": "https://www.facebook.com/ads/library/?id=2077379136540472",
+   "still": "images/2077379136540472.jpg",
+   "hook_text": "0.5% CASHBACK",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 27
+   }
+  },
+  "1953272729391464": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "creator",
+    "founder_evidence": "ad text: 'Finance Paulified ... (Ad, Brand Collaboration, ... Anuj Paul)'",
+    "hook": "story_open",
+    "hook_text": "Anuj, yeh second source of income ka koi tarika ho sakta hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c01",
+    "product": "Senior secured bonds, 9 to 12% fixed returns",
+    "one_line": "Two people chat in a kitchen about a second income, then one explains Wint Wealth bonds, their risk, and asks viewers to comment BOND for the link.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1953272729391464",
+   "still": "videos/1061819343233299/still02_1s.jpg",
+   "hook_text": "Anuj, yeh second source of income ka koi tarika ho sakta hai?",
+   "headline": "",
+   "body": "Comment “BOND” for the link.\n🎬 Finance Paulified!\nEpisode 92: Passive Source of Income 💰\n.\nWant a regular second source of income? Bonds can be one way to diversify beyond keeping all your money in the bank.\n.\n💰 Start small and gradually build your allocation.\n📈 Senior Secured Bonds can offer fixed interest payouts.\n⚠️ But remember - Bonds still carry CREDIT RISK. Fixed returns don’t mean guaranteed returns.\n.\nThe goal isn’t to chase the highest return. It’s to diversify smartly and choose investments that fit your risk profile.\n.\n.\n(Ad, Brand Collaboration, Finance Paulified, Bonds, Wint Wealth, Passive Income, Anuj Paul)",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Anuj, yeh second source ki platform ka koi tarika ho ussatthaya hai? Matlab monthly kichna kuch account mein aata rahe hai? Bilkul ho ussatthaya hai. Humare client hai, unhone saare paise bank me rakhye ho raha hai. To unhone apna portfolio diversify karne ke liye, Wint Wealth platform pe senior secured bonds me 50,000 rupees se start kiya tha. Chote amount se start kiya tha, dire dire apna amount badhatae gaye. Ab unko regularly ek fixed interest aata hai unke bank ke bond ko. Yeh Wint Wealth kya hai? Wint Wealth ek SEBI registered broker hai, OBPP यानी आउन्लाइन बाणड प्लाक्फॉम प्रवाइटर पर बाणड में रिस्क का क्या? और विन्ट वेल्ज से यूंग रणा? हूँ। Cfp कर लिया ना आपने इसलिये जादा चीज़ इंचमॉत रही हैं आपको रिस्क रिस्क पूछ रही लगता पहली बात तो ये कि इन बावद में जो पैसा है तैटिस बैकट भाई असेक्स और आपको साथ में फिक्स रिटरल जाते हैं नूए से बारा परसेंट के बीच में। दुसी बात यह आप भुणद कहीं से भी ले लो इसमें क्रेटिट रिस्ट तो हमेशा है लेगा इसकाम तुरी निए फॉल्ल कर से तुरी निए पर विन्ट वेल्थ में क्या है न कि इसमें ये लोग खुद भी उन भौंट्स में इंवेस्ट करते हैं तो मेंटें स्कीन इंदर गेम। तो यार सर मेरा जो फूल इंट फाइनल आयगा बांट से, मैं सुछ्टू नहीं ड़ादूईते हैं बांद में? तो भाई विंट वेल्थ है अप अगर आपको ट्राइ करना है, तो कौमेंट समालिक देना बांद, लिएक आपको दीएम में आ जगगा। पूजे! पूजे नहीं पूज पाओ गया!",
+   "asset": "1061819343233299",
+   "sample_views": {
+    "all": 1
+   }
+  },
+  "1375574504560912": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "GET MONTHLY INTEREST",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c15",
+    "product": "Bonds, monthly interest, 11.75% p.a.",
+    "one_line": "A desert-toned card says Get Monthly Interest, start with 10,000 rupees, with a tilted card showing 11.75% p.a. and 6 months maturity.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1375574504560912",
+   "still": "images/1375574504560912.jpg",
+   "hook_text": "GET MONTHLY INTEREST",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Invest in secured bonds. Fixed monthly returns.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 2
+   }
+  },
+  "1608750657392609": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 36,
+   "versions": 6,
+   "start_date": "2026-10-15",
+   "link": "https://www.facebook.com/ads/library/?id=1608750657392609",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 3
+   }
+  },
+  "28133518736321882": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 34,
+   "versions": 1,
+   "start_date": "2026-10-17",
+   "link": "https://www.facebook.com/ads/library/?id=28133518736321882",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 4
+   }
+  },
+  "2876298779421455": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 36,
+   "versions": 1,
+   "start_date": "2026-10-15",
+   "link": "https://www.facebook.com/ads/library/?id=2876298779421455",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 5
+   }
+  },
+  "1065702466447240": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 36,
+   "versions": 1,
+   "start_date": "2026-10-15",
+   "link": "https://www.facebook.com/ads/library/?id=1065702466447240",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 6
+   }
+  },
+  "1822092442159366": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 34,
+   "versions": 1,
+   "start_date": "2026-10-17",
+   "link": "https://www.facebook.com/ads/library/?id=1822092442159366",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 7
+   }
+  },
+  "1868487757472978": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "10,000 rs se kaise second source of income banate hain?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c10",
+    "product": "Bonds, 11% fixed, start from Rs 10,000",
+    "one_line": "A woman draws out how to build a second income from Rs 10,000 with bonds, names Wint Wealth, and cites 11% fixed returns and 3 lakh investors.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 36,
+   "versions": 1,
+   "start_date": "2026-10-15",
+   "link": "https://www.facebook.com/ads/library/?id=1868487757472978",
+   "still": "videos/2378355306351298/still02_1s.jpg",
+   "hook_text": "10,000 rs se kaise second source of income banate hain?",
+   "headline": "",
+   "body": "Let’s talk about BONDS✨ one of the simplest ways to explore fixed-income investing.\n\nWhen you buy a bond, you’re essentially lending money to a company or government, and in return, you receive interest for a predetermined period. Depending on the bond, interest payments can be monthly, quarterly or annually.\n\nWhat I like about bonds is that you can see important details like returns, tenure and payment dates upfront, helping you understand what you’re investing in before you invest.\n\nI use Wint Wealth to explore bonds, where you can start investing from ₹10,000.\n\nInvestments in bonds are subject to risks. Returns are not guaranteed and may vary depending on the investment.\n.\n.\n.\n.\n.\n#wintwealth #money #investment #bonds #personalfinance",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon. And yeh baad 10% Indians ko hi pata hai. Okay, to mai baat kar rahi hoon bonds ki. Bond ka concept kaafi simple hai. Bond kharidna means tum kisi company aur government ko paise udhaar dete hoon aur badle mein wo tumhe fixed interest dete hoon. Is agreement ko hum bond bolte hai. Aapko bonds se interest monthly, quarterly, annually mil sakta hai depending on your needs. And iska matlab yeh hota hai ki jitna paise diya tha, wo bhi wapas milta hai. Plus upar se extra paise as an interest bhi milta hai. और Dubai Long Away Moved इसलिए दिविषन हो। आपको पहले से ही पता होता है कितना पराष्यन्ट रित्रन मिलेगा. चाबतर कज़़े लेविन सेवेन्परष्यन्ट पर आनम मिलता है. तुम्हारा रित्रन वही होता है लैक जो पहले ड़ाइड दुजाइ था। मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं यहाँ आपको रिटरन्स, टेन्नेवर, पेमेंट डेट ट्रान्स्परेंटली पहले से ही पता रहता हैं तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं. डवलोड विंट वेल्थ नहुए",
+   "asset": "2378355306351298",
+   "sample_views": {
+    "all": 8
+   }
+  },
+  "26996845726680317": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Second source of income chahiye, maine iske liye investment kiya hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c05",
+    "product": "Bonds, fixed 11%, monthly income, sell any time",
+    "one_line": "A man to camera gives three reasons he chose Wint Wealth bonds for a second income: fixed 11%, asset-backed safety, selling any time.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=26996845726680317",
+   "still": "videos/1582906947180001/still02_1s.jpg",
+   "hook_text": "Second source of income chahiye, maine iske liye investment kiya hai.",
+   "headline": "",
+   "body": "🚨 Trick that I follow to get fixed 11% returns !\n\nWhile everyone chases stocks, many investors use bonds to earn predictable returns with lower volatility. Certain corporate bonds can offer yields close to 11%, paying regular interest regardless of daily market swings.\n\nThe key is understanding credit risk and choosing quality issuers. For investors seeking steady cash flow, bonds can be a powerful alternative to relying solely on stock market gains.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Second source of income chahiye, maine iske liye investment kiya hai. And here are the three reasons why I chose this investment. Pehli cheez har maine paise aata hai, and wo bhi paise pata hota hai ki kitna paise aayega, saal ka fixed 11%. Dosri cheez, investments me sabse important safety hoti hai. And mai jis investment ki baat kar raha hu, usme ek additional layer of security raha hai. Kyuki wo asset-backed investment hai. Investments me sabse important security hoti hai. Aur sabse badiya baat aap is investments ko kabhi bhi sell kar sakte ho and paise direct aapke bank account me credit ho jaayega. ताइट्स वाया इंवेश्टेट इन बाणज उन विन्ट वेल्थ यहाँ रितरन्स टेनियोर पेयाउट सब लिए लिए विसिबल होता है तो कम्पेर करना और समझना इसी हो जाता है अगर आपको भी बौन्स में इन्वेश्ट करना है तो प्रवाइन बौन्स प्रवाइन लिंक.",
+   "asset": "1582906947180001",
+   "sample_views": {
+    "all": 9
+   }
+  },
+  "1768735924383603": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Second source of income chahiye, maine iske liye investment kiya hai.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c05",
+    "product": "Bonds, fixed 11%, monthly income, sell any time",
+    "one_line": "A man to camera gives three reasons he chose Wint Wealth bonds for a second income: fixed 11%, asset-backed safety, selling any time.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 39,
+   "versions": 1,
+   "start_date": "2026-10-12",
+   "link": "https://www.facebook.com/ads/library/?id=1768735924383603",
+   "still": "videos/1582906947180001/still02_1s.jpg",
+   "hook_text": "Second source of income chahiye, maine iske liye investment kiya hai.",
+   "headline": "",
+   "body": "🚨 Trick that I follow to get fixed 11% returns !\n\nWhile everyone chases stocks, many investors use bonds to earn predictable returns with lower volatility. Certain corporate bonds can offer yields close to 11%, paying regular interest regardless of daily market swings.\n\nThe key is understanding credit risk and choosing quality issuers. For investors seeking steady cash flow, bonds can be a powerful alternative to relying solely on stock market gains.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Second source of income chahiye, maine iske liye investment kiya hai. And here are the three reasons why I chose this investment. Pehli cheez har maine paise aata hai, and wo bhi paise pata hota hai ki kitna paise aayega, saal ka fixed 11%. Dosri cheez, investments me sabse important safety hoti hai. And mai jis investment ki baat kar raha hu, usme ek additional layer of security raha hai. Kyuki wo asset-backed investment hai. Investments me sabse important security hoti hai. Aur sabse badiya baat aap is investments ko kabhi bhi sell kar sakte ho and paise direct aapke bank account me credit ho jaayega. ताइट्स वाया इंवेश्टेट इन बाणज उन विन्ट वेल्थ यहाँ रितरन्स टेनियोर पेयाउट सब लिए लिए विसिबल होता है तो कम्पेर करना और समझना इसी हो जाता है अगर आपको भी बौन्स में इन्वेश्ट करना है तो प्रवाइन बौन्स प्रवाइन लिंक.",
+   "asset": "1582906947180001",
+   "sample_views": {
+    "all": 10
+   }
+  },
+  "1139217318446573": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Ek survey ke hisaab se, sirf 10% log hi investment option ke baare mein jaante hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c09",
+    "product": "Bonds, around 11% fixed, 3 month tenure",
+    "one_line": "Two men on a split screen say only 10% of Indians know bonds, explain secured bonds, and point to Wint Wealth's 3 month bonds at 11%.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1139217318446573",
+   "still": "videos/2069991826945564/still02_1s.jpg",
+   "hook_text": "Ek survey ke hisaab se, sirf 10% log hi investment option ke baare mein jaante hain.",
+   "headline": "",
+   "body": "Did you know? 👀\nBonds can give you regular interest income while your principal remains invested till maturity. 💰\n\nExplore bonds with Wint Wealth.\n\n#Bonds #BondInvestment #WintWealth #FixedIncome #Investing\ninteresting bond facts, bond investment, bonds in India, corporate bonds, fixed income investment, bond market, bond investing, bonds for beginners, Wint Wealth, Wint Wealth bonds, investment options India, debt investment, fixed income securities, personal finance, investment education",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Ek survey ke saab se, siv 10% log hi investment option ke baare me jaante hain. Is investment se aap ek secondary income scheme bhi bhala sakte hain. Main Rahul Raman Agarwal, Main Raman Agarwal Aaj is cheez ko detail mein khol ke samjhat hain. Companies ko apna business expand karne ke liye capital chahiye hota hain. Aur is ek tarikay se wo sede paisa retail investors, yaane ki hum se capital raise karte hain. Aur hmein fixed returns 11% ki aap paas dete hain. Finance ki language me isko bond karte hain. और परस्णली हम ऐसे सेक्योड बानड में इंवेस करते हैं। क्योकि ये बानड असेज बैद होते हैं। मतलब इनके पीचे कंपनी अपनी खुदकी असेज गिरवी रपती हैं। यानिकि ये सेक्योड काटिगरी में आते हैं। अब प्राटिकल सवाल। इसमें इन्वेस्त कैसे करें? हम खुद अपना बौर इंवेस्मेंट भी विन्थ वेल्थ आपके तू घूर करते हैं। यहाँ आपको तीन महिने पक्के शॉर्टम बौर्डजी मिलते हैं। और आपको पैसे की रिक्वारमेंट हो, तो यहाँ आप बाणड बेछ में सकते हैं। एक � aapko paise ki requirement ho, to yaahin aap bond bech mein sakte hain. अगर आपको भी एक सक्रेंटरी इंकम् स्ट्रीन बडानी हैं। Agar aapko bhi ek secondary income stream banani hai. Through your investments पो download करें, WiltMelki app और Bonds जबोर इस्प्लोर कीजिये",
+   "asset": "2069991826945564",
+   "sample_views": {
+    "all": 11
+   }
+  },
+  "1042794292127507": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Urvesh, long term investment par toh sab gyaan dete hain.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c06",
+    "product": "Bonds, 9 to 12% fixed, easy exit",
+    "one_line": "A couple chat in their kitchen about where to put six months of money; one recommends Wint Wealth bonds, 9 to 12% fixed with easy exit.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1042794292127507",
+   "still": "videos/1597073601774076/still02_1s.jpg",
+   "hook_text": "Urvesh, long term investment par toh sab gyaan dete hain.",
+   "headline": "",
+   "body": "Safe and high returns kaisa milega.\n\nCouple explaining investment opportunities and how most people over looked this investment which can give highest and safe return. \n\n(Couple, husband, wife, funny, laughter, comedy, happy, informative, peace, newly wed, small planning, helping friends and family, friends, investment tension free)",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Urvesh, long term investment par to sab gyan dethe hai. Par hi jo 6 mnaka funds padha hai mere paas, uska kaam toh alag hai. Usse kaha invest karu mein? Bilkol hai, short term investment requires flexibility. Issi liye mai Wint Wealth use karta ho to invest in bonds. Bonds? Kitna return deta hai aur agar emergency mein paise chahiye toh? Dekh yaa return fix hai, 9-12% per annum. Also tujh agar kabe bhi exit karna hai, tu easily exit kar satte hai bina kisi penalty kiya. Fixed income aur easy exit? Yes. Yeh toh achha hai yaar, Wint Wealth ka link bhej mujhe. दाउलोड फरम दा लिएक बिलो।",
+   "asset": "1597073601774076",
+   "sample_views": {
+    "all": 12
+   }
+  },
+  "955959980393839": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I1",
+   "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "11% FIXED RETURNS* p.a.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c22",
+    "product": "Bonds, 11% fixed, 3 months",
+    "one_line": "A white square shows a huge 11% fixed returns figure on a brown card, a 3 Months pill, the words Earn Monthly Interest and a stat row.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=955959980393839",
+   "still": "images/955959980393839.jpg",
+   "hook_text": "11% FIXED RETURNS* p.a.",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 13
+   }
+  },
+  "1577736273613796": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "11% ka fixed returns on your investments, kya yeh sach mein possible hai?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "animation_craft",
+    "concept_id": "WW-c04",
+    "product": "Bonds, 11% fixed return, 3 month tenure",
+    "one_line": "A man explains with hand-drawn paper sketches how secured bonds pay 11% fixed returns, cites a 10% awareness stat, and tells viewers to download Wint Wealth.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 4,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1577736273613796",
+   "still": "videos/1462175878537057/still02_1s.jpg",
+   "hook_text": "11% ka fixed returns on your investments, kya yeh sach mein possible hai?",
+   "headline": "",
+   "body": "No market noise. Just steady returns. 🧘‍♂️📊\n\nCheck the link from my bio!",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai. Maha baat kar raha hu bonds ki, US jay se country mein yeh saalo se popular hai, but India me se 10% logon ko iske baare me pata hai. Badi companies fund raise karne ke liye humse paise borrow karthi hai, aur badle mein aapko milta fix returns. Sbse badi baat yeh secured bonds hote hai, mallab company aapke paise ke badle apne assets ko girvi rakti hai. Maha invest karta hu Wint Wealth se, yaha par 3 lakh se bhi zyada investors hai aur aap sif 1000 rupay se bhi start kar sakte ho. और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो। 11% का fix return सिफ paper में लिखने कले नहीं था Win 12 download करो और फेर खुद देखो",
+   "asset": "1462175878537057",
+   "sample_views": {
+    "all": 14
+   }
+  },
+  "1819131125779645": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "EARN MONTHLY INTEREST",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c19",
+    "product": "Bonds, monthly interest, 11% fixed",
+    "one_line": "A dark card says Earn Monthly Interest in huge green type, with a calendar showing 11% fixed returns and a note of 6 months tenure.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1819131125779645",
+   "still": "images/1819131125779645.jpg",
+   "hook_text": "EARN MONTHLY INTEREST",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 15
+   }
+  },
+  "1010246932113130": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "We are in the mountains [?] and we just decided to extend our stay.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "WW-c07",
+    "product": "Bonds, 11% fixed, 3 month tenure",
+    "one_line": "A couple on a mountain trip talk about flexibility with money, say they get a fixed 11% on bonds, and the card shows a 3 month bond.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "row",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1010246932113130",
+   "still": "videos/1761453178608150/still02_1s.jpg",
+   "hook_text": "We are in the mountains [?] and we just decided to extend our stay.",
+   "headline": "",
+   "body": "One more day in the mountains? It’s always a YES for us. 🏔️\n\nWe love having the freedom to change our plans and stay a little longer. We don’t just earn to travel—we also invest to travel guilt-free.\n\nThat’s exactly why @wintwealth feels like the right fit for us. 🤍\n..\n.\n.\n[ couple investments , couple finance , how to manage money as a couple, married life in 30 ]",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "We are in the match and we just decided to extend our stay. And for this weather it becomes so much. Because sometimes the best plans are the ones we don't make. And I think that is why we value flexibility so much. Not just while traveling but with our money too. Only you can talk about money in the mountains. No, but it's true since you have started investing in bonds. I feel so much more in control. We get a fixed 11% return and the flexibility to pull out our money whenever our plan changes and that too without breaking our long term goals. Let's start investing in bonds or enjoy the mountains. Fix returns do not constitute guaranteed or the short returns. Investments in corporate debt securities, municipal debt securities and securities debt instruments are subject to credit risks, market risks and default risks, including delay and or default entrainment. Read all the offer related documents carefully.",
+   "asset": "1761453178608150",
+   "sample_views": {
+    "all": 16
+   }
+  },
+  "1078474831621182": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Earn Monthly Interest",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c13",
+    "product": "Bonds, monthly interest, 11% fixed",
+    "one_line": "A dark card says Earn Monthly Interest, with an interest receipt for three months, 11% fixed returns and a Rs 10,000 minimum.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1078474831621182",
+   "still": "images/1078474831621182.jpg",
+   "hook_text": "Earn Monthly Interest",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 17
+   }
+  },
+  "2292299894864285": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Salary credited to your account.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "WW-c12",
+    "product": "Bonds, 11% fixed return",
+    "one_line": "A man gets his first salary, takes a call from his mother, then says he helped her invest in bonds at 11% fixed so she can spend guilt free.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=2292299894864285",
+   "still": "videos/28008431572111270/still02_1s.jpg",
+   "hook_text": "Salary credited to your account.",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Dhol mein mere hain First week salary, finally I can order that dream laptop. Beta, husband, eating properly? Yes ma, everything is good. Don't spend too much, save some, okay? Okay ma. Bye, take care. Bye ma. She's been saving her entire life for me. When was the last time she invested on herself? Never. So I did something different. उससे मपस्विक्म क्रे one वścieवाक कर MALE च्ट collectors यान्न कानाखें यान्न क्रुप्मी ताल frog How many? है呢? कोशाय भव にunto diciendo इसलाइएर ममंशदभरू pipes कर था। य sehe थे। आणात है। spéके आप खिल्डाबищ z dough mate. खिल्कुपज्मा है यjud ans FD म decía रही Spencer",
+   "asset": "28008431572111270",
+   "sample_views": {
+    "all": 18
+   }
+  },
+  "2556193758207208": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Today I am going to teach you a financial lesson.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c03",
+    "product": "Bonds, up to 11% fixed returns",
+    "one_line": "A helmeted man talks to camera on a ride about Wint Wealth's asset backed bonds, up to 11% a year, SEBI registration and selling any time.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 3,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=2556193758207208",
+   "still": "videos/1365632395557182/still02_1s.jpg",
+   "hook_text": "Today I am going to teach you a financial lesson.",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Today I am going to teach you a financial lesson. Waisa mera betha to meri baat nahi sunta, aap log hi sun lo. Let me tell you about Wint Wealth. They give you bonds, proper asset backed bonds, meaning there is real security behind your money and not just promises. Fixed returns upto 11% every year. Wint Wealth SEBI registered hai, legit hai, regulated hai. Aur agar beech me paise chahiye hai, you can sell the bonds at any time. No questions asked. आपको आपको पर लिए परादियार हैं, वो अपने पाइटारी पर लिए परादियार हैं.",
+   "asset": "1365632395557182",
+   "sample_views": {
+    "all": 19
+   }
+  },
+  "1768821550864003": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Earn Monthly Interest",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c16",
+    "product": "Bonds, monthly interest, 11% fixed",
+    "one_line": "A white card says Earn Monthly Interest in huge black type above an orange card showing 11% fixed returns and 3 months maturity.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 3,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1768821550864003",
+   "still": "images/1768821550864003.jpg",
+   "hook_text": "Earn Monthly Interest",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 20
+   }
+  },
+  "1574326737333320": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Agar mera koi chhota bhai hota, main usse ek advice zarur deta.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "animation_craft",
+    "concept_id": "WW-c02",
+    "product": "Bonds, 11% fixed return, 3 month tenure",
+    "one_line": "Paper-craft animation of three pieces of advice for a younger brother, the last being to invest in an 11% 3 month bond on Wint Wealth.",
+    "script_twin": "1551790489702609",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "row",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1574326737333320",
+   "still": "videos/1314615330761972/still02_1s.jpg",
+   "hook_text": "Agar mera koi chhota bhai hota, main usse ek advice zarur deta.",
+   "headline": "",
+   "body": "still learning finance, but bonds felt like a good place to start\n.\n.\n(Cinematic, cinematography, wint wealth, finance, bonds, film maker, filmmaking, fyp, dailypost, vlog, reel, edit, editor)\n.\n#cinematic #cinematography #filmmaking #fyp",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Agar mera koi chhota bhai hota, tum usse ek advice zarur deta. Life mein tumko baat 3 chhita par jahan dena hai. No. 1. Skill Kisi bhi ek skill par work karo, ki chahe ho high income skill ho, ya communication. Baat kuchko better karo. No. 2. Health Apni health pe jahan do, phalto content consume karna bandh karo, healthy khao aur daily or weekly gym karo. No. 3. Aur yeh best advice ho sakti hai tumhari liye. Learn how to make money. Daku mai koi expert nahi hoon, but I invest in bonds. क्योकिया 11% के fix return पे तुम short term जैसे 3 month bond पर भी इन्वेस्ट कर सकते हूँ And I use VILT wealth for this. चलो आज किलिए इतना ही फिर मिलते हैं",
+   "asset": "1314615330761972",
+   "sample_views": {
+    "all": 21
+   }
+  },
+  "1642456104162744": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Earn Monthly Interest with BONDS on Wint",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c17",
+    "product": "Bonds, monthly interest",
+    "one_line": "A mostly white card says Earn Monthly Interest with Bonds on Wint, with a coin and arrow sticker and no rate in the main text.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 43,
+   "versions": 1,
+   "start_date": "2026-10-08",
+   "link": "https://www.facebook.com/ads/library/?id=1642456104162744",
+   "still": "images/1642456104162744.jpg",
+   "hook_text": "Earn Monthly Interest with BONDS on Wint",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 22
+   }
+  },
+  "1653556886374383": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Bonds on Wint Wealth.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c18",
+    "product": "Bonds, monthly interest to bank account",
+    "one_line": "A white card headed Bonds on Wint Wealth says Earn Monthly Interest credited directly to your bank account, with a calendar picture.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1653556886374383",
+   "still": "images/1653556886374383.jpg",
+   "hook_text": "Bonds on Wint Wealth.",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 23
+   }
+  },
+  "2603917993354573": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "YOU INVEST IN 'BONDS'",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c21",
+    "product": "Bonds, monthly interest",
+    "one_line": "A text-only green and white card says you invest in bonds and you earn monthly interest, with no figure on the main text.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=2603917993354573",
+   "still": "images/2603917993354573.jpg",
+   "hook_text": "YOU INVEST IN 'BONDS'",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Invest in secured bonds. Fixed monthly returns.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 24
+   }
+  },
+  "2402074240326667": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Why BONDS belong in your PORTFOLIO?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c20",
+    "product": "Bonds, regular income",
+    "one_line": "A pale green square asks why bonds belong in your portfolio and answers with a calendar tile saying Earn Regular Income.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 43,
+   "versions": 1,
+   "start_date": "2026-10-08",
+   "link": "https://www.facebook.com/ads/library/?id=2402074240326667",
+   "still": "images/2402074240326667.jpg",
+   "hook_text": "Why BONDS belong in your PORTFOLIO?",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 25
+   }
+  },
+  "1102709929308735": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I1",
+   "tags": {
+    "row": "I1",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Earn 11% fixed returns* p.a.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c14",
+    "product": "Bonds, 11% fixed returns",
+    "one_line": "A white card headed Bonds on Wint Wealth shows a huge 11% fixed returns figure beside a stack of banknotes.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 1,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1102709929308735",
+   "still": "images/1102709929308735.jpg",
+   "hook_text": "Earn 11% fixed returns* p.a.",
+   "headline": "✅ 3L+ trusted investors.",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 26
+   }
+  },
+  "1637283661235770": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "EARN MONTHLY INTEREST",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "WW-c16",
+    "product": "Bonds, monthly interest, 11% fixed",
+    "one_line": "A white square says Earn Monthly Interest in huge gradient type above a purple card showing 11% fixed returns and 3 months maturity.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 44,
+   "versions": 2,
+   "start_date": "2026-10-07",
+   "link": "https://www.facebook.com/ads/library/?id=1637283661235770",
+   "still": "images/1637283661235770.jpg",
+   "hook_text": "EARN MONTHLY INTEREST",
+   "headline": "✅ Transparent Investing Always",
+   "body": "Start your monthly interest today with bonds. No lock-in. Invest now.",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 27
+   }
+  },
+  "1087294090969954": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Learn how to make money.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "animation_craft",
+    "concept_id": "WW-c02",
+    "product": "Bonds, 11% fixed return, 3 month tenure",
+    "one_line": "Short paper-craft animation: learn how to make money, I invest in bonds, 11% fixed on a 3 month bond, I use Wint Wealth.",
+    "script_twin": "1314615330761972",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 39,
+   "versions": 1,
+   "start_date": "2026-10-12",
+   "link": "https://www.facebook.com/ads/library/?id=1087294090969954",
+   "still": "videos/1551790489702609/still02_1s.jpg",
+   "hook_text": "Learn how to make money.",
+   "headline": "Join 3 Lakh+ Investors Today",
+   "body": "Big news! ₹1500 Cr+ repaid on time. \nSecure your investment with 9-12% fixed returns.\nJoin 3 Lakh+ investors who trust us!\nReady to grow your wealth?",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Learn how to make money. Daku mai koi expert nahi hoon, but I invest in bonds. Kyunki aap 11% ke fixed return pe tum short term jaise 3 month bond pe invest kar skte hoon. And I use Wint Wealth for this. Chalo aaj ke liye itna hi, fir milta hai.",
+   "asset": "1551790489702609",
+   "sample_views": {
+    "all": 28
+   }
+  },
+  "1122130514055415": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "As a married couple, we have made one investment that pays us monthly interest and it has completely changed how we plan our finances.",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "WW-c11",
+    "product": "Bonds, 11% fixed, monthly interest",
+    "one_line": "A married couple on a sofa say a Wint Wealth bond pays them monthly interest at 11% fixed, backed by assets, and tell viewers to check the app.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 15,
+   "versions": 5,
+   "start_date": "2026-11-05",
+   "link": "https://www.facebook.com/ads/library/?id=1122130514055415",
+   "still": "videos/2553317288476600/still02_1s.jpg",
+   "hook_text": "As a married couple, we have made one investment that pays us monthly interest and it has completely changed how we plan our finances.",
+   "headline": "",
+   "body": "Managing money as a couple is not just about saving more, it’s about making smarter investment choices and building multiple income streams. 💰\n\nOne thing we’ve been exploring is investments that can generate regular monthly income and add another layer of diversification to our portfolio.\n\nWe recently came across Wint Wealth, which offers bond investment opportunities for those looking to explore options beyond traditional investments.\n\nIf you’re looking to diversify your portfolio and understand how bonds work, it’s worth exploring their offerings.\n\nAs always, do your own research, understand the risks involved, and invest according to your financial goals.\n\n#WintWealth #Bonds #PassiveIncome #PersonalFinance #Investing MoneyManagement WealthCreation",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "As a married couple, we have made one investment that pays us monthly interest and it has completely changed how we plan our finances. And the surprising part, only 10% of Indians know about it. This investment gives us 11% fixed returns a year, which comes into account every month. Look, when you start a family, you have more financial responsibilities, so it makes sense to have an investment in your portfolio that gives you some money every month. And that's why we invested in bonds on wind wealth. Talking about wind wealth, it's a severe registered broker with over 3 lack in investors. And the best part according to me is that wind wealth, in which 2% of their money in all the bonds, so they have skin in the game. And these bonds are bag by assets. So if you are someone looking for monthly interest, check wind wealth now. All the offer related documents carefully.",
+   "asset": "2553317288476600",
+   "sample_views": {
+    "all": 29
+   }
+  },
+  "1452959666055721": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "creator",
+    "founder_evidence": "caption: 'My First Paid Post / Wint Wealth'; spoken: 'mera pehla paid post'; ad text: '#ad'",
+    "hook": "story_open",
+    "hook_text": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "unclear",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "WW-c08",
+    "product": "Bond investing app, 11% fixed (end card)",
+    "one_line": "A creator explains why he first refused, then did, his first paid post for Wint Wealth, built on educating people about bonds.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 193,
+   "versions": 2,
+   "start_date": "2026-05-11",
+   "link": "https://www.facebook.com/ads/library/?id=1452959666055721",
+   "still": "videos/17958057075116488/still02_1s.jpg",
+   "hook_text": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna",
+   "headline": "",
+   "body": "I did my first paid post with Zerodha-backed Wint Wealth (@wintwealth) and this post is the story of how it happened, and what happened after that :)\n#ad #investing #indianstartups #startups #zerodha",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna apkis na, aur maine saafsa mana kar diya tha. Is company ka naam hai Wint Wealth, jo ki bond markets mein invest kar aata hai. And eventually, unhi ke sath mera pehla paid post bhi hua. Ab hiya kaani hai ki ho kaise hua tha. Unhone jab aaki maa ko bola, maine bola ki, maine to kisi ko nahi bolunga ki, ki aap is platform ki toru kahin pi invest kar do. Agil hoon hai boli hai, ko dikkad nahi maat bolu. Unhone hain bola ki, loko hi to batao ki bonds hota hai, kyaise hota hai, kyun hota hai, किसको उसमें इंवस करना चीए नहीं करना चीए, कैसे करना चीए, कैसे उसको इंवस करना चीए And that really resonated with me, why? क्योकि मैं जब कुछ जब बानट्स में जब इंवस करने रहे चब शुरू किया था मैं अपनी माह को नहीं सम्जापार था And my mother is well educated, she has the idea of INCHIO मैं ववूको कर्मिजने कर पाथा था कि अवर और व्याइनद्स नहीं परीड़ा कर था और वो आप नहीं सम्या पाए रहा था एजुकेषिन फॉर्छ प्रज यह रेजिनेयत पर पर में नहीं पर दिवाइन नहीं पर पाता था और मैं निकाइके इसका संज बनता है। तो करते हैं। क्योंकि आप अगर आप इजुकेशन कर रहे हूँ, तो एक साइसेबल नमर आप अवदियन्स के लिए मेरा भी नाम उपर जाला गी। तीकह बदा सही बाते बतार है। लोगों पता नहीं हैं वो एज चीज़ बतार हैं। उस आंगल से मने विडियो अमने किया जानूर्टी के फॉर्स वीक में। औस पे मिलियन्स आप वियों यह प्यार बोता एं। या रहा है तो वो जाई लिए वाइरल विड़ेजी के लिए पर बार देते हैं। अगर ब्रायन्ट्स है गोईभी, वो गर ख्रेटर्स को लिए ब्रीव देके नहीं बोले कि ये बोलदो खाली स्क्रिप्ट के सामने टेलिब्राम्टर लगा करके रादर उनको बोली कि एजुकीशन क्रेट करो अमारी काटगरी के बारे में या पे देख लो।",
+   "asset": "17958057075116488",
+   "sample_views": {
+    "all": 30
+   }
+  }
+ },
+ "rerun": null
+}
