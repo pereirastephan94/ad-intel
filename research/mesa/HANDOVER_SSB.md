@@ -5,7 +5,8 @@ For the Head of Copy and the performance copy bot. It fills the gap in the exist
 ## Where the full work is
 - Full document: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE (private to Stephan's account).
 - Files: this repo, branch `claude/yesterday-cpls-TCJO8`, folder `research/mesa/`. Start with `doc/patterns.md`, `doc/ssb-insights.md`, `doc/summary.md`. Per video: `videos/<id>/breakdown.md`. Per image ad: `statics/<id>.md`.
-- Coverage: 163 of roughly 310 live ads (35 distinct videos, 71 image ads). Spend and results are not public, so this shows what Mesa is betting on, not what is winning.
+- Coverage: 241 of roughly 310 live ads (44 distinct videos, 115 image ads); the pull is still running. Spend and results are not public, so this shows what Mesa is betting on, not what is winning. The figures below were counted on the first 163 ads (35 videos, 71 image ads).
+- New in ads 164 to 241: a named co-founder interview ("Who is Mesa for?" - "Well, it's not for everyone") with a 23 s music-only montage of headline cards and school logos; an age call-out ("If you are 25 years old, the worst thing you can do is work in a back-end role in a large MNC", 214 wpm); a reaction format (borrowed stage clip, then selfie "Finally, somebody said it"); new image themes for Ascend ("Learn business from top faculty and the founders who've done it", "You've mastered your role, now lead the whole business", "Career coach from month one, and a network of founders you keep for life") and PGP ("The only B-school where your startup is the syllabus"). Everything else is a repeat or re-cut.
 
 ## The shape of Mesa's account
 - A launch ramp: 114 of 163 ads started 16 to 18 Nov. About half the ads, and 53 of 71 image ads, sell Ascend (part-time, ages 25 to 38, "keep your job"). Ascend has no graduates; its proof is borrowed from the full-time PGP. Its own ads disagree on "Online" vs "Hybrid" and on early bird closing 26 or 29 Nov.
