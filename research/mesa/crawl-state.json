@@ -362,13 +362,13 @@
   {
    "q": "work",
    "media": "video"
-  }
- ],
- "queue": [
+  },
   {
    "q": "work",
    "media": "meme"
-  },
+  }
+ ],
+ "queue": [
   {
    "q": "work",
    "media": "image"
@@ -679,6 +679,11 @@
    "q": "work",
    "media": "video",
    "retry": 1
+  },
+  {
+   "q": "work",
+   "media": "meme",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -816,7 +821,8 @@
   "2026-11-19T17:16:21.891Z view {\"q\":\"work\"} -> 30 ads (window total 100), 2 new, 221 unique of ~0",
   "2026-11-19T17:16:21.896Z stopping after 14 view(s) as asked",
   "2026-11-19T17:16:21.896Z PAUSED: 221 unique ads of ~0",
-  "2026-11-19T17:16:40.120Z view {\"q\":\"work\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0"
+  "2026-11-19T17:16:40.120Z view {\"q\":\"work\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0",
+  "2026-11-19T17:22:49.326Z view {\"q\":\"work\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 221 unique of ~0"
  ],
  "keywordsQueued": true
 }
