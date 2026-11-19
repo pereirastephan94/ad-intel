@@ -32,6 +32,9 @@
    "sort": "total_impressions",
    "dir": "desc",
    "retry": 1
+  },
+  {
+   "media": "all"
   }
  ],
  "total": null,
@@ -43,27 +46,20 @@
   "2026-11-19T22:13:36.713Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-19T22:18:16.917Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-19T22:18:16.918Z stopping after 6 view(s) as asked",
-  "2026-11-19T22:18:16.918Z PAUSED: 0 unique ads of ~null"
+  "2026-11-19T22:18:16.918Z PAUSED: 0 unique ads of ~null",
+  "2026-11-19T22:22:19.449Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null"
  ],
  "keywordsQueued": true,
  "queue": [
   {
+   "media": "video"
+  },
+  {
+   "media": "image"
+  },
+  {
    "media": "all",
-   "sort": "total_impressions",
-   "dir": "desc",
-   "retry": 2
-  },
-  {
-   "media": "video",
-   "sort": "total_impressions",
-   "dir": "desc",
-   "retry": 2
-  },
-  {
-   "media": "image",
-   "sort": "total_impressions",
-   "dir": "desc",
-   "retry": 2
+   "retry": 1
   }
  ]
 }

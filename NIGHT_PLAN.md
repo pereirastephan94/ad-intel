@@ -38,11 +38,16 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 - Pull job 1 done: Stable Money got 30 video ads (25 videos); its "all" and "image" views came back empty. Cult.fit page not found on first try.
 - LESSON: about half of all page views come back empty. slow-crawl now retries empty plain views twice; sample-run.sh takes alternate
   spellings ("Cult.fit|cultfit|Cult") and MAX_VIEWS=6.
-- Pull job 2 (Stable Money remaining views, Wint Wealth, Cult.fit): started 20:32 UTC 19 Nov.
-- Pull job 3 (Fitelo, Atomberg, Qubo): not started.
-- Pull job 4 (Mokobara, DailyObjects, GIVA): not started.
-- Pull job 5 (CaratLane + any brand that failed): not started.
-- Write-ups: Sonnet pilot on 5 Stable Money videos running; review them (log in teardown/BRIEF_REVIEW_LOG.md) before releasing the other 20.
+- ROOT CAUSE of empty views found 22:25 UTC: the `sort_data[mode]=total_impressions` parameter. Views without any sort come back full.
+  sample-run.sh now queues {all},{video},{image} with no sort. Never add the sort back.
+- Pull job 2 done: Stable Money 33 ads (25 videos, 3 images), Wint Wealth 30 ads (13 videos, 11 images). Both were pulled WITH the impressions sort (it worked after retries).
+- Pull job 3 (Cult.fit page 392046674300717, Fitelo, Atomberg): started 22:27 UTC 19 Nov, default order.
+- Pull job 4 (Qubo, Mokobara, DailyObjects): not started.
+- Pull job 5 (GIVA, CaratLane): not started.
+- Write-ups: Stable Money and Wint Wealth done (breakdown.md, tags.json, concepts.md). Hindi transcripts need `teardown/retranscribe.py` BEFORE write-ups.
+  Per brand: 2 Sonnet agents (videos split in two, images with the second), then 1 Sonnet concept pass. Prompts: copy the pattern used for Wint Wealth
+  (briefs + all Rulings sections; example folder research/stable-money/videos/1113897927910622).
+- Comparison 1 (Stable Money vs Wint Wealth): compute.py runs clean; waiting on Wint concept pass, then perspectives.json, build, rubric review, publish.
 - Opus agent finished: RUBRIC v2, TAGGING.md, COMPARE_SPEC.md, compare/compute.py, compare/build.py all written and tested on dummy brands (28 of 30).
 - Comparison pages published: none yet.
 
