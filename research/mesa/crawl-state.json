@@ -411,12 +411,18 @@
   {
    "q": "the",
    "media": "video"
+  },
+  {
+   "q": "the",
+   "media": "meme"
   }
  ],
  "queue": [
   {
    "q": "the",
-   "media": "meme"
+   "media": "meme",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   },
   {
    "q": "the",
@@ -919,7 +925,8 @@
   "2026-11-19T18:26:11.810Z view {\"q\":\"the\"} -> 30 ads (window total 43), 12 new, 241 unique of ~0",
   "2026-11-19T18:30:40.581Z view {\"q\":\"the\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 241 unique of ~0",
   "2026-11-19T18:30:40.586Z stopping after 14 view(s) as asked",
-  "2026-11-19T18:30:40.586Z PAUSED: 241 unique ads of ~0"
+  "2026-11-19T18:30:40.586Z PAUSED: 241 unique ads of ~0",
+  "2026-11-19T18:31:04.067Z view {\"q\":\"the\",\"media\":\"meme\"} -> 30 ads (window total 43), 0 new, 241 unique of ~0"
  ],
  "keywordsQueued": true
 }
