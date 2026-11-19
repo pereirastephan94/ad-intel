@@ -1,0 +1,137 @@
+{
+ "asset": "1832281961296896",
+ "first_seen_in": "1130619536495111",
+ "duration_s": 60.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.1,
+   "why": "scene change"
+  },
+  {
+   "t": 11.6,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 23.9,
+   "why": "scene change"
+  },
+  {
+   "t": 26.5,
+   "why": "scene change"
+  },
+  {
+   "t": 28.2,
+   "why": "scene change"
+  },
+  {
+   "t": 37.5,
+   "why": "scene change"
+  },
+  {
+   "t": 42.7,
+   "why": "scene change"
+  },
+  {
+   "t": 49.7,
+   "why": "scene change"
+  },
+  {
+   "t": 60.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "99.9% of companies fail in the mind of the entrepreneur. That's because so many people have so many ideas, but those ideas never become a reality and just remain in the mind. Some of these are genuine, you know, cases where these folks cannot quit their jobs, suddenly to start something without any guidance, without a firm idea, without any backing. Now that's exactly what we wanted to solve. We thought, could we create a program where students build their own businesses on the side without quitting their jobs. We already have done this, we have the right ingredients. Mesa students are now doing almost 50 crores in ERA. Have raised 25 crores in capital and have had multiple startups featured on Sharp Tank. Now that's how the hybrid PGP in business, AI and entrepreneurship was born for working professionals who cannot quit their jobs but want to start something for themselves.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "99.9% of companies fail in the mind of the entrepreneur."
+   },
+   {
+    "start": 5,
+    "end": 11.5,
+    "text": "That's because so many people have so many ideas, but those ideas never become a reality and just remain in the mind."
+   },
+   {
+    "start": 11.5,
+    "end": 16.8,
+    "text": "Some of these are genuine, you know, cases where these folks cannot quit their jobs,"
+   },
+   {
+    "start": 16.8,
+    "end": 21.5,
+    "text": "suddenly to start something without any guidance, without a firm idea, without any backing."
+   },
+   {
+    "start": 21.5,
+    "end": 24,
+    "text": "Now that's exactly what we wanted to solve."
+   },
+   {
+    "start": 24,
+    "end": 29.5,
+    "text": "We thought, could we create a program where students build their own businesses on the side"
+   },
+   {
+    "start": 29.5,
+    "end": 31,
+    "text": "without quitting their jobs."
+   },
+   {
+    "start": 31,
+    "end": 34.5,
+    "text": "We already have done this, we have the right ingredients."
+   },
+   {
+    "start": 34.5,
+    "end": 37.5,
+    "text": "Mesa students are now doing almost 50 crores in ERA."
+   },
+   {
+    "start": 37.5,
+    "end": 42.5,
+    "text": "Have raised 25 crores in capital and have had multiple startups featured on Sharp Tank."
+   },
+   {
+    "start": 42.5,
+    "end": 49.5,
+    "text": "Now that's how the hybrid PGP in business, AI and entrepreneurship was born for working professionals"
+   },
+   {
+    "start": 49.5,
+    "end": 54,
+    "text": "who cannot quit their jobs but want to start something for themselves."
+   }
+  ]
+ }
+}

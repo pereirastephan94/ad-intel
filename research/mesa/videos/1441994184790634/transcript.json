@@ -1,0 +1,207 @@
+{
+ "asset": "1441994184790634",
+ "first_seen_in": "4585145681703758",
+ "duration_s": 81.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.7,
+   "why": "scene change"
+  },
+  {
+   "t": 10.4,
+   "why": "scene change"
+  },
+  {
+   "t": 18.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 29.8,
+   "why": "scene change"
+  },
+  {
+   "t": 39.1,
+   "why": "scene change"
+  },
+  {
+   "t": 43.7,
+   "why": "scene change"
+  },
+  {
+   "t": 61.6,
+   "why": "scene change"
+  },
+  {
+   "t": 81.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I've funded 200 plus startups and invested over 800 crores over the last 4 years and almost every startup founder comes back to me with the same problem. Hiring. Honestly, founders struggle to find people they can depend on. People can take a part of the business and just run it. Founders are looking for people who've actually built something. And it could be very small, but it has to have made real revenue. They're looking for people who have sold things, can use AI and have solved real business problems. And they're looking for people who can do the basics. Speaking well, working with data and staying very organized. I think this combination is hard to find. But I found this new business school in Bangalore started by my friends called Mesa. One is a Harvard Business School alum and the other went to Kellogg. I visited their campus a while back and since then I've been telling every founder I meet to hire from them. And it comes down to one simple thing. In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product. Like really actually sell. These students have to pick a category, build a product and website, make content, run ads and then sell online and offline. So when you hire from Mesa, you're not hiring someone you have to manage. You're hiring someone who's already done it, who's already sold, run ads and found real paying customers. You can hand them a problem and trust them to solve it. They can lead a team or own a number. And I think that's why 150 plus startups are already hiring from there now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.9,
+    "text": "I've funded 200 plus startups and invested over 800 crores over the last 4 years and almost"
+   },
+   {
+    "start": 4.9,
+    "end": 7.4,
+    "text": "every startup founder comes back to me with the same problem."
+   },
+   {
+    "start": 7.4,
+    "end": 8.4,
+    "text": "Hiring."
+   },
+   {
+    "start": 8.4,
+    "end": 10.7,
+    "text": "Honestly, founders struggle to find people they can depend on."
+   },
+   {
+    "start": 10.7,
+    "end": 13.3,
+    "text": "People can take a part of the business and just run it."
+   },
+   {
+    "start": 13.3,
+    "end": 15.1,
+    "text": "Founders are looking for people who've actually built something."
+   },
+   {
+    "start": 15.1,
+    "end": 18.2,
+    "text": "And it could be very small, but it has to have made real revenue."
+   },
+   {
+    "start": 18.2,
+    "end": 22.6,
+    "text": "They're looking for people who have sold things, can use AI and have solved real business problems."
+   },
+   {
+    "start": 22.6,
+    "end": 25,
+    "text": "And they're looking for people who can do the basics."
+   },
+   {
+    "start": 25,
+    "end": 27.8,
+    "text": "Speaking well, working with data and staying very organized."
+   },
+   {
+    "start": 28,
+    "end": 29.9,
+    "text": "I think this combination is hard to find."
+   },
+   {
+    "start": 29.9,
+    "end": 33.7,
+    "text": "But I found this new business school in Bangalore started by my friends called Mesa."
+   },
+   {
+    "start": 33.7,
+    "end": 36.4,
+    "text": "One is a Harvard Business School alum and the other went to Kellogg."
+   },
+   {
+    "start": 36.4,
+    "end": 40.7,
+    "text": "I visited their campus a while back and since then I've been telling every founder I meet"
+   },
+   {
+    "start": 40.7,
+    "end": 41.7,
+    "text": "to hire from them."
+   },
+   {
+    "start": 41.7,
+    "end": 43.8,
+    "text": "And it comes down to one simple thing."
+   },
+   {
+    "start": 43.8,
+    "end": 49.6,
+    "text": "In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product."
+   },
+   {
+    "start": 49.6,
+    "end": 51.4,
+    "text": "Like really actually sell."
+   },
+   {
+    "start": 51.4,
+    "end": 56.7,
+    "text": "These students have to pick a category, build a product and website, make content, run ads"
+   },
+   {
+    "start": 56.7,
+    "end": 58.6,
+    "text": "and then sell online and offline."
+   },
+   {
+    "start": 58.6,
+    "end": 61.6,
+    "text": "So when you hire from Mesa, you're not hiring someone you have to manage."
+   },
+   {
+    "start": 61.6,
+    "end": 66.5,
+    "text": "You're hiring someone who's already done it, who's already sold, run ads and found real"
+   },
+   {
+    "start": 66.5,
+    "end": 67.5,
+    "text": "paying customers."
+   },
+   {
+    "start": 67.5,
+    "end": 69.8,
+    "text": "You can hand them a problem and trust them to solve it."
+   },
+   {
+    "start": 69.8,
+    "end": 71.6,
+    "text": "They can lead a team or own a number."
+   },
+   {
+    "start": 71.6,
+    "end": 75.2,
+    "text": "And I think that's why 150 plus startups are already hiring from there now."
+   }
+  ]
+ }
+}

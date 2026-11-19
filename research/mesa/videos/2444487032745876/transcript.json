@@ -1,0 +1,142 @@
+{
+ "asset": "2444487032745876",
+ "first_seen_in": "1512248814079802",
+ "duration_s": 60.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.6,
+   "why": "scene change"
+  },
+  {
+   "t": 11.9,
+   "why": "scene change"
+  },
+  {
+   "t": 16.9,
+   "why": "scene change"
+  },
+  {
+   "t": 21.9,
+   "why": "scene change"
+  },
+  {
+   "t": 26.4,
+   "why": "scene change"
+  },
+  {
+   "t": 30.7,
+   "why": "scene change"
+  },
+  {
+   "t": 35.8,
+   "why": "scene change"
+  },
+  {
+   "t": 39,
+   "why": "scene change"
+  },
+  {
+   "t": 45.2,
+   "why": "scene change"
+  },
+  {
+   "t": 48.5,
+   "why": "scene change"
+  },
+  {
+   "t": 60,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You will be the average of the five people around you and that's why Peer Group matters so much when you are 17, 18 years old. The UG cohort here at Mesa consists of extraordinary students. We have somebody who is pitched on Shark Tank and is now in Foundry which is the incubator started by Nikhil Kamar. We have a student who has gotten a 2 crore grant from Silicon Valley incubator called Entrepreneurs Force. We have three students who have built a Khakra brand doing 25 lakh in revenue every single month and we have at least five students who have launched their tech apps on the US App Store and are earning in dollars. Now how do we manage to get the best students? When we are creating the undergraduate cohort less than 5% of the applicants get an offer from Mesa. We filter for intent, hunger, willingness to learn, energy, aptitude and have a five step admissions process that involves an online test, group discussion, an AI case study interview, multiple interviews with CXOs. That's why the environment here at Mesa is extraordinary. If you are interested, apply now. Music",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7,
+    "text": "You will be the average of the five people around you and that's why Peer Group matters so much when you are 17, 18 years old."
+   },
+   {
+    "start": 7,
+    "end": 11,
+    "text": "The UG cohort here at Mesa consists of extraordinary students."
+   },
+   {
+    "start": 11,
+    "end": 16,
+    "text": "We have somebody who is pitched on Shark Tank and is now in Foundry which is the incubator started by Nikhil Kamar."
+   },
+   {
+    "start": 16,
+    "end": 20,
+    "text": "We have a student who has gotten a 2 crore grant from Silicon Valley incubator called Entrepreneurs Force."
+   },
+   {
+    "start": 20,
+    "end": 25,
+    "text": "We have three students who have built a Khakra brand doing 25 lakh in revenue every single month"
+   },
+   {
+    "start": 25,
+    "end": 30,
+    "text": "and we have at least five students who have launched their tech apps on the US App Store and are earning in dollars."
+   },
+   {
+    "start": 30,
+    "end": 32,
+    "text": "Now how do we manage to get the best students?"
+   },
+   {
+    "start": 32,
+    "end": 37,
+    "text": "When we are creating the undergraduate cohort less than 5% of the applicants get an offer from Mesa."
+   },
+   {
+    "start": 37,
+    "end": 43,
+    "text": "We filter for intent, hunger, willingness to learn, energy, aptitude and have a five step admissions process"
+   },
+   {
+    "start": 43,
+    "end": 49,
+    "text": "that involves an online test, group discussion, an AI case study interview, multiple interviews with CXOs."
+   },
+   {
+    "start": 49,
+    "end": 52,
+    "text": "That's why the environment here at Mesa is extraordinary."
+   },
+   {
+    "start": 52,
+    "end": 54,
+    "text": "If you are interested, apply now."
+   },
+   {
+    "start": 55,
+    "end": 60,
+    "text": "Music"
+   }
+  ]
+ }
+}

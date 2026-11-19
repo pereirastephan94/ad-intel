@@ -1,0 +1,96 @@
+{
+ "asset": "2270117480214820",
+ "first_seen_in": "1518020923712110",
+ "duration_s": 38.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.6,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 25.4,
+   "why": "scene change"
+  },
+  {
+   "t": 29.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 37.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We are looking for 200 special people to be a part of the fifth cohort here at Mesa. These people will be trained by founders, business leaders and VCs to build their own companies or to work with leadership positions in startups. The way we do this is in three ways. A new age curriculum that is taught by business experts via the case-based methodology in the classroom. Live projects with startups where every student gets to truly understand how a startup works and experiences where students build their own startups from scratch. If you are somebody who is interested you should apply fast.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "We are looking for 200 special people to be a part of the fifth cohort here at Mesa."
+   },
+   {
+    "start": 5,
+    "end": 9.1,
+    "text": "These people will be trained by founders, business leaders and VCs to build their own"
+   },
+   {
+    "start": 9.1,
+    "end": 14.9,
+    "text": "companies or to work with leadership positions in startups. The way we do this is in three ways."
+   },
+   {
+    "start": 14.9,
+    "end": 19.6,
+    "text": "A new age curriculum that is taught by business experts via the case-based methodology in the"
+   },
+   {
+    "start": 19.6,
+    "end": 24.9,
+    "text": "classroom. Live projects with startups where every student gets to truly understand how a startup"
+   },
+   {
+    "start": 25.4,
+    "end": 29.1,
+    "text": "works and experiences where students build their own startups from scratch."
+   },
+   {
+    "start": 29.1,
+    "end": 37.9,
+    "text": "If you are somebody who is interested you should apply fast."
+   }
+  ]
+ }
+}

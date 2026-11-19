@@ -1,0 +1,147 @@
+{
+ "asset": "1154564920593114",
+ "first_seen_in": "1290720899885510",
+ "duration_s": 68.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.9,
+   "why": "scene change"
+  },
+  {
+   "t": 12.1,
+   "why": "scene change"
+  },
+  {
+   "t": 19.6,
+   "why": "scene change"
+  },
+  {
+   "t": 28.4,
+   "why": "scene change"
+  },
+  {
+   "t": 30.4,
+   "why": "scene change"
+  },
+  {
+   "t": 34.4,
+   "why": "scene change"
+  },
+  {
+   "t": 37.4,
+   "why": "scene change"
+  },
+  {
+   "t": 39.4,
+   "why": "scene change"
+  },
+  {
+   "t": 45.6,
+   "why": "scene change"
+  },
+  {
+   "t": 58,
+   "why": "scene change"
+  },
+  {
+   "t": 68,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "As a student, imagine getting a chance to be in a meeting room with 100 plus founders who have built successful startups during the 12 month program that you are undergoing. I did a 24 month 2 year MBA during that entire tenure at Kellogg. I probably saw two CEOs and that two from afar. I know for a fact that it changes how students live. We here at Mesa have also built a smart model around how to engage with founders. We just don't do fyside chats, those are boring. We speak to founders, understand the problems their startups are facing and we write cases about them. Students solve these cases, present their findings to the founders, there are debates, there are discussions and hence the interaction also becomes very very very interesting. Many of these founders recruit students from us. Somebody does well in the case, they get straight a job offer or an internship offer. Almost 40% of our students get jobs through this medium which is founders coming on campus and getting impressed. Which I find incredible.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.2,
+    "text": "As a student, imagine getting a chance to be in a meeting room with 100 plus founders"
+   },
+   {
+    "start": 6.2,
+    "end": 12.2,
+    "text": "who have built successful startups during the 12 month program that you are undergoing."
+   },
+   {
+    "start": 12.2,
+    "end": 16.3,
+    "text": "I did a 24 month 2 year MBA during that entire tenure at Kellogg."
+   },
+   {
+    "start": 16.3,
+    "end": 20,
+    "text": "I probably saw two CEOs and that two from afar."
+   },
+   {
+    "start": 20,
+    "end": 23.8,
+    "text": "I know for a fact that it changes how students live."
+   },
+   {
+    "start": 23.8,
+    "end": 28.4,
+    "text": "We here at Mesa have also built a smart model around how to engage with founders."
+   },
+   {
+    "start": 28.7,
+    "end": 31.2,
+    "text": "We just don't do fyside chats, those are boring."
+   },
+   {
+    "start": 31.2,
+    "end": 36.7,
+    "text": "We speak to founders, understand the problems their startups are facing and we write cases about them."
+   },
+   {
+    "start": 36.7,
+    "end": 40.5,
+    "text": "Students solve these cases, present their findings to the founders,"
+   },
+   {
+    "start": 40.5,
+    "end": 46.1,
+    "text": "there are debates, there are discussions and hence the interaction also becomes very very very interesting."
+   },
+   {
+    "start": 46.1,
+    "end": 49.2,
+    "text": "Many of these founders recruit students from us."
+   },
+   {
+    "start": 49.2,
+    "end": 53.1,
+    "text": "Somebody does well in the case, they get straight a job offer or an internship offer."
+   },
+   {
+    "start": 53.1,
+    "end": 61.6,
+    "text": "Almost 40% of our students get jobs through this medium which is founders coming on campus and getting impressed."
+   },
+   {
+    "start": 61.6,
+    "end": 63.1,
+    "text": "Which I find incredible."
+   }
+  ]
+ }
+}

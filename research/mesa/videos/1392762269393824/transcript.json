@@ -1,0 +1,182 @@
+{
+ "asset": "1392762269393824",
+ "first_seen_in": "1701579211625168",
+ "duration_s": 76.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.8,
+   "why": "scene change"
+  },
+  {
+   "t": 23.1,
+   "why": "scene change"
+  },
+  {
+   "t": 23.4,
+   "why": "scene change"
+  },
+  {
+   "t": 27.7,
+   "why": "scene change"
+  },
+  {
+   "t": 33,
+   "why": "scene change"
+  },
+  {
+   "t": 38.2,
+   "why": "scene change"
+  },
+  {
+   "t": 41.4,
+   "why": "scene change"
+  },
+  {
+   "t": 54.1,
+   "why": "scene change"
+  },
+  {
+   "t": 63,
+   "why": "scene change"
+  },
+  {
+   "t": 76,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I spent two years preparing for UPSC. Today, I work directly with the founder of a fast-growing F&B startup. I started my career at KPMG and then decided to join Mesa School of Business. I always wanted to work in the F&B industry, but I had no idea how to make that transition. During my 12 months at Mesa, I got to build two businesses of my own. Worked on dual business problems with two brothers' organic farms, where I worked on influencer marketing for the US market. And here's the interesting part. Before Mesa, I was someone who was genuinely scared of technology. But during my time at Mesa, I built an AI agent that could identify relevant influencers, track their engagement number, and automate personalized outreach. And this AI agent got me an interview with the founder of GoDacy. Today, I work as an AI at GoDacy, where I manage multiple product categories across quick commerce platforms. So, I'm preparing for UPSC to building AI automations and working directly with the startup founder. That's how much my career pivoted in just 12 months. If you're looking to make a similar career switch and work in high-impact roles at India's top startups, explore Mesa's 12-month PGP in startup leadership. Apply now!",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.8,
+    "text": "I spent two years preparing for UPSC."
+   },
+   {
+    "start": 2.8,
+    "end": 6.8,
+    "text": "Today, I work directly with the founder of a fast-growing F&B startup."
+   },
+   {
+    "start": 6.8,
+    "end": 11.9,
+    "text": "I started my career at KPMG and then decided to join Mesa School of Business."
+   },
+   {
+    "start": 11.9,
+    "end": 17.4,
+    "text": "I always wanted to work in the F&B industry, but I had no idea how to make that transition."
+   },
+   {
+    "start": 17.4,
+    "end": 21.2,
+    "text": "During my 12 months at Mesa, I got to build two businesses of my own."
+   },
+   {
+    "start": 21.2,
+    "end": 24.6,
+    "text": "Worked on dual business problems with two brothers' organic farms,"
+   },
+   {
+    "start": 24.6,
+    "end": 27.6,
+    "text": "where I worked on influencer marketing for the US market."
+   },
+   {
+    "start": 27.6,
+    "end": 29.2,
+    "text": "And here's the interesting part."
+   },
+   {
+    "start": 29.2,
+    "end": 33,
+    "text": "Before Mesa, I was someone who was genuinely scared of technology."
+   },
+   {
+    "start": 33,
+    "end": 38.1,
+    "text": "But during my time at Mesa, I built an AI agent that could identify relevant influencers,"
+   },
+   {
+    "start": 38.1,
+    "end": 41.4,
+    "text": "track their engagement number, and automate personalized outreach."
+   },
+   {
+    "start": 41.4,
+    "end": 45.1,
+    "text": "And this AI agent got me an interview with the founder of GoDacy."
+   },
+   {
+    "start": 45.1,
+    "end": 49.9,
+    "text": "Today, I work as an AI at GoDacy, where I manage multiple product categories"
+   },
+   {
+    "start": 49.9,
+    "end": 51.7,
+    "text": "across quick commerce platforms."
+   },
+   {
+    "start": 51.7,
+    "end": 55.6,
+    "text": "So, I'm preparing for UPSC to building AI automations"
+   },
+   {
+    "start": 55.6,
+    "end": 58.2,
+    "text": "and working directly with the startup founder."
+   },
+   {
+    "start": 58.2,
+    "end": 61,
+    "text": "That's how much my career pivoted in just 12 months."
+   },
+   {
+    "start": 61,
+    "end": 63.4,
+    "text": "If you're looking to make a similar career switch"
+   },
+   {
+    "start": 63.4,
+    "end": 67,
+    "text": "and work in high-impact roles at India's top startups,"
+   },
+   {
+    "start": 67,
+    "end": 70.3,
+    "text": "explore Mesa's 12-month PGP in startup leadership."
+   },
+   {
+    "start": 70.3,
+    "end": 71.3,
+    "text": "Apply now!"
+   }
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "asset": "1130126639685391",
+ "first_seen_in": "1639280324402147",
+ "duration_s": 50.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.8,
+   "why": "scene change"
+  },
+  {
+   "t": 8.5,
+   "why": "scene change"
+  },
+  {
+   "t": 11.2,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "scene change"
+  },
+  {
+   "t": 26.3,
+   "why": "scene change"
+  },
+  {
+   "t": 31.2,
+   "why": "scene change"
+  },
+  {
+   "t": 36.5,
+   "why": "scene change"
+  },
+  {
+   "t": 50.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Three of our first year students just pitched to Elevation Capital. It was not a mock pitch, not a case study, a live pitch. To a $2 billion fund for a product that they built called Capture. Two of them had zero tech background. They used Claude Cote, Mesa's AI mentors and a hackathon to ship it. That is not the ceiling here. That is the baseline. At Mesa, Antler, Titan Capital, Campus Fund and Elevation Capital are not names on a guest list. They are funds looking at what students are building. Think about what that means if you are 17 years old. Most people spend their entire 20s trying to get into a room with investors. Our students are in that room before you turn 19. Not because they have networked their way in, but because they've built something worth presenting. If this is how you envision yourself spending the next three years, then you should apply for Mesa's undergraduate program in Business and Ones Connection.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.6,
+    "text": "Three of our first year students just pitched to Elevation Capital."
+   },
+   {
+    "start": 2.6,
+    "end": 5.9,
+    "text": "It was not a mock pitch, not a case study, a live pitch."
+   },
+   {
+    "start": 5.9,
+    "end": 9.3,
+    "text": "To a $2 billion fund for a product that they built called Capture."
+   },
+   {
+    "start": 9.3,
+    "end": 11.3,
+    "text": "Two of them had zero tech background."
+   },
+   {
+    "start": 11.3,
+    "end": 14.9,
+    "text": "They used Claude Cote, Mesa's AI mentors and a hackathon to ship it."
+   },
+   {
+    "start": 14.9,
+    "end": 16.3,
+    "text": "That is not the ceiling here."
+   },
+   {
+    "start": 16.3,
+    "end": 17.4,
+    "text": "That is the baseline."
+   },
+   {
+    "start": 17.4,
+    "end": 23.1,
+    "text": "At Mesa, Antler, Titan Capital, Campus Fund and Elevation Capital are not names on a guest list."
+   },
+   {
+    "start": 23.1,
+    "end": 25.2,
+    "text": "They are funds looking at what students are building."
+   },
+   {
+    "start": 25.2,
+    "end": 27.7,
+    "text": "Think about what that means if you are 17 years old."
+   },
+   {
+    "start": 27.7,
+    "end": 31.2,
+    "text": "Most people spend their entire 20s trying to get into a room with investors."
+   },
+   {
+    "start": 31.2,
+    "end": 34.3,
+    "text": "Our students are in that room before you turn 19."
+   },
+   {
+    "start": 34.3,
+    "end": 38.4,
+    "text": "Not because they have networked their way in, but because they've built something worth presenting."
+   },
+   {
+    "start": 38.4,
+    "end": 41.3,
+    "text": "If this is how you envision yourself spending the next three years,"
+   },
+   {
+    "start": 41.3,
+    "end": 45.3,
+    "text": "then you should apply for Mesa's undergraduate program in Business and Ones Connection."
+   }
+  ]
+ }
+}

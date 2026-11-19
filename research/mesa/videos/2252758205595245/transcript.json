@@ -1,0 +1,157 @@
+{
+ "asset": "2252758205595245",
+ "first_seen_in": "983620227695155",
+ "duration_s": 62,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.8,
+   "why": "scene change"
+  },
+  {
+   "t": 10.4,
+   "why": "scene change"
+  },
+  {
+   "t": 12.1,
+   "why": "scene change"
+  },
+  {
+   "t": 24.4,
+   "why": "scene change"
+  },
+  {
+   "t": 26,
+   "why": "scene change"
+  },
+  {
+   "t": 28.8,
+   "why": "scene change"
+  },
+  {
+   "t": 30.7,
+   "why": "scene change"
+  },
+  {
+   "t": 33.7,
+   "why": "scene change"
+  },
+  {
+   "t": 40.8,
+   "why": "scene change"
+  },
+  {
+   "t": 43,
+   "why": "scene change"
+  },
+  {
+   "t": 61.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You know, two students from our undergrad program have built and launched an entire app on the Apple App Store. It's called Capture. And you know, anyone who's watching this can use it. You can go to your App Store and download it. You can use it when running. And as you run, you capture territories in the real world. It's so cool. It has thousands of users using it and definitely has the potential to go viral. But here's the thing that I wanted to point out. Both of these students came from a non-technical background. They came to Mesa, underwent Mesa's AI curriculum, participated in multiple hackathons that were conducted by open AI, Anthropic, Emergent, worked with Mesa's AI mentors and used Claude Cote to build this from scratch. Now, this is exactly what is needed in India. Today's 17-18 year olds need to build things using AI tools. And yet, there is no BBA college which even has an AI curriculum. It's absolutely shocking. Education in India needs to change immediately. Else we are going to create graduates that are absolutely useless.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.6,
+    "text": "You know, two students from our undergrad program have built and launched an entire app on the Apple App Store."
+   },
+   {
+    "start": 6.6,
+    "end": 10.4,
+    "text": "It's called Capture. And you know, anyone who's watching this can use it."
+   },
+   {
+    "start": 10.4,
+    "end": 12.1,
+    "text": "You can go to your App Store and download it."
+   },
+   {
+    "start": 12.1,
+    "end": 13.3,
+    "text": "You can use it when running."
+   },
+   {
+    "start": 13.3,
+    "end": 16.3,
+    "text": "And as you run, you capture territories in the real world."
+   },
+   {
+    "start": 16.3,
+    "end": 17.5,
+    "text": "It's so cool."
+   },
+   {
+    "start": 17.5,
+    "end": 21.2,
+    "text": "It has thousands of users using it and definitely has the potential to go viral."
+   },
+   {
+    "start": 21.2,
+    "end": 23.1,
+    "text": "But here's the thing that I wanted to point out."
+   },
+   {
+    "start": 23.1,
+    "end": 26,
+    "text": "Both of these students came from a non-technical background."
+   },
+   {
+    "start": 26,
+    "end": 31.8,
+    "text": "They came to Mesa, underwent Mesa's AI curriculum, participated in multiple hackathons that were conducted by"
+   },
+   {
+    "start": 31.8,
+    "end": 38,
+    "text": "open AI, Anthropic, Emergent, worked with Mesa's AI mentors and used Claude Cote to build this from scratch."
+   },
+   {
+    "start": 38,
+    "end": 40.9,
+    "text": "Now, this is exactly what is needed in India."
+   },
+   {
+    "start": 40.9,
+    "end": 45.1,
+    "text": "Today's 17-18 year olds need to build things using AI tools."
+   },
+   {
+    "start": 45.1,
+    "end": 49.8,
+    "text": "And yet, there is no BBA college which even has an AI curriculum. It's absolutely shocking."
+   },
+   {
+    "start": 49.8,
+    "end": 52.7,
+    "text": "Education in India needs to change immediately."
+   },
+   {
+    "start": 52.7,
+    "end": 56.1,
+    "text": "Else we are going to create graduates that are absolutely useless."
+   }
+  ]
+ }
+}

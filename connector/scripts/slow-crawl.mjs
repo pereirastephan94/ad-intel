@@ -28,6 +28,7 @@ function urlFor(v) {
   if (v.sort) u += `&sort_data[mode]=${v.sort}&sort_data[direction]=${v.dir || 'desc'}`
   if (v.from) u += `&start_date[min]=${v.from}`
   if (v.to) u += `&start_date[max]=${v.to}`
+  if (v.q) u += `&q=${encodeURIComponent(v.q)}`
   return u
 }
 
@@ -45,6 +46,21 @@ if (!state.queue) {
   q.push({ to: day(back(366)), span: 9999 })
   state.queue = q
 }
+
+// Keyword views: the date filter turned out to match "ran during", so nearly every ad shares one window.
+// A keyword inside the page view does narrow the list, so slice by words instead.
+if (!state.keywordsQueued) {
+  state.queue = state.queue.filter((v) => !v.from && !v.to)
+  const words = ['Ascend', 'PGP', 'MBA', 'undergraduate', 'CAT', 'XAT', 'founders', 'startup', 'AI', 'placement', 'salary', 'career',
+    'internship', 'cohort', 'scholarship', 'admission', 'apply', 'job', 'LPA', 'CTC', 'business', 'build', 'immersion', 'tech', 'sales',
+    'marketing', 'product', 'consulting', 'finance', 'experience', 'learn', 'IIM', 'Bangalore', 'Mesa', 'school', 'year', 'work', 'why',
+    'how', 'you', 'your', 'the', 'not', 'from', 'with', 'for', 'and', 'is', 'to', 'in', 'of', 'a', 'I', 'we', 'our', 'this', 'what', 'who',
+    'India', 'leaders', 'students', 'class', 'program', 'programme', 'founder', 'CEO', 'real', 'world', 'batch', 'join', 'now', 'today']
+  for (const q of words) state.queue.push({ q })
+  state.keywordsQueued = true
+}
+const key = (v) => JSON.stringify([v.media || 'all', v.sort || '', v.dir || '', v.from || '', v.to || '', v.q || ''])
+const seenViews = new Set(state.done.map(key))
 
 function assetId(u) {
   try { return String(JSON.parse(Buffer.from(new URL(u).searchParams.get('efg'), 'base64').toString()).xpv_asset_id) } catch { return null }
@@ -83,9 +99,11 @@ async function handleMedia(a) {
 let emptyStreak = 0
 while (state.queue.length) {
   const v = state.queue.shift()
+  if (seenViews.has(key(v))) continue
+  seenViews.add(key(v))
   let res
   try { res = await loadLibraryUrl(urlFor(v)) } catch (e) { log(`load error ${e.message}`); res = { raw: [], ads: [], total: null } }
-  if (res.total != null && !v.from && !v.to && (v.media || 'all') === 'all') state.total = res.total
+  if (res.total > 0 && !v.from && !v.to && !v.q && (v.media || 'all') === 'all') state.total = Math.max(state.total || 0, res.total)
   let fresh = 0
   for (let i = 0; i < res.ads.length; i++) {
     const a = res.ads[i]
@@ -95,13 +113,12 @@ while (state.queue.length) {
     await handleMedia(ads[a.library_id])
   }
   log(`view ${JSON.stringify(v)} -> ${res.ads.length} ads (window total ${res.total}), ${fresh} new, ${Object.keys(ads).length} unique of ~${state.total}`)
-  // A full window hides ads: split it and look again.
-  if (v.from && v.to && res.total > res.ads.length && v.span > 1) {
-    const a = new Date(v.from), b = new Date(v.to), mid = new Date((a.getTime() + b.getTime()) / 2)
-    const next = new Date(mid.getTime() + 86400000)
-    state.queue.unshift({ from: v.from, to: day(mid), span: Math.ceil(v.span / 2) }, { from: day(next), to: v.to, span: Math.floor(v.span / 2) })
-  } else if (v.from && v.to && res.total > res.ads.length && v.span <= 1) {
-    for (const media of ['video', 'image', 'meme']) for (const dir of ['desc', 'asc']) state.queue.unshift({ from: v.from, to: v.to, media, sort: 'total_impressions', dir, span: 0 })
+  // A keyword view that still hides ads and is still finding new ones: narrow it by media type and sort.
+  if (v.q && fresh > 0 && res.total > res.ads.length) {
+    const more = []
+    if (!v.media) for (const media of ['video', 'meme', 'image']) more.push({ q: v.q, media })
+    if (!v.sort) more.push({ ...v, sort: 'relevancy_monthly_grouped', dir: 'desc' })
+    state.queue.unshift(...more.filter((m) => !seenViews.has(key(m))))
   }
   state.done.push(v)
   save()

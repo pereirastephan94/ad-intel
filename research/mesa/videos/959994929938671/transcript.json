@@ -1,0 +1,137 @@
+{
+ "asset": "959994929938671",
+ "first_seen_in": "1048210408316661",
+ "duration_s": 45.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11,
+   "why": "scene change"
+  },
+  {
+   "t": 15.1,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22.2,
+   "why": "scene change"
+  },
+  {
+   "t": 24.5,
+   "why": "scene change"
+  },
+  {
+   "t": 26.1,
+   "why": "scene change"
+  },
+  {
+   "t": 30.8,
+   "why": "scene change"
+  },
+  {
+   "t": 36.1,
+   "why": "scene change"
+  },
+  {
+   "t": 45,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "In just their first year of the undergrad course, our students have landed full-time internships in top startups in India in very interesting roles. Let me give you some examples. There is a student building AI automations at Zomato. There's another one that is building product at this consumer tech startup called Grapevine. Another one is working as a summer analyst with this boutique investment bank in Mumbai. There are also students doing sales and marketing at fast-growing startups like Ember City, post-ops, Perfora, Revspot. You know, such experiences help our students strengthen their resumes. They get letters of recommendation and they also get solid work experience that really sets students up for success in the future. And this is just the first year of their undergrad program.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.3,
+    "text": "In just their first year of the undergrad course, our students have landed full-time internships"
+   },
+   {
+    "start": 5.3,
+    "end": 8,
+    "text": "in top startups in India in very interesting roles."
+   },
+   {
+    "start": 8,
+    "end": 9,
+    "text": "Let me give you some examples."
+   },
+   {
+    "start": 9,
+    "end": 12.3,
+    "text": "There is a student building AI automations at Zomato."
+   },
+   {
+    "start": 12.3,
+    "end": 16.6,
+    "text": "There's another one that is building product at this consumer tech startup called Grapevine."
+   },
+   {
+    "start": 16.6,
+    "end": 21.4,
+    "text": "Another one is working as a summer analyst with this boutique investment bank in Mumbai."
+   },
+   {
+    "start": 21.4,
+    "end": 25.5,
+    "text": "There are also students doing sales and marketing at fast-growing startups like Ember City,"
+   },
+   {
+    "start": 25.5,
+    "end": 27.8,
+    "text": "post-ops, Perfora, Revspot."
+   },
+   {
+    "start": 27.8,
+    "end": 30.9,
+    "text": "You know, such experiences help our students strengthen their resumes."
+   },
+   {
+    "start": 30.9,
+    "end": 35,
+    "text": "They get letters of recommendation and they also get solid work experience that really"
+   },
+   {
+    "start": 35,
+    "end": 37.6,
+    "text": "sets students up for success in the future."
+   },
+   {
+    "start": 37.6,
+    "end": 39.9,
+    "text": "And this is just the first year of their undergrad program."
+   }
+  ]
+ }
+}

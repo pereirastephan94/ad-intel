@@ -1,0 +1,142 @@
+{
+ "asset": "2280168456136630",
+ "first_seen_in": "1885584672793111",
+ "duration_s": 60.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.6,
+   "why": "scene change"
+  },
+  {
+   "t": 5.5,
+   "why": "scene change"
+  },
+  {
+   "t": 9.5,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19,
+   "why": "scene change"
+  },
+  {
+   "t": 28.5,
+   "why": "scene change"
+  },
+  {
+   "t": 32.4,
+   "why": "scene change"
+  },
+  {
+   "t": 34.1,
+   "why": "scene change"
+  },
+  {
+   "t": 41.4,
+   "why": "scene change"
+  },
+  {
+   "t": 44.3,
+   "why": "scene change"
+  },
+  {
+   "t": 60.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You know, there are 317 year olds from our undergrad program who have built a khakra brand from scratch. That does 20 lakh in revenue every single month. So they saw this gap in the market for healthy and flavorful khakras, found a supplier, negotiated a deal, bought inventory, branded the inventory, managed cash, they built a website, did B2B sales, they're growing an IG page, did performance marketing, in short, everything that they required to do to build something from scratch. Now see, irrespective of whether the business becomes super successful, they have still built the underlying foundational business building skills and have also developed the confidence that tomorrow if they have to start something from scratch, they can. Both of which cannot be replaced by AI. And by the way, this is something every single student does at Mesa during the first semester of the program. All of this while other BBA program students are sitting in a classroom, endless hours with a curriculum which is 100 years old. So of course I feel this is the right model for education if India wants to become a superpower.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.5,
+    "text": "You know, there are 317 year olds from our undergrad program who have built a khakra brand from scratch."
+   },
+   {
+    "start": 5.5,
+    "end": 8,
+    "text": "That does 20 lakh in revenue every single month."
+   },
+   {
+    "start": 8,
+    "end": 13.8,
+    "text": "So they saw this gap in the market for healthy and flavorful khakras, found a supplier, negotiated a deal,"
+   },
+   {
+    "start": 13.8,
+    "end": 19,
+    "text": "bought inventory, branded the inventory, managed cash, they built a website, did B2B sales,"
+   },
+   {
+    "start": 19,
+    "end": 24.7,
+    "text": "they're growing an IG page, did performance marketing, in short, everything that they required to do to build something from scratch."
+   },
+   {
+    "start": 24.7,
+    "end": 28.5,
+    "text": "Now see, irrespective of whether the business becomes super successful,"
+   },
+   {
+    "start": 28.5,
+    "end": 32.4,
+    "text": "they have still built the underlying foundational business building skills"
+   },
+   {
+    "start": 32.4,
+    "end": 36.7,
+    "text": "and have also developed the confidence that tomorrow if they have to start something from scratch, they can."
+   },
+   {
+    "start": 36.7,
+    "end": 39.1,
+    "text": "Both of which cannot be replaced by AI."
+   },
+   {
+    "start": 39.1,
+    "end": 44.3,
+    "text": "And by the way, this is something every single student does at Mesa during the first semester of the program."
+   },
+   {
+    "start": 44.3,
+    "end": 47.6,
+    "text": "All of this while other BBA program students are sitting in a classroom,"
+   },
+   {
+    "start": 47.6,
+    "end": 50.2,
+    "text": "endless hours with a curriculum which is 100 years old."
+   },
+   {
+    "start": 50.2,
+    "end": 54.9,
+    "text": "So of course I feel this is the right model for education if India wants to become a superpower."
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "library_id": "1639280324402147",
+  "link": "https://www.facebook.com/ads/library/?id=1639280324402147",
+  "start_date": "2026-11-18",
+  "copies": 4,
+  "body": "",
+  "headline": "",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ]
+ },
+ {
+  "library_id": "1715389813440577",
+  "link": "https://www.facebook.com/ads/library/?id=1715389813440577",
+  "start_date": "2026-11-18",
+  "copies": 1,
+  "body": "",
+  "headline": "",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ]
+ },
+ {
+  "library_id": "1924439078767228",
+  "link": "https://www.facebook.com/ads/library/?id=1924439078767228",
+  "start_date": "2026-11-18",
+  "copies": 1,
+  "body": "",
+  "headline": "",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ]
+ }
+]

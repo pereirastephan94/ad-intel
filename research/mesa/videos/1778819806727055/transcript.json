@@ -1,0 +1,187 @@
+{
+ "asset": "1778819806727055",
+ "first_seen_in": "1660152285750346",
+ "duration_s": 78.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.2,
+   "why": "scene change"
+  },
+  {
+   "t": 16,
+   "why": "scene change"
+  },
+  {
+   "t": 25.1,
+   "why": "scene change"
+  },
+  {
+   "t": 31.2,
+   "why": "scene change"
+  },
+  {
+   "t": 35.9,
+   "why": "scene change"
+  },
+  {
+   "t": 40.8,
+   "why": "scene change"
+  },
+  {
+   "t": 46,
+   "why": "scene change"
+  },
+  {
+   "t": 51.4,
+   "why": "scene change"
+  },
+  {
+   "t": 60.4,
+   "why": "scene change"
+  },
+  {
+   "t": 65.8,
+   "why": "scene change"
+  },
+  {
+   "t": 78.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "90% of mid-career professionals are not able to grow beyond a certain level. They are not able to pivot into roles that they like and are not considered leadership material. And you know why? It's because they've gone too deep into just doing one thing throughout their careers and they know nothing besides that. It's the biggest mistake that 27 to 32 year olds usually make. So my advice to them is, number one, they need to learn the basics of business, business models. You need to learn PNL, unit economics. Number two, learn how to start something from zero to one. Pick a problem, pick a product, package it, brand it, build a website, do actual sales. Number three, meet more people, network a lot. I know the word networking is thrown around a lot, but it's more about quality discussions with people who come from diverse backgrounds who are in positions. You want to be in. And these people can then open doors for you that you felt were impossible to open. Number four, learn to build things with AI. That is the only way you're going to stay relevant. That is the only way you can keep adding 10x value to a company and to yourself. The regular working professional, 100% going to become irrelevant if they don't do these things.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.3,
+    "text": "90% of mid-career professionals are not able to grow beyond a certain level."
+   },
+   {
+    "start": 5.3,
+    "end": 9.3,
+    "text": "They are not able to pivot into roles that they like and are not considered leadership"
+   },
+   {
+    "start": 9.3,
+    "end": 10.3,
+    "text": "material."
+   },
+   {
+    "start": 10.3,
+    "end": 11.3,
+    "text": "And you know why?"
+   },
+   {
+    "start": 11.3,
+    "end": 16.6,
+    "text": "It's because they've gone too deep into just doing one thing throughout their careers"
+   },
+   {
+    "start": 16.6,
+    "end": 18.7,
+    "text": "and they know nothing besides that."
+   },
+   {
+    "start": 18.7,
+    "end": 23.8,
+    "text": "It's the biggest mistake that 27 to 32 year olds usually make."
+   },
+   {
+    "start": 23.8,
+    "end": 28.3,
+    "text": "So my advice to them is, number one, they need to learn the basics of business, business"
+   },
+   {
+    "start": 28.3,
+    "end": 29.3,
+    "text": "models."
+   },
+   {
+    "start": 29.3,
+    "end": 31.6,
+    "text": "You need to learn PNL, unit economics."
+   },
+   {
+    "start": 31.6,
+    "end": 34.6,
+    "text": "Number two, learn how to start something from zero to one."
+   },
+   {
+    "start": 34.6,
+    "end": 40,
+    "text": "Pick a problem, pick a product, package it, brand it, build a website, do actual sales."
+   },
+   {
+    "start": 40,
+    "end": 41.9,
+    "text": "Number three, meet more people, network a lot."
+   },
+   {
+    "start": 41.9,
+    "end": 47.1,
+    "text": "I know the word networking is thrown around a lot, but it's more about quality discussions"
+   },
+   {
+    "start": 47.1,
+    "end": 50.4,
+    "text": "with people who come from diverse backgrounds who are in positions."
+   },
+   {
+    "start": 50.4,
+    "end": 51.9,
+    "text": "You want to be in."
+   },
+   {
+    "start": 51.9,
+    "end": 56.6,
+    "text": "And these people can then open doors for you that you felt were impossible to open."
+   },
+   {
+    "start": 56.6,
+    "end": 59.2,
+    "text": "Number four, learn to build things with AI."
+   },
+   {
+    "start": 59.2,
+    "end": 61,
+    "text": "That is the only way you're going to stay relevant."
+   },
+   {
+    "start": 61,
+    "end": 66.1,
+    "text": "That is the only way you can keep adding 10x value to a company and to yourself."
+   },
+   {
+    "start": 66.1,
+    "end": 71.4,
+    "text": "The regular working professional, 100% going to become irrelevant if they don't do these"
+   },
+   {
+    "start": 71.4,
+    "end": 72,
+    "text": "things."
+   }
+  ]
+ }
+}

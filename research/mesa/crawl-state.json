@@ -9,9 +9,7 @@
    "media": "all",
    "sort": "total_impressions",
    "dir": "asc"
-  }
- ],
- "queue": [
+  },
   {
    "media": "all",
    "sort": "relevancy_monthly_grouped",
@@ -73,126 +71,300 @@
    "span": 3
   },
   {
-   "from": "2026-11-10",
-   "to": "2026-11-12",
-   "span": 3
+   "from": "2026-11-13",
+   "to": "2026-11-14",
+   "span": 2
   },
   {
-   "from": "2026-11-07",
-   "to": "2026-11-09",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "span": 1
   },
   {
-   "from": "2026-11-04",
-   "to": "2026-11-06",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "asc",
+   "span": 0
   },
   {
-   "from": "2026-11-01",
-   "to": "2026-11-03",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "span": 0
   },
   {
-   "from": "2026-10-29",
-   "to": "2026-10-31",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "asc",
+   "span": 0
   },
   {
-   "from": "2026-10-26",
-   "to": "2026-10-28",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "span": 0
   },
   {
-   "from": "2026-10-23",
-   "to": "2026-10-25",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "asc",
+   "span": 0
   },
   {
-   "from": "2026-10-20",
-   "to": "2026-10-22",
-   "span": 3
+   "from": "2026-11-15",
+   "to": "2026-11-15",
+   "media": "meme",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "span": 0
   },
   {
-   "from": "2026-10-17",
-   "to": "2026-10-19",
-   "span": 3
-  },
-  {
-   "from": "2026-10-14",
-   "to": "2026-10-16",
-   "span": 3
-  },
-  {
-   "from": "2026-10-11",
-   "to": "2026-10-13",
-   "span": 3
-  },
-  {
-   "from": "2026-10-08",
-   "to": "2026-10-10",
-   "span": 3
-  },
-  {
-   "from": "2026-09-24",
-   "to": "2026-10-07",
-   "span": 14
-  },
-  {
-   "from": "2026-09-10",
-   "to": "2026-09-23",
-   "span": 14
-  },
-  {
-   "from": "2026-08-27",
-   "to": "2026-09-09",
-   "span": 14
-  },
-  {
-   "from": "2026-08-13",
-   "to": "2026-08-26",
-   "span": 14
-  },
-  {
-   "from": "2026-07-30",
-   "to": "2026-08-12",
-   "span": 14
-  },
-  {
-   "from": "2026-07-16",
-   "to": "2026-07-29",
-   "span": 14
-  },
-  {
-   "from": "2026-07-02",
-   "to": "2026-07-15",
-   "span": 14
-  },
-  {
-   "from": "2026-06-18",
-   "to": "2026-07-01",
-   "span": 14
-  },
-  {
-   "from": "2026-06-04",
-   "to": "2026-06-17",
-   "span": 14
-  },
-  {
-   "from": "2026-05-21",
-   "to": "2026-06-03",
-   "span": 14
-  },
-  {
-   "from": "2025-11-18",
-   "to": "2026-05-22",
-   "span": 185
-  },
-  {
-   "to": "2025-11-17",
-   "span": 9999
+   "q": "Ascend"
   }
  ],
- "total": 320,
+ "queue": [
+  {
+   "q": "Ascend",
+   "media": "video"
+  },
+  {
+   "q": "Ascend",
+   "media": "meme"
+  },
+  {
+   "q": "Ascend",
+   "media": "image"
+  },
+  {
+   "q": "Ascend",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "PGP"
+  },
+  {
+   "q": "MBA"
+  },
+  {
+   "q": "undergraduate"
+  },
+  {
+   "q": "CAT"
+  },
+  {
+   "q": "XAT"
+  },
+  {
+   "q": "founders"
+  },
+  {
+   "q": "startup"
+  },
+  {
+   "q": "AI"
+  },
+  {
+   "q": "placement"
+  },
+  {
+   "q": "salary"
+  },
+  {
+   "q": "career"
+  },
+  {
+   "q": "internship"
+  },
+  {
+   "q": "cohort"
+  },
+  {
+   "q": "scholarship"
+  },
+  {
+   "q": "admission"
+  },
+  {
+   "q": "apply"
+  },
+  {
+   "q": "job"
+  },
+  {
+   "q": "LPA"
+  },
+  {
+   "q": "CTC"
+  },
+  {
+   "q": "business"
+  },
+  {
+   "q": "build"
+  },
+  {
+   "q": "immersion"
+  },
+  {
+   "q": "tech"
+  },
+  {
+   "q": "sales"
+  },
+  {
+   "q": "marketing"
+  },
+  {
+   "q": "product"
+  },
+  {
+   "q": "consulting"
+  },
+  {
+   "q": "finance"
+  },
+  {
+   "q": "experience"
+  },
+  {
+   "q": "learn"
+  },
+  {
+   "q": "IIM"
+  },
+  {
+   "q": "Bangalore"
+  },
+  {
+   "q": "Mesa"
+  },
+  {
+   "q": "school"
+  },
+  {
+   "q": "year"
+  },
+  {
+   "q": "work"
+  },
+  {
+   "q": "why"
+  },
+  {
+   "q": "how"
+  },
+  {
+   "q": "you"
+  },
+  {
+   "q": "your"
+  },
+  {
+   "q": "the"
+  },
+  {
+   "q": "not"
+  },
+  {
+   "q": "from"
+  },
+  {
+   "q": "with"
+  },
+  {
+   "q": "for"
+  },
+  {
+   "q": "and"
+  },
+  {
+   "q": "is"
+  },
+  {
+   "q": "to"
+  },
+  {
+   "q": "in"
+  },
+  {
+   "q": "of"
+  },
+  {
+   "q": "a"
+  },
+  {
+   "q": "I"
+  },
+  {
+   "q": "we"
+  },
+  {
+   "q": "our"
+  },
+  {
+   "q": "this"
+  },
+  {
+   "q": "what"
+  },
+  {
+   "q": "who"
+  },
+  {
+   "q": "India"
+  },
+  {
+   "q": "leaders"
+  },
+  {
+   "q": "students"
+  },
+  {
+   "q": "class"
+  },
+  {
+   "q": "program"
+  },
+  {
+   "q": "programme"
+  },
+  {
+   "q": "founder"
+  },
+  {
+   "q": "CEO"
+  },
+  {
+   "q": "real"
+  },
+  {
+   "q": "world"
+  },
+  {
+   "q": "batch"
+  },
+  {
+   "q": "join"
+  },
+  {
+   "q": "now"
+  },
+  {
+   "q": "today"
+  }
+ ],
+ "total": 0,
  "log": [
   "2026-11-18T20:27:35.769Z   video 2675241806240281 ok (38.2s, 16 stills)",
   "2026-11-18T20:27:55.383Z   video 997098783438393 ok (58.7s, 16 stills)",
@@ -204,6 +376,45 @@
   "2026-11-18T20:30:01.066Z   video 2146264469300756 ok (90.1s, 16 stills)",
   "2026-11-18T20:30:20.934Z   video 28765653616421636 ok (61.7s, 16 stills)",
   "2026-11-18T20:30:21.339Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 320), 30 new, 30 unique of ~320",
-  "2026-11-18T20:40:54.683Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 30 ads (window total 320), 0 new, 30 unique of ~320"
- ]
+  "2026-11-18T20:40:54.683Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 30 ads (window total 320), 0 new, 30 unique of ~320",
+  "2026-11-19T03:08:07.323Z view {\"media\":\"all\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 30 unique of ~0",
+  "2026-11-19T03:14:30.577Z   video 1441994184790634 ok (81.7s, 16 stills)",
+  "2026-11-19T03:14:51.256Z   video 1392762269393824 ok (76.3s, 16 stills)",
+  "2026-11-19T03:14:51.697Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 180), 9 new, 39 unique of ~0",
+  "2026-11-19T03:20:52.253Z view {\"media\":\"video\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 0 ads (window total 0), 0 new, 39 unique of ~0",
+  "2026-11-19T03:27:05.488Z   video 2014836132522651 ok (44.1s, 16 stills)",
+  "2026-11-19T03:27:33.101Z   video 1761240598289039 ok (105.5s, 16 stills)",
+  "2026-11-19T03:27:54.832Z   video 1884895096198808 ok (76.3s, 16 stills)",
+  "2026-11-19T03:28:07.766Z   video 2270117480214820 ok (38.2s, 12 stills)",
+  "2026-11-19T03:28:28.728Z   video 2106103496999600 ok (73.4s, 16 stills)",
+  "2026-11-19T03:28:48.829Z   video 2444487032745876 ok (60.3s, 16 stills)",
+  "2026-11-19T03:29:04.479Z   video 1806020850416716 ok (35.3s, 16 stills)",
+  "2026-11-19T03:29:20.975Z   video 1130126639685391 ok (50.4s, 16 stills)",
+  "2026-11-19T03:29:42.595Z   video 2280168456136630 ok (60.8s, 16 stills)",
+  "2026-11-19T03:30:02.554Z   video 2252758205595245 ok (62s, 16 stills)",
+  "2026-11-19T03:30:17.995Z   video 959994929938671 ok (45.3s, 16 stills)",
+  "2026-11-19T03:30:17.995Z view {\"media\":\"video\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 30 ads (window total 180), 30 new, 69 unique of ~0",
+  "2026-11-19T03:35:34.214Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 69 unique of ~0",
+  "2026-11-19T03:42:26.268Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 0 ads (window total 0), 0 new, 69 unique of ~0",
+  "2026-11-19T03:47:54.029Z view {\"media\":\"image\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 69 unique of ~0",
+  "2026-11-19T03:54:23.337Z view {\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 30 ads (window total 144), 18 new, 87 unique of ~0",
+  "2026-11-19T04:01:23.565Z view {\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"asc\"} -> 30 ads (window total 144), 0 new, 87 unique of ~0",
+  "2026-11-19T04:06:37.534Z view {\"media\":\"meme\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 87 unique of ~0",
+  "2026-11-19T04:13:42.984Z view {\"from\":\"2026-11-16\",\"to\":\"2026-11-18\",\"span\":3} -> 0 ads (window total 0), 0 new, 87 unique of ~0",
+  "2026-11-19T04:20:38.567Z   video 1832281961296896 ok (60.6s, 16 stills)",
+  "2026-11-19T04:20:57.166Z   video 1154564920593114 ok (68.3s, 16 stills)",
+  "2026-11-19T04:20:57.167Z view {\"from\":\"2026-11-13\",\"to\":\"2026-11-15\",\"span\":3} -> 30 ads (window total 56), 2 new, 89 unique of ~0",
+  "2026-11-19T04:26:40.143Z view {\"from\":\"2026-11-13\",\"to\":\"2026-11-14\",\"span\":2} -> 0 ads (window total 0), 0 new, 89 unique of ~0",
+  "2026-11-19T04:31:35.650Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"span\":1} -> 30 ads (window total 313), 0 new, 89 unique of ~0",
+  "2026-11-19T04:35:47.576Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"asc\",\"span\":0} -> 0 ads (window total 0), 0 new, 89 unique of ~0",
+  "2026-11-19T04:42:21.997Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"span\":0} -> 30 ads (window total 144), 0 new, 89 unique of ~0",
+  "2026-11-19T04:48:43.033Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"asc\",\"span\":0} -> 0 ads (window total 0), 0 new, 89 unique of ~0",
+  "2026-11-19T04:55:22.963Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"span\":0} -> 30 ads (window total 144), 0 new, 89 unique of ~0",
+  "2026-11-19T04:59:32.446Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"asc\",\"span\":0} -> 0 ads (window total 0), 0 new, 89 unique of ~0",
+  "2026-11-19T05:04:48.595Z view {\"from\":\"2026-11-15\",\"to\":\"2026-11-15\",\"media\":\"meme\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"span\":0} -> 30 ads (window total 144), 0 new, 89 unique of ~0",
+  "2026-11-19T05:09:15.692Z   video 2034753867202742 ok (74.1s, 16 stills)",
+  "2026-11-19T05:09:36.325Z   video 1778819806727055 ok (78.8s, 16 stills)",
+  "2026-11-19T05:09:36.612Z view {\"q\":\"Ascend\"} -> 30 ads (window total 138), 9 new, 98 unique of ~0"
+ ],
+ "keywordsQueued": true
 }
