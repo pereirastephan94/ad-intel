@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Papa, main aapka bank statement dekh raha tha",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "hook", "angle", "production"],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aap SIP karte ho apne retirement ke liye?",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["angle", "production", "hook_text"],
+    "human_checked": false
+  }
+}

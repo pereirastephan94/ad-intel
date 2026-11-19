@@ -68,3 +68,13 @@ Rules:
 - Plain English. No hype. No em dashes.
 - Do not edit any file other than the breakdown.md files assigned to you. Do not run git. Do not send anything to outside services.
 - When done, reply with one line per video: asset id, title, and the single most notable thing about it.
+
+## Rulings from review 1 (20 Nov 2026, after the first 5 Stable Money videos). These override anything above.
+1. **Length.** Everything except the Script table: 600 words at most. Cut description that a still already shows; keep what a team needs to copy or beat the ad. Do not list every cut time; give the count, the rate and the first cut.
+2. **Script.** Use the Roman-script transcript in transcript.json as it stands (it has had a second pass for Hindi). Give the full script as a table (time, line, English gloss for Hindi lines) for videos up to 90 s; for longer ones give the first 30 s and the last 15 s in full and summarise the middle by beat. Mark doubtful words [?]. Where a burned-in caption shows the words, trust the caption.
+3. **Never assign lines to a speaker** in a dialogue unless a caption or the picture makes it certain.
+4. **Shape.** If the file is square or 4:5 but holds a vertical video with blurred or coloured bars, say so ("9:16 inside a square, blurred bars").
+5. **Catalogue ads.** If the ad text is placeholders like `{{product.brand}}`, write "Ad text is filled in by Facebook when the ad is shown; it is not in the Library data."
+6. **Small print against the pitch.** Always check the end card and small print against the spoken claims and say plainly where they disagree (for example the voice says RD, the card shows an FD rate for senior citizens). Reviewers found this the most useful part of the first five.
+7. **Same script, new person.** If another video of this brand has nearly the same script, name its folder.
+8. **Quotes** keep the original words but replace long dashes with a hyphen.

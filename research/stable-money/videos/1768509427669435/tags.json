@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Tumhare account mein kuch idle paisa pada pada hai, jo na invested hai aur na hi spend hua hai",
+    "offer": "rate_return",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "angle", "language", "production"],
+    "human_checked": false
+  }
+}

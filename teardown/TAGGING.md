@@ -115,3 +115,19 @@ Row I1 (the rate is the largest text, so offer-led beats proof even though logos
 
 **3. Video, an app screen recording with a voiceover, ending on a man saying "I'm Rohan, co-founder of Brand B" for 3 seconds.**
 Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 stills, so V1 fails; the demo fills 5). Face **founder_declared** with `founder_evidence` "spoken: I'm Rohan, co-founder of Brand B". Hook from the first 3 seconds of the voiceover, for example "Three taps. That's all it takes." gives **number_claim**. Production studio if the screen recording is clean and the end shot is lit; otherwise phone_lofi.
+
+## Rulings from review 1 (20 Nov 2026, after the first 5 Stable Money videos). These override anything above.
+1. **How many stills.** Folders hold 8 to 16 stills. "At least 4 of 8" means "at least half of the stills that show the main footage" (ignore end cards and title cards).
+2. **V1 means speaks to camera**, whatever the grammar ("I", "you" or "we"). A person talking to the lens while doing something (cooking, digging, walking) is still V1.
+3. **Mixed videos** (a skit, then a presenter): the row is whichever fills more of the runtime. The hook is always judged on the first 3 seconds only.
+4. **Hook tiebreak:** an opener shaped "If you..." or "Agar aap..." is `callout`. A flat statement of a pain is `problem`.
+5. **hook_text** comes from the Roman-script transcript (the second pass, if `transcript_raw` exists in transcript.json, the main transcript is already the better one). Where a burned-in caption shows the words, the caption wins. Always Roman script, never Devanagari or Urdu script.
+6. **face has one more value: `character`**: a recurring persona the ad itself labels (for example "Explained by Papa"). Quote the label in `founder_evidence`.
+7. **angle** is the first product claim that is SPOKEN. An opening caption counts only if nobody speaks.
+8. **offer** stays one value (the one given most prominence). Put any others in an optional list `offer_also`.
+9. **production:** a phone on a tripod at home or in an office is `phone_lofi`, even with a ring light. `studio` needs a built set, a backdrop or clearly professional lighting.
+10. **Three extra keys in `tags`** (free text, they feed the comparison writer):
+    - `product`: what the ad sells, 8 words at most (for example "Bonds, 9 to 12% fixed returns").
+    - `one_line`: the ad in one sentence, 25 words at most, plain English.
+    - `script_twin`: the asset id of another video of this brand with nearly the same script but a different person or edit, else null.
+11. **Catalogue ads.** If the ad text is unfilled placeholders such as `{{product.brand}}`, tag from the creative alone and add `"ad_text_missing": true`.

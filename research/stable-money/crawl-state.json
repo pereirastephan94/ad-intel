@@ -20,6 +20,12 @@
    "sort": "total_impressions",
    "dir": "desc",
    "retry": 1
+  },
+  {
+   "media": "image",
+   "sort": "total_impressions",
+   "dir": "desc",
+   "retry": 1
   }
  ],
  "total": 418,
@@ -54,7 +60,8 @@
   "2026-11-19T20:21:39.500Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
   "2026-11-19T20:21:39.501Z stopping after 3 view(s) as asked",
   "2026-11-19T20:21:39.502Z DONE: 30 unique ads of ~null",
-  "2026-11-19T20:32:03.444Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 30 ads (window total 418), 3 new, 33 unique of ~418"
+  "2026-11-19T20:32:03.444Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 30 ads (window total 418), 3 new, 33 unique of ~418",
+  "2026-11-19T20:37:23.873Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 0 ads (window total 0), 0 new, 33 unique of ~418"
  ],
  "keywordsQueued": true,
  "queue": [
@@ -62,7 +69,7 @@
    "media": "image",
    "sort": "total_impressions",
    "dir": "desc",
-   "retry": 1
+   "retry": 2
   }
  ]
 }
