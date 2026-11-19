@@ -2,32 +2,150 @@
  {
   "library_id": "1652092446560613",
   "link": "https://www.facebook.com/ads/library/?id=1652092446560613",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-09",
-  "copies": 1,
+  "days_running": 10,
+  "media_type": "VIDEO",
   "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
   "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_lookalike_lookalike_-_mh-cet-mba-db_focus1_homepage_16-09-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "WHATSAPP",
    "THREADS"
-  ]
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
  },
  {
   "library_id": "1838523880721234",
   "link": "https://www.facebook.com/ads/library/?id=1838523880721234",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 1,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
   "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/pgp/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_lookalike_lookalike_-_HUMM_focus1_PGP-LP_18-11-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "WHATSAPP"
-  ]
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
+ },
+ {
+  "library_id": "1814711466416613",
+  "link": "https://www.facebook.com/ads/library/?id=1814711466416613",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
+  "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_interest-lookalike_interest-lookalike_-_sql-db-exp_focus1_homepage_03-09-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 4,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
+ },
+ {
+  "library_id": "1123873727177971",
+  "link": "https://www.facebook.com/ads/library/?id=1123873727177971",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
+  "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_interest-lookalike_interest-lookalike_test_sql-db-exp_focus1_homepage_14-11-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
+ },
+ {
+  "library_id": "2621664764921799",
+  "link": "https://www.facebook.com/ads/library/?id=2621664764921799",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "At Mesa, you'll build products, pitch to investors, and land roles at India's fastest-growing startups. \n\nThis is the business school for builders.\n\nApply now to learn how to create an impact in the startup world. Applications open for the 5th cohort.",
+  "headline": "The only B-school teaching AI agents & no-code",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
+  "cta": "Apply now",
+  "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=lookalike_lookalike_2-8-yrs-exp_high-um-db_focus1-2_funding-lp_16-10-2026&utm_content=video_admissions_influencer_arjun-vaidya_v3_28-10-2026&utm_term=-_-",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2146264469300756"
  }
 ]

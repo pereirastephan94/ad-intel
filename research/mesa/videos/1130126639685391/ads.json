@@ -2,43 +2,85 @@
  {
   "library_id": "1639280324402147",
   "link": "https://www.facebook.com/ads/library/?id=1639280324402147",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 4,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "",
   "headline": "",
+  "link_description": "",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "copies": 4,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM"
-  ]
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1130126639685391"
  },
  {
   "library_id": "1715389813440577",
   "link": "https://www.facebook.com/ads/library/?id=1715389813440577",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 1,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "",
   "headline": "",
+  "link_description": "",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM"
-  ]
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1130126639685391"
  },
  {
   "library_id": "1924439078767228",
   "link": "https://www.facebook.com/ads/library/?id=1924439078767228",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 1,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "",
   "headline": "",
+  "link_description": "",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/undergraduate-program/",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM"
-  ]
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1130126639685391"
  }
 ]

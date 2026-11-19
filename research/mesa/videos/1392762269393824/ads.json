@@ -2,32 +2,60 @@
  {
   "library_id": "1701579211625168",
   "link": "https://www.facebook.com/ads/library/?id=1701579211625168",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-16",
-  "copies": 4,
+  "days_running": 3,
+  "media_type": "VIDEO",
   "body": "She started her career at KPMG and wanted to work in startups, but had no idea how to make the switch.\n\nAt Mesa, Apoorva built an AI agent that could find influencers, track their engagement and automate personalised outreach. That agent led her to the founder of GoDesi.\n\nToday, she's an EiR at GoDesi, working directly with the founder.",
   "headline": "Be part of Mesa's next cohort",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_interest-lookalike_interest-lookalike_-_sql-db-exp_focus1_homepage_03-09-2026&utm_content=video_career-outcomes_Students_student-apoorva_-_14-11-2026",
+  "copies": 4,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "WHATSAPP",
    "THREADS"
-  ]
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1392762269393824"
  },
  {
   "library_id": "1854141258930325",
   "link": "https://www.facebook.com/ads/library/?id=1854141258930325",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-16",
-  "copies": 1,
+  "days_running": 3,
+  "media_type": "VIDEO",
   "body": "She started her career at KPMG and wanted to work in startups, but had no idea how to make the switch.\n\nAt Mesa, Apoorva built an AI agent that could find influencers, track their engagement and automate personalised outreach. That agent led her to the founder of GoDesi.\n\nToday, she's an EiR at GoDesi, working directly with the founder.",
   "headline": "From KPMG to EiR at GoDesi",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/pgp-sle1/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_interest-lookalike_interest-lookalike_test_sql-db-exp_focus1_homepage_14-11-2026&utm_content=video_career-outcomes_Students_student-apoorva_-_14-11-2026",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "THREADS"
-  ]
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1392762269393824"
  }
 ]

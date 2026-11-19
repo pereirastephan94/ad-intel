@@ -2,17 +2,31 @@
  {
   "library_id": "1121408537443251",
   "link": "https://www.facebook.com/ads/library/?id=1121408537443251",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 1,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "She started her career at KPMG and wanted to work in startups, but had no idea how to make the switch.\n\nAt Mesa, Apoorva built an AI agent that could find influencers, track their engagement and automate personalised outreach. That agent led her to the founder of GoDesi.\n\nToday, she's an EiR at GoDesi, working directly with the founder.",
   "headline": "Be part of Mesa's next cohort",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/pgp/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_lookalike_lookalike_-_HUMM_focus1_PGP-LP_18-11-2026&utm_content=video_career-outcomes_Students_student-apoorva_-_14-11-2026&utm_term=-_-",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "WHATSAPP",
    "THREADS"
-  ]
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "1884895096198808"
  }
 ]

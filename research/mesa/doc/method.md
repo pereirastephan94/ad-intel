@@ -1,0 +1,6 @@
+- **Source:** Facebook's public Ad Library, India, active ads on the page "Mesa School of Business". No login was used.
+- **Pace:** one ordinary page view every 4 to 7 minutes, so the pull is slow by design.
+- **Videos:** each different video was downloaded once. Software took frames, typed out the speech, counted cuts and measured the sound. Every frame was then looked at and described.
+- **Music:** the software can tell whether there is a music bed and estimate its tempo. It cannot name a track or a genre.
+- **People:** nobody is identified from their face. A name appears only when the video or the ad text prints it.
+- **Limits:** spend and results are not public. Transcripts can mishear names. Two other Mesa pages (Forge and the undergraduate page) are not included yet.

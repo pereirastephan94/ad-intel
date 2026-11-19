@@ -2,17 +2,31 @@
  {
   "library_id": "1599280982005523",
   "link": "https://www.facebook.com/ads/library/?id=1599280982005523",
+  "page_id": "115513081449393",
+  "page_name": "Mesa School of Business",
+  "is_active": true,
   "start_date": "2026-11-18",
-  "copies": 1,
+  "days_running": 1,
+  "media_type": "VIDEO",
   "body": "AI is woven into every course at Mesa with 150+ hours of applied curriculum built around one goal: every student builds at least one real, working AI product before they graduate.\n\nNot a demo. Not a prototype. Something that actually works.\n\nThe window to be an early builder, not just an early learner - is still open.\n\nExplore the PG program. Get the details.",
   "headline": "Non-tech doesn't mean non-builder",
+  "link_description": "PGP in Startup Leadership & Entrepreneurship",
   "cta": "Apply now",
   "landing_url": "https://mesaschool.co/pgp/?utm_source={{site_source_name}}meta-ads&utm_medium=cpc&utm_campaign=DV_PGP_lead-gen_-_lookalike_lookalike_-_HUMM_focus1_PGP-LP_18-11-2026&utm_content=video_pedagogy_vsl_ai-gap_-_11-09-2026&utm_term=-_-",
+  "copies": 1,
   "platforms": [
    "FACEBOOK",
    "INSTAGRAM",
    "WHATSAPP",
    "THREADS"
-  ]
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Education website"
+   ]
+  },
+  "video_asset": "2106103496999600"
  }
 ]
