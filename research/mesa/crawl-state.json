@@ -314,11 +314,32 @@
   },
   {
    "q": "experience"
-  }
- ],
- "queue": [
+  },
   {
    "q": "learn"
+  },
+  {
+   "q": "learn",
+   "media": "video"
+  },
+  {
+   "q": "learn",
+   "media": "video",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "learn",
+   "media": "meme"
+  },
+  {
+   "q": "learn",
+   "media": "image"
+  },
+  {
+   "q": "learn",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   },
   {
    "q": "IIM"
@@ -337,6 +358,25 @@
   },
   {
    "q": "work"
+  }
+ ],
+ "queue": [
+  {
+   "q": "work",
+   "media": "video"
+  },
+  {
+   "q": "work",
+   "media": "meme"
+  },
+  {
+   "q": "work",
+   "media": "image"
+  },
+  {
+   "q": "work",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   },
   {
    "q": "why"
@@ -601,6 +641,39 @@
   {
    "q": "experience",
    "retry": 1
+  },
+  {
+   "q": "learn",
+   "media": "video",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 1
+  },
+  {
+   "q": "learn",
+   "media": "meme",
+   "retry": 1
+  },
+  {
+   "q": "learn",
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "q": "Bangalore",
+   "retry": 1
+  },
+  {
+   "q": "Mesa",
+   "retry": 1
+  },
+  {
+   "q": "school",
+   "retry": 1
+  },
+  {
+   "q": "year",
+   "retry": 1
   }
  ],
  "total": 0,
@@ -717,7 +790,27 @@
   "2026-11-19T12:07:22.220Z stopping after 14 view(s) as asked",
   "2026-11-19T12:07:22.220Z PAUSED: 190 unique ads of ~0",
   "2026-11-19T16:00:44.508Z view {\"q\":\"finance\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
-  "2026-11-19T16:07:14.615Z view {\"q\":\"experience\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0"
+  "2026-11-19T16:07:14.615Z view {\"q\":\"experience\"} -> 0 ads (window total 0), 0 new, 190 unique of ~0",
+  "2026-11-19T16:15:22.859Z   video 28885850337674290 ok (73.4s, 16 stills)",
+  "2026-11-19T16:15:39.217Z   video 1027285670128880 ok (105.5s, 16 stills)",
+  "2026-11-19T16:15:49.515Z   video 1133136682423850 ok (43.7s, 16 stills)",
+  "2026-11-19T16:15:49.515Z view {\"q\":\"learn\"} -> 30 ads (window total 186), 10 new, 200 unique of ~0",
+  "2026-11-19T16:20:36.024Z view {\"q\":\"learn\",\"media\":\"video\"} -> 30 ads (window total 129), 2 new, 202 unique of ~0",
+  "2026-11-19T16:25:39.444Z view {\"q\":\"learn\",\"media\":\"video\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 202 unique of ~0",
+  "2026-11-19T16:30:17.127Z view {\"q\":\"learn\",\"media\":\"meme\"} -> 0 ads (window total 0), 0 new, 202 unique of ~0",
+  "2026-11-19T16:36:19.786Z view {\"q\":\"learn\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 202 unique of ~0",
+  "2026-11-19T16:43:24.569Z   video 1575546484599089 ok (105.5s, 16 stills)",
+  "2026-11-19T16:43:34.916Z   video 4332149430419153 ok (54.2s, 16 stills)",
+  "2026-11-19T16:43:47.923Z   video 1119284114037726 ok (56.8s, 16 stills)",
+  "2026-11-19T16:43:47.923Z view {\"q\":\"learn\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 30 ads (window total 186), 10 new, 212 unique of ~0",
+  "2026-11-19T16:48:02.092Z view {\"q\":\"IIM\"} -> 7 ads (window total 7), 7 new, 219 unique of ~0",
+  "2026-11-19T16:53:31.949Z view {\"q\":\"Bangalore\"} -> 0 ads (window total 0), 0 new, 219 unique of ~0",
+  "2026-11-19T16:57:49.687Z view {\"q\":\"Mesa\"} -> 0 ads (window total 0), 0 new, 219 unique of ~0",
+  "2026-11-19T17:03:30.495Z view {\"q\":\"school\"} -> 0 ads (window total 0), 0 new, 219 unique of ~0",
+  "2026-11-19T17:09:44.432Z view {\"q\":\"year\"} -> 0 ads (window total 0), 0 new, 219 unique of ~0",
+  "2026-11-19T17:16:21.891Z view {\"q\":\"work\"} -> 30 ads (window total 100), 2 new, 221 unique of ~0",
+  "2026-11-19T17:16:21.896Z stopping after 14 view(s) as asked",
+  "2026-11-19T17:16:21.896Z PAUSED: 221 unique ads of ~0"
  ],
  "keywordsQueued": true
 }

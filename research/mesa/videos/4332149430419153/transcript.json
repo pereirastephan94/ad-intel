@@ -1,0 +1,142 @@
+{
+ "asset": "4332149430419153",
+ "first_seen_in": "1786010489278166",
+ "duration_s": 54.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 10,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 19.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.8,
+   "why": "scene change"
+  },
+  {
+   "t": 23.7,
+   "why": "scene change"
+  },
+  {
+   "t": 29.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 53.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Are you going to go? Yes. All right. Who is NASA for? Well, it's not for everyone. You believe that you are a builder at heart. Someone who wants to identify problems, create innovative solutions, convince customers, and being the thick of the action, working with founders, VCs, business leaders. Then I would say that MESSA and this program specifically is the right fit for you.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.7,
+    "text": "Are you going to go?"
+   },
+   {
+    "start": 1.7,
+    "end": 2.7,
+    "text": "Yes."
+   },
+   {
+    "start": 2.7,
+    "end": 5,
+    "text": "All right. Who is NASA for?"
+   },
+   {
+    "start": 5,
+    "end": 7.1,
+    "text": "Well, it's not for everyone."
+   },
+   {
+    "start": 30,
+    "end": 34.4,
+    "text": "You believe that you are a builder at heart."
+   },
+   {
+    "start": 34.4,
+    "end": 37.1,
+    "text": "Someone who wants to identify problems,"
+   },
+   {
+    "start": 37.1,
+    "end": 38.6,
+    "text": "create innovative solutions,"
+   },
+   {
+    "start": 38.6,
+    "end": 39.8,
+    "text": "convince customers,"
+   },
+   {
+    "start": 39.8,
+    "end": 41.2,
+    "text": "and being the thick of the action,"
+   },
+   {
+    "start": 41.2,
+    "end": 42.4,
+    "text": "working with founders,"
+   },
+   {
+    "start": 42.4,
+    "end": 43.8,
+    "text": "VCs, business leaders."
+   },
+   {
+    "start": 43.8,
+    "end": 46,
+    "text": "Then I would say that MESSA and this program"
+   },
+   {
+    "start": 46,
+    "end": 48.4,
+    "text": "specifically is the right fit for you."
+   }
+  ]
+ }
+}

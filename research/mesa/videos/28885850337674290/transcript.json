@@ -1,0 +1,182 @@
+{
+ "asset": "28885850337674290",
+ "first_seen_in": "1450599547178860",
+ "duration_s": 73.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 8.5,
+   "why": "scene change"
+  },
+  {
+   "t": 16,
+   "why": "scene change"
+  },
+  {
+   "t": 18.9,
+   "why": "scene change"
+  },
+  {
+   "t": 24.6,
+   "why": "scene change"
+  },
+  {
+   "t": 37.7,
+   "why": "scene change"
+  },
+  {
+   "t": 43.5,
+   "why": "scene change"
+  },
+  {
+   "t": 46.2,
+   "why": "scene change"
+  },
+  {
+   "t": 49.5,
+   "why": "scene change"
+  },
+  {
+   "t": 55.2,
+   "why": "scene change"
+  },
+  {
+   "t": 65,
+   "why": "scene change"
+  },
+  {
+   "t": 73.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Only 0.001% of people have actually built something useful using AI. And this is after knowing that AI is the number one skill to learn right now. Why is it that this gap is so massive? Because most people think it's too technical for them. Because there are thousands of tools and nobody knows what to use when. Because they watch tutorials, but they've never sat down to think about what should I do with those tutorials. And because even the few who start don't have anyone to guide them through the finish line. Mesa solves exactly this. AI isn't a separate module you'll learn. It's woven into every single course. 150 plus hours of applied AI curriculum. And every student builds at least one real AI product before they graduate. Not a demo, not a toy project, something that works. For example, one of our students, an investment banker with zero tech background. Built a vice-first AI companion, pitched it to 50 plus VCs, scaled it to 1000 plus monthly active users. Another one built an AI-powered tool that got him his dream job. Another pivoted entirely into AI, and is now leading an AI product at a fast growing startup. The gap right now isn't between people who understand AI and people who don't. It's between people who have built with AI and people who haven't. Mesa meets sure around the right side of that gap.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "Only 0.001% of people have actually built something useful using AI."
+   },
+   {
+    "start": 5,
+    "end": 8.5,
+    "text": "And this is after knowing that AI is the number one skill to learn right now."
+   },
+   {
+    "start": 8.5,
+    "end": 10.8,
+    "text": "Why is it that this gap is so massive?"
+   },
+   {
+    "start": 10.8,
+    "end": 12.8,
+    "text": "Because most people think it's too technical for them."
+   },
+   {
+    "start": 12.8,
+    "end": 16,
+    "text": "Because there are thousands of tools and nobody knows what to use when."
+   },
+   {
+    "start": 16,
+    "end": 20.8,
+    "text": "Because they watch tutorials, but they've never sat down to think about what should I do with those tutorials."
+   },
+   {
+    "start": 20.8,
+    "end": 24.6,
+    "text": "And because even the few who start don't have anyone to guide them through the finish line."
+   },
+   {
+    "start": 24.6,
+    "end": 26,
+    "text": "Mesa solves exactly this."
+   },
+   {
+    "start": 26,
+    "end": 28,
+    "text": "AI isn't a separate module you'll learn."
+   },
+   {
+    "start": 28,
+    "end": 30,
+    "text": "It's woven into every single course."
+   },
+   {
+    "start": 30,
+    "end": 33,
+    "text": "150 plus hours of applied AI curriculum."
+   },
+   {
+    "start": 33,
+    "end": 37,
+    "text": "And every student builds at least one real AI product before they graduate."
+   },
+   {
+    "start": 37,
+    "end": 39.5,
+    "text": "Not a demo, not a toy project, something that works."
+   },
+   {
+    "start": 39.5,
+    "end": 43.5,
+    "text": "For example, one of our students, an investment banker with zero tech background."
+   },
+   {
+    "start": 43.5,
+    "end": 47,
+    "text": "Built a vice-first AI companion, pitched it to 50 plus VCs,"
+   },
+   {
+    "start": 47,
+    "end": 49.5,
+    "text": "scaled it to 1000 plus monthly active users."
+   },
+   {
+    "start": 49.5,
+    "end": 53,
+    "text": "Another one built an AI-powered tool that got him his dream job."
+   },
+   {
+    "start": 53,
+    "end": 58,
+    "text": "Another pivoted entirely into AI, and is now leading an AI product at a fast growing startup."
+   },
+   {
+    "start": 58,
+    "end": 61.5,
+    "text": "The gap right now isn't between people who understand AI and people who don't."
+   },
+   {
+    "start": 61.5,
+    "end": 65,
+    "text": "It's between people who have built with AI and people who haven't."
+   },
+   {
+    "start": 65,
+    "end": 67.5,
+    "text": "Mesa meets sure around the right side of that gap."
+   }
+  ]
+ }
+}

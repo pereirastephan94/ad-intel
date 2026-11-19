@@ -1,0 +1,147 @@
+{
+ "asset": "1119284114037726",
+ "first_seen_in": "29250519677942503",
+ "duration_s": 56.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 19.9,
+   "why": "scene change"
+  },
+  {
+   "t": 22.4,
+   "why": "scene change"
+  },
+  {
+   "t": 29.3,
+   "why": "scene change"
+  },
+  {
+   "t": 34.2,
+   "why": "scene change"
+  },
+  {
+   "t": 38.5,
+   "why": "scene change"
+  },
+  {
+   "t": 40.6,
+   "why": "scene change"
+  },
+  {
+   "t": 43,
+   "why": "scene change"
+  },
+  {
+   "t": 56.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "If you are 25 years old, the worst thing you can do is work in a back-end role in a large army. You will be running a repetitive process. You will not be talking to customers. You will not be working with experienced leaders. In a nutshell, you are falling behind. And in the end, AI will take over most of these roles. In startup, it's the exact opposite. You will get to make decisions. You will talk to customers directly and learn how to sell. You will work with senior founders who will mentally. You will learn AI. Beat your competition. And you will get chances to make mistakes. Just ask me. Only way to learn. You will fail fast, learn fast and grow fast. This is exactly what Master School of Business is built for. It will help you break into top roles in great startups in India. You will learn directly from more than 200 founders, operators and VCs. You will work on live startup problem statements with them. You will be building real businesses and generating real revenue of more than 5 lakhs. If you want to break out of the MLC trap, then apply to Master School now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.9,
+    "text": "If you are 25 years old, the worst thing you can do is work in a back-end role in a large army."
+   },
+   {
+    "start": 4.9,
+    "end": 10.7,
+    "text": "You will be running a repetitive process. You will not be talking to customers. You will not be working with experienced leaders."
+   },
+   {
+    "start": 10.7,
+    "end": 15,
+    "text": "In a nutshell, you are falling behind. And in the end, AI will take over most of these roles."
+   },
+   {
+    "start": 15,
+    "end": 18.2,
+    "text": "In startup, it's the exact opposite. You will get to make decisions."
+   },
+   {
+    "start": 18.2,
+    "end": 21,
+    "text": "You will talk to customers directly and learn how to sell."
+   },
+   {
+    "start": 21,
+    "end": 24.8,
+    "text": "You will work with senior founders who will mentally. You will learn AI."
+   },
+   {
+    "start": 24.8,
+    "end": 27.8,
+    "text": "Beat your competition. And you will get chances to make mistakes."
+   },
+   {
+    "start": 27.8,
+    "end": 31.6,
+    "text": "Just ask me. Only way to learn. You will fail fast, learn fast and grow fast."
+   },
+   {
+    "start": 31.6,
+    "end": 34.1,
+    "text": "This is exactly what Master School of Business is built for."
+   },
+   {
+    "start": 34.1,
+    "end": 37,
+    "text": "It will help you break into top roles in great startups in India."
+   },
+   {
+    "start": 37,
+    "end": 40.5,
+    "text": "You will learn directly from more than 200 founders, operators and VCs."
+   },
+   {
+    "start": 40.5,
+    "end": 42.9,
+    "text": "You will work on live startup problem statements with them."
+   },
+   {
+    "start": 42.9,
+    "end": 46.8,
+    "text": "You will be building real businesses and generating real revenue of more than 5 lakhs."
+   },
+   {
+    "start": 46.8,
+    "end": 50.2,
+    "text": "If you want to break out of the MLC trap, then apply to Master School now."
+   }
+  ]
+ }
+}
