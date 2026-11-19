@@ -1,0 +1,63 @@
+{
+ "query": "Stable Money",
+ "country": "IN",
+ "searched_with": [
+  "exact-phrase search"
+ ],
+ "plausible_matches": 1,
+ "candidates": [
+  {
+   "page_id": "107538592238547",
+   "page_name": "Stable Money",
+   "name_match": "exact",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 18,
+   "likes": 3,
+   "categories": [
+    "Profile"
+   ],
+   "page_url": "https://www.instagram.com/_u/the_unconventional_ca",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=107538592238547&search_type=page"
+  },
+  {
+   "page_id": "1146563395213664",
+   "page_name": "Stable Bonds India",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 7,
+   "likes": 30,
+   "categories": [
+    "Business"
+   ],
+   "page_url": "https://www.facebook.com/61590730147065/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=1146563395213664&search_type=page"
+  },
+  {
+   "page_id": "735151739690038",
+   "page_name": "Stable Bonds",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 4,
+   "likes": 75,
+   "categories": [
+    "Financial Service"
+   ],
+   "page_url": "https://www.facebook.com/61580426784371/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=735151739690038&search_type=page"
+  },
+  {
+   "page_id": "1426141450571838",
+   "page_name": "StableMoney: Fixed Deposits",
+   "name_match": "no",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 1,
+   "likes": 7,
+   "categories": [
+    "Business"
+   ],
+   "page_url": "https://www.facebook.com/61595025699315/",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=1426141450571838&search_type=page"
+  }
+ ],
+ "note": "One page matches the name. Use it, and tell the user which page it is."
+}
