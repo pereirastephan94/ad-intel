@@ -25,7 +25,7 @@ Roman-script pass from transcript.json; burned-in captions win where they differ
 | 36-40.1 | Silent end card. | |
 
 ## First 3 seconds
-0 s: a white glow shape over a gym floor (a transition effect). 0.5 to 3 s: a woman walks towards the lens, phone in hand, gesturing; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
+0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
 
 ## Person on screen
 No name or role is given in captions or ad text. Apparent age 25 to 35, long loose black hair, black zip-front jacket, grey ribbed leggings, thin gold necklace, phone in hand. Smiling, animated hands. Looks at the lens in the first 5 s, then is on a machine or off-camera. Other people in the b-roll are unlabelled.
@@ -38,15 +38,14 @@ Indoor gym, bright even light, handheld phone video. Cutaways: machine, moon-mur
 - End card (about 36 s): blurred footage, cult logo, "Get cultpass ELITE", glass box "starting at ₹1,099/mo". No small print.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 33 cuts in 40.1 s (8.2 per 10 s), first cut 0.07 s (the effect), 3 in the first 5 s. 163 words per minute, speech share 0.87, tempo 123 bpm; software guesses a sound bed.
+Measured by software, not heard, so genre and track cannot be named. 33 cuts in 40.1 s (8.2 per 10 s), first cut 0.07 s (the effect), 3 in the first 5 s. 163 words per minute, tempo 123 bpm; a sound bed is guessed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-5 | Hook | Walk-and-talk, "let me show you". |
-| 6-28 | Proof | Clean gym, equipment, classes, coaches, app. |
-| 28-36 | Verdict, CTA | "Convenient"; buy cultpass ELITE. |
-| 36-40 | End card | Price. |
+| 6-28 | Proof | Gym, classes, coaches, app. |
+| 28-40 | CTA, end card | Buy cultpass ELITE; price. |
 
 ## Claims and proof
 - "clean, spacious and well maintained": b-roll only, no figures.

@@ -26,7 +26,7 @@ Roman-script pass from transcript.json; burned-in captions win where they differ
 | 36.3-36.5 | End card, no speech. | |
 
 ## First 3 seconds
-0 s: a white glow shape over a gym floor (a transition effect). 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
+0 s: a white glow transition effect. 0.5 to 3 s: a woman walks towards the lens, phone in hand; captions "so I recently checked / out cult fit and let / me show you guys". Spoken from 0 s. Hook: story_open (a review opener); no number or offer.
 
 ## Person on screen
 No name or role is given in captions or ad text. Apparent age 25 to 35, long loose black hair, black zip-front jacket, grey ribbed leggings, thin gold necklace, phone in hand. Smiling, animated hands. Looks at the lens in the first 5 s, then is on a machine or off-camera. Other people in the b-roll are unlabelled.
@@ -35,18 +35,18 @@ No name or role is given in captions or ad text. Apparent age 25 to 35, long loo
 Indoor gym, bright even light, handheld phone video. Cutaways: machine, moon-mural dance floor, phone close-up of the app (17.6 s: "2/2 FREE GROUP TRIALS LEFT", classes at "Cult Vaishali Nagar"), dance class, spin bikes, barbell coaching. White brush-stroke wipes at 6 s and 29 s.
 
 ## On-screen text, captions, logos, graphics
-- Captions: bold white sans, lower third, a few words at a time, no highlight colour.
+- Captions: bold white sans, lower third, a few words at a time.
 - End card (about 36 s): blurred footage, "Make fitness fun" in a glass pill. No logo, price or button.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 33 cuts in 36.5 s (9.0 per 10 s), first cut 0.07 s (the effect), 3 in the first 5 s. 161 words per minute, speech share 0.96, tempo 112 bpm; software guesses a sound bed.
+Measured by software, not heard, so genre and track cannot be named. 33 cuts in 36.5 s (9.0 per 10 s), first cut 0.07 s (the effect), 3 in the first 5 s. 161 words per minute, tempo 112 bpm; a sound bed is guessed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-5 | Hook | Walk-and-talk, "let me show you". |
-| 6-28 | Proof | Clean gym, equipment, classes, coaches, app. |
-| 28-36 | Verdict, CTA | "Convenient"; buy cultpass ELITE. |
+| 6-28 | Proof | Gym, classes, coaches, app. |
+| 28-36 | CTA | Buy cultpass ELITE. |
 
 ## Claims and proof
 - "clean, spacious and well maintained": b-roll only, no figures.

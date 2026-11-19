@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yeh kya chhapi hai?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Fitelo diet plan, 10X cashback",
+    "one_line": "A woman reacts to a newspaper, says last year's 100% cashback is old and this year's is ten times bigger, with up to 5 lakh rupees and a warranty.",
+    "script_twin": null,
+    "offer_also": [
+      "other"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -30,7 +30,7 @@ The main pass had Devanagari for much of the Hindi, so I romanised it by sound [
 | 28.9-32.1 | Silent end card. | |
 
 ## First 3 seconds
-0 s: a woman walks towards the lens down a corridor, mid-sentence, no text. 0.5 s: big white "GYM". 1 s: "GYM" with a smaller "mann". 3 s: caption "kyunki". Hook: callout (an order, "toh mat jao"); it also names a pain. Telling viewers to skip the gym is unusual for a gym ad.
+0 s: a woman walks towards the lens down a corridor, mid-sentence. 0.5 s: big white "GYM". 1 s: "GYM" with a smaller "mann". 3 s: caption "kyunki". Hook: callout (an order, "toh mat jao"); also a pain.
 
 ## Person on screen
 No name or role is given in captions or ad text. Apparent age 25 to 35, ponytail with lighter ends, fitted black zip jacket and flared trousers, grey shoulder bag; later black sports bra and leggings. Warm, direct, expressive hands. Looks at the lens in the opening, then lifts, walks on a treadmill or uses a pulldown machine.
@@ -39,20 +39,18 @@ No name or role is given in captions or ad text. Apparent age 25 to 35, ponytail
 Inside a Cult centre: entry corridor with shoe cubbies, turnstiles under a cult logo (11 s), dumbbell hall, dance studio, treadmills. Steady, dark warm grade, planned shoots rather than phone footage. A red-orange light-leak wipe at about 14 s.
 
 ## On-screen text, captions, logos, graphics
-- Captions: bold white sans, short phrases, lower third, plus a big title word at the top early ("GYM", "DANCE FITNESS" at 19 s).
+- Captions: bold white sans, short phrases, lower third, with a big title word early ("GYM", later "DANCE FITNESS").
 - End card (about 29 s): cult logo, "Explore cult", glass box "Starting at ₹1,099/mo". No small print.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 15 cuts in 32.1 s (4.7 per 10 s), first cut 5.7 s, none in the first 5 s. 166 words per minute, speech share 0.83, tempo 112 bpm; software guesses a sound bed. The last 2 s are digital silence.
+Measured by software, not heard, so genre and track cannot be named. 15 cuts in 32.1 s (4.7 per 10 s), first cut 5.7 s, none in the first 5 s. 166 words per minute, tempo 112 bpm; a sound bed is guessed. Last 2 s digital silence.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-5 | Hook | "Don't go" if you don't feel like it. |
 | 6-23 | Mechanism | Strength, dance, yoga, gym; enjoyment drives consistency. |
-| 23-26 | Tagline | "The best workout is the one you enjoy." |
-| 26-29 | CTA | Book two free group workouts. |
-| 29-32 | End card | Price. |
+| 23-32 | CTA, end card | Two free group workouts; price. |
 
 ## Claims and proof
 - "two free group workouts": spoken only; end card and ad text omit them; no terms, centre, city or expiry. The app screen in 1097706556434827 shows "2/2 FREE GROUP TRIALS LEFT", consistent but not shown here.

@@ -26,29 +26,27 @@ The main pass is Devanagari and garbled from 19.8 s; the raw pass is mostly nois
 | 28.7-32.1 | End card, no speech. | |
 
 ## First 3 seconds
-0 s: a woman walks towards the lens down a corridor, mid-sentence. 0.5 s: big white "GYM" with a smaller "jaane". 1 s: "GYM" with "mann". 3 s: caption "kyunki". Hook: callout (an order, "toh mat jao"); also a pain.
+0 s: a woman walks towards the lens down a corridor, mid-sentence. 0.5 s: big white "GYM". 1 s: "GYM" with "jaane", then "mann". 3 s: caption "kyunki". Hook: callout (an order, "toh mat jao"); also a pain.
 
 ## Person on screen
-No name or role is given in captions or ad text. Apparent age 25 to 35, ponytail with lighter ends, fitted black zip jacket and flared trousers, grey shoulder bag; later black sports bra and leggings. Warm, direct, expressive hands. Looks at the lens in the opening, then lifts, walks on a treadmill or uses a pulldown machine.
+No name or role is given. Apparent age 25 to 35, ponytail, black zip jacket, flared trousers; later black sports bra and leggings. Looks at the lens in the opening, then lifts, runs or does yoga.
 
 ## Setting, framing and look
-Inside a Cult centre: corridor with shoe cubbies, dumbbell rack, yoga floor with "LET GO / EXHALE" wall art (9 s, 19.7 s), treadmills, functional class, dance room. Steady, dark graded, planned shots; red-orange light-leak wipe at about 14 s.
+Inside a Cult centre: corridor with shoe cubbies, dumbbell rack, yoga floor (9 s, 19.7 s), treadmills, dance room. Steady, dark graded, planned shots; light-leak wipe at about 14 s.
 
 ## On-screen text, captions, logos, graphics
 - Captions: bold white sans, short phrases, lower third, with a big title word early ("GYM").
 - End card (about 29 s): blurred footage, "Starting at / ₹1,199/mo". No logo, button or small print.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 17 cuts in 32.1 s (5.3 per 10 s), first cut 5.2 s, none in the first 5 s. Speech share 0.90, tempo 99 bpm; a sound bed is guessed. Words per minute (67) is too low because the main pass is Devanagari. The last 2 s are not silent.
+Measured by software, not heard, so genre and track cannot be named. 17 cuts in 32.1 s (5.3 per 10 s), first cut 5.2 s, none in the first 5 s. Tempo 99 bpm; a sound bed is guessed. The last 2 s are not silent.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-5 | Hook | "Don't go" if you don't feel like it. |
 | 6-23 | Mechanism | Strength, dance, yoga, gym; enjoyment drives consistency. |
-| 23-26 | Tagline | "The best workout is the one you enjoy." |
-| 26-29 | CTA | Book 2 free group workouts. |
-| 29-32 | End card | Price. |
+| 23-32 | CTA, end card | 2 free group workouts; price. |
 
 ## Claims and proof
 - "2 free group workouts": spoken only; ad text and end card omit them; no terms or expiry.
