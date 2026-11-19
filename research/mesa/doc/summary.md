@@ -17,5 +17,5 @@
 
 - Spend and results are not public, so this shows what Mesa is betting on, not what is working.
 - The pull is still running. The counts at the top of the page are current; the findings below were written on the first 163 ads.
-- Added since (ads 164 to 221): a named co-founder interview with a music-only montage of headline cards (the one video that is not a plain talking head), a "25 years old, worst thing you can do" age call-out, and two new Ascend image themes ("top faculty and founders", "mastered your role, now lead the whole business"). Everything else in the later batches is a repeat or a re-cut of creatives already covered.
+- Added since (ads 164 to 241): a named co-founder interview with a music-only montage of headline cards (the one video that is not a plain talking head), a "25 years old, worst thing you can do" age call-out, and three new Ascend image themes ("top faculty and founders", "mastered your role, now lead the whole business", "career coach from month one") and one for PGP ("The only B-school where your startup is the syllabus"). Everything else in the later batches is a repeat or a re-cut of creatives already covered.
 - Music is measured by software. About half the videos seem to have a music bed; tracks cannot be named.
