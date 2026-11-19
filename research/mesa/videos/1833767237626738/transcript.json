@@ -1,0 +1,147 @@
+{
+ "asset": "1833767237626738",
+ "first_seen_in": "4714358782134470",
+ "duration_s": 60.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.9,
+   "why": "scene change"
+  },
+  {
+   "t": 8.2,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.2,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 37.5,
+   "why": "scene change"
+  },
+  {
+   "t": 46.5,
+   "why": "scene change"
+  },
+  {
+   "t": 59.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product. Like really actually sell. I found this new business school in Bangalore started by my friends called Mesa. One is a Harvard Business School alum and the other went to Kellogg. I visited their campus a while back and since then I've been telling every founder I meet to hire from them. And it comes down to one simple thing. In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product. Like really actually sell. These students have to pick a category, build a product and website, make content, run ads and then sell online and offline. So when you hire from Mesa you're not hiring someone you have to manage. You're hiring someone who's already done it, who's already sold, run ads and found real paying customers. You can hand them a problem and trust them to solve it. They can lead a team or own a number. And I think that's why 150 plus startups are already hiring from there now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.6,
+    "text": "In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product."
+   },
+   {
+    "start": 5.6,
+    "end": 7.6,
+    "text": "Like really actually sell."
+   },
+   {
+    "start": 8.9,
+    "end": 12.6,
+    "text": "I found this new business school in Bangalore started by my friends called Mesa."
+   },
+   {
+    "start": 12.6,
+    "end": 15.2,
+    "text": "One is a Harvard Business School alum and the other went to Kellogg."
+   },
+   {
+    "start": 15.2,
+    "end": 20.5,
+    "text": "I visited their campus a while back and since then I've been telling every founder I meet to hire from them."
+   },
+   {
+    "start": 20.5,
+    "end": 22.6,
+    "text": "And it comes down to one simple thing."
+   },
+   {
+    "start": 22.6,
+    "end": 28.3,
+    "text": "In the first 8 weeks of their curriculum, every student has to sell 5 lakhs worth of product."
+   },
+   {
+    "start": 28.4,
+    "end": 30,
+    "text": "Like really actually sell."
+   },
+   {
+    "start": 30,
+    "end": 37.5,
+    "text": "These students have to pick a category, build a product and website, make content, run ads and then sell online and offline."
+   },
+   {
+    "start": 37.5,
+    "end": 40.5,
+    "text": "So when you hire from Mesa you're not hiring someone you have to manage."
+   },
+   {
+    "start": 40.5,
+    "end": 46.4,
+    "text": "You're hiring someone who's already done it, who's already sold, run ads and found real paying customers."
+   },
+   {
+    "start": 46.4,
+    "end": 48.7,
+    "text": "You can hand them a problem and trust them to solve it."
+   },
+   {
+    "start": 48.7,
+    "end": 50.7,
+    "text": "They can lead a team or own a number."
+   },
+   {
+    "start": 50.7,
+    "end": 54.1,
+    "text": "And I think that's why 150 plus startups are already hiring from there now."
+   }
+  ]
+ }
+}

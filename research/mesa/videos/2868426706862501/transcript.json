@@ -1,0 +1,177 @@
+{
+ "asset": "2868426706862501",
+ "first_seen_in": "1576676950895208",
+ "duration_s": 83.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 26.9,
+   "why": "scene change"
+  },
+  {
+   "t": 37.2,
+   "why": "scene change"
+  },
+  {
+   "t": 43.3,
+   "why": "scene change"
+  },
+  {
+   "t": 51.7,
+   "why": "scene change"
+  },
+  {
+   "t": 59.6,
+   "why": "scene change"
+  },
+  {
+   "t": 60.9,
+   "why": "scene change"
+  },
+  {
+   "t": 65.4,
+   "why": "scene change"
+  },
+  {
+   "t": 68.2,
+   "why": "scene change"
+  },
+  {
+   "t": 71.7,
+   "why": "scene change"
+  },
+  {
+   "t": 83.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You know, Mesa incubated startups, which are startups that are built by students have now done 50 crore plus in ERR. This is the real revenue that we are talking about. Together they have raised more than 25 crore in funding. There are two students who have been on Shark Tank. There are also a few more in the pipeline and you will be seeing them live on Shark Tank very soon. But the point here is that we invest a lot in entrepreneurship resources. For example, there is very strict guidance on how to pick an idea. What is it that you are going to be building? It's probably the most important thing that you need to learn and that's where most people get stuck. One-on-one mentorship from proven founders, grants up to Rs.10 lakh, a dedicated team that supports your building journey which might be very different from somebody else's building journey. Demo days where you get to pitch to 50 plus VCs, partnerships with 10 plus international incubators. And another thing besides all of these resources that I give credit to is our pedagogy. Where in just the first 8 weeks, every single student does 5 lakh in sales. Whether you are building a business, whether you are in careers, whatever it is you have to do this. You have to pick a product, you have to build a website, you have to package it, you have to brand it, to create social media content, run performance marketing, sell online, sell offline. It builds the mindset and muscle required to be a successful entrepreneur. That's exactly what we are trying to do here at Mesa. Thank you.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7.7,
+    "text": "You know, Mesa incubated startups, which are startups that are built by students have now done 50 crore plus in ERR."
+   },
+   {
+    "start": 7.7,
+    "end": 9.7,
+    "text": "This is the real revenue that we are talking about."
+   },
+   {
+    "start": 9.7,
+    "end": 13.2,
+    "text": "Together they have raised more than 25 crore in funding."
+   },
+   {
+    "start": 13.2,
+    "end": 16.2,
+    "text": "There are two students who have been on Shark Tank."
+   },
+   {
+    "start": 16.2,
+    "end": 21.2,
+    "text": "There are also a few more in the pipeline and you will be seeing them live on Shark Tank very soon."
+   },
+   {
+    "start": 21.2,
+    "end": 25.7,
+    "text": "But the point here is that we invest a lot in entrepreneurship resources."
+   },
+   {
+    "start": 25.9,
+    "end": 30.9,
+    "text": "For example, there is very strict guidance on how to pick an idea."
+   },
+   {
+    "start": 30.9,
+    "end": 32.9,
+    "text": "What is it that you are going to be building?"
+   },
+   {
+    "start": 32.9,
+    "end": 36.9,
+    "text": "It's probably the most important thing that you need to learn and that's where most people get stuck."
+   },
+   {
+    "start": 36.9,
+    "end": 40.9,
+    "text": "One-on-one mentorship from proven founders, grants up to Rs.10 lakh,"
+   },
+   {
+    "start": 40.9,
+    "end": 45.9,
+    "text": "a dedicated team that supports your building journey which might be very different from somebody else's building journey."
+   },
+   {
+    "start": 45.9,
+    "end": 51.9,
+    "text": "Demo days where you get to pitch to 50 plus VCs, partnerships with 10 plus international incubators."
+   },
+   {
+    "start": 52.1,
+    "end": 56.1,
+    "text": "And another thing besides all of these resources that I give credit to is our pedagogy."
+   },
+   {
+    "start": 56.1,
+    "end": 61.1,
+    "text": "Where in just the first 8 weeks, every single student does 5 lakh in sales."
+   },
+   {
+    "start": 61.1,
+    "end": 65.1,
+    "text": "Whether you are building a business, whether you are in careers, whatever it is you have to do this."
+   },
+   {
+    "start": 65.1,
+    "end": 69.1,
+    "text": "You have to pick a product, you have to build a website, you have to package it, you have to brand it,"
+   },
+   {
+    "start": 69.1,
+    "end": 73.1,
+    "text": "to create social media content, run performance marketing, sell online, sell offline."
+   },
+   {
+    "start": 73.1,
+    "end": 77.1,
+    "text": "It builds the mindset and muscle required to be a successful entrepreneur."
+   },
+   {
+    "start": 77.1,
+    "end": 79.1,
+    "text": "That's exactly what we are trying to do here at Mesa."
+   },
+   {
+    "start": 81.9,
+    "end": 84.1,
+    "text": "Thank you."
+   }
+  ]
+ }
+}

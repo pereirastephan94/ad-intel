@@ -1,0 +1,152 @@
+{
+ "asset": "1564918834895021",
+ "first_seen_in": "1634433821103521",
+ "duration_s": 58.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 5.6,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.1,
+   "why": "scene change"
+  },
+  {
+   "t": 22,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 27.9,
+   "why": "scene change"
+  },
+  {
+   "t": 33.5,
+   "why": "scene change"
+  },
+  {
+   "t": 38.3,
+   "why": "scene change"
+  },
+  {
+   "t": 42.6,
+   "why": "scene change"
+  },
+  {
+   "t": 57.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Years are stacked, most business schools will never publish. 57.5% of Mesa students joined super early stage startups. And I'm talking about companies with less than 30 people. Where their reporting manager also is the founder, not a mid-level manager, the founder. This is probably the hardest job to land in the ecosystem right now. And it's made possible because of Mesa's rigorous 12 month program. The deep founder network that we have and the fact that so many founders, 100 plus founders, visit our campus, teach our students and end up hiring our students through these interactions. And here's what makes this even more remarkable. Many of these students turned down offers that were 1.5x higher in CTC. They chose learning over a paycheck, they chose ownership, real decision making and ESOP led wealth creation over a comfortable salary bump. 54% of our students received ESOP grants. Real equity in companies they are helping build. We are fairly confident these will be our first millionaires.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.5,
+    "text": "Years are stacked, most business schools will never publish."
+   },
+   {
+    "start": 3.5,
+    "end": 7.7,
+    "text": "57.5% of Mesa students joined super early stage startups."
+   },
+   {
+    "start": 7.7,
+    "end": 10.1,
+    "text": "And I'm talking about companies with less than 30 people."
+   },
+   {
+    "start": 10.1,
+    "end": 14.9,
+    "text": "Where their reporting manager also is the founder, not a mid-level manager, the founder."
+   },
+   {
+    "start": 14.9,
+    "end": 18.4,
+    "text": "This is probably the hardest job to land in the ecosystem right now."
+   },
+   {
+    "start": 18.4,
+    "end": 21.9,
+    "text": "And it's made possible because of Mesa's rigorous 12 month program."
+   },
+   {
+    "start": 21.9,
+    "end": 26.1,
+    "text": "The deep founder network that we have and the fact that so many founders, 100 plus founders,"
+   },
+   {
+    "start": 26.2,
+    "end": 30.7,
+    "text": "visit our campus, teach our students and end up hiring our students through these interactions."
+   },
+   {
+    "start": 30.7,
+    "end": 32.7,
+    "text": "And here's what makes this even more remarkable."
+   },
+   {
+    "start": 32.7,
+    "end": 37.2,
+    "text": "Many of these students turned down offers that were 1.5x higher in CTC."
+   },
+   {
+    "start": 37.2,
+    "end": 40.9,
+    "text": "They chose learning over a paycheck, they chose ownership, real decision making"
+   },
+   {
+    "start": 40.9,
+    "end": 44.3,
+    "text": "and ESOP led wealth creation over a comfortable salary bump."
+   },
+   {
+    "start": 44.3,
+    "end": 47.3,
+    "text": "54% of our students received ESOP grants."
+   },
+   {
+    "start": 47.3,
+    "end": 49.6,
+    "text": "Real equity in companies they are helping build."
+   },
+   {
+    "start": 49.6,
+    "end": 52.6,
+    "text": "We are fairly confident these will be our first millionaires."
+   }
+  ]
+ }
+}

@@ -138,9 +138,7 @@
   {
    "q": "Ascend",
    "media": "meme"
-  }
- ],
- "queue": [
+  },
   {
    "q": "Ascend",
    "media": "image"
@@ -181,8 +179,27 @@
    "q": "salary"
   },
   {
-   "q": "career"
+   "q": "salary",
+   "media": "video"
   },
+  {
+   "q": "salary",
+   "media": "meme"
+  },
+  {
+   "q": "salary",
+   "media": "image"
+  },
+  {
+   "q": "salary",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
+  },
+  {
+   "q": "career"
+  }
+ ],
+ "queue": [
   {
    "q": "internship"
   },
@@ -418,7 +435,28 @@
   "2026-11-19T05:16:46.382Z   video 1086213360672326 ok (77.6s, 16 stills)",
   "2026-11-19T05:17:04.957Z   video 1647100103480671 ok (63.6s, 16 stills)",
   "2026-11-19T05:17:04.958Z view {\"q\":\"Ascend\",\"media\":\"video\"} -> 30 ads (window total 30), 18 new, 116 unique of ~0",
-  "2026-11-19T05:23:44.482Z view {\"q\":\"Ascend\",\"media\":\"meme\"} -> 2 ads (window total 2), 2 new, 118 unique of ~0"
+  "2026-11-19T05:23:44.482Z view {\"q\":\"Ascend\",\"media\":\"meme\"} -> 2 ads (window total 2), 2 new, 118 unique of ~0",
+  "2026-11-19T05:28:15.421Z view {\"q\":\"Ascend\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 118 unique of ~0",
+  "2026-11-19T05:33:55.162Z view {\"q\":\"Ascend\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 30 ads (window total 138), 25 new, 143 unique of ~0",
+  "2026-11-19T05:39:43.306Z view {\"q\":\"PGP\"} -> 0 ads (window total 0), 0 new, 143 unique of ~0",
+  "2026-11-19T05:44:41.121Z view {\"q\":\"MBA\"} -> 7 ads (window total 7), 5 new, 148 unique of ~0",
+  "2026-11-19T05:50:02.184Z view {\"q\":\"undergraduate\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T05:54:12.176Z view {\"q\":\"CAT\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:01:05.046Z view {\"q\":\"XAT\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:06:36.663Z view {\"q\":\"founders\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:12:26.148Z view {\"q\":\"startup\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:18:38.789Z view {\"q\":\"AI\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:24:42.474Z view {\"q\":\"placement\"} -> 0 ads (window total 0), 0 new, 148 unique of ~0",
+  "2026-11-19T06:31:38.945Z   video 2868426706862501 ok (83.8s, 16 stills)",
+  "2026-11-19T06:32:00.155Z   video 2224966578082934 ok (74.3s, 16 stills)",
+  "2026-11-19T06:32:20.624Z   video 1833767237626738 ok (60.1s, 16 stills)",
+  "2026-11-19T06:32:40.123Z   video 1564918834895021 ok (58.2s, 16 stills)",
+  "2026-11-19T06:32:40.506Z view {\"q\":\"salary\"} -> 30 ads (window total 44), 15 new, 163 unique of ~0",
+  "2026-11-19T06:39:23.502Z view {\"q\":\"salary\",\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T06:44:12.793Z view {\"q\":\"salary\",\"media\":\"meme\"} -> 2 ads (window total 2), 0 new, 163 unique of ~0",
+  "2026-11-19T06:51:13.759Z view {\"q\":\"salary\",\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T06:57:20.379Z view {\"q\":\"salary\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0",
+  "2026-11-19T07:04:25.758Z view {\"q\":\"career\"} -> 0 ads (window total 0), 0 new, 163 unique of ~0"
  ],
  "keywordsQueued": true
 }

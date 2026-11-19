@@ -1,0 +1,192 @@
+{
+ "asset": "2224966578082934",
+ "first_seen_in": "1147193687696430",
+ "duration_s": 74.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.9,
+   "why": "scene change"
+  },
+  {
+   "t": 14.1,
+   "why": "scene change"
+  },
+  {
+   "t": 21.8,
+   "why": "scene change"
+  },
+  {
+   "t": 28.3,
+   "why": "scene change"
+  },
+  {
+   "t": 33.5,
+   "why": "scene change"
+  },
+  {
+   "t": 40,
+   "why": "scene change"
+  },
+  {
+   "t": 43.4,
+   "why": "scene change"
+  },
+  {
+   "t": 47.8,
+   "why": "scene change"
+  },
+  {
+   "t": 51.5,
+   "why": "scene change"
+  },
+  {
+   "t": 56.1,
+   "why": "scene change"
+  },
+  {
+   "t": 74,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Let me tell you a story of a software developer that I know. He's been in coding for 10 years, has worked for top companies, fang, startups, solving their most technical problems. He was telling me the other day that he feels stuck. AI is automating the code completely. So tomorrow if he has to move to say product or business, he will not be able to justify his salary. So what does a person like this do? The number one, this person needs to invest time in learning basics of business, business model, PNL, unit economics. Number two, learn to do real revenue from scratch. Pick a D2C product, brand it, package it, manage suppliers, manage inventory, sell it online, build a website, do real sales, offline if required. Number three, network. Meet more people from diverse areas. Meet people who are in leadership positions. They can open doors for you that otherwise could not be opened. And number four, learn to build with AI. I know you're technical, but solving a problem someone asked you to solve within a technical framework is very different from building a tech product from scratch. Software developers specifically are naturally analytical and great at problems only. So if they do these four things, they are sorted for the post AI era of work.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.8,
+    "text": "Let me tell you a story of a software developer that I know."
+   },
+   {
+    "start": 2.8,
+    "end": 7.8,
+    "text": "He's been in coding for 10 years, has worked for top companies, fang, startups,"
+   },
+   {
+    "start": 7.8,
+    "end": 9.5,
+    "text": "solving their most technical problems."
+   },
+   {
+    "start": 9.5,
+    "end": 11.8,
+    "text": "He was telling me the other day that he feels stuck."
+   },
+   {
+    "start": 11.8,
+    "end": 14.1,
+    "text": "AI is automating the code completely."
+   },
+   {
+    "start": 14.1,
+    "end": 17.2,
+    "text": "So tomorrow if he has to move to say product or business,"
+   },
+   {
+    "start": 17.2,
+    "end": 19.8,
+    "text": "he will not be able to justify his salary."
+   },
+   {
+    "start": 19.8,
+    "end": 21.8,
+    "text": "So what does a person like this do?"
+   },
+   {
+    "start": 21.8,
+    "end": 25.8,
+    "text": "The number one, this person needs to invest time in learning basics of business,"
+   },
+   {
+    "start": 25.8,
+    "end": 28.4,
+    "text": "business model, PNL, unit economics."
+   },
+   {
+    "start": 28.4,
+    "end": 31.5,
+    "text": "Number two, learn to do real revenue from scratch."
+   },
+   {
+    "start": 31.5,
+    "end": 35.6,
+    "text": "Pick a D2C product, brand it, package it, manage suppliers, manage inventory,"
+   },
+   {
+    "start": 35.6,
+    "end": 39.4,
+    "text": "sell it online, build a website, do real sales, offline if required."
+   },
+   {
+    "start": 40,
+    "end": 41.4,
+    "text": "Number three, network."
+   },
+   {
+    "start": 41.4,
+    "end": 44,
+    "text": "Meet more people from diverse areas."
+   },
+   {
+    "start": 44,
+    "end": 46,
+    "text": "Meet people who are in leadership positions."
+   },
+   {
+    "start": 46,
+    "end": 48.6,
+    "text": "They can open doors for you that otherwise could not be opened."
+   },
+   {
+    "start": 48.6,
+    "end": 51,
+    "text": "And number four, learn to build with AI."
+   },
+   {
+    "start": 51,
+    "end": 55,
+    "text": "I know you're technical, but solving a problem someone asked you to solve"
+   },
+   {
+    "start": 55,
+    "end": 57.9,
+    "text": "within a technical framework is very different from building a tech product"
+   },
+   {
+    "start": 57.9,
+    "end": 58.7,
+    "text": "from scratch."
+   },
+   {
+    "start": 58.7,
+    "end": 63.2,
+    "text": "Software developers specifically are naturally analytical and great at problems only."
+   },
+   {
+    "start": 63.2,
+    "end": 67.6,
+    "text": "So if they do these four things, they are sorted for the post AI era of work."
+   }
+  ]
+ }
+}

@@ -97,6 +97,8 @@ async function handleMedia(a) {
 }
 
 let emptyStreak = 0
+let views = 0
+const MAX_VIEWS = Number(process.env.MAX_VIEWS || 0) // 0 = no limit
 while (state.queue.length) {
   const v = state.queue.shift()
   if (seenViews.has(key(v))) continue
@@ -125,7 +127,8 @@ while (state.queue.length) {
   emptyStreak = res.ads.length === 0 && res.total == null ? emptyStreak + 1 : 0
   if (emptyStreak >= 3) { log('three empty views in a row: Facebook may be refusing us. Pausing 45 min.'); await sleep(45 * 60000); emptyStreak = 0 }
   if (state.total && Object.keys(ads).length >= state.total) { log('all reported ads collected'); break }
+  if (MAX_VIEWS && ++views >= MAX_VIEWS) { log(`stopping after ${views} view(s) as asked`); break }
   await sleep((Number(gapMin) + Math.random() * (Number(gapMax) - Number(gapMin))) * 60000)
 }
-log(`DONE: ${Object.keys(ads).length} unique ads of ~${state.total}`)
+log(`${state.queue.length ? 'PAUSED' : 'DONE'}: ${Object.keys(ads).length} unique ads of ~${state.total}`)
 save()
