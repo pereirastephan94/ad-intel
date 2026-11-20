@@ -59,7 +59,7 @@ Measured by software, not heard, so genre and track cannot be named. 9 cuts in 4
 - The landing slug is "renesa-table-fan" for a pedestal fan. No price or warranty.
 
 ## Offer and call to action
-Spoken CTA, if the guess is right: check it out. Button "Shop now", headline "Looking For A Pedestal Fan?", link description "Save up to ₹400 every summer", landing page https://atomberg.com/renesa-table-fan?attribute_pa_color=Black&isProduct=true. Ad text: "Electricity bill climbing every summer? 🌡️ / Most pedestal fans only move air. / This one also saves electricity. / Meet the Atomberg Pedestal Fan — built with energy-efficient technology that can save up to ₹400 every summer. / You also get: / • Powerful air delivery for real cooling / • A sleek digital speed display / • Smooth 45° tilt adjustment / Smart cooling. Less power. More comfort. / Once you try it, ordinary fans feel outdated."
+Spoken CTA, if the guess is right: check it out. Button "Shop now", headline "Looking For A Pedestal Fan?", link description "Save up to ₹400 every summer", landing page https://atomberg.com/renesa-table-fan?attribute_pa_color=Black&isProduct=true. Ad text: "Electricity bill climbing every summer? 🌡️ / Most pedestal fans only move air. / This one also saves electricity. / Meet the Atomberg Pedestal Fan - built with energy-efficient technology that can save up to ₹400 every summer. / You also get: / • Powerful air delivery for real cooling / • A sleek digital speed display / • Smooth 45° tilt adjustment / Smart cooling. Less power. More comfort. / Once you try it, ordinary fans feel outdated."
 
 ## Why it may work, and where it is weak
 Works:

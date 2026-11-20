@@ -41,6 +41,37 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "My team will fund you. Acha, stock mein kitna equity dekh gaya? That was an SSB MBA student and he just got offered 50 lakhs for his start up on campus. At SSB, the only way you learn is by doing.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 1.1,
+    "text": "My team will fund you."
+   },
+   {
+    "start": 1.7,
+    "end": 3.3,
+    "text": "Acha, stock mein kitna equity dekh gaya?"
+   },
+   {
+    "start": 5.5,
+    "end": 7.4,
+    "text": "That was an SSB MBA student"
+   },
+   {
+    "start": 7.5,
+    "end": 11.7,
+    "text": "and he just got offered 50 lakhs for his start up on campus."
+   },
+   {
+    "start": 11.8,
+    "end": 14.4,
+    "text": "At SSB, the only way you learn is by doing."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "My team will find you. But your luck will be so important. That was an SSB MBA student. And he just got offered 50 lakhs for his startup on campus. At SSB, the only way you learn is by doing it.",
   "segments": [

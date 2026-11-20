@@ -69,6 +69,92 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "बाई तू ये क्या गर रहा है? अरे क्यलाज गया था ना मेरा दोष्टू क्यलाज परबच से उसने तीन ऐर मोलिकुलिस में ला एए तो बस उसी की सास ले रहा हूं और ये? ए, समार्व की वो, वो मेरी आइंटी ने सकॉतलाइंट से फ्रेश हमा भेजी है और ये सब खतम हो गया तो? तूल खाउनगा उसकी कुछ्रुश्चिन का और क्या करूँगा? बाई तो क्यूबो का समार्ट आय प्यूरिफार क्यू नहीं यूस करता? तो उससे खासी चली जाएगी क्या? पलूशण बढेगा तो ये इसके एआई से खुद आउन होगा हवा खलीन करेगा खलीन होगा इतो खुद आउफ अब अपने घर की हवा स्कॉटलेंड वाली आइंटी को वापस बेज वो दोस्त को मांट एवरेश्ट का शिपमेंट बोला था ओ आउजार गर दूँ।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "बाई तू ये क्या गर रहा है?"
+   },
+   {
+    "start": 3.0,
+    "end": 5.0,
+    "text": "अरे क्यलाज गया था ना मेरा दोष्टू"
+   },
+   {
+    "start": 5.0,
+    "end": 8.0,
+    "text": "क्यलाज परबच से उसने तीन ऐर मोलिकुलिस में ला एए"
+   },
+   {
+    "start": 8.0,
+    "end": 11.0,
+    "text": "तो बस उसी की सास ले रहा हूं"
+   },
+   {
+    "start": 11.0,
+    "end": 12.0,
+    "text": "और ये?"
+   },
+   {
+    "start": 12.0,
+    "end": 15.0,
+    "text": "ए, समार्व की वो, वो मेरी आइंटी ने"
+   },
+   {
+    "start": 15.0,
+    "end": 17.0,
+    "text": "सकॉतलाइंट से फ्रेश हमा भेजी है"
+   },
+   {
+    "start": 17.0,
+    "end": 18.7,
+    "text": "और ये सब खतम हो गया तो?"
+   },
+   {
+    "start": 18.7,
+    "end": 21.2,
+    "text": "तूल खाउनगा उसकी कुछ्रुश्चिन का और क्या करूँगा?"
+   },
+   {
+    "start": 21.7,
+    "end": 24.9,
+    "text": "बाई तो क्यूबो का समार्ट आय प्यूरिफार क्यू नहीं यूस करता?"
+   },
+   {
+    "start": 24.9,
+    "end": 27.0,
+    "text": "तो उससे खासी चली जाएगी क्या?"
+   },
+   {
+    "start": 27.0,
+    "end": 31.0,
+    "text": "पलूशण बढेगा तो ये इसके एआई से खुद आउन होगा"
+   },
+   {
+    "start": 31.0,
+    "end": 32.0,
+    "text": "हवा खलीन करेगा"
+   },
+   {
+    "start": 32.0,
+    "end": 34.0,
+    "text": "खलीन होगा इतो खुद आउफ"
+   },
+   {
+    "start": 34.0,
+    "end": 38.0,
+    "text": "अब अपने घर की हवा स्कॉटलेंड वाली आइंटी को वापस बेज"
+   },
+   {
+    "start": 38.0,
+    "end": 42.0,
+    "text": "वो दोस्त को मांट एवरेश्ट का शिपमेंट बोला था ओ आउजार गर दूँ।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "Brother, you are doing this? Kailash was my friend, so he brought me 3 air molecules. So I am taking it with him. And this? That is my auntie, she is a fresh and delicious. And all this is over, so what else can I do? Brother, why don't you use smart type purifier? You can use it for free. Pollution will be the same as this, so the air will be clean. It will be clean, so it will be clean. Now send your house's air to Scotland's auntie. She will cancel the announcement of Mount Everest.",
   "segments": [

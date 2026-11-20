@@ -1,0 +1,71 @@
+[
+ {
+  "library_id": "1533712601774060",
+  "link": "https://www.facebook.com/ads/library/?id=1533712601774060",
+  "page_id": "392046674300717",
+  "page_name": "cult",
+  "is_active": true,
+  "start_date": "2026-09-25",
+  "days_running": 56,
+  "media_type": "VIDEO",
+  "body": "Life happens \u2728\nTough days \ud83d\udc94 New beginnings \ud83c\udf31 Big moments \ud83c\udf89 \nWhatever it is,  Cult keeps you moving forward \ud83d\udcaa\ud83d\udd25",
+  "headline": "For Every Moment, There\u2019s Cult \u2728",
+  "link_description": "",
+  "cta": "See details",
+  "landing_url": "https://cure.app.link/cri6lJmKvXb",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPAatBigXhtqTIRpmYBGT0846tw4sp4RGuA281AB1pejX4b5idFG7Eyl3CzVxa_8funTY0l_30Fr-TjOVWVxWnDe6pu_dcZJDccfamepqRy6g.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=qLLtE7E5L9YQ7kNvwHTu5Cr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyNzg5Njk5NjEwNzY4NTEsImFzc2V0X2FnZV9kYXlzIjoxODIsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e736ebd9eae1dbc2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yRjQwQUNFOUU1MTY5QTM2REREQ0JGMzc5RThDNDg5OF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzkwNEZCREMxRDdGQkZCMzUwQTdBRDJDM0YwNDM2NjlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbm4arj7M3FBBUCKAJDMywXQC5EGJN0vGoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=J235AdGvzE7zdELUivGZ1w&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UrJSdTUKTz1fpsS5-AcqqLsgr1GVIBSj0qwlaMyWyI0j-MHfp5wWd4SWA3-FKe40D3LER_qKzR2bHZdJjj3l6Gvj5Pn4JNpt3rPfNW_C6so56zQvA4yPVEdlLCk&oh=00_AQSLw3ScDVrkaOtyZLPAmHff4wMboG-bxzWZGjgjgn39Hg&oe=6B05590E",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/786587894_1315988127067710_3630779233636544741_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AbRAPFNXZBkQ7kNvwEuI03z&_nc_oc=AdpMAj2gxsdtc2SORPqjg_j70MUOpCH71SMK4po4xvvAqNDjGNnO-2RfPTdayjlWkRI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=J235AdGvzE7zdELUivGZ1w&_nc_ss=7b289&oh=00_AQRc2fipfIcVp6xUb4-JqElgMlX_CI1oyRpBa5Key0tNxg&oe=6B057802",
+  "copies": 11,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Health & wellness website"
+   ]
+  },
+  "sample_views": {
+   "video": 21
+  },
+  "video_asset": "1278969961076851"
+ },
+ {
+  "library_id": "1091108850133335",
+  "link": "https://www.facebook.com/ads/library/?id=1091108850133335",
+  "page_id": "392046674300717",
+  "page_name": "cult",
+  "is_active": true,
+  "start_date": "2026-09-25",
+  "days_running": 56,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "See details",
+  "landing_url": "https://cure.app.link/cri6lJmKvXb",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPAatBigXhtqTIRpmYBGT0846tw4sp4RGuA281AB1pejX4b5idFG7Eyl3CzVxa_8funTY0l_30Fr-TjOVWVxWnDe6pu_dcZJDccfamepqRy6g.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=qLLtE7E5L9YQ7kNvwHTu5Cr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyNzg5Njk5NjEwNzY4NTEsImFzc2V0X2FnZV9kYXlzIjoxODIsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e736ebd9eae1dbc2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yRjQwQUNFOUU1MTY5QTM2REREQ0JGMzc5RThDNDg5OF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzkwNEZCREMxRDdGQkZCMzUwQTdBRDJDM0YwNDM2NjlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbm4arj7M3FBBUCKAJDMywXQC5EGJN0vGoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=J235AdGvzE7zdELUivGZ1w&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ujr9jaQgXgr4l8sNargR-fgHVl4xClVS_IPOVbnMLXr1YErvL2RJYFEnp_yjJScfnYT1spi3P7xpExuvWqYjl6L9pDPRzNYqU4Uh7UR9BD-ymoSWIBDnc6zeU1c&oh=00_AQSLw3ScDVrkaOtyZLPAmHff4wMboG-bxzWZGjgjgn39Hg&oe=6B05590E",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/702589534_4205569909755625_7373415480595372166_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Rpsu51AbaTAQ7kNvwEiF34l&_nc_oc=AdrzQlJOiK23gwUCPXbqeHa9W3O90p5Jah3vISlxl01-6Y9iNLMjtMCwh3VRfJ8C6so&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=J235AdGvzE7zdELUivGZ1w&_nc_ss=7b289&oh=00_AQQ1SbCIJDdp3pHlgtuxVHpM3m63X0qAF0qMc6YQooPalw&oe=6B056166",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Health & wellness website"
+   ]
+  },
+  "sample_views": {
+   "video": 27
+  },
+  "video_asset": "1278969961076851"
+ }
+]

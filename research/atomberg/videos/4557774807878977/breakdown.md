@@ -2,8 +2,8 @@
 - Creative name: not in link
 - Product or programme: Atomberg Zenova Mixer Grinder (caption) with a "Unique chopper jar"; headline "Upgrade To The Powerful And Intelligent: Atomberg Zenova BLDC"
 - Length, shape: 48.2 s, vertical 9:16 (720 x 1280)
-- Language: probably Tamil with English product phrases; machine passes are garbled and disagree
-- Format: chef demo in a set kitchen, product beauty shots and macros
+- Language: probably Tamil with English product phrases; machine passes disagree
+- Format: chef demo in a set kitchen, with product shots and macros
 - Ads using it: 1, earliest start 2026-08-08, total copies 1; links:
   - https://www.facebook.com/ads/library/?id=1985720855406501
 
@@ -18,10 +18,10 @@ Neither machine pass gives usable lines, so none are invented. Speakers not assi
 | 42-48.2 | No speech found. | |
 
 ## First 3 seconds
-0 s: a man in a dusty-pink tunic leans over a mixer chopper jar of pink-purple pieces, looking down. 0.5 s: he looks at the lens and points a finger at it. 1 s: smiling, finger to his lips. 2 s: split screen of steel jars and a small red mixer, sign "DEENA'S KITCHE[N]". 3 s: logo "atomberg" and orange pill "Zenova Mixer Grinder". Speech from 0 s, unreadable. Hook: a gesture at the viewer.
+0 s: a man in a dusty-pink tunic leans over a chopper jar of pink-purple pieces. 0.5 s: he looks at the lens and points a finger at it. 1 s: smiling, finger to his lips. 2 s: split screen of steel jars and a small red mixer, sign "DEENA'S KITCHE[N]". 3 s: logo "atomberg" and orange pill "Zenova Mixer Grinder". Speech from 0 s, unreadable. Hook: a gesture at the viewer.
 
 ## Person on screen
-The tunic has an embroidered chest logo "CHEF DEENA'S KITCHEN" and the set sign repeats it. No caption or ad text says who he is, so the name belongs to the kitchen brand, not confirmed to him. Apparent 30s, short black hair, dusty-pink tunic with grey buttons, clip-on lavalier mic, gold bangle, black bead bracelet. Expressive; looks at the lens, points, smiles.
+The tunic has an embroidered chest logo "CHEF DEENA'S KITCHEN" and the set sign repeats it. No caption or ad text says who he is, so the name belongs to the kitchen brand, not confirmed to him. Apparent 30s, short black hair, dusty-pink tunic, clip-on lavalier mic, gold bangle, black bead bracelet. Expressive; looks at the lens, points, smiles.
 
 ## Setting, framing and look
 A built kitchen set: lit shelves with clay pots, hob with a lidded pan, board and knife, warm light. Medium static shots of him, split screens at two zoom levels for the product (2 to 5 s), then macros: onion quarters in the chopper jar (7.4 s), chopped onion (18.6 s), tomato quarters (24.7 s), chopped tomato (30.9 s), hands on the Coarse knob (33.6 s).
@@ -58,4 +58,4 @@ Works:
 
 Weak:
 - The speech cannot be checked.
-- Brand named only at 3 s on a pill; the BLDC and safety claims in the ad text are not shown.
+- Brand named only at 3 s; the ad text's BLDC and safety claims are not shown.

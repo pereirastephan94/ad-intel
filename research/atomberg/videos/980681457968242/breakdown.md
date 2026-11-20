@@ -1,14 +1,14 @@
-# Street pitch of a "smart matka" box, then the Intellon adaptive RO is revealed (980681457968242)
+# Street pitch of a "smart matka", then the Intellon adaptive RO (980681457968242)
 - Creative name: not in link
-- Product or programme: Atomberg Intellon Water Purifier, "adaptive RO" (said at 16 s; headline "India's 1st Adaptive Water Purifier"; end card "Intellon", "Smarter Filter. Longer Life.")
+- Product or programme: Atomberg Intellon Water Purifier, "adaptive RO" (said at 16 s); headline "India's 1st Adaptive Water Purifier"
 - Length, shape: 36.7 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish
-- Format: street chat skit that turns into an unboxing and product explainer
+- Format: street skit turning into an unboxing and explainer
 - Ads using it: 1, earliest start 2026-09-17, total copies 2; links:
   - https://www.facebook.com/ads/library/?id=985790447890966
 
 ## Script (verbatim)
-Roman pass used as it stands up to 26 s; 26 to 33 s was Devanagari and is romanised by me [?]. Speakers not assigned.
+Roman pass as it stands to 26 s; 26 to 33 s was Devanagari and is romanised by me [?]. Speakers not assigned.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -26,49 +26,44 @@ Roman pass used as it stands up to 26 s; 26 to 33 s was Devanagari and is romani
 | 32.8-36.7 | No speech. | |
 
 ## First 3 seconds
-Outdoor, a housing colony. A man in a black polo holds a tall box, an older man in white kurta-pyjama listens with a hand at his chin. 0 s is a black frame. The box reads "atomberg", "AutoMatka", an orange tag "Desh ki mitti infused", and "Plasma Mesh Filters / Geo Sediment Filtration / Auto Gravity Bio Shield", with a red clay-pot-shaped purifier showing "085". Speech from 0 s ("Uncle, abhi isme bioshield technology hai"). Hook: mid-conversation opener around a gag product.
+0 s: black frame. 0.5 to 3 s: outdoors in a housing colony, a man in a black polo holds a tall box while an older man in white kurta-pyjama listens. The box reads "atomberg", "AutoMatka", "Desh ki mitti infused" and "Plasma Mesh Filters / Geo Sediment Filtration / Auto Gravity Bio Shield", above a red clay-pot-shaped purifier showing "085". Speech from 0 s. Hook: mid-conversation opener about a gag product.
 
 ## Person on screen
-No names or roles said or shown. Man 1: apparent 30s to 40s, thick black hair, full beard, black polo with a small atomberg logo on the chest, jeans, sandals; animated. Man 2: apparent 70s, bald, tinted glasses, white kurta-pyjama, bag strap across the chest, phone in pocket, steel watch; listens quietly. Neither looks at the lens. Man 1 reappears at 15 s and 18 s lifting the purifier from a carton in an indoor room with green-and-white diamond wall stickers.
+No names or roles said or shown. Man 1: apparent 30s to 40s, thick black hair, full beard, black polo with a small atomberg logo; animated. Man 2: apparent 70s, bald, tinted glasses, white kurta-pyjama; listens. Neither looks at the lens. Man 1 reappears at 15 s and 18 s lifting the purifier from a carton.
 
 ## Setting, framing and look
-Handheld phone footage in daylight. Medium two-shot, then a close-up of the older man (1 to 3 s). A digital glitch transition at 7.6 s. Product shots: purifier on a dark kitchen counter (display "078" at 15 s), on a glass table with the display off (16.5 s). A teal graphic at 28.4 s around filter close-ups. End card is clean teal and white.
+Handheld phone footage in daylight: a two-shot, a close-up of the older man, a glitch transition (7.6 s), the purifier on a counter (15 s), a teal graphic over filter close-ups (28.4 s).
 
 ## On-screen text, captions, logos, graphics
-- Box text as above (0 to 3 s). No captions on the speech.
-- Pill "atomberg | Intellon" (15.3 s).
-- "Only pay for what actually needs replacing" in white and teal (28.4 s).
-- End card (36 s): atomberg logo "Why not?", "Intellon", "www.atomberg.com", "Smarter Filter. Longer Life.", purifier with a phone showing a "Filter Health" list of bars (percentages too small to read), "Also available on" amazon and Flipkart.
+- Box text above; no captions on the speech.
+- Pill "atomberg | Intellon" (15.3 s); "Only pay for what actually needs replacing" (28.4 s).
+- End card (36 s): atomberg logo, "Intellon", "www.atomberg.com", "Smarter Filter. Longer Life.", purifier with a phone "Filter Health" list (unreadable), amazon and Flipkart.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 8 cuts (2.18 per 10 s), first cut 0.03 s, 3 cuts in the first 5 s. 208 words per minute, speech share 0.88, tempo 161 bpm; software judges a likely music or sound bed.
+Measured by software, not heard, so genre and track cannot be named. 8 cuts (2.18 per 10 s), first cut 0.03 s, 3 in the first 5 s. 208 words per minute, speech share 0.88, tempo 161 bpm, a likely sound bed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
 | 0-8 | Hook | Gag pitch of the "AutoMatka" |
-| 8-16 | Reveal | Glitch, purifier lifted from carton |
-| 16-24 | Mechanism | Adaptive RO checks water itself |
-| 24-33 | Offer, proof | 2-year warranty, pay only for failed parts |
+| 8-24 | Reveal | Purifier from carton; adaptive RO |
+| 24-33 | Offer | 2-year warranty, pay only for failed parts |
 | 33-37 | CTA | End card |
 
 ## Claims and proof
-- "bioshield technology", "Desh ki mitti infused" and the AutoMatka feature list are the gag product's lines; the ad text and landing page do not mention AutoMatka.
-- "adaptive RO ... khud se decide karta hai": the product is shown, but no screen explains the mechanism.
-- "2 saal ki warranty": no on-screen badge or terms here. "us part pe bhi do saal ki warranty" (new parts also get 2 years) is heard once and not shown. Another Atomberg video (4228732240716423) says "no AMC" and "2 years" with a badge.
-- Ad text "safe drinking water, longer filter life, lower maintenance costs": the card says "Smarter Filter. Longer Life."; no figures anywhere. "India's 1st" is in the headline only.
-- No price, discount, TDS reading claim or star rating.
+- "bioshield technology", "Desh ki mitti infused" and the AutoMatka features belong to the gag product; the ad text and landing page never mention AutoMatka.
+- "adaptive RO ... khud se decide karta hai": product shown, mechanism not explained on screen.
+- "2 saal ki warranty": no badge or terms. "us part pe bhi do saal ki warranty" is heard once, not shown; 4228732240716423 says "no AMC" instead.
+- "longer filter life, lower maintenance costs" (ad text): the card says only "Smarter Filter. Longer Life."; no figures, price or discount.
 
 ## Offer and call to action
-No spoken call to action. End card: www.atomberg.com, Amazon, Flipkart. Button "Shop now", landing page atomberg.com/intellon-waterpurifier (own site). Ad text: "Atomberg Intellon Water Purifier adapts to your water! So, you get safe drinking water, longer filter life, and lower maintenance costs. Buy now". Headline "India's 1st Adaptive Water Purifier". Link description "Water that's safe, pure, and right for you".
+No spoken call to action. End card: Amazon, Flipkart. Button "Shop now", landing page atomberg.com/intellon-waterpurifier (own site). Ad text: "Atomberg Intellon Water Purifier adapts to your water! So, you get safe drinking water, longer filter life, and lower maintenance costs. Buy now". Headline "India's 1st Adaptive Water Purifier". Link description "Water that's safe, pure, and right for you".
 
 ## Why it may work, and where it is weak
 Works:
-- A street gag with an older man is relatable and funny at a glance.
-- Handles the real worry (servicing cost) in one line: pay only for the failed part.
-- End card names Amazon and Flipkart.
+- A street gag with an older man is relatable.
+- One line answers the servicing worry.
 
 Weak:
-- 16 s pass before the real product is named.
-- The gag product's claims could confuse viewers about what is sold.
-- No price, warranty terms on screen or proof of "adaptive".
+- Real product named only at 13 s; the gag may confuse.
+- No price, warranty terms or proof of "adaptive".

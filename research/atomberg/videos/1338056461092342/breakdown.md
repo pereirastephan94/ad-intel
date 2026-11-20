@@ -27,7 +27,7 @@ Roman pass as it stands for 0 to 24.8 s; from 24.8 s the main text was Devanagar
 Unlabelled; no caption or ad text names her. Three costumes read as characters: olive kaftan (0 to 3 s, 34.2 s), yellow kurta with printed dupatta (13.2 to 38.9 s), maroon kurta with pink glasses (30.3 s). The ad does not say if one person plays all three. Mostly to the lens.
 
 ## Setting, framing and look
-A kitchen, a sofa corner and a patio. Static medium shots, a split screen at 43.3 s, soft daylight, clean grade: produced, not selfie. Close-ups: lid (8.2 s), dial marked "COARSE" and "PULSE" (9.2 s), chutney in a jar (13.2 s), carrots in the chopper jar (19.1 s).
+A kitchen, a sofa and a patio. Static medium shots, a split screen at 43.3 s, daylight: produced, not selfie. Close-ups: lid (8.2 s), dial marked "COARSE" and "PULSE" (9.2 s), chutney in a jar (13.2 s), carrots in the chopper jar (19.1 s).
 
 ## On-screen text, captions, logos, graphics
 - Captions: bold rounded yellow type, centre, 1 to 3 words at a time, Roman Hindi (for example "Dhakkan thik", "Reh jaoongi", "Mixer gift ke wrapper me").
@@ -47,7 +47,7 @@ Measured by software, not heard, so genre and track cannot be named. 15 cuts (2.
 ## Claims and proof
 - "chikna, chamkeela mixer": looks only.
 - "wohi texture ... sil-batte ka upaay": the dial reads "COARSE"; no side-by-side with a sil-batta.
-- "chopper jar base mein samaye": carrots chopped in the clear jar.
+- "chopper jar base mein samaye": carrots in the clear jar.
 - Ad text only: safety (spills, auto-restart) and BLDC.
 - No watts, price, discount or warranty (the "2+1" badge is unreadable).
 
@@ -58,9 +58,9 @@ No explicit CTA; the pitch is to gift a mixer. Button "Shop now"; landing page a
 Works:
 - Memorable comedy: rhyme, bold captions, costume gags.
 - A gift angle fits the festive card.
-- Coarse dial and chopper jar are shown.
+- Coarse dial and chopper jar shown.
 
 Weak:
-- First cut at 8.2 s; the coarse benefit is a quick insert.
+- First cut at 8.2 s; coarse benefit is a quick insert.
 - The plot is about mummyji, not the mixer.
 - No price or offer.

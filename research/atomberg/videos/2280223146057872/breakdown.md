@@ -8,7 +8,7 @@
   - https://www.facebook.com/ads/library/?id=1976667336337869
 
 ## Script (verbatim)
-Rough Telugu; every line is [?] and glosses are mine. Devanagari after 29.8 s romanised by me. Nearly the same script as 1734208864565390 from the "stone grinders" line on, plus a chutney opener and a tasting close.
+Rough Telugu; every line is [?], glosses mine, Devanagari romanised by me. Script twin of 1734208864565390 from the "stone grinders" line on.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -24,10 +24,10 @@ Rough Telugu; every line is [?] and glosses are mine. Devanagari after 29.8 s ro
 | 38.3-42.6 | No speech; end card. | |
 
 ## First 3 seconds
-A fingertip with a smear of orange paste above a steel jar (0 to 1 s; first cut 1.36 s), then fried coconut slices (2 s), then a man pouring paste into the jar (3 s). No text. Hook: an instruction to the viewer, so callout (low confidence).
+A fingertip with orange paste above a steel jar (0 to 1 s), then fried coconut slices (2 s), then a man pouring paste (3 s). No text. Hook: an instruction to the viewer, so callout (low confidence).
 
 ## Person on screen
-Mostly hands. A man in a pink t-shirt, steel watch, dark hair, full beard pours paste (3 s) and holds a brass bowl, eyes closed, savouring it (35.5 s). No caption or ad text names him; the voice is a voiceover. A man in a pink top also appears in 1734208864565390.
+Mostly hands. A man in a pink t-shirt, steel watch, dark hair, full beard pours paste (3 s) and holds a brass bowl, eyes closed, savouring it (35.5 s). No caption or ad text names him; voiceover. 
 
 ## Setting, framing and look
 Bright set with white brick tiles and a wooden counter; a hand turns the dial through curry leaves (16.4 s). Macro and tabletop shots, warm polished grade. Foods: coconut, rice with chutney (12.2 s), chopped onions and chillies.
@@ -37,12 +37,12 @@ Bright set with white brick tiles and a wooden counter; a hand turns the dial th
 - End card (42.3 s): logo, "Why not?", "www.atomberg.com", "Also available on" Amazon, Flipkart, the mixer with jars. No model name or price.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 22 cuts in 42.6 s (5.17 per 10 s), first cut 1.36 s, 3 in the first 5 s. Speech share 0.90; gaps near silent (-55 dB), so software finds little or no music. Its word count (21) is far too low; ignore the rate. The last 2 s are silent.
+Measured by software, not heard, so genre and track cannot be named. 22 cuts in 42.6 s (5.17 per 10 s), first cut 1.36 s, 3 in the first 5 s. Speech share 0.90; gaps near silent, so software finds little or no music. Its word count is far too low; ignore the rate.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-12 | Hook | Chutney opener, stone grinders are hard. |
+| 0-12 | Hook | Chutney, stone grinders are hard. |
 | 12-21 | Product | Zenova, coarse dial. |
 | 21-34 | Features | BLDC, chopping, safety, jar lock. |
 | 34-42.6 | Close | Tasting, end card. |
@@ -57,7 +57,7 @@ Spoken CTA, if the guess is right: try it at home. Button "Shop now", headline "
 
 ## Why it may work, and where it is weak
 Works:
-- Tactile food macros, a regional dish, a local pain, a clean tasting payoff.
+- Tactile food macros, a regional dish, a local pain.
 
 Weak:
 - Product appears at about 12 s; few captions.
