@@ -113,7 +113,7 @@ const Eyebrow = ({ text, dark }: { text?: string; dark?: boolean }) =>
         dark ? 'bg-white/10 text-white ring-1 ring-white/20' : 'bg-brand-soft text-brand-deep'
       }`}
     >
-      <span className={`h-1.5 w-1.5 rounded-full ${dark ? 'bg-emerald-400' : 'bg-brand'}`} aria-hidden />
+      <span className={`h-1.5 w-1.5 rounded-full ${dark ? 'bg-orange-400' : 'bg-brand'}`} aria-hidden />
       {text}
     </span>
   ) : null;
@@ -131,7 +131,7 @@ function HeroCard({ blok }: { blok: Blok }) {
           <div className="flex min-h-[640px] flex-col justify-end gap-8 p-5 pb-6 sm:p-10 lg:min-h-[720px] lg:p-14">
             <div className="max-w-3xl text-white">
               <Eyebrow text={blok.eyebrow} />
-              <Headline blok={blok} accentClass="text-emerald-300" className="mt-4 text-[34px] font-semibold leading-[1.05] tracking-tighter2 sm:text-[52px] lg:text-[64px]" />
+              <Headline blok={blok} accentClass="text-orange-300" className="mt-4 text-[34px] font-semibold leading-[1.05] tracking-tighter2 sm:text-[52px] lg:text-[64px]" />
               {blok.subhead && <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-white/80 sm:text-lg">{blok.subhead}</p>}
               <div className="mt-5">
                 <Pills blok={blok} tone="glass" />
@@ -189,7 +189,7 @@ function HeroSplit({ blok }: { blok: Blok }) {
           </div>
         </div>
         <div className="relative">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] bg-night shadow-[0_30px_80px_-30px_rgba(1,77,42,0.45)] sm:aspect-[5/5] lg:aspect-[4/5]">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] bg-night shadow-[0_30px_80px_-30px_rgba(74,31,0,0.45)] sm:aspect-[5/5] lg:aspect-[4/5]">
             <BgVideo blok={blok} />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10" />
             <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-black/50 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-white backdrop-blur sm:right-5 sm:top-5">
@@ -224,7 +224,7 @@ function HeroFullBleed({ blok }: { blok: Blok }) {
             <Eyebrow text={blok.eyebrow} dark />
             <Headline
               blok={blok}
-              accentClass="text-emerald-300"
+              accentClass="text-orange-300"
               className="mt-5 max-w-3xl text-[31px] font-bold uppercase leading-[0.98] tracking-tight min-[400px]:text-[34px] sm:text-[56px] lg:text-[72px]"
             />
             {blok.subhead && <p className="mt-6 max-w-xl text-[18px] font-medium leading-relaxed text-white/85 sm:text-[22px]">{blok.subhead}</p>}
@@ -259,11 +259,11 @@ function HeroMosaic({ blok }: { blok: Blok }) {
   const tiles: Blok[] = blok.tiles ?? [];
   const boxes: Blok[] = blok.boxes ?? [];
   return (
-    <div className="relative isolate overflow-hidden bg-brand-deep text-white">
+    <div className="relative isolate overflow-hidden bg-night text-white">
       <div className="absolute inset-0 -z-10 opacity-35 mix-blend-luminosity">
         <BgVideo blok={blok} />
       </div>
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-brand-deep via-brand-deep/90 to-brand-dark/80" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-night via-night/90 to-brand-deep/85" />
       <div
         className="absolute inset-0 -z-10 opacity-[0.07]"
         style={{ backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)', backgroundSize: '56px 56px' }}
@@ -274,7 +274,7 @@ function HeroMosaic({ blok }: { blok: Blok }) {
           <Eyebrow text={blok.eyebrow} dark />
           <Headline
             blok={blok}
-            accentClass="text-emerald-300"
+            accentClass="text-orange-300"
             className="mt-5 text-[38px] font-bold leading-[1.02] tracking-tighter2 sm:text-[54px] lg:text-[62px]"
           />
           {blok.subhead && <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-white/80 sm:text-[19px]">{blok.subhead}</p>}
@@ -294,14 +294,14 @@ function HeroMosaic({ blok }: { blok: Blok }) {
           </dl>
         </div>
         <div>
-          {blok.tiles_title && <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.14em] text-emerald-300">{blok.tiles_title}</p>}
+          {blok.tiles_title && <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.14em] text-orange-300">{blok.tiles_title}</p>}
           <ul className="grid grid-cols-2 gap-3">
             {tiles.map((t, i) => (
               <li key={t._uid} className={`group relative aspect-[4/5] overflow-hidden rounded-2xl bg-night lg:aspect-square ${i % 2 === 1 ? 'lg:translate-y-8' : ''}`}>
                 <Img asset={t.image} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-4">
-                  <p className="text-[12px] font-semibold text-emerald-300">{String(i + 1).padStart(2, '0')} · {t.label}</p>
+                  <p className="text-[12px] font-semibold text-orange-300">{String(i + 1).padStart(2, '0')} · {t.label}</p>
                   <p className="mt-1 text-[15px] font-semibold leading-snug sm:text-[17px]">{t.title}</p>
                 </div>
               </li>

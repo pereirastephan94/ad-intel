@@ -5,11 +5,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: { DEFAULT: '#068852', dark: '#00703c', deep: '#014d2a', soft: '#e9f6ef', line: '#bfe3cf' },
+        brand: { DEFAULT: '#CC5500', dark: '#A84600', deep: '#4A1F00', soft: '#FCEEE3', line: '#F2CBAE' },
         ink: { DEFAULT: '#121212', 2: '#3d3d3d', 3: '#6b6b6b', 4: '#9a9a9a' },
         line: { DEFAULT: '#e8e8e6', strong: '#d6d6d3' },
         surface: { DEFAULT: '#f6f6f4', 2: '#efefec' },
-        night: { DEFAULT: '#0e0f0e', 2: '#171917', 3: '#222522' },
+        night: { DEFAULT: '#0a0a0a', 2: '#151515', 3: '#222222' },
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans Variable"', '"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],

@@ -346,7 +346,7 @@ export function InnovationLab({ blok }: { blok: Blok }) {
               <article key={s._uid} className="flex h-full flex-col overflow-hidden rounded-2xl bg-night-2 ring-1 ring-white/10">
                 <Img asset={s.image} className="aspect-[2/1] w-full object-cover" />
                 <div className="flex-1 p-5">
-                  <p className="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">{s.kind}</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-orange-400">{s.kind}</p>
                   <h3 className="mt-1.5 text-[17px] font-semibold">
                     {s.url ? (
                       <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">

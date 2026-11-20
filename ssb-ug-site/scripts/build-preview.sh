@@ -65,7 +65,7 @@ for f in glob.glob('assets/**/*.js', recursive=True):
 # Entry page: forwards to the real home page.
 open('index.html', 'w').write('''<title>SSB UG Website Preview</title>
 <meta http-equiv="refresh" content="0; url=home.html">
-<style>body{font-family:system-ui,sans-serif;background:#fff;color:#121212;display:grid;place-items:center;min-height:100vh;margin:0;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}a{color:#068852;font-weight:600}</style>
+<style>body{font-family:system-ui,sans-serif;background:#fff;color:#121212;display:grid;place-items:center;min-height:100vh;margin:0;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}a{color:#CC5500;font-weight:600}</style>
 <p>Opening the SSB UG website preview… <a href="home.html">Open it</a></p>
 <script>location.replace('home.html')</script>
 ''')

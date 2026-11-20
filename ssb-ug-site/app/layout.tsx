@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'A four-year UG programme in Business, Entrepreneurship & AI, on the Scaler campus in Bengaluru. Build real businesses, ship AI products and intern from Year 1.',
 };
 
-export const viewport: Viewport = { themeColor: '#068852' };
+export const viewport: Viewport = { themeColor: '#CC5500' };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const config = (await getStory('config'))?.content ?? ({} as any);

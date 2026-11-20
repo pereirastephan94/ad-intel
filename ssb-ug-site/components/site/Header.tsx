@@ -43,7 +43,7 @@ export default function Header({ config }: { config: Blok }) {
   return (
     <header className="sticky top-0 z-50">
       {config.announcement && (
-        <div className="bg-brand text-white">
+        <div className="bg-night text-white">
           <div className="wrap flex min-h-9 items-center justify-center gap-2 py-1.5 text-center text-[12px] font-medium leading-snug sm:text-[13px]">
             <span>{config.announcement}</span>
             {config.deadline && <Countdown to={config.deadline} />}

@@ -38,7 +38,7 @@ export function AdmissionsSummary({ blok }: { blok: Blok }) {
                 {i < blok.steps.length - 1 && <span className="absolute left-[15px] top-9 h-[calc(100%-36px)] w-px bg-white/15" aria-hidden />}
                 <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-brand text-[13px] font-semibold">{i + 1}</span>
                 <div>
-                  <p className="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">{s.label}</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-orange-400">{s.label}</p>
                   <p className="mt-0.5 text-[16px] font-semibold">{s.title}</p>
                   <p className="mt-1 text-[14px] leading-relaxed text-white/60">{s.text}</p>
                 </div>
@@ -94,7 +94,7 @@ export function CtaBand({ blok }: { blok: Blok }) {
         <div className="relative isolate overflow-hidden rounded-3xl bg-night px-6 py-14 text-white sm:px-12 sm:py-20">
           <Img asset={blok.image} className="absolute inset-0 -z-10 h-full w-full object-cover opacity-45" />
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/85 via-black/60 to-black/20" />
-          {blok.eyebrow && <p className="eyebrow text-emerald-400">{blok.eyebrow}</p>}
+          {blok.eyebrow && <p className="eyebrow text-orange-400">{blok.eyebrow}</p>}
           <h2 className="mt-3 max-w-2xl text-[30px] font-semibold leading-tight tracking-tighter2 sm:text-[44px]">
             {blok.headline}
             {blok.muted && <span className="text-white/55"> {blok.muted}</span>}
@@ -334,7 +334,7 @@ export function StatStrip({ blok }: { blok: Blok }) {
         <div className={`mt-8 grid grid-cols-2 gap-3 ${(blok.items ?? []).length > 4 ? 'lg:grid-cols-5' : 'lg:grid-cols-4'}`}>
           {(blok.items ?? []).map((s: Blok) => (
             <div key={s._uid} className={`rounded-2xl p-5 ${dark ? 'bg-night-2 ring-1 ring-white/10' : 'border border-line bg-surface'}`}>
-              <p className={`text-[28px] font-semibold tracking-tighter2 ${dark ? 'text-emerald-400' : 'text-brand'}`}>{s.value}</p>
+              <p className={`text-[28px] font-semibold tracking-tighter2 ${dark ? 'text-orange-400' : 'text-brand'}`}>{s.value}</p>
               <p className={`mt-1 text-[13px] leading-snug ${dark ? 'text-white/60' : 'text-ink-3'}`}>{s.label}</p>
               {s.tag && (
                 <div className="mt-3">
@@ -385,7 +385,7 @@ export function OutcomeGroup({ blok }: { blok: Blok }) {
           <div className={`mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 ${stats.length > 4 ? 'lg:grid-cols-6' : 'lg:grid-cols-4'}`}>
             {stats.map((s) => (
               <div key={s._uid} className={`rounded-2xl p-5 ${dark ? 'bg-night-2 ring-1 ring-white/10' : 'border border-line bg-white'}`}>
-                <p className={`text-[26px] font-semibold tracking-tighter2 ${dark ? 'text-emerald-400' : 'text-brand'}`}>{s.value}</p>
+                <p className={`text-[26px] font-semibold tracking-tighter2 ${dark ? 'text-orange-400' : 'text-brand'}`}>{s.value}</p>
                 <p className={`mt-1 text-[13px] leading-snug ${dark ? 'text-white/60' : 'text-ink-3'}`}>{s.label}</p>
               </div>
             ))}

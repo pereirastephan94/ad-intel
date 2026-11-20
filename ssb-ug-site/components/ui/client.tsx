@@ -189,7 +189,7 @@ export function Countdown({ to }: { to: string }) {
   return (
     <span className="ml-2 hidden items-center gap-1 font-mono tabular-nums sm:inline-flex" aria-label="Time left">
       {parts.map(([v, u]) => (
-        <span key={u} className="rounded bg-white/15 px-1.5 py-0.5 text-[11px]">
+        <span key={u} className="rounded bg-brand px-1.5 py-0.5 text-[11px]">
           {String(v).padStart(2, '0')}
           {u}
         </span>

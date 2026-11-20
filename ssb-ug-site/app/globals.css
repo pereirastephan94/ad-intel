@@ -6,7 +6,7 @@
 :root { color-scheme: light; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body { @apply bg-white text-ink font-sans antialiased; }
-::selection { background: #bfe3cf; }
+::selection { background: #F2CBAE; }
 
 @layer components {
   .wrap { @apply mx-auto w-full max-w-page px-4 sm:px-6 lg:px-8; }
