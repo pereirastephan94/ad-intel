@@ -13,8 +13,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.quboworld.com/smart-locks",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m69/AQOcRfPUXKE_QzOOsaD1P0mt5LDwwzNY-RR1VXMyYLUH0BY8HfWQC5Ham3PHEz4evz-WB3JQYFiPzqWfIWj6l6cO.mp4?strext=1&_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=-ODxVw8qdZEQ7kNvwE5EkEb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTE2MTg1MDQxNTAxMzU5OSwiYXNzZXRfYWdlX2RheXMiOjYxOCwidmlfdXNlY2FzZV9pZCI6MTAxMDEsImR1cmF0aW9uX3MiOjY4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSuDwNpi5QN21-k77rc0WXPyvVlvm-9amrE2AfE2IO4TA&oe=6B05B67B",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/483999051_1545290476148355_7119013689182707455_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GS58FcZsaEYQ7kNvwHTWQz0&_nc_oc=Adr3LnNmOq5YCdaZkxWFD-jODp-yZvdfDFLEoKJ0llMxqhWi3q9uJ2iTmdW86nhKTjs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&oh=00_AQQqbZct-mw9zoJnzF7MK0qboT0c-5UDyG5HLRa-tMRUpg&oe=6B059E9E",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m69/AQOcRfPUXKE_QzOOsaD1P0mt5LDwwzNY-RR1VXMyYLUH0BY8HfWQC5Ham3PHEz4evz-WB3JQYFiPzqWfIWj6l6cO.mp4?strext=1&_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=-ODxVw8qdZEQ7kNvwEhC_pe&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTE2MTg1MDQxNTAxMzU5OSwiYXNzZXRfYWdlX2RheXMiOjYxOCwidmlfdXNlY2FzZV9pZCI6MTAxMDEsImR1cmF0aW9uX3MiOjY4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQSDq5yETGeC3djUSB6o4VKHIzYIJYOapL1zVbryVuFtw&oe=6B05B67B",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/483999051_1545290476148355_7119013689182707455_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GS58FcZsaEYQ7kNvwFQ1t0k&_nc_oc=Adqh1oGwpZbn7IlTr6e9OpPisP9jQI3pjVw_xt8JarcWQD4ecTJ-vf7QKa2ewL8PDR0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&oh=00_AQQk1Ry2iMLaP3xlOJUvTCgu6Xix8uPYJJL02pV8d-_sZQ&oe=6B059E9E",
   "copies": 1,
   "platforms": [
    "INSTAGRAM"
@@ -27,7 +27,8 @@
    ]
   },
   "sample_views": {
-   "all": 20
+   "all": 20,
+   "video": 11
   },
   "video_asset": "1161850415013599"
  }

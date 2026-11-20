@@ -13,8 +13,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.quboworld.com/products/dashcam-pro-2k-front-rear",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQPVCAknAoN3_H3BYrsj3ultPnZ2BUUSwyIEpUnBaf79f8Tc9XBGS7WpOSEdXGN7FcgU8_xtdvArAEZcuOfh9RBflhy-ma9TcQNp03LLDw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=YZTZBDXDPGoQ7kNvwGxOU2P&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMzg0MDg0MTAyNDI0MDkwLCJhc3NldF9hZ2VfZGF5cyI6MTAxLCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6OTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR0SGXDeoNkxSRJ3xu3ATSnPBV_9sxnBet5ZGK-etmKzQ&oe=6B05A624",
-  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/772939145_1786897296082446_1760600558844818398_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G3ryNg_bqVkQ7kNvwET2wyt&_nc_oc=AdokfNjb-TCxfKhSnf-YK1WCIwv1qeu8CC5h7efHCapzVdJEI6aW1IxhHUYflEQ6htI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&oh=00_AQS5A2YiUxV9xE5IkmKfVO2_Pscq0if67g0RJ0ByDXefQA&oe=6B058C68",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQPVCAknAoN3_H3BYrsj3ultPnZ2BUUSwyIEpUnBaf79f8Tc9XBGS7WpOSEdXGN7FcgU8_xtdvArAEZcuOfh9RBflhy-ma9TcQNp03LLDw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=YZTZBDXDPGoQ7kNvwGJF04I&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMzg0MDg0MTAyNDI0MDkwLCJhc3NldF9hZ2VfZGF5cyI6MTAxLCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6OTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRsQJjKnACNOIwQnXsp5jcKMjf_B3ifkmNyCP855QehoA&oe=6B05A624",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/772939145_1786897296082446_1760600558844818398_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G3ryNg_bqVkQ7kNvwH-LgO-&_nc_oc=Adol1kxn293AACcUpcPc-uRZmYnGV6esG_flTZt6l_HsTVLSj8M_KzjYoJC12O7ssUg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&oh=00_AQSdIEAjbHqlYzU0fHKduj9w0iHYPAINNU6jSOMmc80Wjw&oe=6B05C4A8",
   "copies": 1,
   "platforms": [
    "INSTAGRAM"
@@ -27,7 +27,8 @@
    ]
   },
   "sample_views": {
-   "all": 14
+   "all": 14,
+   "video": 8
   },
   "video_asset": "2384084102424090"
  }

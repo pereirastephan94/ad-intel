@@ -3,6 +3,13 @@
 Read this first, whatever model you are. It replaces NIGHT_PLAN.md as the working instructions (NIGHT_PLAN.md is the history).
 You are the lead session. Your job is to keep the pipeline moving and report to the owner in short, plain messages. You do not do the heavy work yourself.
 
+## COS status (updated 20 Nov 07:15 UTC)
+- PAUSED by the owner (usage limits) until Monday 23 Nov 04:31 IST (22 Nov 23:01 UTC). A scheduled reminder will wake the COS then. Nothing is running.
+- On resume: restart rr-pull.sh (10 brands, add "Scaler School of Business" last); rerun Qubo prepare + retranscribe (10 new videos pulled 06:25, Qubo now 42 ads); then SSB idea pass + Mesa extras.json + SSB vs Mesa page (owner's priority, see HANDOVER_SSB_VS_MESA.md); then Atomberg vs Qubo.
+- Done: Atomberg idea pass. SSB write-ups: all 16 videos have tags.
+- Blocked: send_message to the original session and to SSB PG COS2 refused or denied.
+- Published by COS: none yet. SSB vs Mesa page not built yet; Mesa teardown is at https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE .
+
 ## Who does what (model policy, set by the owner on 20 Nov)
 | Work | Who | Notes |
 |---|---|---|

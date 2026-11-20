@@ -1,0 +1,30 @@
+{
+ "duration_s": 12.3,
+ "width": 720,
+ "height": 900,
+ "cuts": 4,
+ "cuts_per_10s": 3.25,
+ "first_cut_s": 2.38,
+ "cuts_in_first_5s": 3,
+ "cut_times": [
+  2.38,
+  4.04,
+  4.38,
+  7.79
+ ],
+ "has_audio": true,
+ "speech_share": 1.0,
+ "words": 123,
+ "words_per_min": 600,
+ "first_speech_s": 0,
+ "level_speech_db": -20.7,
+ "level_gaps_db": null,
+ "gap_seconds": 0.0,
+ "gap_tonal_share": null,
+ "gap_flatness": null,
+ "tempo_bpm": 144,
+ "beat_strength": 1.76,
+ "level_first_1s_db": -25.6,
+ "level_last_2s_db": -31.3,
+ "music_bed_guess": "no gaps to judge"
+}

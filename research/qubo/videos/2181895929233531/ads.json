@@ -13,8 +13,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.quboworld.com/products/q200-smart-air-purifier",
-  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNPJ6sV_EirJk2XvvnwPfsg_fsYjfwRUkguZQdTvVxDFSoFpV3o7E6KcmOqlHRvsRc7xJm-o0C3AbXbi6KfBvMOBTDJMmCqAsSF7x0KQA.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=p6AEeDG8CIEQ7kNvwHzy9uL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMTgxODk1OTI5MjMzNTMxLCJhc3NldF9hZ2VfZGF5cyI6MTc3LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQT3uhi2_zL7RdJRXXf5NWtGc3tPyvycKorDjIbl6_i0LQ&oe=6B05A231",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/711116410_1007358805569028_1450614869594481484_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XX8579-CsCcQ7kNvwEopmz1&_nc_oc=Adr-ddlJUve4FV5BE4pxw0_g2wWlPWgJPQcWX1AzHeQLH9wFY02Us9BjG-_7ddaOhmg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=B7_YghuK9pY7k7Nc7Iwutg&_nc_ss=7b289&oh=00_AQQq9nnCNf8m2L1N20FDmzvmJLI6kAM4QnHKccSE8liSeg&oe=6B058BF3",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNPJ6sV_EirJk2XvvnwPfsg_fsYjfwRUkguZQdTvVxDFSoFpV3o7E6KcmOqlHRvsRc7xJm-o0C3AbXbi6KfBvMOBTDJMmCqAsSF7x0KQA.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=p6AEeDG8CIEQ7kNvwGD_GrZ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMTgxODk1OTI5MjMzNTMxLCJhc3NldF9hZ2VfZGF5cyI6MTc3LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSl872HJ3fiqqSofYJipxIuNRodNuOhpclhll_1FwuJ9Q&oe=6B05A231",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/711116410_1007358805569028_1450614869594481484_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XX8579-CsCcQ7kNvwFUVLvn&_nc_oc=Adrq86EPU_VEzy07G9jcRnJGh9u9NXxVR6Er8M2TCf420HohhjJCBiM31-II9D6CrsQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=76qW8-PFxCxHNAQqQj0gkQ&_nc_ss=7b289&oh=00_AQQWWZqFITmY3M5Rq7EFxhbDOTwePAotZy-3yZZ-xU5qWQ&oe=6B05C433",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -28,7 +28,8 @@
    ]
   },
   "sample_views": {
-   "all": 18
+   "all": 18,
+   "video": 10
   },
   "video_asset": "2181895929233531"
  }
