@@ -1,17 +1,26 @@
 {
- "done": [],
- "total": null,
- "log": [],
- "keywordsQueued": true,
- "queue": [
+ "done": [
   {
    "media": "all"
-  },
+  }
+ ],
+ "total": null,
+ "log": [
+  "2026-11-20T00:44:08.814Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T00:44:08.818Z stopping after 1 view(s) as asked",
+  "2026-11-20T00:44:08.818Z PAUSED: 0 unique ads of ~null"
+ ],
+ "keywordsQueued": true,
+ "queue": [
   {
    "media": "video"
   },
   {
    "media": "image"
+  },
+  {
+   "media": "all",
+   "retry": 1
   }
  ],
  "stage": 1

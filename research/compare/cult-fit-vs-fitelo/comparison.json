@@ -1,0 +1,5610 @@
+{
+ "meta": {
+  "snapshot_date": "2026-11-20",
+  "country": "IN",
+  "rules_version": "rows-v1",
+  "sample_rule": "Per brand, the first ads the Ad Library shows for the page in its own default order, read on 19 Nov 2026; the views sorted by total impressions came back empty, so this sample is not a ranking by impressions. Cult.fit: 30 ads; its all-ads and video-only views came back empty on three tries each, and the 30 came from the one view that loaded (the image filter, which listed 35 ads, all of them video), so Cult.fit's sample holds no image ads. Fitelo: the first 30 of about 182 in the all-ads view, plus 4 more from the first 30 of its video-only view (about 150); its image-only view came back empty twice.",
+  "sample_order": "default",
+  "sample_short": "the first the Ad Library shows in its default order, not ranked by impressions",
+  "brands": {
+   "A": {
+    "name": "cult",
+    "dir": "research/cult-fit",
+    "n": 30,
+    "n_video": 30,
+    "n_image": 0,
+    "unique_videos": 14,
+    "unclear": {
+     "video": 0,
+     "image": 0
+    },
+    "top30_all": null
+   },
+   "B": {
+    "name": "Fitelo",
+    "dir": "research/fitelo",
+    "n": 34,
+    "n_video": 30,
+    "n_image": 4,
+    "unique_videos": 21,
+    "unclear": {
+     "video": 0,
+     "image": 0
+    },
+    "top30_all": {
+     "video": 26,
+     "image": 4,
+     "n": 30
+    }
+   }
+  },
+  "tag_check": {
+   "A": null,
+   "B": null
+  },
+  "thresholds": {
+   "present": 3,
+   "lead_ratio": 2,
+   "strong_ads": 8,
+   "strong_ideas": 3,
+   "thin_ads": 4,
+   "now_days": 30,
+   "small_base": 10
+  }
+ },
+ "rows": [
+  {
+   "id": "V1",
+   "label": "Person to camera",
+   "medium": "video",
+   "A": {
+    "n": 4,
+    "share": 0.1333,
+    "ideas": 1,
+    "median_days": 27.0,
+    "versions": 4,
+    "founder": 0,
+    "ad_ids": [
+     "1644460903932522",
+     "1088984333744777",
+     "1763133728096239",
+     "1182726674293191"
+    ]
+   },
+   "B": {
+    "n": 18,
+    "share": 0.6,
+    "ideas": 10,
+    "median_days": 27.0,
+    "versions": 33,
+    "founder": 0,
+    "ad_ids": [
+     "925451983928233",
+     "1685798322850756",
+     "1912200749756133",
+     "1577870316987974",
+     "970142368900928",
+     "1461564966113780",
+     "2996269977403566",
+     "1637013901394490",
+     "1449280067157528",
+     "995872249468747",
+     "1146824311226546",
+     "4723519161196734",
+     "1836729131107152",
+     "1017982897981736",
+     "1116659684664030",
+     "1130303452837399",
+     "2219477718950780",
+     "1130206799365682"
+    ]
+   },
+   "status": "B_lead",
+   "lead": "B",
+   "ratio": 4,
+   "evidence": "strong",
+   "small_base": false,
+   "cards": {
+    "A": [
+     "1644460903932522"
+    ],
+    "B": [
+     "925451983928233",
+     "1685798322850756"
+    ]
+   }
+  },
+  {
+   "id": "V2",
+   "label": "Scene or story",
+   "medium": "video",
+   "A": {
+    "n": 17,
+    "share": 0.5667,
+    "ideas": 2,
+    "median_days": 16,
+    "versions": 24,
+    "founder": 0,
+    "ad_ids": [
+     "1529622859191185",
+     "1583453076375971",
+     "1131711099318475",
+     "4606351752947622",
+     "2348546639313061",
+     "1088664397267392",
+     "1153711787290276",
+     "986842284018835",
+     "2404800830259411",
+     "1645883207287485",
+     "1440279738302594",
+     "2056660201685004",
+     "997032080107644",
+     "1114356351358840",
+     "1142965181654720",
+     "28835523932756470",
+     "1652879219724213"
+    ]
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "only_A",
+   "lead": "A",
+   "ratio": null,
+   "evidence": "moderate",
+   "small_base": false,
+   "cards": {
+    "A": [
+     "1529622859191185",
+     "1153711787290276"
+    ],
+    "B": []
+   }
+  },
+  {
+   "id": "V3",
+   "label": "Product or app demo",
+   "medium": "video",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 2,
+    "share": 0.0667,
+    "ideas": 2,
+    "median_days": 40.5,
+    "versions": 3,
+    "founder": 0,
+    "ad_ids": [
+     "926250147231507",
+     "2941541369549817"
+    ]
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": false,
+   "cards": {
+    "A": [],
+    "B": [
+     "926250147231507",
+     "2941541369549817"
+    ]
+   }
+  },
+  {
+   "id": "V4",
+   "label": "Text and motion",
+   "medium": "video",
+   "A": {
+    "n": 9,
+    "share": 0.3,
+    "ideas": 2,
+    "median_days": 4,
+    "versions": 16,
+    "founder": 0,
+    "ad_ids": [
+     "2958662064496104",
+     "1665600734881123",
+     "1126343416846783",
+     "1844076343579583",
+     "3294825420716053",
+     "1950951139220699",
+     "2127525884795681",
+     "2555329068326204",
+     "1601836728299392"
+    ]
+   },
+   "B": {
+    "n": 10,
+    "share": 0.3333,
+    "ideas": 8,
+    "median_days": 30.0,
+    "versions": 16,
+    "founder": 0,
+    "ad_ids": [
+     "1711017009950319",
+     "1777858350163803",
+     "1620379199757741",
+     "1129807916396583",
+     "1550858456795923",
+     "2190284715234477",
+     "2148142946075233",
+     "2166915778033433",
+     "29321645884190090",
+     "4832221937013486"
+    ]
+   },
+   "status": "even",
+   "lead": null,
+   "ratio": 1.11,
+   "evidence": "strong",
+   "small_base": false,
+   "cards": {
+    "A": [
+     "2958662064496104",
+     "1950951139220699"
+    ],
+    "B": [
+     "1711017009950319",
+     "1777858350163803"
+    ]
+   }
+  },
+  {
+   "id": "I1",
+   "label": "Offer-led",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 1,
+    "share": 0.25,
+    "ideas": 1,
+    "median_days": 35,
+    "versions": 1,
+    "founder": 0,
+    "ad_ids": [
+     "2008324226545509"
+    ]
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": [
+     "2008324226545509"
+    ]
+   }
+  },
+  {
+   "id": "I2",
+   "label": "Product or people",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 3,
+    "share": 0.75,
+    "ideas": 2,
+    "median_days": 54,
+    "versions": 5,
+    "founder": 0,
+    "ad_ids": [
+     "1033007776294158",
+     "915290991413947",
+     "2605110029938293"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": [
+     "1033007776294158",
+     "915290991413947"
+    ]
+   }
+  },
+  {
+   "id": "I3",
+   "label": "Proof",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": []
+   }
+  }
+ ],
+ "rows_all": null,
+ "focus": null,
+ "products": {
+  "counts": {
+   "A": {
+    "cultpass_elite": 14,
+    "cult_membership": 8,
+    "cultpass_play": 8
+   },
+   "B": {
+    "weight_loss_coaching": 27,
+    "smart_scale": 5,
+    "body_map_review": 2
+   }
+  },
+  "labels": {
+   "cultpass_elite": "cultpass ELITE (gyms and classes)",
+   "cult_membership": "Cult gym and classes, no pass named",
+   "cultpass_play": "cultpass PLAY (sports)",
+   "cultpass_pro": "cultpass PRO (gyms)",
+   "home_workouts": "Home workouts (cultpass HOME)",
+   "weight_loss_coaching": "Weight-loss coaching",
+   "smart_scale": "Smart scale",
+   "body_map_review": "BodyMap review",
+   "health_plans": "PCOS, thyroid and diabetes plans"
+  },
+  "site": {
+   "fetched": "2026-11-20",
+   "A": [
+    {
+     "key": "cultpass_elite",
+     "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹31,790 in Amritsar",
+     "url": "https://www.cult.fit/fitness"
+    },
+    {
+     "key": "cult_membership",
+     "claim": "No product of this name; group classes come with ELITE or PRO, and the site offers a free trial",
+     "url": "https://www.cult.fit/fitness",
+     "status": "unclear"
+    },
+    {
+     "key": "cultpass_play",
+     "claim": "In the menu under Sports; the page needs a browser and did not load, so no price was read",
+     "url": "https://www.cult.fit/play",
+     "status": "not_read"
+    },
+    {
+     "key": "cultpass_pro",
+     "claim": "Gyms plus 2 group classes a month; offer: 2 months free and ₹1,600 off; no price read",
+     "url": "https://www.cult.fit/fitness"
+    },
+    {
+     "key": "home_workouts",
+     "claim": "cultpass HOME from ₹108 a month (24 months ₹2,599)",
+     "url": "https://www.cult.fit/fitness/cultpass-live"
+    },
+    {
+     "key": "weight_loss_coaching",
+     "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; offer: ₹1,100 gift card and 1.5 months free; no price read",
+     "url": "https://www.cult.fit/fitness"
+    }
+   ],
+   "B": [
+    {
+     "key": "weight_loss_coaching",
+     "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read",
+     "url": "https://fitelo.co/"
+    },
+    {
+     "key": "smart_scale",
+     "claim": "\"A scale that reads more than weight\"; store page did not load, no price on fitelo.co",
+     "url": "https://fitelo.co/"
+    },
+    {
+     "key": "body_map_review",
+     "claim": "BodyMap test, \"100+ parameters\", listed as included in the app; no ₹199 price on the pages read",
+     "url": "https://fitelo.co/"
+    },
+    {
+     "key": "health_plans",
+     "claim": "PCOS, thyroid, diabetes, after pregnancy, menopause and weight gain programmes",
+     "url": "https://fitelo.co/services/plans-overview/"
+    }
+   ]
+  }
+ },
+ "lean": {
+  "A": {
+   "all": {
+    "n": 30,
+    "ideas_total": 5,
+    "top": [
+     {
+      "n": 9,
+      "versions": 12,
+      "longest_days": 16,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 4,
+      "ideas": 1,
+      "score": 17.03,
+      "lead_ad": "1153711787290276",
+      "rows": {
+       "V2": 9
+      },
+      "media": {
+       "video": 9
+      },
+      "idea": "CF-c02",
+      "ad_ids": [
+       "1153711787290276",
+       "986842284018835",
+       "1645883207287485",
+       "1440279738302594",
+       "2056660201685004",
+       "997032080107644",
+       "1114356351358840",
+       "1142965181654720",
+       "1652879219724213"
+      ]
+     },
+     {
+      "n": 8,
+      "versions": 12,
+      "longest_days": 33,
+      "products": [
+       "cult_membership"
+      ],
+      "cities": 3,
+      "ideas": 1,
+      "score": 15.1,
+      "lead_ad": "1529622859191185",
+      "rows": {
+       "V2": 8
+      },
+      "media": {
+       "video": 8
+      },
+      "idea": "CF-c01",
+      "ad_ids": [
+       "1529622859191185",
+       "1583453076375971",
+       "1131711099318475",
+       "4606351752947622",
+       "2348546639313061",
+       "1088664397267392",
+       "2404800830259411",
+       "28835523932756470"
+      ]
+     },
+     {
+      "n": 8,
+      "versions": 15,
+      "longest_days": 4,
+      "products": [
+       "cultpass_play"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 11.63,
+      "lead_ad": "2958662064496104",
+      "rows": {
+       "V4": 8
+      },
+      "media": {
+       "video": 8
+      },
+      "idea": "CF-c04",
+      "ad_ids": [
+       "2958662064496104",
+       "1665600734881123",
+       "1126343416846783",
+       "1844076343579583",
+       "3294825420716053",
+       "2127525884795681",
+       "2555329068326204",
+       "1601836728299392"
+      ]
+     },
+     {
+      "n": 4,
+      "versions": 4,
+      "longest_days": 38,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 4,
+      "ideas": 1,
+      "score": 11.27,
+      "lead_ad": "1644460903932522",
+      "rows": {
+       "V1": 4
+      },
+      "media": {
+       "video": 4
+      },
+      "idea": "CF-c03",
+      "ad_ids": [
+       "1644460903932522",
+       "1088984333744777",
+       "1763133728096239",
+       "1182726674293191"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 4,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 1,
+      "ideas": 1,
+      "score": 1.13,
+      "lead_ad": "1950951139220699",
+      "rows": {
+       "V4": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "CF-c05",
+      "ad_ids": [
+       "1950951139220699"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.3,
+     "top3": 0.8333,
+     "top1_n": 9,
+     "top3_n": 25
+    },
+    "series": [
+     {
+      "n": 11,
+      "versions": 11,
+      "longest_days": 38,
+      "products": [
+       "cult_membership",
+       "cultpass_elite"
+      ],
+      "cities": 7,
+      "ideas": 3,
+      "score": 24.27,
+      "lead_ad": "1088984333744777",
+      "rows": {
+       "V2": 7,
+       "V1": 4
+      },
+      "media": {
+       "video": 11
+      },
+      "name": "One film, a new centre and price each time",
+      "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+      "ad_ids": [
+       "2404800830259411",
+       "1142965181654720",
+       "1763133728096239",
+       "1645883207287485",
+       "1088984333744777",
+       "1114356351358840",
+       "4606351752947622",
+       "1652879219724213",
+       "1644460903932522",
+       "28835523932756470",
+       "1182726674293191"
+      ],
+      "share": 0.3667
+     },
+     {
+      "n": 9,
+      "versions": 16,
+      "longest_days": 4,
+      "products": [
+       "cultpass_elite",
+       "cultpass_play"
+      ],
+      "cities": 1,
+      "ideas": 2,
+      "score": 14.63,
+      "lead_ad": "2958662064496104",
+      "rows": {
+       "V4": 9
+      },
+      "media": {
+       "video": 9
+      },
+      "name": "Fitstart Days sale card",
+      "note": "A silent six-second astronaut and rupee coin card, \"India's biggest fitness sale\", carries all nine sale ads, all started 16 or 17 November; the starting price changes between ₹1,104, ₹1,145 and ₹1,162.",
+      "ad_ids": [
+       "1665600734881123",
+       "1126343416846783",
+       "2555329068326204",
+       "2958662064496104",
+       "1844076343579583",
+       "3294825420716053",
+       "1601836728299392",
+       "2127525884795681",
+       "1950951139220699"
+      ],
+      "share": 0.3
+     },
+     {
+      "n": 4,
+      "versions": 4,
+      "longest_days": 38,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 4,
+      "ideas": 1,
+      "score": 11.27,
+      "lead_ad": "1644460903932522",
+      "rows": {
+       "V1": 4
+      },
+      "media": {
+       "video": 4
+      },
+      "name": "Break-up gag, same answer each time",
+      "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs under four different centres.",
+      "ad_ids": [
+       "1644460903932522",
+       "1763133728096239",
+       "1088984333744777",
+       "1182726674293191"
+      ],
+      "share": 0.1333
+     }
+    ]
+   },
+   "by_product": {
+    "cultpass_elite": {
+     "n": 14,
+     "ideas_total": 3,
+     "top": [
+      {
+       "n": 9,
+       "versions": 12,
+       "longest_days": 16,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 4,
+       "ideas": 1,
+       "score": 17.03,
+       "lead_ad": "1153711787290276",
+       "rows": {
+        "V2": 9
+       },
+       "media": {
+        "video": 9
+       },
+       "idea": "CF-c02",
+       "ad_ids": [
+        "1153711787290276",
+        "986842284018835",
+        "1645883207287485",
+        "1440279738302594",
+        "2056660201685004",
+        "997032080107644",
+        "1114356351358840",
+        "1142965181654720",
+        "1652879219724213"
+       ]
+      },
+      {
+       "n": 4,
+       "versions": 4,
+       "longest_days": 38,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 4,
+       "ideas": 1,
+       "score": 11.27,
+       "lead_ad": "1644460903932522",
+       "rows": {
+        "V1": 4
+       },
+       "media": {
+        "video": 4
+       },
+       "idea": "CF-c03",
+       "ad_ids": [
+        "1644460903932522",
+        "1088984333744777",
+        "1763133728096239",
+        "1182726674293191"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 4,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 1,
+       "ideas": 1,
+       "score": 1.13,
+       "lead_ad": "1950951139220699",
+       "rows": {
+        "V4": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "CF-c05",
+       "ad_ids": [
+        "1950951139220699"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.6429,
+      "top3": 1.0,
+      "top1_n": 9,
+      "top3_n": 14
+     },
+     "series": [
+      {
+       "n": 8,
+       "versions": 8,
+       "longest_days": 38,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 6,
+       "ideas": 2,
+       "score": 19.27,
+       "lead_ad": "1088984333744777",
+       "rows": {
+        "V2": 4,
+        "V1": 4
+       },
+       "media": {
+        "video": 8
+       },
+       "name": "One film, a new centre and price each time",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+       "ad_ids": [
+        "1142965181654720",
+        "1763133728096239",
+        "1645883207287485",
+        "1088984333744777",
+        "1114356351358840",
+        "1652879219724213",
+        "1644460903932522",
+        "1182726674293191"
+       ],
+       "share": 0.5714
+      },
+      {
+       "n": 4,
+       "versions": 4,
+       "longest_days": 38,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 4,
+       "ideas": 1,
+       "score": 11.27,
+       "lead_ad": "1644460903932522",
+       "rows": {
+        "V1": 4
+       },
+       "media": {
+        "video": 4
+       },
+       "name": "Break-up gag, same answer each time",
+       "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs under four different centres.",
+       "ad_ids": [
+        "1644460903932522",
+        "1763133728096239",
+        "1088984333744777",
+        "1182726674293191"
+       ],
+       "share": 0.2857
+      }
+     ]
+    },
+    "cult_membership": {
+     "n": 8,
+     "ideas_total": 1,
+     "top": [
+      {
+       "n": 8,
+       "versions": 12,
+       "longest_days": 33,
+       "products": [
+        "cult_membership"
+       ],
+       "cities": 3,
+       "ideas": 1,
+       "score": 15.1,
+       "lead_ad": "1529622859191185",
+       "rows": {
+        "V2": 8
+       },
+       "media": {
+        "video": 8
+       },
+       "idea": "CF-c01",
+       "ad_ids": [
+        "1529622859191185",
+        "1583453076375971",
+        "1131711099318475",
+        "4606351752947622",
+        "2348546639313061",
+        "1088664397267392",
+        "2404800830259411",
+        "28835523932756470"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_n": 8,
+      "top3_n": 8
+     },
+     "series": [
+      {
+       "n": 3,
+       "versions": 3,
+       "longest_days": 33,
+       "products": [
+        "cult_membership"
+       ],
+       "cities": 3,
+       "ideas": 1,
+       "score": 8.1,
+       "lead_ad": "4606351752947622",
+       "rows": {
+        "V2": 3
+       },
+       "media": {
+        "video": 3
+       },
+       "name": "One film, a new centre and price each time",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+       "ad_ids": [
+        "2404800830259411",
+        "4606351752947622",
+        "28835523932756470"
+       ],
+       "share": 0.375
+      }
+     ]
+    },
+    "cultpass_play": {
+     "n": 8,
+     "ideas_total": 1,
+     "top": [
+      {
+       "n": 8,
+       "versions": 15,
+       "longest_days": 4,
+       "products": [
+        "cultpass_play"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 11.63,
+       "lead_ad": "2958662064496104",
+       "rows": {
+        "V4": 8
+       },
+       "media": {
+        "video": 8
+       },
+       "idea": "CF-c04",
+       "ad_ids": [
+        "2958662064496104",
+        "1665600734881123",
+        "1126343416846783",
+        "1844076343579583",
+        "3294825420716053",
+        "2127525884795681",
+        "2555329068326204",
+        "1601836728299392"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_n": 8,
+      "top3_n": 8
+     },
+     "series": [
+      {
+       "n": 8,
+       "versions": 15,
+       "longest_days": 4,
+       "products": [
+        "cultpass_play"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 11.63,
+       "lead_ad": "2958662064496104",
+       "rows": {
+        "V4": 8
+       },
+       "media": {
+        "video": 8
+       },
+       "name": "Fitstart Days sale card",
+       "note": "A silent six-second astronaut and rupee coin card, \"India's biggest fitness sale\", carries all nine sale ads, all started 16 or 17 November; the starting price changes between ₹1,104, ₹1,145 and ₹1,162.",
+       "ad_ids": [
+        "1665600734881123",
+        "1126343416846783",
+        "2555329068326204",
+        "2958662064496104",
+        "1844076343579583",
+        "3294825420716053",
+        "1601836728299392",
+        "2127525884795681"
+       ],
+       "share": 1.0
+      }
+     ]
+    }
+   }
+  },
+  "B": {
+   "all": {
+    "n": 34,
+    "ideas_total": 23,
+    "top": [
+     {
+      "n": 7,
+      "versions": 13,
+      "longest_days": 25,
+      "products": [
+       "weight_loss_coaching"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 10.83,
+      "lead_ad": "995872249468747",
+      "rows": {
+       "V1": 7
+      },
+      "media": {
+       "video": 7
+      },
+      "idea": "FT-c05",
+      "ad_ids": [
+       "995872249468747",
+       "4723519161196734",
+       "1836729131107152",
+       "1017982897981736",
+       "1116659684664030",
+       "1130303452837399",
+       "2219477718950780"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 129,
+      "products": [
+       "smart_scale"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 5.3,
+      "lead_ad": "1033007776294158",
+      "rows": {
+       "I2": 1
+      },
+      "media": {
+       "image": 1
+      },
+      "idea": "FT-c07",
+      "ad_ids": [
+       "1033007776294158"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 129,
+      "products": [
+       "smart_scale"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 5.3,
+      "lead_ad": "925451983928233",
+      "rows": {
+       "V1": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "FT-c10",
+      "ad_ids": [
+       "925451983928233"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 4,
+      "longest_days": 54,
+      "products": [
+       "body_map_review"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.8,
+      "lead_ad": "915290991413947",
+      "rows": {
+       "I2": 2
+      },
+      "media": {
+       "image": 2
+      },
+      "idea": "FT-c16",
+      "ad_ids": [
+       "915290991413947",
+       "2605110029938293"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 5,
+      "longest_days": 24,
+      "products": [
+       "weight_loss_coaching"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.3,
+      "lead_ad": "2148142946075233",
+      "rows": {
+       "V4": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "FT-c12",
+      "ad_ids": [
+       "2148142946075233",
+       "29321645884190090"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.2059,
+     "top3": 0.2647,
+     "top1_n": 7,
+     "top3_n": 9
+    },
+    "series": [
+     {
+      "n": 19,
+      "versions": 36,
+      "longest_days": 35,
+      "products": [
+       "weight_loss_coaching"
+      ],
+      "cities": 0,
+      "ideas": 10,
+      "score": 28.67,
+      "lead_ad": "1912200749756133",
+      "rows": {
+       "V1": 14,
+       "V4": 5
+      },
+      "media": {
+       "video": 19
+      },
+      "name": "Customer story, same cashback end card",
+      "note": "Ten customer-story videos hand over to the same man in a Fitelo polo pointing at \"Lose weight, win 10X cashback\" and \"first 100 customers only\"; the ads do not name him.",
+      "ad_ids": [
+       "1912200749756133",
+       "2996269977403566",
+       "4723519161196734",
+       "995872249468747",
+       "1836729131107152",
+       "1017982897981736",
+       "1116659684664030",
+       "1130303452837399",
+       "2219477718950780",
+       "2166915778033433",
+       "2148142946075233",
+       "29321645884190090",
+       "1130206799365682",
+       "1637013901394490",
+       "4832221937013486",
+       "1550858456795923",
+       "1146824311226546",
+       "1449280067157528",
+       "970142368900928"
+      ],
+      "share": 0.5588
+     },
+     {
+      "n": 16,
+      "versions": 30,
+      "longest_days": 35,
+      "products": [
+       "weight_loss_coaching"
+      ],
+      "cities": 0,
+      "ideas": 8,
+      "score": 24.17,
+      "lead_ad": "1685798322850756",
+      "rows": {
+       "V1": 15,
+       "V4": 1
+      },
+      "media": {
+       "video": 16
+      },
+      "name": "Cashback cheque prop",
+      "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" and \"WINNER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
+      "ad_ids": [
+       "1449280067157528",
+       "1912200749756133",
+       "2996269977403566",
+       "1637013901394490",
+       "1130206799365682",
+       "970142368900928",
+       "1146824311226546",
+       "1550858456795923",
+       "4723519161196734",
+       "995872249468747",
+       "1836729131107152",
+       "1017982897981736",
+       "1116659684664030",
+       "1130303452837399",
+       "2219477718950780",
+       "1685798322850756"
+      ],
+      "share": 0.4706
+     },
+     {
+      "n": 5,
+      "versions": 6,
+      "longest_days": 129,
+      "products": [
+       "smart_scale"
+      ],
+      "cities": 0,
+      "ideas": 5,
+      "score": 9.8,
+      "lead_ad": "925451983928233",
+      "rows": {
+       "V3": 2,
+       "V1": 1,
+       "I2": 1,
+       "I1": 1
+      },
+      "media": {
+       "video": 3,
+       "image": 2
+      },
+      "name": "Smart scale at ₹999",
+      "note": "Five ideas sell the same scale at ₹999 against ₹4,999 or ₹5,000, with a free dietitian call; \"this week\", \"3 days\" or \"only 50 left\".",
+      "ad_ids": [
+       "2941541369549817",
+       "925451983928233",
+       "1033007776294158",
+       "2008324226545509",
+       "926250147231507"
+      ],
+      "share": 0.1471
+     },
+     {
+      "n": 3,
+      "versions": 3,
+      "longest_days": 35,
+      "products": [
+       "weight_loss_coaching"
+      ],
+      "cities": 0,
+      "ideas": 3,
+      "score": 4.17,
+      "lead_ad": "1129807916396583",
+      "rows": {
+       "V4": 3
+      },
+      "media": {
+       "video": 3
+      },
+      "name": "Named customer with a starting weight",
+      "note": "A full-length photo with name, town and start weight and no after weight; two end on the identical \"up to 30% off\" card.",
+      "ad_ids": [
+       "2190284715234477",
+       "1129807916396583",
+       "2166915778033433"
+      ],
+      "share": 0.0882
+     }
+    ]
+   },
+   "by_product": {
+    "weight_loss_coaching": {
+     "n": 27,
+     "ideas_total": 17,
+     "top": [
+      {
+       "n": 7,
+       "versions": 13,
+       "longest_days": 25,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 10.83,
+       "lead_ad": "995872249468747",
+       "rows": {
+        "V1": 7
+       },
+       "media": {
+        "video": 7
+       },
+       "idea": "FT-c05",
+       "ad_ids": [
+        "995872249468747",
+        "4723519161196734",
+        "1836729131107152",
+        "1017982897981736",
+        "1116659684664030",
+        "1130303452837399",
+        "2219477718950780"
+       ]
+      },
+      {
+       "n": 2,
+       "versions": 5,
+       "longest_days": 24,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.3,
+       "lead_ad": "2148142946075233",
+       "rows": {
+        "V4": 2
+       },
+       "media": {
+        "video": 2
+       },
+       "idea": "FT-c12",
+       "ad_ids": [
+        "2148142946075233",
+        "29321645884190090"
+       ]
+      },
+      {
+       "n": 2,
+       "versions": 2,
+       "longest_days": 64,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.13,
+       "lead_ad": "1777858350163803",
+       "rows": {
+        "V4": 2
+       },
+       "media": {
+        "video": 2
+       },
+       "idea": "FT-c04",
+       "ad_ids": [
+        "1777858350163803",
+        "1620379199757741"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 93,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.1,
+       "lead_ad": "1711017009950319",
+       "rows": {
+        "V4": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "FT-c06",
+       "ad_ids": [
+        "1711017009950319"
+       ]
+      },
+      {
+       "n": 2,
+       "versions": 4,
+       "longest_days": 29,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 3.97,
+       "lead_ad": "1637013901394490",
+       "rows": {
+        "V1": 2
+       },
+       "media": {
+        "video": 2
+       },
+       "idea": "FT-c13",
+       "ad_ids": [
+        "1637013901394490",
+        "1130206799365682"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.2593,
+      "top3": 0.4074,
+      "top1_n": 7,
+      "top3_n": 11
+     },
+     "series": [
+      {
+       "n": 19,
+       "versions": 36,
+       "longest_days": 35,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 10,
+       "score": 28.67,
+       "lead_ad": "1912200749756133",
+       "rows": {
+        "V1": 14,
+        "V4": 5
+       },
+       "media": {
+        "video": 19
+       },
+       "name": "Customer story, same cashback end card",
+       "note": "Ten customer-story videos hand over to the same man in a Fitelo polo pointing at \"Lose weight, win 10X cashback\" and \"first 100 customers only\"; the ads do not name him.",
+       "ad_ids": [
+        "1912200749756133",
+        "2996269977403566",
+        "4723519161196734",
+        "995872249468747",
+        "1836729131107152",
+        "1017982897981736",
+        "1116659684664030",
+        "1130303452837399",
+        "2219477718950780",
+        "2166915778033433",
+        "2148142946075233",
+        "29321645884190090",
+        "1130206799365682",
+        "1637013901394490",
+        "4832221937013486",
+        "1550858456795923",
+        "1146824311226546",
+        "1449280067157528",
+        "970142368900928"
+       ],
+       "share": 0.7037
+      },
+      {
+       "n": 16,
+       "versions": 30,
+       "longest_days": 35,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 8,
+       "score": 24.17,
+       "lead_ad": "1685798322850756",
+       "rows": {
+        "V1": 15,
+        "V4": 1
+       },
+       "media": {
+        "video": 16
+       },
+       "name": "Cashback cheque prop",
+       "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" and \"WINNER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
+       "ad_ids": [
+        "1449280067157528",
+        "1912200749756133",
+        "2996269977403566",
+        "1637013901394490",
+        "1130206799365682",
+        "970142368900928",
+        "1146824311226546",
+        "1550858456795923",
+        "4723519161196734",
+        "995872249468747",
+        "1836729131107152",
+        "1017982897981736",
+        "1116659684664030",
+        "1130303452837399",
+        "2219477718950780",
+        "1685798322850756"
+       ],
+       "share": 0.5926
+      },
+      {
+       "n": 3,
+       "versions": 3,
+       "longest_days": 35,
+       "products": [
+        "weight_loss_coaching"
+       ],
+       "cities": 0,
+       "ideas": 3,
+       "score": 4.17,
+       "lead_ad": "1129807916396583",
+       "rows": {
+        "V4": 3
+       },
+       "media": {
+        "video": 3
+       },
+       "name": "Named customer with a starting weight",
+       "note": "A full-length photo with name, town and start weight and no after weight; two end on the identical \"up to 30% off\" card.",
+       "ad_ids": [
+        "2190284715234477",
+        "1129807916396583",
+        "2166915778033433"
+       ],
+       "share": 0.1111
+      }
+     ]
+    },
+    "smart_scale": {
+     "n": 5,
+     "ideas_total": 5,
+     "top": [
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 129,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 5.3,
+       "lead_ad": "1033007776294158",
+       "rows": {
+        "I2": 1
+       },
+       "media": {
+        "image": 1
+       },
+       "idea": "FT-c07",
+       "ad_ids": [
+        "1033007776294158"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 129,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 5.3,
+       "lead_ad": "925451983928233",
+       "rows": {
+        "V1": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "FT-c10",
+       "ad_ids": [
+        "925451983928233"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 2,
+       "longest_days": 46,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 3.03,
+       "lead_ad": "926250147231507",
+       "rows": {
+        "V3": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "FT-c22",
+       "ad_ids": [
+        "926250147231507"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 35,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.17,
+       "lead_ad": "2941541369549817",
+       "rows": {
+        "V3": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "FT-c01",
+       "ad_ids": [
+        "2941541369549817"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 35,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.17,
+       "lead_ad": "2008324226545509",
+       "rows": {
+        "I1": 1
+       },
+       "media": {
+        "image": 1
+       },
+       "idea": "FT-c18",
+       "ad_ids": [
+        "2008324226545509"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.2,
+      "top3": 0.6,
+      "top1_n": 1,
+      "top3_n": 3
+     },
+     "series": [
+      {
+       "n": 5,
+       "versions": 6,
+       "longest_days": 129,
+       "products": [
+        "smart_scale"
+       ],
+       "cities": 0,
+       "ideas": 5,
+       "score": 9.8,
+       "lead_ad": "925451983928233",
+       "rows": {
+        "V3": 2,
+        "V1": 1,
+        "I2": 1,
+        "I1": 1
+       },
+       "media": {
+        "video": 3,
+        "image": 2
+       },
+       "name": "Smart scale at ₹999",
+       "note": "Five ideas sell the same scale at ₹999 against ₹4,999 or ₹5,000, with a free dietitian call; \"this week\", \"3 days\" or \"only 50 left\".",
+       "ad_ids": [
+        "2941541369549817",
+        "925451983928233",
+        "1033007776294158",
+        "2008324226545509",
+        "926250147231507"
+       ],
+       "share": 1.0
+      }
+     ]
+    },
+    "body_map_review": {
+     "n": 2,
+     "ideas_total": 1,
+     "top": [
+      {
+       "n": 2,
+       "versions": 4,
+       "longest_days": 54,
+       "products": [
+        "body_map_review"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.8,
+       "lead_ad": "915290991413947",
+       "rows": {
+        "I2": 2
+       },
+       "media": {
+        "image": 2
+       },
+       "idea": "FT-c16",
+       "ad_ids": [
+        "915290991413947",
+        "2605110029938293"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_n": 2,
+      "top3_n": 2
+     },
+     "series": []
+    }
+   }
+  }
+ },
+ "idea_names": {
+  "A": {
+   "CF-c01": "\"Aaj gym jaane ka mann nahi hai, toh mat jao\"",
+   "CF-c02": "Gym tour: \"I recently checked out cult fit\"",
+   "CF-c03": "\"Break-up hua hai? Chalo cult chalte hai\"",
+   "CF-c04": "Fitstart Days: swimming astronaut, cultpass PLAY",
+   "CF-c05": "Fitstart Days: barbell astronaut, cultpass ELITE"
+  },
+  "B": {
+   "FT-c01": "Smart scale, \"5000 ka scale ab only at triple 9\"",
+   "FT-c02": "\"Meet Malika, she lost 35 kgs\"",
+   "FT-c03": "Nistha: \"Mera to free mein weight loss hua hai\"",
+   "FT-c04": "\"From 104 kg to 66 kg\" photo slideshow",
+   "FT-c05": "\"Want to lose 20kg?\" Harpreet Kaur",
+   "FT-c06": "Ummi: \"Fitelo ka plan lene ki galti mat krna\"",
+   "FT-c07": "Static scale: \"Not all weight loss is fat loss\"",
+   "FT-c08": "Vishal, 130 kgs, up to 30% off",
+   "FT-c09": "Amanpreet Kaur, 98 kgs, up to 30% off",
+   "FT-c10": "Smart scale, \"80% off for 3 days\"",
+   "FT-c11": "Ankita Chaturvedi, 103.6 kgs, 3XL, photo captions",
+   "FT-c12": "108 kg case study: \"cravings ne weight loss mushkil bana diya\"",
+   "FT-c13": "Rupam Singh: lost 18 kg, then conceived",
+   "FT-c14": "\"He lost 25 kg in 90 days\" silent montage",
+   "FT-c15": "Newspaper skit: \"Yeh kya chhapi hai?\"",
+   "FT-c16": "Body Map Review at ₹199: \"To lose 10 kg in 90 days\"",
+   "FT-c17": "Kajal Shrougi, 21.5 kg, software engineer",
+   "FT-c18": "Static scale: \"Biggest Price Drop Ever\"",
+   "FT-c19": "Ankita Chaturvedi: \"Mera weight loss literally free ho gaya\"",
+   "FT-c20": "\"Weight loss can make you look younger\"",
+   "FT-c21": "Amanpreet: \"90+ kg Weight and double XL size\"",
+   "FT-c22": "Smart scale demo: \"want to lose WEIGHT FAST?\"",
+   "FT-c23": "Six customers: \"Maine Fitelo ka 120 days ka diet plan liya tha\""
+  }
+ },
+ "lean_rule": {
+  "days_per_point": 30,
+  "recut_points": 2,
+  "small_base": 10
+ },
+ "table_stakes": [
+  "V4"
+ ],
+ "now": {
+  "A": {
+   "n": 22,
+   "ad_ids": [
+    "2555329068326204",
+    "1601836728299392",
+    "2127525884795681",
+    "1182726674293191",
+    "1665600734881123",
+    "1126343416846783",
+    "2958662064496104",
+    "1844076343579583",
+    "3294825420716053",
+    "1950951139220699",
+    "986842284018835",
+    "2404800830259411",
+    "1645883207287485",
+    "1153711787290276",
+    "1440279738302594",
+    "2056660201685004",
+    "997032080107644",
+    "1114356351358840",
+    "1142965181654720",
+    "28835523932756470",
+    "1652879219724213",
+    "1763133728096239"
+   ],
+   "by_row": {
+    "V4": 9,
+    "V1": 2,
+    "V2": 11
+   }
+  },
+  "B": {
+   "n": 16,
+   "ad_ids": [
+    "4832221937013486",
+    "1130303452837399",
+    "2219477718950780",
+    "1130206799365682",
+    "29321645884190090",
+    "1116659684664030",
+    "4723519161196734",
+    "1836729131107152",
+    "1017982897981736",
+    "2166915778033433",
+    "2148142946075233",
+    "1146824311226546",
+    "995872249468747",
+    "2190284715234477",
+    "1637013901394490",
+    "1449280067157528"
+   ],
+   "by_row": {
+    "V4": 5,
+    "V1": 11
+   }
+  }
+ },
+ "launches": {
+  "A": {
+   "2026-10": 8,
+   "2026-11": 22
+  },
+  "B": {
+   "2026-07": 2,
+   "2026-08": 1,
+   "2026-09": 3,
+   "2026-10": 27,
+   "2026-11": 1
+  }
+ },
+ "breakdowns": {
+  "hook": {
+   "A": {
+    "video": {
+     "story_open": 9,
+     "offer": 9,
+     "callout": 8,
+     "question": 4
+    },
+    "image": {}
+   },
+   "B": {
+    "video": {
+     "question": 8,
+     "story_open": 7,
+     "number_claim": 6,
+     "problem": 6,
+     "offer": 2,
+     "callout": 1
+    },
+    "image": {
+     "number_claim": 2,
+     "story_open": 1,
+     "offer": 1
+    }
+   }
+  },
+  "offer": {
+   "A": {
+    "price_from": 17,
+    "free": 12,
+    "other": 1
+   },
+   "B": {
+    "cashback": 21,
+    "discount": 9,
+    "none": 3,
+    "free": 1
+   }
+  },
+  "angle": {
+   "A": {
+    "quality_design": 9,
+    "price_value": 9,
+    "feature": 8,
+    "identity": 4
+   },
+   "B": {
+    "outcome": 23,
+    "price_value": 8,
+    "feature": 3
+   }
+  },
+  "language": {
+   "A": {
+    "hinglish": 21,
+    "english": 9
+   },
+   "B": {
+    "hinglish": 21,
+    "english": 13
+   }
+  },
+  "production": {
+   "A": {
+    "phone_lofi": 13,
+    "animation_craft": 9,
+    "high_film": 8
+   },
+   "B": {
+    "phone_lofi": 24,
+    "studio": 5,
+    "designed_static": 4,
+    "high_film": 1
+   }
+  },
+  "face": {
+   "A": {
+    "presenter": 21,
+    "none": 9
+   },
+   "B": {
+    "customer": 23,
+    "presenter": 5,
+    "actor_model": 5,
+    "none": 1
+   }
+  },
+  "destination": {
+   "A": {
+    "lead_form": 30
+   },
+   "B": {
+    "web": 34
+   }
+  },
+  "deadline": {
+   "A": 0,
+   "B": 3
+  },
+  "campaign_tags": {
+   "A": [],
+   "B": []
+  }
+ },
+ "pacing": {
+  "A": {
+   "all": {
+    "videos": 14,
+    "duration_s": 32.1,
+    "cuts_per_10s": 4.67,
+    "wpm": 122.5,
+    "first_cut_s": 0.9
+   },
+   "by_row": {
+    "V1": {
+     "videos": 2,
+     "duration_s": 15.3,
+     "cuts_per_10s": 4.59,
+     "wpm": 83.0,
+     "first_cut_s": 0.9
+    },
+    "V2": {
+     "videos": 9,
+     "duration_s": 36.5,
+     "cuts_per_10s": 8.22,
+     "wpm": 146,
+     "first_cut_s": 0.07
+    },
+    "V4": {
+     "videos": 3,
+     "duration_s": 6.0,
+     "cuts_per_10s": 0.0,
+     "wpm": 0,
+     "first_cut_s": null
+    }
+   }
+  },
+  "B": {
+   "all": {
+    "videos": 21,
+    "duration_s": 39.0,
+    "cuts_per_10s": 2.8,
+    "wpm": 157,
+    "first_cut_s": 4.88
+   },
+   "by_row": {
+    "V1": {
+     "videos": 10,
+     "duration_s": 44.35,
+     "cuts_per_10s": 3.1,
+     "wpm": 178.0,
+     "first_cut_s": 4.28
+    },
+    "V3": {
+     "videos": 2,
+     "duration_s": 37.9,
+     "cuts_per_10s": 3.44,
+     "wpm": 87.5,
+     "first_cut_s": 3.42
+    },
+    "V4": {
+     "videos": 9,
+     "duration_s": 23.8,
+     "cuts_per_10s": 2.06,
+     "wpm": 76,
+     "first_cut_s": 6.71
+    }
+   }
+  }
+ },
+ "standouts": {
+  "A": [
+   {
+    "ad_id": "1153711787290276",
+    "row": "V2",
+    "idea": "CF-c02",
+    "score": 17.03,
+    "why": "",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/1908146520592418/still00_0s.jpg",
+      "spoken": "So I recently checked out cultfit and let me show you guys how it's like."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/1908146520592418/still01_0.5s.jpg",
+      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/1908146520592418/still02_1s.jpg",
+      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/1908146520592418/still03_2s.jpg",
+      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/1908146520592418/still04_3s.jpg",
+      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 5.8,
+      "still": "videos/1908146520592418/still05_5.8s.jpg",
+      "spoken": "Kese pehle, the gym is really clean, spacious and well maintained."
+     },
+     {
+      "t": 5.9,
+      "still": "videos/1908146520592418/still06_5.9s.jpg",
+      "spoken": "Kese pehle, the gym is really clean, spacious and well maintained.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 11.3,
+      "still": "videos/1908146520592418/still07_11.3s.jpg",
+      "spoken": "Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai."
+     },
+     {
+      "t": 15.1,
+      "still": "videos/1908146520592418/still08_15.1s.jpg",
+      "spoken": "But the best part is the group workouts."
+     },
+     {
+      "t": 17.6,
+      "still": "videos/1908146520592418/still09_17.6s.jpg",
+      "spoken": "Gym, strength training, dance, fitness and yoga."
+     },
+     {
+      "t": 21.9,
+      "still": "videos/1908146520592418/still10_21.9s.jpg",
+      "spoken": "Aur coaches bhi help karne ke liye available rahe the hai."
+     },
+     {
+      "t": 22.9,
+      "still": "videos/1908146520592418/still11_22.9s.jpg",
+      "spoken": "Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai."
+     },
+     {
+      "t": 25.9,
+      "still": "videos/1908146520592418/still12_25.9s.jpg",
+      "spoken": "Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 29.5,
+      "still": "videos/1908146520592418/still13_29.5s.jpg",
+      "spoken": "तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स."
+     },
+     {
+      "t": 29.9,
+      "still": "videos/1908146520592418/still14_29.9s.jpg",
+      "spoken": "तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 39.8,
+      "still": "videos/1908146520592418/still15_39.8s.jpg",
+      "spoken": ""
+     }
+    ]
+   },
+   {
+    "ad_id": "1529622859191185",
+    "row": "V2",
+    "idea": "CF-c01",
+    "score": 15.1,
+    "why": "",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/1111715114658510/still00_0s.jpg",
+      "spoken": "आज gym jaane ka man nahi hai, to mat jao."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/1111715114658510/still01_0.5s.jpg",
+      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/1111715114658510/still02_1s.jpg",
+      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/1111715114658510/still03_2s.jpg",
+      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/1111715114658510/still04_3s.jpg",
+      "spoken": "क्योकि fitness ka matlab saif gym jaana nahi hota."
+     },
+     {
+      "t": 5.7,
+      "still": "videos/1111715114658510/still05_5.7s.jpg",
+      "spoken": ""
+     },
+     {
+      "t": 8.3,
+      "still": "videos/1111715114658510/still06_8.3s.jpg",
+      "spoken": "कबी dance karne ka, to kabhi yoga se unwind karne ka."
+     },
+     {
+      "t": 11.2,
+      "still": "videos/1111715114658510/still07_11.2s.jpg",
+      "spoken": "Yehi to cult ko interesting bana tha hai."
+     },
+     {
+      "t": 14,
+      "still": "videos/1111715114658510/still08_14s.jpg",
+      "spoken": ""
+     },
+     {
+      "t": 15.8,
+      "still": "videos/1111715114658510/still09_15.8s.jpg",
+      "spoken": "Yeha aapne choice ki saab se workout kar sakte hai."
+     },
+     {
+      "t": 16.9,
+      "still": "videos/1111715114658510/still10_16.9s.jpg",
+      "spoken": "Gym, strength training, dance, fitness, ya yoga."
+     },
+     {
+      "t": 18.3,
+      "still": "videos/1111715114658510/still11_18.3s.jpg",
+      "spoken": "Gym, strength training, dance, fitness, ya yoga.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 18.7,
+      "still": "videos/1111715114658510/still12_18.7s.jpg",
+      "spoken": "Gym, strength training, dance, fitness, ya yoga.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 19.9,
+      "still": "videos/1111715114658510/still13_19.9s.jpg",
+      "spoken": "क्योकि consistency tabhi aati hai,"
+     },
+     {
+      "t": 23.6,
+      "still": "videos/1111715114658510/still14_23.6s.jpg",
+      "spoken": "Because the best workout is the one you enjoy."
+     },
+     {
+      "t": 31.8,
+      "still": "videos/1111715114658510/still15_31.8s.jpg",
+      "spoken": ""
+     }
+    ]
+   }
+  ],
+  "B": [
+   {
+    "ad_id": "995872249468747",
+    "row": "V1",
+    "idea": "FT-c05",
+    "score": 10.83,
+    "why": "",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/2158128178114203/still00_0s.jpg",
+      "spoken": "Want to lose 20 kg value ya?"
+     },
+     {
+      "t": 0.5,
+      "still": "videos/2158128178114203/still01_0.5s.jpg",
+      "spoken": "Want to lose 20 kg value ya?",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/2158128178114203/still02_1s.jpg",
+      "spoken": "Want to lose 20 kg value ya?",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/2158128178114203/still03_2s.jpg",
+      "spoken": "Listen to her story."
+     },
+     {
+      "t": 3,
+      "still": "videos/2158128178114203/still04_3s.jpg",
+      "spoken": "90 days May 25-26 kg weight reduce kids"
+     },
+     {
+      "t": 6.3,
+      "still": "videos/2158128178114203/still05_6.3s.jpg",
+      "spoken": "90 days May 25-26 kg weight reduce kids",
+      "spoken_repeat": true
+     },
+     {
+      "t": 8,
+      "still": "videos/2158128178114203/still06_8s.jpg",
+      "spoken": "First I weighed 87 kg"
+     },
+     {
+      "t": 10.2,
+      "still": "videos/2158128178114203/still07_10.2s.jpg",
+      "spoken": "I consulted with my fellow team"
+     },
+     {
+      "t": 15.2,
+      "still": "videos/2158128178114203/still08_15.2s.jpg",
+      "spoken": "I weighed 28-29 kg"
+     },
+     {
+      "t": 18.3,
+      "still": "videos/2158128178114203/still09_18.3s.jpg",
+      "spoken": "I was just a single child's mother"
+     },
+     {
+      "t": 22.9,
+      "still": "videos/2158128178114203/still10_22.9s.jpg",
+      "spoken": "Now I am small"
+     },
+     {
+      "t": 25.6,
+      "still": "videos/2158128178114203/still11_25.6s.jpg",
+      "spoken": "I get a lot of compliments"
+     },
+     {
+      "t": 28.9,
+      "still": "videos/2158128178114203/still12_28.9s.jpg",
+      "spoken": "Thank you so much, team Peterloh"
+     },
+     {
+      "t": 30.3,
+      "still": "videos/2158128178114203/still13_30.3s.jpg",
+      "spoken": "India's biggest weight loss offer is here"
+     },
+     {
+      "t": 35.6,
+      "still": "videos/2158128178114203/still14_35.6s.jpg",
+      "spoken": "At 10 times cash back offer"
+     },
+     {
+      "t": 43.5,
+      "still": "videos/2158128178114203/still15_43.5s.jpg",
+      "spoken": ""
+     }
+    ]
+   },
+   {
+    "ad_id": "925451983928233",
+    "row": "V1",
+    "idea": "FT-c10",
+    "score": 5.3,
+    "why": "",
+    "frames": [
+     {
+      "t": 0,
+      "still": "videos/1606031843792408/still00_0s.jpg",
+      "spoken": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/1606031843792408/still01_0.5s.jpg",
+      "spoken": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/1606031843792408/still02_1s.jpg",
+      "spoken": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/1606031843792408/still03_2s.jpg",
+      "spoken": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/1606031843792408/still04_3s.jpg",
+      "spoken": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 6.1,
+      "still": "videos/1606031843792408/still05_6.1s.jpg",
+      "spoken": "Hello Monster, we have scale 2.2."
+     },
+     {
+      "t": 9,
+      "still": "videos/1606031843792408/still06_9s.jpg",
+      "spoken": "18s is either 25 metrics,"
+     },
+     {
+      "t": 13,
+      "still": "videos/1606031843792408/still07_13s.jpg",
+      "spoken": "multi 25 health metrics track possible"
+     },
+     {
+      "t": 14.3,
+      "still": "videos/1606031843792408/still08_14.3s.jpg",
+      "spoken": "multi 25 health metrics track possible",
+      "spoken_repeat": true
+     },
+     {
+      "t": 18.2,
+      "still": "videos/1606031843792408/still09_18.2s.jpg",
+      "spoken": "Mussel, mass,"
+     },
+     {
+      "t": 24,
+      "still": "videos/1606031843792408/still10_24s.jpg",
+      "spoken": "knees of 2.3."
+     },
+     {
+      "t": 35.9,
+      "still": "videos/1606031843792408/still11_35.9s.jpg",
+      "spoken": "It is rated 4.2 stars on everyone,"
+     },
+     {
+      "t": 39.1,
+      "still": "videos/1606031843792408/still12_39.1s.jpg",
+      "spoken": "and back,"
+     },
+     {
+      "t": 47,
+      "still": "videos/1606031843792408/still13_47s.jpg",
+      "spoken": "but you can only pay 100,000."
+     },
+     {
+      "t": 52.5,
+      "still": "videos/1606031843792408/still14_52.5s.jpg",
+      "spoken": ""
+     },
+     {
+      "t": 60.1,
+      "still": "videos/1606031843792408/still15_60.1s.jpg",
+      "spoken": ""
+     }
+    ]
+   }
+  ]
+ },
+ "ads": {
+  "1529622859191185": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
+    "script_twin": null,
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 33,
+   "versions": 5,
+   "start_date": "2026-10-18",
+   "link": "https://www.facebook.com/ads/library/?id=1529622859191185",
+   "still": "videos/1111715114658510/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Find a Workout You’ll Love",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "1111715114658510",
+   "sample_views": {
+    "image": 1
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "1583453076375971": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
+    "script_twin": null,
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 33,
+   "versions": 1,
+   "start_date": "2026-10-18",
+   "link": "https://www.facebook.com/ads/library/?id=1583453076375971",
+   "still": "videos/1111715114658510/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Find a Workout You’ll Love",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "1111715114658510",
+   "sample_views": {
+    "image": 2
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "2348546639313061": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
+    "script_twin": null,
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 32,
+   "versions": 1,
+   "start_date": "2026-10-19",
+   "link": "https://www.facebook.com/ads/library/?id=2348546639313061",
+   "still": "videos/1111715114658510/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Find a Workout You’ll Love",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "1111715114658510",
+   "sample_views": {
+    "image": 3
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "1131711099318475": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
+    "script_twin": null,
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 33,
+   "versions": 1,
+   "start_date": "2026-10-18",
+   "link": "https://www.facebook.com/ads/library/?id=1131711099318475",
+   "still": "videos/1111715114658510/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Find a Workout You’ll Love",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "1111715114658510",
+   "sample_views": {
+    "image": 4
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "1088664397267392": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership, two free group workouts, from ₹1,099/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
+    "script_twin": null,
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 32,
+   "versions": 1,
+   "start_date": "2026-10-19",
+   "link": "https://www.facebook.com/ads/library/?id=1088664397267392",
+   "still": "videos/1111715114658510/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Find a Workout You’ll Love",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "1111715114658510",
+   "sample_views": {
+    "image": 5
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "986842284018835": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym plans from ₹1,099/month",
+    "one_line": "A woman tours a Cult gym, praising its cleanliness, classes and coaches, then says buy cultpass ELITE; card shows ₹1,099, no city.",
+    "script_twin": "1593732802080697",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=986842284018835",
+   "still": "videos/1097706556434827/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices Today",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se lekar, free weights aur cardio dug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोवराल मुझे इसका सेटआप काफी कणविनियेट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो शिज़ अप यो वॉर्काउट्स करेंगे बाए करल्ट एलीट पास नहीं.",
+   "asset": "1097706556434827",
+   "sample_views": {
+    "image": 6
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "2404800830259411": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult group workouts, two free classes, from ₹1,250/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then two free workouts; card ₹1,250, ad names Amritsar.",
+    "script_twin": "2594487204345894",
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=2404800830259411",
+   "still": "videos/2510744962662566/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Start your fitness journey at Cult Mall Road, Amritsar! \n👉 Sign up now and our team will connect with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "2510744962662566",
+   "sample_views": {
+    "image": 7
+   },
+   "product_key": "cult_membership",
+   "city": "Mall Road, Amritsar"
+  },
+  "1645883207287485": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,199/month",
+    "one_line": "A woman tours a Cult gym, then says get cultpass ELITE; card ₹1,199 under ads for VIP Road and Prahlad Nagar.",
+    "script_twin": "1908146520592418",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1645883207287485",
+   "still": "videos/2895266577525661/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices Today",
+   "body": "Start your fitness journey at Cult VIP Road today 🎉\n👉 Sign up today and we’ll call you with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "2895266577525661",
+   "sample_views": {
+    "image": 8
+   },
+   "product_key": "cultpass_elite",
+   "city": "VIP Road"
+  },
+  "1153711787290276": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,099/month",
+    "one_line": "A woman tours a Cult gym, praising its space, classes and coaches, then says get cultpass ELITE; card ₹1,099, no city.",
+    "script_twin": "2895266577525661",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 4,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1153711787290276",
+   "still": "videos/1908146520592418/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Start Strong with Cult",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "1908146520592418",
+   "sample_views": {
+    "image": 9
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1440279738302594": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,099/month",
+    "one_line": "A woman tours a Cult gym, praising its space, classes and coaches, then says get cultpass ELITE; card ₹1,099, no city.",
+    "script_twin": "2895266577525661",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1440279738302594",
+   "still": "videos/1908146520592418/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices Today",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "1908146520592418",
+   "sample_views": {
+    "image": 10
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "2056660201685004": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,099/month",
+    "one_line": "A woman tours a Cult gym, praising its space, classes and coaches, then says get cultpass ELITE; card ₹1,099, no city.",
+    "script_twin": "2895266577525661",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=2056660201685004",
+   "still": "videos/1908146520592418/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices Today",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "1908146520592418",
+   "sample_views": {
+    "image": 11
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "997032080107644": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,099/month",
+    "one_line": "A woman tours a Cult gym, praising its space, classes and coaches, then says get cultpass ELITE; card ₹1,099, no city.",
+    "script_twin": "2895266577525661",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=997032080107644",
+   "still": "videos/1908146520592418/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices Today",
+   "body": "Explore strength training, yoga, dance fitness and gym workouts with Cult. Plans start at ₹1,099/month.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "1908146520592418",
+   "sample_views": {
+    "image": 12
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1114356351358840": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, free trial, Indore",
+    "one_line": "A woman tours a Cult gym, then says buy cultpass ELITE; ad text names Cult Indore and a free trial, card has no price.",
+    "script_twin": "1097706556434827",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1114356351358840",
+   "still": "videos/1593732802080697/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Claim your FREE GYM TRIAL",
+   "body": "Start your fitness journey at Cult Indore today 🎉\n👉 Sign up today and we’ll call you with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगाओ फोर एवरी दे वॉर्काओट्स. Ready to switch up your workouts? Buy Curled Elite Pass now!",
+   "asset": "1593732802080697",
+   "sample_views": {
+    "image": 13
+   },
+   "product_key": "cultpass_elite",
+   "city": "Indore"
+  },
+  "4606351752947622": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult membership from ₹1,199/month, 2 free group workouts",
+    "one_line": "Square cut: skip the gym if you do not feel like it, two free group workouts; card ₹1,199, ad names Prahlad Nagar.",
+    "script_twin": "1111715114658510",
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production",
+     "deadline"
+    ],
+    "human_checked": false
+   },
+   "days": 33,
+   "versions": 1,
+   "start_date": "2026-10-18",
+   "link": "https://www.facebook.com/ads/library/?id=4606351752947622",
+   "still": "videos/1386736823203468/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Make fitness fun with 5+ workout formats at Cult Gym PrahladNagar. Join for ₹1,199/month and find the workouts that fit you. Limited-time deal—sign up today.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "अच जिम जाने का मन नहीं हैं, तो मच जो. क्यूकि fitness का मतलब सब जिम जाना नहीं होता. कभी strength training का मन करता हैं. कभी dance करने का, तो कभी yoga से unwind करने का. यही तो cult को interesting बनाता हैं. यहाँ अपने choice के साथ से workout कर सकते हैं. Gym, strength training, dance, fitness या yoga. क्योकि खंजस्टेंस्य तभी आति ये जव आपको वोकाई करना जेनूलिली पशनदभ। देकाँस् जब वोकाई पर आप आप तो हर लिए एंजोर एं। उसकी बुकी आप आथा तू और कौप रॉक वोकाईस पर पचारी करने के लिए एंगा!",
+   "asset": "1386736823203468",
+   "sample_views": {
+    "image": 14
+   },
+   "product_key": "cult_membership",
+   "city": "Prahlad Nagar"
+  },
+  "1644460903932522": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Gym access via cultpass ELITE, free trial",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; used for three centres.",
+    "script_twin": "4706620686235689",
+    "offer_also": [
+     "other"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1644460903932522",
+   "still": "videos/1775031486837424/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "Claim your FREE GYM TRIAL",
+   "body": "Start your fitness journey at Cult Indira Nagar today 🎉\n👉 Sign up today and we’ll call you with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "1775031486837424",
+   "sample_views": {
+    "image": 15
+   },
+   "product_key": "cultpass_elite",
+   "city": "Indira Nagar"
+  },
+  "1142965181654720": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,250/month",
+    "one_line": "A woman tours a Cult gym, then says get cultpass ELITE; card shows ₹1,250, ad names Cult Mall Road, Amritsar.",
+    "script_twin": "1908146520592418",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1142965181654720",
+   "still": "videos/3315079418677635/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Start your fitness journey at Cult Mall Road, Amritsar! \n👉 Sign up now and our team will connect with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "3315079418677635",
+   "sample_views": {
+    "image": 16
+   },
+   "product_key": "cultpass_elite",
+   "city": "Mall Road, Amritsar"
+  },
+  "28835523932756470": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c01",
+    "product": "Cult group workouts, two free classes, from ₹1,291/month",
+    "one_line": "A woman says skip the gym if you do not feel like it, then two free workouts; card ₹1,291, ad names Chandigarh.",
+    "script_twin": "2510744962662566",
+    "offer_also": [
+     "price_from"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=28835523932756470",
+   "still": "videos/2594487204345894/still02_1s.jpg",
+   "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Start your fitness journey at Cult Chandigarh! \n👉 Sign up now and our team will connect with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "आज gym jaane ka man nahi hai, to mat jao. क्योकि fitness ka matlab saif gym jaana nahi hota. कबी strength training ka man kartha hai. कबी dance karne ka, to kabhi yoga se unwind karne ka. Yehi to cult ko interesting bana tha hai. Yeha aapne choice ki saab se workout kar sakte hai. Gym, strength training, dance, fitness, ya yoga. क्योकि consistency tabhi aati hai, jawa aapko workout karna genuinely pasando hai. Because the best workout is the one you enjoy. Don't forget to book your two free group workouts on the Cult app.",
+   "asset": "2594487204345894",
+   "sample_views": {
+    "image": 17
+   },
+   "product_key": "cult_membership",
+   "city": "Chandigarh"
+  },
+  "1652879219724213": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c02",
+    "product": "cultpass ELITE gym pass, from ₹1,199/month",
+    "one_line": "A woman tours a Cult gym, then says get cultpass ELITE; card ₹1,199 under ads for VIP Road and Prahlad Nagar.",
+    "script_twin": "1908146520592418",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "offer",
+     "script_twin"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1652879219724213",
+   "still": "videos/2895266577525661/still02_1s.jpg",
+   "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Make fitness fun with 5+ workout formats at Cult Gym PrahladNagar. Join for ₹1,199/month and find the workouts that fit you. Limited-time deal—sign up today.",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "So I recently checked out cultfit and let me show you guys how it's like. Kese pehle, the gym is really clean, spacious and well maintained. Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai. But the best part is the group workouts. Gym, strength training, dance, fitness and yoga. Aur coaches bhi help karne ke liye available rahe the hai. Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai. तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स. अपने लिए तो अपने वॉर्काउट्स करेंगे लेगा, बाई कृल्ट एलीट पास नहीं.",
+   "asset": "2895266577525661",
+   "sample_views": {
+    "image": 18
+   },
+   "product_key": "cultpass_elite",
+   "city": "Prahlad Nagar"
+  },
+  "1182726674293191": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "other",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Cult Neo Gym, gym access via cultpass ELITE",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; Neo Gym ad.",
+    "script_twin": "1775031486837424",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 1,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=1182726674293191",
+   "still": "videos/4706620686235689/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "Top Fitness Spot in Your City!",
+   "body": "Your fitness upgrade is here! 🎉\nCult Neo Gym – a state-of-the-art fitness destination designed to help you crush your goals.\n👉 Sign up today and we’ll call you with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "4706620686235689",
+   "sample_views": {
+    "image": 19
+   },
+   "product_key": "cultpass_elite",
+   "city": "Neo Gym"
+  },
+  "1665600734881123": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,145/month",
+    "one_line": "A silent six-second vertical animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,145.",
+    "script_twin": "1175984385095817",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 3,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=1665600734881123",
+   "still": "videos/1111725135184162/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+   "headline": "New to the game? Or miss your old game days? You need cultpass PLAY either way!  🏅 Train at the best sports facilities 🎯 Learn skills from expert coaches 🤝 Team up anytime with guaranteed partners 🏊‍♂️ Cool down in temperature-controlled pools  Download cult.fit and make your first move with Fitstart today!",
+   "body": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1111725135184162",
+   "sample_views": {
+    "image": 20
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "1126343416846783": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,145/month",
+    "one_line": "A silent six-second vertical animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,145.",
+    "script_twin": "1175984385095817",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 1,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=1126343416846783",
+   "still": "videos/1111725135184162/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+   "headline": "New to the game? Or miss your old game days? You need cultpass PLAY either way!  🏅 Train at the best sports facilities 🎯 Learn skills from expert coaches 🤝 Team up anytime with guaranteed partners 🏊‍♂️ Cool down in temperature-controlled pools  Download cult.fit and make your first move with Fitstart today!",
+   "body": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1111725135184162",
+   "sample_views": {
+    "image": 21
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "2555329068326204": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,145/month",
+    "one_line": "A silent six-second vertical animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,145.",
+    "script_twin": "1175984385095817",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 3,
+   "versions": 1,
+   "start_date": "2026-11-17",
+   "link": "https://www.facebook.com/ads/library/?id=2555329068326204",
+   "still": "videos/1111725135184162/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,145/month + Exciting Daily Deals",
+   "headline": "New to the game? Or miss your old game days? You need cultpass PLAY either way!  🏅 Train at the best sports facilities 🎯 Learn skills from expert coaches 🤝 Team up anytime with guaranteed partners 🏊‍♂️ Cool down in temperature-controlled pools  Download cult.fit and make your first move with Fitstart today!",
+   "body": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1111725135184162",
+   "sample_views": {
+    "image": 22
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "2958662064496104": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,104/month",
+    "one_line": "A silent six-second square animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,104.",
+    "script_twin": "1111725135184162",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 5,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=2958662064496104",
+   "still": "videos/1175984385095817/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+   "headline": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "body": "New to the game? Or miss your old game days? You need cultpass PLAY either way!\n\n🏅 Train at the best sports facilities\n🎯 Learn skills from expert coaches\n🤝 Team up anytime with guaranteed partners\n🏊‍♂️ Cool down in temperature-controlled pools\n\nDownload cult.fit and make your first move with Fitstart today!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1175984385095817",
+   "sample_views": {
+    "image": 23
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "1844076343579583": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,104/month",
+    "one_line": "A silent six-second square animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,104.",
+    "script_twin": "1111725135184162",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 1,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=1844076343579583",
+   "still": "videos/1175984385095817/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+   "headline": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "body": "New to the game? Or miss your old game days? You need cultpass PLAY either way!\n\n🏅 Train at the best sports facilities\n🎯 Learn skills from expert coaches\n🤝 Team up anytime with guaranteed partners\n🏊‍♂️ Cool down in temperature-controlled pools\n\nDownload cult.fit and make your first move with Fitstart today!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1175984385095817",
+   "sample_views": {
+    "image": 24
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "3294825420716053": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,104/month",
+    "one_line": "A silent six-second square animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,104.",
+    "script_twin": "1111725135184162",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 1,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=3294825420716053",
+   "still": "videos/1175984385095817/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+   "headline": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "body": "New to the game? Or miss your old game days? You need cultpass PLAY either way!\n\n🏅 Train at the best sports facilities\n🎯 Learn skills from expert coaches\n🤝 Team up anytime with guaranteed partners\n🏊‍♂️ Cool down in temperature-controlled pools\n\nDownload cult.fit and make your first move with Fitstart today!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1175984385095817",
+   "sample_views": {
+    "image": 25
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "1601836728299392": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,104/month",
+    "one_line": "A silent six-second square animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,104.",
+    "script_twin": "1111725135184162",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 3,
+   "versions": 1,
+   "start_date": "2026-11-17",
+   "link": "https://www.facebook.com/ads/library/?id=1601836728299392",
+   "still": "videos/1175984385095817/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+   "headline": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "body": "New to the game? Or miss your old game days? You need cultpass PLAY either way!\n\n🏅 Train at the best sports facilities\n🎯 Learn skills from expert coaches\n🤝 Team up anytime with guaranteed partners\n🏊‍♂️ Cool down in temperature-controlled pools\n\nDownload cult.fit and make your first move with Fitstart today!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1175984385095817",
+   "sample_views": {
+    "image": 26
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "1763133728096239": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Gym access via cultpass ELITE, free trial",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; used for three centres.",
+    "script_twin": "4706620686235689",
+    "offer_also": [
+     "other"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 16,
+   "versions": 1,
+   "start_date": "2026-11-04",
+   "link": "https://www.facebook.com/ads/library/?id=1763133728096239",
+   "still": "videos/1775031486837424/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "Lowest Prices on cultpass🔥",
+   "body": "Start your fitness journey at Cult Mall Road, Amritsar! \n👉 Sign up now and our team will connect with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "1775031486837424",
+   "sample_views": {
+    "image": 27
+   },
+   "product_key": "cultpass_elite",
+   "city": "Mall Road, Amritsar"
+  },
+  "1088984333744777": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Gym access via cultpass ELITE, free trial",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; used for three centres.",
+    "script_twin": "4706620686235689",
+    "offer_also": [
+     "other"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "offer"
+    ],
+    "human_checked": false
+   },
+   "days": 38,
+   "versions": 1,
+   "start_date": "2026-10-13",
+   "link": "https://www.facebook.com/ads/library/?id=1088984333744777",
+   "still": "videos/1775031486837424/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "Claim your FREE GYM TRIAL",
+   "body": "Start your fitness journey at Cult VIP Road today 🎉\n👉 Sign up today and we’ll call you with all the details. Let's get moving!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "1775031486837424",
+   "sample_views": {
+    "image": 28
+   },
+   "product_key": "cultpass_elite",
+   "city": "VIP Road"
+  },
+  "1950951139220699": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass ELITE starting at ₹1,162/month* + Exciting Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c05",
+    "product": "cultpass ELITE gym pass from ₹1,162/month",
+    "one_line": "A silent six-second animation of an astronaut lifting a barbell announces Fitstart Days and cultpass ELITE from ₹1,162, under a Hyderabad centre's text.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 4,
+   "versions": 1,
+   "start_date": "2026-11-16",
+   "link": "https://www.facebook.com/ads/library/?id=1950951139220699",
+   "still": "videos/1452653639531649/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass ELITE starting at ₹1,162/month* + Exciting Daily Deals",
+   "headline": "Hyderabad's Top Fitness Spot!",
+   "body": "Your fitness upgrade is here! 🎉\nImpackt Fitness Kondapur  – a state-of-the-art fitness destination designed to help you crush your goals.\n👉 Sign up today and we’ll call you with all the details. Let's get moving!own",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1452653639531649",
+   "sample_views": {
+    "image": 29
+   },
+   "product_key": "cultpass_elite",
+   "city": "Impackt Fitness Kondapur, Hyderabad"
+  },
+  "2127525884795681": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": "CF-c04",
+    "product": "cultpass PLAY sports pass from ₹1,104/month",
+    "one_line": "A silent six-second square animation of a swimming astronaut and a rupee coin announces Fitstart Days and cultpass PLAY from ₹1,104.",
+    "script_twin": "1111725135184162",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "offer",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 3,
+   "versions": 2,
+   "start_date": "2026-11-17",
+   "link": "https://www.facebook.com/ads/library/?id=2127525884795681",
+   "still": "videos/1175984385095817/still02_1s.jpg",
+   "hook_text": "FITSTART DAYS - cultpass PLAY starting at ₹1,104/month + Daily Deals",
+   "headline": "Fitstart Sale: Ignite Your Sports Journey! ⚽🏸",
+   "body": "New to the game? Or miss your old game days? You need cultpass PLAY either way!\n\n🏅 Train at the best sports facilities\n🎯 Learn skills from expert coaches\n🤝 Team up anytime with guaranteed partners\n🏊‍♂️ Cool down in temperature-controlled pools\n\nDownload cult.fit and make your first move with Fitstart today!",
+   "link_description": "",
+   "cta": "Get offer",
+   "destination": "lead_form",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "1175984385095817",
+   "sample_views": {
+    "image": 30
+   },
+   "product_key": "cultpass_play",
+   "city": null
+  },
+  "2941541369549817": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V3",
+   "tags": {
+    "row": "V3",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "5000 ka Fitelo smart scale ab mil raha hai, only at triple 9.",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": "FT-c01",
+    "product": "Fitelo Smart Scale, 999 rupees",
+    "one_line": "A presenter pitches the Fitelo smart scale at 999 rupees instead of 5000, with a free dietitian call, 'valid this week' with no date.",
+    "script_twin": "1606031843792408",
+    "offer_also": [
+     "free"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=2941541369549817",
+   "still": "videos/1450918946888714/still02_1s.jpg",
+   "hook_text": "5000 ka Fitelo smart scale ab mil raha hai, only at triple 9.",
+   "headline": "Fitelo | Smart Scale",
+   "body": "Get your Health report, not just Weight\n\n✅ Tracks 25+ Key Health Metrics \n✅ Body Fat, BMI, Muscle Mass & More \n✅ Lightweight, Portable & Highly Accurate \n✅ Seamless App Sync on Your Phone\n\n🎁 FREE 1:1 dietitian consultation worth ₹500\n\nNow at just ₹999! Don’t miss out!",
+   "link_description": "",
+   "cta": "Shop now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "5000 ka fitelo smart scale ab mil raha hai, only at triple 9. Ab nahi liya to humesha regret karoge. Yes, you heard it right. Fitelo smart scale jo weight ke saath saath aapke body ke 25 health parameters track karta hai. Jaise body fat percentage, visceral fat, muscle mass and many more. Ab sale par hai. Aur sirf itna hi nahi. Iske saath aapko milta hai free one on one consultation with a certified dietitian. अपकी रपूट सम्जादेते हैं और आपको ये भी बताते हैं कि इन परामेटर्स को इंपरूफ कैसे करना हैं इस इंडिया से लिए त्रेस्टिट सकेल विट पौर पौंट टू स्टार रेटिंग आप आमाज़ोन बड रमेमबर, ये आफ़र सिरफ इस वीक तक ही वालिड है। शॉप नाओ!",
+   "asset": "1450918946888714",
+   "sample_views": {
+    "all": 1,
+    "video": 1
+   },
+   "product_key": "smart_scale",
+   "city": null
+  },
+  "1912200749756133": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Meet Malika, she lost 35 kgs.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "FT-c02",
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "A presenter names three customers who lost 25 to 35 kg with no timeframe, then pitches 10X cashback and up to 5 lakh rupees for the first 100; small print says 2-3 kg in 4 weeks.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "language",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 2,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1912200749756133",
+   "still": "videos/1061307573599046/still02_1s.jpg",
+   "hook_text": "Meet Malika, she lost 35 kgs.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Meet Malika, she lost 35 kgs, meet Bright, she lost 35 kgs, meet Divya Singh, she lost 25 kgs. But she is still May, per se double katu patali, but weight loss kept per se, thus times, Oseqta. India's biggest weight loss offer is here. Fatilo has launched a 10 times cashback offer, lose weight and win up to 5 lakh rupees. Valid for the first 100 customers only. Book your consultation now.",
+   "asset": "1061307573599046",
+   "sample_views": {
+    "all": 2,
+    "video": 2
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "2996269977403566": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Meet Malika, she lost 35 kgs.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "FT-c02",
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "A presenter names three customers who lost 25 to 35 kg with no timeframe, then pitches 10X cashback and up to 5 lakh rupees for the first 100; small print says 2-3 kg in 4 weeks.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "language",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 31,
+   "versions": 1,
+   "start_date": "2026-10-20",
+   "link": "https://www.facebook.com/ads/library/?id=2996269977403566",
+   "still": "videos/1061307573599046/still02_1s.jpg",
+   "hook_text": "Meet Malika, she lost 35 kgs.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Meet Malika, she lost 35 kgs, meet Bright, she lost 35 kgs, meet Divya Singh, she lost 25 kgs. But she is still May, per se double katu patali, but weight loss kept per se, thus times, Oseqta. India's biggest weight loss offer is here. Fatilo has launched a 10 times cashback offer, lose weight and win up to 5 lakh rupees. Valid for the first 100 customers only. Book your consultation now.",
+   "asset": "1061307573599046",
+   "sample_views": {
+    "all": 3,
+    "video": 3
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1685798322850756": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Mera to free mein weight loss hua hai!",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c03",
+    "product": "Diet coaching plan, 100% cashback offer",
+    "one_line": "Nistha, a housewife from Indore, says she lost 25 kgs in about 5 months (about 5 kg a month, against small print of 2-3 kg in 4 weeks), eating home food, and ends on a 100% cashback cheque.",
+    "script_twin": "1811001903560005",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 4,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1685798322850756",
+   "still": "videos/1805637266775957/still02_1s.jpg",
+   "hook_text": "Mera to free mein weight loss hua hai!",
+   "headline": "Unlock a Healthy Lifestyle Today | Fitelo",
+   "body": "Nishtha achieved her fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "میரے توфری میں weight lossu میரے weight bada gaya tha 75 kichis ho gaya tha میں نے around 5 month میں اپنے 25 kichis loos gaya hai na dha peepur ho yu used to call me auntie na dha kalling me maam aur dhidi because mya jo size hai وہ double excel, trapellexel tak tha na it is become small and medium mo jai myi diya te shen ko kui one word de na to that is angel میi diya te mein ma nikaasir ka halwa ki aur dahi badae saap puch kaya hai tuk ta keta sa hoi ni saapta ghar ka kha ke kye si patne ho gaya haap ne to walk me ni ki haap میi doctor sa ye bhi woli 75 to 51 ijho taha ra graph decrease hua hai u shi taha wani beauty aur increase kadae sa pata halwa se mya weight lossu vi ho gaya aur plus me ra cash bag bhi agaya",
+   "asset": "1805637266775957",
+   "sample_views": {
+    "all": 4,
+    "video": 4
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1777858350163803": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "From 104 kg to 66 kg",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c04",
+    "product": "Weight-loss diet plan, up to 30% off",
+    "one_line": "A silent photo slideshow shows a mother (named Mallika in the ad text) going from 104 kg to 66 kg with no timeframe, then asks viewers to comment YES; small print says 2-3 kg in 4 weeks.",
+    "script_twin": "1515868296878053",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 64,
+   "versions": 1,
+   "start_date": "2026-09-17",
+   "link": "https://www.facebook.com/ads/library/?id=1777858350163803",
+   "still": "videos/1395245032722226/still02_1s.jpg",
+   "hook_text": "From 104 kg to 66 kg",
+   "headline": "Book Now & Get upto 30% OFF",
+   "body": "Mallika achieved her fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "omatic yes to start your journey",
+   "asset": "1395245032722226",
+   "sample_views": {
+    "all": 5,
+    "video": 5
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "4723519161196734": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 22,
+   "versions": 7,
+   "start_date": "2026-10-29",
+   "link": "https://www.facebook.com/ads/library/?id=4723519161196734",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 6,
+    "video": 6
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "995872249468747": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 25,
+   "versions": 1,
+   "start_date": "2026-10-26",
+   "link": "https://www.facebook.com/ads/library/?id=995872249468747",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 7,
+    "video": 7
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1836729131107152": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 22,
+   "versions": 1,
+   "start_date": "2026-10-29",
+   "link": "https://www.facebook.com/ads/library/?id=1836729131107152",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 8,
+    "video": 8
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1017982897981736": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 22,
+   "versions": 1,
+   "start_date": "2026-10-29",
+   "link": "https://www.facebook.com/ads/library/?id=1017982897981736",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 9,
+    "video": 9
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1116659684664030": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1116659684664030",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 10,
+    "video": 10
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1130303452837399": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 20,
+   "versions": 1,
+   "start_date": "2026-10-31",
+   "link": "https://www.facebook.com/ads/library/?id=1130303452837399",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 11,
+    "video": 11
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1711017009950319": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Fitelo ka plan lene ki galti mat krna",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c06",
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "A narrator tells the story of Ummi, named in the voice and ad text, whose weight rose after motherhood, shows result photos with no kilos or timeframe, then offers up to 30% off.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 93,
+   "versions": 1,
+   "start_date": "2026-08-19",
+   "link": "https://www.facebook.com/ads/library/?id=1711017009950319",
+   "still": "videos/905976802124807/still02_1s.jpg",
+   "hook_text": "Fitelo ka plan lene ki galti mat krna",
+   "headline": "Book Now & Get upto 30% OFF",
+   "body": "Ummi achieved her fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "فٹلوں کا πلاன لینے کی گلٹی مد کرنا, نہی تو روزلٹ, کچھ ایسا ہو سکتا ہے. میٹھ امی, سکنڈلیوری کے بعد, جن کا ویٹھ ایٹھ ایٹھ کیجیس سے پہنچ گیا تھا. مدہوڑ, چائل کر اور ارگلے روٹین کے وجہ سے ویٹھ بڑھتا جا رہا تھا. فٹلوں نے ان کے روٹین کے ایکورڑیں, پس لائز دائٹ, اوشن کنٹرون اور سیستینے بلھ حبس پر ویکھیا. روزلٹ, کچھ ایٹھ کیجیس آگیا ہے. get up to 30% of on weight loss plans with fit pillow. Book your consultation now.",
+   "asset": "905976802124807",
+   "sample_views": {
+    "all": 12,
+    "video": 12
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1033007776294158": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "NOT ALL WEIGHT LOSS IS FAT LOSS",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "FT-c07",
+    "product": "Fitelo Smart Scale, tracks 18 metrics",
+    "one_line": "A black smart scale on a plinth under the headline 'Not all weight loss is fat loss', with a tick list of tracked metrics and a Shop now button.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 129,
+   "versions": 1,
+   "start_date": "2026-07-14",
+   "link": "https://www.facebook.com/ads/library/?id=1033007776294158",
+   "still": "images/1033007776294158.jpg",
+   "hook_text": "NOT ALL WEIGHT LOSS IS FAT LOSS",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Shop now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 13
+   },
+   "product_key": "smart_scale",
+   "city": null
+  },
+  "2190284715234477": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "VISHAL, Bareilly, UP - WEIGHT 130 kgs",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c08",
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "Posed full-length photos of Vishal, named by caption and ad text, with a 130 kgs start-weight caption and no after weight lead to an end card for up to 30% off weight-loss plans.",
+    "script_twin": "992641457088867",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 28,
+   "versions": 1,
+   "start_date": "2026-10-23",
+   "link": "https://www.facebook.com/ads/library/?id=2190284715234477",
+   "still": "videos/1711522106539363/still02_1s.jpg",
+   "hook_text": "VISHAL, Bareilly, UP - WEIGHT 130 kgs",
+   "headline": "Get Upto 30% OFF",
+   "body": "Vishal achieved his fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "यह पेता नातूड नातूड नातूड जे से व़े होगया मनजर हैना मनजर हैना Get up to 30% off on weight loss plans with FITILO. Book your consultation now.",
+   "asset": "1711522106539363",
+   "sample_views": {
+    "all": 14,
+    "video": 13
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1129807916396583": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "AMANPREET KAUR - WEIGHT 98 kgs",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c09",
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "Posed full-length photos of Amanpreet Kaur, named by caption and ad text, with a 98 kgs start-weight caption and no after weight lead to an end card for up to 30% off weight-loss plans.",
+    "script_twin": "1711522106539363",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1129807916396583",
+   "still": "videos/992641457088867/still02_1s.jpg",
+   "hook_text": "AMANPREET KAUR - WEIGHT 98 kgs",
+   "headline": "Unlock a Healthy Lifestyle Today | Fitelo",
+   "body": "Amanpreet achieved her fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "My way is in your heart, my heart is in your heart I am telling you, I am telling you, my heart is in your heart My love is in your heart Get up to 30% off on Weight Loss plans with Fitelo book your consultation now",
+   "asset": "992641457088867",
+   "sample_views": {
+    "all": 15,
+    "video": 14
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "925451983928233": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "In next 3 dino ke liye Fitelo de raha hai 80% off",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c10",
+    "product": "Fitelo Smart Scale, 999 rupees",
+    "one_line": "A woman in a bedroom says the updated Fitelo smart scale is 80% off for 3 days at 999 rupees (end card shows was 4999), tracks 25 metrics and includes a free dietitian call.",
+    "script_twin": "1450918946888714",
+    "offer_also": [
+     "free"
+    ],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row"
+    ],
+    "human_checked": false
+   },
+   "days": 129,
+   "versions": 1,
+   "start_date": "2026-07-14",
+   "link": "https://www.facebook.com/ads/library/?id=925451983928233",
+   "still": "videos/1606031843792408/still02_1s.jpg",
+   "hook_text": "In next 3 dino ke liye Fitelo de raha hai 80% off",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Shop now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "In next team, we know Gile fitalo, there are 8% of in this updated smart scale. Hello Monster, we have scale 2.2. 18s is either 25 metrics, but now of 89, multi 25 health metrics track possible with 3 lifetime access. Mussel, mass, body fat percentage, visceral fat, metabolic age, water percentage, knees of 2.3. Eskilava, abhiksapta, weight loss, illicate, exact daily gelbees, daily protein requirements, overall health growth, or India may have your health ranks of me age. It is rated 4.2 stars on everyone, and back, by fitness icons, like email and so on, and Nero Baitwa. Best part, this 5,000 scale of abhira, but you can only pay 100,000. This is the result of Joss 999 rupees. And with that, worth 500 rupees of free dietation. So, shop now.",
+   "asset": "1606031843792408",
+   "sample_views": {
+    "all": 16,
+    "video": 15
+   },
+   "product_key": "smart_scale",
+   "city": null
+  },
+  "2166915778033433": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "103.6kgs weight",
+    "offer": "cashback",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c11",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "Captions on photos of Ankita Chaturvedi give 103.6 kgs and 3XL, then 'Then I joined' with no result stated, ending on a 10X cashback card valid till 31st October.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 24,
+   "versions": 1,
+   "start_date": "2026-10-27",
+   "link": "https://www.facebook.com/ads/library/?id=2166915778033433",
+   "still": "videos/3379887592211321/still02_1s.jpg",
+   "hook_text": "103.6kgs weight",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "کی ہو کے بچا ہت ہے تو تم ایرا ہو گیا ایک دینہ آئی کافی ہے دل میرا جڑ گیا تم اصیح کافی ہے",
+   "asset": "3379887592211321",
+   "sample_views": {
+    "all": 17,
+    "video": 16
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "2219477718950780": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Want to lose 20kg?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c05",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 20,
+   "versions": 1,
+   "start_date": "2026-10-31",
+   "link": "https://www.facebook.com/ads/library/?id=2219477718950780",
+   "still": "videos/2158128178114203/still02_1s.jpg",
+   "hook_text": "Want to lose 20kg?",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "🚨 INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nA plan built around your health, habits & lifestyle, with: 👇\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Fitness & movement support 🏃‍♀️🧘‍♂️\n✅ Progress tracking on the Fitelo app 📱📊\n\n❤️ Trusted by 2 lakh+ Indians across 70+ countries. 🌍🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\n👉 Book your consultation now! 📲✨",
+   "link_description": "Fitelo",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Want to lose 20 kg value ya? Listen to her story. 90 days May 25-26 kg weight reduce kids My name is Harpet Kaur First I weighed 87 kg I consulted with my fellow team My weight is 60 kg I weighed 24 kg I weighed 28-29 kg I just felt like I was just saying I was just a single child's mother First I weighed 4 kg Now I am small I get a lot of compliments Everyone says that your weight is so good I did lose so I won't guess you Thank you so much, team Peterloh India's biggest weight loss offer is here The tele has launched At 10 times cash back offer lose weight and win 10 times cash back Valid for the first 100 customers only Book your consultation now",
+   "asset": "2158128178114203",
+   "sample_views": {
+    "all": 18,
+    "video": 17
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "2148142946075233": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "108 kg weight aur cravings ne weight loss mushkil bana diya!",
+    "offer": "cashback",
+    "deadline": true,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c12",
+    "product": "Weight-loss coaching, 10X cashback till 31 Oct",
+    "one_line": "A voiceover tells how an unnamed client at 108 kg got a stress-aware meal plan and a mind coach, lost 30 kg (no timeframe), ending on 10X cashback 'valid till 31st October only'.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 24,
+   "versions": 4,
+   "start_date": "2026-10-27",
+   "link": "https://www.facebook.com/ads/library/?id=2148142946075233",
+   "still": "videos/1657290032417472/still02_1s.jpg",
+   "hook_text": "108 kg weight aur cravings ne weight loss mushkil bana diya!",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "108 kg weight & cravings نے weight loss مشکل بنாதیا meet pile جن کا weight fitello joint کرتے وقت 108 kg جب انہوں نے fitello joint کیا تو سپ سے پہلے سمجھا کیوں کا weight کیوں بڑڑ رہا تھا پہتا چلا high stress & emotional eating کی وجہ سے ان کا routine disturb ہوں رہا تھا ہم نے ان کی busy setting job کو دیکھتے ہوئے easy to prepare meal plan بنیا такی bar bar cooking نہ کر می پڑے Saat hi stress management کیلے mind coach کا support بھی دیا такی وہ sustainable 8 kg 55 kg انہوں نے 30 kg weight loss کیا اور سب سے اچھی بار انہوں نے اپنا weight maintain بھی کیا book your consultation now",
+   "asset": "1657290032417472",
+   "sample_views": {
+    "all": 19,
+    "video": 18
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1130206799365682": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Doctor ne mujhe suggest kiya ki aap weight lose karo.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c13",
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "Rupam Singh, a homemaker from Jharkhand, says she lost 18 kg with no timeframe and then conceived, followed by a presenter pitching 10X cashback; small print says 2-3 kg in 4 weeks.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 20,
+   "versions": 1,
+   "start_date": "2026-10-31",
+   "link": "https://www.facebook.com/ads/library/?id=1130206799365682",
+   "still": "videos/1418576316367055/still02_1s.jpg",
+   "hook_text": "Doctor ne mujhe suggest kiya ki aap weight lose karo.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "🚨 INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nA plan built around your health, habits & lifestyle, with: 👇\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Fitness & movement support 🏃‍♀️🧘‍♂️\n✅ Progress tracking on the Fitelo app 📱📊\n\n❤️ Trusted by 2 lakh+ Indians across 70+ countries. 🌍🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\n👉 Book your consultation now! 📲✨",
+   "link_description": "Fitelo",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Doctor mein mujhe suggest kiya, weight lose karo. Maina 71 kg se zyada weight gain kar liya tha, then my life mein fitelo ki entry hole. Maina 18 kg weight lose kiya. Weight lose karne ke baad, mujhe conceive karne me positive result mila. Mere clothing size double accent hua kar the ki, abhi mein small hain na shuru kar diya. Most important thing ki, main apne bachche ko zyada time de baati ho. Lok mere transformation ko notice karthe hain and kushte hain ki aapne itni zaldi itna weight loss kaise kar liya. आपकी लाइफ चेंज़े हो सकती है फितेलो और अमेजिंग।",
+   "asset": "1418576316367055",
+   "sample_views": {
+    "all": 20,
+    "video": 20
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "4832221937013486": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "HE LOST 25 KG IN 90 DAYS!",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c14",
+    "product": "Weight-loss coaching, up to 5 lakh cashback",
+    "one_line": "A silent photo and clip montage claims an unnamed man lost 25 kg in 90 days (about 8 kg a month, against small print of 2-3 kg in 4 weeks), then offers up to 5 lakh rupees for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 10,
+   "versions": 4,
+   "start_date": "2026-11-10",
+   "link": "https://www.facebook.com/ads/library/?id=4832221937013486",
+   "still": "videos/1453728330068962/still02_1s.jpg",
+   "hook_text": "HE LOST 25 KG IN 90 DAYS!",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "अग्टा ते आई मेरी दावेडारी आरी आरी आरी आरी आरी आरी आरी तेरी देरी किजंदरी",
+   "asset": "1453728330068962",
+   "sample_views": {
+    "all": 21,
+    "video": 21
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1577870316987974": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yeh kya chhapi hai?",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c15",
+    "product": "Fitelo diet plan, 10X cashback",
+    "one_line": "A woman reacts to a newspaper, says last year's 100% cashback is old and this year's is ten times bigger, up to 5 lakh rupees with a warranty, for the first 200 (ad text says 100).",
+    "script_twin": null,
+    "offer_also": [
+     "other"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 2,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1577870316987974",
+   "still": "videos/1522577166344078/still02_1s.jpg",
+   "hook_text": "Yeh kya chhapi hai?",
+   "headline": "Lose Weight & Win 10X CASHBACK - Book Now!",
+   "body": "Get 10X CASHBACK on Fitelo’s Diet Plan! 🔥\n\nWe’re giving 10X Cashback to the FIRST 100 customers only! ⏰\n\nAchieve your fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\n🎯 Limited to the first 100 customers only.\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Yeh sakha par chapi akbar mein, ab weight kam karne ke paise milinde? Last year Fitelo ne diya tha 100% cashback. Weight loss karo aur jitne paise diye hai, utne vaapar. Ho to purana ho gaya. Is baar reward 10x bada hai. Fitelo has launched a 10x cashback offer. Weight lose karne pe 10x cashback. And you can win upto 5 lakh rupees with a 5 year weight loss warranty. पैसा ही पैसा हुगः! तो अब वेट कम करने के लिए इस ते अच्छा मोटिवशन तो नहीं मिलेगा! पर विएक पार्भिर करते हैं पर पराग्पार परो 300 एक परकुपार यह। वोक भी ईक प्राइज़े एक! जा जा जा जा जा! आप पर रूम ये आप रूम!",
+   "asset": "1522577166344078",
+   "sample_views": {
+    "all": 22,
+    "video": 22
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1637013901394490": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Doctor ne mujhe suggest kiya ki aap weight lose karo.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c13",
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "Rupam Singh, a homemaker from Jharkhand, says she lost 18 kg with no timeframe and then conceived, followed by a presenter pitching 10X cashback; small print says 2-3 kg in 4 weeks.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 29,
+   "versions": 3,
+   "start_date": "2026-10-22",
+   "link": "https://www.facebook.com/ads/library/?id=1637013901394490",
+   "still": "videos/1418576316367055/still02_1s.jpg",
+   "hook_text": "Doctor ne mujhe suggest kiya ki aap weight lose karo.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Doctor mein mujhe suggest kiya, weight lose karo. Maina 71 kg se zyada weight gain kar liya tha, then my life mein fitelo ki entry hole. Maina 18 kg weight lose kiya. Weight lose karne ke baad, mujhe conceive karne me positive result mila. Mere clothing size double accent hua kar the ki, abhi mein small hain na shuru kar diya. Most important thing ki, main apne bachche ko zyada time de baati ho. Lok mere transformation ko notice karthe hain and kushte hain ki aapne itni zaldi itna weight loss kaise kar liya. आपकी लाइफ चेंज़े हो सकती है फितेलो और अमेजिंग।",
+   "asset": "1418576316367055",
+   "sample_views": {
+    "all": 23,
+    "video": 23
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1620379199757741": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "From 104 kg to 66 kg",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "FT-c04",
+    "product": "Weight-loss coaching (not named in the video)",
+    "one_line": "The same silent slideshow as 1395245032722226, a mother going from 104 kg to 66 kg with no timeframe, ending on a Book Now button, with a song under it and no ad text.",
+    "script_twin": "1395245032722226",
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+   },
+   "days": 57,
+   "versions": 1,
+   "start_date": "2026-09-24",
+   "link": "https://www.facebook.com/ads/library/?id=1620379199757741",
+   "still": "videos/1515868296878053/still02_1s.jpg",
+   "hook_text": "From 104 kg to 66 kg",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "हाँ लिए चाहाँ तेरी पाहों में खाब खाब हैं। गहरा हूाँ गहरा हूाँ रंग अश्टी।",
+   "asset": "1515868296878053",
+   "sample_views": {
+    "all": 24,
+    "video": 24
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "2605110029938293": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "To lose 10 kg in 90 days",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "FT-c16",
+    "product": "Body Map Review, 50+ parameters, Rs 199",
+    "script_twin": null,
+    "offer_also": [],
+    "one_line": "A man in a Fitelo polo stands arms crossed beside 'To lose 10 kg in 90 days' and a Body Map Review offered at 199 rupees, was 499."
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 45,
+   "versions": 2,
+   "start_date": "2026-10-06",
+   "link": "https://www.facebook.com/ads/library/?id=2605110029938293",
+   "still": "images/2605110029938293.jpg",
+   "hook_text": "To lose 10 kg in 90 days",
+   "headline": "Unlock a Healthy Lifestyle Today | Fitelo",
+   "body": "Struggling to Lose Weight?\nDiscover What’s Holding You Back at Just ₹199 🔥\n\n✅ 50+ Parameter Assessment\n✅ Expert-Led Review\n✅ Identify Potential Weight-Loss Blockers\n✅ Personalised Weight-Loss Roadmap\n\nStart your transformation journey today.\n\n👉 Book Now for ₹199",
+   "link_description": "",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 25
+   },
+   "product_key": "body_map_review",
+   "city": null
+  },
+  "1550858456795923": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Maine 21.5 kg weight loss kiya hai",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c17",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "Kajal Shrougi, a software engineer, says she lost 21.5 kg from 88 kg to 65.5 kg (22.5 on those numbers) with no timeframe, shown over phone photos, then 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "deadline"
+    ],
+    "human_checked": false
+   },
+   "days": 32,
+   "versions": 1,
+   "start_date": "2026-10-19",
+   "link": "https://www.facebook.com/ads/library/?id=1550858456795923",
+   "still": "videos/2221246581849506/still02_1s.jpg",
+   "hook_text": "Maine 21.5 kg weight loss kiya hai",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "21.5 kg wettloss kia mera nam kaajas ravi hai mera it film mein as an engineer karm karthi ho mera fahle wett 88 kg tha my lifestyle is almost settings continuously hours which is affected on my lifestyle mujya fitelho k flat form ke baare mein pata chala mera wett 65.5 which is around 21.5 kg wettloss kia ki of my the family members friends commented out you look beautiful, you look now afraid my weakness gone, constipation gone fitelho help me to achieve my health transformation in a very positive way India's biggest weight loss offer is here fitelho has launched a 10 times cashback offer lose weight and win 10 times cashback valid for the first 100 customers only book your consultations now",
+   "asset": "2221246581849506",
+   "sample_views": {
+    "all": 26,
+    "video": 25
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "2008324226545509": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I1",
+   "tags": {
+    "row": "I1",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Biggest Price Drop Ever",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "FT-c18",
+    "product": "Fitelo Smart Scale 2.0, 999 rupees",
+    "one_line": "A man holds the Smart Scale 2.0 beside 'Biggest Price Drop Ever', now 999 rupees from 4999, 'valid for this week' with no date, with a Shop now button.",
+    "script_twin": null,
+    "offer_also": [
+     "free"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=2008324226545509",
+   "still": "images/2008324226545509.jpg",
+   "hook_text": "Biggest Price Drop Ever",
+   "headline": "Fitelo | Smart Scale",
+   "body": "Get your Health report, not just Weight\n\n✅ Tracks 25+ Key Health Metrics \n✅ Body Fat, BMI, Muscle Mass & More \n✅ Lightweight, Portable & Highly Accurate \n✅ Seamless App Sync on Your Phone\n\n🎁 FREE 1:1 dietitian consultation worth ₹500\n\nNow at just ₹999! Don’t miss out!",
+   "link_description": "",
+   "cta": "Shop now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 27
+   },
+   "product_key": "smart_scale",
+   "city": null
+  },
+  "915290991413947": {
+   "brand": "B",
+   "medium": "image",
+   "row": "I2",
+   "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "To lose 10 kg in 90 days",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "FT-c16",
+    "product": "Body Map Review, 50+ parameters, Rs 199",
+    "script_twin": null,
+    "offer_also": [],
+    "one_line": "A man in a Fitelo polo points at the Body Map Review under 'Lose 10 kg in 90 days', now 199 rupees, was 499; the same man, copy and offer as 2605110029938293 in another layout."
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face"
+    ],
+    "human_checked": false
+   },
+   "days": 54,
+   "versions": 2,
+   "start_date": "2026-09-27",
+   "link": "https://www.facebook.com/ads/library/?id=915290991413947",
+   "still": "images/915290991413947.jpg",
+   "hook_text": "To lose 10 kg in 90 days",
+   "headline": "Unlock a Healthy Lifestyle Today | Fitelo",
+   "body": "Struggling to Lose Weight?\nFind Your Weight-Loss Blocker for Just ₹199 🔥\n\n✅ 50+ Parameters Assessed\n✅ Personalised 12-Month Weight-Loss Roadmap\n✅ Expert-Led Body Map Consultation\n✅ Understand What Could Be Holding You Back\n\n🎁 Special Launch Price: ₹199 ( was ₹499 )\nFor the First 100 Customers\n\nStop guessing. Start understanding your body.\n\n👉 Book Your Body Map Consultation Now",
+   "link_description": "",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": null,
+   "sample_views": {
+    "all": 28
+   },
+   "product_key": "body_map_review",
+   "city": null
+  },
+  "1146824311226546": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Mera weight loss literally free ho gaya.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c19",
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "Ankita Chaturvedi from Delhi says she lost around 26 kgs (no timeframe) and her weight loss 'came free', then the ad launches 10X cashback, up to 5 lakh rupees, for the first 100.",
+    "script_twin": "1805637266775957",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle",
+     "deadline",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 24,
+   "versions": 1,
+   "start_date": "2026-10-27",
+   "link": "https://www.facebook.com/ads/library/?id=1146824311226546",
+   "still": "videos/1811001903560005/still02_1s.jpg",
+   "hook_text": "Mera weight loss literally free ho gaya.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "میرا wade lost literally free vohu baa wade bhoz zadha vohu baa ata almost 3 digit figure me tach hoonu wad haa mge fatelok ha pata chala thrumah instag rang mme na fatelok haa saat around 26 kgs lose kia mme nye gym bhi try kia internet sa dhid shbh try kii but kisi ka bhi positive impact nye hua mme 3 excel se l size ke kapro me fit aane lag gai hu mme re skin quality a hair quality bhi improve bhi aj all in all i would really like to thank fatelok on fit a loos 10 year anniversary fit a lo is launching the 10x cashback offer lose weight and win up to 5 lakh rupees book your consultation now",
+   "asset": "1811001903560005",
+   "sample_views": {
+    "all": 29,
+    "video": 26
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "1449280067157528": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Weight loss can make you look younger.",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "FT-c20",
+    "product": "Weight-loss coaching, 10X cashback offer",
+    "one_line": "A man says he went from 96 kg to 28 kg lost in 6 months (about 4.7 kg a month, against small print of 2-3 kg in 4 weeks), framed by a presenter who pitches 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 29,
+   "versions": 3,
+   "start_date": "2026-10-22",
+   "link": "https://www.facebook.com/ads/library/?id=1449280067157528",
+   "still": "videos/1031452079918986/still02_1s.jpg",
+   "hook_text": "Weight loss can make you look younger.",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "Weight loss can make you look younger. How? Listen to his story. Mera weight 96 kg tha, I was searching later, mujhe fitelo dikha. I lost 28 kgs in 6 months. Mujhe fitelo body map ki tu paata chala ki mere li kaunsa approach actually work karega. Sapse bada change mujhe yeh laga ki weight loss actually meri routine ke saab se ho raha hai. Mene bohot saari dietitians aur consult kiya hai. I have tried yoga, I have tried gym, I have tried exercises. Jaise mai 3 mana chaamne continue krata hai, I used to get bored. मलड़ा मुझे आज एक साल से उपर हो गया है फालो करते हैं और अबी भी मैं बोर नहीं हूआ हूँ त्रस्मी अन्दार वै इटिंग यम्मीन्स वाराफ माय क्लाइन्स यह रीसिनखी मेट तेन इसेट थे? देश constantly well he read read read read read read read read read read read read read read read read read read",
+   "asset": "1031452079918986",
+   "sample_views": {
+    "all": 30,
+    "video": 27
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "29321645884190090": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "108 kg weight aur cravings ne weight loss mushkil bana diya!",
+    "offer": "cashback",
+    "deadline": true,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c12",
+    "product": "Weight-loss coaching, 10X cashback till 31 Oct",
+    "one_line": "A voiceover tells how an unnamed client at 108 kg got a stress-aware meal plan and a mind coach, lost 30 kg (no timeframe), ending on 10X cashback 'valid till 31st October only'.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 20,
+   "versions": 1,
+   "start_date": "2026-10-31",
+   "link": "https://www.facebook.com/ads/library/?id=29321645884190090",
+   "still": "videos/1657290032417472/still02_1s.jpg",
+   "hook_text": "108 kg weight aur cravings ne weight loss mushkil bana diya!",
+   "headline": "Trusted by 2 Lakh+ Indians",
+   "body": "INDIA’S BIGGEST WEIGHT-LOSS OFFER IS HERE! 🔥\n\n🎁 Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! 💪✨\n\nBecause weight loss isn’t just about following a diet. 🥗\nIt’s about having the right plan for your health, habits & lifestyle. ❤️\n\nWith Fitelo, you get:\n\n✅ Personalised weight-loss plan 🎯\n✅ 1-on-1 dietitian guidance 👩‍⚕️\n✅ Expert coaching & support 🤝\n✅ Movement, yoga & fitness support 🧘‍♀️🏃‍♂️\n✅ Progress tracking through the Fitelo app 📱📈\n\n🌍 Trusted by 2 lakh+ Indians across 70+ countries! 🇮🇳\n\n🎯 10X CASHBACK is available for the first 100 customers only! ⏳🔥\n\nReady to start doing weight loss differently? 💯\n\n👉 Book your consultation now! 📲",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "108 kg weight & cravings نے weight loss مشکل بنாதیا meet pile جن کا weight fitello joint کرتے وقت 108 kg جب انہوں نے fitello joint کیا تو سپ سے پہلے سمجھا کیوں کا weight کیوں بڑڑ رہا تھا پہتا چلا high stress & emotional eating کی وجہ سے ان کا routine disturb ہوں رہا تھا ہم نے ان کی busy setting job کو دیکھتے ہوئے easy to prepare meal plan بنیا такی bar bar cooking نہ کر می پڑے Saat hi stress management کیلے mind coach کا support بھی دیا такی وہ sustainable 8 kg 55 kg انہوں نے 30 kg weight loss کیا اور سب سے اچھی بار انہوں نے اپنا weight maintain بھی کیا book your consultation now",
+   "asset": "1657290032417472",
+   "sample_views": {
+    "video": 19
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "970142368900928": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "90+ kg Weight and double XL size",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": "FT-c21",
+    "product": "Weight-loss diet plan, 10X cashback offer",
+    "one_line": "A presenter opens and closes around a captioned story of Amanpreet, named in the ad text, going from 98 kg to 68 kg (30 kg, no timeframe), then pitches 10X cashback for the first 100.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=970142368900928",
+   "still": "videos/1637979967996121/still02_1s.jpg",
+   "hook_text": "90+ kg Weight and double XL size",
+   "headline": "Lose Weight & Win 10X CASHBACK - Book Now!",
+   "body": "India’s Greatest Weight-Loss Offer Is Here! 🔥\n\nGet 10X CASHBACK on Fitelo’s personalised diet plan! 🤩\n\nAmanpreet achieved her fitness goals with Fitelo's customised diet plan  👇\n\nTransformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\n🎯 Limited to the first 100 customers only.\n\nClick Book Now to get diet plan details 👉",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "90 ھbbq-g cut in a wide range of shapes galaxy Mimi thousands of dining Thank you for telling. India's biggest weight loss offer is here. The tele has launched at 10 times cashback offer, lose weight and win 10 times cashback. Valid for the first 100 customers only. Hook your consultation now.",
+   "asset": "1637979967996121",
+   "sample_views": {
+    "video": 28
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  },
+  "926250147231507": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V3",
+   "tags": {
+    "row": "V3",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "want to lose WEIGHT FAST?",
+    "offer": "free",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "FT-c22",
+    "product": "Fitelo Smart Scale, free dietitian consultation",
+    "one_line": "A woman steps on a smart scale and checks the app, with captions asking 'want to lose WEIGHT FAST?' and offering a free dietitian consultation worth 500 rupees; the 999 price is only in the ad text.",
+    "script_twin": null,
+    "offer_also": [
+     "discount"
+    ]
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 46,
+   "versions": 2,
+   "start_date": "2026-10-05",
+   "link": "https://www.facebook.com/ads/library/?id=926250147231507",
+   "still": "videos/3900744233401468/still02_1s.jpg",
+   "hook_text": "want to lose WEIGHT FAST?",
+   "headline": "Fitelo | Smart Scale",
+   "body": "Fitelo Festive Sale is LIVE! 🔥\nNow at just ₹999 (was ₹4999) — limited time only!⏳\n\n✅ Tracks 25+ Key Health Metrics \n✅ Body Fat, BMI, Muscle Mass & More \n✅ Lightweight, Portable & Highly Accurate \n✅ Seamless App Sync on Your Phone\n\n🎁 FREE 1:1 dietitian consultation worth ₹500\n\n⏳ Only 50 Scales Left!\n\n👉 Shop Now",
+   "link_description": "",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "3 Shenzhen 2 Shenzhen",
+   "asset": "3900744233401468",
+   "sample_views": {
+    "video": 29
+   },
+   "product_key": "smart_scale",
+   "city": null
+  },
+  "1461564966113780": {
+   "brand": "B",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Maine Fitelo ka 120 days ka diet plan liya tha",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "FT-c23",
+    "product": "Fitelo 120-day diet plan, no offer",
+    "one_line": "Six unnamed customers each talk to camera about a 120-day Fitelo diet plan and fitting old clothes, with a '108 KGS' photo and no result or small print, ending on 'Start your journey today' and Follow us.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "hook_text"
+    ],
+    "human_checked": false
+   },
+   "days": 35,
+   "versions": 1,
+   "start_date": "2026-10-16",
+   "link": "https://www.facebook.com/ads/library/?id=1461564966113780",
+   "still": "videos/423409637350438/still02_1s.jpg",
+   "hook_text": "Maine Fitelo ka 120 days ka diet plan liya tha",
+   "headline": "Unlock a Healthy Lifestyle Today | Fitelo",
+   "body": "Transformation is possible with Fitelo's 👇\n\n✔️ 1000+ experienced coaches\n🍱 Customised diet plan\n🍲 1000+ healthy recipes\n🍔 Multiple cheat meals\nAnd more! 🤩\n\nEnroll now to get the best offers 👉🏻",
+   "link_description": "Fitelo By Dietitian Mac Singh",
+   "cta": "Book now",
+   "destination": "web",
+   "campaign_tag": null,
+   "transcript": "میں نے fit allo ca 120 days کا diet plan لیا تھا اور یہ میں نے بلکھل بھی expect بھی کیا تھا mommi gadi tu tu tu suhla falki hu bi bilgul Jamme nehi programi njiya fit allo gisha tu mujhe fru relies hano star doa ki nek kha ga gha gha gha gha gha gha After losing weight I could see so many positive changes in my body I can fit into my clothes which were like in my cupboard for past 8 years early mera wait na jadata ki mujhe do gadam chalte hu bi faakhu li le gyaati di tawab chalne me dhok ya doa timbim go di kati rati ya binku lansponsor dvaat karin tum sef mera ghaarezenak channel extorgarlo baakhi tuar iichha amme aapne purani kaplom hai ki hujya ki hujya ki hujya jha mejha liya sabce bhai bhai pitalo ek ke family kita rai aur kabhi ye ni lagagi me tight le nao pitalo fai When you decide within yourself that ok you can do it right now fit allo should be the choice aap bhi meraid tara wait manage kar na chalte hu to aap bhi meraid tara ek bhai fit allo jerur join kare",
+   "asset": "423409637350438",
+   "sample_views": {
+    "video": 30
+   },
+   "product_key": "weight_loss_coaching",
+   "city": null
+  }
+ },
+ "rerun": null
+}
