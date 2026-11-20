@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "What do you think the difference is from a traditional B-school and this new B-school?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month, Bangalore",
+    "one_line": "Event and campus montage over an unlabelled panel voice on the jobs gap and exposure, naming Mokobara, ending 'That's the SSB difference. Apply now.'",
+    "script_twin": "1692587945631541",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "hook", "row", "production", "script_twin"],
+    "human_checked": false
+  }
+}
