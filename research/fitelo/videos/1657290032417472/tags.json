@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "108 kg weight aur cravings ne weight loss mushkil bana diya!",
+    "offer": "cashback",
+    "deadline": true,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss coaching, 10X cashback till 31 Oct",
+    "one_line": "A voiceover tells how a client at 108 kg got a stress-aware meal plan and a mind coach, lost 30 kg and kept it off, ending on 10X cashback.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

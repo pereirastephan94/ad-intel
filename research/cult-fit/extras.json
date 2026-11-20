@@ -1,0 +1,88 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "cultpass ELITE gym pass",
+        14
+      ],
+      [
+        "Cult gym and group workouts, two free classes",
+        8
+      ],
+      [
+        "cultpass PLAY sports pass",
+        8
+      ]
+    ],
+    "note": "Fourteen of 30 ads sell the ELITE gym pass, and eight sell the PLAY sports pass; the other eight sell Cult gym and classes with no pass named."
+  },
+  "series": [
+    {
+      "name": "Fitstart Days sale card",
+      "ads": [
+        "1665600734881123",
+        "2958662064496104",
+        "1950951139220699"
+      ],
+      "note": "A silent six-second astronaut and rupee coin card carries all nine sale ads, with the starting price changing between ₹1,104, ₹1,145 and ₹1,162."
+    },
+    {
+      "name": "Break-up gag, same answer each time",
+      "ads": [
+        "1644460903932522",
+        "1763133728096239",
+        "1182726674293191"
+      ],
+      "note": "One man reacts to four life events and says 'chalo cult chalte hai' each time; the same clip runs under four different centres."
+    },
+    {
+      "name": "One film, a new city and price each time",
+      "ads": [
+        "4606351752947622",
+        "2404800830259411",
+        "28835523932756470"
+      ],
+      "note": "The same gym films are re-sent with a new centre in the text and a new price on the end card."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "Price by city: the same 'don't go to the gym' film shows ₹1,099 with no city, ₹1,199 at Prahlad Nagar, ₹1,250 in Amritsar and ₹1,291 in Chandigarh.",
+      "ads": [
+        "4606351752947622",
+        "2404800830259411",
+        "28835523932756470"
+      ]
+    },
+    {
+      "text": "Same gym tour, three prices: the end card says ₹1,099 a month on one ad, ₹1,199 on another and ₹1,250 on a third.",
+      "ads": [
+        "1153711787290276",
+        "1652879219724213",
+        "1142965181654720"
+      ]
+    },
+    {
+      "text": "Sale price: Fitstart shows cultpass PLAY from ₹1,145 in one shape and ₹1,104 in another, and ELITE from ₹1,162, against everyday ads at ₹1,099 to ₹1,291.",
+      "ads": [
+        "1665600734881123",
+        "2958662064496104",
+        "1950951139220699"
+      ]
+    },
+    {
+      "text": "Free trial: the headline says 'Claim your FREE GYM TRIAL' but the Indore video says 'Buy cultpass ELITE now', and the break-up gag's end card says 'Best prices + Bonus offers'.",
+      "ads": [
+        "1114356351358840",
+        "1644460903932522"
+      ]
+    },
+    {
+      "text": "Footage against place: a Kannada-signed shopfront runs under Amritsar, and the Neo Gym text sits over a sign reading 'cult.fit', not Neo.",
+      "ads": [
+        "1763133728096239",
+        "1182726674293191"
+      ]
+    }
+  ]
+}

@@ -5,20 +5,25 @@
     "founder_evidence": "",
     "hook": "story_open",
     "hook_text": "So I recently checked out cult fit and let me show you guys how it's like.",
-    "offer": "other",
+    "offer": "price_from",
     "deadline": false,
     "angle": "quality_design",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "CF-c02",
     "product": "cultpass ELITE gym pass, from ₹1,099/month",
-    "one_line": "A woman introduces a cult gym, then a voiceover over b-roll praises its space, classes and coaches, ending on cultpass ELITE from ₹1,099 a month.",
+    "one_line": "A woman tours a Cult gym, praising its space, classes and coaches, then says get cultpass ELITE; card ₹1,099, no city.",
     "script_twin": "2895266577525661",
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "face", "offer", "script_twin"],
+    "unsure": [
+      "row",
+      "face",
+      "offer",
+      "script_twin"
+    ],
     "human_checked": false
   }
 }

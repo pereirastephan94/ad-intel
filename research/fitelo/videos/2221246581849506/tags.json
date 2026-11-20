@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Maine 21.5 kg weight loss kiya hai",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss programme, 10X cashback offer",
+    "one_line": "A named software engineer says she lost 21.5 kg from 88 kg, shown in phone photos, then a 10X cashback offer for the first 100 customers.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "deadline"
+    ],
+    "human_checked": false
+  }
+}

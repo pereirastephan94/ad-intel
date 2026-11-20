@@ -6,15 +6,17 @@
     "hook": "callout",
     "hook_text": "Aaj gym jaane ka mann nahi hai, toh mat jao.",
     "offer": "free",
-    "deadline": true,
+    "deadline": false,
     "angle": "feature",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "CF-c01",
     "product": "Cult membership from ₹1,199/month, 2 free group workouts",
-    "one_line": "A woman says skip the gym if you do not feel like it, shows strength, dance and yoga choices, and offers 2 free group workouts.",
+    "one_line": "Square cut: skip the gym if you do not feel like it, two free group workouts; card ₹1,199, ad names Prahlad Nagar.",
     "script_twin": "1111715114658510",
-    "offer_also": ["other"]
+    "offer_also": [
+      "price_from"
+    ]
   },
   "tagging": {
     "model": "sonnet",

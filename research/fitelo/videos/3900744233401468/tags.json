@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "want to lose WEIGHT FAST?",
+    "offer": "free",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Fitelo Smart Scale, free dietitian consultation",
+    "one_line": "A woman steps on a smart scale and checks the app, with captions asking 'want to lose WEIGHT FAST?' and offering a free dietitian consultation worth 500 rupees.",
+    "script_twin": null,
+    "offer_also": [
+      "discount"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "angle",
+      "deadline"
+    ],
+    "human_checked": false
+  }
+}

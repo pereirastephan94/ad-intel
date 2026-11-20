@@ -10,11 +10,13 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "CF-c01",
     "product": "Cult membership, two free group workouts, from ₹1,099/month",
-    "one_line": "A woman says skip the gym if you do not feel like it, shows strength, dance and yoga choices, and offers two free group workouts.",
+    "one_line": "A woman says skip the gym if you do not feel like it, then offers two free group workouts; card ₹1,099, no city.",
     "script_twin": null,
-    "offer_also": ["other"]
+    "offer_also": [
+      "price_from"
+    ]
   },
   "tagging": {
     "model": "sonnet",

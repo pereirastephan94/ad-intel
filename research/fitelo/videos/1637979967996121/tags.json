@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "90+ kg Weight and double XL size",
+    "offer": "cashback",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Weight-loss diet plan, 10X cashback offer",
+    "one_line": "A captioned story of a woman going from 98 kg to 68 kg, framed by a presenter who pitches 10X cashback for the first 100 customers.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

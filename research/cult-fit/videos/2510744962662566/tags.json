@@ -10,15 +10,23 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "CF-c01",
     "product": "Cult group workouts, two free classes, from ₹1,250/month",
-    "one_line": "A woman says skip the gym if you do not feel like it, shows strength, dance and yoga options, and offers two free group workouts.",
+    "one_line": "A woman says skip the gym if you do not feel like it, then two free workouts; card ₹1,250, ad names Amritsar.",
     "script_twin": "2594487204345894",
-    "offer_also": ["other"]
+    "offer_also": [
+      "price_from"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "angle", "production", "script_twin"],
+    "unsure": [
+      "row",
+      "hook",
+      "angle",
+      "production",
+      "script_twin"
+    ],
     "human_checked": false
   }
 }

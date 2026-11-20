@@ -10,15 +10,23 @@
     "angle": "feature",
     "language": "hinglish",
     "production": "high_film",
-    "concept_id": null,
+    "concept_id": "CF-c01",
     "product": "Cult group workouts, two free classes, from ₹1,291/month",
-    "one_line": "A woman says skip the gym if you do not feel like it, shows strength, dance and yoga options, and offers two free group workouts.",
+    "one_line": "A woman says skip the gym if you do not feel like it, then two free workouts; card ₹1,291, ad names Chandigarh.",
     "script_twin": "2510744962662566",
-    "offer_also": ["other"]
+    "offer_also": [
+      "price_from"
+    ]
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["row", "hook", "angle", "production", "script_twin"],
+    "unsure": [
+      "row",
+      "hook",
+      "angle",
+      "production",
+      "script_twin"
+    ],
     "human_checked": false
   }
 }
