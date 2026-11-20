@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Join the Founding Cohort of Mesa's Online PGP",
+    "offer": "other",
+    "deadline": true,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s04",
+    "product": "Ascend, online PGP founding cohort, 12 months",
+    "one_line": "Invitation to join the founding cohort of the Online PGP, over a smiling woman in a Mesa polo, with 12 months and Apply Now.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

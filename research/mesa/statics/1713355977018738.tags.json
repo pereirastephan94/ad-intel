@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Top International Fresher Offer.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s26",
+    "product": "PGP, full-time, AI fresher job story",
+    "one_line": "Named Cohort 3 student story: a non-tech fresher who learned AI and landed a voice AI startup role.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

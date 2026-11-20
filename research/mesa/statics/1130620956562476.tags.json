@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "A PGP on weekends",
+    "offer": "none",
+    "deadline": true,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s01",
+    "product": "Ascend, weekend hybrid PGP, 10 hours a week",
+    "one_line": "Three struck-through lines (quit your job, move cities, pause your career) lead to the big line \"A PGP on weekends\", over a large photo.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I3",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "71% Made a Career Pivot",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s11",
+    "product": "PGP, full-time, career pivot outcomes",
+    "one_line": "Big \"71% Made a Career Pivot\" over three named alumni cards showing previous employer and what each does now.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

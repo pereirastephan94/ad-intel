@@ -1,0 +1,32 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "THE BEST TIME TO UPGRADE IS NOW",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Intellon water purifier, up to ₹13,000 savings",
+    "one_line": "A white card tells viewers now is the best time to upgrade, listing card offers, exchange offers and 2 years without service cost, saving up to ₹13,000 on Amazon or Flipkart.",
+    "script_twin": null,
+    "offer_also": [
+      "other",
+      "free"
+    ],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

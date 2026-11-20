@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "celebrity_named",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Learn business from top faculty and the founders who've done it.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s09",
+    "product": "Ascend, weekend hybrid PGP, taught by founders",
+    "one_line": "Headline pairs top faculty with founders who have done it, over a photo carrying a name card for a named Shark Tank India judge.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Build a Business That Can Make ₹5 Lakh in Revenue",
+    "offer": "other",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s08",
+    "product": "Ascend, weekend online PGP, 5L in 8 weeks",
+    "one_line": "Headline says you can build a business that makes 5 lakh rupees in revenue, with a photo of a man presenting a pricing slide.",
+    "script_twin": null,
+    "offer_also": [
+      "discount"
+    ],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

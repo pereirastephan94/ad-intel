@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Inno 2020, normal fan tha use pan rengal, pa itha kanti pa bakanam.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:tamil",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Renesa BLDC pedestal fan, saves up to Rs 400",
+    "one_line": "A Tamil-speaking presenter runs through the Renesa pedestal fan specs (BLDC, 57 dB, 1500 rpm, 6 speeds, remote) and claims it saves up to Rs 400 each summer.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "hook_text", "angle", "production", "language"],
+    "human_checked": false
+  }
+}

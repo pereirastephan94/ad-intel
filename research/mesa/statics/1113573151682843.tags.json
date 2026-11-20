@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Build a business from scratch in your first 8 weeks",
+    "offer": "other",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s07",
+    "product": "Ascend, weekend PGP, first business in 8 weeks",
+    "one_line": "Headline promises a business from scratch in 8 weeks, over two stall photos, with chips: 1 lakh capital, 5 lakh target, teams of 3.",
+    "script_twin": null,
+    "offer_also": [
+      "discount"
+    ],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

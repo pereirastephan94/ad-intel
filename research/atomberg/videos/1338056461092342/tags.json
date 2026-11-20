@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Chutney peesne Atomberg ka chikna mixer laaye, chamkeela mixer laaye.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Atomberg Zenova BLDC mixer grinder, Coarse Mode",
+    "one_line": "A comic rhyming monologue in several costumes sells the Atomberg mixer's sil-batta coarse mode and chopper jar as a gift for mummyji.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

@@ -13,12 +13,20 @@
     "concept_id": null,
     "product": "Atomberg Zenova BLDC mixer grinder",
     "one_line": "Macro demo of the Zenova mixer grinder: coarse mode paste, chopper jar, no auto restart and jar lock detection, with Telugu-English voiceover.",
-    "script_twin": null,
+    "script_twin": "2280223146057872",
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": ["hook", "hook_text", "angle", "face", "language", "production"],
+    "unsure": [
+      "hook",
+      "hook_text",
+      "angle",
+      "face",
+      "language",
+      "production",
+      "script_twin"
+    ],
     "human_checked": false
   }
 }

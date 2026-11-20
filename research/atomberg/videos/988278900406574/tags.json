@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "For years, water purifier maintenance has worked like a black box.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Intellon Adaptive RO, app filter monitoring",
+    "one_line": "A bearded presenter says water purifier servicing is a black box with 5,000 to 6,000 rupee bills and shows the Intellon app tracking each filter, with no price or offer.",
+    "script_twin": "2292270328233544",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

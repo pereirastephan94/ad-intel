@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Unlock AI-Powered Career Paths",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s14",
+    "product": "PGP, full-time, AI career paths",
+    "one_line": "Headline \"Unlock AI-Powered Career Paths\" over three named alumni with their job titles and employers.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

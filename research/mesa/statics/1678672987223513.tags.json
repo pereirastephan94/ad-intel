@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "An International Founder's Office role.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s22",
+    "product": "PGP, full-time, Dubai Founder's Office story",
+    "one_line": "Named Cohort 3 student story: an architect who moved into a Founder's Office role in Dubai after the PGP.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

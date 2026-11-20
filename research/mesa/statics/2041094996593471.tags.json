@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "founder_declared",
+    "founder_evidence": "SPEAKER Varun Limaye, Co founder, Mesa",
+    "hook": "question",
+    "hook_text": "Thinking About Your Next Move?",
+    "offer": "free",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s30",
+    "product": "Ascend, free live info session, 22 Nov",
+    "one_line": "Question headline for a live info session on 22 Nov at 12 PM IST, with a speaker card naming a Mesa co-founder, and Register Now.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

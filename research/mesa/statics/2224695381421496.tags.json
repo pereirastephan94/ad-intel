@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "SOLVED A CHALLENGE, BUILT A CAREER",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s32",
+    "product": "PGP, full-time, live project to job story",
+    "one_line": "Named student card: a live project at Nugget by Zomato became a Solutions Engineer role, under \"Solved a challenge, built a career\".",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

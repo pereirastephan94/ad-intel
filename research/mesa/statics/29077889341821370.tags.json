@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Founding Online PGP Cohort",
+    "offer": "other",
+    "deadline": true,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s16",
+    "product": "Ascend, online PGP founding cohort, starts 2027",
+    "one_line": "Type-only card with \"Founding Online PGP Cohort\", \"Cohort Starting in 2027\" and an Apply Now button.",
+    "script_twin": null,
+    "offer_also": [
+      "discount"
+    ],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [],
+    "human_checked": false
+  }
+}

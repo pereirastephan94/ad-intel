@@ -1,6 +1,6 @@
 # Woman fits an Atomberg Studio exhaust fan in a bathroom (1583338759969414)
 - Creative name: not in link
-- Product or programme: Atomberg Studio exhaust fan (spoken), "Atomberg BLDC exhaust fans" (ad text), end card "Exhaust Fans"; dark wood-effect front panel shown. Size and model number not stated
+- Product or programme: Atomberg Studio exhaust fan (spoken), "Atomberg BLDC exhaust fans" (ad text); dark wood-effect panel. Size not stated
 - Length, shape: 44.1 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish (mostly English with a few Hindi phrases)
 - Format: acted home scene with voiceover, product close-ups and caption callouts
@@ -8,7 +8,7 @@
   - https://www.facebook.com/ads/library/?id=2196136394504676
 
 ## Script (verbatim)
-Voiceover in the first person. The Devanagari stretches in the main transcript were garbled, so 28-40.5 s is taken from the first-pass English transcript and marked [?].
+Voiceover. The main transcript was garbled after 28 s, so those lines come from the first-pass transcript [?].
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -28,22 +28,20 @@ Voiceover in the first person. The Devanagari stretches in the main transcript w
 | 40.5-44.1 | No speech; end card. | |
 
 ## First 3 seconds
-0 to 2 s: four near-identical wide shots of an empty tiled grey bathroom (water heater, plant shelf, basin), slow push in. 3 s: a woman in pink floral nightwear and a head towel steps out of the door. No text overlay. Voice from 0 s names a problem. Hook: problem.
+Four near-identical wide shots of an empty tiled bathroom (0 to 2 s), then a woman in pink floral nightwear and a head towel steps out (3 s). No text. Voice names a problem. Hook: problem.
 
 ## Person on screen
-Unnamed; no caption, lower-third or ad text names her. Apparent age 30s. At 3 s: pink floral pyjama set, towel wrapped on her head, looking down. Later: white t-shirt, blue wide-leg jeans, long dark hair, glasses, black smartwatch. Calm, practical. She never looks at the lens or speaks on screen; the voice is a voiceover.
+Unnamed; no caption or ad text names her. Apparent age 30s. Pink floral pyjamas with a towel on her head, later a white t-shirt, blue jeans, glasses, smartwatch, long dark hair. Calm, never looks at the lens; the voice is a voiceover.
 
 ## Setting, framing and look
-Two real homes: a grey-tiled bathroom with a wall-hung toilet, and a lounge with a sofa and orange flowers. Mostly static medium and wide shots, plus hand close-ups of the box (4.9 s), the back flap (14.5 s) and the fan in the window (25.4 s). Soft daylight, clean grade, tidy and polished. White flash transitions at 19.4 and 22.4 s, then a studio product shot on a pale background.
+A grey-tiled bathroom and a lounge, soft daylight, clean grade. Mostly static medium shots, plus hand close-ups of the box (4.9 s), back flap (14.5 s) and fan in the window (25.4 s). White flash transitions at 19.4 and 22.4 s.
 
 ## On-screen text, captions, logos, graphics
-- 25.4 s: blue pill "BLDC motor".
-- 28.6 s: blue pill "6.8 Watts".
-- Box and fan show a small Atomberg logo only.
-- End card (37.4 s on): Atomberg logo with "Why not?", blue pill "Exhaust Fans", search bar "www.atomberg.com", the fan, and "Also available on" Amazon, Flipkart, Zepto, Instamart, Blinkit.
+- 25.4 s: blue pill "BLDC motor". 28.6 s: pill "6.8 Watts".
+- End card (37.4 s on): Atomberg logo and "Why not?", pill "Exhaust Fans", "www.atomberg.com", "Also available on" Amazon, Flipkart, Zepto, Instamart, Blinkit.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 11 cuts in 44.1 s (2.49 per 10 s), first cut 2.37 s, 2 cuts in the first 5 s. 173 words per minute, speech share 0.92, 3.5 s of gaps, tempo 129 bpm; software suggests a music or sound bed under the voice.
+Measured by software, not heard, so genre and track cannot be named. 11 cuts in 44.1 s (2.49 per 10 s), first cut 2.37 s, 2 in the first 5 s. 173 words per minute, speech share 0.92, tempo 129 bpm; software suggests a sound bed under the voice.
 
 ## Structure
 | Time | Beat | What happens |
@@ -54,24 +52,20 @@ Measured by software, not heard, so genre and track cannot be named. 11 cuts in 
 | 37.4-44.1 | CTA | End card with site and five retailers. |
 
 ## Claims and proof
-- "Silent": no sound comparison or decibel figure shown.
-- "6.8W ... even less than an LED bulb": caption "6.8 Watts" backs the number only. No bulb wattage and no small print.
-- "Easily installed": the 14.5 s shot is the fan seated in the window, no steps shown.
-- "Air clears out in seconds": heard only, no demonstration.
-- No price, discount, warranty, star rating or savings figure anywhere. The ad text claims "foul odour" removal, which the voice never mentions.
+- "Silent": no decibel figure or comparison.
+- "6.8W ... less than an LED bulb": caption "6.8 Watts" shows the number only; no bulb wattage, no small print.
+- "Easily installed", "air clears in seconds": heard only.
+- No price, discount, warranty, star rating or savings. The ad text promises "foul odour" removal; the voice never mentions it.
 
 ## Offer and call to action
 No spoken CTA. End card: www.atomberg.com plus Amazon, Flipkart, Zepto, Instamart, Blinkit. Button "Shop now", headline "Upgrade To Atomberg", link description "Upgrade to Atomberg BLDC exhaust fans", landing page https://atomberg.com/exhaust-fans. Ad text: "Say goodbye to moisture and foul odour with a stylish upgrade: Atomberg BLDC exhaust fans! Upgrade now"
 
 ## Why it may work, and where it is weak
 Works:
-- Opens on a relatable pain and a clean, good-looking bathroom.
-- Flap and design points are shown in hand.
-- End card lists quick-commerce apps, lowering the effort to buy.
+- Relatable pain, good-looking bathroom, flap shown in hand.
+- End card names five retailers.
 
 Weak:
-- No price, savings or warranty.
-- The model is named only as "Studio", with no size.
-- The 6.8 W claim has no bulb comparison.
-- Unnamed actor, so no trust cue.
-- The first 2 s show an empty room.
+- No price, savings or warranty; model only "Studio", no size.
+- 6.8 W has no bulb comparison.
+- Unnamed actor; the first 2 s show an empty room.

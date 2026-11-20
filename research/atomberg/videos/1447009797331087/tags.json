@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Har saal aro wale bhaiya aajthe hai, bolte hai aamc karwa lo, nek to bill badhega jada.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Intellon RO purifier, filter-health app",
+    "one_line": "A selfie speaker says the yearly RO AMC visit hides which filter is bad; Intellon's app shows each filter's health so you replace only what is damaged.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

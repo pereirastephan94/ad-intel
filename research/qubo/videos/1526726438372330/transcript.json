@@ -1,0 +1,42 @@
+{
+ "asset": "1526726438372330",
+ "first_seen_in": "1514583869585266",
+ "duration_s": 5.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We're back in shape.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7.8,
+    "text": "We're back in shape."
+   }
+  ]
+ }
+}

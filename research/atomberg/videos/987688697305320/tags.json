@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "creator",
+    "founder_evidence": "creative name in ad link: 'Fans Ceiling | Video | Payal | Hook 2 | Hindi | Category Page| 035_AS05'; app screen shows 'Payal' on its profile tab; utm_term ends 'Renesa-UGC-Videos'",
+    "hook": "story_open",
+    "hook_text": "To bhai merko na, ghar liye gaya [?] ek saal ho gaya.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Renesa Halo smart BLDC ceiling fan",
+    "one_line": "A UGC unboxing of three Atomberg fans, saying they run from Alexa, the app and a remote; the headline's Rs 1,500 yearly saving is never mentioned in the video.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

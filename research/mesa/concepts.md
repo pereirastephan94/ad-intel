@@ -69,3 +69,54 @@ Library ids are the first ad of the video named; every ad on the same asset repe
 - **Cohort wording.** c23 says "the fifth cohort" (1518020923712110, 2199957264231150) and the c11 and c19 ad text says "Applications open for the 5th cohort", while the c02 ad text says "Cohort 2028 applications are open" (1358399446249615).
 - **Rhetorical figures stated as fact.** "Almost 95% of jobs in MNCs" and an average company of 30 employees (c02), "90% of mid-career professionals" and "100% going to become irrelevant" (c16, 1660152285750346), "99.9% of companies fail in the mind" (c18, 1130619536495111), "only 0.001% of people" (c21) and "less than 5% of applicants get an offer" (c25, 1512248814079802) carry no source or definition in any video.
 - **Programme named differently across the same shoot.** The c20 interview is Ascend in 2034753867202742 (landing page `/ascend`) and a full-time PGP in 2224966578082934 (homepage), with the same speech and a different end card. The Ascend speech never says "Ascend"; it says "the hybrid PGP in business, AI and entrepreneurship".
+
+## Image ad ideas
+
+115 image ads (Ascend and PGP; no Undergraduate image ads) fall into 33 ideas, tagged MS-s01 to MS-s33. The "s" marks image ideas so they do not clash with the video ideas MS-c01 to MS-c30. Row: I2 product or people, I3 proof. No image is offer-led (I1). The same headline and photo in different layouts counts as one idea.
+
+| Concept | Headline on the image | Row | Programme | Ads | Idea |
+|---|---|---|---|---|---|
+| MS-s01 | A PGP on weekends | I2 | Ascend | 5 | Three struck-through sacrifices (quit, move, pause) end on "A PGP on weekends". |
+| MS-s02 | BYOB | I2 | PGP | 2 | Giant BYOB lettering over two students at a stall, with an 80L+ revenue starburst and student brand logos. |
+| MS-s03 | What If You Could Build Your Own Startup Without Quitting Your Job? | I2 | Ascend | 11 | A "what if" question: build a startup without quitting your job (four layouts, one photo). |
+| MS-s04 | Join the Founding Cohort of Mesa's Online PGP | I2 | Ascend | 4 | Invitation to join the founding cohort of the Online PGP, over a smiling woman in a Mesa polo. |
+| MS-s05 | You Don't Have to Quit Your Job to Learn to Build | I2 | Ascend | 15 | Reassurance that you need not quit your job to learn to build, over a photo (four layouts). |
+| MS-s06 | Started as an Intern. Now Marketing Lead at Comet. | I2 | PGP | 1 | Named 2025 graduate story: intern to Marketing Lead at Comet. |
+| MS-s07 | Build a business from scratch in your first 8 weeks | I2 | Ascend | 1 | Build a business from scratch in 8 weeks, with capital, target and team-size chips. |
+| MS-s08 | Build a Business That Can Make ₹5 Lakh in Revenue | I2 | Ascend | 7 | Build a business that can make 5 lakh in revenue, shown with a pricing slide. |
+| MS-s09 | Learn business from top faculty and the founders who've done it. | I2 | Ascend | 3 | Top faculty plus founders who have done it, with a named Shark Tank India judge on the photo. |
+| MS-s10 | Become the AI-native operator at work | I2 | Ascend | 4 | Become the AI-native operator at work: 8-week project and a skills list. |
+| MS-s11 | 71% Made a Career Pivot | I3 | PGP | 3 | "71% made a career pivot" over three named alumni cards. |
+| MS-s12 | Build your startup. Pitch it to 25+ VCs on Demo Day. | I2 | Ascend | 6 | Build a startup and pitch it to 25+ VCs on Demo Day. |
+| MS-s13 | Spend a week inside the world's startup hubs. | I2 | Ascend | 8 | Optional week inside startup hubs abroad, with two polaroid photos. |
+| MS-s14 | Unlock AI-Powered Career Paths | I2 | PGP | 1 | AI-powered career paths, shown by three named alumni and their jobs. |
+| MS-s15 | You've mastered your role, now lead the whole business | I2 | Ascend | 4 | Speaks to specialists who have mastered one role and want to lead the whole business. |
+| MS-s16 | Founding Online PGP Cohort | I2 | Ascend | 6 | Type-only founding cohort card, "Cohort Starting in 2027" (plain and blurred backgrounds). |
+| MS-s17 | Founder's Office, Product, Strategy | I2 | PGP | 1 | Founder's Office, Product and Strategy role pills over a classroom photo. |
+| MS-s18 | 58% of Mesa graduates land in founder-facing roles | I3 | PGP | 4 | Huge 58% of graduates in founder-facing roles, beside a cheering group photo. |
+| MS-s19 | Not another MBA. A PGP where you learn business and build one. | I2 | Ascend | 4 | "Not another MBA": learn business and build one, with two polaroids. |
+| MS-s20 | JOIN THE NEXT 200 STARTUP LEADERS | I2 | PGP | 1 | Join the next 200 startup leaders: AI-focused, learn by building, CXO-led. |
+| MS-s21 | Generate 5L in just 8 Weeks | I2 | Ascend | 5 | Generate 5L in just 8 weeks by building and selling a first product. |
+| MS-s22 | An International Founder's Office role. | I2 | PGP | 3 | Named Cohort 3 student: architect to an international Founder's Office role in Dubai. |
+| MS-s23 | 2.8x average salary jump post Mesa's PGP in Startup Leadership | I3 | PGP | 1 | Huge 2.8x average salary jump over a graduation photo. |
+| MS-s24 | Learn Business Online | I2 | Ascend | 1 | Free live info session, "Learn Business Online", 22 Nov on Zoom. |
+| MS-s25 | Join the Founding Online PGP Cohort | I2 | Ascend | 4 | Founding cohort with early bird closing 26 November 2026. |
+| MS-s26 | Top International Fresher Offer. | I2 | PGP | 2 | Named Cohort 3 fresher: non-tech background to a voice AI startup job. |
+| MS-s27 | The only B-school where your startup is the syllabus | I2 | PGP | 1 | The only B-school where your startup is the syllabus. |
+| MS-s28 | Where startups become your classroom | I2 | PGP | 1 | Where startups become your classroom. |
+| MS-s29 | WHERE CAN YOUR AI SKILLS TAKE YOU? | I2 | PGP | 1 | Question to tech people: where can your AI skills take you? with role pills. |
+| MS-s30 | Thinking About Your Next Move? | I2 | Ascend | 1 | Info session question for professionals weighing an MBA, a switch or a startup, with a named co-founder card. |
+| MS-s31 | Don't Quit Your Job. | I2 | Ascend | 1 | Info session with the order "Don't Quit Your Job." on 22 Nov. |
+| MS-s32 | SOLVED A CHALLENGE, BUILT A CAREER | I2 | PGP | 1 | Named student: live project at Nugget by Zomato became a Solutions Engineer role. |
+| MS-s33 | Career coach from month one, and a network of founders you keep for life. | I2 | Ascend | 2 | Career coach from month one and a lifelong founder network. |
+
+Image themes by ad count (s31 is an info session ad but is counted under the quit-your-job theme):
+
+- 32 ads: Quit-your-job reassurance (s05, s03, s01, s31)
+- 22 ads: Programme positioning: not an MBA, startup as syllabus or classroom, faculty, AI, career coach, roles (s19, s27, s28, s09, s10, s15, s17, s20, s29, s33)
+- 16 ads: Graduate outcome stories and stats (s06, s11, s14, s18, s22, s23, s26, s32)
+- 14 ads: Startup-world exposure: hubs, Demo Day, VCs (s13, s12)
+- 14 ads: Founding cohort and early bird (s16, s25, s04)
+- 13 ads: Build a business fast, with a revenue number (s08, s21, s07)
+- 2 ads: Student business showcase (s02)
+- 2 ads: Info sessions with the co-founder (s24, s30)

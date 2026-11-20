@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Generate 5L in just 8 Weeks",
+    "offer": "other",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": "MS-s21",
+    "product": "Ascend, weekend online PGP, 5L in 8 weeks",
+    "one_line": "Headline says generate 5 lakh in just 8 weeks by building and selling a first product, over a man presenting a pricing slide.",
+    "script_twin": null,
+    "offer_also": [
+      "discount"
+    ],
+    "ad_text_missing": false
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

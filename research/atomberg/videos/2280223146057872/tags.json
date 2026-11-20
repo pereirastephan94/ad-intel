@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Yeh la metha ka grind chesku naaka, vepuku naati vanti kobrai, taginaani neelu cherch kundu course mode lu grind chiye.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:telugu",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Atomberg Zenova BLDC mixer grinder",
+    "one_line": "A food-macro demo of the Zenova mixer grinder: coarse mode grinding for chutney, chopper jar, jar lock detection, with Telugu-English voiceover.",
+    "script_twin": "1734208864565390",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "hook_text", "angle", "face", "language", "script_twin"],
+    "human_checked": false
+  }
+}

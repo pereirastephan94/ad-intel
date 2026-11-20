@@ -1,14 +1,14 @@
 # Presenter explains the Intellon adaptive RO water purifier (1595681835364631)
 - Creative name: not in link
-- Product or programme: Atomberg Intellon adaptive RO water purifier (ad text "Atomberg Intellon is an Adaptive RO"; transcript spells it "Intelon"). Wall-mounted black unit with a round display
+- Product or programme: Atomberg Intellon adaptive RO water purifier (transcript spells it "Intelon"); wall-mounted black unit
 - Length, shape: 57.2 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish, with burned-in English captions
-- Format: man talking to camera on a lit set, with split-screen product and animation inserts
-- Ads using it: 1, earliest start 2026-10-01, total copies 1; links:
+- Format: man to camera on a lit set, split-screen inserts
+- Ads using it: 1, earliest start 2026-10-01, copies 1; links:
   - https://www.facebook.com/ads/library/?id=1100991832415673
 
 ## Script (verbatim)
-From 26 s the main transcript is in Devanagari, so it is romanised here from the first-pass text and sound sense and marked [?]. Captions are English translations of the speech.
+From 26 s I romanised the Devanagari from the first-pass text [?]. Captions are English translations.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -32,50 +32,44 @@ From 26 s the main transcript is in Devanagari, so it is romanised here from the
 | 51.4-57.2 | No speech; logo end card. | |
 
 ## First 3 seconds
-A man in a black V-neck t-shirt, hands together then moving, looks near the lens; dark brick and window-blind set with warm light. A red graphic block wipes in at 0 s. Caption "It is not necessary that" then "the water source of your" and "house is always the same." Hook: a flat statement setting up a problem, no number or offer.
+A man in a black V-neck t-shirt, hands moving, looks near the lens on a dark brick set; a red graphic block wipes in. Caption: "It is not necessary that the water source of your house is always the same." Hook: a flat setup statement.
 
 ## Person on screen
-Unnamed: no caption, lower-third or ad text names him. Apparent age late 20s to 30s, styled swept-up brown hair, trimmed beard, black fitted V-neck t-shirt. Serious, explaining tone, expressive hands, eyes mostly near the lens.
+Unnamed: no caption, lower-third or ad text names him. Apparent age late 20s to 30s, swept-up brown hair, trimmed beard, black fitted V-neck. Serious, explaining tone, expressive hands, eyes near the lens.
 
 ## Setting, framing and look
-Medium close-up, static, low-key amber lighting, shallow depth of field: a dressed interview-style set. From 14.9 s the frame splits, man on top and product or animation below: RO, UF and UV cartridges glowing; a pipe labelled "CA NA MG"; a full-frame unit with display "000" and "FUL"; a hand filling a bottle; a unit on a kitchen wall.
+Static medium close-up, low-key amber light, interview-style set. From 14.9 s the frame splits: man on top, below it glowing RO, UF and UV cartridges, a pipe labelled "CA NA MG", the unit with display "FUL", a bottle being filled.
 
 ## On-screen text, captions, logos, graphics
-- Full-sentence white captions mid-frame, no highlight words.
-- 15 s: Atomberg logo over the unit. Animated label "Dynamic ..." (cut off) at 23.8 s.
+- Full-sentence white captions, no highlight words.
+- 15 s: Atomberg logo over the unit.
 - End card (44 to 57 s): Atomberg logo and "Why not?" on white. No site, retailer, price or small print.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 10 cuts in 57.2 s (1.75 per 10 s), first cut 14.9 s, none in the first 5 s. 163 words per minute, speech share 0.87, 7.7 s of gaps, tempo 108 bpm; software suggests a sound bed. The last 2 s are digital silence.
+Measured by software, not heard, so genre and track cannot be named. 10 cuts in 57.2 s (1.75 per 10 s), first cut 14.9 s, none in the first 5 s. 163 words per minute, speech share 0.87, tempo 108 bpm; software suggests a sound bed. The last 2 s are silent.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-21 | Hook, problem | Water changes by season; one RO treats all alike. |
+| 0-21 | Hook, problem | Water varies; one RO treats all alike. |
 | 21-39 | Mechanism | Adaptive RO picks UV+UF or RO+UV. |
-| 39-51 | Offer, proof | 2-year no-service-cost, 25,000 saving. |
+| 39-51 | Offer, proof | 2-year warranty, 25,000 saving. |
 | 51-57 | CTA | Silent logo card. |
 
 ## Claims and proof
-- "Adaptive RO ... selects purification": the animation shows cartridges lit, no test data.
-- "UV plus UF for low TDS, RO plus UV for high TDS": matches the ad text; no TDS figures given.
-- "Minerals retained", "water saved": no figures.
-- "First two years no service cost": matches the ad text "2 years, no service cost". No terms shown.
-- "About 25,000 rupees saving in 8 years": spoken and half captioned; the ad text omits it and no basis or small print is shown.
-- No price, discount or retailer anywhere.
+- "Adaptive RO selects purification": the animation lights cartridges; no test data or TDS figures.
+- "Two years no service cost": matches the ad text; no terms shown.
+- "About 25,000 rupees saved over 8 years": spoken and half captioned; absent from the ad text; no basis or small print.
+- "Minerals retained", less water wasted: no figures. No price or retailer.
 
 ## Offer and call to action
-No spoken CTA and no site or retailer on the end card. Button "Learn more", headline "RO That Adapts to Your Water", landing page https://atomberg.com/products/intellon-waterpurifier. Ad text: "Tanker in summer. Borewell in a shortage. Muddy supply in monsoon. Why should your RO treat all of it the same way? 💧 / Atomberg Intellon is an Adaptive RO. It analyses your source water and picks the purification it needs: UV+UF for low TDS, RO+UV for high TDS. / ✅ Essential minerals retained / ✅ Less water wasted / ✅ 2 years, no service cost"
+No spoken CTA; the end card has no site or retailer. Button "Learn more", headline "RO That Adapts to Your Water", landing page https://atomberg.com/products/intellon-waterpurifier. Ad text: "Tanker in summer. Borewell in a shortage. Muddy supply in monsoon. Why should your RO treat all of it the same way? 💧 / Atomberg Intellon is an Adaptive RO. It analyses your source water and picks the purification it needs: UV+UF for low TDS, RO+UV for high TDS. / ✅ Essential minerals retained / ✅ Less water wasted / ✅ 2 years, no service cost"
 
 ## Why it may work, and where it is weak
 Works:
-- The seasonal water story is specific to Indian homes.
-- One clear idea: the purifier adapts to the water.
-- Concrete rupee saving and 2-year warranty.
+- A seasonal water story specific to Indian homes.
+- One clear idea, a rupee saving, a 2-year promise.
 
 Weak:
-- First cut at 14.9 s and a flat, lecture-like open.
-- Silent, bare end card with no CTA, site or retailer.
-- The 8-year ₹25,000 figure has no basis shown.
-- Product shown from 15 s only.
-- No price.
+- First cut at 14.9 s; lecture-like open.
+- Silent end card, no CTA; the 8-year figure has no basis.

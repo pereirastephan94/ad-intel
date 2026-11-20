@@ -2,7 +2,7 @@
 - Creative name: not in link
 - Product or programme: Atomberg Zenova BLDC mixer grinder (spoken "Atomberg Zenova Mixer grinder"; headline "Atomberg Zenova BLDC"). Burgundy body with a "COARSE / PULSE" dial and four jars
 - Length, shape: 28.3 s, vertical 9:16 (720 x 1280)
-- Language: Telugu and English mixed, with English caption tags
+- Language: Telugu and English mixed, with English caption tags (script twin: 2280223146057872)
 - Format: product demo with voiceover and macro food shots
 - Ads using it: 1, earliest start 2026-08-10, total copies 1; links:
   - https://www.facebook.com/ads/library/?id=28024802573817859
