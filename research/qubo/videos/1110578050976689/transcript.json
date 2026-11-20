@@ -1,0 +1,127 @@
+{
+ "asset": "1110578050976689",
+ "first_seen_in": "1828691691913803",
+ "duration_s": 36.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.1,
+   "why": "scene change"
+  },
+  {
+   "t": 6.8,
+   "why": "scene change"
+  },
+  {
+   "t": 7.6,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 11,
+   "why": "scene change"
+  },
+  {
+   "t": 21.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 26.1,
+   "why": "scene change"
+  },
+  {
+   "t": 31.9,
+   "why": "scene change"
+  },
+  {
+   "t": 36.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "So recently I got the cubeu video doorbell throw and it's honestly a game jago And now when someone rings the bell I just get a call on my phone I can see them even doctor them rather than home or not And when I'm home I don't have to get up again and again And if I'm out like at work or something I still don't miss anything I knew what the best part is, instillation was super easy at work They just came here and replaced my old doorbell No wiring, no drilling, nothing So I'm even installed it so soon And what they needed for me was just life right",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.1,
+    "text": "So recently I got the cubeu video doorbell throw and it's honestly a game jago"
+   },
+   {
+    "start": 5.1,
+    "end": 8.7,
+    "text": "And now when someone rings the bell I just get a call on my phone"
+   },
+   {
+    "start": 8.7,
+    "end": 11.7,
+    "text": "I can see them even doctor them rather than home or not"
+   },
+   {
+    "start": 11.7,
+    "end": 15,
+    "text": "And when I'm home I don't have to get up again and again"
+   },
+   {
+    "start": 15,
+    "end": 19,
+    "text": "And if I'm out like at work or something I still don't miss anything"
+   },
+   {
+    "start": 19,
+    "end": 22.7,
+    "text": "I knew what the best part is, instillation was super easy at work"
+   },
+   {
+    "start": 22.7,
+    "end": 25.3,
+    "text": "They just came here and replaced my old doorbell"
+   },
+   {
+    "start": 25.3,
+    "end": 27.1,
+    "text": "No wiring, no drilling, nothing"
+   },
+   {
+    "start": 27.1,
+    "end": 29.1,
+    "text": "So I'm even installed it so soon"
+   },
+   {
+    "start": 29.1,
+    "end": 31.9,
+    "text": "And what they needed for me was just life right"
+   }
+  ]
+ }
+}

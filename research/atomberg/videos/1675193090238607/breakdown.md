@@ -1,6 +1,6 @@
 # Chef-style Coarse Mode demo of the Atomberg Zenova BLDC mixer grinder (1675193090238607)
 - Creative name: not in link
-- Product or programme: Atomberg Zenova BLDC mixer grinder with Coarse Mode (headline "Atomberg Zenova BLDC")
+- Product or programme: Atomberg Zenova BLDC mixer grinder, Coarse Mode
 - Length, shape: 65.6 s, vertical 9:16 (720 x 1280)
 - Language: unclear (second pass came out partly in Tamil script; not confirmed)
 - Format: cooking demo on a branded kitchen set, no captions
@@ -23,7 +23,7 @@ A man at a counter sieves coarse ground spice, speaking and looking at his hands
 Printed on his shirt and the set sign: "CHEF DEENA'S KITCHEN"; no caption or ad text names him, so no name is given. Apparent age 30s to 40s, short dark hair, light stubble, dusty-pink kurta-style shirt, gold bangle, steel watch, lapel mic. Animated, mostly looks at his hands.
 
 ## Setting, framing and look
-A built kitchen set with lit shelves, clay pots and a lit sign (11.8 s, empty set, split-screen). Static medium shots, warm grade, peach flash transitions. Close-ups: sieve (20.4 s), red Atomberg mixer with a "COARSE 0 1 2 3 PULSE" dial lit blue (24 s), seeds, pastes (44.2 s, 54.8 s).
+A built kitchen set with lit shelves, clay pots and a lit sign (11.8 s, empty set, split-screen). Static medium shots, warm grade. Close-ups: sieve (20.4 s), red Atomberg mixer with a "COARSE 0 1 2 3 PULSE" dial lit blue (24 s), seeds, pastes (44.2 s, 54.8 s).
 
 ## On-screen text, captions, logos, graphics
 - No captions, price cards or stat cards.
@@ -42,8 +42,8 @@ Measured by software, not heard, so genre and track cannot be named. 26 cuts in 
 
 ## Claims and proof
 - Nothing legible is claimed on screen or in sound.
-- Ad text claims with no caption or readable speech behind them: "India's first BLDC Mixer Grinder", "Powerful BLDC Motor", "no accidental spills, no auto-restarts", "Ventless Design". Only the Coarse dial is visible.
-- First-pass "5-10 minutes" is unverified. No price, warranty or retailer.
+- Ad text claims with no caption or readable speech behind them: "India's first BLDC Mixer Grinder", "Powerful BLDC Motor", "no auto-restarts", "Ventless Design". Only the Coarse dial is visible.
+- No price, warranty or retailer.
 
 ## Offer and call to action
 No visible or readable CTA. Button "Shop now", landing page https://atomberg.com/atomberg-zenova-mixer-grinder-with-coarse-mode. Ad text: "Introducing Atomberg Mixer Grinder -  India's first BLDC Mixer Grinder - designed for better textures, enhanced safety, and a sleek, modern look! / ⚡ Powerful BLDC Motor - Energy-efficient yet high-performance grinding / ✨ Coarse Mode™ - Perfect textures for chutneys, masalas & dips / 🛡 Advanced Safety Features - No accidental spills, no auto-restarts after power cuts / 💨 Sleek & Ventless Design - Compact, easy to clean & fits any kitchen / Elevate your cooking game today! Shop Now."
