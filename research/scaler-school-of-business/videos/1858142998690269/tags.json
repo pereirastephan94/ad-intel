@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yaar ek baat batata hun, whenever I am investing in Shark Tank or hiring, I don't care ki kaunse college se MBA kiya, kya degree hai,",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month full-time",
+    "one_line": "An unlabelled man in a tan jacket says he does not care which college you attended when investing or hiring, and that SSB teaches the skills most B-schools do not.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
