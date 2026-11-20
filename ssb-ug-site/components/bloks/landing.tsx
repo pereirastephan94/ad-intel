@@ -186,10 +186,15 @@ export function StoryCard({ c, dark }: { c: Blok; dark?: boolean }) {
         {src(c.image) ? (
           <Img asset={c.image} className="h-full w-full object-cover" />
         ) : (
-          <svg viewBox="0 0 200 200" className="absolute -right-10 -top-10 h-56 w-56 text-white/10" aria-hidden>
-            <circle cx="100" cy="100" r="98" fill="none" stroke="currentColor" strokeWidth="1.5" />
-            <circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" strokeWidth="1.5" />
-          </svg>
+          <>
+            <svg viewBox="0 0 200 200" className="absolute -right-10 -top-10 h-56 w-56 text-white/10" aria-hidden>
+              <circle cx="100" cy="100" r="98" fill="none" stroke="currentColor" strokeWidth="1.5" />
+              <circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" strokeWidth="1.5" />
+            </svg>
+            <p className="absolute inset-x-5 top-[38%] -translate-y-1/2 text-center text-[28px] font-bold leading-tight tracking-tighter2 text-white/95">
+              {c.name}
+            </p>
+          </>
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-transparent" />
         {c.overlay && <p className="absolute inset-x-4 bottom-4 text-[17px] font-semibold leading-snug text-white">{c.overlay}</p>}

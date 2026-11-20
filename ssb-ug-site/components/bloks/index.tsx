@@ -10,6 +10,7 @@ import {
   Faq,
   OutcomeGroup,
   PageIntro,
+  PageLinks,
   Pathways,
   ProcessSteps,
   StatStrip,
@@ -44,6 +45,7 @@ export const registry: Record<string, (p: { blok: Blok }) => React.ReactNode> = 
   stat_strip: StatStrip,
   pathways: Pathways,
   outcome_group: OutcomeGroup,
+  page_links: PageLinks,
 };
 
 export function Blocks({ body }: { body?: Blok[] }) {

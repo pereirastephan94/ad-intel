@@ -77,6 +77,24 @@ export const campusTabs = () => [
   }),
 ];
 
+// "Explore the programme" links to the site's pages (current page left out).
+const PAGES = [
+  { slug: 'home', title: 'Home', text: 'The programme at a glance: pillars, faculty, outcomes and campus.', href: '/', image: '/media/why-story-cohort-800.webp' },
+  { slug: 'curriculum', title: 'Curriculum', text: 'Four years, eight terms: what you learn, build and ship each term.', href: '/curriculum', image: '/campus/class-group-work.webp' },
+  { slug: 'admission', title: 'Admission & Fees', text: 'Eligibility, the 5-step process, dates, fees and scholarships.', href: '/admission', image: '/admission/students-lab.jpg' },
+  { slug: 'career-pathways', title: 'Career Pathways', text: 'Your own startup, your family business or placements.', href: '/career-pathways', image: '/media/lab-build-1890.webp' },
+  { slug: 'student-life', title: 'Student Life', text: 'Campus, clubs, sports, fests and culture in Bengaluru.', href: '/student-life', image: '/campus/holi-colours.webp' },
+];
+export const explorePages = (current: string) =>
+  b('page_links', {
+    eyebrow: 'Explore the programme',
+    headline: current === 'home' ? 'Explore the programme.' : 'Keep exploring.',
+    muted: current === 'home' ? 'Curriculum, admissions, careers and campus life.' : undefined,
+    items: PAGES.filter((p) => p.slug !== current && !(current === 'home' && p.slug === 'home')).map((p) =>
+      b('page_link', { title: p.title, text: p.text, href: p.href, image: img(p.image) }),
+    ),
+  });
+
 export const closingCta = (headline = 'Build 4 businesses before you graduate.') =>
   b('cta_band', {
     eyebrow: 'Early Round · Applications close 31st December 2026',

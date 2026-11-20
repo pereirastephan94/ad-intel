@@ -1,7 +1,7 @@
 // Source: master doc → tab "Pg 4: Career pathways". Copy kept word for word.
 import type { Story } from '@/lib/types';
 import { b, img, imgs, list, stat } from './helpers';
-import { closingCta, internshipCards, internshipStats, recruiterLogos } from './shared';
+import { closingCta, internshipCards, internshipStats, recruiterLogos, explorePages } from './shared';
 
 const card = (name: string, by: string, overlay: string, description: string, tag: string, image?: string) =>
   b('story_card', { name, by, overlay, description, tag, ...(image ? { image: img(image, name) } : {}) });
@@ -145,6 +145,7 @@ export const careers: Story = {
         cta_label: 'Download the audited report',
         cta_href: 'lead:brochure',
       }),
+      explorePages('career-pathways'),
       closingCta(),
     ],
   }),

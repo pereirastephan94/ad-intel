@@ -2,7 +2,7 @@
 // SST & SSB cultural events - premium and lively"). Images from the SSB site.
 import type { Story } from '@/lib/types';
 import { b, img } from './helpers';
-import { campusTabs, closingCta } from './shared';
+import { campusTabs, closingCta, explorePages } from './shared';
 
 export const studentLife: Story = {
   name: 'Student life',
@@ -42,6 +42,7 @@ export const studentLife: Story = {
           b('video_card', { title: 'From Fintech intern to Founder’s Office', caption: 'Yash · From fintech intern to Founder’s Office', image: img('/testimonials/yash.webp') }),
         ],
       }),
+      explorePages('student-life'),
       closingCta(),
     ],
   }),

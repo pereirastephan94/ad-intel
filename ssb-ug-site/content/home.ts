@@ -2,7 +2,7 @@
 // Copy is kept word for word; small fixes are noted inline.
 import type { Story } from '@/lib/types';
 import { b, img, imgs, list, stat } from './helpers';
-import { campusTabs, closingCta, internshipCards, internshipStats, recruiterLogos } from './shared';
+import { campusTabs, closingCta, internshipCards, internshipStats, recruiterLogos, explorePages } from './shared';
 
 const person = (name: string, role: string, image: string, company: string, logo?: string, subject?: string) =>
   b('person', { name, role, company, image: img(image, name), ...(logo ? { logo: img(logo) } : {}), ...(subject ? { subject } : {}) });
@@ -522,6 +522,8 @@ export const home: Story = {
           b('faq_item', { question: 'When is the Early Round deadline?', answer: '31st December 2026, 11:59 PM. The early-applicant scholarship is available only in the Early Round.' }),
         ],
       }),
+
+      explorePages('home'),
 
       closingCta(),
     ],

@@ -21,16 +21,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en">
       <body>
         <LeadProvider>
+          {PREVIEW && (
+            <div className="bg-amber-300 px-4 py-1 text-center text-[11px] font-semibold text-amber-950">
+              Internal preview · not the live site · sign-up forms are switched off
+            </div>
+          )}
           <Header config={config} />
           <main>{children}</main>
           <Footer config={config} />
         </LeadProvider>
         <StoryblokBridge />
-        {PREVIEW && (
-          <div className="pointer-events-none fixed bottom-3 left-3 z-[70] rounded-full bg-amber-400 px-3 py-1.5 text-[12px] font-semibold text-amber-950 shadow-lg">
-            Internal preview · not the live site · forms are off
-          </div>
-        )}
       </body>
     </html>
   );

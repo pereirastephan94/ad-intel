@@ -20,10 +20,21 @@ export function ProjectCard({ c }: { c: Blok }) {
           </div>
         )}
       </div>
+      {!src(c.image) && (src(c.logo) || c.tag) && (
+        <div className="absolute inset-x-5 top-[34%] flex -translate-y-1/2 justify-center">
+          {src(c.logo) ? (
+            <span className="grid h-16 min-w-[150px] place-items-center rounded-2xl bg-white px-5 shadow-lg">
+              <Img asset={c.logo} className="max-h-8 w-auto max-w-[150px] object-contain" />
+            </span>
+          ) : (
+            <span className="text-center text-[30px] font-bold leading-tight tracking-tighter2 text-white/95">{c.tag}</span>
+          )}
+        </div>
+      )}
       <div className="absolute inset-0 flex flex-col justify-between p-5">
         <div className="flex items-start justify-between gap-2">
-          {c.tag && <Tag dark>{c.tag}</Tag>}
-          {src(c.logo) && (
+          {c.tag && src(c.image) && <Tag dark>{c.tag}</Tag>}
+          {src(c.logo) && src(c.image) && (
             <span className="grid h-8 max-w-[96px] place-items-center rounded-md bg-white px-2">
               <Img asset={c.logo} className="max-h-5 w-auto object-contain" />
             </span>

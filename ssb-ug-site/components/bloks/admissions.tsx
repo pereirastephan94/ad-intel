@@ -405,20 +405,24 @@ export function OutcomeGroup({ blok }: { blok: Blok }) {
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {blok.journeys.map((j: Blok) => (
                 <li key={j._uid} className="card flex items-center gap-4 p-4">
+                  {src(j.image) && <Img asset={j.image} className="h-14 w-14 shrink-0 rounded-full object-cover" />}
                   {src(j.image) ? (
-                    <Img asset={j.image} className="h-14 w-14 shrink-0 rounded-full object-cover" />
+                    <div className="min-w-0">
+                      <p className="text-[15px] font-semibold">{j.name}</p>
+                      <p className="text-[13px] leading-snug text-ink-3">
+                        {j.from && <span>{j.from} → </span>}
+                        <span className="font-medium text-ink-2">{j.to}</span>
+                      </p>
+                    </div>
                   ) : (
-                    <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-brand-soft text-[15px] font-semibold text-brand-dark">
-                      {String(j.name || '?').slice(0, 1)}
-                    </span>
+                    <div className="flex min-w-0 flex-1 items-center justify-between gap-3">
+                      <div className="min-w-0">
+                        <p className="text-[15px] font-semibold">{j.name}</p>
+                        {j.from && <p className="text-[13px] text-ink-4">{j.from}</p>}
+                      </div>
+                      <span className="shrink-0 rounded-lg bg-brand-soft px-3 py-1.5 text-[13px] font-semibold text-brand-deep">{j.to}</span>
+                    </div>
                   )}
-                  <div className="min-w-0">
-                    <p className="text-[15px] font-semibold">{j.name}</p>
-                    <p className="text-[13px] leading-snug text-ink-3">
-                      {j.from && <span>{j.from} → </span>}
-                      <span className="font-medium text-ink-2">{j.to}</span>
-                    </p>
-                  </div>
                 </li>
               ))}
             </ul>
@@ -455,6 +459,39 @@ export function OutcomeGroup({ blok }: { blok: Blok }) {
             </Cta>
           </div>
         )}
+      </div>
+    </Section>
+  );
+}
+
+/* --------------------------- Page links --------------------------- */
+// "Explore the programme": cards linking to the other pages of the site.
+export function PageLinks({ blok }: { blok: Blok }) {
+  const items: Blok[] = blok.items ?? [];
+  return (
+    <Section blok={blok} className="py-14 sm:py-16" tone="muted">
+      <div className="wrap">
+        <Heading eyebrow={blok.eyebrow} headline={blok.headline} muted={blok.muted} />
+        <ul className={`mt-8 grid gap-4 sm:grid-cols-2 ${items.length > 3 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'}`}>
+          {items.map((it) => (
+            <li key={it._uid}>
+              <a href={it.href} className="card group flex h-full flex-col overflow-hidden transition hover:-translate-y-0.5 hover:shadow-lg">
+                <div className="aspect-[16/10] overflow-hidden bg-surface-2">
+                  <Img asset={it.image} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]" />
+                </div>
+                <div className="flex flex-1 flex-col p-5">
+                  <p className="flex items-center justify-between gap-2 text-[17px] font-semibold tracking-tightish">
+                    {it.title}
+                    <span className="grid h-8 w-8 place-items-center rounded-full bg-brand-soft text-brand-dark transition group-hover:bg-brand group-hover:text-white">
+                      <Arrow />
+                    </span>
+                  </p>
+                  <p className="mt-1.5 text-[14px] leading-relaxed text-ink-3">{it.text}</p>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </Section>
   );

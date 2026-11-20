@@ -2,7 +2,7 @@
 // Application fee (₹1,000, discount codes later) confirmed by Stephan, 20 Nov 2026.
 import type { Story } from '@/lib/types';
 import { b, img, list, table } from './helpers';
-import { closingCta } from './shared';
+import { closingCta, explorePages } from './shared';
 
 export const admission: Story = {
   name: 'Admission & Fees',
@@ -144,6 +144,7 @@ export const admission: Story = {
         cta_label: 'Book your info session',
         cta_href: 'lead:info-session',
       }),
+      explorePages('admission'),
       closingCta('Your seat in the first batch starts with an info session.'),
     ],
   }),

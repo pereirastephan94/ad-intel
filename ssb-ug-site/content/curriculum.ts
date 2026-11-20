@@ -1,7 +1,7 @@
 // Source: master doc → tab "Pg 2: Curriculum". Copy kept word for word.
 import type { Story } from '@/lib/types';
 import { b, img } from './helpers';
-import { closingCta } from './shared';
+import { closingCta, explorePages } from './shared';
 
 const row = (label: string, text: string) => b('term_row', { label, text });
 
@@ -151,6 +151,7 @@ export const curriculum: Story = {
           }),
         ],
       }),
+      explorePages('curriculum'),
       closingCta(),
     ],
   }),

@@ -655,27 +655,12 @@
       "is_root": false,
       "is_nestable": true,
       "schema": {
-        "eyebrow": {
-          "type": "text",
-          "pos": 0,
-          "display_name": "Eyebrow"
-        },
-        "headline": {
-          "type": "text",
-          "pos": 1,
-          "display_name": "Headline"
-        },
-        "subhead": {
-          "type": "textarea",
-          "pos": 2,
-          "display_name": "Subhead"
-        },
         "video": {
           "type": "asset",
           "filetypes": [
             "videos"
           ],
-          "pos": 3,
+          "pos": 0,
           "display_name": "Video"
         },
         "poster": {
@@ -683,18 +668,18 @@
           "filetypes": [
             "images"
           ],
-          "pos": 4,
+          "pos": 1,
           "display_name": "Poster"
         },
         "pills": {
           "type": "textarea",
-          "pos": 5,
+          "pos": 2,
           "display_name": "Pills",
           "description": "One item per line."
         },
         "boxes": {
           "type": "bloks",
-          "pos": 6,
+          "pos": 3,
           "display_name": "Boxes",
           "restrict_components": true,
           "restrict_type": "",
@@ -704,29 +689,29 @@
         },
         "primary_cta_label": {
           "type": "text",
-          "pos": 7,
+          "pos": 4,
           "display_name": "Primary Cta Label"
         },
         "primary_cta_href": {
           "type": "text",
-          "pos": 8,
+          "pos": 5,
           "display_name": "Primary Cta Href",
           "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
         },
         "secondary_cta_label": {
           "type": "text",
-          "pos": 9,
+          "pos": 6,
           "display_name": "Secondary Cta Label"
         },
         "secondary_cta_href": {
           "type": "text",
-          "pos": 10,
+          "pos": 7,
           "display_name": "Secondary Cta Href",
           "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
         },
         "built_by_label": {
           "type": "text",
-          "pos": 11,
+          "pos": 8,
           "display_name": "Built By Label"
         },
         "built_by_logos": {
@@ -734,12 +719,12 @@
           "filetypes": [
             "images"
           ],
-          "pos": 12,
+          "pos": 9,
           "display_name": "Built By Logos"
         },
         "backed_by_label": {
           "type": "text",
-          "pos": 13,
+          "pos": 10,
           "display_name": "Backed By Label"
         },
         "backed_by_logos": {
@@ -747,16 +732,147 @@
           "filetypes": [
             "images"
           ],
-          "pos": 14,
+          "pos": 11,
           "display_name": "Backed By Logos"
         },
         "backed_by_names": {
           "type": "text",
-          "pos": 15,
+          "pos": 12,
           "display_name": "Backed By Names"
+        },
+        "option_label": {
+          "type": "text",
+          "pos": 13,
+          "display_name": "Option Label"
+        },
+        "layout": {
+          "type": "option",
+          "pos": 14,
+          "display_name": "Layout",
+          "options": [
+            {
+              "name": "Card",
+              "value": "card"
+            },
+            {
+              "name": "Split",
+              "value": "split"
+            },
+            {
+              "name": "Fullbleed",
+              "value": "fullbleed"
+            },
+            {
+              "name": "Mosaic",
+              "value": "mosaic"
+            },
+            {
+              "name": "Portrait",
+              "value": "portrait"
+            },
+            {
+              "name": "Landscape",
+              "value": "landscape"
+            }
+          ]
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 15,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 16,
+          "display_name": "Headline"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 17,
+          "display_name": "Subhead"
+        },
+        "headline_accent": {
+          "type": "text",
+          "pos": 18,
+          "display_name": "Headline Accent"
+        },
+        "deadline_note": {
+          "type": "text",
+          "pos": 19,
+          "display_name": "Deadline Note"
+        },
+        "tiles_title": {
+          "type": "text",
+          "pos": 20,
+          "display_name": "Tiles Title"
+        },
+        "tiles": {
+          "type": "bloks",
+          "pos": 21,
+          "display_name": "Tiles",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "hero_tile"
+          ]
         }
       },
       "preview_field": "headline"
+    },
+    {
+      "name": "hero_options",
+      "display_name": "Hero Options",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "switcher_title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Switcher Title"
+        },
+        "show_switcher": {
+          "type": "boolean",
+          "pos": 1,
+          "display_name": "Show Switcher"
+        },
+        "options": {
+          "type": "bloks",
+          "pos": 2,
+          "display_name": "Options",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "hero"
+          ]
+        }
+      }
+    },
+    {
+      "name": "hero_tile",
+      "display_name": "Hero Tile",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "title": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Title"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 2,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "title"
     },
     {
       "name": "innovation_lab",
@@ -1142,7 +1258,7 @@
           "restrict_components": true,
           "restrict_type": "",
           "component_whitelist": [
-            "hero",
+            "hero_options",
             "proof_bar",
             "video_feature",
             "pillars",
@@ -1157,6 +1273,7 @@
             "testimonials",
             "admissions_summary",
             "faq",
+            "page_links",
             "cta_band",
             "page_intro",
             "year_block",
@@ -1225,6 +1342,73 @@
           "type": "text",
           "pos": 8,
           "display_name": "Muted"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "page_link",
+      "display_name": "Page Link",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Text"
+        },
+        "href": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "page_links",
+      "display_name": "Page Links",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 3,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "page_link"
+          ]
         }
       },
       "preview_field": "headline"
