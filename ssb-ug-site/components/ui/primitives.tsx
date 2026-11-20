@@ -57,7 +57,7 @@ export function Section({
   tone?: 'light' | 'muted' | 'dark';
   id?: string;
 }) {
-  const toneCls = tone === 'dark' ? 'bg-night text-white' : tone === 'muted' ? 'bg-surface' : 'bg-white';
+  const toneCls = tone === 'dark' ? 'bg-night text-white' : tone === 'muted' ? 'bg-surface' : 'bg-paper';
   return (
     <section id={id || blok.anchor || undefined} className={`${toneCls} scroll-mt-28 ${className}`} {...editable(blok)}>
       {children}
@@ -84,7 +84,7 @@ export function Heading({
 }) {
   return (
     <div className={`${center ? 'mx-auto text-center' : ''} max-w-3xl ${className}`}>
-      {eyebrow && <p className={`eyebrow mb-3 ${dark ? 'text-orange-400' : ''}`}>{eyebrow}</p>}
+      {eyebrow && <p className={`eyebrow mb-3 ${dark ? 'text-emerald-400' : ''}`}>{eyebrow}</p>}
       {headline && (
         <h2 className="h-section">
           {headline}
@@ -109,7 +109,7 @@ export function Chips({ items, dark }: { items?: (string | { text: string })[]; 
               : 'chip'
           }
         >
-          <span className={`h-1.5 w-1.5 rounded-full ${dark ? 'bg-orange-400' : 'bg-brand'}`} aria-hidden />
+          <span className={`h-1.5 w-1.5 rounded-full ${dark ? 'bg-emerald-400' : 'bg-brand'}`} aria-hidden />
           {typeof c === 'string' ? c : c.text}
         </li>
       ))}

@@ -40,7 +40,7 @@ export function HeroSwitcher({ show, title, labels, panels }: { show: boolean; t
                   title={l}
                   onClick={() => pick(i)}
                   className={`flex shrink-0 items-center gap-2 rounded-lg border px-2.5 py-1.5 text-[13px] font-medium transition ${
-                    active === i ? 'border-brand bg-brand text-white' : 'border-line-strong bg-white text-ink-2 hover:border-brand hover:text-brand-dark'
+                    active === i ? 'border-brand bg-brand text-white' : 'border-line-strong bg-paper text-ink-2 hover:border-brand hover:text-brand-dark'
                   }`}
                 >
                   <span

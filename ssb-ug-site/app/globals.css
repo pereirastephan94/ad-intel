@@ -3,22 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
+:root { color-scheme: dark; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-body { @apply bg-white text-ink font-sans antialiased; }
-::selection { background: #F2CBAE; }
+body { @apply bg-paper text-ink font-sans antialiased; }
+::selection { background: #1D5A3C; }
 
 @layer components {
   .wrap { @apply mx-auto w-full max-w-page px-4 sm:px-6 lg:px-8; }
   .eyebrow { @apply text-[11px] font-semibold uppercase tracking-[0.14em] text-brand; }
   .h-section { @apply text-[28px] leading-[1.15] font-semibold tracking-tighter2 sm:text-[36px] lg:text-[42px]; }
   .h-sub { @apply mt-3 max-w-2xl text-[15px] leading-relaxed text-ink-3 sm:text-base; }
-  .card { @apply rounded-2xl border border-line bg-white; }
-  .chip { @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1.5 text-[13px] font-medium text-ink-2; }
+  .card { @apply rounded-2xl border border-line bg-paper; }
+  .chip { @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-paper px-3 py-1.5 text-[13px] font-medium text-ink-2; }
   .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand; }
   .btn-primary { @apply btn bg-brand text-white hover:bg-brand-dark; }
-  .btn-ghost { @apply btn border border-line-strong bg-white text-ink hover:bg-surface; }
-  .btn-light { @apply btn bg-white/95 text-ink hover:bg-white; }
+  .btn-ghost { @apply btn border border-line-strong bg-paper text-ink hover:bg-surface; }
+  .btn-light { @apply btn bg-white/95 text-black hover:bg-white; }
   .no-scrollbar::-webkit-scrollbar { display: none; }
   .no-scrollbar { scrollbar-width: none; }
 }

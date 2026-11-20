@@ -43,14 +43,14 @@ export default function Header({ config }: { config: Blok }) {
   return (
     <header className="sticky top-0 z-50">
       {config.announcement && (
-        <div className="bg-night text-white">
+        <div className="bg-brand text-white">
           <div className="wrap flex min-h-9 items-center justify-center gap-2 py-1.5 text-center text-[12px] font-medium leading-snug sm:text-[13px]">
             <span>{config.announcement}</span>
             {config.deadline && <Countdown to={config.deadline} />}
           </div>
         </div>
       )}
-      <div className={`border-b bg-white/95 backdrop-blur transition-colors ${scrolled ? 'border-line' : 'border-transparent'}`}>
+      <div className={`border-b bg-paper/95 backdrop-blur transition-colors ${scrolled ? 'border-line' : 'border-transparent'}`}>
         <div className="wrap flex h-16 items-center justify-between gap-6">
           <Logo />
           <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
@@ -92,7 +92,7 @@ export default function Header({ config }: { config: Blok }) {
           </div>
         </div>
         {open && (
-          <nav aria-label="Mobile" className="border-t border-line bg-white lg:hidden">
+          <nav aria-label="Mobile" className="border-t border-line bg-paper lg:hidden">
             <div className="wrap flex flex-col py-3">
               {nav.map((n) => (
                 <a key={n._uid} href={n.href} className="rounded-lg px-2 py-3 text-[15px] font-medium text-ink-2 hover:bg-surface">

@@ -41,7 +41,7 @@ export function CampusGallery({ blok }: { blok: Blok }) {
                 <Img asset={blok.video_poster} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]" />
                 <div className="absolute inset-0 bg-black/30" />
                 <span className="absolute inset-0 flex items-center justify-center gap-3 text-white">
-                  <span className="grid h-14 w-14 place-items-center rounded-full bg-white text-ink">
+                  <span className="grid h-14 w-14 place-items-center rounded-full bg-white text-black">
                     <Play className="ml-0.5 h-5 w-5" />
                   </span>
                   <span className="text-[16px] font-semibold">{blok.video_label}</span>
@@ -70,7 +70,7 @@ export function Sessions({ blok }: { blok: Blok }) {
                     <Img asset={s.image} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]" />
                     {s.video_url && (
                       <span className="absolute inset-0 grid place-items-center">
-                        <span className="grid h-12 w-12 place-items-center rounded-full bg-white/95 text-ink shadow-lg">
+                        <span className="grid h-12 w-12 place-items-center rounded-full bg-white/95 text-black shadow-lg">
                           <Play className="ml-0.5 h-5 w-5" />
                         </span>
                       </span>
@@ -107,13 +107,13 @@ export function Testimonials({ blok }: { blok: Blok }) {
                     <Img asset={t.image} alt={t.title} className="h-full w-full object-cover" />
                     {t.video_url && (
                       <span className="absolute inset-0 grid place-items-center">
-                        <span className="grid h-11 w-11 place-items-center rounded-full bg-white/95 text-ink">
+                        <span className="grid h-11 w-11 place-items-center rounded-full bg-white/95 text-black">
                           <Play className="ml-0.5 h-4 w-4" />
                         </span>
                       </span>
                     )}
                   </div>
-                  {t.caption && <figcaption className="bg-white p-3 text-[13px] font-medium text-ink-2">{t.caption}</figcaption>}
+                  {t.caption && <figcaption className="bg-paper p-3 text-[13px] font-medium text-ink-2">{t.caption}</figcaption>}
                 </figure>
               </VideoTrigger>
             ))}

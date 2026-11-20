@@ -40,7 +40,7 @@ export function Carousel({
     el.scrollBy({ left: dir * el.clientWidth * 0.9, behavior: 'smooth' });
   };
   const btn = `grid h-10 w-10 place-items-center rounded-full border transition disabled:opacity-30 ${
-    dark ? 'border-white/20 text-white hover:bg-white/10' : 'border-line-strong bg-white text-ink hover:bg-surface'
+    dark ? 'border-white/20 text-white hover:bg-white/10' : 'border-line-strong bg-paper text-ink hover:bg-surface'
   }`;
   return (
     <div>
@@ -83,7 +83,7 @@ export function Tabs({ labels, panels, dark }: { labels: string[]; panels: React
       <div
         role="tablist"
         className={`no-scrollbar inline-flex max-w-full gap-1 overflow-x-auto rounded-xl border p-1 ${
-          dark ? 'border-white/10 bg-white/5' : 'border-line bg-white'
+          dark ? 'border-white/10 bg-white/5' : 'border-line bg-paper'
         }`}
       >
         {labels.map((l, i) => (
@@ -189,7 +189,7 @@ export function Countdown({ to }: { to: string }) {
   return (
     <span className="ml-2 hidden items-center gap-1 font-mono tabular-nums sm:inline-flex" aria-label="Time left">
       {parts.map(([v, u]) => (
-        <span key={u} className="rounded bg-brand px-1.5 py-0.5 text-[11px]">
+        <span key={u} className="rounded bg-black/25 px-1.5 py-0.5 text-[11px]">
           {String(v).padStart(2, '0')}
           {u}
         </span>

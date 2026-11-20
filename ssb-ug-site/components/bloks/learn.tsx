@@ -12,7 +12,7 @@ export function ProjectCard({ c }: { c: Blok }) {
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-black/5" />
           </>
         ) : (
-          <div className="h-full w-full bg-gradient-to-br from-brand-deep via-brand-dark to-brand">
+          <div className="h-full w-full bg-gradient-to-br from-[#04321d] via-[#065f3a] to-[#0a8a55]">
             <svg viewBox="0 0 200 200" className="absolute -right-10 -top-10 h-56 w-56 text-white/10" aria-hidden>
               <circle cx="100" cy="100" r="98" fill="none" stroke="currentColor" strokeWidth="1.5" />
               <circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" strokeWidth="1.5" />
@@ -61,7 +61,7 @@ function FeatureCard({ c, index }: { c: Blok; index: number }) {
           {src(c.image) ? (
             <Img asset={c.image} className="h-full w-full object-cover" />
           ) : (
-            <div className="flex h-full w-full items-end bg-gradient-to-br from-brand-deep via-brand-dark to-brand p-5">
+            <div className="flex h-full w-full items-end bg-gradient-to-br from-[#04321d] via-[#065f3a] to-[#0a8a55] p-5">
               <span className="text-[34px] font-semibold tracking-tighter2 text-white/90">{c.title}</span>
             </div>
           )}
@@ -87,7 +87,7 @@ function Stepper({ steps }: { steps: Blok[] }) {
   return (
     <ol className="no-scrollbar -mx-4 flex gap-3 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6 lg:mx-0 lg:grid lg:grid-cols-7 lg:px-0">
       {steps.map((s, i) => (
-        <li key={s._uid} className="relative w-[200px] shrink-0 rounded-xl border border-line bg-white p-4 lg:w-auto">
+        <li key={s._uid} className="relative w-[200px] shrink-0 rounded-xl border border-line bg-paper p-4 lg:w-auto">
           <span className="text-[11px] font-semibold uppercase tracking-wider text-brand">{s.label}</span>
           <p className="mt-1.5 text-[14px] font-medium leading-snug">{s.title}</p>
           {i < steps.length - 1 && <span className="absolute -right-2 top-1/2 hidden h-px w-3 bg-line-strong lg:block" aria-hidden />}
@@ -144,7 +144,7 @@ export function CurriculumPillar({ blok, index }: { blok: Blok; index: number })
         <div className="mt-6 flex flex-wrap items-center gap-2">
           {blok.tools_title && <span className="mr-1 text-[13px] font-medium text-ink-3">{blok.tools_title}</span>}
           {lines(blok.tools).map((t) => (
-            <span key={t} className="rounded-md border border-line bg-white px-2.5 py-1 text-[13px] font-medium text-ink-2">
+            <span key={t} className="rounded-md border border-line bg-paper px-2.5 py-1 text-[13px] font-medium text-ink-2">
               {t}
             </span>
           ))}

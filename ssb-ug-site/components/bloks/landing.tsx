@@ -36,7 +36,7 @@ export function VideoFeature({ blok }: { blok: Blok }) {
             <div className="relative aspect-video overflow-hidden rounded-2xl bg-night">
               <Img asset={blok.poster} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]" />
               <span className="absolute inset-0 grid place-items-center">
-                <span className="grid h-16 w-16 place-items-center rounded-full bg-white text-ink shadow-xl transition group-hover:scale-105">
+                <span className="grid h-16 w-16 place-items-center rounded-full bg-white text-black shadow-xl transition group-hover:scale-105">
                   <Play className="ml-1 h-6 w-6" />
                 </span>
               </span>
@@ -125,7 +125,7 @@ function FounderCard({ p }: { p: Blok }) {
           <Img asset={p.image} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]" />
           {p.video_url && (
             <span className="absolute inset-0 grid place-items-center">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-white/95 text-ink shadow-lg">
+              <span className="grid h-12 w-12 place-items-center rounded-full bg-white/95 text-black shadow-lg">
                 <Play className="ml-0.5 h-5 w-5" />
               </span>
             </span>
@@ -182,7 +182,7 @@ export function PeopleTabs({ blok }: { blok: Blok }) {
 export function StoryCard({ c, dark }: { c: Blok; dark?: boolean }) {
   return (
     <article className={`flex h-full flex-col overflow-hidden rounded-2xl ${dark ? 'bg-night-2 ring-1 ring-white/10' : 'card'}`}>
-      <div className={`relative aspect-[4/3] overflow-hidden ${src(c.image) ? 'bg-night' : 'bg-gradient-to-br from-brand-deep via-brand-dark to-brand'}`}>
+      <div className={`relative aspect-[4/3] overflow-hidden ${src(c.image) ? 'bg-night' : 'bg-gradient-to-br from-[#04321d] via-[#065f3a] to-[#0a8a55]'}`}>
         {src(c.image) ? (
           <Img asset={c.image} className="h-full w-full object-cover" />
         ) : (
@@ -270,7 +270,7 @@ export function BentoStats({ blok }: { blok: Blok }) {
                   <div>
                     {t.video_label && (
                       <VideoTrigger video={t.video_url} className="mb-3 w-auto">
-                        <span className="inline-flex items-center gap-2 rounded-full bg-white/95 px-3 py-1.5 text-[12px] font-semibold text-ink">
+                        <span className="inline-flex items-center gap-2 rounded-full bg-white/95 px-3 py-1.5 text-[12px] font-semibold text-black">
                           <Play className="h-3.5 w-3.5" /> {t.video_label}
                         </span>
                       </VideoTrigger>
@@ -346,7 +346,7 @@ export function InnovationLab({ blok }: { blok: Blok }) {
               <article key={s._uid} className="flex h-full flex-col overflow-hidden rounded-2xl bg-night-2 ring-1 ring-white/10">
                 <Img asset={s.image} className="aspect-[2/1] w-full object-cover" />
                 <div className="flex-1 p-5">
-                  <p className="text-[11px] font-semibold uppercase tracking-wider text-orange-400">{s.kind}</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">{s.kind}</p>
                   <h3 className="mt-1.5 text-[17px] font-semibold">
                     {s.url ? (
                       <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">

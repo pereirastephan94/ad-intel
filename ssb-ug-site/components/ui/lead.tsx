@@ -140,12 +140,12 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
     }
   }
 
-  const field = 'mt-1.5 w-full rounded-lg border border-line-strong bg-white px-3.5 py-2.5 text-[15px] outline-none focus:border-brand focus:ring-2 focus:ring-brand/20';
+  const field = 'mt-1.5 w-full rounded-lg border border-line-strong bg-paper px-3.5 py-2.5 text-[15px] outline-none focus:border-brand focus:ring-2 focus:ring-brand/20';
   const label = 'block text-[13px] font-medium text-ink-2';
 
   return (
     <div role="dialog" aria-modal="true" aria-labelledby="lead-title" className="fixed inset-0 z-[90] flex items-end justify-center bg-black/60 sm:items-center sm:p-4" onClick={onClose}>
-      <div className="max-h-[92vh] w-full overflow-y-auto rounded-t-2xl bg-white p-6 shadow-2xl sm:max-w-md sm:rounded-2xl" onClick={(e) => e.stopPropagation()}>
+      <div className="max-h-[92vh] w-full overflow-y-auto rounded-t-2xl bg-paper p-6 shadow-2xl sm:max-w-md sm:rounded-2xl" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="eyebrow">Scaler School of Business · UG</p>
@@ -209,8 +209,8 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
                 ))}
               </select>
             </div>
-            {error && <p className="text-sm text-red-600">{error}</p>}
-            {state === 'error' && <p className="text-sm text-red-600">Something went wrong. Please try again.</p>}
+            {error && <p className="text-sm text-red-400">{error}</p>}
+            {state === 'error' && <p className="text-sm text-red-400">Something went wrong. Please try again.</p>}
             <button type="submit" disabled={state === 'sending'} className="btn-primary w-full disabled:opacity-60">
               {state === 'sending' ? 'Sending…' : copy.button}
             </button>
