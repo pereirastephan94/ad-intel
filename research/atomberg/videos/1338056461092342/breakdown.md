@@ -1,10 +1,10 @@
 # Rhyming comedy: sil-batta texture and a gifted mixer grinder, Atomberg Zenova (1338056461092342)
 - Creative name: not in link
-- Product or programme: Atomberg Zenova mixer grinder, "Special Edition" with Coarse Mode (box at 38.9 s; the landing link reads "atomberg-zenova-mixer-grinder-with-coarse-mode"); headline "Upgrade to Atomberg's BLDC Mixer Grinder"
+- Product or programme: Atomberg Zenova mixer grinder, "Special Edition", Coarse Mode (box at 38.9 s; link slug); headline "Upgrade to Atomberg's BLDC Mixer Grinder"
 - Length, shape: 51.7 s, vertical 9:16 (720 x 1280)
-- Language: Hinglish (Hindi in rhyme with English nouns)
-- Format: comic rhyming monologue to camera with costume changes and product close-ups
-- Ads using it: 1, earliest start 2026-05-26 (running 178 days), total copies 1; Facebook, Instagram, Messenger, Threads; links:
+- Language: Hinglish
+- Format: comic rhyming monologue to camera, costume changes
+- Ads using it: 1, earliest start 2026-05-26, total copies 1; Facebook, Instagram, Messenger, Threads; links:
   - https://www.facebook.com/ads/library/?id=1984592862185202
 
 ## Script (verbatim)
@@ -21,49 +21,46 @@ Roman pass as it stands for 0 to 24.8 s; from 24.8 s the main text was Devanagar
 | 43.6-51.4 | Varna rakh dengi apni bhi chutney bana ke re [?] | Otherwise she will make chutney of you too. |
 
 ## First 3 seconds
-0 to 3 s: a woman in an olive kaftan with black sleeves and a leopard print holds two mixer jars, one raised high, wide-eyed, speaking to the lens. Yellow caption, word for word: "CHUTNEY PEESNE" (0 to 1 s), "ATOMBERG KA" (2 s), "CHIKNA MIXER LAAEE" (3 s). Hook type: story_open (a rhyming line that starts a tale, no number, offer or question).
+0 to 3 s: a woman in an olive kaftan holds two mixer jars, one raised, speaking to the lens. Yellow captions: "CHUTNEY PEESNE", "ATOMBERG KA", "CHIKNA MIXER LAAEE". Hook: story_open (a rhyming line starting a tale).
 
 ## Person on screen
-One performer, unlabelled: no caption, lower-third or ad text names her, and the Library page is a brand page. Three costumes appear, which read as characters: olive kaftan (0 to 3 s, 10.9 s, 34.2 s, 43.3 s lower half), yellow kurta with a printed white dupatta (13.2 s, 18.3 s, 38.9 s), maroon kurta with pink-rimmed glasses and a bun (30.3 s). The ad does not say whether one person plays all three. Mid-40s by look, dark wavy hair; exaggerated eyes, big gestures, mock-dramatic; mostly to the lens, but looks at the pan and box in the yellow scenes.
+Unlabelled; no caption or ad text names her. Three costumes read as characters: olive kaftan (0 to 3 s, 34.2 s), yellow kurta with printed dupatta (13.2 to 38.9 s), maroon kurta with pink glasses (30.3 s). The ad does not say if one person plays all three. Mostly to the lens.
 
 ## Setting, framing and look
-A bright kitchen with a terrazzo counter and sage cabinets, a sofa corner, and a wooden patio. Static vertical medium shots, one tight top-down on hands, a split-screen at 43.3 s. Soft daylight, clean grade; several costumes and set-ups, so it looks produced, not selfie. Close-ups: hands fitting a lid (8.2 s), the dial marked "COARSE" and "PULSE" (9.2 s), carrots in the clear chopper jar (19.1 s), chutney paste in a jar (13.2 s).
+A kitchen, a sofa corner and a patio. Static medium shots, a split screen at 43.3 s, soft daylight, clean grade: produced, not selfie. Close-ups: lid (8.2 s), dial marked "COARSE" and "PULSE" (9.2 s), chutney in a jar (13.2 s), carrots in the chopper jar (19.1 s).
 
 ## On-screen text, captions, logos, graphics
-- Captions: bold rounded type in yellow (cyan at 30.3 s), centre of the frame, 1 to 3 words at a time, in Roman Hindi: "Dhakkan thik", "Lagvaake", "Wo-ohi", "mummyji ko ab toh", "Kyunki", "Reh jaoongi", "Gar wo bole", "Mixer gift ke wrapper me".
-- "atomberg" logo on the unit (8.2 s, 9.2 s, 19.1 s) and the box.
-- Box (38.9 s): "atomberg", "Zenova Special Edition", a small yellow badge "2+1" (its words are not readable), an icon strip too small to read.
-- End card (51.4 s): atomberg "Why not?", "www.atomberg.com", "Also available on" Amazon and Flipkart, three gold jars and a clear chopper jar on a white base, with faint diya and rangoli drawings. No price, offer or model name.
+- Captions: bold rounded yellow type, centre, 1 to 3 words at a time, Roman Hindi (for example "Dhakkan thik", "Reh jaoongi", "Mixer gift ke wrapper me").
+- Box (38.9 s): "Zenova Special Edition", a "2+1" badge (words unreadable).
+- End card (51.4 s): "www.atomberg.com", Amazon, Flipkart, jars, faint diya drawings. No price, offer or model name.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 15 cuts in 51.7 s (2.9 per 10 s), first cut 8.23 s, none in the first 5 s. 103 words per minute, speech share 0.96, tempo 172 bpm; software guesses a sound bed.
+Measured by software, not heard, so genre and track cannot be named. 15 cuts (2.9 per 10 s), first cut 8.23 s, none in the first 5 s. 103 words per minute, speech share 0.96, tempo 172 bpm; software guesses a sound bed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-8 | Hook | Rhyme: chutney, a smooth shiny Atomberg mixer. |
-| 8-25 | Mechanism | Lid and coarse dial, sil-batta texture, chopper jar. |
-| 25-36 | Story | Mummyji's stay; "I will stay on here". |
-| 36-51.7 | Gift pitch, CTA | Give her a mixer in gift wrap or be chutney; end card. |
+| 0-8 | Hook | Rhyme: chutney, a smooth shiny mixer. |
+| 8-25 | Mechanism | Lid, coarse dial, sil-batta texture, chopper jar. |
+| 25-51.7 | Story, gift pitch | Mummyji's stay; gift her a mixer; end card. |
 
 ## Claims and proof
-- "chikna, chamkeela mixer": looks only; the unit is white with gold jars.
-- "wohi texture ... sil-batte ka upaay": the dial reads "COARSE", and chutney in a jar is shown, but no side-by-side with a sil-batta.
-- "chopper jar base mein samaye": carrots are chopped in the clear jar.
-- In the ad text only, not in the video: Coarse Mode "authentic Sil-Batta texture", "no accidental spills, no auto-restarts after power cuts", "Precise chopping without squashing ingredients"; the headline claims BLDC.
-- No watts, price, discount, warranty (the "2+1" badge is unreadable) or model line in speech.
+- "chikna, chamkeela mixer": looks only.
+- "wohi texture ... sil-batte ka upaay": the dial reads "COARSE"; no side-by-side with a sil-batta.
+- "chopper jar base mein samaye": carrots chopped in the clear jar.
+- Ad text only: safety (spills, auto-restart) and BLDC.
+- No watts, price, discount or warranty (the "2+1" badge is unreadable).
 
 ## Offer and call to action
-The spoken pitch is to give a mixer as a gift; no explicit CTA. Button "Shop now"; landing page atomberg.com Zenova mixer grinder with Coarse Mode (own site; Amazon and Flipkart on the card). Ad text: "Atomberg Mixer Grinder - The next-gen upgrade your kitchen deserves! / Coarse Mode - Perfect chutney, dip, salsa & masala with authentic Sil-Batta texture / Advanced Safety - No accidental spills, no auto-restarts after power cuts / Unique Chopper Jar - Precise chopping without squashing ingredients / Don't settle for less-elevate your cooking game now! Shop Today." (ticks and emoji omitted). Headline "Upgrade to Atomberg's BLDC Mixer Grinder".
+No explicit CTA; the pitch is to gift a mixer. Button "Shop now"; landing page atomberg.com Zenova with Coarse Mode (own site). Ad text: "Atomberg Mixer Grinder - The next-gen upgrade your kitchen deserves! / Coarse Mode - Perfect chutney, dip, salsa & masala with authentic Sil-Batta texture / Advanced Safety - No accidental spills, no auto-restarts after power cuts / Unique Chopper Jar - Precise chopping without squashing ingredients / Don't settle for less-elevate your cooking game now! Shop Today.".
 
 ## Why it may work, and where it is weak
 Works:
-- A memorable comedy with a rhyme, bold word-by-word captions and costume gags.
-- A gift angle with a family joke (mummyji) fits the festive card.
-- The coarse dial and chopper jar are shown, not just said.
+- Memorable comedy: rhyme, bold captions, costume gags.
+- A gift angle fits the festive card.
+- Coarse dial and chopper jar are shown.
 
 Weak:
-- First cut at 8.2 s; the product benefit (coarse texture) is a quick insert.
-- The rhyme is hard to follow and the plot is about mummyji, not the mixer.
-- The safety and BLDC claims live in the ad text only.
-- No price, offer or model name in the video.
+- First cut at 8.2 s; the coarse benefit is a quick insert.
+- The plot is about mummyji, not the mixer.
+- No price or offer.

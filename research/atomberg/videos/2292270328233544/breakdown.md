@@ -1,6 +1,6 @@
 # "Stop trusting the technician's bill": presenter explains Intellon filter health app (2292270328233544)
 - Creative name: not in link
-- Product or programme: Atomberg Intellon Adaptive RO water purifier (ad text), "India's 1st Adaptive Water Purifier" (link description). The voice says only "Intellon"
+- Product or programme: Atomberg Intellon Adaptive RO water purifier (ad text); the voice says only "Intellon"
 - Length, shape: 62.6 s, vertical 9:16 (720 x 1280)
 - Language: English
 - Format: presenter to camera in the lower half, b-roll and app demo in the upper half
@@ -33,10 +33,10 @@ Split screen. Top: hands twisting open a white filter housing. Bottom: a man in 
 No name, lower-third or credit; the ad text names nobody. A man, apparent 30s, round glasses, full dark beard, maroon polo, red thread on one wrist. Open-hand gestures, looks at the lens throughout.
 
 ## Setting, framing and look
-Dressed room (shelf with a silver plaque, candle, neon sign "Create Edit Repeat"). B-roll above him: filter housings opened, an angle grinder cutting a filter (a "KENT" sediment filter label at 22.7 s), a technician at a sink. From 31 s: a phone on "Water Purifier Health", the black purifier, an app list of "Adaptive Flow Mode", "RO + UV Mode", "TasteTune Mode", "Vacay Mode".
+Dressed room (neon sign "Create Edit Repeat", shelf, candle). B-roll above him: opened filter housings, an angle grinder cutting a filter (a "KENT" label at 22.7 s), a technician at a sink. From 31 s: the app ("Water Purifier Health", four modes) and the black purifier.
 
 ## On-screen text, captions, logos, graphics
-Bold white capitals, centre, two or three words at a time, active word in a red-orange box. No stat cards. End card (62 s): atomberg logo "Why not?", green pill "Intellon", search bar "www.atomberg.com", purifier with a round blue-ring display reading "085", phone beside it.
+Bold white capitals, centre, two or three words at a time, active word in a red-orange box. No stat cards. End card (62 s): atomberg logo "Why not?", pill "Intellon", "www.atomberg.com", purifier with a blue-ring display reading "085", phone.
 
 ## Sound and pacing
 Measured by software, not heard, so genre and track cannot be named. 13 cuts (2.08 per 10 s), first cut 5.0 s, none in the first 5 s. 175 words per minute, speech share 1.0, tempo 103 bpm. No gaps, so no music bed could be judged.
@@ -54,7 +54,7 @@ Measured by software, not heard, so genre and track cannot be named. 13 cuts (2.
 - Not stated: price, warranty, discount, performance figures, where it is sold. "India's 1st Adaptive Water Purifier" is only in the link description. The "085" display is never explained. No small print.
 
 ## Offer and call to action
-No spoken call to action, no offer; the end card shows the website. Button "Learn more", headline "Stop Taking Your RO Technician's Word for It!", landing page atomberg.com/products/intellon-waterpurifier (own site). Ad text: "Your RO technician says your filters need replacing. But how do you know if they actually do? [emoji] With most traditional RO purifiers, you have no visibility into your filters' actual condition. So when the technician recommends a replacement, you're left with no choice but to take their word for it. And pay whatever the servicing bill comes to. But shouldn't you have a say in what you're paying for? Introducing Atomberg Intellon Adaptive RO! [emoji] With app-based filter health monitoring, you can track your filters' condition and understand when they need replacing. No more blindly trusting recommendations. Get transparency into what your RO actually needs."
+No spoken call to action, no offer. Button "Learn more", headline "Stop Taking Your RO Technician's Word for It!", landing page atomberg.com/products/intellon-waterpurifier (own site). Ad text: "Your RO technician says your filters need replacing. But how do you know if they actually do? [emoji] With most traditional RO purifiers, you have no visibility into your filters' actual condition. So when the technician recommends a replacement, you're left with no choice but to take their word for it. And pay whatever the servicing bill comes to. But shouldn't you have a say in what you're paying for? Introducing Atomberg Intellon Adaptive RO! [emoji] With app-based filter health monitoring, you can track your filters' condition and understand when they need replacing. No more blindly trusting recommendations. Get transparency into what your RO actually needs."
 
 Same script, reordered: 988278900406574.
 

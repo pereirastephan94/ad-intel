@@ -14,6 +14,14 @@ You are the lead session. Your job is to keep the pipeline moving and report to 
 | Fable | Not used, unless the owner asks for it on a page | |
 Never read sub-agent transcripts or `list_events` of other sessions: they flood the context. Read only the final report.
 
+## Handover, 20 Nov 04:40 UTC: two sessions now
+- **Ad Teardown COS** (a new Opus cloud session) owns EVERYTHING except SSB vs Mesa: the puller, all write-ups, idea passes, and comparison pages 3, 4, 5, plus refreshing pages 1 and 2 on bigger samples.
+- **The original session** (session_018VFYVEVx8x8JEXiUxuVpJD, "FB Ad Library Scraper Tool") does only pair 6, Scaler School of Business vs Mesa, and touches only research/scaler-school-of-business, research/mesa, research/compare/scaler-school-of-business-vs-mesa. It does NOT pull any more.
+- Only the COS runs the puller. Its machine has no mp4s from before: brands already pulled have their stills, transcripts and metrics in the repo, which is all the write-ups need.
+- Both sessions push to branch claude/yesterday-cpls-TCJO8: always `git pull --rebase origin claude/yesterday-cpls-TCJO8` before `git push`. If a shared tool file (teardown/compare/*.py, template.html, COMPARE_SPEC.md, RUBRIC.md, TAGGING.md) must change, make the change small and say so in the commit message.
+- The COS talks to the other sessions with send_message: to the original session for anything about the tools or SSB/Mesa, and to "SSB PG COS2" (session_018VFYVEmYkdddabaNRcR1Qg) with a short note each time a page is published or republished (link + three lines).
+- State at handover: Atomberg 30 ads, all 27 videos and 1 image written up, needs idea pass. Qubo 30 ads (13 videos, 12 images) pulled 04:35, being measured and transcribed by the original session and pushed shortly; then needs write-ups. Cult.fit has 30 new ads (8 new videos) being transcribed the same way; then write-ups, idea pass refresh and a rebuild of page 2. Mokobara, DailyObjects, GIVA, CaratLane: no ads yet.
+
 ## Owner rules
 - He is not a coder. Messages: short, plain, no jargon, lead with what is done and what is not.
 - Do not ask questions; decide and carry on. If an approval prompt gets no answer, work around it.

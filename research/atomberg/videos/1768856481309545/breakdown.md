@@ -1,15 +1,15 @@
 # Family vlog: a smart lock for the parents' front door (1768856481309545)
 - Creative name: not in link
-- Product or programme: Atomberg Smart Lock SL 1 (box: "Atomberg SL 1", "Introducing Atomberg Smart Locks. Key-free locks, care-free lifestyles."; landing page "smart-lock-sl-1"). Dark glass panel with copper trim
+- Product or programme: Atomberg Smart Lock SL 1; dark glass panel, copper trim
 - Length, shape: 71.5 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish
-- Format: first-person family vlog with voiceover, install and demo shots, no end card
-- Ads using it: 2, earliest start 2026-09-08, total copies 3 (2 + 1); links:
+- Format: family vlog, voiceover, demo shots, no end card
+- Ads using it: 2, earliest start 2026-09-08, total copies 3; links:
   - https://www.facebook.com/ads/library/?id=2607900756305385
   - https://www.facebook.com/ads/library/?id=1847305846649162
 
 ## Script (verbatim)
-Voiceover, a man's voice judging by "sakta hoon". The main transcript was Devanagari from 23 s, so those lines are romanised by me from the raw pass and sound sense, and marked [?]. It is a voiceover, so no line is assigned to anyone on screen.
+Voiceover (a man, going by "sakta hoon"). From 23 s I romanised the Devanagari [?]. No line is assigned to anyone on screen.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -39,53 +39,43 @@ Voiceover, a man's voice judging by "sakta hoon". The main transcript was Devana
 | 64.4-71.1 | Link chahiye toh comment kar dena aur share un logon ke saath zaroor karna jo apne mummy papa ke liye har mahine kuch na kuch chhoti help zaroor karte hain. Chaliye, bye. [?] | Comment if you want the link, and share with people who help their parents in small ways. Bye. |
 
 ## First 3 seconds
-0 s: back of a man with a backpack at a red gate. 0.5 to 3 s: a woman with a long ponytail and a man with a backpack greet an older couple at the gate, hugging. Caption from 0 s: "WHEN WE TAKE CARE OF OUR PARENTS'" (white) and "safety and happiness" (yellow italic). Voice from 0 s. Hook: story_open, a family homecoming.
+0 s: back of a man with a backpack at a red gate. 0.5 to 3 s: he and a woman greet an older couple, hugging. Caption: "WHEN WE TAKE CARE OF OUR PARENTS' safety and happiness". Hook: story_open.
 
 ## Person on screen
-No person is named by caption, lower-third or ad text. On screen: a bearded man in glasses and a cream or white polo with a backpack; a woman with a long ponytail in a light grey sleeveless jumpsuit; an older man in a blue striped polo and glasses; an older woman in a green salwar. All warm, hugging, pointing. The speaker is a voiceover and nobody addresses the lens. Library page category is "Digital Creator" for both ads, but no handle or partnership label is on the ad.
+Nobody is named by caption, lower-third or ad text. A bearded man in glasses and cream polo, a woman in a grey jumpsuit, an older man in a blue striped polo, an older woman in a green salwar. Voiceover; nobody addresses the lens. The Library category "Digital Creator" is on both ads, but no handle or partnership label.
 
 ## Setting, framing and look
-Handheld phone footage, natural light, in a modest family home: red-orange gate, wooden doors, stone-effect wall, sofa and glass table. Shots: CCTV on the wall (5.4 s), father using the old key lock (15.4 s), the SL 1 box (25.7 s), fingerprint unlock (32.5 s), phone app (41.2 s), the lock on a wood door (28.4 s, 41.2 s), family on a sofa (57.9 s on). Casual, unpolished.
+Handheld phone footage, a modest family home. Shots: CCTV (5.4 s), father with the old key lock (15.4 s), the SL 1 box (25.7 s), fingerprint unlock (32.5 s), phone app (41.2 s), family on a sofa (57.9 s on). Unpolished.
 
 ## On-screen text, captions, logos, graphics
-- 0 to at least 5.4 s: caption "WHEN WE TAKE CARE OF OUR PARENTS' safety and happiness".
-- 51 s: caption "HELPING THEM TO UNDERSTAND FEATURES" in plain white capitals.
-- 57.9 s: two red heart emoji.
-- Box: "Introducing Atomberg Smart Locks. Key-free locks, care-free lifestyles.", yellow tag "Atomberg SL 1", icons Fingerprint, Pincode, Atomberg Mobile App, Access Card, Mechanical Key.
-- Lock face shows the atomberg logo. No end card, site, retailer or price.
+- Caption "WHEN WE TAKE CARE OF OUR PARENTS' safety and happiness" from 0 s; "HELPING THEM TO UNDERSTAND FEATURES" at 51 s; two heart emoji at 57.9 s.
+- Box: "Atomberg SL 1", icons Fingerprint, Pincode, Atomberg Mobile App, Access Card, Mechanical Key.
+- No end card, site, retailer or price.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 30 cuts in 71.5 s (4.2 per 10 s), first cut 5.43 s, none in the first 5 s. 160 words per minute, speech share 0.58, 30.2 s of gaps, tempo 117 bpm; software suggests a sound bed under the voice. The final 2 s are not silent (-21.8 dB).
+Measured by software, not heard, so genre and track cannot be named. 30 cuts in 71.5 s (4.2 per 10 s), first cut 5.43 s, none in the first 5 s. 160 words per minute, speech share 0.58, tempo 117 bpm; software suggests a sound bed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-24 | Hook, problem | Parents' home upgrades, CCTV, old key lock hard for mum. |
-| 24-34 | Solution | SL 1 box, fingerprint and PIN. |
-| 34-57 | Features | Phone access, access log, key backup, colour, data in India. |
-| 57-71.5 | CTA | Save, comment for the link, share. |
+| 0-24 | Hook, problem | Parents' home, old key lock hard for mum. |
+| 24-34 | Solution | SL 1 box, fingerprint. |
+| 34-57 | Features | Phone access, log, key backup, data. |
+| 57-71.5 | CTA | Save, comment, share. |
 
 ## Claims and proof
-- "Fingerprint ya pin se ... bina chabi ke": a fingerprint unlock is shown; PIN is not shown.
-- "Phone se access de sakta hoon", access log: a phone screen appears (41.2 s), too blurred to read.
-- "Emergency mein chabi": the box lists "Mechanical Key".
-- "Data India mein store": heard only. The ad text adds "end-to-end data encryption", which is not spoken.
-- Ad text says "6 ways of unlocking"; the box shows five icons and the voice names four.
-- No price, discount, warranty or retailer.
+- "Fingerprint ya pin se, bina chabi ke": fingerprint shown; PIN not shown.
+- Phone access and log: phone screen too blurred to read.
+- "Data India mein store": heard only; the ad text adds "end-to-end data encryption", not spoken.
+- Ad text says "6 ways of unlocking"; the box shows five icons, the voice names four. No price or warranty.
 
 ## Offer and call to action
-Spoken CTA: "Link chahiye toh comment kar dena" and share it. No on-screen CTA. Button "Shop now", headline "Upgrade To Better Security", link description "Bring home peace of mind with Atomberg Smart Locks", landing page https://atomberg.com/smart-lock-sl-1. Ad text (both ads): "Ditch the keys. Switch to Atomberg Smart Locks instead-sleek design, 6 ways of unlocking, end-to-end data encryption and storage in India, and more!"
+Spoken CTA: "Link chahiye toh comment kar dena" and share. No on-screen CTA. Button "Shop now", headline "Upgrade To Better Security", link description "Bring home peace of mind with Atomberg Smart Locks", landing page https://atomberg.com/smart-lock-sl-1. Ad text (both ads): "Ditch the keys. Switch to Atomberg Smart Locks instead-sleek design, 6 ways of unlocking, end-to-end data encryption and storage in India, and more!"
 
 ## Why it may work, and where it is weak
 Works:
-- Emotional, family-first story that sells safety and ease, not specs.
-- Real-looking home and a modest setting feel credible.
-- The pain (an elderly mother fumbling for keys) is concrete.
-- The comment-for-link CTA is conversational.
+- A family story with a concrete pain (mum fumbling for keys).
 
 Weak:
-- No cut for 5.4 s and 71 s long.
-- Product appears at about 25 s; no end card, price or site.
-- "Comment for the link" does not work in a paid ad.
-- Voice and ad text disagree on the number of unlock methods.
-- The narrator and family are unnamed, so no stated credibility.
+- First cut at 5.4 s, 71 s long, product at 25 s; no end card, price or site.
+- "Comment for the link" fails in a paid ad.

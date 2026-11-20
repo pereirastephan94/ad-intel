@@ -8,9 +8,13 @@
   },
   {
    "media": "image"
+  },
+  {
+   "media": "all",
+   "retry": 3
   }
  ],
- "total": null,
+ "total": 72,
  "log": [
   "2026-11-20T00:32:44.937Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T00:32:44.938Z stopping after 1 view(s) as asked",
@@ -20,14 +24,26 @@
   "2026-11-20T00:49:47.433Z PAUSED: 0 unique ads of ~null",
   "2026-11-20T01:54:01.829Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T01:54:01.832Z stopping after 1 view(s) as asked",
-  "2026-11-20T01:54:01.832Z PAUSED: 0 unique ads of ~null"
+  "2026-11-20T01:54:01.832Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T04:33:02.314Z   video 1756662012082062 ok (71.7s, 16 stills)",
+  "2026-11-20T04:33:12.439Z   video 3234815893574970 ok (44.5s, 16 stills)",
+  "2026-11-20T04:33:16.891Z   video 793609329730468 ok (6.4s, 6 stills)",
+  "2026-11-20T04:33:35.030Z   video 2384084102424090 ok (91s, 16 stills)",
+  "2026-11-20T04:33:46.131Z   video 911547008685140 ok (69.9s, 16 stills)",
+  "2026-11-20T04:33:56.151Z   video 2181895929233531 ok (53s, 16 stills)",
+  "2026-11-20T04:34:03.887Z   video 1161850415013599 ok (68.7s, 11 stills)",
+  "2026-11-20T04:34:11.777Z   video 1526726438372330 ok (5.8s, 6 stills)",
+  "2026-11-20T04:34:37.705Z   video 17924806026295640 ok (47.9s, 16 stills)",
+  "2026-11-20T04:34:47.267Z   video 1110578050976689 ok (36.9s, 16 stills)",
+  "2026-11-20T04:34:57.773Z   video 17918629971295640 ok (41s, 16 stills)",
+  "2026-11-20T04:35:11.162Z   video 1462167106056325 ok (77.6s, 16 stills)",
+  "2026-11-20T04:35:19.309Z   video 1323906797467619 ok (26.7s, 16 stills)",
+  "2026-11-20T04:35:19.309Z view {\"media\":\"all\",\"retry\":3} -> 30 ads (window total 72), 30 new, 30 unique of ~72",
+  "2026-11-20T04:35:19.310Z stopping after 1 view(s) as asked",
+  "2026-11-20T04:35:19.310Z PAUSED: 30 unique ads of ~72"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "all",
-   "retry": 3
-  },
   {
    "media": "video",
    "retry": 3

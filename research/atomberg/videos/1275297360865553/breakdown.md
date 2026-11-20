@@ -27,10 +27,10 @@ Roman pass as it stands; the first line and lines 3 to 5 are garbled [?]. Speake
 0 s: a dim bedroom; a woman in a white T-shirt scrolls a phone while a man in a pink T-shirt and glasses lies facing away. 0.5 to 3 s: she turns and talks to him. No text. Spoken: a request to raise the fan speed, then a refusal. Hook: story_open (one person asks another).
 
 ## Person on screen
-No names, roles or captions. Filmed: the woman; a man (pink T-shirt, later yellow T-shirt, shorts, glasses, short beard); an installer in a pale blue shirt. Nobody speaks to the lens. I cannot say who speaks which line.
+No names, roles or captions. Filmed: the woman; a man (pink, later yellow T-shirt, glasses, short beard); an installer in a pale blue shirt. Nobody speaks to the lens; speakers cannot be assigned.
 
 ## Setting, framing and look
-A flat: bedroom with fairy lights, living room, wardrobe. Handheld phone footage, high-angle bed shot, then delivery, install and ceiling close-ups. Dim lamp light, then daylight; no grade. The same bed, wardrobe, yellow T-shirt and rose-gold fan appear in 1025275167252391 at 51.9 s, so footage seems shared, but the script differs.
+A flat: bedroom with fairy lights, living room, wardrobe. Handheld phone footage, then delivery, install and ceiling close-ups. Lamp light, then daylight. The same bed, wardrobe, yellow T-shirt and rose-gold fan appear in 1025275167252391 at 51.9 s, so footage seems shared, but the script differs.
 
 ## On-screen text, captions, logos, graphics
 - No spoken-word captions.
@@ -59,11 +59,11 @@ No spoken CTA. Button "Shop now"; landing page atomberg.com ceiling fans (own si
 
 ## Why it may work, and where it is weak
 Works:
-- Opens on a couple's argument about the fan, not the brand.
+- Opens on a couple's argument, not the brand.
 - A rupee figure and "practically free" make the saving concrete.
-- A cut about every 2 s; real-home UGC feel.
+- Real-home UGC feel.
 
 Weak:
 - Muffled opening lines.
-- The 1500 figure is unexplained and absent from the ad text; the five-star badge goes unmentioned.
-- No model, price or offer; "low noise" is never shown.
+- The 1500 figure is unexplained and not in the ad text.
+- No model, price or offer.
