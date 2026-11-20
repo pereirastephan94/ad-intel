@@ -7,6 +7,27 @@ import { campusTabs, closingCta, internshipCards, internshipStats, recruiterLogo
 const person = (name: string, role: string, image: string, company: string, logo?: string, subject?: string) =>
   b('person', { name, role, company, image: img(image, name), ...(logo ? { logo: img(logo) } : {}), ...(subject ? { subject } : {}) });
 
+// Fields every hero option shares (doc: pills, boxes, CTAs, logos, background video).
+const heroShared = () => ({
+  video: img('/media/hero-film.mp4'),
+  poster: img('/media/campus-film-poster.jpg', 'Students on the Scaler campus'),
+  pills: list('Learn by building startups', 'Taught by CXOs & Founders', 'AI embedded curriculum'),
+  boxes: [
+    b('fact_box', { title: '4 years', text: 'Incl. internships & study abroad' }),
+    b('fact_box', { title: 'Bangalore', text: 'World-class campus in India’s Silicon Valley' }),
+    b('fact_box', { title: 'Only 100 seats', text: 'Highly talented peers' }),
+  ],
+  primary_cta_label: 'Join the early waitlist',
+  primary_cta_href: 'lead:waitlist',
+  secondary_cta_label: 'Download Brochure',
+  secondary_cta_href: 'lead:brochure',
+  built_by_label: 'Built by 100+ industry leaders from',
+  built_by_logos: imgs('/logos/google.svg', '/logos/meta.svg', '/logos/mckinsey.svg', '/logos/bcg.svg', '/logos/bain.svg'),
+  backed_by_label: 'Backed by',
+  backed_by_logos: imgs('/logos/sequoia.svg', '/logos/lightrock.svg'),
+  backed_by_names: 'Tiger Global',
+});
+
 export const home: Story = {
   name: 'Home',
   slug: 'home',
@@ -16,28 +37,57 @@ export const home: Story = {
     seo_description:
       'A four-year UG programme in Business, Entrepreneurship & AI, on the Scaler campus in Bengaluru. Build 4 real businesses, ship AI products and intern from Year 1.',
     body: [
-      /* ---------------- Section 1: Hero (Option 6 of 9 in the doc) ---------------- */
-      b('hero', {
-        eyebrow: 'UG programme in Business, Entrepreneurship & AI',
-        headline: 'Build 4 businesses before you graduate.',
-        subhead: 'A four-year UG programme in Business, Entrepreneurship & AI, on the Scaler campus in Bengaluru.',
-        video: img('/media/hero-film.mp4'),
-        poster: img('/media/campus-film-poster.jpg', 'Students on the Scaler campus'),
-        pills: list('Learn by building startups', 'Taught by CXOs & Founders', 'AI embedded curriculum'),
-        boxes: [
-          b('fact_box', { title: '4 years', text: 'Incl. internships & study abroad' }),
-          b('fact_box', { title: 'Bangalore', text: 'World-class campus in India’s Silicon Valley' }),
-          b('fact_box', { title: 'Only 100 seats', text: 'Highly talented peers' }),
+      /* ---------------- Section 1: Hero — 4 designs to compare (1·2·3·4 bar) ----------------
+         1 = doc Option 6 (current), 2/3/4 = doc Options 1/2/3, each with its own layout.
+         To launch with one, delete the others (or set show_switcher to false). */
+      b('hero_options', {
+        switcher_title: 'Hero options',
+        show_switcher: true,
+        options: [
+          b('hero', {
+            ...heroShared(),
+            option_label: 'Current · Build 4 businesses',
+            layout: 'card',
+            eyebrow: 'UG programme in Business, Entrepreneurship & AI',
+            headline: 'Build 4 businesses before you graduate.',
+            subhead: 'A four-year UG programme in Business, Entrepreneurship & AI, on the Scaler campus in Bengaluru.',
+          }),
+          b('hero', {
+            ...heroShared(),
+            option_label: 'Doc option 1 · Split',
+            layout: 'split',
+            eyebrow: 'Scaler School of Business · Undergraduate',
+            headline: 'UG programme in Business, Entrepreneurship & AI',
+            headline_accent: 'Entrepreneurship & AI',
+            subhead: 'Learn to build, grow & lead any business with AI fluency',
+          }),
+          b('hero', {
+            ...heroShared(),
+            option_label: 'Doc option 2 · Cinematic',
+            layout: 'fullbleed',
+            eyebrow: 'Scaler School of Business · Bengaluru',
+            headline: 'UG programme in Business, Entrepreneurship & AI',
+            headline_accent: 'Entrepreneurship & AI',
+            subhead: 'Graduate as next-gen startup founders & business leaders for the AI era',
+            deadline_note: 'Early Round applications close 31st December 2026, 11:59 PM',
+          }),
+          b('hero', {
+            ...heroShared(),
+            option_label: 'Doc option 3 · 4 businesses',
+            layout: 'mosaic',
+            eyebrow: 'Scaler School of Business · Undergraduate',
+            headline: 'Built for the next generation of founders & business leaders',
+            headline_accent: 'founders & business leaders',
+            subhead: 'UG programme in Business, Entrepreneurship & AI, where you learn by building real businesses.',
+            tiles_title: 'The 4 businesses you’ll build',
+            tiles: [
+              b('hero_tile', { label: 'MicroSaaS tool', title: 'Build an AI tool that small businesses pay for.', image: img('/media/lab-mentor-800.webp') }),
+              b('hero_tile', { label: 'D2C brand', title: 'Launch a brand and sell it through India’s festive rush.', image: img('/media/d2c-bazaar-800.webp') }),
+              b('hero_tile', { label: 'Content channel', title: 'Grow an audience that buys and brings in brand deals.', image: img('/media/built/creator.webp') }),
+              b('hero_tile', { label: 'Your own startup', title: 'Turn your best idea into a funded company.', image: img('/media/lab-build-1890.webp') }),
+            ],
+          }),
         ],
-        primary_cta_label: 'Join the early waitlist',
-        primary_cta_href: 'lead:waitlist',
-        secondary_cta_label: 'Download Brochure',
-        secondary_cta_href: 'lead:brochure',
-        built_by_label: 'Built by 100+ industry leaders from',
-        built_by_logos: imgs('/logos/google.svg', '/logos/meta.svg', '/logos/mckinsey.svg', '/logos/bcg.svg', '/logos/bain.svg'),
-        backed_by_label: 'Backed by',
-        backed_by_logos: imgs('/logos/sequoia.svg', '/logos/lightrock.svg'),
-        backed_by_names: 'Tiger Global',
       }),
 
       /* ---------------- Proof bar (directly under the hero) ---------------- */

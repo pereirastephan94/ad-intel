@@ -1,6 +1,7 @@
 import type { Blok } from '@/lib/types';
-import { BentoStats, Hero, InnovationLab, LogoWall, PeopleTabs, Pillars, ProofBar, StoryScroll, VideoFeature } from './landing';
+import { BentoStats, InnovationLab, LogoWall, PeopleTabs, Pillars, ProofBar, StoryScroll, VideoFeature } from './landing';
 import { LearnSection } from './learn';
+import { Hero, HeroOptions } from './hero';
 import { CampusGallery, Sessions, Testimonials } from './community';
 import {
   AdmissionsSummary,
@@ -19,6 +20,7 @@ import {
 // Storyblok component name -> React component. Add new section types here.
 export const registry: Record<string, (p: { blok: Blok }) => React.ReactNode> = {
   hero: Hero,
+  hero_options: HeroOptions,
   proof_bar: ProofBar,
   video_feature: VideoFeature,
   pillars: Pillars,
