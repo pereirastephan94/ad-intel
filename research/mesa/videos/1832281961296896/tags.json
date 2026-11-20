@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "99.9% of companies fail in the mind of the entrepreneur.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c18",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "An interviewee says ideas die in the mind and Mesa built a hybrid PGP to start a business without quitting, citing 50 crore.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Recently, humare ghar ke dining area ka interiors humne finish kiya hai.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Aris Contour smart BLDC ceiling fan",
+    "one_line": "An owner's voiceover: a new premium dining room is spoiled by an old fan, so the Aris Contour is fitted and run by remote and phone.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

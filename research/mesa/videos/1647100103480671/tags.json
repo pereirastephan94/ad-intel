@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "I know somebody who 5x-ed the profits of his family business by using AI.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c15",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "An interviewee tells how a family-business heir used AI to 5x profits, then pitches the weekend hybrid PGP for family businesses.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

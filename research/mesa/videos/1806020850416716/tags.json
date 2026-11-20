@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Are you a parent who wants to see their child become a founder or a CEO?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c17",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A presenter asks parents if they want a founder child, then says undergrad students launch real products, sell to customers and get founder mentors.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

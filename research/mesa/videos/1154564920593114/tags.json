@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "As a student, imagine getting a chance to be in a meeting room with 100 plus founders.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c07",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "An interviewee who mentions a Kellogg MBA says Mesa students solve cases set by founders, and almost 40% get jobs through founders.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

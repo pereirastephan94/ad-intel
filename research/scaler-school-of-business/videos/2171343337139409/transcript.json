@@ -1,0 +1,117 @@
+{
+ "asset": "2171343337139409",
+ "first_seen_in": "2128818651073533",
+ "duration_s": 43.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 11.3,
+   "why": "scene change"
+  },
+  {
+   "t": 13.1,
+   "why": "scene change"
+  },
+  {
+   "t": 16.2,
+   "why": "scene change"
+  },
+  {
+   "t": 17.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 21.7,
+   "why": "scene change"
+  },
+  {
+   "t": 24.3,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 30.9,
+   "why": "scene change"
+  },
+  {
+   "t": 32.6,
+   "why": "scene change"
+  },
+  {
+   "t": 43.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "In left of the year, every MBA student at SSB has built businesses, sold products and pitch to VCs. And now we're looking for the next 100 students. So years on a year at SSB would actually look like. So day one, you're on the streets of Bando selling to real customers and negotiating with founders yourself. And three months later, you're building a D2C brand and scaling it to 50 lakh copies. And in six months, you're in front of Sequoia investors pitching the scale that business even further. And whilst all of this is happening, you are being mentored by the top leaders in the country from McKinsey, Zomato, Rezapeh and even Apple. So by the time you graduate, you want me looking for a job. In this top start-up, some of the agencies will come looking for you.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.4,
+    "text": "In left of the year, every MBA student at SSB has built businesses, sold products and pitch to"
+   },
+   {
+    "start": 5.4,
+    "end": 10.8,
+    "text": "VCs. And now we're looking for the next 100 students. So years on a year at SSB would actually look"
+   },
+   {
+    "start": 10.8,
+    "end": 15.4,
+    "text": "like. So day one, you're on the streets of Bando selling to real customers and negotiating with"
+   },
+   {
+    "start": 15.4,
+    "end": 19.7,
+    "text": "founders yourself. And three months later, you're building a D2C brand and scaling it to 50 lakh"
+   },
+   {
+    "start": 19.7,
+    "end": 24.8,
+    "text": "copies. And in six months, you're in front of Sequoia investors pitching the scale that business"
+   },
+   {
+    "start": 24.8,
+    "end": 29.5,
+    "text": "even further. And whilst all of this is happening, you are being mentored by the top leaders in the"
+   },
+   {
+    "start": 29.5,
+    "end": 35.4,
+    "text": "country from McKinsey, Zomato, Rezapeh and even Apple. So by the time you graduate, you want"
+   },
+   {
+    "start": 35.4,
+    "end": 39.5,
+    "text": "me looking for a job. In this top start-up, some of the agencies will come looking for you."
+   }
+  ]
+ }
+}

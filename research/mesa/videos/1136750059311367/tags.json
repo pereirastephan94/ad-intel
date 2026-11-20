@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "expert_or_staff",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "B-School placements in general are really suffering a lot.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c06",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A careers-team lead, talking off camera, says other B-schools struggle but Mesa has 100% placements and a team in touch with 500 startups.",
+    "script_twin": "1643453487361491",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

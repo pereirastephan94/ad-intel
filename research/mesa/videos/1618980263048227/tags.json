@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Get up every day, go to office, do the same job over and over again.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c13",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "An interviewee describes a stuck-in-a-rut routine, then says Mesa built a hybrid PGP for people who cannot quit their jobs.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

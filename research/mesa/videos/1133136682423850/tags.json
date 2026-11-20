@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "We are looking for 200 people who do not want to learn business the traditional way.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c01",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Square cut of the same maroon-polo cohort call: 200 people, 2,000 hours, 200 founders, 5 lakh revenue, AI products, apply.",
+    "script_twin": "1021624400974537",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yaroot ke fan ka speed badha do?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg smart BLDC ceiling fan, saves about ₹1500 a year",
+    "one_line": "A couple argue over the fan speed in bed, then an Atomberg smart fan is installed, run by remote and said to save about 1500 rupees a year.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "hook_text"
+    ],
+    "human_checked": false
+  }
+}

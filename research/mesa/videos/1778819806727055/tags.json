@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "90% of mid-career professionals are not able to grow beyond a certain level.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c16",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "An interviewee says mid-career people stall by going too deep in one thing, and gives four steps: business basics, build something, network, learn AI.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

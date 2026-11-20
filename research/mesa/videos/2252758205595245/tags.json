@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "social_proof",
+    "hook_text": "You know, two students from our undergrad program have built and launched an entire app on the Apple App Store.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c22",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A podcast-mic speaker says two non-tech undergrads launched the Capture running app with thousands of users; 17 year olds should build with AI.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

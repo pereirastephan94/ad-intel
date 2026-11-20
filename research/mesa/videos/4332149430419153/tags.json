@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "founder_declared",
+    "founder_evidence": "lower-third at 3 s: 'Varun Limaye / Co-founder, Mesa'",
+    "hook": "story_open",
+    "hook_text": "Are you good to go?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c28",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "An off-camera voice asks who Mesa is for; a 23 second music montage; then the speaker says it suits builders at heart.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

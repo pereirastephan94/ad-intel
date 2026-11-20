@@ -1,0 +1,172 @@
+{
+ "asset": "1427002698940211",
+ "first_seen_in": "954275137769376",
+ "duration_s": 61.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.1,
+   "why": "scene change"
+  },
+  {
+   "t": 10.2,
+   "why": "scene change"
+  },
+  {
+   "t": 16.1,
+   "why": "scene change"
+  },
+  {
+   "t": 20.1,
+   "why": "scene change"
+  },
+  {
+   "t": 23.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28.6,
+   "why": "scene change"
+  },
+  {
+   "t": 35.9,
+   "why": "scene change"
+  },
+  {
+   "t": 40.6,
+   "why": "scene change"
+  },
+  {
+   "t": 45.8,
+   "why": "scene change"
+  },
+  {
+   "t": 50.4,
+   "why": "scene change"
+  },
+  {
+   "t": 61.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Just having an MBA or great marks in your exams is not enough to get a good salary or to start up on your own. You need more than that. Those proxies are not real anymore. It's a lot more about real life experience, hands on, roll up the sleeves kind of stuff. I would prefer someone who's got on their hands dirty but in a way that has got direction. Whether you're failed or succinct or not, but if someone who has hands dirty with a sense of purpose, I was walking through your labs, place where students are actually tinkering with businesses and trying to create something, it removes the loneliness of the zero to one journey tremendously. They are young, smart, they know what they're doing. Temple University is so close to AI that institute just became a place where a lot of technology was incubated. So, we have to create that from scratch and I think SSB's, the students are actually creating it. If I was a student in a new age college like an SSB today, I do think that exposure would have helped when you have the backing of an institute. Whether it's financial or whether it's otherwise emotional, I think makes it a very, very exciting proposition and tools learn along the way.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.8,
+    "text": "Just having an MBA or great marks in your exams is not enough to get a good salary or to"
+   },
+   {
+    "start": 4.8,
+    "end": 5.8,
+    "text": "start up on your own."
+   },
+   {
+    "start": 5.8,
+    "end": 7,
+    "text": "You need more than that."
+   },
+   {
+    "start": 7,
+    "end": 8.6,
+    "text": "Those proxies are not real anymore."
+   },
+   {
+    "start": 8.6,
+    "end": 13.1,
+    "text": "It's a lot more about real life experience, hands on, roll up the sleeves kind of stuff."
+   },
+   {
+    "start": 13.1,
+    "end": 16,
+    "text": "I would prefer someone who's got on their hands dirty but in a way that has got direction."
+   },
+   {
+    "start": 16,
+    "end": 19,
+    "text": "Whether you're failed or succinct or not, but if someone who has hands dirty with a sense"
+   },
+   {
+    "start": 19,
+    "end": 23.2,
+    "text": "of purpose, I was walking through your labs, place where students are actually tinkering"
+   },
+   {
+    "start": 23.2,
+    "end": 26.7,
+    "text": "with businesses and trying to create something, it removes the loneliness of the zero to one"
+   },
+   {
+    "start": 26.7,
+    "end": 28,
+    "text": "journey tremendously."
+   },
+   {
+    "start": 28,
+    "end": 30.9,
+    "text": "They are young, smart, they know what they're doing."
+   },
+   {
+    "start": 30.9,
+    "end": 35.8,
+    "text": "Temple University is so close to AI that institute just became a place where a lot of technology"
+   },
+   {
+    "start": 35.8,
+    "end": 36.8,
+    "text": "was incubated."
+   },
+   {
+    "start": 36.8,
+    "end": 41.9,
+    "text": "So, we have to create that from scratch and I think SSB's, the students are actually"
+   },
+   {
+    "start": 41.9,
+    "end": 42.9,
+    "text": "creating it."
+   },
+   {
+    "start": 42.9,
+    "end": 48.4,
+    "text": "If I was a student in a new age college like an SSB today, I do think that exposure would"
+   },
+   {
+    "start": 48.4,
+    "end": 50.4,
+    "text": "have helped when you have the backing of an institute."
+   },
+   {
+    "start": 50.4,
+    "end": 54.6,
+    "text": "Whether it's financial or whether it's otherwise emotional, I think makes it a very, very"
+   },
+   {
+    "start": 54.6,
+    "end": 57.2,
+    "text": "exciting proposition and tools learn along the way."
+   }
+  ]
+ }
+}

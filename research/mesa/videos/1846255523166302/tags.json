@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "expert_or_staff",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "One of the questions in CAT 2025 was this.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c08",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Same CAT 2025 talk with a 3 second name card (Ankit Agarwal, Harvard MBA 2016) in front: CAT tests nothing useful, Mesa tests real skills.",
+    "script_twin": "1260320759644555",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

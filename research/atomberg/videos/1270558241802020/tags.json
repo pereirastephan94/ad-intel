@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Are you also using RO water purifier at your home?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:telugu",
+    "production": "ai_or_stock",
+    "concept_id": null,
+    "product": "Atomberg Intellon adaptive RO water purifier",
+    "one_line": "In Telugu, a presenter and captions ask if you need continuous RO, then show Intellon choosing the purification path and claiming 2X more water saving.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "production",
+      "language",
+      "hook_text"
+    ],
+    "human_checked": false
+  }
+}

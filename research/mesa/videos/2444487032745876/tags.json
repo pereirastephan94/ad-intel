@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "You will be the average of the five people around you.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c25",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A spokesman says peer group matters at 17, lists standout UG students (Shark Tank, 2 crore grant, khakra 25 lakh); under 5% get offers.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

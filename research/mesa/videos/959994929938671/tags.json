@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "social_proof",
+    "hook_text": "In just their first year of the undergrad course, our students have landed full-time internships in top startups in India.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c29",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A podcast-mic speaker lists first-year undergrad internships at startups and a Mumbai investment bank, and says they build resumes and references.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

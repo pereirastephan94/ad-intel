@@ -1,0 +1,117 @@
+{
+ "asset": "1126157010131714",
+ "first_seen_in": "1606603584081935",
+ "duration_s": 58.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.1,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 18.6,
+   "why": "scene change"
+  },
+  {
+   "t": 21.3,
+   "why": "scene change"
+  },
+  {
+   "t": 25.7,
+   "why": "scene change"
+  },
+  {
+   "t": 31.2,
+   "why": "scene change"
+  },
+  {
+   "t": 37,
+   "why": "scene change"
+  },
+  {
+   "t": 40.8,
+   "why": "scene change"
+  },
+  {
+   "t": 49.9,
+   "why": "scene change"
+  },
+  {
+   "t": 58.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "A lot of people just kind of put in a lot of multi-directed effort and that gets them nowhere. A lot of post graduates are probably doing jobs that are not commensurate to their skills, to their ambitions and to whatever they've learnt. Access to the right content is not an issue. Students know what to study, where to study, when to study. The issue is converting that knowledge into what might be practical, filtered, applicable, daily work is where I think students are suffering. Learning hands-on and learning while doing is one of the biggest unlocks you can get because traditional education was about theoretical learning and then practicing it later on. I think schools like SSB schools which are kind of focusing on combining practiced business learnings with theoretical understanding of concepts are the ones where gap is getting bridged. If I were a student even in UH college like an SSB today, I do think that exposure would have helped.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.5,
+    "text": "A lot of people just kind of put in a lot of multi-directed effort and that gets them nowhere."
+   },
+   {
+    "start": 6.5,
+    "end": 13.6,
+    "text": "A lot of post graduates are probably doing jobs that are not commensurate to their skills, to their ambitions and to whatever they've learnt."
+   },
+   {
+    "start": 13.6,
+    "end": 15.6,
+    "text": "Access to the right content is not an issue."
+   },
+   {
+    "start": 15.6,
+    "end": 18.9,
+    "text": "Students know what to study, where to study, when to study."
+   },
+   {
+    "start": 18.9,
+    "end": 27.5,
+    "text": "The issue is converting that knowledge into what might be practical, filtered, applicable, daily work is where I think students are suffering."
+   },
+   {
+    "start": 27.5,
+    "end": 36.9,
+    "text": "Learning hands-on and learning while doing is one of the biggest unlocks you can get because traditional education was about theoretical learning and then practicing it later on."
+   },
+   {
+    "start": 36.9,
+    "end": 47.4,
+    "text": "I think schools like SSB schools which are kind of focusing on combining practiced business learnings with theoretical understanding of concepts are the ones where gap is getting bridged."
+   },
+   {
+    "start": 47.4,
+    "end": 53.6,
+    "text": "If I were a student even in UH college like an SSB today, I do think that exposure would have helped."
+   }
+  ]
+ }
+}

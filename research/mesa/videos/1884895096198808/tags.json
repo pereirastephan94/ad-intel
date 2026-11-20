@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I spent two years preparing for UPSC.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c10",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Vertical version of the Apoorva story with the square picture on blurred bands: UPSC to KPMG to Mesa to a startup role.",
+    "script_twin": "1392762269393824",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

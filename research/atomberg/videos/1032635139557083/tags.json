@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Finally decided to visit Atomberg fans show.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "regional:tamil",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Renesa pedestal fan, saves up to ₹400",
+    "one_line": "A shopper visits an Atomberg fan showroom, unboxes the Renesa pedestal fan at home and lists tilt, swing, silence, remote and six speeds.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "language"
+    ],
+    "human_checked": false
+  }
+}

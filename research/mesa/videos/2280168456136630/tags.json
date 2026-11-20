@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "You know, there are three 17 year olds from our undergrad program who have built a khakra brand that does 20 lakh in revenue every single month.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c24",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A podcast-mic speaker says three 17 year olds built a khakra brand doing 20 lakh a month; every student builds a business in semester one.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

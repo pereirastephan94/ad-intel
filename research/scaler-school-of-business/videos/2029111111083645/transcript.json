@@ -1,0 +1,137 @@
+{
+ "asset": "2029111111083645",
+ "first_seen_in": "2559185667923714",
+ "duration_s": 42.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 9.7,
+   "why": "scene change"
+  },
+  {
+   "t": 11.5,
+   "why": "scene change"
+  },
+  {
+   "t": 14.6,
+   "why": "scene change"
+  },
+  {
+   "t": 16.2,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 20.1,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 29.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31,
+   "why": "scene change"
+  },
+  {
+   "t": 42,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "By month 3 at SSB you'll have more experience than most MBA graduates. And now we're looking for the next 100 students. So years only year at SSB you would actually look like. So day one you're on the streets of Bangalore selling to real customers and negotiating with founders yourself. And three months later you're building a DTC brand and scaling it to 50 lakh copies. And in six months you're in front of Sequoia investors pitching the scale that business even further. And whilst all of this is happening you are being mentored by the top leaders in the country. From McKinsey, Zomato, Razor Bay and even Apple. So by the time you graduate you won't be looking for a job in their top startup ceremonies will come looking for you.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.3,
+    "text": "By month 3 at SSB you'll have more experience than most MBA graduates."
+   },
+   {
+    "start": 4.3,
+    "end": 7.1,
+    "text": "And now we're looking for the next 100 students."
+   },
+   {
+    "start": 7.1,
+    "end": 9.6,
+    "text": "So years only year at SSB you would actually look like."
+   },
+   {
+    "start": 9.6,
+    "end": 12.8,
+    "text": "So day one you're on the streets of Bangalore selling to real customers"
+   },
+   {
+    "start": 12.8,
+    "end": 14.6,
+    "text": "and negotiating with founders yourself."
+   },
+   {
+    "start": 14.6,
+    "end": 18.8,
+    "text": "And three months later you're building a DTC brand and scaling it to 50 lakh copies."
+   },
+   {
+    "start": 18.8,
+    "end": 21.8,
+    "text": "And in six months you're in front of Sequoia investors"
+   },
+   {
+    "start": 21.8,
+    "end": 23.8,
+    "text": "pitching the scale that business even further."
+   },
+   {
+    "start": 23.8,
+    "end": 28.3,
+    "text": "And whilst all of this is happening you are being mentored by the top leaders in the country."
+   },
+   {
+    "start": 28.4,
+    "end": 32.2,
+    "text": "From McKinsey, Zomato, Razor Bay and even Apple."
+   },
+   {
+    "start": 32.2,
+    "end": 34.7,
+    "text": "So by the time you graduate you won't be looking for a job"
+   },
+   {
+    "start": 34.7,
+    "end": 37.4,
+    "text": "in their top startup ceremonies will come looking for you."
+   }
+  ]
+ }
+}

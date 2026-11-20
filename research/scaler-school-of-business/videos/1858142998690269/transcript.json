@@ -1,0 +1,182 @@
+{
+ "asset": "1858142998690269",
+ "first_seen_in": "1171956518634001",
+ "duration_s": 56.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.3,
+   "why": "scene change"
+  },
+  {
+   "t": 7.1,
+   "why": "scene change"
+  },
+  {
+   "t": 18.1,
+   "why": "scene change"
+  },
+  {
+   "t": 22,
+   "why": "scene change"
+  },
+  {
+   "t": 26.6,
+   "why": "scene change"
+  },
+  {
+   "t": 30.1,
+   "why": "scene change"
+  },
+  {
+   "t": 32.1,
+   "why": "scene change"
+  },
+  {
+   "t": 38.6,
+   "why": "scene change"
+  },
+  {
+   "t": 43.6,
+   "why": "scene change"
+  },
+  {
+   "t": 47.9,
+   "why": "scene change"
+  },
+  {
+   "t": 56.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "یار 1 baat bataattao Whenever i am investing in shark tank or hiring i dont care ki konesi college s mb kia kaat degri hai muche bhas yeh dekhna hai ki yeh person mis skills kia kia yeh dhamda sao hach sa hai but problem yeh hai hai dos ki most b-schools in India dont teach this at all Rafta coming to scalar school of business today why ek paat realise hoh hai yeh yeh wahi problem solve kar hai Students here have to build their own D2C brands here they learn businesses from people who themselves build and scale businesses avi may ayaan ke ek students and millers nu dho kar o dreveni kar hai aur MBA students ko ek ni jaldi asa exposure milita and i think people from scalar school will also be out of the curve and they can not only become an entrepreneur but they can join big companies and get top jobs at chari.com of course link it and so many others",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "یار 1 baat bataattao"
+   },
+   {
+    "start": 2.2,
+    "end": 4.4,
+    "text": "Whenever i am investing in shark tank or hiring"
+   },
+   {
+    "start": 4.4,
+    "end": 8.1,
+    "text": "i dont care ki konesi college s mb kia kaat degri hai"
+   },
+   {
+    "start": 8.1,
+    "end": 11.7,
+    "text": "muche bhas yeh dekhna hai ki yeh person mis skills kia"
+   },
+   {
+    "start": 11.7,
+    "end": 13.3,
+    "text": "kia yeh dhamda sao hach sa hai"
+   },
+   {
+    "start": 13.3,
+    "end": 14.9,
+    "text": "but problem yeh hai hai dos"
+   },
+   {
+    "start": 14.9,
+    "end": 16.8,
+    "text": "ki most b-schools in India"
+   },
+   {
+    "start": 16.8,
+    "end": 17.9,
+    "text": "dont teach this at all"
+   },
+   {
+    "start": 17.9,
+    "end": 20.5,
+    "text": "Rafta coming to scalar school of business today why"
+   },
+   {
+    "start": 20.5,
+    "end": 21.8,
+    "text": "ek paat realise hoh hai"
+   },
+   {
+    "start": 21.8,
+    "end": 24.1,
+    "text": "yeh yeh wahi problem solve kar hai"
+   },
+   {
+    "start": 24.1,
+    "end": 27.2,
+    "text": "Students here have to build their own D2C brands"
+   },
+   {
+    "start": 27.2,
+    "end": 28.9,
+    "text": "here they learn businesses from people who"
+   },
+   {
+    "start": 28.9,
+    "end": 31.2,
+    "text": "themselves build and scale businesses"
+   },
+   {
+    "start": 31.2,
+    "end": 33,
+    "text": "avi may ayaan ke ek students and millers"
+   },
+   {
+    "start": 33,
+    "end": 34.7,
+    "text": "nu dho kar o dreveni kar hai"
+   },
+   {
+    "start": 34.7,
+    "end": 38.3,
+    "text": "aur MBA students ko ek ni jaldi asa exposure milita"
+   },
+   {
+    "start": 38.3,
+    "end": 41.8,
+    "text": "and i think people from scalar school will also be out of the curve"
+   },
+   {
+    "start": 41.8,
+    "end": 44.9,
+    "text": "and they can not only become an entrepreneur but they can join"
+   },
+   {
+    "start": 44.9,
+    "end": 49,
+    "text": "big companies and get top jobs at chari.com of course"
+   },
+   {
+    "start": 49,
+    "end": 51,
+    "text": "link it and so many others"
+   }
+  ]
+ }
+}

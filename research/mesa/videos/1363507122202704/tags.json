@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Average salary post the program is upwards of 25 lakhs.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c09",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A presenter claims a 25 lakh average salary, names roles and VCs that hire Mesa students, then says not to come only for jobs.",
+    "script_twin": "2014836132522651",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

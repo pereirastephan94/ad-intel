@@ -1,0 +1,222 @@
+{
+ "asset": "1490345152258645",
+ "first_seen_in": "2673709099725314",
+ "duration_s": 80,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 11.1,
+   "why": "scene change"
+  },
+  {
+   "t": 13.4,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 23.3,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 31.4,
+   "why": "scene change"
+  },
+  {
+   "t": 50.4,
+   "why": "scene change"
+  },
+  {
+   "t": 57.5,
+   "why": "scene change"
+  },
+  {
+   "t": 79.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Brutally realistic day in my life at a B school. I woke up at 4.30 because anxiety. Since I woke up early, I woke up on a 3D website. I had to stay breakfast for a 9-A.M. class. Today was a Shark Tank Style negotiation lesson. Dabbed a quick snack and meant for a one-on-one resume review with an XBCG professor. After two more classes, I had lunch with 10. Now, it was time to start working on a product business. Out of their options, we had to choose our vendor today. And after a lot of overthinking, we finally placed the order for our first off. Okay, man. I just hope nothing goes wrong. From 6 to 8, I prepared for an upcoming case competition and completed my assignments. We have couple of investors coming to college next week. So, 8 to 8.30, I rehearsed for our elevator pitch. And 9, I left for home completely prepared to cry. But then... And then your transfer will be 1.5 lakhs. The logistics are a lot of budget. And the stock has to come on Sunday. So, this has to be sorted today. That is the vendor's call. He said we called an emergency meeting at 11. And sorted it by... So, we are done quickly. Things are going so fast, I cannot believe it. I am there now. Bye. Good night.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.4,
+    "text": "Brutally realistic day in my life at a B school."
+   },
+   {
+    "start": 3.4,
+    "end": 6,
+    "text": "I woke up at 4.30 because anxiety."
+   },
+   {
+    "start": 6,
+    "end": 8.8,
+    "text": "Since I woke up early, I woke up on a 3D website."
+   },
+   {
+    "start": 8.8,
+    "end": 11.2,
+    "text": "I had to stay breakfast for a 9-A.M. class."
+   },
+   {
+    "start": 11.2,
+    "end": 14.2,
+    "text": "Today was a Shark Tank Style negotiation lesson."
+   },
+   {
+    "start": 14.2,
+    "end": 19.4,
+    "text": "Dabbed a quick snack and meant for a one-on-one resume review with an XBCG professor."
+   },
+   {
+    "start": 19.4,
+    "end": 22.2,
+    "text": "After two more classes, I had lunch with 10."
+   },
+   {
+    "start": 22.2,
+    "end": 25.1,
+    "text": "Now, it was time to start working on a product business."
+   },
+   {
+    "start": 25.1,
+    "end": 28,
+    "text": "Out of their options, we had to choose our vendor today."
+   },
+   {
+    "start": 28,
+    "end": 32.2,
+    "text": "And after a lot of overthinking, we finally placed the order for our first off."
+   },
+   {
+    "start": 32.2,
+    "end": 33.2,
+    "text": "Okay, man."
+   },
+   {
+    "start": 34.6,
+    "end": 36.8,
+    "text": "I just hope nothing goes wrong."
+   },
+   {
+    "start": 36.8,
+    "end": 41.9,
+    "text": "From 6 to 8, I prepared for an upcoming case competition and completed my assignments."
+   },
+   {
+    "start": 41.9,
+    "end": 44.9,
+    "text": "We have couple of investors coming to college next week."
+   },
+   {
+    "start": 44.9,
+    "end": 47.9,
+    "text": "So, 8 to 8.30, I rehearsed for our elevator pitch."
+   },
+   {
+    "start": 47.9,
+    "end": 51,
+    "text": "And 9, I left for home completely prepared to cry."
+   },
+   {
+    "start": 51,
+    "end": 52,
+    "text": "But then..."
+   },
+   {
+    "start": 52,
+    "end": 55.3,
+    "text": "And then your transfer will be 1.5 lakhs."
+   },
+   {
+    "start": 55.3,
+    "end": 57.4,
+    "text": "The logistics are a lot of budget."
+   },
+   {
+    "start": 57.4,
+    "end": 59.7,
+    "text": "And the stock has to come on Sunday."
+   },
+   {
+    "start": 59.7,
+    "end": 62,
+    "text": "So, this has to be sorted today."
+   },
+   {
+    "start": 62,
+    "end": 63.6,
+    "text": "That is the vendor's call."
+   },
+   {
+    "start": 63.6,
+    "end": 66.2,
+    "text": "He said we called an emergency meeting at 11."
+   },
+   {
+    "start": 66.2,
+    "end": 67.2,
+    "text": "And sorted it by..."
+   },
+   {
+    "start": 67.2,
+    "end": 68.5,
+    "text": "So, we are done quickly."
+   },
+   {
+    "start": 69.6,
+    "end": 72.9,
+    "text": "Things are going so fast, I cannot believe it."
+   },
+   {
+    "start": 72.9,
+    "end": 73.8,
+    "text": "I am there now."
+   },
+   {
+    "start": 73.8,
+    "end": 74.3,
+    "text": "Bye."
+   },
+   {
+    "start": 74.3,
+    "end": 75,
+    "text": "Good night."
+   }
+  ]
+ }
+}

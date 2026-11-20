@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Here's a stat most business schools will never publish.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c12",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A staff speaker says 57.5% of Mesa students joined very early startups, 54% got ESOPs, and many turned down offers 1.5x higher.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

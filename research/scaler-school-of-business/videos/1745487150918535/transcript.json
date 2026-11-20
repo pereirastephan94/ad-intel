@@ -1,0 +1,177 @@
+{
+ "asset": "1745487150918535",
+ "first_seen_in": "902388459562279",
+ "duration_s": 68.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 20.4,
+   "why": "scene change"
+  },
+  {
+   "t": 27.7,
+   "why": "scene change"
+  },
+  {
+   "t": 33.4,
+   "why": "scene change"
+  },
+  {
+   "t": 40.2,
+   "why": "scene change"
+  },
+  {
+   "t": 44.5,
+   "why": "scene change"
+  },
+  {
+   "t": 48.5,
+   "why": "scene change"
+  },
+  {
+   "t": 53,
+   "why": "scene change"
+  },
+  {
+   "t": 56.4,
+   "why": "scene change"
+  },
+  {
+   "t": 68.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "If I was a student in a new age, when we college, like an SSB today, traditional education was about theoretical learning and then practicing it later on. But today, we are able to learn while doing and building. Made a lot of mistakes when I started Bombay Shwena Company. And I think that's a par for course for entrepreneurship. Assuming that the premium market in India is large was one. Naming the brand in a very long way was the other. Making a logo and a brand identity that was not very suitable for packaging was a third. But in hindsight, I think each mistake to do something, it humbles you. Bombay Shwena Company is 11 years of two steps forward, one step back. And just the ability to survive through mistakes. I think we have learned from them. And institutions have the responsibility of channeling that. Sackord SSB is doing schools that teach entrepreneurship, teach kids to learn, entrepreneurship, while building and doing, are the ones who will create jobs in the future. There is a massive wave of schools like SSB, which is now kind of harnessing what I call the inspiration, aspiration, perspiration of a large number of young students in the right direction. If I was a student in a new age MBA college, black and SSB today, I do think that exposure would have helped.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.8,
+    "text": "If I was a student in a new age, when we college, like an SSB today,"
+   },
+   {
+    "start": 5.2,
+    "end": 9.4,
+    "text": "traditional education was about theoretical learning and then practicing it later on."
+   },
+   {
+    "start": 9.4,
+    "end": 12.2,
+    "text": "But today, we are able to learn while doing and building."
+   },
+   {
+    "start": 12.2,
+    "end": 14.4,
+    "text": "Made a lot of mistakes when I started Bombay Shwena Company."
+   },
+   {
+    "start": 14.4,
+    "end": 16.8,
+    "text": "And I think that's a par for course for entrepreneurship."
+   },
+   {
+    "start": 16.8,
+    "end": 19.6,
+    "text": "Assuming that the premium market in India is large was one."
+   },
+   {
+    "start": 19.6,
+    "end": 22,
+    "text": "Naming the brand in a very long way was the other."
+   },
+   {
+    "start": 22,
+    "end": 26.6,
+    "text": "Making a logo and a brand identity that was not very suitable for packaging was a third."
+   },
+   {
+    "start": 26.6,
+    "end": 28.8,
+    "text": "But in hindsight, I think each mistake to do something,"
+   },
+   {
+    "start": 28.8,
+    "end": 33.4,
+    "text": "it humbles you. Bombay Shwena Company is 11 years of two steps forward, one step back."
+   },
+   {
+    "start": 33.4,
+    "end": 35.2,
+    "text": "And just the ability to survive through mistakes."
+   },
+   {
+    "start": 35.2,
+    "end": 36.4,
+    "text": "I think we have learned from them."
+   },
+   {
+    "start": 36.4,
+    "end": 39.6,
+    "text": "And institutions have the responsibility of channeling that."
+   },
+   {
+    "start": 39.6,
+    "end": 43.8,
+    "text": "Sackord SSB is doing schools that teach entrepreneurship, teach kids to learn,"
+   },
+   {
+    "start": 43.8,
+    "end": 47.2,
+    "text": "entrepreneurship, while building and doing, are the ones who will create jobs in the future."
+   },
+   {
+    "start": 47.2,
+    "end": 51.6,
+    "text": "There is a massive wave of schools like SSB, which is now kind of harnessing"
+   },
+   {
+    "start": 51.6,
+    "end": 56.2,
+    "text": "what I call the inspiration, aspiration, perspiration of a large number of young students"
+   },
+   {
+    "start": 56.2,
+    "end": 57.2,
+    "text": "in the right direction."
+   },
+   {
+    "start": 57.2,
+    "end": 61,
+    "text": "If I was a student in a new age MBA college, black and SSB today,"
+   },
+   {
+    "start": 61,
+    "end": 63,
+    "text": "I do think that exposure would have helped."
+   }
+  ]
+ }
+}

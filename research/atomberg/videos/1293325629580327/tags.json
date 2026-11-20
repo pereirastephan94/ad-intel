@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Are jab pehle se RO tha, toh naya kyun le aaye tum?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Intellon smart water purifier",
+    "one_line": "Two characters argue why a new purifier was bought; the answer is water shortage, an app showing filter status and TDS, and little maintenance.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "hook_text"
+    ],
+    "human_checked": false
+  }
+}

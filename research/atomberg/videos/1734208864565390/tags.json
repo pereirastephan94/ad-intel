@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Yeh la lo stone grinders paati chetan kustan kada ndi?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:telugu",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Atomberg Zenova BLDC mixer grinder",
+    "one_line": "Macro demo of the Zenova mixer grinder: coarse mode paste, chopper jar, no auto restart and jar lock detection, with Telugu-English voiceover.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "hook_text", "angle", "face", "language", "production"],
+    "human_checked": false
+  }
+}

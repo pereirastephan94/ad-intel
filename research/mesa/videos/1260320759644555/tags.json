@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "One of the questions in CAT 2025 was this.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c08",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A presenter shows a CAT 2025 question, says it tests nothing useful, and says Mesa picks students on communication and selling, not CAT scores.",
+    "script_twin": "1846255523166302",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

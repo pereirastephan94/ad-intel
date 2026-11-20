@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "",
+    "offer": "none",
+    "deadline": false,
+    "angle": "unclear",
+    "language": "unclear",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Intellon adaptive water purifier",
+    "one_line": "Two women chat in a kitchen beside a wall-mounted Atomberg purifier; no usable speech, ending on an app screen and website card.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "hook_text",
+      "angle",
+      "language"
+    ],
+    "human_checked": false
+  }
+}

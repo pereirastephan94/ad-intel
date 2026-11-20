@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "So should I tell you the number one mistake that mid-career working professionals make?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c03",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "A seated man answers an off-camera interviewer: mid-career people stay too narrow and AI will take over, so learn AI, business and sales.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

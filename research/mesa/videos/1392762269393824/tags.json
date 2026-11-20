@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I spent two years preparing for UPSC.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c10",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A woman says she went from UPSC prep and KPMG to Mesa, built an AI agent and now works with a founder (per ad).",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

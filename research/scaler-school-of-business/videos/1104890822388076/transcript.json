@@ -1,0 +1,157 @@
+{
+ "asset": "1104890822388076",
+ "first_seen_in": "1520277566815599",
+ "duration_s": 101.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.5,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 26.4,
+   "why": "scene change"
+  },
+  {
+   "t": 35.2,
+   "why": "scene change"
+  },
+  {
+   "t": 43.1,
+   "why": "scene change"
+  },
+  {
+   "t": 51.9,
+   "why": "scene change"
+  },
+  {
+   "t": 61.1,
+   "why": "scene change"
+  },
+  {
+   "t": 68.6,
+   "why": "scene change"
+  },
+  {
+   "t": 80,
+   "why": "scene change"
+  },
+  {
+   "t": 86.3,
+   "why": "scene change"
+  },
+  {
+   "t": 100.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Most MBAs in India are outdated and one in four MBA graduates is actually unemployable. To get an impactful job or on a good start-up you need to learn from real-life experiences. A classroom lectures in a case studies and frameworks are very nice, may really seek it but they can teach you business. They can't really teach you entrepreneurship but the good news is, some of the schools who have realized this gap, such as the scale of school of business. I visited the campus because I wanted to learn more about the program and they're really shaping how colleges should operate. They teach students who are pushing them into necessary situations. As students make their own start-ups at their innovation lab. In fact, I have invested in innovation lab in incubated tech startup. I think because of this approach of learning while doing students here have cracked jobs at top companies and built start-ups doing crores and revenue while they are still still. Because a degree didn't teach me how to build companies and entrepreneurship. These kind of real-world experiences, I've been trying and failing since I was a teenager and it's when I got my hands dirty that I really developed the knack for understanding business. Scalar School of Business is now providing the capability to everyone. So if you want to build a next big thing in India or anywhere in the world for that matter, or work in some of the top companies, do consider Scalar School.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.8,
+    "text": "Most MBAs in India are outdated and one in four MBA graduates is actually"
+   },
+   {
+    "start": 6.8,
+    "end": 13,
+    "text": "unemployable. To get an impactful job or on a good start-up you need to learn from real-life"
+   },
+   {
+    "start": 13,
+    "end": 17.8,
+    "text": "experiences. A classroom lectures in a case studies and frameworks are very nice,"
+   },
+   {
+    "start": 17.8,
+    "end": 23.4,
+    "text": "may really seek it but they can teach you business. They can't really teach you entrepreneurship"
+   },
+   {
+    "start": 23.4,
+    "end": 28.2,
+    "text": "but the good news is, some of the schools who have realized this gap, such as"
+   },
+   {
+    "start": 28.2,
+    "end": 32.8,
+    "text": "the scale of school of business. I visited the campus because I wanted to learn more about the program"
+   },
+   {
+    "start": 32.8,
+    "end": 38,
+    "text": "and they're really shaping how colleges should operate. They teach students who are pushing"
+   },
+   {
+    "start": 38,
+    "end": 44.8,
+    "text": "them into necessary situations. As students make their own start-ups at their innovation lab."
+   },
+   {
+    "start": 44.8,
+    "end": 55.9,
+    "text": "In fact, I have invested in innovation lab in incubated tech startup. I think because of this"
+   },
+   {
+    "start": 55.9,
+    "end": 61.4,
+    "text": "approach of learning while doing students here have cracked jobs at top companies and"
+   },
+   {
+    "start": 61.4,
+    "end": 66.9,
+    "text": "built start-ups doing crores and revenue while they are still still. Because a degree didn't"
+   },
+   {
+    "start": 66.9,
+    "end": 73,
+    "text": "teach me how to build companies and entrepreneurship. These kind of real-world experiences,"
+   },
+   {
+    "start": 73,
+    "end": 79,
+    "text": "I've been trying and failing since I was a teenager and it's when I got my hands dirty that I"
+   },
+   {
+    "start": 79,
+    "end": 84.6,
+    "text": "really developed the knack for understanding business. Scalar School of Business is now providing"
+   },
+   {
+    "start": 84.6,
+    "end": 90.2,
+    "text": "the capability to everyone. So if you want to build a next big thing in India or anywhere in the"
+   },
+   {
+    "start": 90.2,
+    "end": 97.6,
+    "text": "world for that matter, or work in some of the top companies, do consider Scalar School."
+   }
+  ]
+ }
+}

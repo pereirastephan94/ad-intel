@@ -5,23 +5,42 @@
   },
   {
    "media": "video"
+  },
+  {
+   "media": "all",
+   "retry": 3
   }
  ],
- "total": null,
+ "total": 36,
  "log": [
   "2026-11-20T00:44:08.814Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T00:44:08.818Z stopping after 1 view(s) as asked",
   "2026-11-20T00:44:08.818Z PAUSED: 0 unique ads of ~null",
   "2026-11-20T01:47:35.676Z view {\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T01:47:35.678Z stopping after 1 view(s) as asked",
-  "2026-11-20T01:47:35.679Z PAUSED: 0 unique ads of ~null"
+  "2026-11-20T01:47:35.679Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T04:23:55.274Z   video 2029111111083645 ok (42.3s, 16 stills)",
+  "2026-11-20T04:24:06.732Z   video 1122064733801570 ok (65s, 16 stills)",
+  "2026-11-20T04:24:17.459Z   video 1692587945631541 ok (60.7s, 16 stills)",
+  "2026-11-20T04:24:27.035Z   video 29253950174255944 ok (42.2s, 16 stills)",
+  "2026-11-20T04:24:38.711Z   video 1858142998690269 ok (56.8s, 16 stills)",
+  "2026-11-20T04:24:47.385Z   video 2171343337139409 ok (43.9s, 16 stills)",
+  "2026-11-20T04:25:00.591Z   video 1187102100214955 ok (86.8s, 16 stills)",
+  "2026-11-20T04:25:10.237Z   video 1427002698940211 ok (61.6s, 16 stills)",
+  "2026-11-20T04:25:23.784Z   video 1490345152258645 ok (80s, 16 stills)",
+  "2026-11-20T04:25:33.692Z   video 1741226976970985 ok (67.6s, 16 stills)",
+  "2026-11-20T04:25:42.914Z   video 1472544368190275 ok (51.5s, 16 stills)",
+  "2026-11-20T04:25:53.575Z   video 1745487150918535 ok (68.4s, 16 stills)",
+  "2026-11-20T04:26:06.376Z   video 1126157010131714 ok (58.8s, 16 stills)",
+  "2026-11-20T04:26:18.045Z   video 1104890822388076 ok (101.1s, 16 stills)",
+  "2026-11-20T04:26:34.597Z   video 1438034451855458 ok (61.3s, 16 stills)",
+  "2026-11-20T04:26:39.727Z   video 4862807954005664 ok (15.3s, 9 stills)",
+  "2026-11-20T04:26:39.727Z view {\"media\":\"all\",\"retry\":3} -> 30 ads (window total 36), 30 new, 30 unique of ~36",
+  "2026-11-20T04:26:39.728Z stopping after 1 view(s) as asked",
+  "2026-11-20T04:26:39.728Z PAUSED: 30 unique ads of ~36"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "all",
-   "retry": 3
-  },
   {
    "media": "video",
    "retry": 3

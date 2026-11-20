@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "social_proof",
+    "hook_text": "Three of our first year students just pitched to Elevation Capital.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c05",
+    "product": "Undergraduate, offline business management programme",
+    "one_line": "A presenter says three first-year students pitched a $2 billion fund with an app they built, then urges 17 year olds to apply.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

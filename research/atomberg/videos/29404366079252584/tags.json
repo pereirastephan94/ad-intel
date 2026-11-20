@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "Namma veettu [?] (rest of the first sentence unintelligible)",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:tamil",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Zenova BLDC mixer grinder, Coarse Mode",
+    "one_line": "Curry and idli close-ups lead into macro shots of the Zenova Coarse Mode knob, blade, jars and textures, with unreadable speech and a logo end card, no price.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "hook_text",
+      "angle",
+      "language",
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

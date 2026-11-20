@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "The actual efficient size of a company is shrinking very rapidly.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "MS-c02",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "An 8 second investor stage clip says companies will shrink, then a Mesa selfie speaker says MNC jobs are going and pitches Mesa. 4:5 cut.",
+    "script_twin": "1575546484599089",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

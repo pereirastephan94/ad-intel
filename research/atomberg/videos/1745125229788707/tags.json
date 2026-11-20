@@ -1,0 +1,25 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Miliye mere Atomberg ke Renesa Pedestal Fan se.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg Renesa BLDC pedestal fan, saves up to Rs 400",
+    "one_line": "A woman introduces her Atomberg Renesa pedestal fan, then shows it in the home office, kitchen and living room, claiming silence and a Rs 400 summer saving.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "hook", "face", "angle"],
+    "human_checked": false
+  }
+}

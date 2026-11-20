@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Mesa alumni see a 50 to 60% increase in salaries one year into the job that they got post Mesa.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c30",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "An interviewee claims alumni salaries rise 50 to 60% in a year, quotes managers, and says 100 plus startups trust Mesa talent.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

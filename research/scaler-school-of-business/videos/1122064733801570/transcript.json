@@ -1,0 +1,152 @@
+{
+ "asset": "1122064733801570",
+ "first_seen_in": "1915321486513257",
+ "duration_s": 65,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 15.1,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 23.8,
+   "why": "scene change"
+  },
+  {
+   "t": 31.4,
+   "why": "scene change"
+  },
+  {
+   "t": 40,
+   "why": "scene change"
+  },
+  {
+   "t": 43.9,
+   "why": "scene change"
+  },
+  {
+   "t": 49,
+   "why": "scene change"
+  },
+  {
+   "t": 53.6,
+   "why": "scene change"
+  },
+  {
+   "t": 64.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "What do you think the difference is from a traditional V school and this new HV school? We need to create 1 million jobs a month as a country, where at 100,000 we're not creating employment. Because we don't have enough entrepreneurs with great enterprises large enough to absorb the talent that has these three things. So when you talk about something like a scalar or a new age education, phenomenon, the pedagogy and exposure is so different from traditional schools. Enough people from your go out and start companies that absorb people that cannot happen in a traditional type of. It's not geared for. Everyone is willing to work hard today. So hard work alone won't set your part anymore. What sets your part is exposure, having built something before actually anyone hires you. Which is why at-scalers' school of business, students don't just study businesses. They build them, launching DTC brands, building AI apps and decoding GTM strategies for brands like Moqabara and presenting all of it to industry leaders for real-time feedback. So you work out ready to get higher or ready to start higher. That's the SSV difference. Apply now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.6,
+    "text": "What do you think the difference is from a traditional V school and this new HV school?"
+   },
+   {
+    "start": 4.6,
+    "end": 9.3,
+    "text": "We need to create 1 million jobs a month as a country, where at 100,000 we're not creating employment."
+   },
+   {
+    "start": 9.3,
+    "end": 15,
+    "text": "Because we don't have enough entrepreneurs with great enterprises large enough to absorb the talent that has these three things."
+   },
+   {
+    "start": 15,
+    "end": 18.6,
+    "text": "So when you talk about something like a scalar or a new age education,"
+   },
+   {
+    "start": 18.6,
+    "end": 22.6,
+    "text": "phenomenon, the pedagogy and exposure is so different from traditional schools."
+   },
+   {
+    "start": 22.6,
+    "end": 27.9,
+    "text": "Enough people from your go out and start companies that absorb people that cannot happen in a traditional type of."
+   },
+   {
+    "start": 27.9,
+    "end": 29.1,
+    "text": "It's not geared for."
+   },
+   {
+    "start": 29.2,
+    "end": 31.4,
+    "text": "Everyone is willing to work hard today."
+   },
+   {
+    "start": 31.4,
+    "end": 34.1,
+    "text": "So hard work alone won't set your part anymore."
+   },
+   {
+    "start": 34.1,
+    "end": 39.1,
+    "text": "What sets your part is exposure, having built something before actually anyone hires you."
+   },
+   {
+    "start": 39.1,
+    "end": 43.9,
+    "text": "Which is why at-scalers' school of business, students don't just study businesses."
+   },
+   {
+    "start": 43.9,
+    "end": 50.6,
+    "text": "They build them, launching DTC brands, building AI apps and decoding GTM strategies for brands like Moqabara"
+   },
+   {
+    "start": 50.6,
+    "end": 54.3,
+    "text": "and presenting all of it to industry leaders for real-time feedback."
+   },
+   {
+    "start": 54.3,
+    "end": 58.8,
+    "text": "So you work out ready to get higher or ready to start higher."
+   },
+   {
+    "start": 58.8,
+    "end": 61.5,
+    "text": "That's the SSV difference. Apply now."
+   }
+  ]
+ }
+}

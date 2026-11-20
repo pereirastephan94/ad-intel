@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Let me tell you a story of a software developer that I know.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c20",
+    "product": "Ascend, hybrid PGP in Business and AI",
+    "one_line": "An interviewee tells of a stuck 10-year developer and gives three steps: business basics, sell a real D2C product, network. Mesa unnamed in speech.",
+    "script_twin": "2224966578082934",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

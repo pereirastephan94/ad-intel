@@ -1,0 +1,187 @@
+{
+ "asset": "1741226976970985",
+ "first_seen_in": "1406583844890391",
+ "duration_s": 67.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.4,
+   "why": "scene change"
+  },
+  {
+   "t": 12.6,
+   "why": "scene change"
+  },
+  {
+   "t": 15.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22,
+   "why": "scene change"
+  },
+  {
+   "t": 31,
+   "why": "scene change"
+  },
+  {
+   "t": 32.4,
+   "why": "scene change"
+  },
+  {
+   "t": 36.3,
+   "why": "scene change"
+  },
+  {
+   "t": 49,
+   "why": "scene change"
+  },
+  {
+   "t": 53.2,
+   "why": "scene change"
+  },
+  {
+   "t": 57.4,
+   "why": "scene change"
+  },
+  {
+   "t": 67.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I've done three internships, two SSB, I've done two full-time jobs, two SSB. Even healthcare, as of this next journalist. And I'm working in emotion. Got an internship at Immogent AI. Also working at this brand called the whole truth. I took a bet on scalar over IAN and scalar in no way is easy. It is a rigorous B-school at the end of the day. So you have to have a lot of conviction in terms of what you want to pursue. More than a degree or a credibility for me, it was learning. Marketing is not just bookish knowledge and just reading things. Then knowing about business, but then actually going out, talking to people, knowing how the market is. SSB made that journey very smooth for me, even faster for me. The admission team did give us a lot of time to help us understand who we're teaching. First time I still remember within like one week, I managed to get like two hours with unshuman. This guy worked with Mark Zuckerberg and talking to him and getting insights from him, itself is a big learning. Multiple companies like Namah Rathri found us. Mokowara, we had the sessions with... So access to people is amazing. They're in skater and I feel like the best has been off.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.5,
+    "text": "I've done three internships, two SSB, I've done two full-time jobs, two SSB."
+   },
+   {
+    "start": 4.5,
+    "end": 7,
+    "text": "Even healthcare, as of this next journalist."
+   },
+   {
+    "start": 7,
+    "end": 8.6,
+    "text": "And I'm working in emotion."
+   },
+   {
+    "start": 8.6,
+    "end": 10.2,
+    "text": "Got an internship at Immogent AI."
+   },
+   {
+    "start": 10.2,
+    "end": 12.7,
+    "text": "Also working at this brand called the whole truth."
+   },
+   {
+    "start": 12.7,
+    "end": 17.4,
+    "text": "I took a bet on scalar over IAN and scalar in no way is easy."
+   },
+   {
+    "start": 17.4,
+    "end": 20.2,
+    "text": "It is a rigorous B-school at the end of the day."
+   },
+   {
+    "start": 20.2,
+    "end": 23.5,
+    "text": "So you have to have a lot of conviction in terms of what you want to pursue."
+   },
+   {
+    "start": 23.5,
+    "end": 26.3,
+    "text": "More than a degree or a credibility for me, it was learning."
+   },
+   {
+    "start": 26.3,
+    "end": 29.9,
+    "text": "Marketing is not just bookish knowledge and just reading things."
+   },
+   {
+    "start": 29.9,
+    "end": 32.5,
+    "text": "Then knowing about business, but then actually going out,"
+   },
+   {
+    "start": 32.5,
+    "end": 34.7,
+    "text": "talking to people, knowing how the market is."
+   },
+   {
+    "start": 34.7,
+    "end": 38.5,
+    "text": "SSB made that journey very smooth for me, even faster for me."
+   },
+   {
+    "start": 38.5,
+    "end": 42.7,
+    "text": "The admission team did give us a lot of time to help us understand who we're teaching."
+   },
+   {
+    "start": 42.7,
+    "end": 45.8,
+    "text": "First time I still remember within like one week,"
+   },
+   {
+    "start": 45.8,
+    "end": 48.1,
+    "text": "I managed to get like two hours with unshuman."
+   },
+   {
+    "start": 48.1,
+    "end": 51.9,
+    "text": "This guy worked with Mark Zuckerberg and talking to him and getting insights from him,"
+   },
+   {
+    "start": 51.9,
+    "end": 53.1,
+    "text": "itself is a big learning."
+   },
+   {
+    "start": 53.1,
+    "end": 55.4,
+    "text": "Multiple companies like Namah Rathri found us."
+   },
+   {
+    "start": 55.4,
+    "end": 57.5,
+    "text": "Mokowara, we had the sessions with..."
+   },
+   {
+    "start": 57.5,
+    "end": 59.4,
+    "text": "So access to people is amazing."
+   },
+   {
+    "start": 59.4,
+    "end": 62.6,
+    "text": "They're in skater and I feel like the best has been off."
+   }
+  ]
+ }
+}

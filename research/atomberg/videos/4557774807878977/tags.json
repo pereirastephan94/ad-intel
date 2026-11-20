@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "creator",
+    "founder_evidence": "embroidered tunic logo and set sign: 'CHEF DEENA'S KITCHEN' (no caption names the wearer)",
+    "hook": "visual_only",
+    "hook_text": "[unintelligible Tamil-like speech; first on-screen text at 3 s: Zenova Mixer Grinder]",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "regional:tamil",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Zenova mixer grinder, chopper jar",
+    "one_line": "A chef in a set kitchen points at the viewer, then chops onion and tomato in the Zenova's chopper jar, with unreadable speech and a logo end card.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "hook_text",
+      "angle",
+      "language"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Summer ke time bathroom jaldi hi [stuffy?] ho jaata hai.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Atomberg Studio BLDC exhaust fan",
+    "one_line": "A woman fits an Atomberg Studio exhaust fan in her bathroom while a voiceover praises design, back flap, silence and 6.8 W power use.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook_text", "production", "face"],
+    "human_checked": false
+  }
+}

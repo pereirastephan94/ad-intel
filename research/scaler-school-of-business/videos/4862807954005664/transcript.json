@@ -1,0 +1,74 @@
+{
+ "asset": "4862807954005664",
+ "first_seen_in": "1124686257016435",
+ "duration_s": 15.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11.7,
+   "why": "scene change"
+  },
+  {
+   "t": 14.1,
+   "why": "scene change"
+  },
+  {
+   "t": 15,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "My team will find you. But your luck will be so important. That was an SSB MBA student. And he just got offered 50 lakhs for his startup on campus. At SSB, the only way you learn is by doing it.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1,
+    "text": "My team will find you."
+   },
+   {
+    "start": 1.7,
+    "end": 3.2,
+    "text": "But your luck will be so important."
+   },
+   {
+    "start": 5.5,
+    "end": 7.3,
+    "text": "That was an SSB MBA student."
+   },
+   {
+    "start": 7.5,
+    "end": 11.7,
+    "text": "And he just got offered 50 lakhs for his startup on campus."
+   },
+   {
+    "start": 11.7,
+    "end": 14.3,
+    "text": "At SSB, the only way you learn is by doing it."
+   }
+  ]
+ }
+}

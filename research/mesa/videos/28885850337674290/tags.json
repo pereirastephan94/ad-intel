@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Only 0.001% of people have actually built something useful using AI.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c21",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Full-screen vertical cut: almost nobody has built anything useful with AI, and Mesa weaves 150 hours of AI into every course.",
+    "script_twin": "2106103496999600",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

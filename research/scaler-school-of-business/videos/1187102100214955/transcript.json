@@ -1,0 +1,202 @@
+{
+ "asset": "1187102100214955",
+ "first_seen_in": "1171509055224316",
+ "duration_s": 86.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.3,
+   "why": "scene change"
+  },
+  {
+   "t": 16.5,
+   "why": "scene change"
+  },
+  {
+   "t": 30,
+   "why": "scene change"
+  },
+  {
+   "t": 43.5,
+   "why": "scene change"
+  },
+  {
+   "t": 47.6,
+   "why": "scene change"
+  },
+  {
+   "t": 54.1,
+   "why": "scene change"
+  },
+  {
+   "t": 58.1,
+   "why": "scene change"
+  },
+  {
+   "t": 63.5,
+   "why": "scene change"
+  },
+  {
+   "t": 67.3,
+   "why": "scene change"
+  },
+  {
+   "t": 70.3,
+   "why": "scene change"
+  },
+  {
+   "t": 86.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "In my personal opinion, colleges are dead. If you are 25 and going to MBA college today, you must be some kind of idiot. He's right. Here's why. We forgot what a business school was actually meant to do. We were supposed to learn how to build a new business, how to beat people, take risks, and make moves that actually match the environment. World. But most MBA curricula were written back when Blackberry was decided. Blackberry's dead and so is that curriculum. Good colleges have good faculty who teach people how to think and learn. That is great. If you're learning in college, the ability to think and inculcate your curiosity and all that is great. And that's exactly what students do at Scalar School of Business. Here, students build GTM strategies for real brands like Mokobara, Southeast Asia launch, presenting their ideas, exactly to the founders. They're running real D2C businesses aiming to hit 50 lakhs in just 12 p.s. They're building tech products with AI in intense 48 hours hackathons where ideas turn into working products overnight. And while doing all that, they're creating Bible content crossing 100 key views in the first week and building personal brands through the creator incubator, mentored by top creators. And somewhere in between, you've learned more about business in the last two years that a class group could ever teach you. Traditional B schools will still be a number, creating graduates who all look the same on the table. But if you have got something to prove, this is the right place.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "In my personal opinion, colleges are dead."
+   },
+   {
+    "start": 3.2,
+    "end": 7.6,
+    "text": "If you are 25 and going to MBA college today, you must be some kind of idiot."
+   },
+   {
+    "start": 7.8,
+    "end": 9.6,
+    "text": "He's right. Here's why."
+   },
+   {
+    "start": 10,
+    "end": 12.4,
+    "text": "We forgot what a business school was actually meant to do."
+   },
+   {
+    "start": 12.8,
+    "end": 15,
+    "text": "We were supposed to learn how to build a new business,"
+   },
+   {
+    "start": 15.2,
+    "end": 19.4,
+    "text": "how to beat people, take risks, and make moves that actually match the environment."
+   },
+   {
+    "start": 19.4,
+    "end": 23.2,
+    "text": "World. But most MBA curricula were written back when Blackberry was decided."
+   },
+   {
+    "start": 23.6,
+    "end": 25.8,
+    "text": "Blackberry's dead and so is that curriculum."
+   },
+   {
+    "start": 25.8,
+    "end": 30,
+    "text": "Good colleges have good faculty who teach people how to think and learn."
+   },
+   {
+    "start": 30,
+    "end": 31,
+    "text": "That is great."
+   },
+   {
+    "start": 31,
+    "end": 36,
+    "text": "If you're learning in college, the ability to think and inculcate your curiosity and all that is great."
+   },
+   {
+    "start": 36,
+    "end": 39.4,
+    "text": "And that's exactly what students do at Scalar School of Business."
+   },
+   {
+    "start": 39.6,
+    "end": 44.8,
+    "text": "Here, students build GTM strategies for real brands like Mokobara, Southeast Asia launch,"
+   },
+   {
+    "start": 44.8,
+    "end": 47.6,
+    "text": "presenting their ideas, exactly to the founders."
+   },
+   {
+    "start": 47.8,
+    "end": 52.8,
+    "text": "They're running real D2C businesses aiming to hit 50 lakhs in just 12 p.s."
+   },
+   {
+    "start": 52.8,
+    "end": 57,
+    "text": "They're building tech products with AI in intense 48 hours hackathons"
+   },
+   {
+    "start": 57,
+    "end": 60,
+    "text": "where ideas turn into working products overnight."
+   },
+   {
+    "start": 60.2,
+    "end": 63.4,
+    "text": "And while doing all that, they're creating Bible content"
+   },
+   {
+    "start": 63.4,
+    "end": 67.2,
+    "text": "crossing 100 key views in the first week and building personal brands"
+   },
+   {
+    "start": 67.2,
+    "end": 70.2,
+    "text": "through the creator incubator, mentored by top creators."
+   },
+   {
+    "start": 70.2,
+    "end": 74.2,
+    "text": "And somewhere in between, you've learned more about business in the last two years"
+   },
+   {
+    "start": 74.2,
+    "end": 76,
+    "text": "that a class group could ever teach you."
+   },
+   {
+    "start": 76,
+    "end": 78,
+    "text": "Traditional B schools will still be a number,"
+   },
+   {
+    "start": 78,
+    "end": 80.6,
+    "text": "creating graduates who all look the same on the table."
+   },
+   {
+    "start": 80.6,
+    "end": 83.6,
+    "text": "But if you have got something to prove, this is the right place."
+   }
+  ]
+ }
+}

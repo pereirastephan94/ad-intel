@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yeh mera favorite jar hai, is ka naam Rasika [?].",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Zenova mixer grinder, 4 jars, Coarse Mode",
+    "one_line": "A man in a pink kurta jokes about his favourite jar, then covers the Zenova's four jars, brass-like design, chopper jar and Coarse Mode, ending on a vague good deal.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

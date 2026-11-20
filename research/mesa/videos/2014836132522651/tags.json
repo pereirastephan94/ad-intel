@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Average salary post program is upwards of 25 lakhs.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c09",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Vertical version of the 25 lakh salary talk: roles and VCs that hired Mesa students, then do not come only for the jobs.",
+    "script_twin": "1363507122202704",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

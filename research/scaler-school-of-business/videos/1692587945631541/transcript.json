@@ -1,0 +1,162 @@
+{
+ "asset": "1692587945631541",
+ "first_seen_in": "1449287253327664",
+ "duration_s": 60.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.5,
+   "why": "scene change"
+  },
+  {
+   "t": 10.5,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 22.1,
+   "why": "scene change"
+  },
+  {
+   "t": 29.5,
+   "why": "scene change"
+  },
+  {
+   "t": 34.6,
+   "why": "scene change"
+  },
+  {
+   "t": 38.7,
+   "why": "scene change"
+  },
+  {
+   "t": 41.4,
+   "why": "scene change"
+  },
+  {
+   "t": 45.8,
+   "why": "scene change"
+  },
+  {
+   "t": 49.7,
+   "why": "scene change"
+  },
+  {
+   "t": 60.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "We need to create 1 million jobs a month as a country, where at 100,000 we are not creating employment because we don't have enough entrepreneurs with really enterprises large enough to absorb the talent that has these three things. So when you talk about something like a scalar or a new age education, phenomenon, under pedagogy and exposure is so different from traditional schools, enough people from your go out and start companies that absorb people that cannot happen in a traditional time. It's not geared for. Everyone is willing to work hard today. So hard work alone won't set your part anymore. But sets your part is exposure, having built something before actually anyone hires you, which is why at-scalers schools of business, students don't just study businesses, they build them, launching DTC brands, building AI apps and decoding GTM strategies for brands like MoCobara and presenting all of it to industry leaders for real time feedback. So you work out ready to get higher or ready to start hiring. That's the SSB difference. Apply now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.7,
+    "text": "We need to create 1 million jobs a month as a country, where at 100,000 we are not creating employment"
+   },
+   {
+    "start": 4.7,
+    "end": 8.7,
+    "text": "because we don't have enough entrepreneurs with really enterprises large enough to absorb"
+   },
+   {
+    "start": 8.7,
+    "end": 10.6,
+    "text": "the talent that has these three things."
+   },
+   {
+    "start": 10.6,
+    "end": 14.7,
+    "text": "So when you talk about something like a scalar or a new age education, phenomenon,"
+   },
+   {
+    "start": 14.7,
+    "end": 17.9,
+    "text": "under pedagogy and exposure is so different from traditional schools,"
+   },
+   {
+    "start": 17.9,
+    "end": 23.2,
+    "text": "enough people from your go out and start companies that absorb people that cannot happen in a traditional"
+   },
+   {
+    "start": 23.2,
+    "end": 24.2,
+    "text": "time."
+   },
+   {
+    "start": 24.2,
+    "end": 25.2,
+    "text": "It's not geared for."
+   },
+   {
+    "start": 25.2,
+    "end": 27,
+    "text": "Everyone is willing to work hard today."
+   },
+   {
+    "start": 27,
+    "end": 29.8,
+    "text": "So hard work alone won't set your part anymore."
+   },
+   {
+    "start": 29.8,
+    "end": 34.8,
+    "text": "But sets your part is exposure, having built something before actually anyone hires you,"
+   },
+   {
+    "start": 34.8,
+    "end": 39.6,
+    "text": "which is why at-scalers schools of business, students don't just study businesses, they"
+   },
+   {
+    "start": 39.6,
+    "end": 45.2,
+    "text": "build them, launching DTC brands, building AI apps and decoding GTM strategies for brands"
+   },
+   {
+    "start": 45.2,
+    "end": 50,
+    "text": "like MoCobara and presenting all of it to industry leaders for real time feedback."
+   },
+   {
+    "start": 50,
+    "end": 54.6,
+    "text": "So you work out ready to get higher or ready to start hiring."
+   },
+   {
+    "start": 54.6,
+    "end": 55.6,
+    "text": "That's the SSB difference."
+   },
+   {
+    "start": 55.6,
+    "end": 56.6,
+    "text": "Apply now."
+   }
+  ]
+ }
+}

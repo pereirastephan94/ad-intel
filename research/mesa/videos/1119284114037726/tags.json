@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "If you are 25 years old, the worst thing you can do is work in a back-end role in a large army.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c04",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "A Mesa speaker tells 25 year olds big-company back-end jobs are a trap, says startups teach faster, then pitches founders and live projects.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

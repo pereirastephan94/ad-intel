@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Let me tell you a story of a software developer that I know.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "studio",
+    "concept_id": "MS-c20",
+    "product": "PGP, Startup Leadership and Entrepreneurship",
+    "one_line": "Vertical version of the stuck-developer advice story with a full-time PGP end card: three steps, no Mesa mention in speech.",
+    "script_twin": "2034753867202742",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

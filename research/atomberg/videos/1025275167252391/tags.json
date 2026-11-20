@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yeh sa ki aap jaante ho, humari har mein hi koshish rahe the ki parents ke khad jaaye.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg smart BLDC ceiling fan, remote",
+    "one_line": "A family vlog: parents already have a smart lock and CCTV, so the narrator orders an Atomberg smart fan they can switch by remote.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle",
+      "hook_text"
+    ],
+    "human_checked": false
+  }
+}

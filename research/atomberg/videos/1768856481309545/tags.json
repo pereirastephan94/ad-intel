@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Hum har mahine [?] hamare parents ke ghar ke liye chota sa upgrade zaroor karte hain.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Atomberg SL 1 smart lock",
+    "one_line": "A family vlog shows a smart lock replacing a key lock at the parents' front door, with fingerprint, phone access and data stored in India.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "angle", "hook_text"],
+    "human_checked": false
+  }
+}
