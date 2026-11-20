@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 // Forwards them to LEAD_WEBHOOK_URL (e.g. a Google Apps Script that appends to
 // a Sheet, or Scaler's CRM once it is connected). OTP verification and the full
 // application flow come in a later phase.
-const FIELDS = ['name', 'phone', 'email', 'role', 'city', 'status', 'consent', 'intent', 'page', 'utm_source', 'utm_medium', 'utm_campaign'];
+const FIELDS = ['name', 'email', 'phone', 'grade', 'school', 'state', 'intent', 'page', 'utm_source', 'utm_medium', 'utm_campaign'];
 
 export async function POST(req: Request) {
   let body: Record<string, unknown>;
@@ -15,7 +15,7 @@ export async function POST(req: Request) {
   }
   const lead: Record<string, string> = { submitted_at: new Date().toISOString(), source: 'SSB-UG-Website' };
   for (const f of FIELDS) lead[f] = String(body[f] ?? '').slice(0, 300);
-  if (!lead.name || !/^\d{10}$/.test(lead.phone) || !/^\S+@\S+\.\S+$/.test(lead.email)) {
+  if (!lead.name || !/^\d{10}$/.test(lead.phone) || !/^\S+@\S+\.\S+$/.test(lead.email) || !lead.grade || !lead.school || !lead.state) {
     return NextResponse.json({ ok: false, error: 'Missing or invalid fields' }, { status: 422 });
   }
 

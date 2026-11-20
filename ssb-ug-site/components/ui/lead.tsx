@@ -31,6 +31,16 @@ const COPY: Record<Intent, { title: string; sub: string; button: string; done: s
   },
 };
 
+// Lead form options (same set as the Mesa UG form).
+const GRADES = ['I am in 9th', 'I am in 10th', 'I am in 11th', 'I am in 12th', 'Finished 12th in 2026'];
+const STATES = [
+  'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh',
+  'Jharkhand', 'Karnataka', 'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha',
+  'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal',
+  'Andaman and Nicobar Islands', 'Chandigarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi', 'Jammu and Kashmir',
+  'Ladakh', 'Lakshadweep', 'Puducherry', 'Outside India',
+];
+
 const Ctx = createContext<(i: Intent) => void>(() => {});
 export const useLead = () => useContext(Ctx);
 
@@ -99,7 +109,7 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
     const form = new FormData(e.currentTarget);
     const phone = String(form.get('phone') || '').replace(/\D/g, '').slice(-10);
     if (phone.length !== 10) {
-      setError('Please enter a valid 10-digit mobile number.');
+      setError('Please enter a valid 10-digit WhatsApp number.');
       return;
     }
     setError('');
@@ -163,46 +173,51 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
               <input id="lead-name" name="name" required autoComplete="name" className={field} />
             </div>
             <div>
-              <label className={label} htmlFor="lead-phone">Mobile number</label>
+              <label className={label} htmlFor="lead-email">Email</label>
+              <input id="lead-email" name="email" type="email" required autoComplete="email" className={field} />
+            </div>
+            <div>
+              <label className={label} htmlFor="lead-phone">WhatsApp number</label>
               <div className="flex gap-2">
-                <span className="mt-1.5 grid place-items-center rounded-lg border border-line-strong bg-surface px-3 text-sm text-ink-3">+91</span>
+                <span className="mt-1.5 flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg border border-line-strong bg-surface px-3 text-sm text-ink-2">🇮🇳 +91</span>
                 <input id="lead-phone" name="phone" required inputMode="numeric" autoComplete="tel-national" maxLength={14} className={field} />
               </div>
             </div>
             <div>
-              <label className={label} htmlFor="lead-email">Email</label>
-              <input id="lead-email" name="email" type="email" required autoComplete="email" className={field} />
-            </div>
-            <div className="grid grid-cols-2 gap-3">
-              <div>
-                <label className={label} htmlFor="lead-role">I am a</label>
-                <select id="lead-role" name="role" className={field} defaultValue="Student">
-                  <option>Student</option>
-                  <option>Parent</option>
-                </select>
-              </div>
-              <div>
-                <label className={label} htmlFor="lead-city">City</label>
-                <input id="lead-city" name="city" required autoComplete="address-level2" className={field} />
-              </div>
-            </div>
-            <div>
-              <label className={label} htmlFor="lead-status">Current status</label>
-              <select id="lead-status" name="status" className={field} defaultValue="Currently in Class XII">
-                <option>Currently in Class XII</option>
-                <option>Passed Class XII in 2026</option>
-                <option>Other</option>
+              <label className={label} htmlFor="lead-grade">Grade</label>
+              <select id="lead-grade" name="grade" required className={field} defaultValue="">
+                <option value="" disabled>
+                  Select your grade
+                </option>
+                {GRADES.map((g) => (
+                  <option key={g}>{g}</option>
+                ))}
               </select>
             </div>
-            <label className="flex items-start gap-2.5 text-[13px] text-ink-3">
-              <input type="checkbox" name="consent" value="yes" defaultChecked className="mt-0.5 accent-brand" />
-              I agree to be contacted by Scaler School of Business on WhatsApp, phone and email.
-            </label>
+            <div>
+              <label className={label} htmlFor="lead-school">School name</label>
+              <input id="lead-school" name="school" required autoComplete="organization" className={field} />
+            </div>
+            <div>
+              <label className={label} htmlFor="lead-state">State</label>
+              <select id="lead-state" name="state" required className={field} defaultValue="">
+                <option value="" disabled>
+                  Select your state
+                </option>
+                {STATES.map((st) => (
+                  <option key={st}>{st}</option>
+                ))}
+              </select>
+            </div>
             {error && <p className="text-sm text-red-600">{error}</p>}
             {state === 'error' && <p className="text-sm text-red-600">Something went wrong. Please try again.</p>}
             <button type="submit" disabled={state === 'sending'} className="btn-primary w-full disabled:opacity-60">
               {state === 'sending' ? 'Sending…' : copy.button}
             </button>
+            <p className="text-center text-[11.5px] leading-snug text-ink-4">
+              By submitting, you authorise Scaler School of Business to contact you with updates via Email, SMS, WhatsApp or Call. This will
+              override DND/NDNC.
+            </p>
           </form>
         )}
       </div>

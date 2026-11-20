@@ -66,7 +66,7 @@ The official Storyblok MCP server (`https://mcp.labs.storyblok.com/mcp`, with th
 
 ## Leads (waitlist, brochure, info session)
 
-- The form posts to `/api/lead`. The route validates the name, a 10-digit mobile number and the email, then forwards the lead as JSON to `LEAD_WEBHOOK_URL`, with the UTM parameters, the page and the intent.
+- The form asks for full name, email, WhatsApp number, grade (9th, 10th, 11th, 12th, finished 12th in 2026), school name and state. It posts to `/api/lead`, which checks every field is filled (10-digit number, valid email), then forwards the lead as JSON to `LEAD_WEBHOOK_URL`, with the UTM parameters, the page and the intent.
 - For now, point `LEAD_WEBHOOK_URL` at a Google Apps Script that appends rows to a Sheet. Later, point it at Scaler's CRM.
 - Without the variable set, leads are accepted but **not stored** (a warning is logged).
 - Coming in the next phase: OTP verification of the mobile number, the full application form (with save and resume), and the ₹1,000 application fee with discount codes.
