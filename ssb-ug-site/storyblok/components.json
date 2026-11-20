@@ -1,0 +1,2446 @@
+{
+  "components": [
+    {
+      "name": "admissions_summary",
+      "display_name": "Admissions Summary",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "criteria": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Criteria",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "criterion"
+          ]
+        },
+        "steps": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Steps",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "step"
+          ]
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Cta Label"
+        },
+        "cta_href": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "link_label": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Link Label"
+        },
+        "link_href": {
+          "type": "text",
+          "pos": 9,
+          "display_name": "Link Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 10,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "bento_stats",
+      "display_name": "Bento Stats",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "tiles": {
+          "type": "bloks",
+          "pos": 3,
+          "display_name": "Tiles",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "bento_tile"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 4,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "bento_tile",
+      "display_name": "Bento Tile",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "size": {
+          "type": "option",
+          "pos": 0,
+          "display_name": "Size",
+          "options": [
+            {
+              "name": "Wide",
+              "value": "wide"
+            },
+            {
+              "name": "Tall",
+              "value": "tall"
+            },
+            {
+              "name": "Small",
+              "value": "small"
+            },
+            {
+              "name": "Wide Short",
+              "value": "wide_short"
+            }
+          ]
+        },
+        "big": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Big"
+        },
+        "line": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Line"
+        },
+        "tag": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Tag"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "video_label": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Video Label"
+        },
+        "flags": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Flags"
+        },
+        "video_url": {
+          "type": "text",
+          "description": "YouTube link or video file URL",
+          "pos": 7,
+          "display_name": "Video Url"
+        },
+        "badge": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 8,
+          "display_name": "Badge"
+        }
+      },
+      "preview_field": "big"
+    },
+    {
+      "name": "bullet_panel",
+      "display_name": "Bullet Panel",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "items": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Items",
+          "description": "One item per line."
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "campus_gallery",
+      "display_name": "Campus Gallery",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "subhead": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Subhead"
+        },
+        "tabs": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Tabs",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "gallery_tab"
+          ]
+        },
+        "video": {
+          "type": "asset",
+          "filetypes": [
+            "videos"
+          ],
+          "pos": 6,
+          "display_name": "Video"
+        },
+        "video_poster": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 7,
+          "display_name": "Video Poster"
+        },
+        "video_label": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Video Label"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "criterion",
+      "display_name": "Criterion",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Text"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "cta_band",
+      "display_name": "Cta Band",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "primary_cta_label": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Primary Cta Label"
+        },
+        "primary_cta_href": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Primary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "secondary_cta_label": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Secondary Cta Label"
+        },
+        "secondary_cta_href": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Secondary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "curriculum_pillar",
+      "display_name": "Curriculum Pillar",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "nav_label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Nav Label"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "chips": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Chips",
+          "description": "One item per line."
+        },
+        "grid_title": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Grid Title"
+        },
+        "grid": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Grid",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "feature_card"
+          ]
+        },
+        "carousel_title": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Carousel Title"
+        },
+        "carousel": {
+          "type": "bloks",
+          "pos": 7,
+          "display_name": "Carousel",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "project_card"
+          ]
+        },
+        "muted": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Muted"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 9,
+          "display_name": "Subhead"
+        },
+        "tools_title": {
+          "type": "text",
+          "pos": 10,
+          "display_name": "Tools Title"
+        },
+        "tools": {
+          "type": "textarea",
+          "pos": 11,
+          "display_name": "Tools",
+          "description": "One item per line."
+        },
+        "stepper_title": {
+          "type": "text",
+          "pos": 12,
+          "display_name": "Stepper Title"
+        },
+        "stepper": {
+          "type": "bloks",
+          "pos": 13,
+          "display_name": "Stepper",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "step"
+          ]
+        },
+        "stats": {
+          "type": "bloks",
+          "pos": 14,
+          "display_name": "Stats",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "stat"
+          ]
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "fact_box",
+      "display_name": "Fact Box",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Text"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "faq",
+      "display_name": "Faq",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Cta Label"
+        },
+        "cta_href": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 6,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "faq_item"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 7,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "faq_item",
+      "display_name": "Faq Item",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "question": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Question"
+        },
+        "answer": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Answer"
+        }
+      },
+      "preview_field": "question"
+    },
+    {
+      "name": "feature_card",
+      "display_name": "Feature Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 2,
+          "display_name": "Image"
+        },
+        "tag": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Tag"
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Subtitle"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "footer_column",
+      "display_name": "Footer Column",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "links": {
+          "type": "bloks",
+          "pos": 1,
+          "display_name": "Links",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "nav_link"
+          ]
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "gallery_tab",
+      "display_name": "Gallery Tab",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "images": {
+          "type": "multiasset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 1,
+          "display_name": "Images"
+        }
+      },
+      "preview_field": "label"
+    },
+    {
+      "name": "hero",
+      "display_name": "Hero",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Subhead"
+        },
+        "video": {
+          "type": "asset",
+          "filetypes": [
+            "videos"
+          ],
+          "pos": 3,
+          "display_name": "Video"
+        },
+        "poster": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Poster"
+        },
+        "pills": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Pills",
+          "description": "One item per line."
+        },
+        "boxes": {
+          "type": "bloks",
+          "pos": 6,
+          "display_name": "Boxes",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "fact_box"
+          ]
+        },
+        "primary_cta_label": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Primary Cta Label"
+        },
+        "primary_cta_href": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Primary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "secondary_cta_label": {
+          "type": "text",
+          "pos": 9,
+          "display_name": "Secondary Cta Label"
+        },
+        "secondary_cta_href": {
+          "type": "text",
+          "pos": 10,
+          "display_name": "Secondary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "built_by_label": {
+          "type": "text",
+          "pos": 11,
+          "display_name": "Built By Label"
+        },
+        "built_by_logos": {
+          "type": "multiasset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 12,
+          "display_name": "Built By Logos"
+        },
+        "backed_by_label": {
+          "type": "text",
+          "pos": 13,
+          "display_name": "Backed By Label"
+        },
+        "backed_by_logos": {
+          "type": "multiasset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 14,
+          "display_name": "Backed By Logos"
+        },
+        "backed_by_names": {
+          "type": "text",
+          "pos": 15,
+          "display_name": "Backed By Names"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "innovation_lab",
+      "display_name": "Innovation Lab",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "highlight": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Highlight",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "story_card"
+          ]
+        },
+        "facts": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Facts",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "photo_card"
+          ]
+        },
+        "startups_title": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Startups Title"
+        },
+        "startups": {
+          "type": "bloks",
+          "pos": 7,
+          "display_name": "Startups",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "startup_card"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 8,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "journey",
+      "display_name": "Journey",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Name"
+        },
+        "from": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "From"
+        },
+        "to": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "To"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "learn_section",
+      "display_name": "Learn Section",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "pillars": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Pillars",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "curriculum_pillar"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "logo_wall",
+      "display_name": "Logo Wall",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "logos": {
+          "type": "multiasset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Logos"
+        },
+        "subhead": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Subhead"
+        },
+        "tone": {
+          "type": "option",
+          "pos": 5,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Light",
+              "value": "light"
+            },
+            {
+              "name": "Muted",
+              "value": "muted"
+            },
+            {
+              "name": "Dark",
+              "value": "dark"
+            }
+          ]
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "nav_link",
+      "display_name": "Nav Link",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "href": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        }
+      },
+      "preview_field": "label"
+    },
+    {
+      "name": "outcome_group",
+      "display_name": "Outcome Group",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "tag": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Tag"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "stats": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Stats",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "stat"
+          ]
+        },
+        "cards": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Cards",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "story_card",
+            "project_card"
+          ]
+        },
+        "tone": {
+          "type": "option",
+          "pos": 6,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Dark",
+              "value": "dark"
+            },
+            {
+              "name": "Muted",
+              "value": "muted"
+            },
+            {
+              "name": "Light",
+              "value": "light"
+            }
+          ]
+        },
+        "logos_title": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Logos Title"
+        },
+        "logos": {
+          "type": "multiasset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 8,
+          "display_name": "Logos"
+        },
+        "journeys_title": {
+          "type": "text",
+          "pos": 9,
+          "display_name": "Journeys Title"
+        },
+        "journeys": {
+          "type": "bloks",
+          "pos": 10,
+          "display_name": "Journeys",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "journey"
+          ]
+        },
+        "names_title": {
+          "type": "text",
+          "pos": 11,
+          "display_name": "Names Title"
+        },
+        "names": {
+          "type": "textarea",
+          "pos": 12,
+          "display_name": "Names",
+          "description": "One item per line."
+        },
+        "cards_title": {
+          "type": "text",
+          "pos": 13,
+          "display_name": "Cards Title"
+        },
+        "card_style": {
+          "type": "option",
+          "pos": 14,
+          "display_name": "Card Style",
+          "options": [
+            {
+              "name": "Project",
+              "value": "project"
+            }
+          ]
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 15,
+          "display_name": "Cta Label"
+        },
+        "cta_href": {
+          "type": "text",
+          "pos": 16,
+          "display_name": "Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 17,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "page",
+      "display_name": "Page",
+      "is_root": true,
+      "is_nestable": false,
+      "schema": {
+        "seo_title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Seo Title"
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Seo Description"
+        },
+        "body": {
+          "type": "bloks",
+          "pos": 2,
+          "display_name": "Body",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "hero",
+            "proof_bar",
+            "video_feature",
+            "pillars",
+            "people_tabs",
+            "story_scroll",
+            "bento_stats",
+            "logo_wall",
+            "innovation_lab",
+            "learn_section",
+            "campus_gallery",
+            "sessions",
+            "testimonials",
+            "admissions_summary",
+            "faq",
+            "cta_band",
+            "page_intro",
+            "year_block",
+            "bullet_panel",
+            "process_steps",
+            "table_block",
+            "stat_strip",
+            "pathways",
+            "outcome_group"
+          ]
+        }
+      }
+    },
+    {
+      "name": "page_intro",
+      "display_name": "Page Intro",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Subhead"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Image"
+        },
+        "primary_cta_label": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Primary Cta Label"
+        },
+        "primary_cta_href": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Primary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "secondary_cta_label": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Secondary Cta Label"
+        },
+        "secondary_cta_href": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Secondary Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "muted": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Muted"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "pathway",
+      "display_name": "Pathway",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 2,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "pathways",
+      "display_name": "Pathways",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "pathway"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "people_group",
+      "display_name": "People Group",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "layout": {
+          "type": "option",
+          "pos": 1,
+          "display_name": "Layout",
+          "options": [
+            {
+              "name": "Landscape",
+              "value": "landscape"
+            },
+            {
+              "name": "Portrait",
+              "value": "portrait"
+            }
+          ]
+        },
+        "people": {
+          "type": "bloks",
+          "pos": 2,
+          "display_name": "People",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "person"
+          ]
+        }
+      },
+      "preview_field": "label"
+    },
+    {
+      "name": "people_tabs",
+      "display_name": "People Tabs",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "groups": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Groups",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "people_group"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "person",
+      "display_name": "Person",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Name"
+        },
+        "role": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Role"
+        },
+        "quote": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Quote"
+        },
+        "subject": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Subject"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "avatar": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 5,
+          "display_name": "Avatar"
+        },
+        "video_url": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Video Url"
+        },
+        "company": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Company"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 8,
+          "display_name": "Logo"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "photo_card",
+      "display_name": "Photo Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 2,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "pillar",
+      "display_name": "Pillar",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "lead": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Lead"
+        },
+        "points": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Points",
+          "description": "One item per line."
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Image"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "pillars",
+      "display_name": "Pillars",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Subhead"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "pillar"
+          ]
+        },
+        "muted": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Muted"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "process_step",
+      "display_name": "Process Step",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "title": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Text"
+        },
+        "points": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Points",
+          "description": "One item per line."
+        },
+        "note": {
+          "type": "textarea",
+          "pos": 4,
+          "display_name": "Note"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "process_steps",
+      "display_name": "Process Steps",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "process_step"
+          ]
+        },
+        "footnote": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Footnote"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 6,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "project_card",
+      "display_name": "Project Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "tag": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Tag"
+        },
+        "metric": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Metric"
+        },
+        "name": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Name"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 5,
+          "display_name": "Logo"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "proof_bar",
+      "display_name": "Proof Bar",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "items": {
+          "type": "bloks",
+          "pos": 0,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "stat"
+          ]
+        },
+        "footnote": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Footnote"
+        }
+      }
+    },
+    {
+      "name": "session_card",
+      "display_name": "Session Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Name"
+        },
+        "role": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Role"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Text"
+        },
+        "video_url": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Video Url"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 5,
+          "display_name": "Logo"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "sessions",
+      "display_name": "Sessions",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "subhead": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Subhead"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "session_card"
+          ]
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "site_config",
+      "display_name": "Site Config",
+      "is_root": true,
+      "is_nestable": false,
+      "schema": {
+        "announcement": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Announcement"
+        },
+        "deadline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Deadline"
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Cta Label"
+        },
+        "cta_href": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        },
+        "nav": {
+          "type": "bloks",
+          "pos": 4,
+          "display_name": "Nav",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "nav_link"
+          ]
+        },
+        "footer_blurb": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Footer Blurb"
+        },
+        "address": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Address"
+        },
+        "footer_columns": {
+          "type": "bloks",
+          "pos": 7,
+          "display_name": "Footer Columns",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "footer_column"
+          ]
+        },
+        "copyright": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Copyright"
+        },
+        "footnote": {
+          "type": "textarea",
+          "pos": 9,
+          "display_name": "Footnote"
+        }
+      }
+    },
+    {
+      "name": "startup_card",
+      "display_name": "Startup Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "kind": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Kind"
+        },
+        "name": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Name"
+        },
+        "by": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "By"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "url": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Url"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "stat",
+      "display_name": "Stat",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "value": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Value"
+        },
+        "label": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Label"
+        },
+        "tag": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Tag"
+        }
+      },
+      "preview_field": "label"
+    },
+    {
+      "name": "stat_strip",
+      "display_name": "Stat Strip",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "items": {
+          "type": "bloks",
+          "pos": 0,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "stat"
+          ]
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Muted"
+        },
+        "subhead": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Subhead"
+        },
+        "tone": {
+          "type": "option",
+          "pos": 5,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Light",
+              "value": "light"
+            },
+            {
+              "name": "Muted",
+              "value": "muted"
+            },
+            {
+              "name": "Dark",
+              "value": "dark"
+            }
+          ]
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "step",
+      "display_name": "Step",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "title": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 2,
+          "display_name": "Text"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "story_card",
+      "display_name": "Story Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Name"
+        },
+        "tag": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Tag"
+        },
+        "overlay": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Overlay"
+        },
+        "description": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Description"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "by": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "By"
+        }
+      },
+      "preview_field": "name"
+    },
+    {
+      "name": "story_scroll",
+      "display_name": "Story Scroll",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "tone": {
+          "type": "option",
+          "pos": 1,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Dark",
+              "value": "dark"
+            },
+            {
+              "name": "Light",
+              "value": "light"
+            },
+            {
+              "name": "Muted",
+              "value": "muted"
+            }
+          ]
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 3,
+          "display_name": "Headline"
+        },
+        "subhead": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Subhead"
+        },
+        "footnote": {
+          "type": "textarea",
+          "pos": 5,
+          "display_name": "Footnote"
+        },
+        "cards": {
+          "type": "bloks",
+          "pos": 6,
+          "display_name": "Cards",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "story_card"
+          ]
+        },
+        "muted": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Muted"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "table_block",
+      "display_name": "Table Block",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "eyebrow": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Headline"
+        },
+        "table": {
+          "type": "table",
+          "pos": 3,
+          "display_name": "Table"
+        },
+        "notes": {
+          "type": "textarea",
+          "pos": 4,
+          "display_name": "Notes",
+          "description": "One item per line."
+        },
+        "tone": {
+          "type": "option",
+          "pos": 5,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Muted",
+              "value": "muted"
+            },
+            {
+              "name": "Light",
+              "value": "light"
+            },
+            {
+              "name": "Dark",
+              "value": "dark"
+            }
+          ]
+        },
+        "highlight_last_row": {
+          "type": "boolean",
+          "pos": 6,
+          "display_name": "Highlight Last Row"
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 7,
+          "display_name": "Subhead"
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Cta Label"
+        },
+        "cta_href": {
+          "type": "text",
+          "pos": 9,
+          "display_name": "Cta Href",
+          "description": "A page path like /admission, a full URL, or lead:waitlist / lead:brochure / lead:info-session to open the sign-up form."
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "term",
+      "display_name": "Term",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "months": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Months"
+        },
+        "outcome": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Outcome"
+        },
+        "rows": {
+          "type": "bloks",
+          "pos": 3,
+          "display_name": "Rows",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "term_row"
+          ]
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "term_row",
+      "display_name": "Term Row",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Label"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 1,
+          "display_name": "Text"
+        }
+      },
+      "preview_field": "label"
+    },
+    {
+      "name": "testimonials",
+      "display_name": "Testimonials",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Muted"
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 3,
+          "display_name": "Items",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "video_card"
+          ]
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 4,
+          "display_name": "Subhead"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "video_card",
+      "display_name": "Video Card",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Title"
+        },
+        "caption": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Caption"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 2,
+          "display_name": "Image"
+        },
+        "video_url": {
+          "type": "text",
+          "description": "YouTube link or video file URL",
+          "pos": 3,
+          "display_name": "Video Url"
+        }
+      },
+      "preview_field": "title"
+    },
+    {
+      "name": "video_feature",
+      "display_name": "Video Feature",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "eyebrow": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Eyebrow"
+        },
+        "headline": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Headline"
+        },
+        "text": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Text"
+        },
+        "poster": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "display_name": "Poster"
+        },
+        "video_url": {
+          "type": "text",
+          "pos": 4,
+          "display_name": "Video Url"
+        },
+        "video_label": {
+          "type": "text",
+          "pos": 5,
+          "display_name": "Video Label"
+        },
+        "muted": {
+          "type": "text",
+          "pos": 6,
+          "display_name": "Muted"
+        },
+        "note": {
+          "type": "text",
+          "pos": 7,
+          "display_name": "Note"
+        }
+      },
+      "preview_field": "headline"
+    },
+    {
+      "name": "year_block",
+      "display_name": "Year Block",
+      "is_root": false,
+      "is_nestable": true,
+      "schema": {
+        "anchor": {
+          "type": "text",
+          "pos": 0,
+          "display_name": "Anchor"
+        },
+        "label": {
+          "type": "text",
+          "pos": 1,
+          "display_name": "Label"
+        },
+        "title": {
+          "type": "text",
+          "pos": 2,
+          "display_name": "Title"
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 3,
+          "display_name": "Text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "display_name": "Image"
+        },
+        "terms": {
+          "type": "bloks",
+          "pos": 5,
+          "display_name": "Terms",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "term"
+          ]
+        },
+        "tone": {
+          "type": "option",
+          "pos": 6,
+          "display_name": "Tone",
+          "options": [
+            {
+              "name": "Muted",
+              "value": "muted"
+            },
+            {
+              "name": "Light",
+              "value": "light"
+            },
+            {
+              "name": "Dark",
+              "value": "dark"
+            }
+          ]
+        },
+        "tracks": {
+          "type": "textarea",
+          "pos": 7,
+          "display_name": "Tracks",
+          "description": "One item per line."
+        },
+        "tracks_title": {
+          "type": "text",
+          "pos": 8,
+          "display_name": "Tracks Title"
+        }
+      },
+      "preview_field": "title"
+    }
+  ]
+}
