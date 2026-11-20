@@ -118,3 +118,5 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   The worker session on another machine never pushed anything; ignore it. rr-pull list now has all eleven brands (SSB, Qubo, Mokobara, DailyObjects, GIVA, CaratLane first).
 - Cult.fit now has 60 ads (30 new, from its video view): new videos need prepare, retranscribe, write-ups, concept pass refresh.
 - Atomberg (30 ads, 27 videos): needs write-ups (2 Sonnet agents + concept pass with extras.json), then waits for Qubo.
+- 04:30 UTC: running: rr-pull (11 brands); Atomberg write-ups (3 Sonnet agents: a32c4ab63468eac0e, a6d07976b7f2a0c03, ad5dffc8c8252c281), then its concept pass + extras.json;
+  Mesa video tagging + concepts.md (Sonnet agent a011781c2ce69abd8) so that "SSB vs Mesa" can be built once SSB's ads are pulled and written up. Mesa statics (123) still need .tags.json.
