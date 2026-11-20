@@ -1,10 +1,10 @@
 # Bed-time fan-speed squabble: smart ceiling fan saves "1500 rupay" a year (1275297360865553)
-- Creative name: "Fans_035_AS05_CategoryPage_CutiePotato_FanSpeed_Video_Hindi"; the audience name in the link ends "...Purchase-Renesa-UGC-Videos"
-- Product or programme: Atomberg smart BLDC ceiling fan; no model is named in the frames (the link says "Renesa"; the fan is a rose-gold three-blade unit with a ring light); headline "Upgrade To Atomberg Today", link description "Looking for a summer upgrade?"
+- Creative name: "Fans_035_AS05_CategoryPage_CutiePotato_FanSpeed_Video_Hindi"; audience name ends "...Renesa-UGC-Videos"
+- Product or programme: Atomberg smart BLDC ceiling fan, no model on screen (link says "Renesa"; rose-gold three-blade fan with ring light); headline "Upgrade To Atomberg Today"
 - Length, shape: 31.8 s, vertical 9:16 (720 x 1280)
 - Language: Hinglish
-- Format: home skit that turns into an install and demo, with a voiceover
-- Ads using it: 1, earliest start 2026-04-20 (running 214 days), total copies 1; Facebook and Instagram; links:
+- Format: home skit turning into install and demo, with voiceover
+- Ads using it: 1, earliest start 2026-04-20, total copies 1; Facebook, Instagram; links:
   - https://www.facebook.com/ads/library/?id=1707854647238748
 
 ## Script (verbatim)
@@ -24,50 +24,46 @@ Roman pass as it stands; the first line and lines 3 to 5 are garbled [?]. Speake
 | 26-28.2 | Long run mein toh aap isko sachmuch free hi samjho [?]. | In the long run, think of it as practically free. |
 
 ## First 3 seconds
-0 s: a dim bedroom, a woman in a white T-shirt with red print and a headband scrolls a phone while a man in a pink T-shirt and glasses lies facing away. 0.5 to 1 s: she turns and speaks to him; 2 to 3 s: they talk and he looks at his own screen. No text overlay. Spoken: a request to raise the fan speed, then a refusal. Hook type: story_open (a question one person asks another, not put to the viewer).
+0 s: a dim bedroom; a woman in a white T-shirt scrolls a phone while a man in a pink T-shirt and glasses lies facing away. 0.5 to 3 s: she turns and talks to him. No text. Spoken: a request to raise the fan speed, then a refusal. Hook: story_open (one person asks another).
 
 ## Person on screen
-No names, roles or captions are given. Filmed people: the woman above; the man (pink T-shirt, then a yellow T-shirt with a printed graphic, shorts, glasses and a short beard) carrying the carton; an installer in a pale blue shirt. Nobody speaks to the lens. Energy is casual and teasing. I cannot say who speaks which line.
+No names, roles or captions. Filmed: the woman; a man (pink T-shirt, later yellow T-shirt, shorts, glasses, short beard); an installer in a pale blue shirt. Nobody speaks to the lens. I cannot say who speaks which line.
 
 ## Setting, framing and look
-A flat: bedroom with fairy lights and a lamp, living room with TV and speakers, wardrobe. Handheld phone footage, high-angle bed shot, then mid-shots of delivery and installation, then ceiling-up close-ups. Natural light by day, dim lamp light for the opener, no grade. The same bed, wardrobe, yellow T-shirt and rose-gold fan appear in 1025275167252391 at 51.9 s, so footage seems shared with that video, but the script differs.
+A flat: bedroom with fairy lights, living room, wardrobe. Handheld phone footage, high-angle bed shot, then delivery, install and ceiling close-ups. Dim lamp light, then daylight; no grade. The same bed, wardrobe, yellow T-shirt and rose-gold fan appear in 1025275167252391 at 51.9 s, so footage seems shared, but the script differs.
 
 ## On-screen text, captions, logos, graphics
 - No spoken-word captions.
-- Blue pills: "Remote control" (15.1 s and 16.1 s); "Energy efficient BLDC motor" (22.5 s and 23.5 s).
-- 19.9 s: a pill graphic "Smart Fan" with Atomberg Home App, "works with Alexa", "works with Google Home", Wi-Fi and Bluetooth marks.
-- Carton with the atomberg logo (6.6 s).
-- End card (31.5 s): atomberg "Why not?", "Ceiling Fans", "www.atomberg.com", "Also available on" Amazon and Flipkart, and a small red five-star badge top right with "POWER SAVINGS" text (too small to read the rest).
+- Pills: "Remote control" (15.1 and 16.1 s); "Energy efficient BLDC motor" (22.5 and 23.5 s); "Smart Fan" graphic with Atomberg Home App, "works with Alexa", "works with Google Home", Wi-Fi, Bluetooth (19.9 s).
+- End card (31.5 s): "Ceiling Fans", "www.atomberg.com", Amazon, Flipkart, and a small red five-star "POWER SAVINGS" badge top right.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 15 cuts in 31.8 s (4.72 per 10 s), first cut 1.9 s, 3 cuts in the first 5 s. 106 words per minute, speech share 1.0 (continuous voice), tempo 99 bpm; no gaps to judge a music bed.
+Measured by software, not heard, so genre and track cannot be named. 15 cuts in 31.8 s (4.72 per 10 s), first cut 1.9 s, 3 in the first 5 s. 106 words per minute, speech share 1.0, tempo 99 bpm; no music-bed call.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-8 | Hook, problem | Couple bicker over raising the fan speed. |
-| 8-14 | Product | Atomberg fan ordered, delivered, installed; modes listed. |
-| 14-21 | Mechanism | Remote and smart control; end of the on-off fights. |
-| 21-28 | Proof | BLDC motor saves about 1500 rupees a year. |
-| 28-31.8 | CTA | End card with website, Amazon, Flipkart. |
+| 0-8 | Hook, problem | Couple bicker over the fan speed. |
+| 8-21 | Product, mechanism | Fan ordered and installed; modes; remote. |
+| 21-28 | Proof | BLDC saves about 1500 rupees a year. |
+| 28-31.8 | CTA | End card. |
 
 ## Claims and proof
-- "yeh saal mein kuch 1500 rupay bacha leta hai": spoken only, with the pill "Energy efficient BLDC motor"; no tariff, hours or comparison fan. Not in the ad text.
-- "Long run mein ... free hi samjho": spoken only.
-- Five-star badge: on the end card only, never spoken; no body or model named in the legible part.
-- Remote, app, Alexa and Google Home: remote shown in the hand (15.1 s); the others appear only in the pill graphic. No price, discount, warranty, watts or model.
+- "kuch 1500 rupay bacha leta hai" and "sachmuch free hi samjho": spoken, with the BLDC pill; no tariff, hours or comparison fan; not in the ad text.
+- Five-star badge: card only, never spoken; its rating body is not legible.
+- Remote shown in hand; app, Alexa and Google Home only in the pill graphic.
+- No price, discount, warranty, watts or model.
 
 ## Offer and call to action
-No spoken CTA. Button "Shop now"; landing page atomberg.com ceiling-fan category (own site; Amazon and Flipkart on the card). Ad text: "Win brownie points by upgrading to Atomberg smart fans-high air delivery, low noise, and work with remote, phone, and app! Buy now". Headline "Upgrade To Atomberg Today"; link description "Looking for a summer upgrade?".
+No spoken CTA. Button "Shop now"; landing page atomberg.com ceiling fans (own site; card adds Amazon, Flipkart). Ad text: "Win brownie points by upgrading to Atomberg smart fans-high air delivery, low noise, and work with remote, phone, and app! Buy now". Headline "Upgrade To Atomberg Today"; link description "Looking for a summer upgrade?".
 
 ## Why it may work, and where it is weak
 Works:
-- Opens on a recognisable couple's argument that starts with the fan, not the brand.
-- A rupee figure ("1500 rupay") and a "practically free" line make the saving concrete.
-- Cuts about every 2 s; real-home UGC feel.
+- Opens on a couple's argument about the fan, not the brand.
+- A rupee figure and "practically free" make the saving concrete.
+- A cut about every 2 s; real-home UGC feel.
 
 Weak:
-- The opening lines are muffled and the first spoken lines are hard to follow.
-- The 1500 figure is unexplained and absent from the ad text; the end card shows a five-star badge that nobody mentions.
-- No model, price or offer.
-- Ad text says "summer upgrade" and "low noise", which the video never shows.
+- Muffled opening lines.
+- The 1500 figure is unexplained and absent from the ad text; the five-star badge goes unmentioned.
+- No model, price or offer; "low noise" is never shown.
