@@ -32,6 +32,38 @@
   {
    "media": "video",
    "retry": 7
+  },
+  {
+   "media": "image",
+   "retry": 7
+  },
+  {
+   "media": "meme",
+   "retry": 7
+  },
+  {
+   "media": "all",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 7
+  },
+  {
+   "q": "you"
+  },
+  {
+   "q": "your"
+  },
+  {
+   "q": "the"
+  },
+  {
+   "q": "and"
+  },
+  {
+   "q": "for"
+  },
+  {
+   "q": "with"
   }
  ],
  "total": 110,
@@ -79,24 +111,115 @@
   "2026-11-20T05:54:43.137Z DONE: 30 unique ads of ~110",
   "2026-11-20T06:12:07.161Z view {\"media\":\"video\",\"retry\":7} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
   "2026-11-20T06:12:07.165Z stopping after 1 view(s) as asked",
-  "2026-11-20T06:12:07.165Z PAUSED: 30 unique ads of ~110"
+  "2026-11-20T06:12:07.165Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T06:18:30.800Z view {\"media\":\"image\",\"retry\":7} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T06:18:30.803Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:18:30.803Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T06:31:02.534Z view {\"media\":\"meme\",\"retry\":7} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T06:31:02.536Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:31:02.536Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T06:42:21.158Z view {\"media\":\"all\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\",\"retry\":7} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T06:42:21.161Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:42:21.162Z DONE: 30 unique ads of ~110",
+  "2026-11-20T06:52:55.052Z view {\"q\":\"you\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T06:52:55.055Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:52:55.055Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T07:06:31.630Z view {\"q\":\"your\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T07:06:31.633Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:06:31.633Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T07:20:25.663Z view {\"q\":\"the\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T07:20:25.667Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:20:25.667Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T07:33:16.841Z view {\"q\":\"and\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T07:33:16.845Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:33:16.845Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T07:44:32.497Z view {\"q\":\"for\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T07:44:32.500Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:44:32.500Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T07:55:29.161Z view {\"q\":\"with\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T07:55:29.164Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:55:29.164Z PAUSED: 30 unique ads of ~110"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "media": "image",
-   "retry": 7
+   "q": "now"
   },
   {
-   "media": "meme",
-   "retry": 7
+   "q": "get"
   },
   {
-   "media": "all",
-   "sort": "relevancy_monthly_grouped",
-   "dir": "desc",
-   "retry": 7
+   "q": "new"
+  },
+  {
+   "q": "free"
+  },
+  {
+   "q": "best"
+  },
+  {
+   "q": "offer"
+  },
+  {
+   "q": "app"
+  },
+  {
+   "q": "today"
+  },
+  {
+   "q": "aap"
+  },
+  {
+   "q": "hai"
+  },
+  {
+   "q": "ke"
+  },
+  {
+   "q": "se"
+  },
+  {
+   "q": "ka"
+  },
+  {
+   "q": "to"
+  },
+  {
+   "q": "in"
+  },
+  {
+   "q": "a"
+  },
+  {
+   "q": "is"
+  },
+  {
+   "q": "of"
+  },
+  {
+   "q": "you",
+   "retry": 1
+  },
+  {
+   "q": "your",
+   "retry": 1
+  },
+  {
+   "q": "the",
+   "retry": 1
+  },
+  {
+   "q": "and",
+   "retry": 1
+  },
+  {
+   "q": "for",
+   "retry": 1
+  },
+  {
+   "q": "with",
+   "retry": 1
   }
  ],
- "stage": 2
+ "stage": 3
 }

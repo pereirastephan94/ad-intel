@@ -1,0 +1,112 @@
+{
+ "asset": "4057254601236807",
+ "first_seen_in": "3361006940750709",
+ "duration_s": 37.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.3,
+   "why": "scene change"
+  },
+  {
+   "t": 6.5,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11.3,
+   "why": "scene change"
+  },
+  {
+   "t": 13,
+   "why": "scene change"
+  },
+  {
+   "t": 19,
+   "why": "scene change"
+  },
+  {
+   "t": 20.9,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 24.9,
+   "why": "scene change"
+  },
+  {
+   "t": 27.5,
+   "why": "scene change"
+  },
+  {
+   "t": 37.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "That's enough. Move in once and I'll get it. Well, I do. This is workwear that outlasts the workday. No tarnish, no fading, no fuzz, just silver that keeps it shine through back to back meat and spilled coffee and days that run way past 6. You might hate your 9 to 5 job but you can never go wrong with 9 to 5 silver from Jiva.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1,
+    "text": "That's enough."
+   },
+   {
+    "start": 1,
+    "end": 7,
+    "text": "Move in once and I'll get it."
+   },
+   {
+    "start": 7,
+    "end": 10.9,
+    "text": "Well, I do."
+   },
+   {
+    "start": 10.9,
+    "end": 15.2,
+    "text": "This is workwear that outlasts the workday."
+   },
+   {
+    "start": 15.2,
+    "end": 19.9,
+    "text": "No tarnish, no fading, no fuzz, just silver that keeps it shine through back to back meat"
+   },
+   {
+    "start": 19.9,
+    "end": 30.2,
+    "text": "and spilled coffee and days that run way past 6."
+   },
+   {
+    "start": 30.2,
+    "end": 34,
+    "text": "You might hate your 9 to 5 job but you can never go wrong with 9 to 5 silver from Jiva."
+   }
+  ]
+ }
+}

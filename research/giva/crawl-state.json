@@ -28,9 +28,40 @@
   {
    "media": "video",
    "retry": 2
+  },
+  {
+   "media": "image",
+   "retry": 2
+  },
+  {
+   "media": "video",
+   "retry": 7
+  },
+  {
+   "media": "image",
+   "retry": 7
+  },
+  {
+   "media": "meme",
+   "retry": 7
+  },
+  {
+   "media": "all",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 7
+  },
+  {
+   "q": "you"
+  },
+  {
+   "q": "your"
+  },
+  {
+   "q": "the"
   }
  ],
- "total": null,
+ "total": 287,
  "log": [
   "2026-11-19T23:59:32.583Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-19T23:59:32.585Z stopping after 1 view(s) as asked",
@@ -76,14 +107,109 @@
   "2026-11-20T06:05:36.755Z   video 1743327853611802 ok (41.8s, 13 stills)",
   "2026-11-20T06:05:36.755Z view {\"media\":\"video\",\"retry\":2} -> 30 ads (window total 39), 30 new, 30 unique of ~null",
   "2026-11-20T06:05:36.756Z stopping after 1 view(s) as asked",
-  "2026-11-20T06:05:36.757Z PAUSED: 30 unique ads of ~null"
+  "2026-11-20T06:05:36.757Z PAUSED: 30 unique ads of ~null",
+  "2026-11-20T06:25:05.223Z view {\"media\":\"image\",\"retry\":2} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
+  "2026-11-20T06:25:05.226Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:25:05.226Z DONE: 30 unique ads of ~null",
+  "2026-11-20T06:36:09.864Z view {\"media\":\"video\",\"retry\":7} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
+  "2026-11-20T06:36:09.867Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:36:09.868Z PAUSED: 30 unique ads of ~null",
+  "2026-11-20T06:47:42.697Z view {\"media\":\"image\",\"retry\":7} -> 30 ads (window total 36), 30 new, 60 unique of ~null",
+  "2026-11-20T06:47:42.699Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:47:42.699Z PAUSED: 60 unique ads of ~null",
+  "2026-11-20T06:59:29.356Z view {\"media\":\"meme\",\"retry\":7} -> 0 ads (window total 0), 0 new, 60 unique of ~null",
+  "2026-11-20T06:59:29.359Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:59:29.359Z PAUSED: 60 unique ads of ~null",
+  "2026-11-20T07:13:15.207Z   video 1612820150873341 ok (37.1s, 16 stills)",
+  "2026-11-20T07:13:27.070Z   video 1834584564246992 ok (30s, 16 stills)",
+  "2026-11-20T07:13:36.991Z   video 4057254601236807 ok (37.6s, 16 stills)",
+  "2026-11-20T07:13:46.734Z   video 1817146079718141 ok (39.6s, 16 stills)",
+  "2026-11-20T07:13:47.283Z view {\"media\":\"all\",\"sort\":\"relevancy_monthly_grouped\",\"dir\":\"desc\",\"retry\":7} -> 30 ads (window total 287), 26 new, 86 unique of ~287",
+  "2026-11-20T07:13:47.285Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:13:47.285Z DONE: 86 unique ads of ~287",
+  "2026-11-20T07:26:30.602Z view {\"q\":\"you\"} -> 23 ads (window total 23), 21 new, 107 unique of ~287",
+  "2026-11-20T07:26:30.604Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:26:30.604Z PAUSED: 107 unique ads of ~287",
+  "2026-11-20T07:39:21.186Z view {\"q\":\"your\"} -> 0 ads (window total 0), 0 new, 107 unique of ~287",
+  "2026-11-20T07:39:21.189Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:39:21.189Z PAUSED: 107 unique ads of ~287",
+  "2026-11-20T07:49:44.792Z view {\"q\":\"the\"} -> 0 ads (window total 0), 0 new, 107 unique of ~287",
+  "2026-11-20T07:49:44.796Z stopping after 1 view(s) as asked",
+  "2026-11-20T07:49:44.796Z PAUSED: 107 unique ads of ~287"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "media": "image",
-   "retry": 2
+   "q": "and"
+  },
+  {
+   "q": "for"
+  },
+  {
+   "q": "with"
+  },
+  {
+   "q": "now"
+  },
+  {
+   "q": "get"
+  },
+  {
+   "q": "new"
+  },
+  {
+   "q": "free"
+  },
+  {
+   "q": "best"
+  },
+  {
+   "q": "offer"
+  },
+  {
+   "q": "app"
+  },
+  {
+   "q": "today"
+  },
+  {
+   "q": "aap"
+  },
+  {
+   "q": "hai"
+  },
+  {
+   "q": "ke"
+  },
+  {
+   "q": "se"
+  },
+  {
+   "q": "ka"
+  },
+  {
+   "q": "to"
+  },
+  {
+   "q": "in"
+  },
+  {
+   "q": "a"
+  },
+  {
+   "q": "is"
+  },
+  {
+   "q": "of"
+  },
+  {
+   "q": "your",
+   "retry": 1
+  },
+  {
+   "q": "the",
+   "retry": 1
   }
  ],
- "stage": 1
+ "stage": 3
 }

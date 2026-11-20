@@ -1,0 +1,112 @@
+{
+ "asset": "1817146079718141",
+ "first_seen_in": "955068720796127",
+ "duration_s": 39.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.8,
+   "why": "scene change"
+  },
+  {
+   "t": 6.3,
+   "why": "scene change"
+  },
+  {
+   "t": 9.9,
+   "why": "scene change"
+  },
+  {
+   "t": 12.7,
+   "why": "scene change"
+  },
+  {
+   "t": 15.4,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 22.3,
+   "why": "scene change"
+  },
+  {
+   "t": 27.8,
+   "why": "scene change"
+  },
+  {
+   "t": 31.6,
+   "why": "scene change"
+  },
+  {
+   "t": 33.6,
+   "why": "scene change"
+  },
+  {
+   "t": 39.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Seeing that the Theroy Kapoor only is your main style, I guess I found mine too. But everyday plans are like my duty to keep up with the outfit. A few pieces, I'll just start in Hanang. But when I'm meeting people or actually making an effort, I like mixing different designs to make them look feel a little more me. And when it's time to really dress up, more layers, more designs, that's the move. Different plans, different looks, Jeeva, just got me covered.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4,
+    "text": "Seeing that the Theroy Kapoor only is your main style, I guess I found mine too."
+   },
+   {
+    "start": 5,
+    "end": 8,
+    "text": "But everyday plans are like my duty to keep up with the outfit."
+   },
+   {
+    "start": 8,
+    "end": 11,
+    "text": "A few pieces, I'll just start in Hanang."
+   },
+   {
+    "start": 16,
+    "end": 18,
+    "text": "But when I'm meeting people or actually making an effort,"
+   },
+   {
+    "start": 18,
+    "end": 21,
+    "text": "I like mixing different designs to make them look feel a little more me."
+   },
+   {
+    "start": 22,
+    "end": 25,
+    "text": "And when it's time to really dress up, more layers, more designs, that's the move."
+   },
+   {
+    "start": 27,
+    "end": 30,
+    "text": "Different plans, different looks, Jeeva, just got me covered."
+   }
+  ]
+ }
+}

@@ -285,8 +285,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.giva.co/collections/all-1",
-  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNEXVUnugyTGDdKhVHQbZlJZ0JAwdN_aOEDHn8m9n8BUF3O60gJkH1FeDa7wUzxWvbYbOUcXT7eHKx1cQhgmB-6NXD8COn2T03qbJFYbg.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=FYrY5gFG_ykQ7kNvwHOaWGn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5MTI3NTc5ODgzMjQ4ODgsImFzc2V0X2FnZV9kYXlzIjo1NSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTQyBENxrgA9dFTcZzax-XPDTmCVBPfXjMqVHeczDuqWQ&oe=6B05C4D2",
-  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/914308861_1172674798529860_6533921252400140047_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=O-nN_ykQrjMQ7kNvwFjtBN0&_nc_oc=AdrMYG7WXsQr_h1IaOJORtSoFtdgE9LBgbBZA592ECeQ0mOSqdrlBUu1S5sqf3NXrt8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&oh=00_AQQwUZiymVhqGS0OiRv8RjE2PykKieqnheFmgFYNS_xejg&oe=6B05C85B",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNEXVUnugyTGDdKhVHQbZlJZ0JAwdN_aOEDHn8m9n8BUF3O60gJkH1FeDa7wUzxWvbYbOUcXT7eHKx1cQhgmB-6NXD8COn2T03qbJFYbg.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=FYrY5gFG_ykQ7kNvwFHZwxI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5MTI3NTc5ODgzMjQ4ODgsImFzc2V0X2FnZV9kYXlzIjo1NSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTZ4AXGMiNpaviScLNWY1aMmfd38W2e0dW_jPGzc3QsTA&oe=6B05C4D2",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/914308861_1172674798529860_6533921252400140047_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=O-nN_ykQrjMQ7kNvwHt6Nex&_nc_oc=AdoQ-AbrMecHjhg9jO_pynGb8uF2h35VGiROCqfKvj5jUSegXco3qqFlERZZLuO77NE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQw7j1ZKuOKy5tqqZ-VhrcIiTjs5FEAc3cFKM69MDSvMA&oe=6B05C85B",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -301,7 +301,8 @@
    ]
   },
   "sample_views": {
-   "video": 9
+   "video": 9,
+   "all": 22
   },
   "video_asset": "912757988324888"
  },
@@ -897,8 +898,8 @@
   "link_description": "",
   "cta": "",
   "landing_url": "",
-  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8x_YhCZuG5vB40upgHitza8nNZNcN_zjLIawTqQcsWamTmUMKDoQKN9TL_8BPRa2FL2_Q9IhxpUTI9rXVytm_Mb-k4o2sPhR0ejLHLg.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=lq4hONZwaM0Q7kNvwFlr5i0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI3Ni5wcm9ncmVzc2l2ZV9oMjY0LWJhc2ljLWdlbjJfNzIwcCIsInhwdl9hc3NldF9pZCI6MTE1MjE4MzA0NzE3MjY5OSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UvePHgHGAWOUlzsh7rNUgtjWFJQx-U45ZrYvQ6vVrOZbWHvD9vqY3EF1OBrSw08ke0sTUYO0RHmqgUE5_mTvrbHfwPlIf5d-KdqwFvujnMwBlZ8LXLhyWo6our0&oh=00_AQSczlBr7fiXDy12bJ4ydDk-aZ3FI-ow0K7ejTFk65c9mA&oe=6B05ADCB",
-  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/915117070_2733448870482627_1841269730146818706_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oJzhOYUFjOYQ7kNvwGufDYx&_nc_oc=Adp6nlzMLetwJp0WadxFUw24CJDDAKPzMxLVqhuQPyMDKEcWlzRaAmdbat57kIWho40&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&oh=00_AQSc2lOiMrWnVvxNWwrBmEj5ES9iOM8nDdPbW-QbnKwzMw&oe=6B059FF3",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8x_YhCZuG5vB40upgHitza8nNZNcN_zjLIawTqQcsWamTmUMKDoQKN9TL_8BPRa2FL2_Q9IhxpUTI9rXVytm_Mb-k4o2sPhR0ejLHLg.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=lq4hONZwaM0Q7kNvwFd95ck&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI3Ni5wcm9ncmVzc2l2ZV9oMjY0LWJhc2ljLWdlbjJfNzIwcCIsInhwdl9hc3NldF9pZCI6MTE1MjE4MzA0NzE3MjY5OSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UjYsyeJ28TjpMP1g3v6fcuSBv7qsB4q0Fhn3re-heVseE3o4Y-aap3avKqr5P9d8DJG9bHiV6alB92tniO-qvEuiXpWJORY49mE5ZxGn6hrCiPRw-jgHudLC-Ek&oh=00_AQQw48oxJ0ujLD2x5dYJRAZjbi9buC8qzjhBKsLSKkQi-A&oe=6B05ADCB",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/915117070_2733448870482627_1841269730146818706_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oJzhOYUFjOYQ7kNvwG_b1Ry&_nc_oc=Adr_tn7TRb1-ot34wSQS_KmA-OMBUYbgTzFL88gFzvlirIpw_5tD7zVjTb2-NWGOZAo&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQRBp5gaTSscicQEAWbonPYUZID_TRqRZTpIPFtBox0wzw&oe=6B05D833",
   "copies": 1,
   "platforms": [
    "INSTAGRAM"
@@ -911,7 +912,8 @@
    ]
   },
   "sample_views": {
-   "video": 27
+   "video": 27,
+   "all": 7
   },
   "video_asset": "1152183047172699"
  },
@@ -997,8 +999,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.giva.co/collections/all-1",
-  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQOuXqh9unkgQsWl4hhW7A9Z22eUQBGdD67ddTOvwzkTJ7Eqavso6kzBjxFryGifa-W-izd1euNcWTxXFvAbNBU38LiEuiWX0c1EIoizHA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=EDR1jKZ92EEQ7kNvwF6qejW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzQzMzI3ODUzNjExODAyLCJhc3NldF9hZ2VfZGF5cyI6NTcsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSiIsCcaW4yXR1I0PCAfeOHsbrE6zvijdVAqID3wRogpA&oe=6B05AEC1",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/912202562_1795417431715813_4430061336833755422_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l8Yjm1KStjAQ7kNvwETX3-f&_nc_oc=Adreus3Tz0Q28I-0ak-JXOv6CyXV3eBic09bSCpOKC7-bS6NtqLAaOJa5T4bTHwIkUE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=TUw3xY8ESIE6DtXj8DrpJA&_nc_ss=7b289&oh=00_AQTtyp13NI2G9XsCAqw1vpCwb-20ugbSJT6_Ch2dIb1qcQ&oe=6B05A486",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQOuXqh9unkgQsWl4hhW7A9Z22eUQBGdD67ddTOvwzkTJ7Eqavso6kzBjxFryGifa-W-izd1euNcWTxXFvAbNBU38LiEuiWX0c1EIoizHA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=EDR1jKZ92EEQ7kNvwG39CMw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzQzMzI3ODUzNjExODAyLCJhc3NldF9hZ2VfZGF5cyI6NTcsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQT8hsE3T5d3WZ5yvG096lxpeHzQHO11xeTTxnz0Oc1Ybg&oe=6B05AEC1",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/912202562_1795417431715813_4430061336833755422_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l8Yjm1KStjAQ7kNvwHqYh06&_nc_oc=AdoHRjiNJXkmkjowdU7yq3J2G_egG4fDuT7NlthgfQolR1_DWvoQG0WxIPnTL_ruaBs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQbggatqAnIYwXKKn3pdHUqjIaq5ULadlYiOTG_ZgfxTg&oe=6B05DCC6",
   "copies": 1,
   "platforms": [
    "FACEBOOK",
@@ -1013,8 +1015,2573 @@
    ]
   },
   "sample_views": {
-   "video": 30
+   "video": 30,
+   "all": 19
   },
   "video_asset": "1743327853611802"
+ },
+ "3084999575164828": {
+  "library_id": "3084999575164828",
+  "link": "https://www.facebook.com/ads/library/?id=3084999575164828",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 39,
+  "media_type": "DPA",
+  "body": "For moments that call for nothing less than pure indulgence. 💎\n\nWhether it's her birthday, an anniversary, a milestone, or simply a “just because” moment — make it memorable with Heer by GIVA.\n\nChoose elegant Gold jewellery adorned with the brilliance of Lab-Grown Diamonds, and make your gift even more special with 0 Making Charges. ✨\n\n💎 100% Certified Lab Diamonds\n🏅 BIS Hallmark\n↩️ Easy 15-Day Returns\n🔄 Lifetime Exchange & Buyback\n\nBecause some moments deserve to sparkle a little brighter. 💛",
+  "headline": "Up to 0 Making Charges",
+  "link_description": "Shop BIS Hallmark Gold, 925 Silver & Certified Lab Grown Diamond Jewellery at GIVA. Latest designs ✓ Best Offers ✓ Easy Returns ✓ Pan India Delivery",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/818937300_2244406859740066_7303835827965147765_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iKhBr7VhgqgQ7kNvwGIYYzC&_nc_oc=AdqkvQSkAtD0R6QbiMOulA6TY7lYpGRCfMbb7T6xfFBzmvG1otDkGTUuxuoZuw5shjs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQT1-kvHdOD_NBzvAthWOTDMOadTXR5u9QaaUKqr5cmFQQ&oe=6B05AD17",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 1
+  }
+ },
+ "1604527324285873": {
+  "library_id": "1604527324285873",
+  "link": "https://www.facebook.com/ads/library/?id=1604527324285873",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-02",
+  "days_running": 18,
+  "media_type": "DPA",
+  "body": "Wondering what to gift them? \nGift them jewellery and make it special with Giva! ❤️\n\n💎Jewellery for him and her\n✨ Pure Silver\n\nWhat's even better?\n🚚 Free Shipping\n↩️ Easy Returns\n🛡️ 6-Month Warranty\n\nEnjoy Flat 15% OFF on your first purchase. Use code NEW15 at checkout.",
+  "headline": "{{product.name}}",
+  "link_description": "Shop Festive Bestsellers at GIVA.",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/festive-bestsellers",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/864308632_1900250520959757_7589143225443231452_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RM_ffmtgVUAQ7kNvwEm4zQ8&_nc_oc=Adr-0DdknhTN460KKQtsWHAiTy3JfXcZXjq2inB_syYGB7V6dkFHxPIyvGu84KVBT_w&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQRhfG-0LfDCH5nuVmr7Q1wfh6pE2-imkEs-RNA80Y5VeA&oe=6B05CFF0",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 2
+  }
+ },
+ "2355454198624112": {
+  "library_id": "2355454198624112",
+  "link": "https://www.facebook.com/ads/library/?id=2355454198624112",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "Still thinking about it? 👀 Your favourite GIVA sparkle is waiting for you! Make it yours and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/904913485_1159632723183297_4953246127120231003_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=t23pQc3sPC0Q7kNvwHcxDLD&_nc_oc=Adroohalxc2ZYgmcYGSZgTfNzCdbBZkD7Ont3mYtQmTdOOGROicHAEcC69Vav2d0Sl8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQS7ZsiA7z69FUDmApUDewOhrE5dEiexvgSK2ZC3irWptg&oe=6B05C057",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 3
+  }
+ },
+ "4189363848034783": {
+  "library_id": "4189363848034783",
+  "link": "https://www.facebook.com/ads/library/?id=4189363848034783",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Not sure what to gift? Start with what everyone’s already gifting 🎁 GIVA’s most popular pieces, loved for birthdays, anniversaries and just-because moments.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nGet 15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/907092694_1871295984311873_2213192029079340091_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-xj07IjmuDMQ7kNvwE0k8CI&_nc_oc=Adph7yuD6SiERLlKNCJyLj5Jb15AS9MTnLfgTJveWEf64mMoAWVc3L0ZP7cnl8j5tBc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQREPGDbUcbtFH9dC2vo9jW6aU-JuA_SaredGoSzUM9UGg&oe=6B05A851",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 4
+  }
+ },
+ "1493495769311124": {
+  "library_id": "1493495769311124",
+  "link": "https://www.facebook.com/ads/library/?id=1493495769311124",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-13",
+  "days_running": 7,
+  "media_type": "DPA",
+  "body": "Some pieces are more than just accessories, they make every moment a little more special✨ \n\nFind jewellery that celebrates your style and makes every occasion worth remembering. ❤️\n\nEnjoy flat 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/900853247_1683531166692799_3173317129821114533_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vZ8SQiRrbAMQ7kNvwHtRFQ2&_nc_oc=AdpDEyZuRfbeotcZilTIzPkgsnx21c8jKeVJ_n7C3e0oVmAE2uPokNm2A6sX7mI7rn4&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQRp5NNive4dSAR2Thojee_3dPdvL0Ry5WebURIYsZnZ0Q&oe=6B05D115",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 5
+  }
+ },
+ "1136782745781660": {
+  "library_id": "1136782745781660",
+  "link": "https://www.facebook.com/ads/library/?id=1136782745781660",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-13",
+  "days_running": 7,
+  "media_type": "DPA",
+  "body": "Some pieces are more than just accessories, they make every moment a little more special✨ \n\nFind jewellery that celebrates your style and makes every occasion worth remembering. ❤️\n\nEnjoy flat 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/906552638_1217313647521048_147340459987869202_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vYeWDELc6DUQ7kNvwEAJcFn&_nc_oc=Adqm9msLHA9z7zxYKIWpu8XEODZuxBvfqbknm_e48kkWkXojrljnGtzm0q9euXCLyqc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQST6_suQWbXRVgOH6P5HfRbAep1hmGbgCWWpbdOFtxL5w&oe=6B05AF22",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 6
+  }
+ },
+ "1500820461952633": {
+  "library_id": "1500820461952633",
+  "link": "https://www.facebook.com/ads/library/?id=1500820461952633",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-12",
+  "days_running": 8,
+  "media_type": "DPA",
+  "body": "From your first meeting to your biggest milestones, show up in style. ✨ Elevate your workwear with jewellery that brings effortless elegance to every look.\n\nShop GIVA and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/902439473_1687139096413430_1407480283243826101_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pAzHkPVQChUQ7kNvwEPLVES&_nc_oc=Adr-XhGBuroIVJdJNReD5NUYmkyBtikDpzg9220_cvEazpj3-PYX-MSzVl3dtj7D6SY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQTvMMftEt4VRRHp7nlws7Y6ZUmsXqoxjclOnw9oiSkcsQ&oe=6B05BF59",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 7
+  }
+ },
+ "1722129616005913": {
+  "library_id": "1722129616005913",
+  "link": "https://www.facebook.com/ads/library/?id=1722129616005913",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "For birthdays, milestones, celebrations, or simply because. 💖 Make her feel special with jewellery that says more than words ever could.\n\nFind the perfect gift at GIVA and enjoy FLAT 15% OFF on your first order with code NEW15. ✨\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/905321710_1135093412299689_8439963284033537735_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l6KBQCVisFwQ7kNvwHCBi2L&_nc_oc=Adrf2m5FV1o6AT7vhPfiCIrEpL7daY87vQfQqZ9t1tyTmW2gOtvJ3I8H7olMWg1BLyA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSin1Rz1BpfuHe9Y2Dar-__YhyxwHrw-9ppWBdGarXvvQ&oe=6B05B2BD",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 8
+  }
+ },
+ "1474387269085606": {
+  "library_id": "1474387269085606",
+  "link": "https://www.facebook.com/ads/library/?id=1474387269085606",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-12",
+  "days_running": 8,
+  "media_type": "DPA",
+  "body": "Some outfits are good. Some outfits need that little something extra. ✨ From everyday elegance to statement-making styles, find the jewellery that makes every look your own.\n\nShop GIVA and get FLAT 15% OFF on your first order with code NEW15. ❤️\n\n✨ 925 Silver\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/905328945_29305655742380151_8340240099924052433_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YbzSTR3mGBwQ7kNvwGG0xKT&_nc_oc=AdqPxT6LyB_0N2RZjINNPYkyB0WSi4Gstgj0m2xJOIi69FZcVGg-EgVgZd_LFslRWJc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSE3RsB5GQByXOd-Mgqo-y-YE-1H4Ygu_jRKdRXpFHpSw&oe=6B05BA79",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 9
+  }
+ },
+ "1001314102450378": {
+  "library_id": "1001314102450378",
+  "link": "https://www.facebook.com/ads/library/?id=1001314102450378",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "From your first meeting to your biggest milestones, show up in style. ✨ Elevate your workwear with jewellery that brings effortless elegance to every look.\n\nShop GIVA and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/902309304_1682286833502659_579679256367036055_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=erjVUK-BOKYQ7kNvwGRrm2_&_nc_oc=AdqGcY8JgCXpyx6xgntMs29UH2SPkpDDFdh7geazIfUt1qLMd1-Xp3-9P3dr5AS4PXc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQ7Nr0qztUoCrAHCLuzU_VjLVWr7ZzupShc_FTZQ2GIcQ&oe=6B05BEFB",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 10
+  }
+ },
+ "2184648058837460": {
+  "library_id": "2184648058837460",
+  "link": "https://www.facebook.com/ads/library/?id=2184648058837460",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "Some outfits are good. Some outfits need that little something extra. ✨ From everyday elegance to statement-making styles, find the jewellery that makes every look your own.\n\nShop GIVA and get FLAT 15% OFF on your first order with code NEW15. ❤️\n\n✨ 925 Silver\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/904321969_2242919319599410_6616145725301567255_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=LxS5xHOu8sMQ7kNvwE56w5y&_nc_oc=Adp4BpvsZkVrj2vwYAXGRQ4c2BPQpPoxBO2tDut7BzO6QOjK8u3x3PPCp4GWVboRYz0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQTEUHo77SVg1X9FxQI60CjRIrbScfsGpMBuWqwKcwd8PQ&oe=6B05A979",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 11
+  }
+ },
+ "1081074271621373": {
+  "library_id": "1081074271621373",
+  "link": "https://www.facebook.com/ads/library/?id=1081074271621373",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Some designs just never go out of style ✨ Shop GIVA bestsellers, made for everyday wear and every outfit.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nUse NEW15 for 15% OFF on ₹999+.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/912840610_1500488418600695_8667322159217697903_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4imKhrUx8oEQ7kNvwEpAgZy&_nc_oc=Adr9rMyI7ch29uAUawOFHLnEh2AyMN61jqoVe8eYhGVDBFX4tjoN0kfIVy4vZ1FYwWk&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSwvR6Ugsd04FCs12RJfNELU2z6Pg6YNKSi03gojqnx9A&oe=6B05AEC2",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 12
+  }
+ },
+ "1085821631122982": {
+  "library_id": "1085821631122982",
+  "link": "https://www.facebook.com/ads/library/?id=1085821631122982",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "Still thinking about it? 👀 Your favourite GIVA sparkle is waiting for you! Make it yours and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/902872179_1123343837155768_4413000065045757658_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9y7XcaGCLcsQ7kNvwF00twb&_nc_oc=AdoboTov4TidQvL5IF9h-v1UhNI-ZOPhQ9U0GXEpR0ndnh6NoOaKa1N_vhjwttnKR2w&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQT_vC_FshaFbjiDp_QtyxBEm2DuURYAH9xKuhEwxFu8_w&oe=6B05C82F",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 13
+  }
+ },
+ "1139776992238090": {
+  "library_id": "1139776992238090",
+  "link": "https://www.facebook.com/ads/library/?id=1139776992238090",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Gifting season is here and these are the pieces everyone’s adding to cart 🛍️ Stay ahead with this season’s trending gifts.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nCode NEW15 = 15% OFF on ₹999+.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915350831_1194448779571969_7462392883220584316_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-YoqMIRzC3QQ7kNvwE5bHLA&_nc_oc=Adr372rzzGuvYlV7GehGT7NAXO01Yv6zvvS3OAWfULhHLjXw8dlNuV4iql3ObsMzmDg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQI61mZEQBtxNrGCQJtJLSGsuJzr_NFl4joloGrmOiiJQ&oe=6B05ADAC",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 14
+  }
+ },
+ "1179572957954311": {
+  "library_id": "1179572957954311",
+  "link": "https://www.facebook.com/ads/library/?id=1179572957954311",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-11",
+  "days_running": 9,
+  "media_type": "DPA",
+  "body": "For birthdays, milestones, celebrations, or simply because. 💖 Make her feel special with jewellery that says more than words ever could.\n\nFind the perfect gift at GIVA and enjoy FLAT 15% OFF on your first order with code NEW15. ✨\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/901943222_1126790440247527_500307805795201031_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7Wtm9WfxS7oQ7kNvwEPA1MK&_nc_oc=AdoXCULBqZLU57a2d4wWnguZn-21DHOeNr8cg1W2VsjDI9UhQjxp_V99ty78DDH4PkM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSyBSq6OXJPJV7MfPGhJMWWpDdUHbTO7Gk_JPYkI25Dzg&oe=6B05C77E",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 15
+  }
+ },
+ "1160310636533442": {
+  "library_id": "1160310636533442",
+  "link": "https://www.facebook.com/ads/library/?id=1160310636533442",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "These are flying off the shelves 🔥 Our hottest-selling designs won’t stay in stock for long.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nGrab yours now with 15% OFF on ₹999+. Code: NEW15",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914574187_1108365572036555_5241075709822182176_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ua6A-uMGYeYQ7kNvwHMcMyq&_nc_oc=AdrRHigRFajCT2XS4_o99NheIAAHwGX68-2wOaz_07GxLD0PFUq2dwafJSvKXEC_4vg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQv78xbGiMAtAyFsoprA8U4_cm8OXGMmAVq3pyHuCk6RQ&oe=6B05CBEF",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 16
+  }
+ },
+ "1143963848350088": {
+  "library_id": "1143963848350088",
+  "link": "https://www.facebook.com/ads/library/?id=1143963848350088",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "The pieces our customers keep coming back for 💫 Earrings, pendants and rings you’ll wear on repeat.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\n15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/909552564_1118060701002143_2692049569005742337_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pa0SXKkrIUsQ7kNvwGI48h4&_nc_oc=Adr0RBN9I2f4C4eVWDJy5otz04aNP5WTuM4MmEkMnk5MNt3-tqizkm2z5nliKIsgzao&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSNRrSgjiAm87Tw2PhvbUZOUWDzkkE_fsqUqEmKbqC1AQ&oe=6B05C6D6",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 17
+  }
+ },
+ "1179136494647124": {
+  "library_id": "1179136494647124",
+  "link": "https://www.facebook.com/ads/library/?id=1179136494647124",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-12",
+  "days_running": 8,
+  "media_type": "DPA",
+  "body": "For the woman who dreams big, shows up, and makes things happen. ✨ Here's to chasing goals, breaking barriers, and adding a little sparkle along the way. Celebrate your journey with GIVA. ❤️\n\n✨ 925 Silver\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/pages/big-sparkle-day",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/900721622_1134357935633883_6647930730846749668_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4P1Otywxi6cQ7kNvwG9EesL&_nc_oc=Ado0BTJ3zAmuANJ7X74pmN7wjk6LsPWVV7h_ZN0HKltDPrSsp5LzylbJqIGOG6_PUDs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQTpm0mYkk3KS9i3r-DWBk_BHcntKpuhtMsdBJq-uyVWOg&oe=6B05C5C8",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 18
+  }
+ },
+ "2372106740210752": {
+  "library_id": "2372106740210752",
+  "link": "https://www.facebook.com/ads/library/?id=2372106740210752",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Another year together deserves something that lasts 💝 \n\nCelebrate with sparkling jewellery she’ll wear every day.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\n15% OFF on ₹999+, code NEW15.\n\nShop Now!",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/905937793_997966113367122_4974494679285771486_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_TNY9SEvWKoQ7kNvwH2hf2-&_nc_oc=Ado2B9ZwsD-xMvNAjOkL04AXo1Dw0li1_uX65i3tmcsJzOBeziyoplySN6L5_KFMq20&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQRW9XozqECi8zwdDoEqQ7sKMZvkFb1J3pfaDBaEYsxbtA&oe=6B05ABE9",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 19
+  }
+ },
+ "4774264762858697": {
+  "library_id": "4774264762858697",
+  "link": "https://www.facebook.com/ads/library/?id=4774264762858697",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Already part of the fam?\nEnjoy 20% OFF with code ROYAL— because once you’ve shopped with us, you’re always a VIP.\n\n✅ Certified 925 Silver \n✅ 15-Day Easy Returns \n✅ Lifetime Plating \n✅ Free Shipping",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/907920541_1718782909808310_2666981510085090169_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GEtfuFM-mQEQ7kNvwE-KSd1&_nc_oc=AdpYjQZcFrOSwYmq7pueW1hLRtilfIA72RqSpiyncsWp7tKGHA1Y_0aHB1y3jpxi04U&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQ3VY7ZcLkFrh7F4zwtJd8gNaFcK9SCCGOi1_Lf4aIvTg&oe=6B05CB11",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 20
+  }
+ },
+ "29384831454466431": {
+  "library_id": "29384831454466431",
+  "link": "https://www.facebook.com/ads/library/?id=29384831454466431",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Another year together deserves something that lasts 💝 \n\nCelebrate with sparkling jewellery she’ll wear every day.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\n15% OFF on ₹999+, code NEW15.\n\nShop Now!",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/906173392_2079178789450649_5271154833265677763_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AhTds7rAn4MQ7kNvwHLfMTb&_nc_oc=AdoYylnfip9pqKVykHZc3jY6mU9n3ORpH62nXb-QNaepwJkSHcNzMQkqXVWlHm6kQko&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQyZAnRUNl_ikHPFENWubNTazFuYZsksNl8cobYg29FiA&oe=6B05D8C2",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 21
+  }
+ },
+ "1680132197041526": {
+  "library_id": "1680132197041526",
+  "link": "https://www.facebook.com/ads/library/?id=1680132197041526",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-13",
+  "days_running": 7,
+  "media_type": "DPA",
+  "body": "Some pieces are more than just accessories, they make every moment a little more special✨ \n\nFind jewellery that celebrates your style and makes every occasion worth remembering. ❤️\n\nEnjoy flat 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/903915504_1085934404490620_8085368274567725401_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rViXoiXkeh4Q7kNvwE1WGLz&_nc_oc=AdqF6ePm9p2hpmpEBRLG21VbtIVzS-X254Wb_9SZEqyvMs7nJkqE-zO_ORpnvuMaMqU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQQL_EXFvpum7WSnbdJhp43qqukxPT6ErorMreODbE7VQA&oe=6B05D15B",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 22
+  }
+ },
+ "1152901630618189": {
+  "library_id": "1152901630618189",
+  "link": "https://www.facebook.com/ads/library/?id=1152901630618189",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Because one time is never enough…\nYour next sparkle moment comes with 10% OFF — use code LOYAL before it’s gone\n\n✅ Certified 925 Silver \n✅ 15-Day Easy Returns \n✅ Lifetime Plating \n✅ Free Shipping",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/906681411_1149125217669645_7772127924461069730_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rOhlYYczJ5sQ7kNvwHUh_MY&_nc_oc=AdqvZcIOeN8KiAsmxzv_-87p7CP1lVIA83S5YHBlyEKt7R_HRq3cEnZrRsX_i-XDtV4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQTH2k2-6VnV40WymTS4qV3NJlcij3t-H-76uIAG7EauiQ&oe=6B05CD13",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 23
+  }
+ },
+ "1445755121059806": {
+  "library_id": "1445755121059806",
+  "link": "https://www.facebook.com/ads/library/?id=1445755121059806",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-13",
+  "days_running": 7,
+  "media_type": "DPA",
+  "body": "Some pieces are more than just accessories, they make every moment a little more special✨ \n\nFind jewellery that celebrates your style and makes every occasion worth remembering. ❤️\n\nEnjoy flat 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/899301400_2375786819832093_2400262295466831655_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=T2YETqm00swQ7kNvwHiXuiR&_nc_oc=AdrweHaIOU6QniGaILBrcNzhK7Y86L7WIcOKUq_x_9IJZ_zHqif2KHnh-gDvxSV75OU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSmeQ_Q6yL01Xd1yeov5jcz6zmzvOmzLKqEYOpniK7RbQ&oe=6B05B885",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 24
+  }
+ },
+ "1919395042743834": {
+  "library_id": "1919395042743834",
+  "link": "https://www.facebook.com/ads/library/?id=1919395042743834",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Don’t take our word for it. These are the pieces GIVA customers rate highest ⭐ Pick a proven favourite.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nSave 15% on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/912723091_2382988859172900_7853521202467725390_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7h0MHSBBIcAQ7kNvwE6yn6P&_nc_oc=AdrioZELNWsEgqVNEVhEEJnMgt2GqNP6sKthQPunSQ95OOto5newojPISnjJno-Sgqg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQRZ2Y6ZL_5e7wOAWIsIZG0rUir0OE1YAnbrLpPahj6Kbw&oe=6B05C566",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 25
+  }
+ },
+ "2798408870577970": {
+  "library_id": "2798408870577970",
+  "link": "https://www.facebook.com/ads/library/?id=2798408870577970",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Already part of the fam?\nEnjoy 20% OFF with code ROYAL— because once you’ve shopped with us, you’re always a VIP.\n\n✅ Certified 925 Silver \n✅ 15-Day Easy Returns \n✅ Lifetime Plating \n✅ Free Shipping",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/905343365_2178007986476802_3398101935185257032_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NEkBs6i8s4oQ7kNvwHezOt6&_nc_oc=AdpL7LfeiCOwEPTdY4GVE2AHIgASir4DHoG0iQ8CPuFp6OiKSRyTtN4vP7z1D08zuT4&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSNc82bBT6b1XlWUlYvxubRKdVwAjCF9vRGVK3b1PSmow&oe=6B05D70D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 26
+  }
+ },
+ "1145626634506584": {
+  "library_id": "1145626634506584",
+  "link": "https://www.facebook.com/ads/library/?id=1145626634506584",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Real silver, backed by a 6-month warranty 🛡️ Jewellery you can wear every day with complete peace of mind.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nNow 15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913966792_1135022819020906_4866212263834141061_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xvBjUjLStogQ7kNvwG8I3Jd&_nc_oc=AdrvoB2_uvwqYPiM6Xhy7fl5ZpgHM0OGOGprxtMMC0qqnWheU9mXwZDbjBh8arnxKkE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQT0k_NHSR0CZyX0bZ4DWCnfs2UOReTEzSpzwyukhp-pWA&oe=6B05CF6B",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 27
+  }
+ },
+ "1859051648456377": {
+  "library_id": "1859051648456377",
+  "link": "https://www.facebook.com/ads/library/?id=1859051648456377",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-16",
+  "days_running": 4,
+  "media_type": "DPA",
+  "body": "Because one time is never enough…\nYour next sparkle moment comes with 10% OFF — use code LOYAL before it’s gone\n\n✅ Certified 925 Silver \n✅ 15-Day Easy Returns \n✅ Lifetime Plating \n✅ Free Shipping",
+  "headline": "{{product.name}}",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://www.giva.co/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/910275238_1707089027442002_5096580566691102770_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l8Yq5nVNbvQQ7kNvwFB2Cse&_nc_oc=AdpQNniMUl3woEEDZeypcmKaf4dYbyGwoh5y8Xir9ieipWP8bU-5014A0G4PRX25fbc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSbzb52xOW5UDqRzkVwTaRXV1rBfLbIwWHxYIZ58P2Niw&oe=6B05A3E2",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 28
+  }
+ },
+ "1785047006039991": {
+  "library_id": "1785047006039991",
+  "link": "https://www.facebook.com/ads/library/?id=1785047006039991",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "DPA",
+  "body": "Buying jewellery online? We get it, trust matters 💖 That’s why 20 lakh+ happy customers shop GIVA for real 925 silver they can wear every day without worry.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nJoin them today with 15% OFF on ₹999+. Code: NEW15",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913213954_3059363731069411_691071122916486036_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3Xsu-goPeG4Q7kNvwFYw-_D&_nc_oc=AdqtQbMlldE1StxXgguxDY9bszlPXI-7HhpR5MLx9PZsIa3FByXguhPwY7iK_3RixM4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Frr82CvKQw4AgWFoCaxszw&_nc_ss=7b289&oh=00_AQSlZuKbjcHGtnXOovk-2Blob1stwySiCXvIZ1wPiLsy3w&oe=6B05B12F",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 29
+  }
+ },
+ "1129714790039248": {
+  "library_id": "1129714790039248",
+  "link": "https://www.facebook.com/ads/library/?id=1129714790039248",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "DPA",
+  "body": "20 lakh+ customers can’t be wrong ⭐ There’s a reason GIVA is India’s go-to for everyday silver: jewellery that looks premium, feels light and lasts.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nFind out why everyone’s choosing GIVA. Get 15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/910178758_1606679154597069_7222812015556088405_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ks0wgbaGXC0Q7kNvwHU-bQy&_nc_oc=AdpPBXgfxf7E_j7TEwC6pvKoVlG8oY-vnCRuVeIrW_o-QPzX5T4DcSjQujz3TIy6Kgg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQTBCX6uX6QTuDXa6TueHtyQZKEZfpBWAyJH2xF3L--VIg&oe=6B05AF0F",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "image": 30,
+   "all": 30
+  }
+ },
+ "1152292977216484": {
+  "library_id": "1152292977216484",
+  "link": "https://www.facebook.com/ads/library/?id=1152292977216484",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "Buying jewellery online? We get it, trust matters 💖 That’s why 20 lakh+ happy customers shop GIVA for real 925 silver they can wear every day without worry.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nJoin them today with 15% OFF on ₹999+. Code: NEW15",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914439098_4513711368853658_1778751103272586990_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=R-cmZU5NoYYQ7kNvwF_mIL1&_nc_oc=AdpcTA-xxTdFIb8rEIewMpN4Gf8tcRwCj3Rl_0ZEsX871AMJ0vscEsXgyxLPmDoObl0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQVh8Byp7EEH-4kzTwXDJM4LI7i2OOPMt9DW2c3iv0oJQ&oe=6B05C1DE",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 1
+  }
+ },
+ "29950550594537679": {
+  "library_id": "29950550594537679",
+  "link": "https://www.facebook.com/ads/library/?id=29950550594537679",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "20 lakh+ customers can’t be wrong ⭐ There’s a reason GIVA is India’s go-to for everyday silver: jewellery that looks premium, feels light and lasts.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nFind out why everyone’s choosing GIVA. Get 15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914472771_4478776139048761_7385176729284341996_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_6omE5xw7ZgQ7kNvwERSTAz&_nc_oc=Adorxa7MRdl1ktGKrXkFaP7JSWwnE2BizCbkiPfgcTLm3vUYNAq2pzwR-wS8ClcQjTE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQTqTg42OvVG1F6dgsGMY6nzg_39ejuhy3plHt4atjAjZQ&oe=6B05CC10",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 2
+  }
+ },
+ "3010925395920680": {
+  "library_id": "3010925395920680",
+  "link": "https://www.facebook.com/ads/library/?id=3010925395920680",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "Real silver, backed by a 6-month warranty 🛡️ Jewellery you can wear every day with complete peace of mind.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nNow 15% OFF on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913243609_1455825719992598_7782833129153949763_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pdVQ2jmQ0QUQ7kNvwGwt15X&_nc_oc=AdrYVMQXJjteUq7g_04e8broxfuiNt8sIAC9KOp010DMp3m9_V_K9keVVCCM0Y3Zdzg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQToPqLeZbl8a0UhICs7i2yG7zL49Fu8HsPjSzd0421kIQ&oe=6B05C05D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 3
+  }
+ },
+ "1452703252999157": {
+  "library_id": "1452703252999157",
+  "link": "https://www.facebook.com/ads/library/?id=1452703252999157",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "Still thinking about it? 👀 Your favourite GIVA sparkle is waiting for you! Make it yours and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/907283686_1074739725588147_422653165378951679_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e59sIBMs5d8Q7kNvwEHQw4Q&_nc_oc=Adpf_CKn39wiyfzHR1SAZg-NIDn6BrgV4tZj8R20KgBT6gQ0whA4kxlYw0xeLaytPVY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSOVhpLyN7h3yE3AuEfwBIUy4pWvGukEDCEZXHrSEthSg&oe=6B05D8DE",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 4
+  }
+ },
+ "2043451299687627": {
+  "library_id": "2043451299687627",
+  "link": "https://www.facebook.com/ads/library/?id=2043451299687627",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "Don’t take our word for it. These are the pieces GIVA customers rate highest ⭐ Pick a proven favourite.\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ Anti-Microbial\n✨ Free Shipping\n\nSave 15% on ₹999+ with code NEW15.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/916182376_2199206097334222_1828922084901262852_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=j29BiNLr7FQQ7kNvwGPivvw&_nc_oc=Adp56uNbdVn2jExxPTD6yXiukbOwsO2DEErAVC2yMvgONl5Q02KrMQK8twAPZ7I5Pxk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSJdhuSaZJWbobY7cwM0rGJa-rzJP7h8MITffpqN2JJuw&oe=6B05BCE4",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 5
+  }
+ },
+ "1731570101980910": {
+  "library_id": "1731570101980910",
+  "link": "https://www.facebook.com/ads/library/?id=1731570101980910",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "DPA",
+  "body": "Still thinking about it? 👀 Your favourite GIVA sparkle is waiting for you! Make it yours and get FLAT 15% OFF on your first order with code NEW15. 💖\n\n✨ 925 Silver\n✨ Hypoallergenic\n✨ 15 Day Easy Returns\n✨ 6-Month Warranty\n\nShop on the GIVA website, app, or at 400+ stores.",
+  "headline": "✨ 15% OFF | Code: NEW15 ✨",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915672787_966686936228936_1664893643904578607_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oxjGi3Zik5QQ7kNvwFrb8yG&_nc_oc=AdqXHEpNrLtsOyXR00OMSq3oz3o60uuqq0gixNcDbvgm-FiUIt20CWWyOkupQMLr0uo&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQ4v5gEOOXVvy8xkCXICODkbC8P2PQm2nMGkc7J--fgMg&oe=6B05BC10",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "WHATSAPP",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 6
+  }
+ },
+ "1129889076303255": {
+  "library_id": "1129889076303255",
+  "link": "https://www.facebook.com/ads/library/?id=1129889076303255",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-19",
+  "days_running": 1,
+  "media_type": "CAROUSEL",
+  "body": "GIVEAWAY ALERT🎁🎁\nThis international men’s day, make your man feel extra special! 💙\n\nWe’re giving 5 lucky winners a chance to win the perfect Men’s Day gift hamper from GIVA x Bla Bli Blu! 🎁\n\nHere’s what you can win:\n✨ A Men’s Silver Chain & Pendant from GIVA\n✨ Exclusive goodies from Bla Bli Blu\n\nHere’s how to enter:\n\n1. Follow @giva.co and @blabliblu.official\n2. Tag your man in the comments and write a heartfelt message telling him why he’s special.\n3. Share this post on your story for some extra brownie points! 😉\n\nSo, what are you waiting for? Shower your man with a little love this Men’s Day! ❤️\n\n(Mens content, Mens fashion, Outfit inspiration, Styling tips, Gifts for men, Gifts for boyfriend, Gifts for him, Gifts for brother, GIVA jewellery, GIVA silver jewellery, Thoughtful gifts, StyleSealedInSilver, FineSilverJewellery)\n\n#GIVAxBlaBliBlu #GIVAMEN #GIVAJewellery",
+  "headline": "GIVA - Silver-Gold-Lab Grown Diamonds (@giva.co) • Instagram photos and videos",
+  "link_description": "",
+  "cta": "Visit Instagram profile",
+  "landing_url": "https://instagram.com/giva.co",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/915322331_1659528442475173_164908317675320039_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BKCmzDDM8VcQ7kNvwG5ARWi&_nc_oc=Adp_BRR-pX_8cOuaKhlEnhlkCjsibSQZL6fVshW0onvKCVBZWqfg4pbPLHr6bYUwjBc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQR6dJmco2L2wyxfMxyXQFeXCODIeBw4hG6gCmP3_WvDqQ&oe=6B05C091",
+  "copies": 1,
+  "platforms": [
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 4,
+   "display_format": "CAROUSEL",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 8
+  }
+ },
+ "1851517822857665": {
+  "library_id": "1851517822857665",
+  "link": "https://www.facebook.com/ads/library/?id=1851517822857665",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Tying the look together, one silver detail at a time.\n\n(Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts)\n\n#GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "",
+  "landing_url": "",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911292403_1500324681946654_1242768180262495395_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AgbHIIu-BDMQ7kNvwFd4FRi&_nc_oc=AdrcFq3xVlrMVpdcndE_4gyOxkB0Zz6cfYCRjJxKWT7lt48iWmBKlKuq8FDGs3EB8qo&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQp1x-93wcIOevlFQyMDyGextgOG3InSEDQN88A8Xyg5g&oe=6B05B6CB",
+  "copies": 1,
+  "platforms": [
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 9
+  }
+ },
+ "1064147089974565": {
+  "library_id": "1064147089974565",
+  "link": "https://www.facebook.com/ads/library/?id=1064147089974565",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Quiet look? Not for you, pataka 😉\nA statement piece for when you'd rather stand out than blend in.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/912124842_1461516822620007_3971419349037749772_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Rk9SLjYt8zMQ7kNvwFF16kd&_nc_oc=Adp1j6XOua4tnhGd26EuZ0BdQyZboHkhPUxjD6T-yRvOEXUS4BzRK2GqInelqklpXQg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQJBTwiW1iNELFj3q4yFqOS6rvefioKbZDwq9qLwj0IOw&oe=6B05E044",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 10,
+   "keyword": 20
+  }
+ },
+ "1866025061055831": {
+  "library_id": "1866025061055831",
+  "link": "https://www.facebook.com/ads/library/?id=1866025061055831",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Every entry, a pataka moment 🌸\nA delicate flower pendant that adds just the right spark to your look.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914423640_1623116505740607_2073349503003041069_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DuonGm_9qz8Q7kNvwHauQ1g&_nc_oc=AdrGUowCE15BeJtmuGVJHxAJZKp-8O0XDvri8l3INIghMVRlNYA6H6aCpmrtY7Qlfs8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQTFbWXq_wdyxINyTmAcqlhMKLzowFFyGShQIwIch9g2pQ&oe=6B05C294",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 11
+  }
+ },
+ "1465479465173754": {
+  "library_id": "1465479465173754",
+  "link": "https://www.facebook.com/ads/library/?id=1465479465173754",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Walk in and light up the room ✨\nA matchstick-inspired bangle that turns every entry into a moment.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911315327_1663280202065515_1615752838920360169_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dNowkLft96UQ7kNvwEPm-H3&_nc_oc=Adowkgf3-4ifCXY7zCWLcF26FuLZGNfPZHiKShBll-U0oNQrSsu6Z-TGjyUPj132BRo&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSFSZcBhEsLhWCdTc8toIpdRgpqNFjm1z5bW2md0Ci07g&oe=6B05BFAF",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 12
+  }
+ },
+ "1165380189514028": {
+  "library_id": "1165380189514028",
+  "link": "https://www.facebook.com/ads/library/?id=1165380189514028",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Not just a spark, you're the whole pataka 🎆\nFirecracker-inspired studs that bring festive sparkle to every outfit you own.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/905852961_966065322981983_7062167177296803747_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CUnFgXv32PgQ7kNvwFOEuFD&_nc_oc=AdpOPum4mFjYfSBnMU36izum33wuvg1vy4NX_aYpgRGBqjCfiqYZ0C8IYNhSvdv2m7I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQSb_0IebO1UfGkdCSxPPzZ6NiX2kGQqC8j2QEMcM5WXew&oe=6B05C0DA",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 13,
+   "keyword": 18
+  }
+ },
+ "1856855555323637": {
+  "library_id": "1856855555323637",
+  "link": "https://www.facebook.com/ads/library/?id=1856855555323637",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Dress up like a pataka 💥\nBold hoops with pops of colour, made for the nights you want to be noticed.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/907811970_29692894973636853_440088423909833982_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sk_cm9bzgG8Q7kNvwFb0RHj&_nc_oc=AdoOdqNU-X30kuL7gErP_kU2IgnfEg4Op5Eb-ViJZm-GLn-TINtnJKow_5M02M3i8ZM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQStmGpr3VHT96S0svDJYOOEu4WdMEic6phAo3VZvJVyrQ&oe=6B05C1CD",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 14
+  }
+ },
+ "1141971424883702": {
+  "library_id": "1141971424883702",
+  "link": "https://www.facebook.com/ads/library/?id=1141971424883702",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Pick your look and be the pataka 🎇\nChakri, Matchstick, Rangoli or Patang: four festive designs, one for every mood.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913996076_978428324914419_8475449771005526000_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=djjkfIl4gaMQ7kNvwGpK32_&_nc_oc=Adrx94Ui8Oao9n1LqZXbiVR_3_axOValUFyTvdRHUZIf_jpdK2a7gQsHI4p43K5hB-s&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQRY-uSQD9fQ3AZxP6Y9zVtdtwv4GdrmFZ-IgNEK2PwhFQ&oe=6B05CD17",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 15
+  }
+ },
+ "1133067565978529": {
+  "library_id": "1133067565978529",
+  "link": "https://www.facebook.com/ads/library/?id=1133067565978529",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "VIDEO",
+  "body": "From subtle to statement, I’ve got the silver game covered. What about you?\n@giva.co \n\n(Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts)\n\n#AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-him",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQMnAVTtURI2_BahhvjhMn7o2mI23MEeBbczA7Lm3MpWdfcxmaTVj6RV8bjD2RGPYH-4I-RHN6rfjBYENFb3Qm93MDY_sE48W4fmcOcwtQ.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=yByHF9cRRHIQ7kNvwGPLUtw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNjEyODIwMTUwODczMzQxLCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQrDashG6SIUVjK4zApbGlmDopyHiUvE0akEU9m7AOqHg&oe=6B05CA02",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913846814_1164780112778614_9146958388773498568_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ll0K5yB2Xl8Q7kNvwHLyUKM&_nc_oc=AdrEdnf5rvlBlQW85BIeoSeBNsInM5MGDWy4LxDVXjOIgmEYH4pXnDo_FfFPSy6kDDA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSmFQm2-51_8EX1WCeqV_q_O5ywL-KvxJwWUeK1PJS58g&oe=6B05C721",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Personal blog"
+   ]
+  },
+  "sample_views": {
+   "all": 16
+  },
+  "video_asset": "1612820150873341"
+ },
+ "1162624516327984": {
+  "library_id": "1162624516327984",
+  "link": "https://www.facebook.com/ads/library/?id=1162624516327984",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "Every mood, every moment, every fit. There’s silver for everything\n\n(Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts)\n\n#AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-him",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQO0kyIgQSwUWVbC1Hlf6LtqyyCWQosn047x9DVIsCdiSaBfoY1ZIH722tDbfxgSiy5p3rfU-EsLujWYUKAAxX2TeJFkc3df7yCD-mLbug.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=YBaW78aFby0Q7kNvwGTyczR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxODM0NTg0NTY0MjQ2OTkyLCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQCr5V9ymExQzPKBwcG7X50vJEC3_z31mnwFWFfBL5teQ&oe=6B05B116",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/916613480_2298843650683486_2669878612766039805_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IHlQez8rTWgQ7kNvwEdtjUg&_nc_oc=AdovGydh_fQCWZhXispHBbOZuHSDDjjr6DP5P5eVJu2I0jjlANU14S7haC3D5eTZXfg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQS67pSmI8XoiBqLTKvc5GRNgjXvdCoZE0DT-sby8KxZ1A&oe=6B05B223",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "all": 17
+  },
+  "video_asset": "1834584564246992"
+ },
+ "1181938367564348": {
+  "library_id": "1181938367564348",
+  "link": "https://www.facebook.com/ads/library/?id=1181938367564348",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "VIDEO",
+  "body": "Running late, but making it sparkle with 15% OFF using code NEW15 at @giva.co! 🎀✨\nSome things are worth taking an extra minute for. 🤍\nShop now at Giva.co!",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQNDzec9eLe_NvvImv3DamrNt_MNmNlBsuJghviGgaa7c9pIAIl2_mLZFouvcgafbWC4-hsa9LQmltVj8xIA6rkc4JYJGY_jpqgrhP1HuQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=HSGWR6VDQV8Q7kNvwGToWP2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDk0NjY3Mzc2MDU5NjA1LCJhc3NldF9hZ2VfZGF5cyI6MTYsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRZOQcfKBOtLzyS-MljddRh7piIBe4r65jukzjLGhcPag&oe=6B05BB6A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/906652197_1820857802452850_5321955420688972850_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5RoWQTJCEUIQ7kNvwFH23-n&_nc_oc=AdrBkWc-lZA-bRRAMziZ8U98rcoEtahgrXHFGkzhWUv678z8lZAE0AabpTXtrQ1uuAM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQRXM5pQNyG2aDJHtj6-YH-AkgJ3TMp-UYg_eao2f32E5A&oe=6B05B8EF",
+  "copies": 3,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Actor"
+   ]
+  },
+  "sample_views": {
+   "all": 18
+  },
+  "video_asset": "1494667376059605"
+ },
+ "1119581707549265": {
+  "library_id": "1119581707549265",
+  "link": "https://www.facebook.com/ads/library/?id=1119581707549265",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "VIDEO",
+  "body": "Get 15% OFF with NEW15 on your next GIVA favourite first purchase! ✨\nA little black dress, the perfect silver stack and a whole lot of sparkle. Because it's always the jewellery that makes the look! 🖤🤍\nShop now at @giva.co",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQOKd1rGAgXH2vvAw-PAbmhkhjqFTLPbn-lLd2O56Og--Kx229ENBRa_usXjALZcZxdZvsndUXkuFUVCVb-tSuFYSr06qqCDry0frTleFg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=peqUEyTJItoQ7kNvwEjABuR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxOTEyMjY5NDE2NDI0MTEzLCJhc3NldF9hZ2VfZGF5cyI6MTYsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS8ERInMd1do8iL4HPgkyZJD6E0ByR9duekr3sEVrRijg&oe=6B05B60C",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/911568925_4448389992089032_6605761462903937274_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=12qbDB_3_8wQ7kNvwHvJ56E&_nc_oc=AdrInoxXJRY0RDBBOEnISdqRUjsNqzGDE7tqxbxtxMtiwHPeToBcFVWQr7V5258YqNk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQRXZrBtPUMF-RQBRnw6-VJr5Nc8BOGPcPMnUa0xP-NoLQ&oe=6B05D58B",
+  "copies": 3,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "all": 20
+  },
+  "video_asset": "1912269416424113"
+ },
+ "3361006940750709": {
+  "library_id": "3361006940750709",
+  "link": "https://www.facebook.com/ads/library/?id=3361006940750709",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co \n\n(Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel)\n\n#AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQMmLklmLJa2O5u1bUduzi5iUx62_keeURYiwT0WkZJxUFITmixzdtIsXIHlqnXA_Tpj80BjJFVckl0sAEcGs10yoPQSzMEB7l1HK7ZYAQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=clPPQQ41ba0Q7kNvwHHSWud&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo0MDU3MjU0NjAxMjM2ODA3LCJhc3NldF9hZ2VfZGF5cyI6NjgsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQDzNSOoMTXzEZQWkGkRf08mhGWGTNEo0nkS9uJhLXF6Q&oe=6B05B19A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915017539_2204588060429975_6108615603930975963_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SMMvfDRMLgwQ7kNvwEg5B1g&_nc_oc=Adp9830K0z5PHVne64N7X6P_2uT5TkBxD-VJx_aXJQCPeX9MWvicscYoUea0rHftK-E&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQcmB1PktSaHNlwmlHQZjUrm8dub7WY0VSXTs7qoW74-g&oe=6B05C7D8",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Designer"
+   ]
+  },
+  "sample_views": {
+   "all": 21
+  },
+  "video_asset": "4057254601236807"
+ },
+ "955068720796127": {
+  "library_id": "955068720796127",
+  "link": "https://www.facebook.com/ads/library/?id=955068720796127",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "Whatever the plan, GIVA Men is part of it.\n925 silver that keeps up with every look.\n\n(Men's jewellery, OOTD, Jewellery for Men, Men jewellery accessories, Men Jewellery India,  Silver Jewellery)\n\n#ad #givamen #givajewellery #stylesealedinsilver #finesilverjewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/mens-silver-jewellery",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQMm6mt2TAbhvosmmNkOoiXEJnKK0mHTeQ3w2emn-I6zwQ7bkjwWVd9VIh6mAQV05NptzbjlX3AiZqjte5YnqgJVbpeg1yyJDgXhKF9UBg.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=m8OM2sbPnuoQ7kNvwFdUefp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxODE3MTQ2MDc5NzE4MTQxLCJhc3NldF9hZ2VfZGF5cyI6NTcsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSKHHlglOR73gVZcriOJx1ItmeougiovOImRVQWNH5dAQ&oe=6B05D5F7",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911499148_2669287696824435_6807708986435677674_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kACahhkh9ioQ7kNvwEFVTIQ&_nc_oc=AdqcQxnvY_01HZnimO1M_wt8hwN1a7pdh2wnwJBgx3hiJWD6GTtIbwwF3FthAuFHqfw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQRWqcKtRb56kwjzUNyUCdQqePqjjtrBHPUIVdgAZ1AXPw&oe=6B05ABAB",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "all": 23
+  },
+  "video_asset": "1817146079718141"
+ },
+ "1131794193178758": {
+  "library_id": "1131794193178758",
+  "link": "https://www.facebook.com/ads/library/?id=1131794193178758",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "Food deliveries and coffee orders pe toh paani ki tarah paisa beh raha hai… 💸 But when it comes to pretty jewellery, I like to shop smart! 🎀✨\n\nAll the sparkle, all the pretty, without making it a whole financial crisis. 🤍\n\nUse code NEW15 for 15% OFF your first purchase!\nShop through my Wishlink!\n@giva.co\n\n#GIVA #GIVAJewellery #NEW15 #jewellerylove",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPo3hGCzCM5BeraXKmQRD7QuNobkwOgrthuCMYIvCj3p85wWaAzmg96-0dFJweyblAVmQILzCVfiVAkgPoPdh6JrVL69KkXcTWlAZQgrw.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=7Oea-tP1CdMQ7kNvwFNRUWu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMDA3ODUwMzI4MzI2NzI0LCJhc3NldF9hZ2VfZGF5cyI6OCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQwy0uZETIjCMBxG4gxTjI8EqgIyAchfjkqKpZsQW21Nw&oe=6B05C0BD",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914939875_1181320737798025_5697426514274660630_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2hTM1ueNHfMQ7kNvwERYMUS&_nc_oc=AdoIPgMZlL1AmkaKtZ5waNJ1X5Xvywx0ErXjP4Q4lzHLoBQhGU4qiNU9-Ava2-mTUPE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQS7SceWKK3cW1Vd0FDmhruc3Obpfr_K7YjWZ2tZ5ksLYQ&oe=6B05B517",
+  "copies": 3,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Personal blog"
+   ]
+  },
+  "sample_views": {
+   "all": 24
+  },
+  "video_asset": "1007850328326724"
+ },
+ "2117206448910439": {
+  "library_id": "2117206448910439",
+  "link": "https://www.facebook.com/ads/library/?id=2117206448910439",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "IMAGE",
+  "body": "Some gifts deserve to be worn every day, not just on special occasions. ❤️\n\nFind beautiful silver jewellery to make your favourite people feel extra special.\n\nGet FLAT 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "Get Flat 15% OFF on orders above ₹999. Use Code NEW15.",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/914552804_1705313987625374_3297809476103577678_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nGLvuYTOLAgQ7kNvwGhLjCu&_nc_oc=AdoJM6rOrB0gI6KruTudMVfuJ1og1KDVzGSrwNKlvPEvXw8pk09YJWjLWWuE6_ShJcc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQT2Rg695ybgi9oSm9PeCHyIVTeeM2yToXtho2td428l9g&oe=6B05BFE8",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 25
+  }
+ },
+ "1914005626254401": {
+  "library_id": "1914005626254401",
+  "link": "https://www.facebook.com/ads/library/?id=1914005626254401",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "IMAGE",
+  "body": "For the ones who make life special, here's a little something to make them smile. 💝\n\nCelebrate your favourite bonds with beautiful silver jewellery that makes every gift more meaningful.\n\nEnjoy FLAT 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "Shop Now & Get Flat 15% OFF on ₹999+. Code NEW15.",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/915318152_2312727552848852_6808517250119882280_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4VPBeBwibikQ7kNvwHnB3tK&_nc_oc=Adop1ogomt0DSz-WFZkmZfAobSLgLw2fzRgNUhniAXszQmWTwrFg4VlzmyrXZLgf4zM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQTLTiOtJcrEMZ47vYOfAmKkc5DDQKcVRFTgPUaCdhWmOw&oe=6B05BF7D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 26
+  }
+ },
+ "1821422385592441": {
+  "library_id": "1821422385592441",
+  "link": "https://www.facebook.com/ads/library/?id=1821422385592441",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "IMAGE",
+  "body": "Some moments are priceless. Make them sparkle a little more! ✨\n\nExplore beautiful silver rings and jewellery that make thoughtful gifts for all the moments worth celebrating.\n\nGet FLAT 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "Get Flat 15% OFF on Orders Above ₹999. Use Code NEW15.",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913533763_4855190694767845_3850486679164620565_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PSYxUj7QivUQ7kNvwH9ZwYJ&_nc_oc=AdrHF6X6plHrPPu0H_72xFFqS4boBze5M9VxPkit62XoNiBIRHVt_03iWWUvlZQDhhw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQQPYFcL5mScNWCS2sSlUBaErDDV1Ir08F71DAYjhrG_tw&oe=6B05D961",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 27
+  }
+ },
+ "1501742555212274": {
+  "library_id": "1501742555212274",
+  "link": "https://www.facebook.com/ads/library/?id=1501742555212274",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "IMAGE",
+  "body": "Some people deserve more than just a gift. They deserve something special. ❤️\n\nMake them smile with beautiful silver jewellery that's perfect for every little celebration.\n\nGet FLAT 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "Enjoy Flat 15% OFF on Orders Above ₹999. Use Code NEW15.",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913336465_1191550916528360_4594796387591523144_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G43yJZgyIwoQ7kNvwHNaxAh&_nc_oc=AdpIj1U_-MMFKCOpR63Rp2RkNk99ekhcc5i_3wpO-fFMSqIsuxUPgYDeeHoUXzvncFY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSyOX1R-F5_ZyrITjVcfIed5u6J9d2LhOX7KTKuy7zOnQ&oe=6B05DE91",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 28
+  }
+ },
+ "1618213100105074": {
+  "library_id": "1618213100105074",
+  "link": "https://www.facebook.com/ads/library/?id=1618213100105074",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 3,
+  "media_type": "IMAGE",
+  "body": "A beautiful little surprise can make someone's entire day! 🎁\n\nMake gifting more special with Silver Jewellery they'll love wearing long after the celebrations.\n\nEnjoy FLAT 15% OFF on orders above ₹999 with code NEW15.\n\n✨ Certified 925 Silver\n✨ Free Shipping\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating",
+  "headline": "Shop Now & Get Flat 15% OFF on ₹999+. Code NEW15.",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/gifts-for-her",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/910462928_1683854786689625_3348422998732564409_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VJvI_zE-3eQQ7kNvwHxSBte&_nc_oc=AdrEIMcv_0AKnEGSrirRvPVig7_nAd1nghDVC2yBNjVOeFXGUZ224g83xoZR4T_ncSU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DT8Rf1SedpRkMmYdxh1f1g&_nc_ss=7b289&oh=00_AQSK2rVfsUwbAcu-kfCPgP5GKfsn2q1J8FqDsMh2cB0BFg&oe=6B05C5E1",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "all": 29
+  }
+ },
+ "933997239574786": {
+  "library_id": "933997239574786",
+  "link": "https://www.facebook.com/ads/library/?id=933997239574786",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-14",
+  "days_running": 37,
+  "media_type": "DCO",
+  "body": "Some days call for delicate. Some days call for stacked. GIVA's ring sets let you switch it up instead of picking one favourite. Flat 15% off on your first order with code NEW15. 925 Sterling Silver | Easy Returns | 6-Month Warranty | Lifetime Plating.",
+  "headline": "Stack It Your Way",
+  "link_description": "Buy the latest silver jewellery online. Explore 925 Sterling Silver Earrings, Chains, Bracelets, Rings, Anklets, and 999 Pure Silver Coins online at GIVA.",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/giva-silver-hustle",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/849694551_1009038772205931_750531000929569313_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PT43vi_k2BIQ7kNvwEU63vg&_nc_oc=Adr3akjBLTxixS49TOi4S6eJauIunt_KI3nHAEIHx4s4WnPCTOyuiii9H_mVgskK4dk&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQGk8nvQF-m7dnvWAI12e92RpEoTGKNUjkdEId5GE31JA&oe=6B05AE0D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 1
+  }
+ },
+ "4670564886510670": {
+  "library_id": "4670564886510670",
+  "link": "https://www.facebook.com/ads/library/?id=4670564886510670",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-14",
+  "days_running": 37,
+  "media_type": "DCO",
+  "body": "Some days call for a little extra sparkle — especially the ones that are just for you. Heer by GIVA's Little Luxuries collection brings you lab-grown diamond gold jewellery, with 0% making charges on the entire collection.\n\n✅ 100% Certified Lab Diamonds\n✅ BIS Hallmark\n✅ Easy 15 Day Return\n✅ Lifetime Exchange & Buyback\n\nSome days call for a little extra sparkle, especially when it's for you.",
+  "headline": "Avail 0% Making Charges at Heer by GIVA",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/pages/heer-by-giva",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/846965522_1836995773964383_9011889572269838760_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kad44CdwB7MQ7kNvwHf0cQx&_nc_oc=Adpgg1aAYqWzui4PwYFLpvgtQzARrLgcVyIzk0W2m1oJj-pCCkRaGlqvFHI5gx1jdqI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQRM8-S0MrDZ8QWowmRGaoiACGPMFmyBX-OJnfm3WOYwg&oe=6B05B91D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 2
+  }
+ },
+ "1034424915689174": {
+  "library_id": "1034424915689174",
+  "link": "https://www.facebook.com/ads/library/?id=1034424915689174",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-15",
+  "days_running": 5,
+  "media_type": "IMAGE",
+  "body": "Everyday 925 silver, now at prices you'll love 💎\nYour favourite drops and studs, now up to 50% off.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Up to 50% off on silver favourites",
+  "headline": "Up to 50% Off on Earrings",
+  "link_description": "925 Silver at Prices You'll Love",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/silver-jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911340869_2332460264264500_6859370894133313007_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=y32TJSzxsnUQ7kNvwGu45ML&_nc_oc=AdqMgJSPGBqyClEgz8fsaUJtwUznglpfovBOptGquB2Mq4YIzGbLEu74CYk5yioJcW8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQSw7P49yI9jIqS9ws6MPfC7Oy2dTcQxMec2i5x47gJxMg&oe=6B05DF19",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 3
+  }
+ },
+ "2901340426909219": {
+  "library_id": "2901340426909219",
+  "link": "https://www.facebook.com/ads/library/?id=2901340426909219",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-14",
+  "days_running": 37,
+  "media_type": "DCO",
+  "body": "You give so much love to the people around you — here's some gold to keep for yourself. Heer by GIVA's Little Luxuries collection is crafted in gold and lab-grown diamonds, with 0% making charges on the entire collection.\n\n✅ 100% Certified Lab Diamonds\n✅ BIS Hallmark\n✅ Easy 15 Day Return\n✅ Lifetime Exchange & Buyback\n\nFor the love you give, here's some gold to keep.",
+  "headline": "Avail 0% Making Charges at Heer by GIVA",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/pages/heer-by-giva",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/848683554_1428190868643932_5336585116066902690_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iaExLIlWAzcQ7kNvwElLPIC&_nc_oc=AdrFwC2DIZVUnYLj_vin3_zowRla48_Aw-I33Ze0s70s6F6nR-1KC4K-uZ3GkjnSUx4&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQTHyRtrwzScR_9RFWRlZhAjx3MvHjCMibUSalsJOf8kSA&oe=6B05D6CE",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 4
+  }
+ },
+ "1086023991082727": {
+  "library_id": "1086023991082727",
+  "link": "https://www.facebook.com/ads/library/?id=1086023991082727",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-15",
+  "days_running": 36,
+  "media_type": "DCO",
+  "body": "You can mean business and still want to sparkle. Heer by GIVA's lab-grown diamond gold jewellery is made for both, with 0% making charges on the entire collection.\n\n✅ 100% Certified Lab Diamonds\n✅ BIS Hallmark\n✅ Easy 15 Day Return\n✅ Lifetime Exchange & Buyback\n\nFor the days you mean business, but still want to sparkle.",
+  "headline": "Avail 0% Making Charges at Heer by GIVA",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/pages/heer-by-giva",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/850677427_1065880873114037_8962257859080199181_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vUq9CKzNN1gQ7kNvwHG9L3a&_nc_oc=Adov8Dna94WSDVeweKwHpyvL_Vm5ZHO48OlEQ9hfdExxxHOyCaooKzmqbYN2qNx9b_M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQR4UwzUBQ27k10hQZs-ACW9DnGmNU0B0zAJudm7PQ4_AQ&oe=6B05B98D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 5
+  }
+ },
+ "1899411591023700": {
+  "library_id": "1899411591023700",
+  "link": "https://www.facebook.com/ads/library/?id=1899411591023700",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-14",
+  "days_running": 37,
+  "media_type": "DCO",
+  "body": "Rings, bracelets and more you'll reach for again and again. Discover Silver pieces from GIVA that never go out of style.\n\nBuy 2 & Get 15% OFF. Use code Combo15.\n\n✅ Easy Returns\n✅ 6-Month Warranty\n✅ Lifetime Plating",
+  "headline": "Silver Pieces You'll Wear On Repeat",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/silver-jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/847033213_1089791554038809_2326839795921969795_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yEe0jfoqQBYQ7kNvwG6CiYL&_nc_oc=AdreL2Wjv4imYwGIzQESzgaUyJ91JpB_Kf-NE3A2N_Mcpw82GxykPettu1BsQ2aToGw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQRdhBqQqc7IBWIrmUUW1jGJCJlemObOF1uwWdm9hvP8mA&oe=6B05C685",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 6
+  }
+ },
+ "1135662462518676": {
+  "library_id": "1135662462518676",
+  "link": "https://www.facebook.com/ads/library/?id=1135662462518676",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-15",
+  "days_running": 5,
+  "media_type": "IMAGE",
+  "body": "Your favourite Silver styles are calling, and now's the perfect time to bring them home! ❤️\n\nFrom elegant earrings that complete your everyday look to statement pieces for special occasions, discover Jewellery you'll love wearing on repeat.\n\nEnjoy UP TO 50% OFF on your favourite GIVA Silver Jewellery.\n\n✨ Certified 925 Silver\n✨ 15-Day Easy Returns\n✨ 6-Month Warranty\n✨ Lifetime Plating\n✨ Free Shipping",
+  "headline": "Your Silver Favourites at Up to 50% OFF",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/price-drop-bestsellers",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/912542838_1126543830231679_3760550383343971881_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SLrVrkr4x6kQ7kNvwGCep2o&_nc_oc=AdrwvwDaG_L5dFhcW67untNawh7hetpz9g2NkNbUjbYkXzr07lrLHaEI12RQF1lBw3M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQTX8QGjorfgdrwNishvTaxfrlsI7MSnUYpc1-GPLyJnJg&oe=6B05B672",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 7
+  }
+ },
+ "1701449704943261": {
+  "library_id": "1701449704943261",
+  "link": "https://www.facebook.com/ads/library/?id=1701449704943261",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-14",
+  "days_running": 37,
+  "media_type": "DCO",
+  "body": "Rings, bracelets and more you'll reach for again and again. Discover Silver pieces from GIVA that never go out of style.\n\nFLAT 15% OFF on purchase of ₹999. Use code NEW15.\n\n✅ Easy Returns\n✅ 6-Month Warranty\n✅ Lifetime Plating",
+  "headline": "Silver Pieces You'll Wear On Repeat",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/silver-jewellery",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/850319878_1046671905067838_3133438220338455000_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fPAOEBWX2zYQ7kNvwGqefCc&_nc_oc=AdqApMd5VimEy8RzRV-B7ZfidIJMT0GO2I2Lqkkc6jiRKYI6bv3dGMcjantkRxljPlI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQTD4fIUGkkc7YHuPyDxZeB_vIl9VLKymjCiza0lrPG9w&oe=6B05C312",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 8
+  }
+ },
+ "1148200074363316": {
+  "library_id": "1148200074363316",
+  "link": "https://www.facebook.com/ads/library/?id=1148200074363316",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Not just a guest, the pataka of the party 💎\nAn open ring with a deep blue stone and a sparkling solitaire.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Pataka of the Party",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/916425046_1842449613461644_7451816625181142016_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QUTmh43aAnEQ7kNvwHMoNaG&_nc_oc=AdomjTdlUaYUHFx19-mKm_fOSYPo92KVWL4-4xZv91DAMCWkJfCTwTEArkmISn3U_cE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQ3OIlGkYF5nqnPHhjU8GhbwH6mz3mJrf1EtTgzP6wR6g&oe=6B05CEDF",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 9
+  }
+ },
+ "1419911140332017": {
+  "library_id": "1419911140332017",
+  "link": "https://www.facebook.com/ads/library/?id=1419911140332017",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Quiet look? Not for you, pataka 😉\nA statement piece for when you'd rather stand out than blend in.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Not for You, Pataka",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913420184_1478421574235725_717245574227193585_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GfeGJkls3jQQ7kNvwHaF02N&_nc_oc=Adr1DOLDe4_FjTdDwQkRH9IgGKPdJHj2iZ43k7m-Pt82-grcqaRcDyFBRG85OiFtz20&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQTaExHZkoUr2TWPFfwgEvvn3trxY31Kl84zAE6BmtRwyQ&oe=6B05CC7D",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 10
+  }
+ },
+ "1451822506374280": {
+  "library_id": "1451822506374280",
+  "link": "https://www.facebook.com/ads/library/?id=1451822506374280",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Solo or stacked, always the pataka ✨\nMix it with your favourite rings or let it shine on its own.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Always the Pataka",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913278418_1884369672739849_282382687515491729_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2s2QLpTAL-0Q7kNvwEzcilV&_nc_oc=AdqwIPceduPoQli-Ya6GGSOMBzDdT2pn-u0ozDosJTAcCpKGPLXQE42X3zKxprrOzYQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQS-YtLaPmERVH9PDfQTP7wOr8Ij_mGosyFa546yjJUWhw&oe=6B05C3B1",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 11
+  }
+ },
+ "2231487944099272": {
+  "library_id": "2231487944099272",
+  "link": "https://www.facebook.com/ads/library/?id=2231487944099272",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Not just a spark, you're the whole pataka 🎆\nFirecracker-inspired studs that bring festive sparkle to every outfit you own.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "You're the Whole Pataka",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913848629_2026395594713807_869557466681692380_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jrnvKoOPxIcQ7kNvwH8BMKP&_nc_oc=AdrETo6pATNl5zAkBwSXZfkkTb4W4IZjUDUpQCGqqIIIZavHZ6yYld69MvQ2CA2XVBk&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQxS6wSRwQdIC16aXz8XDfgAbkyH11fcZfrO4fPSrUpKA&oe=6B05BB5C",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 12
+  }
+ },
+ "4683664245238719": {
+  "library_id": "4683664245238719",
+  "link": "https://www.facebook.com/ads/library/?id=4683664245238719",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Don't blend in, burst out 🎆\nSwirl studs in festive reds that add instant colour to your everyday.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Burst Out",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/913179895_1661957692090448_7109563048801185964_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GeTvmL3NsiMQ7kNvwFhyiOg&_nc_oc=AdrXPxC5lkt3ghkNCi5wHpVjRBE-BycjGV_YgFCnOjE5t1Z0-kcbyGCyeR26tHta3KE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQwp-aU9gV-GA-FKIfodXuL6-1UzBp19Pgd9bKTSPGb7A&oe=6B05DF4A",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 13
+  }
+ },
+ "1664982091898403": {
+  "library_id": "1664982091898403",
+  "link": "https://www.facebook.com/ads/library/?id=1664982091898403",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Your pataka era starts now 🌺\nA flower pendant that sits just right, from desk to dinner.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Pataka Era",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/912008268_3032234440443778_6457140625410811404_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9OFkfP07_R4Q7kNvwHWmu13&_nc_oc=Adqh96E74mhgLWSeBLWY6qW0fs2jUh-W969-mGTRxMMLVlJOsJ76O300JvFBJlASlbc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQR0cKgY8Yojfj1HCXmnHUiybUAjX4p9yPymjiFYAinFTQ&oe=6B05E377",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 14
+  }
+ },
+ "1121912830751983": {
+  "library_id": "1121912830751983",
+  "link": "https://www.facebook.com/ads/library/?id=1121912830751983",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Weekend look? Pataka approved 🚀\nA rocket-inspired open ring for your most fun plans.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Pataka Approved",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/907855928_1779430733289347_5073967907211306771_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wc7d_pX0PFcQ7kNvwEUBYMv&_nc_oc=Adq9YgpfZuxq5LUtp6JzxtEZEM0xD1qhRPYZ75m6HqhcIfC-h8n7tAZZQ-hA3qSBwYY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQSc7po4zjJIVAgE-9MhDY7kY0YV0Jhcuy9Cv63qJwJxdg&oe=6B05ACDE",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 15
+  }
+ },
+ "2004307690245069": {
+  "library_id": "2004307690245069",
+  "link": "https://www.facebook.com/ads/library/?id=2004307690245069",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Henna on, pataka mode on 🌸\nA flower ring that completes your festive look.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Pataka Mode On",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/911053052_2933257233724839_1752496628681067059_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nEsqP3y05ZoQ7kNvwGYe3tH&_nc_oc=Adp37PDY_aL0QUVsq-8xHU3aUzPfVm7hkdpKGAqhSK6Lfj2lscNA1T9TurNu_q9kPqc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQoH79aj_bmf1fnPDlXqk0V6I9vanISr8mW5zus7n6yLg&oe=6B05B255",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 16
+  }
+ },
+ "1152785920443824": {
+  "library_id": "1152785920443824",
+  "link": "https://www.facebook.com/ads/library/?id=1152785920443824",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Brunch, date, wedding: pataka every time 🥂\nOne sleek bangle for every plan on your calendar.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Pataka Every Time",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/912473262_1089461364135130_7751350984344071897_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CBQGbIQ-YpsQ7kNvwEJdMkc&_nc_oc=AdqV56ow5_hMezSd6AueRfsQqwCkaT2_bDvvvgS9V-e8yt0bV5IVSmsAMVpx470uRHw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQS6QDEQmAbZJltL4pOlUFdU3IJyR8Q5yIznhfkwhzR94A&oe=6B05BAF4",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 17
+  }
+ },
+ "1662894485224520": {
+  "library_id": "1662894485224520",
+  "link": "https://www.facebook.com/ads/library/?id=1662894485224520",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Light up every room, no match needed 🔥\nA matchstick ring with a pop of red that sets your hand apart.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "No Match Needed",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913688285_995839303580425_3020755313896405159_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=P4FUkYsFE7QQ7kNvwFRJRZr&_nc_oc=AdqnKKfbfKcTqDrlq5dUSJ9asn0oM3NJVd-XRZBfg18tOGY1_i4jWc7LxnmbtkPFXJ0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQT326XdS03RXM6t6VpD9eNMGYfIIqnEntFsS16hs0f3vw&oe=6B05B7FB",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 19
+  }
+ },
+ "1143822138141325": {
+  "library_id": "1143822138141325",
+  "link": "https://www.facebook.com/ads/library/?id=1143822138141325",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Outfit ready? Now go full pataka 💃\nFinish your look with bold enamel hoops that do all the talking.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Go Full Pataka",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/916944500_1443424741237871_5637953902824589378_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Xg3lPqxsigoQ7kNvwEDJdeB&_nc_oc=AdrkM8SxbTQ3i2LbMnJftlZXMXP8s24-55-b6uTMrL5CLYoUBiiP9enOf5mPTkWtx9Q&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQzNLV5kQr0sES59EHZDPhLCCrnxgJFsdtUKpnY1rgucQ&oe=6B05D366",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 21
+  }
+ },
+ "1756549232097092": {
+  "library_id": "1756549232097092",
+  "link": "https://www.facebook.com/ads/library/?id=1756549232097092",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "Heads turn when you walk in 👀\nColourful chakri studs that catch the light, and every eye in the room.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Heads Turn",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/913551758_1782402323041214_4570362738420982443_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sSBTLB01IQQQ7kNvwGiCeUN&_nc_oc=Adq3kLhxf-927-0CryVUFCVzEqBd1R_Eac8GHXcKxome5P0ByNJHg2s2KJvxujfUI84&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQQi-zdO3iOBiMfL4JCM1JbjVkhm7Ef7uY3CzTtLSwdsog&oe=6B05AE56",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 22
+  }
+ },
+ "1450411809878355": {
+  "library_id": "1450411809878355",
+  "link": "https://www.facebook.com/ads/library/?id=1450411809878355",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 2,
+  "media_type": "IMAGE",
+  "body": "One look from you, total dhamaka 💥\nA statement piece made to be noticed.\n\n✨925 Sterling Silver\n✨Easy Returns\n✨6-Month Warranty\n✨Lifetime Plating\n\n🎁 Flat 15% off on ₹999+ | Code: NEW15",
+  "headline": "Flat 15% Off on ₹999+ | Code: NEW15",
+  "link_description": "Total Dhamaka",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/patakha-collection",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911691258_2756600041471952_4362747102745178220_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hUD7chDDlKcQ7kNvwGwBJ_4&_nc_oc=Adr_b2JQirJQl6htVsy_89rOGT-viAgbujOICxobV3uBglvMSs6uBiR8_Znqt4fe0hM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aRCnwwvC49GvFthsWMy4kw&_nc_ss=7b289&oh=00_AQS6iHE7L65WsLChpdCDBCEXhD1JjIdJ5DEpk6qHsgPeug&oe=6B05B4A5",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "IMAGE",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "keyword": 23
+  }
  }
 }

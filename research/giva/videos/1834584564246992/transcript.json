@@ -1,0 +1,87 @@
+{
+ "asset": "1834584564246992",
+ "first_seen_in": "1162624516327984",
+ "duration_s": 30,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 4.9,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 10.9,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 16.6,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 20,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 29.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "6. Day on night, geewoman, because it's for the Man BooQ выполnos attention.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 25.3,
+    "text": "6."
+   },
+   {
+    "start": 25.3,
+    "end": 29.2,
+    "text": "Day on night, geewoman, because it's for the Man BooQ выполnos attention."
+   }
+  ]
+ }
+}

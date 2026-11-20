@@ -1,0 +1,127 @@
+{
+ "asset": "1612820150873341",
+ "first_seen_in": "1133067565978529",
+ "duration_s": 37.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 16.4,
+   "why": "scene change"
+  },
+  {
+   "t": 17.9,
+   "why": "scene change"
+  },
+  {
+   "t": 19.5,
+   "why": "scene change"
+  },
+  {
+   "t": 21.8,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 28.4,
+   "why": "scene change"
+  },
+  {
+   "t": 36.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Who actually decided what a man should be? Because being a man is all about owning it and being yourself your own way. And that's exactly what I like about styling. There are no rules, just little things that make a look feel more like you. Some days it's a chain, sometimes a ring, some days it's both. That's what I like about Jeeba Men. You do you, plus they craft it in 925 Silver with lifetime play time so you can keep coming back to your favourites. So yeah, no rule book. Because your style, your way, because it's for the man who commands attention.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.7,
+    "text": "Who actually decided what a man should be?"
+   },
+   {
+    "start": 4.7,
+    "end": 9.4,
+    "text": "Because being a man is all about owning it and being yourself your own way."
+   },
+   {
+    "start": 9.4,
+    "end": 11.3,
+    "text": "And that's exactly what I like about styling."
+   },
+   {
+    "start": 11.3,
+    "end": 15,
+    "text": "There are no rules, just little things that make a look feel more like you."
+   },
+   {
+    "start": 15,
+    "end": 18.8,
+    "text": "Some days it's a chain, sometimes a ring, some days it's both."
+   },
+   {
+    "start": 18.8,
+    "end": 20.7,
+    "text": "That's what I like about Jeeba Men."
+   },
+   {
+    "start": 20.7,
+    "end": 25.6,
+    "text": "You do you, plus they craft it in 925 Silver with lifetime play time so you can keep"
+   },
+   {
+    "start": 25.6,
+    "end": 27.6,
+    "text": "coming back to your favourites."
+   },
+   {
+    "start": 27.6,
+    "end": 29.4,
+    "text": "So yeah, no rule book."
+   },
+   {
+    "start": 29.4,
+    "end": 33.2,
+    "text": "Because your style, your way, because it's for the man who commands attention."
+   }
+  ]
+ }
+}
