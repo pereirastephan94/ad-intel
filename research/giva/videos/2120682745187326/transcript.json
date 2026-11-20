@@ -1,0 +1,132 @@
+{
+ "asset": "2120682745187326",
+ "first_seen_in": "28641826418808286",
+ "duration_s": 40.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.1,
+   "why": "scene change"
+  },
+  {
+   "t": 6.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 10.8,
+   "why": "scene change"
+  },
+  {
+   "t": 13.4,
+   "why": "scene change"
+  },
+  {
+   "t": 20.6,
+   "why": "scene change"
+  },
+  {
+   "t": 23.5,
+   "why": "scene change"
+  },
+  {
+   "t": 26.5,
+   "why": "scene change"
+  },
+  {
+   "t": 28,
+   "why": "scene change"
+  },
+  {
+   "t": 32.6,
+   "why": "scene change"
+  },
+  {
+   "t": 40.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Work seems like a performance sometimes. I really wonder, what would I have become? Nobody was watching. What do I truly desire? Maybe the answer lies somewhere between both sides of me. Because no matter which version of me shows up, I want my children to feel right. And that's what I love about Shiva. There's something for every side of me. Different modes, different styles, one constant. Shiva.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "Work seems like a performance sometimes."
+   },
+   {
+    "start": 5,
+    "end": 8,
+    "text": "I really wonder, what would I have become?"
+   },
+   {
+    "start": 8,
+    "end": 10,
+    "text": "Nobody was watching."
+   },
+   {
+    "start": 10,
+    "end": 12,
+    "text": "What do I truly desire?"
+   },
+   {
+    "start": 15,
+    "end": 19,
+    "text": "Maybe the answer lies somewhere between both sides of me."
+   },
+   {
+    "start": 19,
+    "end": 22,
+    "text": "Because no matter which version of me shows up,"
+   },
+   {
+    "start": 22,
+    "end": 25,
+    "text": "I want my children to feel right."
+   },
+   {
+    "start": 26,
+    "end": 29,
+    "text": "And that's what I love about Shiva."
+   },
+   {
+    "start": 31,
+    "end": 33,
+    "text": "There's something for every side of me."
+   },
+   {
+    "start": 33,
+    "end": 36,
+    "text": "Different modes, different styles, one constant."
+   },
+   {
+    "start": 36,
+    "end": 37,
+    "text": "Shiva."
+   }
+  ]
+ }
+}

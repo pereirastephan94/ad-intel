@@ -1,0 +1,74 @@
+{
+ "asset": "1063844683369237",
+ "first_seen_in": "1124103903331394",
+ "duration_s": 21.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.7,
+   "why": "scene change"
+  },
+  {
+   "t": 8.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.2,
+   "why": "scene change"
+  },
+  {
+   "t": 11.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.6,
+   "why": "scene change"
+  },
+  {
+   "t": 21.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "nn",
+  "text": "Sub- Remember to find out more at the link in the description to find out moreresseface.com",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8.3,
+    "text": "Sub- Remember to find out more at the link in the description to find out moreresseface.com"
+   }
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "asset": "1007850328326724",
+ "first_seen_in": "1535792328393568",
+ "duration_s": 40.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 8.3,
+   "why": "scene change"
+  },
+  {
+   "t": 11.1,
+   "why": "scene change"
+  },
+  {
+   "t": 14.1,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21.5,
+   "why": "scene change"
+  },
+  {
+   "t": 24.1,
+   "why": "scene change"
+  },
+  {
+   "t": 25.9,
+   "why": "scene change"
+  },
+  {
+   "t": 28,
+   "why": "scene change"
+  },
+  {
+   "t": 31.5,
+   "why": "scene change"
+  },
+  {
+   "t": 33.7,
+   "why": "scene change"
+  },
+  {
+   "t": 40.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Oops, Pesa to Fani ke tara food lippies are coffee in the bear eye. So why would I compromise on pretty jewelry? So girls, here's our shop smart, Vidjiva. First thing first, invest in a 9 to 5 silver pieces that you can wear on repeat. Cost per wear girls. I always pick jewelry that goes with most of my watercolors. And with the 6 month warranty and lifetime plating, you are getting style with some great perks. So girls, save the unnecessary spending, not the pretty jewelry. Get your everyday 9 to 5 silver favourites from Jeeva and use my code new15 to get 15% off, Now go and shop smart.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.1,
+    "text": "Oops, Pesa to Fani ke tara food lippies are coffee in the bear eye."
+   },
+   {
+    "start": 6.1,
+    "end": 8.3,
+    "text": "So why would I compromise on pretty jewelry?"
+   },
+   {
+    "start": 8.3,
+    "end": 11.1,
+    "text": "So girls, here's our shop smart, Vidjiva."
+   },
+   {
+    "start": 11.1,
+    "end": 15.8,
+    "text": "First thing first, invest in a 9 to 5 silver pieces that you can wear on repeat."
+   },
+   {
+    "start": 15.8,
+    "end": 17.4,
+    "text": "Cost per wear girls."
+   },
+   {
+    "start": 17.4,
+    "end": 20.6,
+    "text": "I always pick jewelry that goes with most of my watercolors."
+   },
+   {
+    "start": 20.6,
+    "end": 25.6,
+    "text": "And with the 6 month warranty and lifetime plating, you are getting style with some great perks."
+   },
+   {
+    "start": 25.6,
+    "end": 29.2,
+    "text": "So girls, save the unnecessary spending, not the pretty jewelry."
+   },
+   {
+    "start": 29.4,
+    "end": 35.4,
+    "text": "Get your everyday 9 to 5 silver favourites from Jeeva and use my code new15 to get 15% off,"
+   },
+   {
+    "start": 35.4,
+    "end": 36.8,
+    "text": "Now go and shop smart."
+   }
+  ]
+ }
+}

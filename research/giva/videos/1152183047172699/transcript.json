@@ -1,0 +1,107 @@
+{
+ "asset": "1152183047172699",
+ "first_seen_in": "2225420951686461",
+ "duration_s": 40.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 4.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.7,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 17.6,
+   "why": "scene change"
+  },
+  {
+   "t": 24.6,
+   "why": "scene change"
+  },
+  {
+   "t": 33.7,
+   "why": "scene change"
+  },
+  {
+   "t": 38.3,
+   "why": "scene change"
+  },
+  {
+   "t": 40.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Thanks though潘 My power movement Its convincing everyone else Taking office watch in the middle of the meeting Smile, say we Tension in the room goes away",
+  "segments": [
+   {
+    "start": 0.6,
+    "end": 19.7,
+    "text": "Thanks though潘"
+   },
+   {
+    "start": 25.9,
+    "end": 27.9,
+    "text": "My power movement"
+   },
+   {
+    "start": 27.9,
+    "end": 29.4,
+    "text": "Its convincing everyone else"
+   },
+   {
+    "start": 29.4,
+    "end": 33.4,
+    "text": "Taking office watch in the middle of the meeting"
+   },
+   {
+    "start": 33.4,
+    "end": 35.4,
+    "text": "Smile, say we"
+   },
+   {
+    "start": 35.4,
+    "end": 37.4,
+    "text": "Tension in the room goes away"
+   }
+  ]
+ }
+}

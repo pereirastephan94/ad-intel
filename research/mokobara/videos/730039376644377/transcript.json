@@ -1,0 +1,172 @@
+{
+ "asset": "730039376644377",
+ "first_seen_in": "1718748366086703",
+ "duration_s": 38.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.5,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 15.9,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 19.4,
+   "why": "scene change"
+  },
+  {
+   "t": 21,
+   "why": "scene change"
+  },
+  {
+   "t": 21.8,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 28.2,
+   "why": "scene change"
+  },
+  {
+   "t": 30.2,
+   "why": "scene change"
+  },
+  {
+   "t": 37.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "This is my entire life spread across on a table. I'm traveling with this everyday, especially on shoots, sometimes a little scary. And honestly, I've been searching for a new backpack for a long time. And that's when I found the solution. Something that I've been looking for a long time, without having to worry about my gear every four seconds. And as someone who loves good design, I just couldn't resist when I saw this. It's almost like an organization cheat code. The neatest tech department perfectly padded and honestly looks dumb. So it doesn't matter if I'm heading to a shoot or a client meeting, it's my daily driver. So if you're someone like me who wants to carry the equipment without any worry, and especially without compromising on the look, you need to check this out.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.2,
+    "text": "This is my entire life spread across on a table."
+   },
+   {
+    "start": 2.2,
+    "end": 3.8,
+    "text": "I'm traveling with this everyday,"
+   },
+   {
+    "start": 3.8,
+    "end": 6.7,
+    "text": "especially on shoots, sometimes a little scary."
+   },
+   {
+    "start": 6.7,
+    "end": 8.7,
+    "text": "And honestly, I've been searching for a new backpack"
+   },
+   {
+    "start": 8.7,
+    "end": 9.6,
+    "text": "for a long time."
+   },
+   {
+    "start": 9.6,
+    "end": 11.7,
+    "text": "And that's when I found the solution."
+   },
+   {
+    "start": 11.7,
+    "end": 13.6,
+    "text": "Something that I've been looking for a long time,"
+   },
+   {
+    "start": 13.6,
+    "end": 16.3,
+    "text": "without having to worry about my gear every four seconds."
+   },
+   {
+    "start": 16.3,
+    "end": 18.2,
+    "text": "And as someone who loves good design,"
+   },
+   {
+    "start": 18.2,
+    "end": 20.6,
+    "text": "I just couldn't resist when I saw this."
+   },
+   {
+    "start": 20.6,
+    "end": 22.8,
+    "text": "It's almost like an organization cheat code."
+   },
+   {
+    "start": 22.8,
+    "end": 25,
+    "text": "The neatest tech department perfectly padded"
+   },
+   {
+    "start": 25,
+    "end": 26.4,
+    "text": "and honestly looks dumb."
+   },
+   {
+    "start": 26.4,
+    "end": 27.9,
+    "text": "So it doesn't matter if I'm heading to a shoot"
+   },
+   {
+    "start": 27.9,
+    "end": 30,
+    "text": "or a client meeting, it's my daily driver."
+   },
+   {
+    "start": 30.6,
+    "end": 33,
+    "text": "So if you're someone like me who wants to carry the equipment"
+   },
+   {
+    "start": 33,
+    "end": 34.5,
+    "text": "without any worry, and especially"
+   },
+   {
+    "start": 34.5,
+    "end": 36.4,
+    "text": "without compromising on the look,"
+   },
+   {
+    "start": 36.4,
+    "end": 38,
+    "text": "you need to check this out."
+   }
+  ]
+ }
+}

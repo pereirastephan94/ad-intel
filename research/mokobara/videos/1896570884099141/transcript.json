@@ -1,0 +1,212 @@
+{
+ "asset": "1896570884099141",
+ "first_seen_in": "2500587797082746",
+ "duration_s": 46.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 5.8,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22.1,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 30.9,
+   "why": "scene change"
+  },
+  {
+   "t": 36.4,
+   "why": "scene change"
+  },
+  {
+   "t": 46.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "My mocha baratoat is not just a bag. It's my coffee shop. All I need to do is pull out my tumbler, this day's secure, and this bottle holder, so I can have a sip whenever I like. It's also my office. It holds my diaries, pens, and has a sleeve, which keeps my laptop safe, so I don't have to worry and can focus on being a boss girl. It's so comfy and so stylish. This door is definitely the main character. But coming back, it's also super functional, so it's always got my back. From changing my makeup in case of last-minute plans, to helping me squeeze in a quick workout on the days I'm not that motivated, she always has makeup on. This door fits everything I need. It's my safe space. I think we might be best friends now, because anywhere I go, it comes along with me. It's the perfect everyday bag. And apart from all of this, it's also extremely spacious. Like really spacious. And I live in Bombay, so believe me when I say that.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "My mocha baratoat is not just a bag."
+   },
+   {
+    "start": 2.4,
+    "end": 3.4,
+    "text": "It's my coffee shop."
+   },
+   {
+    "start": 3.4,
+    "end": 5.1,
+    "text": "All I need to do is pull out my tumbler,"
+   },
+   {
+    "start": 5.1,
+    "end": 6.6,
+    "text": "this day's secure, and this bottle holder,"
+   },
+   {
+    "start": 6.6,
+    "end": 8.2,
+    "text": "so I can have a sip whenever I like."
+   },
+   {
+    "start": 8.2,
+    "end": 9.4,
+    "text": "It's also my office."
+   },
+   {
+    "start": 9.4,
+    "end": 11.7,
+    "text": "It holds my diaries, pens, and has a sleeve,"
+   },
+   {
+    "start": 11.7,
+    "end": 12.9,
+    "text": "which keeps my laptop safe,"
+   },
+   {
+    "start": 12.9,
+    "end": 15.4,
+    "text": "so I don't have to worry and can focus on being a boss girl."
+   },
+   {
+    "start": 15.4,
+    "end": 17.3,
+    "text": "It's so comfy and so stylish."
+   },
+   {
+    "start": 17.3,
+    "end": 19.2,
+    "text": "This door is definitely the main character."
+   },
+   {
+    "start": 19.2,
+    "end": 21.2,
+    "text": "But coming back, it's also super functional,"
+   },
+   {
+    "start": 21.2,
+    "end": 22.6,
+    "text": "so it's always got my back."
+   },
+   {
+    "start": 22.6,
+    "end": 25.4,
+    "text": "From changing my makeup in case of last-minute plans,"
+   },
+   {
+    "start": 25.4,
+    "end": 27.8,
+    "text": "to helping me squeeze in a quick workout on the days"
+   },
+   {
+    "start": 27.8,
+    "end": 29.2,
+    "text": "I'm not that motivated,"
+   },
+   {
+    "start": 29.2,
+    "end": 31,
+    "text": "she always has makeup on."
+   },
+   {
+    "start": 31,
+    "end": 32.6,
+    "text": "This door fits everything I need."
+   },
+   {
+    "start": 32.6,
+    "end": 33.8,
+    "text": "It's my safe space."
+   },
+   {
+    "start": 33.8,
+    "end": 35.4,
+    "text": "I think we might be best friends now,"
+   },
+   {
+    "start": 35.4,
+    "end": 37.6,
+    "text": "because anywhere I go, it comes along with me."
+   },
+   {
+    "start": 37.6,
+    "end": 39.2,
+    "text": "It's the perfect everyday bag."
+   },
+   {
+    "start": 39.2,
+    "end": 40.4,
+    "text": "And apart from all of this,"
+   },
+   {
+    "start": 40.4,
+    "end": 42.2,
+    "text": "it's also extremely spacious."
+   },
+   {
+    "start": 42.2,
+    "end": 43.4,
+    "text": "Like really spacious."
+   },
+   {
+    "start": 43.4,
+    "end": 44.8,
+    "text": "And I live in Bombay,"
+   },
+   {
+    "start": 44.8,
+    "end": 46.4,
+    "text": "so believe me when I say that."
+   }
+  ]
+ }
+}

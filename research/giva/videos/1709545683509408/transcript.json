@@ -1,0 +1,102 @@
+{
+ "asset": "1709545683509408",
+ "first_seen_in": "1125336073326009",
+ "duration_s": 43.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.8,
+   "why": "scene change"
+  },
+  {
+   "t": 7.1,
+   "why": "scene change"
+  },
+  {
+   "t": 9.7,
+   "why": "scene change"
+  },
+  {
+   "t": 11.7,
+   "why": "scene change"
+  },
+  {
+   "t": 14,
+   "why": "scene change"
+  },
+  {
+   "t": 17.6,
+   "why": "scene change"
+  },
+  {
+   "t": 21.2,
+   "why": "scene change"
+  },
+  {
+   "t": 25.2,
+   "why": "scene change"
+  },
+  {
+   "t": 30.1,
+   "why": "scene change"
+  },
+  {
+   "t": 33.4,
+   "why": "scene change"
+  },
+  {
+   "t": 42.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Hot Girl Summer starts now. Hit me, guys! How many young women on their own? Just two girls chasing us off her sands? Jiva Father Visa collection!",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7,
+    "text": "Hot Girl Summer starts now."
+   },
+   {
+    "start": 30.3,
+    "end": 31.9,
+    "text": "Hit me, guys!"
+   },
+   {
+    "start": 31.9,
+    "end": 35.6,
+    "text": "How many young women on their own?"
+   },
+   {
+    "start": 39.8,
+    "end": 44.4,
+    "text": "Just two girls chasing us off her sands?"
+   },
+   {
+    "start": 46.3,
+    "end": 52.1,
+    "text": "Jiva Father Visa collection!"
+   }
+  ]
+ }
+}

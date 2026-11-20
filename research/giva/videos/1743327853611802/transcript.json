@@ -1,0 +1,85 @@
+{
+ "asset": "1743327853611802",
+ "first_seen_in": "1132227376365400",
+ "duration_s": 41.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.2,
+   "why": "scene change"
+  },
+  {
+   "t": 16.8,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 30.1,
+   "why": "scene change"
+  },
+  {
+   "t": 41.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "5pm hits and suddenly I have places to be because the best part of the day starts when the 9 to 5 ends. Just a little silver in designs that make every after hours plan look better. Wherever the night takes you. Make it 9 to 5 silver with jeeba.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7,
+    "text": "5pm hits and suddenly I have places to be because the best part of the day starts when the 9 to 5 ends."
+   },
+   {
+    "start": 15,
+    "end": 20,
+    "text": "Just a little silver in designs that make every after hours plan look better."
+   },
+   {
+    "start": 24,
+    "end": 26,
+    "text": "Wherever the night takes you."
+   },
+   {
+    "start": 26,
+    "end": 30,
+    "text": "Make it 9 to 5 silver with jeeba."
+   }
+  ]
+ }
+}

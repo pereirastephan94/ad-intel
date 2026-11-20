@@ -1,0 +1,50 @@
+{
+ "asset": "1637941553818721",
+ "first_seen_in": "1392592016276824",
+ "duration_s": 9.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.1,
+   "why": "scene change"
+  },
+  {
+   "t": 4.2,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "issors.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.2,
+    "text": "issors."
+   }
+  ]
+ }
+}

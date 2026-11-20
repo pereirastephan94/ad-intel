@@ -1,0 +1,147 @@
+{
+ "asset": "1069043009426692",
+ "first_seen_in": "2586340185113043",
+ "duration_s": 41.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.6,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 12.5,
+   "why": "scene change"
+  },
+  {
+   "t": 13.7,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21.5,
+   "why": "scene change"
+  },
+  {
+   "t": 25.7,
+   "why": "scene change"
+  },
+  {
+   "t": 27.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28.7,
+   "why": "scene change"
+  },
+  {
+   "t": 33,
+   "why": "scene change"
+  },
+  {
+   "t": 41.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "How many things can you actually carry in your backpack? Because I already carry a ridiculous amount of things. But the real test for me is travel. Can I carry all of this at back for four days without carrying another bag? That's what makes the new Marshall Terra from Okobara so interesting. It's 40 litres. Within a room for four days of clothes, toiletries, even extra pair of shoes. So for a long weekend this basically becomes my luggage. Plus it has separate compartments from my laptop and three quick access pockets for all the stuff I'm constantly reaching for. And because all of this can get heavy, the A-strap suspension system is designed to make carrying that load easier on your shoulders. I'm heading to Paris in a few weeks. I think I'm going to try doing the whole trip with just this... ...four days and no suitcase needed. This one's for the shopping.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "How many things can you actually carry in your backpack?"
+   },
+   {
+    "start": 2.4,
+    "end": 4.6,
+    "text": "Because I already carry a ridiculous amount of things."
+   },
+   {
+    "start": 4.6,
+    "end": 6.1,
+    "text": "But the real test for me is travel."
+   },
+   {
+    "start": 6.1,
+    "end": 9.2,
+    "text": "Can I carry all of this at back for four days without carrying another bag?"
+   },
+   {
+    "start": 9.2,
+    "end": 12.6,
+    "text": "That's what makes the new Marshall Terra from Okobara so interesting."
+   },
+   {
+    "start": 12.6,
+    "end": 13.8,
+    "text": "It's 40 litres."
+   },
+   {
+    "start": 13.8,
+    "end": 17.9,
+    "text": "Within a room for four days of clothes, toiletries, even extra pair of shoes."
+   },
+   {
+    "start": 17.9,
+    "end": 20.5,
+    "text": "So for a long weekend this basically becomes my luggage."
+   },
+   {
+    "start": 20.5,
+    "end": 25.8,
+    "text": "Plus it has separate compartments from my laptop and three quick access pockets for all the stuff I'm constantly reaching for."
+   },
+   {
+    "start": 25.8,
+    "end": 31.4,
+    "text": "And because all of this can get heavy, the A-strap suspension system is designed to make carrying that load easier on your shoulders."
+   },
+   {
+    "start": 31.4,
+    "end": 33,
+    "text": "I'm heading to Paris in a few weeks."
+   },
+   {
+    "start": 33,
+    "end": 36,
+    "text": "I think I'm going to try doing the whole trip with just this..."
+   },
+   {
+    "start": 37.2,
+    "end": 39.2,
+    "text": "...four days and no suitcase needed."
+   },
+   {
+    "start": 39.2,
+    "end": 41.2,
+    "text": "This one's for the shopping."
+   }
+  ]
+ }
+}

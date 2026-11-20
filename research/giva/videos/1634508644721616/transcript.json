@@ -1,0 +1,317 @@
+{
+ "asset": "1634508644721616",
+ "first_seen_in": "1519936816608280",
+ "duration_s": 81.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.2,
+   "why": "scene change"
+  },
+  {
+   "t": 9.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 25.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 39.9,
+   "why": "scene change"
+  },
+  {
+   "t": 46.8,
+   "why": "scene change"
+  },
+  {
+   "t": 53.6,
+   "why": "scene change"
+  },
+  {
+   "t": 62.3,
+   "why": "scene change"
+  },
+  {
+   "t": 71.3,
+   "why": "scene change"
+  },
+  {
+   "t": 81,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "کیo ki mare chhe mene mishadhi o re ye? 5 5 5 Thank you There's a very important contract i need you to sign the official gifting contract Cancelation not an option Of course not an option First class Important dates Burdhese, anniversary, Valentine's Basically any important date that's important to me should be important date What about the random dates? That brings me to my next point Random Gifts Like remember how you gifted me this Giva Jury on a random date Something like that I absolutely adore this next piece How freedom looking it is And it's anti-tarnish Exactly the kind of Jury women can kill for So I have to give you really randomly right? No You don't buy Jury randomly You never buy Jury random dates You buy it thoughtfully Last and final class Do not ask the following questions What is this? Do you want this? Why do you want this? That is again which flag? Red flag See how trained are you? I would like you to sign please How am I supposed to sign this? I want this easy for you You actually print the Yes You actually promise to abide by all the rules? I promise Same as Giva's anti-tarnish promise? Same as Giva's anti-tarnish promise Alright Pleasure doing business with you Sign this and sign it to me I will",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "کیo ki mare chhe mene mishadhi o re ye?"
+   },
+   {
+    "start": 1.6,
+    "end": 2.6,
+    "text": "5 5"
+   },
+   {
+    "start": 2.6,
+    "end": 3.1,
+    "text": "5"
+   },
+   {
+    "start": 3.1,
+    "end": 4.1,
+    "text": "Thank you"
+   },
+   {
+    "start": 4.1,
+    "end": 6.1,
+    "text": "There's a very important contract i need you to sign"
+   },
+   {
+    "start": 6.9,
+    "end": 8.7,
+    "text": "the official gifting contract"
+   },
+   {
+    "start": 9.6,
+    "end": 10.8,
+    "text": "Cancelation not an option"
+   },
+   {
+    "start": 10.8,
+    "end": 11.9,
+    "text": "Of course not an option"
+   },
+   {
+    "start": 11.9,
+    "end": 12.9,
+    "text": "First class"
+   },
+   {
+    "start": 12.9,
+    "end": 13.9,
+    "text": "Important dates"
+   },
+   {
+    "start": 13.9,
+    "end": 16.7,
+    "text": "Burdhese, anniversary, Valentine's"
+   },
+   {
+    "start": 16.7,
+    "end": 19,
+    "text": "Basically any important date that's important to me"
+   },
+   {
+    "start": 19,
+    "end": 20.2,
+    "text": "should be important date"
+   },
+   {
+    "start": 20.2,
+    "end": 21.4,
+    "text": "What about the random dates?"
+   },
+   {
+    "start": 21.4,
+    "end": 23,
+    "text": "That brings me to my next point"
+   },
+   {
+    "start": 23,
+    "end": 24.1,
+    "text": "Random Gifts"
+   },
+   {
+    "start": 24.1,
+    "end": 27.4,
+    "text": "Like remember how you gifted me this Giva Jury on a random date"
+   },
+   {
+    "start": 27.4,
+    "end": 28.4,
+    "text": "Something like that"
+   },
+   {
+    "start": 28.5,
+    "end": 30.6,
+    "text": "I absolutely adore this next piece"
+   },
+   {
+    "start": 30.6,
+    "end": 32.1,
+    "text": "How freedom looking it is"
+   },
+   {
+    "start": 32.1,
+    "end": 33.8,
+    "text": "And it's anti-tarnish"
+   },
+   {
+    "start": 33.8,
+    "end": 36.6,
+    "text": "Exactly the kind of Jury women can kill for"
+   },
+   {
+    "start": 36.6,
+    "end": 38.6,
+    "text": "So I have to give you really randomly right?"
+   },
+   {
+    "start": 38.6,
+    "end": 39.6,
+    "text": "No"
+   },
+   {
+    "start": 39.6,
+    "end": 41.1,
+    "text": "You don't buy Jury randomly"
+   },
+   {
+    "start": 41.1,
+    "end": 43.1,
+    "text": "You never buy Jury random dates"
+   },
+   {
+    "start": 43.1,
+    "end": 44.6,
+    "text": "You buy it thoughtfully"
+   },
+   {
+    "start": 44.6,
+    "end": 46,
+    "text": "Last and final class"
+   },
+   {
+    "start": 46,
+    "end": 47.9,
+    "text": "Do not ask the following questions"
+   },
+   {
+    "start": 47.9,
+    "end": 49.2,
+    "text": "What is this?"
+   },
+   {
+    "start": 49.2,
+    "end": 50.7,
+    "text": "Do you want this?"
+   },
+   {
+    "start": 50.7,
+    "end": 52.8,
+    "text": "Why do you want this?"
+   },
+   {
+    "start": 52.8,
+    "end": 54.8,
+    "text": "That is again which flag?"
+   },
+   {
+    "start": 54.8,
+    "end": 55.8,
+    "text": "Red flag"
+   },
+   {
+    "start": 55.8,
+    "end": 57.8,
+    "text": "See how trained are you?"
+   },
+   {
+    "start": 58,
+    "end": 60,
+    "text": "I would like you to sign please"
+   },
+   {
+    "start": 60,
+    "end": 61.5,
+    "text": "How am I supposed to sign this?"
+   },
+   {
+    "start": 61.5,
+    "end": 62.5,
+    "text": "I want this easy for you"
+   },
+   {
+    "start": 62.5,
+    "end": 63.2,
+    "text": "You actually print the"
+   },
+   {
+    "start": 63.2,
+    "end": 64,
+    "text": "Yes"
+   },
+   {
+    "start": 64,
+    "end": 66.2,
+    "text": "You actually promise to abide by all the rules?"
+   },
+   {
+    "start": 66.2,
+    "end": 67.2,
+    "text": "I promise"
+   },
+   {
+    "start": 67.2,
+    "end": 69.2,
+    "text": "Same as Giva's anti-tarnish promise?"
+   },
+   {
+    "start": 69.2,
+    "end": 71.4,
+    "text": "Same as Giva's anti-tarnish promise"
+   },
+   {
+    "start": 71.4,
+    "end": 72.4,
+    "text": "Alright"
+   },
+   {
+    "start": 72.4,
+    "end": 73.7,
+    "text": "Pleasure doing business with you"
+   },
+   {
+    "start": 73.7,
+    "end": 75,
+    "text": "Sign this and sign it to me"
+   },
+   {
+    "start": 75,
+    "end": 76,
+    "text": "I will"
+   }
+  ]
+ }
+}

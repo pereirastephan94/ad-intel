@@ -1,0 +1,137 @@
+{
+ "asset": "29680531568217652",
+ "first_seen_in": "1695791128841991",
+ "duration_s": 41.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.6,
+   "why": "scene change"
+  },
+  {
+   "t": 10.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.8,
+   "why": "scene change"
+  },
+  {
+   "t": 14.4,
+   "why": "scene change"
+  },
+  {
+   "t": 17,
+   "why": "scene change"
+  },
+  {
+   "t": 20.7,
+   "why": "scene change"
+  },
+  {
+   "t": 33.2,
+   "why": "scene change"
+  },
+  {
+   "t": 35.4,
+   "why": "scene change"
+  },
+  {
+   "t": 36.7,
+   "why": "scene change"
+  },
+  {
+   "t": 37.4,
+   "why": "scene change"
+  },
+  {
+   "t": 41.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You have been caught right handed. For wearing jewelry, seriously, let me show you the evidence. I mean look at this, 9 to 5 silver pieces that hold with literally everything and just the right amount of detail make an outfit stand out. This could get you a lifetime sentence. Honestly, I am thinking of lifetime sentence now. Your 4 men is giving lifetime greetings of this too. Looks like there is no escaping from this relationship now. Who is your partner in this crime? I don't know about crime, but jeeva men is definitely my partner in style for the man who command the tension. So show up your favorites now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6,
+    "text": "You have been caught right handed."
+   },
+   {
+    "start": 6,
+    "end": 10,
+    "text": "For wearing jewelry, seriously, let me show you the evidence."
+   },
+   {
+    "start": 10,
+    "end": 16.2,
+    "text": "I mean look at this, 9 to 5 silver pieces that hold with literally everything and just"
+   },
+   {
+    "start": 16.2,
+    "end": 20.9,
+    "text": "the right amount of detail make an outfit stand out."
+   },
+   {
+    "start": 20.9,
+    "end": 22.9,
+    "text": "This could get you a lifetime sentence."
+   },
+   {
+    "start": 22.9,
+    "end": 25.8,
+    "text": "Honestly, I am thinking of lifetime sentence now."
+   },
+   {
+    "start": 25.8,
+    "end": 28.8,
+    "text": "Your 4 men is giving lifetime greetings of this too."
+   },
+   {
+    "start": 28.8,
+    "end": 31.6,
+    "text": "Looks like there is no escaping from this relationship now."
+   },
+   {
+    "start": 31.6,
+    "end": 33.9,
+    "text": "Who is your partner in this crime?"
+   },
+   {
+    "start": 33.9,
+    "end": 37.8,
+    "text": "I don't know about crime, but jeeva men is definitely my partner in style for the man"
+   },
+   {
+    "start": 37.8,
+    "end": 39.1,
+    "text": "who command the tension."
+   },
+   {
+    "start": 39.1,
+    "end": 40.3,
+    "text": "So show up your favorites now."
+   }
+  ]
+ }
+}

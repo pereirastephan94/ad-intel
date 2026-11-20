@@ -1,0 +1,82 @@
+{
+ "asset": "1086990497651881",
+ "first_seen_in": "1102545799355831",
+ "duration_s": 23.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 5.7,
+   "why": "scene change"
+  },
+  {
+   "t": 8.7,
+   "why": "scene change"
+  },
+  {
+   "t": 10.1,
+   "why": "scene change"
+  },
+  {
+   "t": 13,
+   "why": "scene change"
+  },
+  {
+   "t": 14.3,
+   "why": "scene change"
+  },
+  {
+   "t": 15.5,
+   "why": "scene change"
+  },
+  {
+   "t": 17.1,
+   "why": "scene change"
+  },
+  {
+   "t": 17.9,
+   "why": "scene change"
+  },
+  {
+   "t": 22.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Auf Wiedersehen.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.5,
+    "text": "Auf Wiedersehen."
+   }
+  ]
+ }
+}

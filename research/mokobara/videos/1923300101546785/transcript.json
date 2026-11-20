@@ -1,0 +1,73 @@
+{
+ "asset": "1923300101546785",
+ "first_seen_in": "1443013414168931",
+ "duration_s": 16,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.2,
+   "why": "scene change"
+  },
+  {
+   "t": 7.6,
+   "why": "scene change"
+  },
+  {
+   "t": 11.2,
+   "why": "scene change"
+  },
+  {
+   "t": 15.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Wherecha' standing-and-might come from GaNZ Whatcha' standing back at?36",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6,
+    "text": "Wherecha' standing-and-might come from"
+   },
+   {
+    "start": 6.7,
+    "end": 10,
+    "text": "GaNZ"
+   },
+   {
+    "start": 10.4,
+    "end": 13.6,
+    "text": "Whatcha' standing back at?"
+   },
+   {
+    "start": 13.6,
+    "end": 16.2,
+    "text": "36"
+   }
+  ]
+ }
+}

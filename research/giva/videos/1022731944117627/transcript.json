@@ -1,0 +1,122 @@
+{
+ "asset": "1022731944117627",
+ "first_seen_in": "28571838709125998",
+ "duration_s": 32.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.1,
+   "why": "scene change"
+  },
+  {
+   "t": 7.5,
+   "why": "scene change"
+  },
+  {
+   "t": 8.7,
+   "why": "scene change"
+  },
+  {
+   "t": 10.5,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.3,
+   "why": "scene change"
+  },
+  {
+   "t": 16.1,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21.7,
+   "why": "scene change"
+  },
+  {
+   "t": 24.1,
+   "why": "scene change"
+  },
+  {
+   "t": 32,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Fast-passing changes every week, but my favorite way to change a look is accessory. Because sometimes all of love needs is a little more detail. I love mixing pieces, stacking them up and making them feel a little more mean. And who's that jewelry only belongs when you expect it to? Sometimes the best styling choices are the ones you don't see coming. And then comes the layering, because the pair of few one was never enough. Good thing, Giva pieces are hyper-lergenic and anti-darnish. See, it's all in the day days. And when it's Gima, you can never go wrong.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "Fast-passing changes every week, but my favorite way to change a look is accessory."
+   },
+   {
+    "start": 5,
+    "end": 8,
+    "text": "Because sometimes all of love needs is a little more detail."
+   },
+   {
+    "start": 8,
+    "end": 12,
+    "text": "I love mixing pieces, stacking them up and making them feel a little more mean."
+   },
+   {
+    "start": 12,
+    "end": 15,
+    "text": "And who's that jewelry only belongs when you expect it to?"
+   },
+   {
+    "start": 15,
+    "end": 18,
+    "text": "Sometimes the best styling choices are the ones you don't see coming."
+   },
+   {
+    "start": 18,
+    "end": 22,
+    "text": "And then comes the layering, because the pair of few one was never enough."
+   },
+   {
+    "start": 22,
+    "end": 25,
+    "text": "Good thing, Giva pieces are hyper-lergenic and anti-darnish."
+   },
+   {
+    "start": 25,
+    "end": 27,
+    "text": "See, it's all in the day days."
+   },
+   {
+    "start": 27,
+    "end": 29,
+    "text": "And when it's Gima, you can never go wrong."
+   }
+  ]
+ }
+}

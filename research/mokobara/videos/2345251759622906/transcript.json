@@ -1,0 +1,50 @@
+{
+ "asset": "2345251759622906",
+ "first_seen_in": "1218225334051916",
+ "duration_s": 16.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.2,
+   "why": "scene change"
+  },
+  {
+   "t": 4.6,
+   "why": "scene change"
+  },
+  {
+   "t": 16.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": ".",
+  "segments": [
+   {
+    "start": 0,
+    "end": 10.2,
+    "text": "."
+   }
+  ]
+ }
+}

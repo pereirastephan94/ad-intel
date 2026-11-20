@@ -1,0 +1,142 @@
+{
+ "asset": "1385613316707632",
+ "first_seen_in": "39690423243905854",
+ "duration_s": 48.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.5,
+   "why": "scene change"
+  },
+  {
+   "t": 11.3,
+   "why": "scene change"
+  },
+  {
+   "t": 13.6,
+   "why": "scene change"
+  },
+  {
+   "t": 18.7,
+   "why": "scene change"
+  },
+  {
+   "t": 20.3,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 25.2,
+   "why": "scene change"
+  },
+  {
+   "t": 27.2,
+   "why": "scene change"
+  },
+  {
+   "t": 32.7,
+   "why": "scene change"
+  },
+  {
+   "t": 34.1,
+   "why": "scene change"
+  },
+  {
+   "t": 48.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You might be wondering where I got all this jewelry from. Well obviously, jeeva. This entire next tag was given by my bestie both are in 9 to 5 silver. She clearly knows me too well. You know those earrings you put on once and you never want to take off. Yes, these are those. Plus they are skin friendly too. The whole my hand bracelet is another favourite but the supple bracelet wins as I got this for myself because apparently I don't need an occasion to spoil myself. It doubles up as a ring too and with jeeva's lifetime plating I know I'll be reaching for this one again and again. Ok now you know my little secret and here is another secret. Use port new 15 to get 15% off and buy your jeeva favourite.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.8,
+    "text": "You might be wondering where I got all this jewelry from."
+   },
+   {
+    "start": 5.8,
+    "end": 7.7,
+    "text": "Well obviously, jeeva."
+   },
+   {
+    "start": 7.7,
+    "end": 12,
+    "text": "This entire next tag was given by my bestie both are in 9 to 5 silver."
+   },
+   {
+    "start": 12,
+    "end": 13.8,
+    "text": "She clearly knows me too well."
+   },
+   {
+    "start": 13.8,
+    "end": 17.4,
+    "text": "You know those earrings you put on once and you never want to take off."
+   },
+   {
+    "start": 17.4,
+    "end": 18.8,
+    "text": "Yes, these are those."
+   },
+   {
+    "start": 18.8,
+    "end": 20.6,
+    "text": "Plus they are skin friendly too."
+   },
+   {
+    "start": 20.6,
+    "end": 25.4,
+    "text": "The whole my hand bracelet is another favourite but the supple bracelet wins as I got this"
+   },
+   {
+    "start": 25.4,
+    "end": 30.1,
+    "text": "for myself because apparently I don't need an occasion to spoil myself."
+   },
+   {
+    "start": 30.1,
+    "end": 34.7,
+    "text": "It doubles up as a ring too and with jeeva's lifetime plating I know I'll be reaching"
+   },
+   {
+    "start": 34.7,
+    "end": 36.5,
+    "text": "for this one again and again."
+   },
+   {
+    "start": 36.5,
+    "end": 39.7,
+    "text": "Ok now you know my little secret and here is another secret."
+   },
+   {
+    "start": 39.7,
+    "end": 43.7,
+    "text": "Use port new 15 to get 15% off and buy your jeeva favourite."
+   }
+  ]
+ }
+}

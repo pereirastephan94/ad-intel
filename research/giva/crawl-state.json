@@ -5,19 +5,7 @@
   },
   {
    "media": "video"
-  }
- ],
- "total": null,
- "log": [
-  "2026-11-19T23:59:32.583Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
-  "2026-11-19T23:59:32.585Z stopping after 1 view(s) as asked",
-  "2026-11-19T23:59:32.585Z PAUSED: 0 unique ads of ~null",
-  "2026-11-20T04:40:43.521Z view {\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
-  "2026-11-20T04:40:43.524Z stopping after 1 view(s) as asked",
-  "2026-11-20T04:40:43.524Z PAUSED: 0 unique ads of ~null"
- ],
- "keywordsQueued": true,
- "queue": [
+  },
   {
    "media": "image"
   },
@@ -28,6 +16,73 @@
   {
    "media": "video",
    "retry": 1
+  },
+  {
+   "media": "image",
+   "retry": 1
+  },
+  {
+   "media": "all",
+   "retry": 2
+  },
+  {
+   "media": "video",
+   "retry": 2
+  }
+ ],
+ "total": null,
+ "log": [
+  "2026-11-19T23:59:32.583Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-19T23:59:32.585Z stopping after 1 view(s) as asked",
+  "2026-11-19T23:59:32.585Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T04:40:43.521Z view {\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T04:40:43.524Z stopping after 1 view(s) as asked",
+  "2026-11-20T04:40:43.524Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T04:54:18.589Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T04:54:18.592Z stopping after 1 view(s) as asked",
+  "2026-11-20T04:54:18.592Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T05:11:19.302Z view {\"media\":\"all\",\"retry\":1} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T05:11:19.304Z stopping after 1 view(s) as asked",
+  "2026-11-20T05:11:19.304Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T05:23:27.459Z view {\"media\":\"video\",\"retry\":1} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T05:23:27.464Z stopping after 1 view(s) as asked",
+  "2026-11-20T05:23:27.464Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T05:35:46.244Z view {\"media\":\"image\",\"retry\":1} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T05:35:46.246Z stopping after 1 view(s) as asked",
+  "2026-11-20T05:35:46.247Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T05:47:59.814Z view {\"media\":\"all\",\"retry\":2} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T05:47:59.816Z stopping after 1 view(s) as asked",
+  "2026-11-20T05:47:59.816Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T06:01:28.714Z   video 1376771634646515 ok (29.8s, 16 stills)",
+  "2026-11-20T06:01:38.268Z   video 1639296670923575 ok (34.4s, 16 stills)",
+  "2026-11-20T06:01:50.346Z   video 2173166276885601 ok (52.7s, 16 stills)",
+  "2026-11-20T06:02:02.000Z   video 1385613316707632 ok (48.7s, 16 stills)",
+  "2026-11-20T06:02:11.758Z   video 912757988324888 ok (37.2s, 16 stills)",
+  "2026-11-20T06:02:29.355Z   video 1634508644721616 ok (81.3s, 16 stills)",
+  "2026-11-20T06:02:40.460Z   video 1444251487520294 ok (45.3s, 16 stills)",
+  "2026-11-20T06:02:50.408Z   video 2120682745187326 ok (40.6s, 16 stills)",
+  "2026-11-20T06:03:02.438Z   video 1494667376059605 ok (45.9s, 16 stills)",
+  "2026-11-20T06:03:14.646Z   video 1912269416424113 ok (47.9s, 16 stills)",
+  "2026-11-20T06:03:25.302Z   video 1730927585259881 ok (47.1s, 16 stills)",
+  "2026-11-20T06:03:43.572Z   video 1709545683509408 ok (43.2s, 16 stills)",
+  "2026-11-20T06:03:54.792Z   video 1022731944117627 ok (32.3s, 16 stills)",
+  "2026-11-20T06:04:05.800Z   video 1007850328326724 ok (40.7s, 16 stills)",
+  "2026-11-20T06:04:13.677Z   video 1272267217747275 ok (12.8s, 7 stills)",
+  "2026-11-20T06:04:37.939Z   video 1036210788733415 ok (33.3s, 16 stills)",
+  "2026-11-20T06:04:48.115Z   video 29680531568217652 ok (41.9s, 16 stills)",
+  "2026-11-20T06:05:09.571Z   video 1152183047172699 ok (40.5s, 16 stills)",
+  "2026-11-20T06:05:17.650Z   video 1637941553818721 ok (9.6s, 8 stills)",
+  "2026-11-20T06:05:28.027Z   video 2526064447807939 ok (34.7s, 16 stills)",
+  "2026-11-20T06:05:36.755Z   video 1743327853611802 ok (41.8s, 13 stills)",
+  "2026-11-20T06:05:36.755Z view {\"media\":\"video\",\"retry\":2} -> 30 ads (window total 39), 30 new, 30 unique of ~null",
+  "2026-11-20T06:05:36.756Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:05:36.757Z PAUSED: 30 unique ads of ~null"
+ ],
+ "keywordsQueued": true,
+ "queue": [
+  {
+   "media": "image",
+   "retry": 2
   }
  ],
  "stage": 1

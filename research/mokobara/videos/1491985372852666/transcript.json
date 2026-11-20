@@ -1,0 +1,107 @@
+{
+ "asset": "1491985372852666",
+ "first_seen_in": "1124630657162282",
+ "duration_s": 28.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 3.5,
+   "why": "scene change"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 16.4,
+   "why": "scene change"
+  },
+  {
+   "t": 17.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "POPPLE OF SMAAMBO POPPLE OF SMAAMBO MAMAMOLO'S MAMAMBO Look at him sway with it, getting so gay with it Shout no laver in mouth POPPLE OF SMAAMBO POPPLE OF SMAAMBO MAMAMOLO'S MAMAMBO POPPLE is great with it, swings like a gate with it, he loses weight with it now",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6,
+    "text": "POPPLE OF SMAAMBO"
+   },
+   {
+    "start": 6,
+    "end": 9,
+    "text": "POPPLE OF SMAAMBO"
+   },
+   {
+    "start": 9,
+    "end": 12,
+    "text": "MAMAMOLO'S MAMAMBO"
+   },
+   {
+    "start": 12,
+    "end": 15,
+    "text": "Look at him sway with it, getting so gay with it"
+   },
+   {
+    "start": 15,
+    "end": 18,
+    "text": "Shout no laver in mouth"
+   },
+   {
+    "start": 18,
+    "end": 20,
+    "text": "POPPLE OF SMAAMBO"
+   },
+   {
+    "start": 20,
+    "end": 22,
+    "text": "POPPLE OF SMAAMBO"
+   },
+   {
+    "start": 22,
+    "end": 24,
+    "text": "MAMAMOLO'S MAMAMBO"
+   },
+   {
+    "start": 24,
+    "end": 26,
+    "text": "POPPLE is great with it, swings like a gate"
+   },
+   {
+    "start": 26,
+    "end": 29,
+    "text": "with it, he loses weight with it now"
+   }
+  ]
+ }
+}

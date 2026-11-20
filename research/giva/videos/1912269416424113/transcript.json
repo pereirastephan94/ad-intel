@@ -1,0 +1,152 @@
+{
+ "asset": "1912269416424113",
+ "first_seen_in": "3122432834772947",
+ "duration_s": 47.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 9.1,
+   "why": "scene change"
+  },
+  {
+   "t": 10.5,
+   "why": "scene change"
+  },
+  {
+   "t": 17.6,
+   "why": "scene change"
+  },
+  {
+   "t": 20,
+   "why": "scene change"
+  },
+  {
+   "t": 27.5,
+   "why": "scene change"
+  },
+  {
+   "t": 27.5,
+   "why": "scene change"
+  },
+  {
+   "t": 33,
+   "why": "scene change"
+  },
+  {
+   "t": 34.5,
+   "why": "scene change"
+  },
+  {
+   "t": 35.8,
+   "why": "scene change"
+  },
+  {
+   "t": 37.6,
+   "why": "scene change"
+  },
+  {
+   "t": 47.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Outfit ready, but look adora, silver lagadow, look hajaa ega pura. Haa, baat to sae hea, nikin silver to jeeva kahe lage gea gha. Wait, is this silver? These are the 9 to 5 silver hardstarts and just look at them full of cuteness right? How can anyone not fall in love with these? Wait, but why can't I take my eyes off your neck? Because stat means business, leto means slow dance. Both our skin friendly while effortlessly getting all the attention without even trying. Hello? Hey, one second, let me just finish my look. Tioorities you know? Now that's the complete look. If you also want to compete your look, don't just save it. Shop it from jeeva, use new 15 to get 15% off. Bye!",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.2,
+    "text": "Outfit ready, but look adora, silver lagadow, look hajaa ega pura."
+   },
+   {
+    "start": 5.2,
+    "end": 9,
+    "text": "Haa, baat to sae hea, nikin silver to jeeva kahe lage gea gha."
+   },
+   {
+    "start": 9,
+    "end": 10.5,
+    "text": "Wait, is this silver?"
+   },
+   {
+    "start": 10.5,
+    "end": 15,
+    "text": "These are the 9 to 5 silver hardstarts and just look at them full of cuteness right?"
+   },
+   {
+    "start": 15,
+    "end": 17.5,
+    "text": "How can anyone not fall in love with these?"
+   },
+   {
+    "start": 17.5,
+    "end": 20,
+    "text": "Wait, but why can't I take my eyes off your neck?"
+   },
+   {
+    "start": 20,
+    "end": 23,
+    "text": "Because stat means business, leto means slow dance."
+   },
+   {
+    "start": 23,
+    "end": 28,
+    "text": "Both our skin friendly while effortlessly getting all the attention without even trying."
+   },
+   {
+    "start": 30.5,
+    "end": 31.5,
+    "text": "Hello?"
+   },
+   {
+    "start": 31.5,
+    "end": 34,
+    "text": "Hey, one second, let me just finish my look."
+   },
+   {
+    "start": 34,
+    "end": 35.5,
+    "text": "Tioorities you know?"
+   },
+   {
+    "start": 35.5,
+    "end": 37.5,
+    "text": "Now that's the complete look."
+   },
+   {
+    "start": 39,
+    "end": 42,
+    "text": "If you also want to compete your look, don't just save it."
+   },
+   {
+    "start": 42,
+    "end": 45.5,
+    "text": "Shop it from jeeva, use new 15 to get 15% off."
+   },
+   {
+    "start": 45.5,
+    "end": 46.5,
+    "text": "Bye!"
+   }
+  ]
+ }
+}
