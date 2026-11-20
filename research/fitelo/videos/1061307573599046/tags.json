@@ -10,16 +10,15 @@
     "angle": "outcome",
     "language": "english",
     "production": "studio",
-    "concept_id": null,
+    "concept_id": "FT-c02",
     "product": "Weight-loss coaching, 10X cashback offer",
-    "one_line": "A presenter names three customers who lost 25 to 35 kg, then pitches 10X cashback and up to 5 lakh rupees for the first 100 customers.",
+    "one_line": "A presenter names three customers who lost 25 to 35 kg with no timeframe, then pitches 10X cashback and up to 5 lakh rupees for the first 100; small print says 2-3 kg in 4 weeks.",
     "script_twin": null,
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "hook",
       "language",
       "production"
     ],

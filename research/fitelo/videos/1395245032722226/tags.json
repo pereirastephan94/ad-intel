@@ -1,6 +1,6 @@
 {
   "tags": {
-    "row": "V2",
+    "row": "V4",
     "face": "customer",
     "founder_evidence": "",
     "hook": "number_claim",
@@ -9,18 +9,16 @@
     "deadline": false,
     "angle": "outcome",
     "language": "english",
-    "production": "designed_static",
-    "concept_id": null,
+    "production": "phone_lofi",
+    "concept_id": "FT-c04",
     "product": "Weight-loss diet plan, up to 30% off",
-    "one_line": "A silent photo slideshow shows a mother going from 104 kg to 66 kg, then asks viewers to comment YES to start.",
-    "script_twin": null,
+    "one_line": "A silent photo slideshow shows a mother (named Mallika in the ad text) going from 104 kg to 66 kg with no timeframe, then asks viewers to comment YES; small print says 2-3 kg in 4 weeks.",
+    "script_twin": "1515868296878053",
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "row",
-      "production",
       "face"
     ],
     "human_checked": false

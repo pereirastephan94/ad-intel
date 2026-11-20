@@ -9,10 +9,10 @@
     "deadline": false,
     "angle": "outcome",
     "language": "hinglish",
-    "production": "studio",
-    "concept_id": null,
+    "production": "high_film",
+    "concept_id": "FT-c20",
     "product": "Weight-loss coaching, 10X cashback offer",
-    "one_line": "A man tells how he went from 96 kg to losing 28 kg in 6 months with Fitelo, then a presenter pushes 10X cashback for the first 100 customers.",
+    "one_line": "A man says he went from 96 kg to 28 kg lost in 6 months (about 4.7 kg a month, against small print of 2-3 kg in 4 weeks), framed by a presenter who pitches 10X cashback for the first 100.",
     "script_twin": null,
     "offer_also": []
   },
@@ -20,9 +20,7 @@
     "model": "sonnet",
     "unsure": [
       "face",
-      "hook",
-      "production",
-      "row"
+      "production"
     ],
     "human_checked": false
   }

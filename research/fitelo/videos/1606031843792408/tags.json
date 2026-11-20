@@ -6,14 +6,14 @@
     "hook": "offer",
     "hook_text": "In next 3 dino ke liye Fitelo de raha hai 80% off",
     "offer": "discount",
-    "deadline": true,
+    "deadline": false,
     "angle": "price_value",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c10",
     "product": "Fitelo Smart Scale, 999 rupees",
-    "one_line": "A woman in a bedroom says the updated Fitelo smart scale is 80% off for 3 days at 999 rupees, tracks 25 metrics and includes a free dietitian call.",
-    "script_twin": null,
+    "one_line": "A woman in a bedroom says the updated Fitelo smart scale is 80% off for 3 days at 999 rupees (end card shows was 4999), tracks 25 metrics and includes a free dietitian call.",
+    "script_twin": "1450918946888714",
     "offer_also": [
       "free"
     ],
@@ -22,7 +22,6 @@
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "face",
       "row"
     ],
     "human_checked": false

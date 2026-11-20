@@ -1,6 +1,6 @@
 {
   "tags": {
-    "row": "V2",
+    "row": "V4",
     "face": "customer",
     "founder_evidence": "",
     "hook": "number_claim",
@@ -10,16 +10,15 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c17",
     "product": "Weight-loss programme, 10X cashback offer",
-    "one_line": "A named software engineer says she lost 21.5 kg from 88 kg, shown in phone photos, then a 10X cashback offer for the first 100 customers.",
+    "one_line": "Kajal Shrougi, a software engineer, says she lost 21.5 kg from 88 kg to 65.5 kg (22.5 on those numbers) with no timeframe, shown over phone photos, then 10X cashback for the first 100.",
     "script_twin": null,
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "row",
       "hook",
       "deadline"
     ],

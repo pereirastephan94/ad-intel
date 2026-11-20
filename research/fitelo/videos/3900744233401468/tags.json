@@ -6,13 +6,13 @@
     "hook": "question",
     "hook_text": "want to lose WEIGHT FAST?",
     "offer": "free",
-    "deadline": true,
+    "deadline": false,
     "angle": "outcome",
     "language": "english",
     "production": "studio",
-    "concept_id": null,
+    "concept_id": "FT-c22",
     "product": "Fitelo Smart Scale, free dietitian consultation",
-    "one_line": "A woman steps on a smart scale and checks the app, with captions asking 'want to lose WEIGHT FAST?' and offering a free dietitian consultation worth 500 rupees.",
+    "one_line": "A woman steps on a smart scale and checks the app, with captions asking 'want to lose WEIGHT FAST?' and offering a free dietitian consultation worth 500 rupees; the 999 price is only in the ad text.",
     "script_twin": null,
     "offer_also": [
       "discount"
@@ -22,8 +22,7 @@
     "model": "sonnet",
     "unsure": [
       "row",
-      "angle",
-      "deadline"
+      "angle"
     ],
     "human_checked": false
   }

@@ -6,14 +6,14 @@
     "hook": "offer",
     "hook_text": "5000 ka Fitelo smart scale ab mil raha hai, only at triple 9.",
     "offer": "discount",
-    "deadline": true,
+    "deadline": false,
     "angle": "price_value",
     "language": "hinglish",
     "production": "studio",
-    "concept_id": null,
+    "concept_id": "FT-c01",
     "product": "Fitelo Smart Scale, 999 rupees",
-    "one_line": "A presenter pitches the Fitelo smart scale at 999 rupees instead of 5000, with a free dietitian call, valid this week only.",
-    "script_twin": null,
+    "one_line": "A presenter pitches the Fitelo smart scale at 999 rupees instead of 5000, with a free dietitian call, 'valid this week' with no date.",
+    "script_twin": "1606031843792408",
     "offer_also": [
       "free"
     ]
@@ -21,8 +21,7 @@
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "production",
-      "row"
+      "production"
     ],
     "human_checked": false
   }

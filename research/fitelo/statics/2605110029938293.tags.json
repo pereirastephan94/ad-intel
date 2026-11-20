@@ -10,7 +10,7 @@
     "angle": "outcome",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "FT-c16",
     "product": "Body Map Review, 50+ parameters, Rs 199",
     "script_twin": null,
     "offer_also": [],
@@ -19,7 +19,6 @@
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "row",
       "face"
     ],
     "human_checked": false

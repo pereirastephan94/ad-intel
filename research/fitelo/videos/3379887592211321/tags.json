@@ -1,27 +1,24 @@
 {
   "tags": {
-    "row": "V2",
+    "row": "V4",
     "face": "customer",
     "founder_evidence": "",
-    "hook": "story_open",
+    "hook": "problem",
     "hook_text": "103.6kgs weight",
     "offer": "cashback",
     "deadline": true,
     "angle": "outcome",
     "language": "english",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c11",
     "product": "Weight-loss programme, 10X cashback offer",
-    "one_line": "Captions on photos of a named woman give 103.6 kgs and 3XL, then 'Then I joined', ending on a 10X cashback card valid till 31st October.",
+    "one_line": "Captions on photos of Ankita Chaturvedi give 103.6 kgs and 3XL, then 'Then I joined' with no result stated, ending on a 10X cashback card valid till 31st October.",
     "script_twin": null,
     "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "row",
-      "face",
-      "hook",
       "angle",
       "production"
     ],

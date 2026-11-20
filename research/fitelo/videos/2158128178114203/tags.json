@@ -10,9 +10,9 @@
     "angle": "outcome",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c05",
     "product": "Weight-loss programme, 10X cashback offer",
-    "one_line": "An unlabelled presenter asks 'Want to lose 20kg?', a named nursing officer tells her 87 to 60 kg story, then a 10X cashback offer for the first 100 customers.",
+    "one_line": "A presenter asks 'Want to lose 20kg?', Harpreet Kaur, a nursing officer, tells her 87 to 60 kg story (25-26 kg in 90 days, about 8 kg a month), then 10X cashback for the first 100.",
     "script_twin": null,
     "offer_also": []
   },
@@ -20,8 +20,7 @@
     "model": "sonnet",
     "unsure": [
       "face",
-      "production",
-      "deadline"
+      "production"
     ],
     "human_checked": false
   }

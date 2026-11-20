@@ -1,7 +1,7 @@
 {
   "tags": {
-    "row": "V2",
-    "face": "actor_model",
+    "row": "V4",
+    "face": "customer",
     "founder_evidence": "",
     "hook": "number_claim",
     "hook_text": "From 104 kg to 66 kg",
@@ -9,21 +9,17 @@
     "deadline": false,
     "angle": "outcome",
     "language": "english",
-    "production": "designed_static",
-    "concept_id": null,
+    "production": "phone_lofi",
+    "concept_id": "FT-c04",
     "product": "Weight-loss coaching (not named in the video)",
-    "one_line": "A silent photo slideshow shows a mother going from 104 kg to 66 kg and ends on a Book Now button, with a song under it.",
+    "one_line": "The same silent slideshow as 1395245032722226, a mother going from 104 kg to 66 kg with no timeframe, ending on a Book Now button, with a song under it and no ad text.",
     "script_twin": "1395245032722226",
     "offer_also": [],
     "ad_text_missing": true
   },
   "tagging": {
     "model": "sonnet",
-    "unsure": [
-      "face",
-      "row",
-      "production"
-    ],
+    "unsure": [],
     "human_checked": false
   }
 }

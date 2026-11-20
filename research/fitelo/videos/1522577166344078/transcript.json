@@ -61,6 +61,62 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh sakha par chapi akbar mein, ab weight kam karne ke paise milinde? Last year Fitelo ne diya tha 100% cashback. Weight loss karo aur jitne paise diye hai, utne vaapar. Ho to purana ho gaya. Is baar reward 10x bada hai. Fitelo has launched a 10x cashback offer. Weight lose karne pe 10x cashback. And you can win upto 5 lakh rupees with a 5 year weight loss warranty. पैसा ही पैसा हुगः! तो अब वेट कम करने के लिए इस ते अच्छा मोटिवशन तो नहीं मिलेगा! पर विएक पार्भिर करते हैं पर पराग्पार परो 300 एक परकुपार यह। वोक भी ईक प्राइज़े एक! जा जा जा जा जा! आप पर रूम ये आप रूम!",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 4.0,
+    "text": "Yeh sakha par chapi akbar mein, ab weight kam karne ke paise milinde?"
+   },
+   {
+    "start": 4.0,
+    "end": 10.0,
+    "text": "Last year Fitelo ne diya tha 100% cashback. Weight loss karo aur jitne paise diye hai, utne vaapar."
+   },
+   {
+    "start": 10.0,
+    "end": 14.0,
+    "text": "Ho to purana ho gaya. Is baar reward 10x bada hai."
+   },
+   {
+    "start": 14.0,
+    "end": 20.0,
+    "text": "Fitelo has launched a 10x cashback offer. Weight lose karne pe 10x cashback."
+   },
+   {
+    "start": 20.0,
+    "end": 25.0,
+    "text": "And you can win upto 5 lakh rupees with a 5 year weight loss warranty."
+   },
+   {
+    "start": 25.0,
+    "end": 26.5,
+    "text": "पैसा ही पैसा हुगः!"
+   },
+   {
+    "start": 26.5,
+    "end": 30.2,
+    "text": "तो अब वेट कम करने के लिए इस ते अच्छा मोटिवशन तो नहीं मिलेगा!"
+   },
+   {
+    "start": 30.5,
+    "end": 34.7,
+    "text": "पर विएक पार्भिर करते हैं पर पराग्पार परो 300 एक परकुपार यह।"
+   },
+   {
+    "start": 34.7,
+    "end": 36.5,
+    "text": "वोक भी ईक प्राइज़े एक!"
+   },
+   {
+    "start": 36.5,
+    "end": 38.5,
+    "text": "जा जा जा जा जा! आप पर रूम ये आप रूम!"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "یہp tawar chappi yabbar me abhid ka mkul ne ke patri mili last year fichal on hedi aath ha 100% cashback weight loss tawar aur jitne peisidhi hai utne wapar faw taw pura na hong ya this bar reward dars guna bada hai fichal has lost a chanek s cashback offer weight lose karni pe 10 chaiin s cashback and you can win up to 5 lakh rupees with a 5 year weight loss warranty fai saai peis hao na tawar weight karni ke liye iste a chan motivation to na himi liye ka but this offer is only a bag of first 200 customers only book your consultation now",
   "segments": [

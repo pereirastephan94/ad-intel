@@ -1,0 +1,97 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "Weight-loss coaching with a cashback offer",
+        21
+      ],
+      [
+        "Fitelo smart scale at ₹999",
+        5
+      ],
+      [
+        "Weight-loss plans, up to 30% off",
+        4
+      ],
+      [
+        "Weight-loss coaching, no offer in the video",
+        2
+      ],
+      [
+        "Body Map Review at ₹199",
+        2
+      ]
+    ],
+    "note": "Twenty-one of 34 ads sell weight-loss coaching with a cashback offer, five sell the smart scale, and the other eight sell cheaper plans or a ₹199 review."
+  },
+  "series": [
+    {
+      "name": "Cashback cheque prop",
+      "ads": [
+        "1912200749756133",
+        "1637013901394490",
+        "4723519161196734"
+      ],
+      "note": "The same collage of cheques marked '100 % CASHBACK OFFER' and 'WINNER' runs in 16 ads, while the voice promises 10X cashback and up to 5 lakh rupees."
+    },
+    {
+      "name": "Named customer with a starting weight",
+      "ads": [
+        "2190284715234477",
+        "1129807916396583",
+        "2166915778033433"
+      ],
+      "note": "Three ads open on a customer's name, town and starting weight over a full-length photo, and two end on the identical 'up to 30% off' card."
+    },
+    {
+      "name": "Customer story, same cashback end card",
+      "ads": [
+        "1449280067157528",
+        "1550858456795923",
+        "1146824311226546"
+      ],
+      "note": "Nineteen ads hand a customer's story to the same grey-haired man pointing at '10X cashback' and 'first 100 customers only'."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "One ad says 25 kg lost in 90 days and another 28 kg in 6 months, while the small print says a typical user loses 2-3 kg in 4 weeks.",
+      "ads": [
+        "4832221937013486",
+        "1449280067157528",
+        "4723519161196734"
+      ]
+    },
+    {
+      "text": "The voice says 10X cashback and up to 5 lakh rupees, the cheques say 100% and show about ₹4,250 to ₹16,000, and another end card says only up to ₹5,00,000.",
+      "ads": [
+        "1912200749756133",
+        "1685798322850756",
+        "4832221937013486"
+      ]
+    },
+    {
+      "text": "End cards say 'Offer Valid Till 31st October only', yet all three ads were still listed active on 20 November, 20 to 24 days later.",
+      "ads": [
+        "2148142946075233",
+        "29321645884190090",
+        "2166915778033433"
+      ]
+    },
+    {
+      "text": "The smart scale tracks 18 metrics in one ad and 25 in others, and the Amazon page shown inside the 25-metric video still says 18+.",
+      "ads": [
+        "1033007776294158",
+        "2941541369549817",
+        "925451983928233"
+      ]
+    },
+    {
+      "text": "The same woman is 'Malika, lost 35 kgs' in one ad and 'Mallika', 104 kg to 66 kg, which is 38 kg, in another.",
+      "ads": [
+        "1912200749756133",
+        "1777858350163803"
+      ]
+    }
+  ]
+}

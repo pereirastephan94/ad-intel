@@ -1,6 +1,6 @@
 {
   "tags": {
-    "row": "V2",
+    "row": "V4",
     "face": "actor_model",
     "founder_evidence": "",
     "hook": "number_claim",
@@ -10,9 +10,9 @@
     "angle": "outcome",
     "language": "english",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c14",
     "product": "Weight-loss coaching, up to 5 lakh cashback",
-    "one_line": "A silent photo and clip montage claims a man lost 25 kg in 90 days, then offers up to 5 lakh rupees for the first 100 customers.",
+    "one_line": "A silent photo and clip montage claims an unnamed man lost 25 kg in 90 days (about 8 kg a month, against small print of 2-3 kg in 4 weeks), then offers up to 5 lakh rupees for the first 100.",
     "script_twin": null,
     "offer_also": []
   },
@@ -20,7 +20,6 @@
     "model": "sonnet",
     "unsure": [
       "face",
-      "row",
       "production"
     ],
     "human_checked": false

@@ -3,25 +3,22 @@
     "row": "V1",
     "face": "customer",
     "founder_evidence": "",
-    "hook": "offer",
+    "hook": "story_open",
     "hook_text": "Mera weight loss literally free ho gaya.",
     "offer": "cashback",
     "deadline": false,
     "angle": "price_value",
     "language": "hinglish",
     "production": "phone_lofi",
-    "concept_id": null,
+    "concept_id": "FT-c19",
     "product": "Weight-loss programme, 10X cashback offer",
-    "one_line": "A named customer says she lost 26 kgs and her weight loss came free, then the ad launches a 10X cashback offer for the first 100 customers.",
-    "script_twin": null,
-    "offer_also": [
-      "free"
-    ]
+    "one_line": "Ankita Chaturvedi from Delhi says she lost around 26 kgs (no timeframe) and her weight loss 'came free', then the ad launches 10X cashback, up to 5 lakh rupees, for the first 100.",
+    "script_twin": "1805637266775957",
+    "offer_also": []
   },
   "tagging": {
     "model": "sonnet",
     "unsure": [
-      "hook",
       "angle",
       "deadline",
       "production"

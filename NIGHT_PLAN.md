@@ -85,3 +85,15 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   `git checkout origin/pull/worker-1 -- research/mokobara research/giva` (videos' mp4s stay on the worker; stills and transcripts are in the repo).
   NOTE: retranscribe.py needs the mp4s, so ask the worker to run teardown/retranscribe.py itself before its final push.
 - This machine's rr-pull list is now: Atomberg, Qubo, CaratLane, DailyObjects, Cult.fit, Fitelo, Stable Money, Wint Wealth.
+
+## Added 00:20 UTC 20 Nov: owner feedback on comparison 1 (he is awake and reading)
+- He found the page not actionable. Required in every comparison from now on: (1) workhorse creatives (one idea can carry a brand: ads, versions, days live),
+  (2) like-for-like by product, checked against each brand's own website, with a separate view of other products, (3) a clear action plan (focus / start / stop),
+  (4) script directions for his performance content team (persona-led, founder-led, character series...), each with a full draft script.
+  The Opus agent (a67a9ab4848dca893) is rebuilding spec, compute, builder, rubric v4 and the Stable Money vs Wint Wealth page on this basis.
+- Website hosts for all ten brands plus www.scaler.com are now allowed in the environment (WebFetch works for them).
+- He also wants "insights that Mesa does that we (Scaler School of Business) don't do": SSB's own ad page is 278591052007519, page.json written to
+  research/scaler-school-of-business/. ADD "Scaler School of Business" to the rr-pull brand list at the next restart, then run SSB through the same write-up
+  pipeline and build "SSB vs Mesa" with the new comparison framework (Mesa data: research/mesa, 249 ads; it has breakdowns but NOT tags.json yet: a tagging pass is needed).
+- Cult.fit and Fitelo are fully written up with concepts.md and extras.json: comparison 2 waits for the v4 framework.
+- Pull worker test (session_018VFYVJ74b98dqPoxK7xT9B): its first two views were empty while this machine's view was full; undecided, check its branch pull/worker-1 later.

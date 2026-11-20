@@ -6,13 +6,13 @@
     "hook": "offer",
     "hook_text": "Biggest Price Drop Ever",
     "offer": "discount",
-    "deadline": true,
+    "deadline": false,
     "angle": "price_value",
     "language": "english",
     "production": "designed_static",
-    "concept_id": null,
+    "concept_id": "FT-c18",
     "product": "Fitelo Smart Scale 2.0, 999 rupees",
-    "one_line": "A man holds the Smart Scale 2.0 beside 'Biggest Price Drop Ever', now 999 rupees from 4999, valid this week, with a Shop now button.",
+    "one_line": "A man holds the Smart Scale 2.0 beside 'Biggest Price Drop Ever', now 999 rupees from 4999, 'valid for this week' with no date, with a Shop now button.",
     "script_twin": null,
     "offer_also": [
       "free"

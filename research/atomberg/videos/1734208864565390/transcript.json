@@ -1,0 +1,82 @@
+{
+ "asset": "1734208864565390",
+ "first_seen_in": "28024802573817859",
+ "duration_s": 28.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.8,
+   "why": "scene change"
+  },
+  {
+   "t": 7.7,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 12.3,
+   "why": "scene change"
+  },
+  {
+   "t": 14.7,
+   "why": "scene change"
+  },
+  {
+   "t": 15.3,
+   "why": "scene change"
+  },
+  {
+   "t": 17,
+   "why": "scene change"
+  },
+  {
+   "t": 20,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 28,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "te",
+  "text": "இ Squeeze Van C",
+  "segments": [
+   {
+    "start": 0,
+    "end": 13.2,
+    "text": "இ Squeeze Van C"
+   }
+  ]
+ }
+}
