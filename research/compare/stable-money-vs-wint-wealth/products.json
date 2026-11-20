@@ -1,0 +1,119 @@
+{
+ "labels": {
+  "bonds": "Bonds",
+  "fixed_deposit": "Fixed deposits",
+  "recurring_deposit": "Recurring deposit",
+  "fd_backed_card": "FD-backed credit card",
+  "mutual_funds": "Mutual funds",
+  "gold": "Gold"
+ },
+ "site": {
+  "fetched": "2026-11-20",
+  "A": [
+   {
+    "key": "fixed_deposit",
+    "claim": "Up to 8.60% p.a., 12 banks and 3 NBFCs, DICGC cover up to ₹5 lakh",
+    "url": "https://stablemoney.in/"
+   },
+   {
+    "key": "recurring_deposit",
+    "claim": "Up to 8.50% p.a., no penalty for a missed instalment",
+    "url": "https://stablemoney.in/rd"
+   },
+   {
+    "key": "bonds",
+    "claim": "No rate on the page; title says \"Guaranteed Returns\"; tiles say SEBI-registered, senior secured",
+    "url": "https://stablemoney.in/bonds"
+   },
+   {
+    "key": "fd_backed_card",
+    "claim": "Suryoday Bank card, minimum FD ₹50,000, lounge on the physical card only",
+    "url": "https://stablemoney.in/credit-card"
+   },
+   {
+    "key": "mutual_funds",
+    "claim": "Footer registration only (AMFI distributor); no mutual fund product in the navigation",
+    "url": "https://stablemoney.in/",
+    "status": "registration_only"
+   }
+  ],
+  "B": [
+   {
+    "key": "bonds",
+    "claim": "9-12% fixed returns, start with ₹1,000, sell any time subject to a buyer",
+    "url": "https://www.wintwealth.com/"
+   },
+   {
+    "key": "fixed_deposit",
+    "claim": "Not in the navigation; the home page data counts about ₹196 crore of FDs sold, and the FD page returned a server error",
+    "url": "https://www.wintwealth.com/",
+    "status": "unclear"
+   }
+  ]
+ },
+ "ads": {
+  "1690045142234207": "bonds",
+  "1359085176241049": "bonds",
+  "1318322580372486": "bonds",
+  "1044985944652867": "recurring_deposit",
+  "912443471919863": "bonds",
+  "1115779077962422": "fixed_deposit",
+  "1646669466828779": "fd_backed_card",
+  "2057230121811704": "fixed_deposit",
+  "1094477860035639": "bonds",
+  "1624124105890067": "fixed_deposit",
+  "1098949122752977": "fixed_deposit",
+  "1294109162873838": "recurring_deposit",
+  "1414345880897775": "fixed_deposit",
+  "2826793054387425": "fixed_deposit",
+  "3115844495284358": "bonds",
+  "1780853883195705": "bonds",
+  "1684487993244481": "fd_backed_card",
+  "1019096030980624": "fixed_deposit",
+  "1462158732420553": "recurring_deposit",
+  "2952841455054370": "fixed_deposit",
+  "2894685200924911": "recurring_deposit",
+  "1696884795431012": "fixed_deposit",
+  "1422041222644076": "fixed_deposit",
+  "1409564451139620": "fd_backed_card",
+  "2029258324332952": "fixed_deposit",
+  "991125217069138": "recurring_deposit",
+  "1650915419954369": "fd_backed_card",
+  "1064086583323093": "fd_backed_card",
+  "1059291876995172": "fd_backed_card",
+  "1158491436527705": "bonds",
+  "1022650000551778": "fd_backed_card",
+  "948406311403969": "fd_backed_card",
+  "2077379136540472": "fd_backed_card",
+  "1953272729391464": "bonds",
+  "1375574504560912": "bonds",
+  "1608750657392609": "bonds",
+  "28133518736321882": "bonds",
+  "2876298779421455": "bonds",
+  "1065702466447240": "bonds",
+  "1822092442159366": "bonds",
+  "1868487757472978": "bonds",
+  "26996845726680317": "bonds",
+  "1768735924383603": "bonds",
+  "1139217318446573": "bonds",
+  "1042794292127507": "bonds",
+  "955959980393839": "bonds",
+  "1577736273613796": "bonds",
+  "1819131125779645": "bonds",
+  "1010246932113130": "bonds",
+  "1078474831621182": "bonds",
+  "2292299894864285": "bonds",
+  "2556193758207208": "bonds",
+  "1768821550864003": "bonds",
+  "1574326737333320": "bonds",
+  "1642456104162744": "bonds",
+  "1653556886374383": "bonds",
+  "2603917993354573": "bonds",
+  "2402074240326667": "bonds",
+  "1102709929308735": "bonds",
+  "1637283661235770": "bonds",
+  "1087294090969954": "bonds",
+  "1122130514055415": "bonds",
+  "1452959666055721": "bonds"
+ }
+}

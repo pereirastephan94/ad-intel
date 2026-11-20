@@ -1,0 +1,97 @@
+{
+ "asset": "1025275167252391",
+ "first_seen_in": "1821826982190361",
+ "duration_s": 65.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7,
+   "why": "scene change"
+  },
+  {
+   "t": 11,
+   "why": "scene change"
+  },
+  {
+   "t": 13.3,
+   "why": "scene change"
+  },
+  {
+   "t": 17.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.9,
+   "why": "scene change"
+  },
+  {
+   "t": 28.9,
+   "why": "scene change"
+  },
+  {
+   "t": 30.8,
+   "why": "scene change"
+  },
+  {
+   "t": 37.6,
+   "why": "scene change"
+  },
+  {
+   "t": 39.9,
+   "why": "scene change"
+  },
+  {
+   "t": 51.9,
+   "why": "scene change"
+  },
+  {
+   "t": 65,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "جیسا کہ آپ جانتے ہیں ہماری ہر میں نہیں کوشیش رہی کی پیرٹس کے ہر جائیں تو کچھ ایسا ضرور کریں جس میں ممیپاپا کی لائی فاصان ہو آپ جانتے ہیں ہم نے last میں this smart log like ay cctv like ay ke acha tv gift کیا تو جیسا آپ لوگوں نے دیکھا ہوگہ ہم نے اپنے گرنان والے گھر میں remote والے fan use کر کے on of ko janjat khatam qadiyata but yaha but mami baba abhi bhi manoli fan operate کر رہے ہیں اور ہماری طرق کبھی کبھی on of male lalbi",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7.5,
+    "text": "جیسا کہ آپ جانتے ہیں ہماری ہر میں نہیں کوشیش رہی کی پیرٹس کے ہر جائیں تو کچھ ایسا ضرور کریں جس میں ممیپاپا کی لائی فاصان ہو آپ جانتے ہیں ہم نے last"
+   },
+   {
+    "start": 7.5,
+    "end": 13.1,
+    "text": "میں this smart log like ay cctv like ay ke acha tv gift کیا تو جیسا آپ لوگوں نے دیکھا ہوگہ ہم نے اپنے گرنان والے گھر میں"
+   },
+   {
+    "start": 13.1,
+    "end": 17.8,
+    "text": "remote والے fan use کر کے on of ko janjat khatam qadiyata but yaha but mami baba abhi"
+   },
+   {
+    "start": 17.8,
+    "end": 22.5,
+    "text": "bhi manoli fan operate کر رہے ہیں اور ہماری طرق کبھی کبھی on of male lalbi"
+   }
+  ]
+ }
+}

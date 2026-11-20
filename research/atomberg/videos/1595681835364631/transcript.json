@@ -1,0 +1,512 @@
+{
+ "asset": "1595681835364631",
+ "first_seen_in": "1100991832415673",
+ "duration_s": 57.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15,
+   "why": "scene change"
+  },
+  {
+   "t": 21.2,
+   "why": "scene change"
+  },
+  {
+   "t": 23.8,
+   "why": "scene change"
+  },
+  {
+   "t": 33.9,
+   "why": "scene change"
+  },
+  {
+   "t": 39.8,
+   "why": "scene change"
+  },
+  {
+   "t": 41.6,
+   "why": "scene change"
+  },
+  {
+   "t": 44,
+   "why": "scene change"
+  },
+  {
+   "t": 45,
+   "why": "scene change"
+  },
+  {
+   "t": 48.6,
+   "why": "scene change"
+  },
+  {
+   "t": 56.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "دیکھی آپ کے گھر کا water source ہمے شہ سے مو ضروری نہیں سو سیٹی میں مینسپل سپلائی ہوتی ہے لیکن گرمی میں تنکر یا بوروال water use ہو سکھا اور مون سون میں water quality بلسکتی ہے پھر آپ کا purifier ہر پانی کو same tary gizakyu treat کرے unnecessary RO use سے پانی میں minerals کم ہو سکھتے ہیں پانی waste ہوتا ہے اور maintenance cost burti ہے atombug intelon ایک adaptive RO جو source water ke hisaap se purification select karta low dd s water ho to UV plus UF or higher td s water or heavy metal ka risk ho to RO plus UV مدلت جیسا پانی waste purification اسے minerals retain rhat and filter ki life extent ho sqt hai maintenance may be same rojik hai taira dosaal no service cost war anti hai aur 8 salm maintenance per lakbh pachis hazard taki saving ho sqt hai to purification be",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.8,
+    "text": "دیکھی آپ کے گھر کا water source"
+   },
+   {
+    "start": 1.8,
+    "end": 2.7,
+    "text": "ہمے شہ سے مو"
+   },
+   {
+    "start": 2.7,
+    "end": 3.3,
+    "text": "ضروری نہیں"
+   },
+   {
+    "start": 3.3,
+    "end": 4.2,
+    "text": "سو سیٹی میں"
+   },
+   {
+    "start": 4.2,
+    "end": 5,
+    "text": "مینسپل"
+   },
+   {
+    "start": 5,
+    "end": 5.7,
+    "text": "سپلائی ہوتی ہے"
+   },
+   {
+    "start": 5.7,
+    "end": 6.6,
+    "text": "لیکن گرمی میں"
+   },
+   {
+    "start": 6.6,
+    "end": 7.3,
+    "text": "تنکر یا"
+   },
+   {
+    "start": 7.3,
+    "end": 8.1,
+    "text": "بوروال water"
+   },
+   {
+    "start": 8.1,
+    "end": 8.5,
+    "text": "use"
+   },
+   {
+    "start": 8.5,
+    "end": 8.8,
+    "text": "ہو سکھا"
+   },
+   {
+    "start": 8.8,
+    "end": 9.1,
+    "text": "اور"
+   },
+   {
+    "start": 9.1,
+    "end": 9.8,
+    "text": "مون سون میں"
+   },
+   {
+    "start": 9.8,
+    "end": 10.6,
+    "text": "water quality"
+   },
+   {
+    "start": 10.6,
+    "end": 11.3,
+    "text": "بلسکتی ہے"
+   },
+   {
+    "start": 11.3,
+    "end": 11.6,
+    "text": "پھر"
+   },
+   {
+    "start": 11.6,
+    "end": 12.6,
+    "text": "آپ کا purifier"
+   },
+   {
+    "start": 12.6,
+    "end": 12.9,
+    "text": "ہر"
+   },
+   {
+    "start": 12.9,
+    "end": 13.5,
+    "text": "پانی کو"
+   },
+   {
+    "start": 13.5,
+    "end": 13.8,
+    "text": "same"
+   },
+   {
+    "start": 13.8,
+    "end": 14.4,
+    "text": "tary gizakyu"
+   },
+   {
+    "start": 14.4,
+    "end": 14.6,
+    "text": "treat"
+   },
+   {
+    "start": 14.6,
+    "end": 15.1,
+    "text": "کرے"
+   },
+   {
+    "start": 15.1,
+    "end": 15.7,
+    "text": "unnecessary"
+   },
+   {
+    "start": 15.7,
+    "end": 16.3,
+    "text": "RO use"
+   },
+   {
+    "start": 16.3,
+    "end": 16.5,
+    "text": "سے"
+   },
+   {
+    "start": 16.5,
+    "end": 16.9,
+    "text": "پانی میں"
+   },
+   {
+    "start": 16.9,
+    "end": 17.4,
+    "text": "minerals"
+   },
+   {
+    "start": 17.4,
+    "end": 18.1,
+    "text": "کم ہو سکھتے ہیں"
+   },
+   {
+    "start": 18.1,
+    "end": 18.9,
+    "text": "پانی"
+   },
+   {
+    "start": 18.9,
+    "end": 19.2,
+    "text": "waste"
+   },
+   {
+    "start": 19.2,
+    "end": 19.6,
+    "text": "ہوتا ہے"
+   },
+   {
+    "start": 19.6,
+    "end": 19.9,
+    "text": "اور"
+   },
+   {
+    "start": 19.9,
+    "end": 20.7,
+    "text": "maintenance cost"
+   },
+   {
+    "start": 20.7,
+    "end": 20.9,
+    "text": "burti"
+   },
+   {
+    "start": 20.9,
+    "end": 21.1,
+    "text": "ہے"
+   },
+   {
+    "start": 21.1,
+    "end": 21.7,
+    "text": "atombug"
+   },
+   {
+    "start": 21.7,
+    "end": 22.2,
+    "text": "intelon"
+   },
+   {
+    "start": 22.2,
+    "end": 23.4,
+    "text": "ایک adaptive RO"
+   },
+   {
+    "start": 23.4,
+    "end": 24.2,
+    "text": "جو source"
+   },
+   {
+    "start": 24.2,
+    "end": 24.4,
+    "text": "water"
+   },
+   {
+    "start": 24.4,
+    "end": 25,
+    "text": "ke hisaap"
+   },
+   {
+    "start": 25,
+    "end": 25.7,
+    "text": "se purification"
+   },
+   {
+    "start": 25.7,
+    "end": 26.4,
+    "text": "select karta"
+   },
+   {
+    "start": 26.4,
+    "end": 26.8,
+    "text": "low"
+   },
+   {
+    "start": 26.8,
+    "end": 27.5,
+    "text": "dd s water"
+   },
+   {
+    "start": 27.5,
+    "end": 27.7,
+    "text": "ho"
+   },
+   {
+    "start": 27.7,
+    "end": 29,
+    "text": "to UV plus UF"
+   },
+   {
+    "start": 29,
+    "end": 30,
+    "text": "or higher"
+   },
+   {
+    "start": 30,
+    "end": 30.6,
+    "text": "td s water"
+   },
+   {
+    "start": 30.6,
+    "end": 31.5,
+    "text": "or heavy metal"
+   },
+   {
+    "start": 31.5,
+    "end": 32.2,
+    "text": "ka risk ho"
+   },
+   {
+    "start": 32.2,
+    "end": 33.6,
+    "text": "to RO plus UV"
+   },
+   {
+    "start": 33.6,
+    "end": 34.3,
+    "text": "مدلت جیسا"
+   },
+   {
+    "start": 34.3,
+    "end": 34.7,
+    "text": "پانی"
+   },
+   {
+    "start": 34.7,
+    "end": 35.1,
+    "text": "waste"
+   },
+   {
+    "start": 35.1,
+    "end": 35.8,
+    "text": "purification"
+   },
+   {
+    "start": 35.8,
+    "end": 36.2,
+    "text": "اسے"
+   },
+   {
+    "start": 36.2,
+    "end": 36.7,
+    "text": "minerals"
+   },
+   {
+    "start": 36.7,
+    "end": 37.2,
+    "text": "retain"
+   },
+   {
+    "start": 37.2,
+    "end": 37.5,
+    "text": "rhat"
+   },
+   {
+    "start": 37.5,
+    "end": 38.3,
+    "text": "and filter"
+   },
+   {
+    "start": 38.3,
+    "end": 38.8,
+    "text": "ki life"
+   },
+   {
+    "start": 38.8,
+    "end": 39.3,
+    "text": "extent"
+   },
+   {
+    "start": 39.3,
+    "end": 39.4,
+    "text": "ho"
+   },
+   {
+    "start": 39.4,
+    "end": 39.8,
+    "text": "sqt"
+   },
+   {
+    "start": 39.8,
+    "end": 39.9,
+    "text": "hai"
+   },
+   {
+    "start": 39.9,
+    "end": 40.4,
+    "text": "maintenance"
+   },
+   {
+    "start": 40.4,
+    "end": 41,
+    "text": "may be same"
+   },
+   {
+    "start": 41,
+    "end": 41.5,
+    "text": "rojik hai"
+   },
+   {
+    "start": 41.5,
+    "end": 41.8,
+    "text": "taira"
+   },
+   {
+    "start": 41.8,
+    "end": 42.3,
+    "text": "dosaal"
+   },
+   {
+    "start": 42.3,
+    "end": 43.2,
+    "text": "no service cost"
+   },
+   {
+    "start": 43.2,
+    "end": 43.5,
+    "text": "war"
+   },
+   {
+    "start": 43.5,
+    "end": 43.9,
+    "text": "anti hai"
+   },
+   {
+    "start": 43.9,
+    "end": 44.2,
+    "text": "aur"
+   },
+   {
+    "start": 44.2,
+    "end": 44.7,
+    "text": "8"
+   },
+   {
+    "start": 44.7,
+    "end": 44.9,
+    "text": "salm"
+   },
+   {
+    "start": 44.9,
+    "end": 45.4,
+    "text": "maintenance"
+   },
+   {
+    "start": 45.4,
+    "end": 46.2,
+    "text": "per lakbh"
+   },
+   {
+    "start": 46.2,
+    "end": 46.9,
+    "text": "pachis"
+   },
+   {
+    "start": 46.9,
+    "end": 47.2,
+    "text": "hazard"
+   },
+   {
+    "start": 47.2,
+    "end": 47.8,
+    "text": "taki saving"
+   },
+   {
+    "start": 47.8,
+    "end": 48.3,
+    "text": "ho sqt"
+   },
+   {
+    "start": 48.3,
+    "end": 48.4,
+    "text": "hai"
+   },
+   {
+    "start": 48.4,
+    "end": 49.3,
+    "text": "to purification"
+   },
+   {
+    "start": 49.3,
+    "end": 49.4,
+    "text": "be"
+   }
+  ]
+ }
+}

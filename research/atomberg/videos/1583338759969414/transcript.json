@@ -1,0 +1,142 @@
+{
+ "asset": "1583338759969414",
+ "first_seen_in": "2196136394504676",
+ "duration_s": 44.1,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 19.4,
+   "why": "scene change"
+  },
+  {
+   "t": 22.4,
+   "why": "scene change"
+  },
+  {
+   "t": 25.4,
+   "why": "scene change"
+  },
+  {
+   "t": 28.6,
+   "why": "scene change"
+  },
+  {
+   "t": 31,
+   "why": "scene change"
+  },
+  {
+   "t": 37.4,
+   "why": "scene change"
+  },
+  {
+   "t": 40.3,
+   "why": "scene change"
+  },
+  {
+   "t": 43.8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Samaki Time Batrum Jaldi hita fo jadah hai And after every shot all the steam, moisture and heavy air just make it worse And here a good exhaust fan makes the difference This time I chose the Atambuk Studio exhaust fan It's so perfectly designed to elevate your Batrum engineers And it's very easily installed It comes with a back flap that automatically closes when it is not in use And this prevents insects and dust from coming inside This exhaust fan is so silent and the best part It's PLDC motor consumes only 6.8W of electricity Which is a LED bulb which is also less After using this I feel the air clears out in seconds And my Batrum space feels light, fresh all the time",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "Samaki Time Batrum Jaldi hita fo jadah hai"
+   },
+   {
+    "start": 2.4,
+    "end": 6.8,
+    "text": "And after every shot all the steam, moisture and heavy air just make it worse"
+   },
+   {
+    "start": 6.8,
+    "end": 9.6,
+    "text": "And here a good exhaust fan makes the difference"
+   },
+   {
+    "start": 9.6,
+    "end": 12.7,
+    "text": "This time I chose the Atambuk Studio exhaust fan"
+   },
+   {
+    "start": 12.7,
+    "end": 15.7,
+    "text": "It's so perfectly designed to elevate your Batrum engineers"
+   },
+   {
+    "start": 15.7,
+    "end": 18.1,
+    "text": "And it's very easily installed"
+   },
+   {
+    "start": 18.1,
+    "end": 22.3,
+    "text": "It comes with a back flap that automatically closes when it is not in use"
+   },
+   {
+    "start": 22.3,
+    "end": 25.4,
+    "text": "And this prevents insects and dust from coming inside"
+   },
+   {
+    "start": 25.4,
+    "end": 28,
+    "text": "This exhaust fan is so silent and the best part"
+   },
+   {
+    "start": 28,
+    "end": 31.7,
+    "text": "It's PLDC motor consumes only 6.8W of electricity"
+   },
+   {
+    "start": 31.7,
+    "end": 34,
+    "text": "Which is a LED bulb which is also less"
+   },
+   {
+    "start": 34,
+    "end": 37.2,
+    "text": "After using this I feel the air clears out in seconds"
+   },
+   {
+    "start": 37.2,
+    "end": 40.5,
+    "text": "And my Batrum space feels light, fresh all the time"
+   }
+  ]
+ }
+}

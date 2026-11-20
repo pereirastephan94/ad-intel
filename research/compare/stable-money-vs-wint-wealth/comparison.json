@@ -50,10 +50,302 @@
    "strong_ads": 8,
    "strong_ideas": 3,
    "thin_ads": 4,
-   "now_days": 30
+   "now_days": 30,
+   "small_base": 10
   }
  },
  "rows": [
+  {
+   "id": "V1",
+   "label": "Person to camera",
+   "medium": "video",
+   "A": {
+    "n": 6,
+    "share": 0.75,
+    "ideas": 3,
+    "median_days": 29.5,
+    "versions": 7,
+    "founder": 0,
+    "ad_ids": [
+     "1318322580372486",
+     "912443471919863",
+     "1094477860035639",
+     "3115844495284358",
+     "1780853883195705",
+     "1158491436527705"
+    ]
+   },
+   "B": {
+    "n": 12,
+    "share": 0.6316,
+    "ideas": 6,
+    "median_days": 36.0,
+    "versions": 25,
+    "founder": 0,
+    "ad_ids": [
+     "1452959666055721",
+     "2556193758207208",
+     "26996845726680317",
+     "1139217318446573",
+     "1768735924383603",
+     "1608750657392609",
+     "2876298779421455",
+     "1065702466447240",
+     "1868487757472978",
+     "28133518736321882",
+     "1822092442159366",
+     "1122130514055415"
+    ]
+   },
+   "status": "even",
+   "lead": null,
+   "ratio": 1.19,
+   "evidence": "moderate",
+   "small_base": true,
+   "cards": {
+    "A": [
+     "1318322580372486",
+     "912443471919863"
+    ],
+    "B": [
+     "1452959666055721",
+     "2556193758207208"
+    ]
+   }
+  },
+  {
+   "id": "V2",
+   "label": "Scene or story",
+   "medium": "video",
+   "A": {
+    "n": 2,
+    "share": 0.25,
+    "ideas": 1,
+    "median_days": 185.0,
+    "versions": 3,
+    "founder": 0,
+    "ad_ids": [
+     "1359085176241049",
+     "1690045142234207"
+    ]
+   },
+   "B": {
+    "n": 4,
+    "share": 0.2105,
+    "ideas": 4,
+    "median_days": 44.0,
+    "versions": 7,
+    "founder": 0,
+    "ad_ids": [
+     "1042794292127507",
+     "1010246932113130",
+     "2292299894864285",
+     "1953272729391464"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "moderate",
+   "small_base": true,
+   "cards": {
+    "A": [
+     "1359085176241049"
+    ],
+    "B": [
+     "1042794292127507",
+     "1010246932113130"
+    ]
+   }
+  },
+  {
+   "id": "V3",
+   "label": "Product or app demo",
+   "medium": "video",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": []
+   }
+  },
+  {
+   "id": "V4",
+   "label": "Text and motion",
+   "medium": "video",
+   "A": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 3,
+    "share": 0.1579,
+    "ideas": 2,
+    "median_days": 44,
+    "versions": 6,
+    "founder": 0,
+    "ad_ids": [
+     "1577736273613796",
+     "1574326737333320",
+     "1087294090969954"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": [
+     "1577736273613796",
+     "1574326737333320"
+    ]
+   }
+  },
+  {
+   "id": "I1",
+   "label": "Offer-led",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 2,
+    "share": 0.1818,
+    "ideas": 2,
+    "median_days": 44.0,
+    "versions": 3,
+    "founder": 0,
+    "ad_ids": [
+     "955959980393839",
+     "1102709929308735"
+    ]
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": [
+     "955959980393839",
+     "1102709929308735"
+    ]
+   }
+  },
+  {
+   "id": "I2",
+   "label": "Product or people",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 9,
+    "share": 0.8182,
+    "ideas": 8,
+    "median_days": 44,
+    "versions": 12,
+    "founder": 0,
+    "ad_ids": [
+     "1768821550864003",
+     "1637283661235770",
+     "1375574504560912",
+     "1819131125779645",
+     "1078474831621182",
+     "1653556886374383",
+     "2603917993354573",
+     "1642456104162744",
+     "2402074240326667"
+    ]
+   },
+   "status": "only_B",
+   "lead": "B",
+   "ratio": null,
+   "evidence": "moderate",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": [
+     "1768821550864003",
+     "1375574504560912"
+    ]
+   }
+  },
+  {
+   "id": "I3",
+   "label": "Proof",
+   "medium": "image",
+   "A": {
+    "n": 0,
+    "share": 0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "B": {
+    "n": 0,
+    "share": 0.0,
+    "ideas": 0,
+    "median_days": null,
+    "versions": 0,
+    "founder": 0,
+    "ad_ids": []
+   },
+   "status": "neither",
+   "lead": null,
+   "ratio": null,
+   "evidence": "thin",
+   "small_base": true,
+   "cards": {
+    "A": [],
+    "B": []
+   }
+  }
+ ],
+ "rows_all": [
   {
    "id": "V1",
    "label": "Person to camera",
@@ -110,6 +402,7 @@
    "lead": null,
    "ratio": 1.18,
    "evidence": "strong",
+   "small_base": false,
    "cards": {
     "A": [
      "1019096030980624",
@@ -167,6 +460,7 @@
    "lead": "A",
    "ratio": 2,
    "evidence": "strong",
+   "small_base": false,
    "cards": {
     "A": [
      "1359085176241049",
@@ -204,6 +498,7 @@
    "lead": null,
    "ratio": null,
    "evidence": "thin",
+   "small_base": false,
    "cards": {
     "A": [],
     "B": []
@@ -239,6 +534,7 @@
    "lead": "B",
    "ratio": null,
    "evidence": "thin",
+   "small_base": false,
    "cards": {
     "A": [],
     "B": [
@@ -279,6 +575,7 @@
    "lead": null,
    "ratio": null,
    "evidence": "thin",
+   "small_base": true,
    "cards": {
     "A": [
      "948406311403969",
@@ -327,7 +624,8 @@
    "status": "only_B",
    "lead": "B",
    "ratio": null,
-   "evidence": "strong",
+   "evidence": "moderate",
+   "small_base": true,
    "cards": {
     "A": [
      "2077379136540472"
@@ -364,12 +662,1314 @@
    "lead": null,
    "ratio": null,
    "evidence": "thin",
+   "small_base": true,
    "cards": {
     "A": [],
     "B": []
    }
   }
  ],
+ "focus": {
+  "key": "bonds",
+  "label": "Bonds",
+  "shared": [
+   "bonds"
+  ],
+  "brands": {
+   "A": {
+    "n": 8,
+    "n_video": 8,
+    "n_image": 0,
+    "ideas": 4
+   },
+   "B": {
+    "n": 30,
+    "n_video": 19,
+    "n_image": 11,
+    "ideas": 22
+   }
+  }
+ },
+ "products": {
+  "counts": {
+   "A": {
+    "fixed_deposit": 11,
+    "fd_backed_card": 9,
+    "bonds": 8,
+    "recurring_deposit": 5
+   },
+   "B": {
+    "bonds": 30
+   }
+  },
+  "labels": {
+   "bonds": "Bonds",
+   "fixed_deposit": "Fixed deposits",
+   "recurring_deposit": "Recurring deposit",
+   "fd_backed_card": "FD-backed credit card",
+   "mutual_funds": "Mutual funds",
+   "gold": "Gold"
+  },
+  "site": {
+   "fetched": "2026-11-20",
+   "A": [
+    {
+     "key": "fixed_deposit",
+     "claim": "Up to 8.60% p.a., 12 banks and 3 NBFCs, DICGC cover up to ₹5 lakh",
+     "url": "https://stablemoney.in/"
+    },
+    {
+     "key": "recurring_deposit",
+     "claim": "Up to 8.50% p.a., no penalty for a missed instalment",
+     "url": "https://stablemoney.in/rd"
+    },
+    {
+     "key": "bonds",
+     "claim": "No rate on the page; title says \"Guaranteed Returns\"; tiles say SEBI-registered, senior secured",
+     "url": "https://stablemoney.in/bonds"
+    },
+    {
+     "key": "fd_backed_card",
+     "claim": "Suryoday Bank card, minimum FD ₹50,000, lounge on the physical card only",
+     "url": "https://stablemoney.in/credit-card"
+    },
+    {
+     "key": "mutual_funds",
+     "claim": "Footer registration only (AMFI distributor); no mutual fund product in the navigation",
+     "url": "https://stablemoney.in/",
+     "status": "registration_only"
+    }
+   ],
+   "B": [
+    {
+     "key": "bonds",
+     "claim": "9-12% fixed returns, start with ₹1,000, sell any time subject to a buyer",
+     "url": "https://www.wintwealth.com/"
+    },
+    {
+     "key": "fixed_deposit",
+     "claim": "Not in the navigation; the home page data counts about ₹196 crore of FDs sold, and the FD page returned a server error",
+     "url": "https://www.wintwealth.com/",
+     "status": "unclear"
+    }
+   ]
+  }
+ },
+ "lean": {
+  "A": {
+   "all": {
+    "n": 33,
+    "ideas_total": 24,
+    "top": [
+     {
+      "n": 2,
+      "versions": 3,
+      "longest_days": 200,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 9.17,
+      "lead_ad": "1359085176241049",
+      "rows": {
+       "V2": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "SM-c14",
+      "ad_ids": [
+       "1359085176241049",
+       "1690045142234207"
+      ]
+     },
+     {
+      "n": 3,
+      "versions": 3,
+      "longest_days": 140,
+      "products": [
+       "recurring_deposit"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 7.67,
+      "lead_ad": "991125217069138",
+      "rows": {
+       "V1": 3
+      },
+      "media": {
+       "video": 3
+      },
+      "idea": "SM-c05",
+      "ad_ids": [
+       "991125217069138",
+       "1044985944652867",
+       "1462158732420553"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 200,
+      "products": [
+       "fd_backed_card"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 7.67,
+      "lead_ad": "948406311403969",
+      "rows": {
+       "I1": 1
+      },
+      "media": {
+       "image": 1
+      },
+      "idea": "SM-c24",
+      "ad_ids": [
+       "948406311403969"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 2,
+      "longest_days": 148,
+      "products": [
+       "fixed_deposit"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 6.93,
+      "lead_ad": "2029258324332952",
+      "rows": {
+       "V2": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "SM-c04",
+      "ad_ids": [
+       "2029258324332952",
+       "2952841455054370"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 177,
+      "products": [
+       "recurring_deposit"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 6.9,
+      "lead_ad": "1294109162873838",
+      "rows": {
+       "V2": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "SM-c21",
+      "ad_ids": [
+       "1294109162873838"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.0606,
+     "top3": 0.1818,
+     "top1_n": 2,
+     "top3_n": 6
+    },
+    "series": [
+     {
+      "n": 6,
+      "versions": 8,
+      "longest_days": 200,
+      "products": [
+       "bonds",
+       "fixed_deposit",
+       "recurring_deposit"
+      ],
+      "cities": 0,
+      "ideas": 4,
+      "score": 17.67,
+      "lead_ad": "1359085176241049",
+      "rows": {
+       "V2": 6
+      },
+      "media": {
+       "video": 6
+      },
+      "name": "Papa Explaining",
+      "note": "A son asks \"Papa, ...\"; Papa explains. Same cast, product swapped between FD, bonds and RD.",
+      "ad_ids": [
+       "1359085176241049",
+       "1690045142234207",
+       "2029258324332952",
+       "2952841455054370",
+       "2057230121811704",
+       "2894685200924911"
+      ],
+      "share": 0.1818
+     },
+     {
+      "n": 5,
+      "versions": 6,
+      "longest_days": 107,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 2,
+      "score": 9.07,
+      "lead_ad": "1318322580372486",
+      "rows": {
+       "V1": 5
+      },
+      "media": {
+       "video": 5
+      },
+      "name": "Idle money to bonds (one script, two presenters)",
+      "note": "\"Account mein idle paisa ... bonds on Stable Money\", told by a man after a couple's row and by a man in a hoodie.",
+      "ad_ids": [
+       "3115844495284358",
+       "1158491436527705",
+       "1780853883195705",
+       "1318322580372486",
+       "1094477860035639"
+      ],
+      "share": 0.1515
+     },
+     {
+      "n": 2,
+      "versions": 2,
+      "longest_days": 18,
+      "products": [
+       "fixed_deposit"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 2.6,
+      "lead_ad": "1098949122752977",
+      "rows": {
+       "V2": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "name": "Nani Tuitions",
+      "note": "A grandmother learns to book an FD in the app; both ads launched on 2 November.",
+      "ad_ids": [
+       "1098949122752977",
+       "1115779077962422"
+      ],
+      "share": 0.0606
+     }
+    ]
+   },
+   "focus": {
+    "n": 8,
+    "ideas_total": 4,
+    "top": [
+     {
+      "n": 2,
+      "versions": 3,
+      "longest_days": 200,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 9.17,
+      "lead_ad": "1359085176241049",
+      "rows": {
+       "V2": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "SM-c14",
+      "ad_ids": [
+       "1359085176241049",
+       "1690045142234207"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 2,
+      "longest_days": 107,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 5.57,
+      "lead_ad": "1318322580372486",
+      "rows": {
+       "V1": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "SM-c12",
+      "ad_ids": [
+       "1318322580372486",
+       "1094477860035639"
+      ]
+     },
+     {
+      "n": 3,
+      "versions": 4,
+      "longest_days": 28,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.43,
+      "lead_ad": "3115844495284358",
+      "rows": {
+       "V1": 3
+      },
+      "media": {
+       "video": 3
+      },
+      "idea": "SM-c10",
+      "ad_ids": [
+       "3115844495284358",
+       "1780853883195705",
+       "1158491436527705"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 1,
+      "longest_days": 95,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.17,
+      "lead_ad": "912443471919863",
+      "rows": {
+       "V1": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "SM-c11",
+      "ad_ids": [
+       "912443471919863"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.25,
+     "top3": 0.875,
+     "top1_n": 2,
+     "top3_n": 7
+    },
+    "series": [
+     {
+      "n": 2,
+      "versions": 3,
+      "longest_days": 200,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 9.17,
+      "lead_ad": "1359085176241049",
+      "rows": {
+       "V2": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "name": "Papa Explaining",
+      "note": "A son asks \"Papa, ...\"; Papa explains. Same cast, product swapped between FD, bonds and RD.",
+      "ad_ids": [
+       "1359085176241049",
+       "1690045142234207"
+      ],
+      "share": 0.25
+     },
+     {
+      "n": 5,
+      "versions": 6,
+      "longest_days": 107,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 2,
+      "score": 9.07,
+      "lead_ad": "1318322580372486",
+      "rows": {
+       "V1": 5
+      },
+      "media": {
+       "video": 5
+      },
+      "name": "Idle money to bonds (one script, two presenters)",
+      "note": "\"Account mein idle paisa ... bonds on Stable Money\", told by a man after a couple's row and by a man in a hoodie.",
+      "ad_ids": [
+       "3115844495284358",
+       "1158491436527705",
+       "1780853883195705",
+       "1318322580372486",
+       "1094477860035639"
+      ],
+      "share": 0.625
+     }
+    ]
+   },
+   "by_product": {
+    "fixed_deposit": {
+     "n": 11,
+     "ideas_total": 9,
+     "top": [
+      {
+       "n": 2,
+       "versions": 2,
+       "longest_days": 148,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 6.93,
+       "lead_ad": "2029258324332952",
+       "rows": {
+        "V2": 2
+       },
+       "media": {
+        "video": 2
+       },
+       "idea": "SM-c04",
+       "ad_ids": [
+        "2029258324332952",
+        "2952841455054370"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 2,
+       "longest_days": 148,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 6.43,
+       "lead_ad": "2057230121811704",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c13",
+       "ad_ids": [
+        "2057230121811704"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 141,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 5.7,
+       "lead_ad": "1019096030980624",
+       "rows": {
+        "V1": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c18",
+       "ad_ids": [
+        "1019096030980624"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 2,
+       "longest_days": 38,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.77,
+       "lead_ad": "1624124105890067",
+       "rows": {
+        "V1": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c20",
+       "ad_ids": [
+        "1624124105890067"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 2,
+       "longest_days": 38,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.77,
+       "lead_ad": "2826793054387425",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c03",
+       "ad_ids": [
+        "2826793054387425"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.1818,
+      "top3": 0.3636,
+      "top1_n": 2,
+      "top3_n": 4
+     },
+     "series": [
+      {
+       "n": 3,
+       "versions": 4,
+       "longest_days": 148,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 2,
+       "score": 8.43,
+       "lead_ad": "2057230121811704",
+       "rows": {
+        "V2": 3
+       },
+       "media": {
+        "video": 3
+       },
+       "name": "Papa Explaining",
+       "note": "A son asks \"Papa, ...\"; Papa explains. Same cast, product swapped between FD, bonds and RD.",
+       "ad_ids": [
+        "2029258324332952",
+        "2952841455054370",
+        "2057230121811704"
+       ],
+       "share": 0.2727
+      },
+      {
+       "n": 2,
+       "versions": 2,
+       "longest_days": 18,
+       "products": [
+        "fixed_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.6,
+       "lead_ad": "1098949122752977",
+       "rows": {
+        "V2": 2
+       },
+       "media": {
+        "video": 2
+       },
+       "name": "Nani Tuitions",
+       "note": "A grandmother learns to book an FD in the app; both ads launched on 2 November.",
+       "ad_ids": [
+        "1098949122752977",
+        "1115779077962422"
+       ],
+       "share": 0.1818
+      }
+     ]
+    },
+    "fd_backed_card": {
+     "n": 9,
+     "ideas_total": 8,
+     "top": [
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 200,
+       "products": [
+        "fd_backed_card"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 7.67,
+       "lead_ad": "948406311403969",
+       "rows": {
+        "I1": 1
+       },
+       "media": {
+        "image": 1
+       },
+       "idea": "SM-c24",
+       "ad_ids": [
+        "948406311403969"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 133,
+       "products": [
+        "fd_backed_card"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 5.43,
+       "lead_ad": "2077379136540472",
+       "rows": {
+        "I2": 1
+       },
+       "media": {
+        "image": 1
+       },
+       "idea": "SM-c23",
+       "ad_ids": [
+        "2077379136540472"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 116,
+       "products": [
+        "fd_backed_card"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.87,
+       "lead_ad": "1022650000551778",
+       "rows": {
+        "I1": 1
+       },
+       "media": {
+        "image": 1
+       },
+       "idea": "SM-c22",
+       "ad_ids": [
+        "1022650000551778"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 93,
+       "products": [
+        "fd_backed_card"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.1,
+       "lead_ad": "1409564451139620",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c06",
+       "ad_ids": [
+        "1409564451139620"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 78,
+       "products": [
+        "fd_backed_card"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 3.6,
+       "lead_ad": "1059291876995172",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c15",
+       "ad_ids": [
+        "1059291876995172"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.1111,
+      "top3": 0.3333,
+      "top1_n": 1,
+      "top3_n": 3
+     },
+     "series": []
+    },
+    "recurring_deposit": {
+     "n": 5,
+     "ideas_total": 3,
+     "top": [
+      {
+       "n": 3,
+       "versions": 3,
+       "longest_days": 140,
+       "products": [
+        "recurring_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 7.67,
+       "lead_ad": "991125217069138",
+       "rows": {
+        "V1": 3
+       },
+       "media": {
+        "video": 3
+       },
+       "idea": "SM-c05",
+       "ad_ids": [
+        "991125217069138",
+        "1044985944652867",
+        "1462158732420553"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 177,
+       "products": [
+        "recurring_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 6.9,
+       "lead_ad": "1294109162873838",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c21",
+       "ad_ids": [
+        "1294109162873838"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 73,
+       "products": [
+        "recurring_deposit"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 3.43,
+       "lead_ad": "2894685200924911",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "SM-c16",
+       "ad_ids": [
+        "2894685200924911"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 0.6,
+      "top3": 1.0,
+      "top1_n": 3,
+      "top3_n": 5
+     },
+     "series": []
+    }
+   }
+  },
+  "B": {
+   "all": {
+    "n": 30,
+    "ideas_total": 22,
+    "top": [
+     {
+      "n": 6,
+      "versions": 11,
+      "longest_days": 36,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 9.7,
+      "lead_ad": "1608750657392609",
+      "rows": {
+       "V1": 6
+      },
+      "media": {
+       "video": 6
+      },
+      "idea": "WW-c10",
+      "ad_ids": [
+       "1608750657392609",
+       "2876298779421455",
+       "1065702466447240",
+       "1868487757472978",
+       "28133518736321882",
+       "1822092442159366"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 2,
+      "longest_days": 193,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 7.93,
+      "lead_ad": "1452959666055721",
+      "rows": {
+       "V1": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "WW-c08",
+      "ad_ids": [
+       "1452959666055721"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 5,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.97,
+      "lead_ad": "1768821550864003",
+      "rows": {
+       "I2": 2
+      },
+      "media": {
+       "image": 2
+      },
+      "idea": "WW-c16",
+      "ad_ids": [
+       "1768821550864003",
+       "1637283661235770"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 3,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 3.97,
+      "lead_ad": "26996845726680317",
+      "rows": {
+       "V1": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "WW-c05",
+      "ad_ids": [
+       "26996845726680317",
+       "1768735924383603"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 4,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 3.97,
+      "lead_ad": "1577736273613796",
+      "rows": {
+       "V4": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "WW-c04",
+      "ad_ids": [
+       "1577736273613796"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.2,
+     "top3": 0.3,
+     "top1_n": 6,
+     "top3_n": 9
+    },
+    "series": [
+     {
+      "n": 11,
+      "versions": 21,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 5,
+      "score": 17.47,
+      "lead_ad": "26996845726680317",
+      "rows": {
+       "V2": 1,
+       "V1": 10
+      },
+      "media": {
+       "video": 11
+      },
+      "name": "Second source of income",
+      "note": "The promise in five ideas: a creator's kitchen skit, three reasons, two men on split screen, the woman who draws it out from Rs 10,000, a couple on a sofa.",
+      "ad_ids": [
+       "1953272729391464",
+       "26996845726680317",
+       "1768735924383603",
+       "1139217318446573",
+       "1065702466447240",
+       "1608750657392609",
+       "1868487757472978",
+       "2876298779421455",
+       "1822092442159366",
+       "28133518736321882",
+       "1122130514055415"
+      ],
+      "share": 0.3667
+     },
+     {
+      "n": 9,
+      "versions": 21,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 4,
+      "score": 16.47,
+      "lead_ad": "1577736273613796",
+      "rows": {
+       "V4": 1,
+       "V1": 8
+      },
+      "media": {
+       "video": 9
+      },
+      "name": "\"Only 10% of Indians know bonds\"",
+      "note": "A recurring opening line, mostly captioned with a SEBI investor survey.",
+      "ad_ids": [
+       "1577736273613796",
+       "1139217318446573",
+       "1065702466447240",
+       "1608750657392609",
+       "1868487757472978",
+       "2876298779421455",
+       "1822092442159366",
+       "28133518736321882",
+       "1122130514055415"
+      ],
+      "share": 0.3
+     }
+    ]
+   },
+   "focus": {
+    "n": 30,
+    "ideas_total": 22,
+    "top": [
+     {
+      "n": 6,
+      "versions": 11,
+      "longest_days": 36,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 9.7,
+      "lead_ad": "1608750657392609",
+      "rows": {
+       "V1": 6
+      },
+      "media": {
+       "video": 6
+      },
+      "idea": "WW-c10",
+      "ad_ids": [
+       "1608750657392609",
+       "2876298779421455",
+       "1065702466447240",
+       "1868487757472978",
+       "28133518736321882",
+       "1822092442159366"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 2,
+      "longest_days": 193,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 7.93,
+      "lead_ad": "1452959666055721",
+      "rows": {
+       "V1": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "WW-c08",
+      "ad_ids": [
+       "1452959666055721"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 5,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 4.97,
+      "lead_ad": "1768821550864003",
+      "rows": {
+       "I2": 2
+      },
+      "media": {
+       "image": 2
+      },
+      "idea": "WW-c16",
+      "ad_ids": [
+       "1768821550864003",
+       "1637283661235770"
+      ]
+     },
+     {
+      "n": 2,
+      "versions": 3,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 3.97,
+      "lead_ad": "26996845726680317",
+      "rows": {
+       "V1": 2
+      },
+      "media": {
+       "video": 2
+      },
+      "idea": "WW-c05",
+      "ad_ids": [
+       "26996845726680317",
+       "1768735924383603"
+      ]
+     },
+     {
+      "n": 1,
+      "versions": 4,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 3.97,
+      "lead_ad": "1577736273613796",
+      "rows": {
+       "V4": 1
+      },
+      "media": {
+       "video": 1
+      },
+      "idea": "WW-c04",
+      "ad_ids": [
+       "1577736273613796"
+      ]
+     }
+    ],
+    "concentration": {
+     "top1": 0.2,
+     "top3": 0.3,
+     "top1_n": 6,
+     "top3_n": 9
+    },
+    "series": [
+     {
+      "n": 11,
+      "versions": 21,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 5,
+      "score": 17.47,
+      "lead_ad": "26996845726680317",
+      "rows": {
+       "V2": 1,
+       "V1": 10
+      },
+      "media": {
+       "video": 11
+      },
+      "name": "Second source of income",
+      "note": "The promise in five ideas: a creator's kitchen skit, three reasons, two men on split screen, the woman who draws it out from Rs 10,000, a couple on a sofa.",
+      "ad_ids": [
+       "1953272729391464",
+       "26996845726680317",
+       "1768735924383603",
+       "1139217318446573",
+       "1065702466447240",
+       "1608750657392609",
+       "1868487757472978",
+       "2876298779421455",
+       "1822092442159366",
+       "28133518736321882",
+       "1122130514055415"
+      ],
+      "share": 0.3667
+     },
+     {
+      "n": 9,
+      "versions": 21,
+      "longest_days": 44,
+      "products": [
+       "bonds"
+      ],
+      "cities": 0,
+      "ideas": 4,
+      "score": 16.47,
+      "lead_ad": "1577736273613796",
+      "rows": {
+       "V4": 1,
+       "V1": 8
+      },
+      "media": {
+       "video": 9
+      },
+      "name": "\"Only 10% of Indians know bonds\"",
+      "note": "A recurring opening line, mostly captioned with a SEBI investor survey.",
+      "ad_ids": [
+       "1577736273613796",
+       "1139217318446573",
+       "1065702466447240",
+       "1608750657392609",
+       "1868487757472978",
+       "2876298779421455",
+       "1822092442159366",
+       "28133518736321882",
+       "1122130514055415"
+      ],
+      "share": 0.3
+     }
+    ]
+   },
+   "by_product": {}
+  }
+ },
+ "idea_names": {
+  "A": {
+   "SM-c01": "Boring FD beat the stocks",
+   "SM-c02": "Nani Tuitions",
+   "SM-c03": "Podcast: small finance banks",
+   "SM-c04": "Papa Explaining: monthly payout FD",
+   "SM-c05": "SIP for goals, monthly RD",
+   "SM-c06": "Video-call lounge skit",
+   "SM-c07": "Couple: 4.5 lakh in savings",
+   "SM-c08": "Desk presenter: lounge cards fail",
+   "SM-c09": "Mic presenter: the card that earns",
+   "SM-c10": "Couple's row, then bonds man",
+   "SM-c11": "Tree-planting bonds",
+   "SM-c12": "Hoodie man: idle money to bonds",
+   "SM-c13": "Papa Explaining: market fear, 8.3% FDs",
+   "SM-c14": "Papa Explaining: bonds",
+   "SM-c15": "Bookshop street interview",
+   "SM-c16": "Papa Explaining: car SIP to RD",
+   "SM-c17": "Street interview, then 8,500 on 1 lakh",
+   "SM-c18": "30% less interest, matrimony",
+   "SM-c19": "Cafe presenter: FD gives lounge access",
+   "SM-c20": "Savings over 50,000 costs you",
+   "SM-c21": "Showroom friends: car paid by RD",
+   "SM-c22": "Static: 8 free lounge access",
+   "SM-c23": "Static: lounge scene in card frame",
+   "SM-c24": "Static: 8.10% FD-backed card"
+  },
+  "B": {
+   "WW-c01": "Kitchen skit: Passive Source of Income",
+   "WW-c02": "Paper-craft: three pieces of advice",
+   "WW-c03": "Helmeted rider: a financial lesson",
+   "WW-c04": "Desk explainer: is 11% possible",
+   "WW-c05": "Three reasons I chose this investment",
+   "WW-c06": "Kitchen couple: six months of money",
+   "WW-c07": "Mountain couple: extend our stay",
+   "WW-c08": "Creator's first paid post",
+   "WW-c09": "Two men, split screen: only 10% know",
+   "WW-c10": "Woman draws: second income from Rs 10,000",
+   "WW-c11": "Sofa couple: monthly second income",
+   "WW-c12": "First salary skit: mother invests",
+   "WW-c13": "Static: interest receipt",
+   "WW-c14": "Static: Bonds on Wint, huge 11%",
+   "WW-c15": "Static: desert card, 11.75%",
+   "WW-c16": "Static: Earn Monthly Interest over an 11% card",
+   "WW-c17": "Static: stickers, no rate",
+   "WW-c18": "Static: credited to your bank account",
+   "WW-c19": "Static: dark calendar with 11%",
+   "WW-c20": "Static: why bonds belong in your portfolio",
+   "WW-c21": "Static: you invest, you earn",
+   "WW-c22": "Static: 11% fixed, 3 months, stat row"
+  }
+ },
+ "lean_rule": {
+  "days_per_point": 30,
+  "recut_points": 2,
+  "small_base": 10
+ },
  "table_stakes": [
   "V1"
  ],
@@ -593,7 +2193,8 @@
     "ad_id": "1359085176241049",
     "row": "V2",
     "idea": "SM-c14",
-    "why": "Scene or story is where this brand differs most from the other (47% against 21%); this is the idea in that row with the most days live (200 days, 1 version).",
+    "score": 9.17,
+    "why": "",
     "frames": [
      {
       "t": 0,
@@ -678,83 +2279,85 @@
     ]
    },
    {
-    "ad_id": "1019096030980624",
+    "ad_id": "1318322580372486",
     "row": "V1",
-    "idea": "SM-c18",
-    "why": "Person to camera is where this brand differs most from the other (53% against 63%); this is the idea in that row with the most days live (141 days, 1 version).",
+    "idea": "SM-c12",
+    "score": 5.57,
+    "why": "",
     "frames": [
      {
       "t": 0,
-      "still": "videos/2255487748522741/still00_0s.jpg",
-      "spoken": "You are earning 30% less interest on your FD."
+      "still": "videos/1768509427669435/still00_0s.jpg",
+      "spoken": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai."
      },
      {
       "t": 0.5,
-      "still": "videos/2255487748522741/still01_0.5s.jpg",
-      "spoken": "You are earning 30% less interest on your FD.",
+      "still": "videos/1768509427669435/still01_0.5s.jpg",
+      "spoken": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai.",
       "spoken_repeat": true
      },
      {
       "t": 1,
-      "still": "videos/2255487748522741/still02_1s.jpg",
-      "spoken": "You are earning 30% less interest on your FD.",
+      "still": "videos/1768509427669435/still02_1s.jpg",
+      "spoken": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai.",
       "spoken_repeat": true
      },
      {
       "t": 2,
-      "still": "videos/2255487748522741/still03_2s.jpg",
-      "spoken": "You are earning 30% less interest on your FD.",
+      "still": "videos/1768509427669435/still03_2s.jpg",
+      "spoken": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai.",
       "spoken_repeat": true
      },
      {
       "t": 3,
-      "still": "videos/2255487748522741/still04_3s.jpg",
-      "spoken": "You are earning 30% less interest on your FD.",
+      "still": "videos/1768509427669435/still04_3s.jpg",
+      "spoken": "Tumhare account mein kuch idle paisha padha hai jo na invest hua hai, aur naahi spend hua hai.",
       "spoken_repeat": true
      },
      {
-      "t": 5.6,
-      "still": "videos/2255487748522741/still05_5.6s.jpg",
-      "spoken": "And nahi, main taxes ki baat nahi kadi."
+      "t": 7.4,
+      "still": "videos/1768509427669435/still05_7.4s.jpg",
+      "spoken": "Teeke, lekin wo paisha grow nahi ho raha hai."
      },
      {
-      "t": 12,
-      "still": "videos/2255487748522741/still06_12s.jpg",
-      "spoken": "But yaar, ab 1-2% ke liye bank kaun switch karega?"
+      "t": 11.6,
+      "still": "videos/1768509427669435/still06_11.6s.jpg",
+      "spoken": "Lekin ek option hai, jaha yeh paisha grow bhi kar sakta hai aur easily accessible bhi rahe sakta hai."
      },
      {
-      "t": 19.3,
-      "still": "videos/2255487748522741/still07_19.3s.jpg",
-      "spoken": "Oh! But what if switching was this easy?"
+      "t": 18.2,
+      "still": "videos/1768509427669435/still07_18.2s.jpg",
+      "spoken": "Wo option hai bonds on stable money app."
      },
      {
-      "t": 27.7,
-      "still": "videos/2255487748522741/still08_27.7s.jpg",
-      "spoken": "aur jis bank ka FD pasand aaye, usse book kar lo?"
+      "t": 18.2,
+      "still": "videos/1768509427669435/still08_18.2s.jpg",
+      "spoken": "Wo option hai bonds on stable money app.",
+      "spoken_repeat": true
      },
      {
-      "t": 32.3,
-      "still": "videos/2255487748522741/still09_32.3s.jpg",
-      "spoken": "100% दिजिटिल एन्टू एन्ट्रो न पेपरॉरक नहीं नहीं पर पर।"
+      "t": 22.4,
+      "still": "videos/1768509427669435/still09_22.4s.jpg",
+      "spoken": "Bonds aapko dethe hain up to 9-12% per annum ke fixed returns with regular payouts sida aapke bank account mein."
      },
      {
-      "t": 38.7,
-      "still": "videos/2255487748522741/still10_38.7s.jpg",
-      "spoken": "अपने वार्ट पर का पर्जाएं पर आप पर्जाएं पर आप पर पर।"
+      "t": 27.8,
+      "still": "videos/1768509427669435/still10_27.8s.jpg",
+      "spoken": "और दुपैर दो बजे से पहले सेल किया तो आज ही पैसा अकांट में"
      },
      {
-      "t": 48.1,
-      "still": "videos/2255487748522741/still11_48.1s.jpg",
-      "spoken": "आपको हर नियू बांक FD पे 5 Lakh का DIC GC इंशूरेंस का वो मिलता है।"
+      "t": 35.8,
+      "still": "videos/1768509427669435/still11_35.8s.jpg",
+      "spoken": "तो उस सोते हुए एमजिनसी फंट को अप काम पे लगाओ"
      },
      {
-      "t": 54.9,
-      "still": "videos/2255487748522741/still12_54.9s.jpg",
-      "spoken": "आप भी कर लो, STABLE MONEY, DOWNLOAD NOW."
+      "t": 42.1,
+      "still": "videos/1768509427669435/still12_42.1s.jpg",
+      "spoken": ""
      },
      {
-      "t": 57.8,
-      "still": "videos/2255487748522741/still13_57.8s.jpg",
+      "t": 53.4,
+      "still": "videos/1768509427669435/still13_53.4s.jpg",
       "spoken": ""
      }
     ]
@@ -762,111 +2365,122 @@
   ],
   "B": [
    {
-    "ad_id": "1768821550864003",
-    "row": "I2",
-    "idea": "WW-c16",
-    "why": "Product or people is where this brand differs most from the other (82% against 33%); this is the idea in that row with the most days live (44 days, 3 versions).",
+    "ad_id": "1608750657392609",
+    "row": "V1",
+    "idea": "WW-c10",
+    "score": 9.7,
+    "why": "",
     "frames": [
      {
-      "t": null,
-      "still": "images/1768821550864003.jpg",
+      "t": 0,
+      "still": "videos/2378355306351298/still00_0s.jpg",
+      "spoken": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon."
+     },
+     {
+      "t": 0.5,
+      "still": "videos/2378355306351298/still01_0.5s.jpg",
+      "spoken": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 1,
+      "still": "videos/2378355306351298/still02_1s.jpg",
+      "spoken": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 2,
+      "still": "videos/2378355306351298/still03_2s.jpg",
+      "spoken": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 3,
+      "still": "videos/2378355306351298/still04_3s.jpg",
+      "spoken": "10,000 rs se kaise second source of income maaate hai? Chalo wo sikhati hoon.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 5.9,
+      "still": "videos/2378355306351298/still05_5.9s.jpg",
+      "spoken": "And yeh baad 10% Indians ko hi pata hai."
+     },
+     {
+      "t": 41.9,
+      "still": "videos/2378355306351298/still06_41.9s.jpg",
+      "spoken": "मैं बाण्स के लिए विंट वेल्थ आप यूस करती हूँ यह एक सेवी रजिस्टर ब्रोकर हैं"
+     },
+     {
+      "t": 45.4,
+      "still": "videos/2378355306351298/still07_45.4s.jpg",
+      "spoken": "और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं"
+     },
+     {
+      "t": 47.7,
+      "still": "videos/2378355306351298/still08_47.7s.jpg",
+      "spoken": "और यहाँ पे 3 लाग से जादा इंवेस्टर्स आप रडी हैं",
+      "spoken_repeat": true
+     },
+     {
+      "t": 52.4,
+      "still": "videos/2378355306351298/still09_52.4s.jpg",
+      "spoken": "तो अगर आप भी side income earn करना चाते हैं, उसके लिए आप सिफ 10,000 से पर साथ कर सकते हैं."
+     },
+     {
+      "t": 58.3,
+      "still": "videos/2378355306351298/still10_58.3s.jpg",
+      "spoken": ""
+     },
+     {
+      "t": 67.7,
+      "still": "videos/2378355306351298/still11_67.7s.jpg",
       "spoken": ""
      }
     ]
    },
    {
-    "ad_id": "1577736273613796",
-    "row": "V4",
-    "idea": "WW-c04",
-    "why": "Text and motion is where this brand differs most from the other (16% against 0%); this is the idea in that row with the most days live (44 days, 4 versions).",
+    "ad_id": "1452959666055721",
+    "row": "V1",
+    "idea": "WW-c08",
+    "score": 7.93,
+    "why": "",
     "frames": [
      {
       "t": 0,
-      "still": "videos/1462175878537057/still00_0s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai."
+      "still": "videos/17958057075116488/still00_0s.jpg",
+      "spoken": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna apkis na,"
      },
      {
       "t": 0.5,
-      "still": "videos/1462175878537057/still01_0.5s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "still": "videos/17958057075116488/still01_0.5s.jpg",
+      "spoken": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna apkis na,",
       "spoken_repeat": true
      },
      {
       "t": 1,
-      "still": "videos/1462175878537057/still02_1s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "still": "videos/17958057075116488/still02_1s.jpg",
+      "spoken": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna apkis na,",
       "spoken_repeat": true
      },
      {
       "t": 2,
-      "still": "videos/1462175878537057/still03_2s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
+      "still": "videos/17958057075116488/still03_2s.jpg",
+      "spoken": "Ek brand hai jo mere paas aayi tha ki, bhai aap ek paid post karna apkis na,",
       "spoken_repeat": true
      },
      {
       "t": 3,
-      "still": "videos/1462175878537057/still04_3s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
-      "spoken_repeat": true
+      "still": "videos/17958057075116488/still04_3s.jpg",
+      "spoken": "aur maine saafsa mana kar diya tha. Is company ka naam hai Wint Wealth,"
      },
      {
-      "t": 3.9,
-      "still": "videos/1462175878537057/still05_3.9s.jpg",
-      "spoken": "11% ka fixed returns on your investments, kya yeh satch mein possible hai? Belkul possible hai.",
-      "spoken_repeat": true
+      "t": 100.7,
+      "still": "videos/17958057075116488/still05_100.7s.jpg",
+      "spoken": ""
      },
      {
-      "t": 5,
-      "still": "videos/1462175878537057/still06_5s.jpg",
-      "spoken": "Maha baat kar raha hu bonds ki, US jay se country mein yeh saalo se popular hai, but India me se 10% logon ko iske baare me pata hai."
-     },
-     {
-      "t": 6.1,
-      "still": "videos/1462175878537057/still07_6.1s.jpg",
-      "spoken": "Maha baat kar raha hu bonds ki, US jay se country mein yeh saalo se popular hai, but India me se 10% logon ko iske baare me pata hai.",
-      "spoken_repeat": true
-     },
-     {
-      "t": 11.2,
-      "still": "videos/1462175878537057/still08_11.2s.jpg",
-      "spoken": "Badi companies fund raise karne ke liye humse paise borrow karthi hai, aur badle mein aapko milta fix returns."
-     },
-     {
-      "t": 14,
-      "still": "videos/1462175878537057/still09_14s.jpg",
-      "spoken": "Badi companies fund raise karne ke liye humse paise borrow karthi hai, aur badle mein aapko milta fix returns.",
-      "spoken_repeat": true
-     },
-     {
-      "t": 23.3,
-      "still": "videos/1462175878537057/still10_23.3s.jpg",
-      "spoken": "Maha invest karta hu Wint Wealth se, yaha par 3 lakh se bhi zyada investors hai aur aap sif 1000 rupay se bhi start kar sakte ho."
-     },
-     {
-      "t": 27.7,
-      "still": "videos/1462175878537057/still11_27.7s.jpg",
-      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।"
-     },
-     {
-      "t": 29.7,
-      "still": "videos/1462175878537057/still12_29.7s.jpg",
-      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।",
-      "spoken_repeat": true
-     },
-     {
-      "t": 31.5,
-      "still": "videos/1462175878537057/still13_31.5s.jpg",
-      "spoken": "और अगर आप पहली बार बार्ड इस लिए खड़र रहे हो, तो विंटवेल पर आप 3-6 माने के शॉर्ट्टम आपशियाइंगे भी देख सकते हो।",
-      "spoken_repeat": true
-     },
-     {
-      "t": 33.5,
-      "still": "videos/1462175878537057/still14_33.5s.jpg",
-      "spoken": "11% का fix return सिफ paper में लिखने कले नहीं था"
-     },
-     {
-      "t": 48.4,
-      "still": "videos/1462175878537057/still15_48.4s.jpg",
+      "t": 110.7,
+      "still": "videos/17958057075116488/still06_110.7s.jpg",
       "spoken": ""
      }
     ]
@@ -918,7 +2532,8 @@
    "asset": "17868682956656308",
    "sample_views": {
     "all": 1
-   }
+   },
+   "product_key": "bonds"
   },
   "1359085176241049": {
    "brand": "A",
@@ -964,7 +2579,8 @@
    "asset": "17868682956656308",
    "sample_views": {
     "all": 2
-   }
+   },
+   "product_key": "bonds"
   },
   "1318322580372486": {
    "brand": "A",
@@ -1010,7 +2626,8 @@
    "asset": "1768509427669435",
    "sample_views": {
     "all": 3
-   }
+   },
+   "product_key": "bonds"
   },
   "1044985944652867": {
    "brand": "A",
@@ -1057,7 +2674,8 @@
    "asset": "2933453097006450",
    "sample_views": {
     "all": 4
-   }
+   },
+   "product_key": "recurring_deposit"
   },
   "912443471919863": {
    "brand": "A",
@@ -1104,7 +2722,8 @@
    "asset": "1760917031791377",
    "sample_views": {
     "all": 5
-   }
+   },
+   "product_key": "bonds"
   },
   "1115779077962422": {
    "brand": "A",
@@ -1152,7 +2771,8 @@
    "asset": "2183485612579648",
    "sample_views": {
     "all": 6
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1646669466828779": {
    "brand": "A",
@@ -1202,7 +2822,8 @@
    "asset": "1444888800891750",
    "sample_views": {
     "all": 7
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "2057230121811704": {
    "brand": "A",
@@ -1250,7 +2871,8 @@
    "asset": "17861189070656308",
    "sample_views": {
     "all": 8
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1094477860035639": {
    "brand": "A",
@@ -1296,7 +2918,8 @@
    "asset": "1768509427669435",
    "sample_views": {
     "all": 9
-   }
+   },
+   "product_key": "bonds"
   },
   "1624124105890067": {
    "brand": "A",
@@ -1343,7 +2966,8 @@
    "asset": "922795270702177",
    "sample_views": {
     "all": 10
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1098949122752977": {
    "brand": "A",
@@ -1391,7 +3015,8 @@
    "asset": "1113897927910622",
    "sample_views": {
     "all": 11
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1294109162873838": {
    "brand": "A",
@@ -1441,7 +3066,8 @@
    "asset": "996386489755150",
    "sample_views": {
     "all": 12
-   }
+   },
+   "product_key": "recurring_deposit"
   },
   "1414345880897775": {
    "brand": "A",
@@ -1489,7 +3115,8 @@
    "asset": "2194829677911441",
    "sample_views": {
     "all": 14
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "2826793054387425": {
    "brand": "A",
@@ -1537,7 +3164,8 @@
    "asset": "1164032119285655",
    "sample_views": {
     "all": 15
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "3115844495284358": {
    "brand": "A",
@@ -1584,7 +3212,8 @@
    "asset": "1752268299241939",
    "sample_views": {
     "all": 16
-   }
+   },
+   "product_key": "bonds"
   },
   "1780853883195705": {
    "brand": "A",
@@ -1629,7 +3258,8 @@
    "campaign_tag": null,
    "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
    "asset": "1752268299241939",
-   "sample_views": null
+   "sample_views": null,
+   "product_key": "bonds"
   },
   "1684487993244481": {
    "brand": "A",
@@ -1679,7 +3309,8 @@
    "asset": "1472636994553170",
    "sample_views": {
     "all": 17
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "1019096030980624": {
    "brand": "A",
@@ -1728,7 +3359,8 @@
    "asset": "2255487748522741",
    "sample_views": {
     "all": 18
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1462158732420553": {
    "brand": "A",
@@ -1774,7 +3406,8 @@
    "asset": "1371387538214253",
    "sample_views": {
     "all": 19
-   }
+   },
+   "product_key": "recurring_deposit"
   },
   "2952841455054370": {
    "brand": "A",
@@ -1822,7 +3455,8 @@
    "asset": "1199052999315565",
    "sample_views": {
     "all": 20
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "2894685200924911": {
    "brand": "A",
@@ -1871,7 +3505,8 @@
    "asset": "2086076648968459",
    "sample_views": {
     "all": 21
-   }
+   },
+   "product_key": "recurring_deposit"
   },
   "1696884795431012": {
    "brand": "A",
@@ -1919,7 +3554,8 @@
    "asset": "1419759219573556",
    "sample_views": {
     "all": 23
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1422041222644076": {
    "brand": "A",
@@ -1966,7 +3602,8 @@
    "asset": "1061581183380693",
    "sample_views": {
     "all": 24
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "1409564451139620": {
    "brand": "A",
@@ -2017,7 +3654,8 @@
    "asset": "1402156101838563",
    "sample_views": {
     "all": 25
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "2029258324332952": {
    "brand": "A",
@@ -2065,7 +3703,8 @@
    "asset": "966609952841691",
    "sample_views": {
     "all": 26
-   }
+   },
+   "product_key": "fixed_deposit"
   },
   "991125217069138": {
    "brand": "A",
@@ -2112,7 +3751,8 @@
    "asset": "2933453097006450",
    "sample_views": {
     "all": 28
-   }
+   },
+   "product_key": "recurring_deposit"
   },
   "1650915419954369": {
    "brand": "A",
@@ -2162,7 +3802,8 @@
    "asset": "4463581000622798",
    "sample_views": {
     "all": 29
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "1064086583323093": {
    "brand": "A",
@@ -2213,7 +3854,8 @@
    "asset": "935043619677161",
    "sample_views": {
     "all": 30
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "1059291876995172": {
    "brand": "A",
@@ -2262,7 +3904,8 @@
    "campaign_tag": null,
    "transcript": "Excuse me ma'am, kya ma aap se ek sawaal puchh satta hu? Yes. Aap saal mein kitna flights jeta hu? 6-7 flights to minimum. Aur lounge access ke liye kaunsa card use kar te hu? Stable Money ka FD back credit card hai na, usme saal ke 8 lounge access free hai. Belkul free? Yeh card lifetime free hai. Aur sbse badi baat, kaafi saare cards me lounge access ke liye monthly aur quarterly minimum spends ka criteria hota hai. Is card me wo criteria bhi nahi. Kaise milta hai yeh card? Stable Money App download karo Aur Suryoday Bank jo ek RBI regulated bank hai usme apna FD book karo Lifetime Free Card, Free Launch Access kaafi sahi Agar aapko bhi ye benefits chahiye to Stable Money App download karo Right Now",
    "asset": "1911598616485842",
-   "sample_views": null
+   "sample_views": null,
+   "product_key": "fd_backed_card"
   },
   "1158491436527705": {
    "brand": "A",
@@ -2307,7 +3950,8 @@
    "campaign_tag": null,
    "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
    "asset": "1752268299241939",
-   "sample_views": null
+   "sample_views": null,
+   "product_key": "bonds"
   },
   "1022650000551778": {
    "brand": "A",
@@ -2355,7 +3999,8 @@
    "asset": null,
    "sample_views": {
     "all": 13
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "948406311403969": {
    "brand": "A",
@@ -2403,7 +4048,8 @@
    "asset": null,
    "sample_views": {
     "all": 22
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "2077379136540472": {
    "brand": "A",
@@ -2450,7 +4096,8 @@
    "asset": null,
    "sample_views": {
     "all": 27
-   }
+   },
+   "product_key": "fd_backed_card"
   },
   "1953272729391464": {
    "brand": "B",
@@ -2498,7 +4145,8 @@
    "asset": "1061819343233299",
    "sample_views": {
     "all": 1
-   }
+   },
+   "product_key": "bonds"
   },
   "1375574504560912": {
    "brand": "B",
@@ -2545,7 +4193,8 @@
    "asset": null,
    "sample_views": {
     "all": 2
-   }
+   },
+   "product_key": "bonds"
   },
   "1608750657392609": {
    "brand": "B",
@@ -2591,7 +4240,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 3
-   }
+   },
+   "product_key": "bonds"
   },
   "28133518736321882": {
    "brand": "B",
@@ -2637,7 +4287,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 4
-   }
+   },
+   "product_key": "bonds"
   },
   "2876298779421455": {
    "brand": "B",
@@ -2683,7 +4334,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 5
-   }
+   },
+   "product_key": "bonds"
   },
   "1065702466447240": {
    "brand": "B",
@@ -2729,7 +4381,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 6
-   }
+   },
+   "product_key": "bonds"
   },
   "1822092442159366": {
    "brand": "B",
@@ -2775,7 +4428,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 7
-   }
+   },
+   "product_key": "bonds"
   },
   "1868487757472978": {
    "brand": "B",
@@ -2821,7 +4475,8 @@
    "asset": "2378355306351298",
    "sample_views": {
     "all": 8
-   }
+   },
+   "product_key": "bonds"
   },
   "26996845726680317": {
    "brand": "B",
@@ -2869,7 +4524,8 @@
    "asset": "1582906947180001",
    "sample_views": {
     "all": 9
-   }
+   },
+   "product_key": "bonds"
   },
   "1768735924383603": {
    "brand": "B",
@@ -2917,7 +4573,8 @@
    "asset": "1582906947180001",
    "sample_views": {
     "all": 10
-   }
+   },
+   "product_key": "bonds"
   },
   "1139217318446573": {
    "brand": "B",
@@ -2965,7 +4622,8 @@
    "asset": "2069991826945564",
    "sample_views": {
     "all": 11
-   }
+   },
+   "product_key": "bonds"
   },
   "1042794292127507": {
    "brand": "B",
@@ -3012,7 +4670,8 @@
    "asset": "1597073601774076",
    "sample_views": {
     "all": 12
-   }
+   },
+   "product_key": "bonds"
   },
   "955959980393839": {
    "brand": "B",
@@ -3056,7 +4715,8 @@
    "asset": null,
    "sample_views": {
     "all": 13
-   }
+   },
+   "product_key": "bonds"
   },
   "1577736273613796": {
    "brand": "B",
@@ -3104,7 +4764,8 @@
    "asset": "1462175878537057",
    "sample_views": {
     "all": 14
-   }
+   },
+   "product_key": "bonds"
   },
   "1819131125779645": {
    "brand": "B",
@@ -3152,7 +4813,8 @@
    "asset": null,
    "sample_views": {
     "all": 15
-   }
+   },
+   "product_key": "bonds"
   },
   "1010246932113130": {
    "brand": "B",
@@ -3200,7 +4862,8 @@
    "asset": "1761453178608150",
    "sample_views": {
     "all": 16
-   }
+   },
+   "product_key": "bonds"
   },
   "1078474831621182": {
    "brand": "B",
@@ -3247,7 +4910,8 @@
    "asset": null,
    "sample_views": {
     "all": 17
-   }
+   },
+   "product_key": "bonds"
   },
   "2292299894864285": {
    "brand": "B",
@@ -3295,7 +4959,8 @@
    "asset": "28008431572111270",
    "sample_views": {
     "all": 18
-   }
+   },
+   "product_key": "bonds"
   },
   "2556193758207208": {
    "brand": "B",
@@ -3342,7 +5007,8 @@
    "asset": "1365632395557182",
    "sample_views": {
     "all": 19
-   }
+   },
+   "product_key": "bonds"
   },
   "1768821550864003": {
    "brand": "B",
@@ -3389,7 +5055,8 @@
    "asset": null,
    "sample_views": {
     "all": 20
-   }
+   },
+   "product_key": "bonds"
   },
   "1574326737333320": {
    "brand": "B",
@@ -3437,7 +5104,8 @@
    "asset": "1314615330761972",
    "sample_views": {
     "all": 21
-   }
+   },
+   "product_key": "bonds"
   },
   "1642456104162744": {
    "brand": "B",
@@ -3485,7 +5153,8 @@
    "asset": null,
    "sample_views": {
     "all": 22
-   }
+   },
+   "product_key": "bonds"
   },
   "1653556886374383": {
    "brand": "B",
@@ -3533,7 +5202,8 @@
    "asset": null,
    "sample_views": {
     "all": 23
-   }
+   },
+   "product_key": "bonds"
   },
   "2603917993354573": {
    "brand": "B",
@@ -3581,7 +5251,8 @@
    "asset": null,
    "sample_views": {
     "all": 24
-   }
+   },
+   "product_key": "bonds"
   },
   "2402074240326667": {
    "brand": "B",
@@ -3628,7 +5299,8 @@
    "asset": null,
    "sample_views": {
     "all": 25
-   }
+   },
+   "product_key": "bonds"
   },
   "1102709929308735": {
    "brand": "B",
@@ -3674,7 +5346,8 @@
    "asset": null,
    "sample_views": {
     "all": 26
-   }
+   },
+   "product_key": "bonds"
   },
   "1637283661235770": {
    "brand": "B",
@@ -3721,7 +5394,8 @@
    "asset": null,
    "sample_views": {
     "all": 27
-   }
+   },
+   "product_key": "bonds"
   },
   "1087294090969954": {
    "brand": "B",
@@ -3769,7 +5443,8 @@
    "asset": "1551790489702609",
    "sample_views": {
     "all": 28
-   }
+   },
+   "product_key": "bonds"
   },
   "1122130514055415": {
    "brand": "B",
@@ -3817,7 +5492,8 @@
    "asset": "2553317288476600",
    "sample_views": {
     "all": 29
-   }
+   },
+   "product_key": "bonds"
   },
   "1452959666055721": {
    "brand": "B",
@@ -3865,7 +5541,8 @@
    "asset": "17958057075116488",
    "sample_views": {
     "all": 30
-   }
+   },
+   "product_key": "bonds"
   }
  },
  "rerun": null

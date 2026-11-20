@@ -1,0 +1,177 @@
+{
+ "asset": "988278900406574",
+ "first_seen_in": "1769808607610025",
+ "duration_s": 62.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.8,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.4,
+   "why": "scene change"
+  },
+  {
+   "t": 22.5,
+   "why": "scene change"
+  },
+  {
+   "t": 30.9,
+   "why": "scene change"
+  },
+  {
+   "t": 43.5,
+   "why": "scene change"
+  },
+  {
+   "t": 45.1,
+   "why": "scene change"
+  },
+  {
+   "t": 48.1,
+   "why": "scene change"
+  },
+  {
+   "t": 49.9,
+   "why": "scene change"
+  },
+  {
+   "t": 62,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "4 years water purifier maintenance have worked like a black box. A technician opens the purifier, tells you what needs to be changed and you are expected to trust the bill. Every water purifier technician who walked in your house has probably said the same thing. Sir, everything needs changing. 5,000 to 6,000 rupees charge. And you just pay because what choice do you have? You don't know which filter is actually degraded. You don't know how much life it has left with and you have no proof of what actually needs the replacing. The item work in the lock box breaks the black box. This app gives you real time filter by filter help. So you can actually see what is happening inside your purifier. Instead of blindly replacing everything, you know exactly what needs attention and what doesn't. No blind servicing, no unnecessary replacements, no paying for filters who still have life left. You get the data, you stay in control. And you only spend what is actually needed. This is what water purifier maintenance looks like when you are in control.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.6,
+    "text": "4 years water purifier maintenance have worked like a black box."
+   },
+   {
+    "start": 3.6,
+    "end": 8.8,
+    "text": "A technician opens the purifier, tells you what needs to be changed and you are expected"
+   },
+   {
+    "start": 8.8,
+    "end": 10.1,
+    "text": "to trust the bill."
+   },
+   {
+    "start": 10.1,
+    "end": 14.9,
+    "text": "Every water purifier technician who walked in your house has probably said the same thing."
+   },
+   {
+    "start": 14.9,
+    "end": 16.6,
+    "text": "Sir, everything needs changing."
+   },
+   {
+    "start": 16.6,
+    "end": 18.4,
+    "text": "5,000 to 6,000 rupees charge."
+   },
+   {
+    "start": 18.4,
+    "end": 20.6,
+    "text": "And you just pay because what choice do you have?"
+   },
+   {
+    "start": 20.6,
+    "end": 23.4,
+    "text": "You don't know which filter is actually degraded."
+   },
+   {
+    "start": 23.4,
+    "end": 27.7,
+    "text": "You don't know how much life it has left with and you have no proof of what actually needs"
+   },
+   {
+    "start": 27.7,
+    "end": 28.7,
+    "text": "the replacing."
+   },
+   {
+    "start": 28.7,
+    "end": 31.2,
+    "text": "The item work in the lock box breaks the black box."
+   },
+   {
+    "start": 31.2,
+    "end": 34.2,
+    "text": "This app gives you real time filter by filter help."
+   },
+   {
+    "start": 34.2,
+    "end": 37.3,
+    "text": "So you can actually see what is happening inside your purifier."
+   },
+   {
+    "start": 37.3,
+    "end": 42.8,
+    "text": "Instead of blindly replacing everything, you know exactly what needs attention and what"
+   },
+   {
+    "start": 42.8,
+    "end": 43.8,
+    "text": "doesn't."
+   },
+   {
+    "start": 43.8,
+    "end": 49.6,
+    "text": "No blind servicing, no unnecessary replacements, no paying for filters who still have life"
+   },
+   {
+    "start": 49.6,
+    "end": 50.6,
+    "text": "left."
+   },
+   {
+    "start": 50.6,
+    "end": 52.4,
+    "text": "You get the data, you stay in control."
+   },
+   {
+    "start": 52.4,
+    "end": 55.7,
+    "text": "And you only spend what is actually needed."
+   },
+   {
+    "start": 55.7,
+    "end": 59.6,
+    "text": "This is what water purifier maintenance looks like when you are in control."
+   }
+  ]
+ }
+}

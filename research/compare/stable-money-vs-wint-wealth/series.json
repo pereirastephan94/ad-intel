@@ -1,0 +1,12 @@
+{
+ "_note": "Series and recurring scripts per brand, from research/<brand>/concepts.md ('Series and recurring devices'). Library ids. compute.py reads this with --series.",
+ "A": [
+  {"name": "Papa Explaining", "ads": ["1359085176241049", "1690045142234207", "2029258324332952", "2952841455054370", "2057230121811704", "2894685200924911"], "note": "A son asks \"Papa, ...\"; Papa explains. Same cast, product swapped between FD, bonds and RD."},
+  {"name": "Idle money to bonds (one script, two presenters)", "ads": ["3115844495284358", "1158491436527705", "1780853883195705", "1318322580372486", "1094477860035639"], "note": "\"Account mein idle paisa ... bonds on Stable Money\", told by a man after a couple's row and by a man in a hoodie."},
+  {"name": "Nani Tuitions", "ads": ["1098949122752977", "1115779077962422"], "note": "A grandmother learns to book an FD in the app; both ads launched on 2 November."}
+ ],
+ "B": [
+  {"name": "Second source of income", "ads": ["1953272729391464", "26996845726680317", "1768735924383603", "1139217318446573", "1065702466447240", "1608750657392609", "1868487757472978", "2876298779421455", "1822092442159366", "28133518736321882", "1122130514055415"], "note": "The promise in five ideas: a creator's kitchen skit, three reasons, two men on split screen, the woman who draws it out from Rs 10,000, a couple on a sofa."},
+  {"name": "\"Only 10% of Indians know bonds\"", "ads": ["1577736273613796", "1139217318446573", "1065702466447240", "1608750657392609", "1868487757472978", "2876298779421455", "1822092442159366", "28133518736321882", "1122130514055415"], "note": "A recurring opening line, mostly captioned with a SEBI investor survey."}
+ ]
+}

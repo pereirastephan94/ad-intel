@@ -1,0 +1,113 @@
+{
+ "asset": "1270558241802020",
+ "first_seen_in": "1393478602160610",
+ "duration_s": 36.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.3,
+   "why": "scene change"
+  },
+  {
+   "t": 6,
+   "why": "scene change"
+  },
+  {
+   "t": 7.2,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 11.7,
+   "why": "scene change"
+  },
+  {
+   "t": 17.1,
+   "why": "scene change"
+  },
+  {
+   "t": 24.1,
+   "why": "scene change"
+  },
+  {
+   "t": 26.9,
+   "why": "scene change"
+  },
+  {
+   "t": 32,
+   "why": "scene change"
+  },
+  {
+   "t": 36.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "te",
+  "text": "thirsty because water purifier is not more water than means butslow question continue our solution But wet BigQuery母 うとれる water quality东西と砕まわる تجينclock کہpurmagar ratio sesimgar ghee Nehwagamayur",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3,
+    "text": "thirsty because water purifier is not more water than means"
+   },
+   {
+    "start": 3,
+    "end": 4.6,
+    "text": "butslow question"
+   },
+   {
+    "start": 4.6,
+    "end": 7.1,
+    "text": "continue our solution"
+   },
+   {
+    "start": 7.1,
+    "end": 16.1,
+    "text": "But wet BigQuery母 うとれる water quality"
+   },
+   {
+    "start": 16.1,
+    "end": 19.7,
+    "text": "东西と砕まわる"
+   },
+   {
+    "start": 19.7,
+    "end": 25.6,
+    "text": "تجينclock"
+   },
+   {
+    "start": 25.6,
+    "end": 29.6,
+    "text": "کہpurmagar ratio sesimgar ghee"
+   },
+   {
+    "start": 30.4,
+    "end": 34.4,
+    "text": "Nehwagamayur"
+   }
+  ]
+ }
+}

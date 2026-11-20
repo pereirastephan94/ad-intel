@@ -1,20 +1,38 @@
 # Head-to-head comparison: page spec
 
 One self-contained HTML page comparing the live Meta ads of two brands in the same category.
-Readers are founders, CMOs and growth heads. In one minute they must see: where am I missing out in video, where in image ads, what my rival does that I do not, and what to do next. Depth sits behind folds.
+Readers are founders, CMOs and growth heads, and the performance content teams they brief. In one minute they must see what to do on Monday: one focus, what to start, what to stop or fix. Then: which ideas each brand leans on, how the two compare on the same product, and script directions the content team can brief from. Depth sits behind folds.
+
+**Version 4 (20 Nov 2026), after the owner's review of Stable Money vs Wint Wealth failed the v3 page.** His points: one creative or series can carry a brand (Papa Explaining), so counting ads per row misleads; compare only the same product, checked against each brand's website, and summarise the rest separately; the page gave no clear action; and it gave the content team nothing to brief from. v4 answers each with a section and a rubric gate (RUBRIC.md v4). The v3 layout (verdict, moves, 7-row map on the first screen) still renders when `--focus-product` and `plan` are absent, for back compatibility.
 
 Related files: `RUBRIC.md` (how a page is scored), `TAGGING.md` (per-ad tags), `compare/compute.py` and `compare/build.py` (the pipeline).
 
 ## Pipeline
 
 ```
-research/<brand>/ads.json + tags + metrics     (per brand, from the teardown pipeline and TAGGING.md)
-  -> compare/compute.py A B comparison.json     (all counts, statuses, cards, standouts)
-  -> a person or model writes perspectives.json (verdict and moves for each side, following the rules below)
-  -> compare/build.py comparison.json perspectives.json A B out_dir   (index.html)
+research/<brand>/ads.json + tags + metrics + concepts.md     (per brand, from the teardown pipeline and TAGGING.md)
+research/<brand>/site.md                                     (what the brand sells on its own website; written by hand, see below)
+  -> compare/products.py A B research/compare/<pair>/products.json [--rules rules.json]
+        drafts one product_key per ad from tags.product (edit by hand; add "labels" and "site")
+  -> research/compare/<pair>/series.json                    (series and recurring scripts from concepts.md; optional,
+        falls back to the "series" list in research/<brand>/extras.json)
+  -> compare/compute.py A B research/compare/<pair>/comparison.json \
+        --products products.json --focus-product <key|auto> --series series.json [--sample-rule "..."]
+        (all counts, the focus-product map, the full-sample map as rows_all, workhorses, standouts)
+  -> a person or model writes perspectives.json (verdict, plan, scripts, reads; rules below)
+  -> compare/build.py comparison.json perspectives.json A B out_dir   (index.html, with a lint report)
 ```
 
-`build.py` prints a lint report: banned performance words, "top" outside "top 30" or "top by", jargon, em and en dashes, verdict over 30 words, move text over 35 or first test over 25 words, fewer than 2 or more than 4 moves, move 1 on thin evidence, and a move whose evidence label differs from its row's. Quoted ad content (scripts, hooks) is excluded from the word checks.
+For Stable Money vs Wint Wealth:
+```
+python3 teardown/compare/products.py research/stable-money research/wint-wealth research/compare/stable-money-vs-wint-wealth/products.json
+python3 teardown/compare/compute.py research/stable-money research/wint-wealth research/compare/stable-money-vs-wint-wealth/comparison.json \
+  --products research/compare/stable-money-vs-wint-wealth/products.json --focus-product bonds \
+  --series research/compare/stable-money-vs-wint-wealth/series.json --sample-rule "<the run's sample rule>"
+```
+(`products.py` keeps an existing file's "labels" and "site" blocks and redrafts only "ads".)
+
+`build.py` prints a lint report: banned performance words, "top" outside "top 30" or "top by", jargon, em and en dashes, verdict over 30 words; for a plan: one focus not on thin evidence, 2 to 3 start and 1 to 2 stop items, titles over 14 words, reasons over 40, first tests over 25 or missing, an evidence label that differs from its basis's rule, a basis or script reference that does not resolve; for scripts: 4 to 6 directions, each with persona, why, format, length, 2 or more openings, 5 or more beats, compliance and measures, a full script ending between 30 and 45 s, and a founder-led direction without a recommendation label. Quoted ad content is excluded from the word checks. (v3 move checks still run when a side has `moves` and no `plan`.)
 
 ## Sample rule (printed on the page)
 
@@ -266,3 +284,64 @@ Three moves at the full word limits (35 + 25 words each) plus a 30-word verdict 
 
 ### Standout reason
 The builder writes the reason from the rows, not from compute.py's `why`, so it never claims a lead the numbers do not show: "X is the brand's widest gap over Y (47% against 21%)" or, for a row where the brand trails, "X is the brand's other present row; here it trails Y (53% against 63%)". Frame strips drop stills inside the first 3 seconds that repeat the opening line, keeping the first and the one nearest 3 s.
+
+
+## Version 4 additions
+
+### Page order (v4, when a focus product is set)
+1. **First screen**: header with sample and date, toggle, verdict, then the plan: Focus, Start, Stop or fix. Desktop right column, and on phones straight after the plan: "What they lean on" in brief (each brand's biggest series or idea, a still, its opening line, and the proxy caveat).
+2. **What they lean on** (workhorses, below).
+3. **<Product> against <product>**: the 7-row map restricted to the focus product, with small-base handling; a fold "All products together" holds the full-sample map as context.
+4. The map, row by row (folds, focus product only).
+5. **What each one sells**: a table per product of ads in the sample and the claim on each brand's site; then "What else each one advertises" (each other product with its ad count, ideas and the idea it leans on, with still and opening line) and "On the site but in none of the sampled ads".
+6. **Scripts to brief** (per reader).
+7. **Where their own ads disagree** (contradictions, from `extras`).
+8. Where you lead and table stakes (focus product), Now vs always, Hooks and offers, Pacing (whole sample), Standouts, Method, Appendix.
+
+### Workhorses: what they lean on
+Unit: the idea (concept_id) and the series (a named set of ads from series.json or the brand's extras.json).
+Leaning score, from public signals only: `ads using it + 0.5 x (versions - ads) + longest days live / 30 + 2 x (products or cities it is re-cut for - 1)`. Cities count only where tags carry `city`. The constants are `LEAN_DAYS` and `LEAN_RECUT` in compute.py and are printed on the page.
+Per brand compute.py writes, for the whole sample, the focus product and each other product: the ideas ranked by score (top 5, each with ads, versions, longest days, products, lead ad), the series ranked the same way with their share of the sample, and concentration (ads carried by the top 1 and top 3 ideas, as n of N and share).
+The page says, wherever leaning is shown: long life and many versions are the nearest public sign that a brand keeps paying for an idea, never that it performs.
+Evidence for a plan item built on an idea or series: strong at 5 ads, or 120 days live with 2 ads; moderate at 2 ads or 90 days; thin otherwise.
+Standouts (frame by frame) are now each brand's two highest-scoring video ideas in the focus product, so they are the workhorses, shown in full.
+
+### Like for like by product
+1. Read each brand's website and write `research/<brand>/site.md`: date fetched, URLs read, each product with its product_key, the headline rate or claim quoted exactly, other stated terms, scale claims, legal lines, and how the ads differ from the site. Pages that fail (404, server error, rendered only in the browser) are listed as such, never guessed.
+2. `products.json` in the pair folder: `{"labels": {key: label}, "site": {"fetched": date, "A": [{"key", "claim", "url", "status"?}], "B": [...]}, "ads": {library_id: product_key}}`. `status` is `unclear` (signs of the product but not confirmed) or `registration_only`. Keys are normalised (bonds, fixed_deposit, recurring_deposit, fd_backed_card, mutual_funds, gold, or a category's own: gym_pass, diet_plan ...).
+3. `--focus-product` restricts rows, table stakes and standouts to that key on both sides; `auto` takes the shared key with the most ads. If no key is shared (Cult.fit and Fitelo: gym passes against diet plans), there is no like-for-like map: say so in the verdict, and compare on the job the customer hires each for, or not at all.
+4. Small bases: in the focus map a medium total under 10 on either side shows counts, not shares, caps evidence at moderate (now in compute.py), and a zero total shows "none, no image ads" instead of "0 of 0".
+
+### perspectives.json, v4 schema
+```json
+{
+  "A": {
+    "verdict": "<= 30 words: names the product compared, one gap and one edge (a row, an idea or a series), two n of N figures",
+    "plan": {
+      "focus": {"title": "<= 14 words, imperative", "why": "<= 40 words, n of N", "basis": "series:A:Papa Explaining",
+                "evidence": "strong", "effort": "Medium", "first_test": "<= 25 words", "script": 1},
+      "start": [{"title": "...", "why": "...", "basis": "idea:B:WW-c10 | row:I2", "evidence": "...", "effort": "Low",
+                 "first_test": "...", "script": 3}],
+      "stop":  [{"title": "...", "why": "...", "basis": "contradictions:A | ads:<id>,<id>", "first_test": "..."}]
+    },
+    "workhorse_read": "one line reading both brands' leaning for this reader",
+    "now_read": "...", "india_read": ["Language: ...", "Timing: ...", "Destination: ..."],
+    "scripts": [{
+      "title": "one line a head of marketing can say to the team",
+      "label": "only for founder-led or untested directions: why it is a recommendation",
+      "persona": "who it talks to, one line", "why": "evidence in this pair", "evidence_ads": ["<library_id>"],
+      "format": "...", "length": "40 seconds", "language": "Hinglish",
+      "openings": ["exact first line, Roman script where the evidence is Hinglish", "..."],
+      "beats": [{"t": "0-3 s", "beat": "Hook", "note": "..."}],
+      "script": [{"t": "0-3 s", "voice": "...", "screen": "..."}],
+      "on_screen": "...", "end_card": "...", "compliance": ["..."], "measure": ["..."]
+    }]
+  },
+  "B": {},
+  "extras": {"source": "...", "contradictions": {"A": [{"text": "...", "ads": ["<library_id>"]}], "B": []}}
+}
+```
+Basis kinds: `row:<id>` (focus map row; evidence must equal the row's), `idea:<brand>:<concept_id>` and `series:<brand>:<name>` (evidence by the workhorse rule above), `contradictions:<brand>` and `ads:<ids>` (shown as "In N ads", no strength label). `script` is the 1-based index of the reader's script direction the item links to.
+Plan rules: Focus is the one thing, never on thin evidence; Start 2 to 3; Stop or fix 1 to 2 (contradicting figures, claims the site or the ads' own small print contradict). At least one item builds on the reader's edge or workhorse, and at least one answers the rival's workhorse.
+Script rules: 4 to 6 directions per reader; each a full draft of 30 to 45 seconds. Use only facts the brand's own ads or site state; any figure that varies or is unknown is a placeholder ([your rate range], [your minimum], [tenure]). Founder-led directions carry a `label` saying they are a recommendation, since a founder counts only where an ad says so. Compliance notes name what this category's ads and sites show (for Indian fixed income: "up to" with every rate, tenure next to rate, minimum matching the app, no "guaranteed" or "assured", the risk disclaimer and broker strip, sale before maturity subject to a buyer, DICGC applies to bank FDs only). The page renders each direction as a fold with a "Copy this brief" button that copies a plain-text brief.
+On phones the plan shows Focus with its reason and the titles and evidence chips of Start and Stop; each item's reason and first test open with one tap ("Why and test").

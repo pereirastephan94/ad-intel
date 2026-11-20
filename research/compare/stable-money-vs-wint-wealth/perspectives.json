@@ -1,61 +1,1147 @@
 {
  "A": {
-  "verdict": "Wint Wealth's top 30 holds 11 image ads, 9 of them product-or-people cards; yours holds 3. Your edge: scene or story, 14 of 30 videos against 4 of 19.",
-  "moves": [
-   {"rank": 1, "row": "I2", "text": "Build an image-ad line. Wint Wealth runs 9 of 11 images as product-or-people cards across 8 ideas, 8 of them saying \"Monthly Interest\"; your top 30 holds 3 images.", "first_test": "Three cards for your monthly payout FD: \"Interest every month\" as the largest text, a calendar, the rate and bank in readable print.", "effort": "Low", "evidence": "strong"},
-   {"rank": 2, "row": "V2", "text": "Extend your series, your edge: scene or story is 14 of 30 videos across 11 ideas against Wint Wealth's 4 of 19. Papa Explaining carries 6 ads on three products; Nani Tuitions, 2.", "first_test": "A Papa episode on the FD-backed card, your second most advertised product (9 ads) and the only one he has not explained: 45 seconds, vertical.", "effort": "Medium", "evidence": "strong"},
-   {"rank": 3, "row": "V1", "text": "Settle your figures in person-to-camera, where you run 16 of 30 videos and Wint Wealth 12 of 19 across 6 ideas. Your three lounge-card presenters quote 8.5%, 8.10% and 8%.", "first_test": "One rate and one user count (50 or 60 lakh) in every card ad's voice and end card; recut the three lounge-card videos first.", "effort": "Low", "evidence": "strong"}
-  ],
-  "now_read": "8 of your 33 sampled ads launched in the last 30 days: 5 person to camera and 3 scenes, among them both Nani Tuitions ads. Wint Wealth has 1; 20 of its 30 went live on 7 and 8 October.",
+  "verdict": "In bonds, Wint Wealth runs 30 of 30 ads, 11 on one promise, second income; you run 8 of 33. Your edge: Papa Explaining, 200 days live across three products.",
+  "plan": {
+   "focus": {
+    "title": "Make Papa Explaining your bond workhorse.",
+    "why": "The series is 6 of your 33 ads, re-cut for bonds, FDs and RD; its bond episode is your longest-running ad at 200 days. Wint Wealth runs no titled character series in its 30.",
+    "basis": "series:A:Papa Explaining",
+    "evidence": "strong",
+    "effort": "Medium",
+    "first_test": "Two new bond episodes, 45 seconds each: \"what if the company cannot pay\" and \"what is a 3 month bond\".",
+    "script": 1
+   },
+   "start": [
+    {
+     "title": "Answer Wint Wealth's second-income video with a drawn bond explainer.",
+     "why": "Its \"second income from 10,000\" video runs as 6 ads with 11 versions, its most-used idea; the promise covers 11 of its 30 ads. Your idle-money script runs 5.",
+     "basis": "idea:B:WW-c10",
+     "evidence": "strong",
+     "effort": "Low",
+     "first_test": "A presenter draws one bond on paper: money out, interest back, principal at maturity; 40 seconds, Hinglish.",
+     "script": 3
+    },
+    {
+     "title": "Put bonds into image ads.",
+     "why": "Wint Wealth runs 11 bond image ads, 9 of them product-or-people cards; all 8 of your bond ads are video.",
+     "basis": "row:I2",
+     "evidence": "moderate",
+     "effort": "Low",
+     "first_test": "Three cards: one promise as the largest text, [your rate range] with tenure in readable print, the broker line at the foot."
+    },
+    {
+     "title": "Try an app walkthrough, which neither of you runs.",
+     "why": "Product or app demo is 0 of your 8 bond videos and 0 of Wint Wealth's 19.",
+     "basis": "row:V3",
+     "evidence": "thin",
+     "effort": "Low",
+     "first_test": "Screen recording with voice: open Bonds, filter a tenure, read rate, rating and payout date; 30 seconds.",
+     "script": 4
+    }
+   ],
+   "stop": [
+    {
+     "title": "Fix the figures your ads disagree on.",
+     "why": "The lounge-card FD rate is 8.5%, 8.10% or 8%; users 50 or 60 lakh (site: 60 lakh); money invested 7,000 or 11,000 crore.",
+     "basis": "contradictions:A",
+     "first_test": "One fact sheet for every script ([your user count], [your FD rate]); recut the three lounge-card videos first."
+    },
+    {
+     "title": "Stop quoting 9 to 12% over app screens that show less.",
+     "why": "The Papa bond episode says up to 9 to 12% while its own app screen lists 8.00% to 9.75%; your bond page title says \"Guaranteed Returns\".",
+     "basis": "ads:1359085176241049",
+     "first_test": "Quote the range from the live bond list on the day of the edit, with \"up to\", tenure and the disclaimer on screen."
+    }
+   ]
+  },
+  "workhorse_read": "You spread 33 ads over 24 ideas and lean on a series, Papa Explaining. Wint Wealth leans on one promise: second income carries 11 of its 30, and one video carries 6.",
+  "now_read": "4 of your 8 bond ads launched since 20 October, all person to camera, and both Nani Tuitions ads on 2 November. Wint Wealth launched 20 of its 30 on 7 and 8 October and 1 in the last 30 days.",
   "india_read": [
    "Language: you speak Hinglish in all 30 videos and Wint Wealth in 16 of 19; all 11 of its image ads are in English, as are your 3.",
    "Timing: Wint Wealth launched 20 of 30 on 7 and 8 October, a month before Diwali; you launched 14 of 33 across October and still run 3 from May.",
    "Destination: both send every sampled ad to the app store; neither uses WhatsApp, a lead form or a web page."
+  ],
+  "scripts": [
+   {
+    "title": "A recurring character series: Papa Explaining, bond episodes",
+    "persona": "The 25 to 35 year old son or daughter who looks after the family's money questions and asks a parent what a bond really is.",
+    "why": "Papa Explaining is your workhorse: 6 ads, 8 versions, re-cut for bonds, FDs and RD, and its bond episode has run 200 days. Wint Wealth runs no titled character series in its 30 ads.",
+    "evidence_ads": [
+     "1359085176241049",
+     "1690045142234207",
+     "2029258324332952"
+    ],
+    "format": "Scene or story, vertical 9:16, same cast and sofa set, title card \"Papa Explaining\"",
+    "length": "45 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Papa, company ne paise wapas nahi diye toh?",
+     "Papa, yeh 3 mahine wala bond kya hota hai?",
+     "Papa, FD aur bond mein farak kya hai?"
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Son asks one worried question, caption repeats it."
+     },
+     {
+      "t": "3-10 s",
+      "beat": "Problem",
+      "note": "Why the worry is fair: you are lending to a company."
+     },
+     {
+      "t": "10-22 s",
+      "beat": "Mechanism",
+      "note": "Papa explains rating, secured, and what happens at maturity, with a friend-loan analogy."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Proof",
+      "note": "App screen: rating, tenure and payout date shown for one real bond."
+     },
+     {
+      "t": "30-38 s",
+      "beat": "Offer",
+      "note": "Bonds from [your minimum], rates up to [your rate range], tenure on screen."
+     },
+     {
+      "t": "38-45 s",
+      "beat": "Call to action",
+      "note": "Download Stable Money, open Bonds. Disclaimer read and on screen."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Son: Papa, company ne paise wapas nahi diye toh?",
+      "screen": "Caption: \"Company ne paise wapas nahi diye toh?\" Title card: Papa Explaining."
+     },
+     {
+      "t": "3-10 s",
+      "voice": "Papa: Sahi sawaal hai. Bond mein tu company ko paise udhaar deta hai, toh pehle dekhna padta hai ki company kaisi hai.",
+      "screen": "Papa puts the newspaper down."
+     },
+     {
+      "t": "10-22 s",
+      "voice": "Papa: Har bond ki rating hoti hai. Secured bond mein company ki property ke against paisa hota hai. Tenure khatam, toh tera original paisa wapas.",
+      "screen": "Captions: \"Rating\" / \"Secured\" / \"Paisa wapas at maturity\"."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "Papa: Yeh dekh, app pe har bond ke saath rating, tenure aur payment date pehle se likhi hai.",
+      "screen": "Phone screen: one bond with rating, tenure, payout date. Blur nothing the voice mentions."
+     },
+     {
+      "t": "30-38 s",
+      "voice": "Son: Aur shuru kitne se? Papa: [your minimum] se. Returns up to [your rate range], par risk samajh ke.",
+      "screen": "Text: \"Start from [your minimum]\" / \"Up to [your rate range] p.a. | Tenure [x] months\"."
+     },
+     {
+      "t": "38-45 s",
+      "voice": "Papa: Stable Money app download kar, Bonds section khol. Fixed returns guaranteed nahi hote, documents padh ke invest karna.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Keep the \"Papa Explaining\" title card and the son's question as a caption in the first frame, as in the running episodes.",
+    "end_card": "Stable Money logo, \"Bonds from [your minimum]\", \"Up to [your rate range] p.a.\" with tenure, broker name and SEBI number, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Persona-led scripts for the salaried saver with idle money in a savings account",
+    "persona": "Salaried, 28 to 40, keeps a few lakh in a savings account as an emergency fund and knows it is earning little.",
+    "why": "Your idle-money script already runs as 5 ads with two presenters, 107 days for the oldest; Wint Wealth's nearest promise, second income, carries 11 of its 30 ads.",
+    "evidence_ads": [
+     "1318322580372486",
+     "3115844495284358",
+     "1065702466447240"
+    ],
+    "format": "Person to camera, phone, vertical, one presenter, captions on",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Aapke savings account mein jo paisa pada hai, woh kya kar raha hai?",
+     "Emergency fund savings mein rakha hai? Ek baar yeh dekh lo.",
+     "Salary aayi, kharch hua, baaki paisa? Wahin pada hai na."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Call out the idle balance, presenter holds the phone with a banking app (no real balance)."
+     },
+     {
+      "t": "3-10 s",
+      "beat": "Problem",
+      "note": "Savings rate against what idle money could earn, no named bank."
+     },
+     {
+      "t": "10-22 s",
+      "beat": "Mechanism",
+      "note": "Keep part as emergency money, move part into short-term bonds; what a bond is in one line."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Proof",
+      "note": "SEBI registered broker strip; tenure options shown on the app."
+     },
+     {
+      "t": "30-36 s",
+      "beat": "Offer",
+      "note": "From [your minimum], up to [your rate range], [your tenure options]."
+     },
+     {
+      "t": "36-40 s",
+      "beat": "Call to action",
+      "note": "Download, open Bonds, disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Aapke savings account mein jo paisa pada hai, woh kya kar raha hai?",
+      "screen": "Caption: \"Idle paisa kya kar raha hai?\""
+     },
+     {
+      "t": "3-10 s",
+      "voice": "Emergency ke liye rakha hai, theek hai. Par uska ek hissa saalon se wahin pada hai, aur savings ka interest bahut kam hai.",
+      "screen": "Caption: \"Savings interest: [your bank's rate]\""
+     },
+     {
+      "t": "10-22 s",
+      "voice": "Emergency wala paisa wahin rehne do. Baaki ka ek hissa short-term bonds mein socho. Bond matlab aap company ko udhaar dete ho, woh fixed interest deti hai aur tenure ke end pe paisa wapas.",
+      "screen": "Two blocks: \"Emergency fund\" / \"Short-term bonds\"."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "Stable Money pe bonds SEBI registered broker ke through milte hain, aur tenure pehle se pata hota hai.",
+      "screen": "App screen: bond list with tenure. Broker strip at the foot."
+     },
+     {
+      "t": "30-36 s",
+      "voice": "Shuruaat [your minimum] se, returns up to [your rate range] per annum.",
+      "screen": "Text: \"From [your minimum] | Up to [your rate range] p.a. | [tenure]\""
+     },
+     {
+      "t": "36-40 s",
+      "voice": "Stable Money download karo, Bonds section dekho. Fixed returns guaranteed nahi hote.",
+      "screen": "End card plus disclaimer."
+     }
+    ],
+    "on_screen": "Never show a real person's balance. One caption per line of speech.",
+    "end_card": "\"Idle paisa, ab bonds mein\", from [your minimum], up to [your rate range] p.a. with tenure, broker strip, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Your answer to Wint Wealth's workhorse: draw one bond on paper, to camera",
+    "persona": "A first-time bond buyer who has seen \"9 to 12%\" in feeds and wants to know where the money goes and when it comes back.",
+    "why": "Wint Wealth's \"second income from 10,000\" video, a woman drawing a bond in a notebook, runs as 6 ads with 11 versions, its most-used idea; you have no drawn explainer.",
+    "evidence_ads": [
+     "1608750657392609",
+     "1065702466447240",
+     "2876298779421455"
+    ],
+    "format": "Person to camera with a notebook or whiteboard, phone, vertical",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Bond mein paisa jaata kahan hai? Ek page pe samjhata hoon.",
+     "9 se 12 percent suna hai? Pehle yeh drawing dekho.",
+     "Ek bond, ek page, 40 second."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Pen on blank page, the question as caption."
+     },
+     {
+      "t": "3-12 s",
+      "beat": "Mechanism",
+      "note": "Draw: you, the company, the money going, interest coming back, principal at maturity."
+     },
+     {
+      "t": "12-22 s",
+      "beat": "Problem",
+      "note": "What can go wrong: the company can delay or default, so read the rating and whether it is secured."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Proof",
+      "note": "Hold the phone to camera: one bond with rating, tenure and payout schedule."
+     },
+     {
+      "t": "30-36 s",
+      "beat": "Offer",
+      "note": "From [your minimum]; rates up to [your rate range]; one tenure stated."
+     },
+     {
+      "t": "36-40 s",
+      "beat": "Call to action",
+      "note": "Download, Bonds tab, disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Bond mein paisa jaata kahan hai? Ek page pe samjhata hoon.",
+      "screen": "Blank page, pen. Caption repeats the line."
+     },
+     {
+      "t": "3-12 s",
+      "voice": "Yeh aap. Yeh company. Aap company ko paisa udhaar dete ho, company aapko har [payout period] interest deti hai, aur tenure ke end pe aapka paisa wapas.",
+      "screen": "Drawing: arrows for money out, interest back, principal back."
+     },
+     {
+      "t": "12-22 s",
+      "voice": "Risk kya hai? Company late kar sakti hai ya default kar sakti hai. Isliye do cheezein dekho: rating, aur bond secured hai ya nahi.",
+      "screen": "Write \"Rating\" and \"Secured?\" on the page."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "Stable Money app pe har bond ke saath rating, tenure aur payout schedule likha hota hai. Yeh dekho.",
+      "screen": "Phone to camera: one bond, rating, tenure, payout."
+     },
+     {
+      "t": "30-36 s",
+      "voice": "[your minimum] se shuru, returns up to [your rate range] per annum.",
+      "screen": "Text: \"From [your minimum] | Up to [your rate range] p.a. | [tenure]\""
+     },
+     {
+      "t": "36-40 s",
+      "voice": "Download Stable Money, Bonds section kholo. Fixed returns guaranteed nahi hote.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Name the payout period you show on the app (monthly, quarterly, at maturity); do not say monthly over a bond that pays otherwise.",
+    "end_card": "Drawing still with the logo, from [your minimum], up to [your rate range] p.a. and tenure, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "App walkthrough scripts: pick a bond on screen in 30 seconds",
+    "persona": "Someone who already uses the app for an FD, RD or the card and has never opened the Bonds tab.",
+    "why": "Product or app demo is open ground: 0 of your 8 bond videos and 0 of Wint Wealth's 19 bond videos. 25 of your 33 ads sell FDs, the card or RD and send people into the same app.",
+    "evidence_ads": [],
+    "format": "Screen recording with a voice-over and a thumb cursor, vertical",
+    "length": "30 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "FD toh book kar li. Bonds tab kabhi khola?",
+     "30 second mein ek bond choose karte hain.",
+     "Bonds tab, teen cheezein dekho."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Home screen, thumb taps Bonds."
+     },
+     {
+      "t": "3-12 s",
+      "beat": "Mechanism",
+      "note": "Filter by tenure; read three fields aloud: rate, rating, payout date."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Proof",
+      "note": "Open one bond's detail: secured or not, issuer, maturity date."
+     },
+     {
+      "t": "20-26 s",
+      "beat": "Offer",
+      "note": "Minimum on the buy screen, as the app shows it that day."
+     },
+     {
+      "t": "26-30 s",
+      "beat": "Call to action",
+      "note": "Open the app, disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "FD toh book kar li. Bonds tab kabhi khola?",
+      "screen": "App home, thumb on Bonds."
+     },
+     {
+      "t": "3-12 s",
+      "voice": "Tenure choose karo, [tenure option]. Ab har bond pe teen cheezein dekho: rate, rating, aur payment date.",
+      "screen": "Filter tapped; three fields highlighted in turn."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Bond kholo. Yahan likha hai company kaun hai, bond secured hai ya nahi, aur maturity kab hai.",
+      "screen": "Bond detail page, issuer, secured tag, maturity date."
+     },
+     {
+      "t": "20-26 s",
+      "voice": "Minimum [your minimum]. Returns up to [rate shown on that bond].",
+      "screen": "Buy screen with the minimum."
+     },
+     {
+      "t": "26-30 s",
+      "voice": "Stable Money app kholo, Bonds tab. Fixed returns guaranteed nahi hote.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Record on the day of the edit and keep every figure the voice reads visible on screen.",
+    "end_card": "\"Bonds tab, 3 cheezein dekho\", logo, risk line, broker strip.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Founder-to-camera scripts that answer \"is my money safe in a bond\"",
+    "label": "Recommendation: neither brand's sampled ads show a declared founder, so this is untested in this sample.",
+    "persona": "A cautious saver over 40 who trusts FDs and is weighing a bond for the first time.",
+    "why": "Your site leads with five promises (insured, regulated, direct, convenient, human) that are about FDs; no ad of either brand has its founder answer bond safety.",
+    "evidence_ads": [],
+    "format": "Person to camera, studio or office, one take, lower-third with name and \"Founder, Stable Money\"",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Main [founder name], Stable Money ka founder. Bonds ke baare mein sabse zyada ek hi sawaal aata hai.",
+     "FD aur bond ek jaise nahi hain. Main batata hoon kyun.",
+     "Aapka paisa bond mein kahan jaata hai? Seedha jawab."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Name, role, the question."
+     },
+     {
+      "t": "3-12 s",
+      "beat": "Problem",
+      "note": "FD and bond differ: DICGC covers bank FDs, a bond carries the company's credit risk."
+     },
+     {
+      "t": "12-24 s",
+      "beat": "Mechanism",
+      "note": "What you do to reduce the risk: ratings shown, secured tag, tenure up front, broker regulated by SEBI."
+     },
+     {
+      "t": "24-32 s",
+      "beat": "Proof",
+      "note": "One fact you can verify on the app or site."
+     },
+     {
+      "t": "32-37 s",
+      "beat": "Offer",
+      "note": "From [your minimum], up to [your rate range]."
+     },
+     {
+      "t": "37-40 s",
+      "beat": "Call to action",
+      "note": "Read the documents, then decide; disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Main [founder name], Stable Money ka founder. Bonds pe sabse zyada ek sawaal aata hai: paisa safe hai?",
+      "screen": "Lower-third: [founder name], Founder, Stable Money."
+     },
+     {
+      "t": "3-12 s",
+      "voice": "Seedhi baat: bond FD nahi hai. Bank FD pe DICGC ka cover hota hai, bond pe nahi. Bond mein risk company ka hota hai.",
+      "screen": "Caption: \"Bond is not an FD\"."
+     },
+     {
+      "t": "12-24 s",
+      "voice": "Isliye app pe har bond ki rating dikhate hain, secured hai ya nahi likhte hain, aur tenure pehle se batate hain. Aur yeh sab SEBI registered broker ke through hota hai.",
+      "screen": "Three captions: Rating / Secured / Tenure."
+     },
+     {
+      "t": "24-32 s",
+      "voice": "Bond kharidne se pehle uska document kholo. Agar samajh na aaye, toh mat kharido.",
+      "screen": "App: document link on a bond page."
+     },
+     {
+      "t": "32-37 s",
+      "voice": "[your minimum] se shuru, returns up to [your rate range] per annum.",
+      "screen": "Text with tenure."
+     },
+     {
+      "t": "37-40 s",
+      "voice": "Fixed returns guaranteed nahi hote. Padho, phir decide karo.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "The founder must be named in the ad itself; the page counts a founder only where the ad says so.",
+    "end_card": "Name and role, logo, from [your minimum], up to [your rate range] p.a. with tenure, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   }
   ]
  },
  "B": {
-  "verdict": "Stable Money runs scene or story in 14 of 30 videos, led by Papa; you, 4 of 19. Your edge: product-or-people images, 9 of 11; its top 30 holds 3.",
-  "moves": [
-   {"rank": 1, "row": "V2", "text": "Create a recurring character series. Stable Money runs 14 of 30 videos as scenes across 11 ideas; its Papa Explaining series alone is 6 ads selling three products.", "first_test": "Two 45-second episodes with one fixed pair, a parent and an adult child: \"what is a bond\" and \"can I get my money out\".", "effort": "Medium", "evidence": "strong"},
-   {"rank": 2, "row": "V1", "text": "Make person-to-camera videos agree with their own screens. Stable Money runs 16 of 30 across 10 ideas; 9 of your 12 promise monthly income over a \"3 Month Tenure\" end card.", "first_test": "Recut \"Three reasons I chose this investment\" (2 ads) so voice, app list and end card name one bond, one tenure, one payout schedule.", "effort": "Low", "evidence": "strong"},
-   {"rank": 3, "row": "I2", "text": "Put a figure on every image ad, your edge: 9 of 11 across 8 ideas, while Stable Money's top 30 holds 3 images. Four of your nine show no rate.", "first_test": "Add the rate and tenure from your end card to the four no-rate cards and run each beside its original.", "effort": "Low", "evidence": "strong"}
-  ],
-  "now_read": "1 of your 30 sampled ads launched in the last 30 days; 20 went live on 7 and 8 October. Stable Money launched 8 of 33 in the last 30 days, both Nani Tuitions ads among them, and still runs ads from May.",
+  "verdict": "Stable Money runs bonds in 8 of 33 ads and leans on Papa Explaining, 6 ads across three products. Your edge: bonds in 30 of 30, 11 on second income.",
+  "plan": {
+   "focus": {
+    "title": "Build a recurring character series beside second income.",
+    "why": "Stable Money's Papa Explaining runs 6 ads across three products, its bond episode 200 days. You run no titled character series, and 28 of your 30 ads launched in October.",
+    "basis": "series:A:Papa Explaining",
+    "evidence": "strong",
+    "effort": "Medium",
+    "first_test": "Two 45-second episodes with one parent and one adult child: \"what is a bond\" and \"can I get my money out\".",
+    "script": 1
+   },
+   "start": [
+    {
+     "title": "Keep the creator first-person line going.",
+     "why": "Your creator's \"first paid post\" is your longest-running ad, 193 days and 2 versions; Stable Money runs no creator-credited ad in 33.",
+     "basis": "idea:B:WW-c08",
+     "evidence": "moderate",
+     "effort": "Low",
+     "first_test": "Brief two creators on one question each: \"who should not buy bonds\" and \"what happens if I sell early\".",
+     "script": 2
+    },
+    {
+     "title": "Try an app walkthrough, which neither of you runs.",
+     "why": "Product or app demo is 0 of your 19 bond videos and 0 of Stable Money's 8.",
+     "basis": "row:V3",
+     "evidence": "thin",
+     "effort": "Low",
+     "first_test": "Screen recording with voice: open the bond list, read rate, rating and tenure of one bond; 30 seconds.",
+     "script": 4
+    }
+   ],
+   "stop": [
+    {
+     "title": "Make every ad state one tenure, one minimum and one payout schedule.",
+     "why": "End cards say \"3 Month Tenure\" while app lists in the same ads show 18 and 20 months; ads say 10,000 and 1,000 (site: ₹1,000); monthly interest on a 3 month bond.",
+     "basis": "contradictions:B",
+     "first_test": "Recut \"Three reasons I chose this investment\" (2 ads) so voice, app list and end card name the same bond.",
+     "script": 3
+    },
+    {
+     "title": "Stop \"sell at any time, no questions asked\".",
+     "why": "Your own captions and site say a sale before maturity depends on a buyer and the rate that day.",
+     "basis": "ads:2556193758207208,1139217318446573",
+     "first_test": "Recut the helmet-rider video: \"sell before maturity if a buyer is available\" in voice and on screen."
+    }
+   ]
+  },
+  "workhorse_read": "You lean on one promise: second income carries 11 of your 30 ads and one video carries 6. Stable Money spreads 33 ads over 24 ideas and leans on a series, Papa Explaining.",
+  "now_read": "1 of your 30 ads launched in the last 30 days; 20 went live on 7 and 8 October. Stable Money launched 4 of its 8 bond ads since 20 October, all person to camera.",
   "india_read": [
    "Language: you speak Hinglish in 16 of 19 videos and Stable Money in all 30; all 11 of your image ads are in English, as are its 3.",
    "Timing: you launched 20 of 30 on 7 and 8 October, a month before Diwali; Stable Money launched 14 of 33 across October and still runs 3 from May.",
    "Destination: both send every sampled ad to the app store; neither uses WhatsApp, a lead form or a web page."
+  ],
+  "scripts": [
+   {
+    "title": "A recurring character series: a parent and an adult child on bonds",
+    "persona": "The first-jobber or young professional who helps a parent move savings, and the parent who saved all their life in FDs.",
+    "why": "Stable Money's Papa Explaining runs 6 ads, 8 versions, across three products, its bond episode 200 days. Your first-salary skit already has a son help his mother invest; it runs once.",
+    "evidence_ads": [
+     "1359085176241049",
+     "2029258324332952",
+     "2292299894864285"
+    ],
+    "format": "Scene or story, vertical, one fixed pair and one set, a title card that repeats every episode",
+    "length": "45 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Maa, FD ke alawa bhi kuch hota hai.",
+     "Beta, yeh bond mein paisa atak toh nahi jaayega?",
+     "Maa ne poocha: bond hota kya hai?"
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Parent's worried question, caption on screen, title card."
+     },
+     {
+      "t": "3-10 s",
+      "beat": "Problem",
+      "note": "Parent's habit: everything in FDs; child's point: one part could be in bonds."
+     },
+     {
+      "t": "10-22 s",
+      "beat": "Mechanism",
+      "note": "Lending to a company, interest on a schedule, principal at maturity; one tenure."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Proof",
+      "note": "Child shows the app: rating, tenure, payout schedule of one bond."
+     },
+     {
+      "t": "30-38 s",
+      "beat": "Offer",
+      "note": "From [your minimum]; rates up to [your rate range] for [tenure]."
+     },
+     {
+      "t": "38-45 s",
+      "beat": "Call to action",
+      "note": "Download Wint Wealth; disclaimer and liquidity line."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Maa: Beta, yeh bond mein paisa atak toh nahi jaayega?",
+      "screen": "Title card: [series name], episode 1. Caption repeats the question."
+     },
+     {
+      "t": "3-10 s",
+      "voice": "Beta: Maa, aapka sab kuch FD mein hai. Main bas keh raha hoon, ek hissa bond mein bhi ho sakta hai.",
+      "screen": "Kitchen table, FD receipts in a folder."
+     },
+     {
+      "t": "10-22 s",
+      "voice": "Beta: Bond matlab aap company ko udhaar dete ho. Woh [payout period] interest deti hai, aur [tenure] ke baad aapka paisa wapas.",
+      "screen": "Captions: \"Udhaar\" / \"[payout period] interest\" / \"[tenure] baad paisa wapas\"."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "Beta: Yeh dekho, app pe rating, tenure aur payment ki date pehle se likhi hai. Beech mein bechna ho toh buyer milne pe bech sakte ho.",
+      "screen": "App screen of one bond. Liquidity line on screen."
+     },
+     {
+      "t": "30-38 s",
+      "voice": "Maa: Kitne se shuru? Beta: [your minimum] se. Returns up to [your rate range].",
+      "screen": "Text: \"From [your minimum] | Up to [your rate range] p.a. | [tenure]\""
+     },
+     {
+      "t": "38-45 s",
+      "voice": "Beta: Wint Wealth download karo. Fixed returns guaranteed nahi hote, documents padh ke.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Same title card, same cast and set every episode, so viewers know the series by the first frame.",
+    "end_card": "One bond's rate and the same tenure the voice says; no \"3 Month Tenure\" card over a longer bond.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Creator first-person scripts: \"I invest in bonds on Wint Wealth, and here is who should not\"",
+    "persona": "25 to 35, follows finance creators, distrusts paid posts, wants to hear the catch.",
+    "why": "Your creator's \"first paid post\" is your longest-running ad, 193 days and 2 versions, and a creator skit carries the second-income promise. Stable Money runs no creator-credited ad.",
+    "evidence_ads": [
+     "1452959666055721",
+     "1953272729391464"
+    ],
+    "format": "Creator to camera in their own setting, \"#ad\" and partnership label, vertical",
+    "length": "45 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Main bonds mein invest karta hoon. Par sabke liye nahi hai.",
+     "Paid post hai, toh pehle catch sun lo.",
+     "Bonds kisko nahi lene chahiye? Main batata hoon."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Creator states they invest, and the catch."
+     },
+     {
+      "t": "3-14 s",
+      "beat": "Problem",
+      "note": "Who should not buy: money needed next month, no emergency fund, cannot read a rating."
+     },
+     {
+      "t": "14-26 s",
+      "beat": "Mechanism",
+      "note": "How the creator picks one bond: rating, secured, tenure, payout schedule."
+     },
+     {
+      "t": "26-34 s",
+      "beat": "Proof",
+      "note": "Creator's own app screen, one bond, figures readable."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "Offer",
+      "note": "From [your minimum]; up to [your rate range]."
+     },
+     {
+      "t": "40-45 s",
+      "beat": "Call to action",
+      "note": "Link in bio or button; disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Main bonds mein invest karta hoon. Par yeh sabke liye nahi hai.",
+      "screen": "\"#ad\" and partnership label from the first frame."
+     },
+     {
+      "t": "3-14 s",
+      "voice": "Agar paisa agle mahine chahiye, emergency fund nahi hai, ya rating samajh nahi aati, toh abhi ruk jao.",
+      "screen": "Three captions, one per condition."
+     },
+     {
+      "t": "14-26 s",
+      "voice": "Main kya dekhta hoon? Rating, bond secured hai ya nahi, tenure, aur interest kab aata hai. Bas.",
+      "screen": "Four ticks on screen."
+     },
+     {
+      "t": "26-34 s",
+      "voice": "Yeh mera Wint Wealth app hai. Yeh bond, [tenure], [payout period] interest.",
+      "screen": "Creator's own screen, figures readable."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "[your minimum] se shuru, returns up to [your rate range].",
+      "screen": "Text with tenure."
+     },
+     {
+      "t": "40-45 s",
+      "voice": "Link neeche hai. Fixed returns guaranteed nahi hote, khud padh ke decide karo.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Keep the partnership label visible; the creator's own screen must show the same bond the voice names.",
+    "end_card": "Creator handle, logo, from [your minimum], up to [your rate range] p.a. with tenure, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Persona-led scripts for the salaried saver who wants a second income, with one tenure and one payout",
+    "persona": "Salaried, 26 to 40, wants a side income without trading, has heard of bonds but not bought one.",
+    "why": "Second income is your workhorse promise: 11 of your 30 ads across 5 ideas and 21 versions; its lead video alone runs as 6 ads with 11 versions. Its weak spot is a monthly promise over a \"3 Month Tenure\" card.",
+    "evidence_ads": [
+     "1608750657392609",
+     "26996845726680317",
+     "1122130514055415"
+    ],
+    "format": "Person to camera with a notebook, phone, vertical (your current workhorse format)",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Salary ke alawa ek aur income? Pehle yeh samjho.",
+     "Second income ke liye trading zaroori nahi.",
+     "[your minimum] se second income kaise? Ek page pe."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "The second-income question, as now."
+     },
+     {
+      "t": "3-12 s",
+      "beat": "Mechanism",
+      "note": "Lend to a company, interest on a stated schedule, principal at maturity."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Problem",
+      "note": "Name the risk once: delay or default; rating and secured tag."
+     },
+     {
+      "t": "20-30 s",
+      "beat": "Proof",
+      "note": "App screen of the one bond on the end card: same tenure, same payout schedule."
+     },
+     {
+      "t": "30-36 s",
+      "beat": "Offer",
+      "note": "From [your minimum]; up to [your rate range] for [tenure]."
+     },
+     {
+      "t": "36-40 s",
+      "beat": "Call to action",
+      "note": "Download; disclaimer and liquidity line."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Salary ke alawa ek aur income? Pehle yeh samjho.",
+      "screen": "Caption: \"Second income ka simple tareeka\"."
+     },
+     {
+      "t": "3-12 s",
+      "voice": "Bond matlab aap company ko udhaar dete ho. Is bond mein interest [payout period] aata hai, aur [tenure] ke baad paisa wapas.",
+      "screen": "Notebook drawing; tenure and payout written once."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Risk bhi hai: company late ya default kar sakti hai. Isliye rating aur secured dekho.",
+      "screen": "\"Rating\" and \"Secured\" circled."
+     },
+     {
+      "t": "20-30 s",
+      "voice": "Wint Wealth app pe yeh wahi bond hai: [tenure], [payout period] interest, rating likhi hai.",
+      "screen": "App screen showing the same tenure and payout as the voice and the end card."
+     },
+     {
+      "t": "30-36 s",
+      "voice": "Shuru [your minimum] se, returns up to [your rate range] per annum.",
+      "screen": "Text with tenure."
+     },
+     {
+      "t": "36-40 s",
+      "voice": "Wint Wealth download karo. Fixed returns guaranteed nahi hote.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "The tenure, payout schedule and minimum must be the same in voice, app screen and end card.",
+    "end_card": "One bond: rate, tenure and payout schedule as on the app that day; from [your minimum]; risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "App walkthrough scripts: pick a bond on screen in 30 seconds",
+    "persona": "Someone who installed after a second-income ad and has not bought yet.",
+    "why": "Product or app demo is open ground: 0 of your 19 bond videos and 0 of Stable Money's 8. Your ads already flash app lists; a walkthrough makes the list the point.",
+    "evidence_ads": [],
+    "format": "Screen recording with voice-over, vertical",
+    "length": "30 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "App download kar liya? Ab pehla bond chunte hain.",
+     "30 second, ek bond, teen cheezein.",
+     "Bond list mein kya dekhna hai?"
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Bond list on screen."
+     },
+     {
+      "t": "3-12 s",
+      "beat": "Mechanism",
+      "note": "Read rate, rating and tenure aloud for one row."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Proof",
+      "note": "Open the bond: issuer, secured tag, payout schedule, maturity date."
+     },
+     {
+      "t": "20-26 s",
+      "beat": "Offer",
+      "note": "Minimum on the buy screen."
+     },
+     {
+      "t": "26-30 s",
+      "beat": "Call to action",
+      "note": "Open the app; disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "App download kar liya? Ab pehla bond chunte hain.",
+      "screen": "Bond list."
+     },
+     {
+      "t": "3-12 s",
+      "voice": "Har row pe teen cheezein: rate, rating, tenure. Yeh wala: [rate], [rating], [tenure].",
+      "screen": "One row highlighted."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Kholo. Company kaun hai, secured hai ya nahi, interest kab aata hai, maturity kab hai.",
+      "screen": "Detail page fields in turn."
+     },
+     {
+      "t": "20-26 s",
+      "voice": "Minimum [your minimum].",
+      "screen": "Buy screen."
+     },
+     {
+      "t": "26-30 s",
+      "voice": "Wint Wealth kholo. Fixed returns guaranteed nahi hote.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Record on the day of the edit; every figure spoken must be on screen.",
+    "end_card": "\"Pehla bond, 3 cheezein dekho\", logo, risk line, broker strip.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   },
+   {
+    "title": "Founder-to-camera scripts: \"why we put our own money into every bond\"",
+    "label": "Recommendation: neither brand's sampled ads show a declared founder, so this is untested in this sample.",
+    "persona": "A saver weighing whether a bond platform has anything at stake when a company does not pay.",
+    "why": "Your site says your initial investment in each bond is at least 2%, and one sofa-couple ad says it in passing; no ad of either brand has its founder say it.",
+    "evidence_ads": [
+     "1122130514055415"
+    ],
+    "format": "Person to camera, office, one take, lower-third with name and role",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Main [founder name], Wint Wealth ka founder. Har bond mein hamara bhi paisa hota hai.",
+     "Agar company paisa na de, toh humara bhi jaata hai.",
+     "Ek bond platform ka apna kya daav pe hai?"
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "Name, role, the 2% fact."
+     },
+     {
+      "t": "3-14 s",
+      "beat": "Mechanism",
+      "note": "What \"at least 2% at the start\" means, and that it can change during the bond's term."
+     },
+     {
+      "t": "14-24 s",
+      "beat": "Problem",
+      "note": "It does not remove risk: default and delay are possible; fixed is not guaranteed."
+     },
+     {
+      "t": "24-32 s",
+      "beat": "Proof",
+      "note": "Where to read it: the site line and the bond document."
+     },
+     {
+      "t": "32-37 s",
+      "beat": "Offer",
+      "note": "From [your minimum], up to [your rate range]."
+     },
+     {
+      "t": "37-40 s",
+      "beat": "Call to action",
+      "note": "Read, then decide; disclaimer."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Main [founder name], Wint Wealth ka founder. Har bond mein shuru mein hamara bhi kam se kam 2% paisa hota hai.",
+      "screen": "Lower-third: [founder name], Founder, Wint Wealth."
+     },
+     {
+      "t": "3-14 s",
+      "voice": "Matlab company ne paisa nahi diya, toh nuksaan humara bhi. Yeh hissa bond ke dauran badal bhi sakta hai, yeh bhi likha hai.",
+      "screen": "Caption: \"Initial investment: at least 2%\" with the site's wording."
+     },
+     {
+      "t": "14-24 s",
+      "voice": "Iska matlab risk zero nahi hai. Delay ya default ho sakta hai, aur fixed returns guaranteed nahi hote.",
+      "screen": "Risk line on screen."
+     },
+     {
+      "t": "24-32 s",
+      "voice": "Har bond ka document app pe hai. Rating, secured hai ya nahi, tenure, sab padh ke lo.",
+      "screen": "App: document link."
+     },
+     {
+      "t": "32-37 s",
+      "voice": "[your minimum] se shuru, returns up to [your rate range] per annum.",
+      "screen": "Text with tenure."
+     },
+     {
+      "t": "37-40 s",
+      "voice": "Padho, phir decide karo.",
+      "screen": "End card plus disclaimer and broker strip."
+     }
+    ],
+    "on_screen": "Quote the 2% line exactly as the site states it, including that it may vary during the bond's term.",
+    "end_card": "Name and role, logo, from [your minimum], up to [your rate range] p.a. with tenure, risk line.",
+    "compliance": [
+     "Say \"up to\" before any rate, and put the tenure next to it: a rate on a card with no tenure reads as a promise.",
+     "Never \"guaranteed\", \"assured\" or plain \"safe\" for bonds. Both brands carry the line \"Fixed returns do not constitute guaranteed or assured returns\"; keep it on screen and in the voice-over tail.",
+     "Keep the credit, market and default risk line and the broker name and SEBI registration strip on every frame, as both brands do now.",
+     "Selling before maturity depends on a buyer and the rate on the day; say so wherever \"sell any time\" or \"withdraw\" appears.",
+     "DICGC cover of ₹5 lakh is for bank FDs, not bonds. Do not let FD safety lines drift into a bond script.",
+     "The minimum, rate and tenure spoken must match the bond shown on the app screen in the same ad."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against your current control ad",
+     "Click-through to the app store, and installs",
+     "First bond purchase within 7 days of install, and cost per first purchase",
+     "Comments asking the question the script answers (a sign the hook landed on the right worry)"
+    ]
+   }
   ]
  },
  "extras": {
   "source": "Read from each brand's ads by hand: products from the ad itself, series from title cards and captions, figures from speech, screens and end cards.",
-  "product_mix": {
-   "A": {"items": [["Fixed deposits", 11], ["FD-backed credit card", 9], ["Bonds", 8], ["Recurring deposit", 5]], "note": "Four products in 33 ads; the card ads all lean on 8 free lounge visits."},
-   "B": {"items": [["Bonds", 30]], "note": "One product in 30 ads, each showing \"11%\" on the end card or in the foot line."}
-  },
-  "series": {
-   "A": [
-    {"name": "Papa Explaining", "ads": ["1359085176241049", "1690045142234207", "2029258324332952", "2952841455054370", "2057230121811704", "2894685200924911"], "note": "A son asks \"Papa, ...\", Papa explains; same cast, product swapped between FD, bonds and RD."},
-    {"name": "Nani Tuitions", "ads": ["1098949122752977", "1115779077962422"], "note": "A grandmother learns to book an FD in the app; both ads launched on 2 November."}
-   ],
-   "B": [
-    {"name": "\"Only 10% of Indians know bonds\"", "ads": ["1577736273613796", "1139217318446573", "1065702466447240", "1608750657392609", "1868487757472978", "2876298779421455", "1822092442159366", "28133518736321882", "1122130514055415"], "note": "A recurring opening line, mostly captioned with a SEBI investor survey; no recurring characters."}
-   ]
-  },
   "contradictions": {
    "A": [
-    {"text": "Money invested: Nani Tuitions says \"11,000 crore\" over its own \"7,000 Cr+\" end card; six other videos say 7,000.", "ads": ["1115779077962422"]},
-    {"text": "Users: most end cards say 50 lakh; the podcast ad says 60 lakh in speech over a 50L+ end card.", "ads": ["2826793054387425"]},
-    {"text": "FD rate behind the lounge card: 8.5%, 8.10% and 8% across three presenter videos; one says 8% while its ad text says 8.5%.", "ads": ["1646669466828779", "1684487993244481", "1650915419954369"]},
-    {"text": "Lounge visits: 8 free in six videos and one image ad, 10 free in another image ad.", "ads": ["948406311403969"]},
-    {"text": "Bonds: \"9 to 12%\" in speech, while the app screen in the same Papa ad lists bonds at 8.00% to 9.75%.", "ads": ["1359085176241049"]}
+    {
+     "text": "Money invested: Nani Tuitions says \"11,000 crore\" over its own \"7,000 Cr+\" end card; six other videos say 7,000.",
+     "ads": [
+      "1115779077962422"
+     ]
+    },
+    {
+     "text": "Users: most end cards say 50 lakh; the podcast ad says 60 lakh in speech over a 50L+ end card.",
+     "ads": [
+      "2826793054387425"
+     ]
+    },
+    {
+     "text": "FD rate behind the lounge card: 8.5%, 8.10% and 8% across three presenter videos; one says 8% while its ad text says 8.5%.",
+     "ads": [
+      "1646669466828779",
+      "1684487993244481",
+      "1650915419954369"
+     ]
+    },
+    {
+     "text": "Lounge visits: 8 free in six videos and one image ad, 10 free in another image ad.",
+     "ads": [
+      "948406311403969"
+     ]
+    },
+    {
+     "text": "Bonds: \"9 to 12%\" in speech, while the app screen in the same Papa ad lists bonds at 8.00% to 9.75%.",
+     "ads": [
+      "1359085176241049"
+     ]
+    }
    ],
    "B": [
-    {"text": "Tenure: every end card says \"3 Month Tenure Bond\"; app lists in the same ads show 20 months and 18 months.", "ads": ["26996845726680317", "1577736273613796", "2292299894864285"]},
-    {"text": "Minimum: \"sirf 1000 rupay se\" spoken over an app list showing Min. 10k; other ads say 10,000.", "ads": ["1577736273613796"]},
-    {"text": "Payout: \"monthly interest\" on nine image ads and in three video ideas, on a 3 month bond; one app screen says interest quarterly.", "ads": ["1078474831621182", "2292299894864285"]},
-    {"text": "Rate: 11% on the card, 11.75% on one image ad, and 9 to 12% in speech and in every disclaimer.", "ads": ["1375574504560912", "1042794292127507"]},
-    {"text": "Exit: \"sell at any time, no questions asked\" against captions that a sale depends on a buyer.", "ads": ["2556193758207208", "1139217318446573"]}
+    {
+     "text": "Tenure: every end card says \"3 Month Tenure Bond\"; app lists in the same ads show 20 months and 18 months.",
+     "ads": [
+      "26996845726680317",
+      "1577736273613796",
+      "2292299894864285"
+     ]
+    },
+    {
+     "text": "Minimum: \"sirf 1000 rupay se\" spoken over an app list showing Min. 10k; other ads say 10,000.",
+     "ads": [
+      "1577736273613796"
+     ]
+    },
+    {
+     "text": "Payout: \"monthly interest\" on nine image ads and in three video ideas, on a 3 month bond; one app screen says interest quarterly.",
+     "ads": [
+      "1078474831621182",
+      "2292299894864285"
+     ]
+    },
+    {
+     "text": "Rate: 11% on the card, 11.75% on one image ad, and 9 to 12% in speech and in every disclaimer.",
+     "ads": [
+      "1375574504560912",
+      "1042794292127507"
+     ]
+    },
+    {
+     "text": "Exit: \"sell at any time, no questions asked\" against captions that a sale depends on a buyer.",
+     "ads": [
+      "2556193758207208",
+      "1139217318446573"
+     ]
+    }
    ]
   }
  }

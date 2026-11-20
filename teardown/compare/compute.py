@@ -3,6 +3,13 @@
 
 Usage:
   compute.py <research_dir_A> <research_dir_B> <out.json> [--snapshot YYYY-MM-DD] [--country IN] [--previous old.json]
+             [--sample-rule TEXT] [--products products.json] [--focus-product KEY] [--series series.json]
+
+--products: research/compare/<pair>/products.json ({"labels", "site", "ads": {library_id: product_key}}).
+--focus-product: restrict the 7-row map, table stakes and standouts to ads of this product_key on both sides
+  ("auto" picks the key present on both sides with the most ads). The full-sample rows are kept as rows_all.
+--series: research/compare/<pair>/series.json ({"A": [{"name", "ads", "note"}], "B": [...]}); falls back to
+  the "series" list in research/<brand>/extras.json.
 
 Reads per brand: ads.json, videos/<asset>/tags.json, videos/<asset>/metrics.json,
 videos/<asset>/transcript.json, statics/<library_id>.tags.json, optional tag_check.json.
@@ -34,6 +41,10 @@ LEAD_RATIO = 2       # share ratio for "Nx"
 STRONG_ADS, STRONG_IDEAS = 8, 3
 THIN_ADS = 4         # under this, or a single idea, is thin
 NOW_DAYS = 30
+SMALL_BASE = 10      # a medium total under this on either side caps evidence at moderate
+LEAN_DAYS = 30       # leaning score: one point per this many days of the longest-running ad
+LEAN_RECUT = 2       # leaning score: points per extra product or city an idea or series is re-cut for
+WORKHORSES = 5       # ideas listed per brand
 SAMPLE_RULE = ("Per brand, three Ad Library views, each sorted by the Library's total impressions, high to low: "
                "all ads, video only and image only, about 30 each, overlapping. The sample is the ads the Library "
                "ranks highest by impressions, with video and image each guaranteed a look.")
@@ -170,10 +181,10 @@ def status_for(a, b):
     return "neither", None, None
 
 
-def evidence_for(a, b):
+def evidence_for(a, b, small=False):
     side = a if a["n"] >= b["n"] else b
     if side["n"] >= STRONG_ADS and side["ideas"] >= STRONG_IDEAS:
-        return "strong"
+        return "moderate" if small else "strong"
     if side["n"] < THIN_ADS or side["ideas"] <= 1:
         return "thin"
     return "moderate"
@@ -253,6 +264,83 @@ def frames_for(rdir, ad):
     return frames
 
 
+def idea_names(rdir):
+    """Short names per idea from the table in research/<brand>/concepts.md (| XX-c01 | Short name | ...)."""
+    out = {}
+    p = Path(rdir) / "concepts.md"
+    if p.exists():
+        for line in p.read_text().splitlines():
+            m = re.match(r"^\|\s*([A-Za-z]+-c\d+)\s*\|\s*(.*?)\s*\|", line)
+            if m:
+                out[m.group(1)] = m.group(2)
+    return out
+
+
+def lean_score(n, versions, days, recuts):
+    """Public signals only: ads using the idea, extra versions, longest days live, products or cities re-cut for."""
+    return round(n + 0.5 * max(versions - n, 0) + (days or 0) / LEAN_DAYS + LEAN_RECUT * max(recuts - 1, 0), 2)
+
+
+def group_stats(ads, ids, products):
+    sel = [ads[i] for i in ids if i in ads]
+    keys = sorted({products.get(i, "unclear") for i in ids if i in ads})
+    cities = {a["tags"].get("city") for a in sel if a["tags"].get("city")}
+    recuts = max(len(keys), len(cities), 1)
+    longest = max(sel, key=lambda a: ((a["days"] or 0), a["versions"])) if sel else None
+    n, versions, days = len(sel), sum(a["versions"] for a in sel), max([a["days"] or 0 for a in sel] or [0])
+    return {"n": n, "versions": versions, "longest_days": days, "products": keys, "cities": len(cities),
+            "ideas": len({a["tags"].get("concept_id") for a in sel}), "score": lean_score(n, versions, days, recuts),
+            "lead_ad": next((i for i in ids if ads.get(i) is longest), None),
+            "rows": dict(Counter(a["row"] or "unclear" for a in sel)),
+            "media": dict(Counter(a["medium"] for a in sel))}
+
+
+def workhorses(ads, products, series, scope_ids=None):
+    """Rank ideas (concept_id) by leaning score; series scored the same way; concentration of the sample."""
+    pool = {k: a for k, a in ads.items() if scope_ids is None or k in scope_ids}
+    by_idea = defaultdict(list)
+    for k, a in pool.items():
+        by_idea[a["tags"].get("concept_id") or f"solo-{k}"].append(k)
+    ideas = []
+    for idea, ids in by_idea.items():
+        ids.sort(key=lambda i: (-(pool[i]["days"] or 0), -pool[i]["versions"]))
+        st = group_stats(pool, ids, products)
+        st.update({"idea": idea, "ad_ids": ids})
+        ideas.append(st)
+    ideas.sort(key=lambda x: (-x["score"], -x["n"], -x["longest_days"]))
+    total = len(pool) or 1
+    ser = []
+    for s in series or []:
+        ids = [i for i in s.get("ads", []) if i in pool]
+        if len(ids) < 2:
+            continue
+        st = group_stats(pool, ids, products)
+        st.update({"name": s.get("name"), "note": s.get("note", ""), "ad_ids": ids,
+                   "share": round(len(ids) / total, 4)})
+        ser.append(st)
+    ser.sort(key=lambda x: -x["score"])
+    return {
+        "n": len(pool), "ideas_total": len(ideas),
+        "top": ideas[:WORKHORSES],
+        "concentration": {"top1": round(sum(x["n"] for x in ideas[:1]) / total, 4),
+                          "top3": round(sum(x["n"] for x in ideas[:3]) / total, 4),
+                          "top1_n": sum(x["n"] for x in ideas[:1]), "top3_n": sum(x["n"] for x in ideas[:3])},
+        "series": ser,
+    }
+
+
+def standouts_lean(key, wh, ads, rdir, k=2):
+    """The brand's k highest-scoring video ideas in scope (frame by frame); images only if it has no video idea."""
+    vids = [x for x in wh["top"] if ads[x["lead_ad"]]["medium"] == "video"]
+    pool = (vids + [x for x in wh["top"] if x not in vids])[:k]
+    out = []
+    for x in pool:
+        a = ads[x["lead_ad"]]
+        out.append({"ad_id": x["lead_ad"], "row": a["row"], "idea": x["idea"], "score": x["score"],
+                    "why": "", "frames": frames_for(rdir, a)})
+    return out
+
+
 def standouts(key, other, rows, ads, rdir, k=2):
     cand = []
     for r in rows:
@@ -318,7 +406,14 @@ def main():
     ap.add_argument("--snapshot")
     ap.add_argument("--country", default="IN")
     ap.add_argument("--previous")
+    ap.add_argument("--sample-rule")
+    ap.add_argument("--products")
+    ap.add_argument("--focus-product")
+    ap.add_argument("--series")
     args = ap.parse_args()
+    prod_file = load_json(args.products, {}) if args.products else {}
+    products = prod_file.get("ads", prod_file) if prod_file else {}
+    series_file = load_json(args.series, {}) if args.series else {}
 
     brands, ads_all, uv, checks = {}, {}, {}, {}
     for key, d in (("A", args.dir_a), ("B", args.dir_b)):
@@ -352,16 +447,65 @@ def main():
             "top30_all": top30,
         }
 
-    rows = []
-    for rid, label, medium in ROWS:
-        a = row_stats(brands["A"], rid, meta_brands["A"][f"n_{medium}"])
-        b = row_stats(brands["B"], rid, meta_brands["B"][f"n_{medium}"])
-        status, lead, ratio = status_for(a, b)
-        rows.append({
-            "id": rid, "label": label, "medium": medium, "A": a, "B": b,
-            "status": status, "lead": lead, "ratio": ratio, "evidence": evidence_for(a, b),
-            "cards": {"A": cards_for(brands["A"], a["ad_ids"]), "B": cards_for(brands["B"], b["ad_ids"])},
-        })
+    for key in ("A", "B"):
+        for lid, a in brands[key].items():
+            a["product_key"] = products.get(lid) if products else None
+
+    def build_rows(sub, nmed):
+        out = []
+        for rid, label, medium in ROWS:
+            a = row_stats(sub["A"], rid, nmed["A"][medium])
+            b = row_stats(sub["B"], rid, nmed["B"][medium])
+            status, lead, ratio = status_for(a, b)
+            small = min(nmed["A"][medium], nmed["B"][medium]) < SMALL_BASE
+            out.append({
+                "id": rid, "label": label, "medium": medium, "A": a, "B": b,
+                "status": status, "lead": lead, "ratio": ratio, "evidence": evidence_for(a, b, small),
+                "small_base": small,
+                "cards": {"A": cards_for(sub["A"], a["ad_ids"]), "B": cards_for(sub["B"], b["ad_ids"])},
+            })
+        return out
+
+    full_n = {k: {"video": meta_brands[k]["n_video"], "image": meta_brands[k]["n_image"]} for k in ("A", "B")}
+    rows_all = build_rows(brands, full_n)
+
+    # products per brand, focus product
+    prod_counts = {k: dict(Counter(a["product_key"] or "unclear" for a in brands[k].values()).most_common())
+                   for k in ("A", "B")} if products else None
+    focus = None
+    if products and args.focus_product:
+        shared = [p for p in prod_counts["A"] if p in prod_counts["B"] and p != "unclear"]
+        fp = args.focus_product
+        if fp == "auto":
+            fp = max(shared, key=lambda p: prod_counts["A"][p] + prod_counts["B"][p]) if shared else None
+        if fp:
+            sub = {k: {l: a for l, a in brands[k].items() if a["product_key"] == fp} for k in ("A", "B")}
+            nmed = {k: {"video": sum(1 for a in sub[k].values() if a["medium"] == "video"),
+                        "image": sum(1 for a in sub[k].values() if a["medium"] == "image")} for k in ("A", "B")}
+            focus = {"key": fp, "label": (prod_file.get("labels") or {}).get(fp, fp.replace("_", " ").capitalize()),
+                     "shared": shared,
+                     "brands": {k: {"n": len(sub[k]), "n_video": nmed[k]["video"], "n_image": nmed[k]["image"],
+                                    "ideas": len({a["tags"].get("concept_id") for a in sub[k].values()})}
+                                for k in ("A", "B")},
+                     "sub": sub, "nmed": nmed}
+    rows = build_rows(focus["sub"], focus["nmed"]) if focus else rows_all
+
+    # workhorses: whole sample, focus product, and each other product
+    def brand_series(key, d):
+        s = (series_file or {}).get(key)
+        if s is None:
+            s = (load_json(Path(d) / "extras.json", {}) or {}).get("series", [])
+        return s or []
+    lean = {}
+    for key, d in (("A", args.dir_a), ("B", args.dir_b)):
+        ser = brand_series(key, d)
+        lean[key] = {"all": workhorses(brands[key], products, ser)}
+        if focus:
+            lean[key]["focus"] = workhorses(brands[key], products, ser, set(focus["sub"][key]))
+        if prod_counts:
+            lean[key]["by_product"] = {
+                p: workhorses(brands[key], products, ser, {l for l, a in brands[key].items() if a["product_key"] == p})
+                for p in prod_counts[key] if not focus or p != focus["key"]}
 
     now, launches = {}, {}
     for key in ("A", "B"):
@@ -386,20 +530,28 @@ def main():
     comp = {
         "meta": {
             "snapshot_date": snapshot, "country": args.country, "rules_version": "rows-v1",
-            "sample_rule": SAMPLE_RULE, "brands": meta_brands,
+            "sample_rule": args.sample_rule or SAMPLE_RULE, "brands": meta_brands,
             "tag_check": {"A": checks["A"], "B": checks["B"]},
             "thresholds": {"present": PRESENT, "lead_ratio": LEAD_RATIO, "strong_ads": STRONG_ADS,
-                           "strong_ideas": STRONG_IDEAS, "thin_ads": THIN_ADS, "now_days": NOW_DAYS},
+                           "strong_ideas": STRONG_IDEAS, "thin_ads": THIN_ADS, "now_days": NOW_DAYS,
+                           "small_base": SMALL_BASE},
         },
         "rows": rows,
+        "rows_all": rows_all if focus else None,
+        "focus": {k: v for k, v in focus.items() if k not in ("sub", "nmed")} if focus else None,
+        "products": {"counts": prod_counts, "labels": prod_file.get("labels") if prod_file else None,
+                     "site": prod_file.get("site") if prod_file else None} if products else None,
+        "lean": lean,
+        "idea_names": {k: idea_names(d) for k, d in (("A", args.dir_a), ("B", args.dir_b))},
+        "lean_rule": {"days_per_point": LEAN_DAYS, "recut_points": LEAN_RECUT, "small_base": SMALL_BASE},
         "table_stakes": [r["id"] for r in rows if r["status"] == "even"],
         "now": now,
         "launches": launches,
         "breakdowns": breakdowns,
         "pacing": {k: pacing(brands[k], uv[k]) for k in ("A", "B")},
         "standouts": {
-            "A": standouts("A", "B", rows, brands["A"], args.dir_a),
-            "B": standouts("B", "A", rows, brands["B"], args.dir_b),
+            k: standouts_lean(k, lean[k]["focus" if focus else "all"], brands[k], d)
+            for k, d in (("A", args.dir_a), ("B", args.dir_b))
         },
         "ads": {k: {f: v for f, v in a.items() if f not in ("metrics", "page_name")} for k, a in ads_all.items()},
         "rerun": None,
@@ -409,6 +561,8 @@ def main():
 
     Path(args.out).write_text(json.dumps(comp, indent=1, ensure_ascii=False))
     print(f"wrote {args.out}: A {meta_brands['A']['n']} ads, B {meta_brands['B']['n']} ads, snapshot {snapshot}")
+    if focus:
+        print(f"  focus product {focus['key']}: A {focus['brands']['A']['n']} ads, B {focus['brands']['B']['n']} ads")
     for r in rows:
         print(f"  {r['id']} {r['label']:<20} A {r['A']['n']:>2} ({r['A']['share']:.0%})  "
               f"B {r['B']['n']:>2} ({r['B']['share']:.0%})  {r['status']:<8} {r['evidence']}")

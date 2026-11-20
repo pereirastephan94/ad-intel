@@ -1,0 +1,134 @@
+{
+ "asset": "4228732240716423",
+ "first_seen_in": "962040276504976",
+ "duration_s": 28.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.3,
+   "why": "scene change"
+  },
+  {
+   "t": 10.7,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 17.5,
+   "why": "scene change"
+  },
+  {
+   "t": 20.3,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 22.9,
+   "why": "scene change"
+  },
+  {
+   "t": 25.8,
+   "why": "scene change"
+  },
+  {
+   "t": 28.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "یہ ہے, Atomberg's Interlorn Water Purifier, which has 2 years of no questions as warranty, 2 years of no-one has no AMC, just the ones who have a lot of charges, but my tech wife, his heart and his transparency is very good. Because not only does it have purification modes, it has control of mobile apps. In fact, you can get input TDS, filter, health, etc. and see all the data of water savings. It is not the time to do so much, which is doing it for Atomberg.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.4,
+    "text": "یہ ہے, Atomberg's Interlorn Water Purifier,"
+   },
+   {
+    "start": 2.4,
+    "end": 5.1,
+    "text": "which has 2 years of no questions as warranty,"
+   },
+   {
+    "start": 5.1,
+    "end": 8.5,
+    "text": "2 years of no-one has no AMC,"
+   },
+   {
+    "start": 8.5,
+    "end": 10.7,
+    "text": "just the ones who have a lot of charges,"
+   },
+   {
+    "start": 10.7,
+    "end": 12.1,
+    "text": "but my tech wife,"
+   },
+   {
+    "start": 12.1,
+    "end": 14.5,
+    "text": "his heart and his transparency is very good."
+   },
+   {
+    "start": 14.5,
+    "end": 16.5,
+    "text": "Because not only does it have purification modes,"
+   },
+   {
+    "start": 16.5,
+    "end": 17.7,
+    "text": "it has control of mobile apps."
+   },
+   {
+    "start": 17.7,
+    "end": 19.2,
+    "text": "In fact, you can get input TDS,"
+   },
+   {
+    "start": 19.2,
+    "end": 20.6,
+    "text": "filter, health, etc."
+   },
+   {
+    "start": 20.6,
+    "end": 22.7,
+    "text": "and see all the data of water savings."
+   },
+   {
+    "start": 22.7,
+    "end": 24.2,
+    "text": "It is not the time to do so much,"
+   },
+   {
+    "start": 24.2,
+    "end": 26,
+    "text": "which is doing it for Atomberg."
+   }
+  ]
+ }
+}

@@ -1,38 +1,55 @@
 # Rubric: is this comparison good enough to show a founder?
 
-Version 3 (19 Nov 2026). 17 lines, each scored 0, 1 or 2 (maximum 34).
-Ship at 30 or more, with no zero, and every GATE line at 2.
+Version 4 (20 Nov 2026). 19 lines in three groups, each line scored 0, 1 or 2.
+- **Useful** (lines 1 to 5) count double: a line scores 0, 2 or 4. Maximum 20.
+- **Correct** (lines 6 to 14) and **Context and craft** (lines 15 to 19) count once. Maximum 18 and 10.
+- Maximum 48. **Ship at 40 or more, with no zero, every GATE line at 2, and Useful at 18 of 20 or more.** An accurate page that does not tell the reader what to do, or gives the content team nothing to brief, cannot ship.
 This file is meant to grow: when a review finds a miss the rubric did not catch, add a line or sharpen one, and log it below.
+
+## Useful (x2)
 
 | # | Test | 0 | 1 | 2 |
 |---|---|---|---|---|
-| 1 | GATE First screen | Verdict or moves need scrolling on a 390 x 700 screen | Verdict visible, but moves or the toggle need a scroll | Header with sample and date, toggle, verdict and 2 to 4 ranked moves (text, Effort, Evidence, "See the ads") all visible; the first test may sit one tap away on a phone; the map (its header or the line above it) starts on screen |
-| 2 | Verdict sentence | Missing, vague, or describes each brand separately | Has a gap or an edge but not both, or lacks numbers, or runs over 30 words | 30 words or fewer, one gap and one edge named by map row, at least two "n of N" figures, none of them a share of a small base (line 17) |
-| 3 | GATE Evidence | Claims with no count or no link to the ads | Counts present, but some lack a denominator or a tap-through, or a tap lands on a row that does not hold the ads behind the figure | Every claim has n of N with its denominator, and one tap reaches the ads behind it |
-| 4 | GATE Honest limits | Reads as if it knows what works, or a banned performance word appears | Limits stated only in the method section, or the method describes a sample rule this run did not follow | Sample rule, snapshot date and "no spend or results are public" on the first screen; any part of the sample rule that failed on the night is stated where it bites (for example on the image rows); zero banned performance words; the founder rule appears wherever founders are mentioned |
-| 5 | Gap map | No per-row comparison | Map present, but rows or status do not follow the stated rules, or one medium is missing | All 7 rows, both media, status and evidence follow the stated thresholds, denominators given per medium |
-| 6 | Moves | Observations only | Moves present but missing a first test, effort or evidence label | Each move follows the wording rule: verb, row, rival n of N and idea count, one concrete first test, effort, evidence |
-| 7 | Confidence | No strength labels | Labels present but not computed by rule, or a thin row drives move 1 | Every row and move labelled by rule; no thin row is move 1 |
-| 8 | Not generic | The verdict or a move survives the swap test | One move survives the swap test | The verdict and every move are false for any other pair of brands |
-| 9 | Fair both ways | Only what the reader lacks | Edge mentioned, but with weaker evidence than the gaps, or a move praises the rival for something its own ads contradict | Edge in the verdict, at least one move builds on it, table stakes shown, and the toggle gives the other brand a distinct and correct verdict |
-| 10 | Now vs always | No time view | Launch dates shown but not read | Ads launched in the last 30 days that made the sample are listed by row and read in one line per brand |
-| 11 | Visual proof on a phone | Text only, or horizontal scroll at 390 px | Stills present but unpaired, a chart unreadable at 390 px, or unfinished marks: truncated brand names, "0 ads, 0d" in place of "no ads", bars drawn for zero, a chart with a single bar per brand, an empty block that only says "none" | Paired stills per row, every row legible at 390 px, nothing looks unfinished, page self-contained (no external calls after open except the font stylesheet) |
-| 12 | Craft depth | Summaries of ads only | Scripts present, but standouts chosen without a stated rule, a standout's printed reason is false, a standout is a single image, or its frames are near-duplicates | Exact opening lines and scripts for every ad; frame by frame for 2 standouts per brand chosen by the stated rule, with distinct frames and a reason that matches the numbers |
-| 13 | Accuracy | Errors found in the spot check | Tag agreement not reported, or one minor error found | Tag agreement reported; 6 claims checked, at least 2 of them figures quoted inside moves, each traced to an ad in the row the move names; row counts add up to the medium totals |
-| 14 | India read | No mention of language, timing or destination | One of the three covered, or a festival linked to launch dates without checking the date | Language mix split by medium (video speech is not image text), launch timing with dates checked against the festival calendar, and destination type, each in one line; where a dimension is identical for both brands, one line saying so is enough |
-| 15 | Leader language | Visible jargon a founder would not use (for example DCO, UTM, tercile, concept_id, WPM) | One or two jargon terms visible | No jargon in visible text: say "versions" not DCO, "idea" not concept, "campaign tag" not UTM, "words a minute" not WPM, "image ad" not static |
-| 16 | What they sell and say | Product mix not shown | Product mix shown only deep in the page, or series and self-contradictions missing | One line on or next to the first screen says what each brand advertises, with ad counts; recurring series are named; up to 5 figures each brand's own ads contradict are listed with links to the ads |
-| 17 | Small bases | A share of a medium total under 10 drives the verdict or a move | Small bases shown as shares, or shaded like full bases, but not used for a claim | Under 10 ads of a medium on either side: counts not shares, no shading, a visible note, and no claim rests on the share |
+| 1 | GATE Monday answer on the first screen | No plan, or the plan needs scrolling to begin | Verdict and Focus visible, but Start needs a scroll, or Focus lacks its evidence | On 390 x 700: header with sample and date, toggle, verdict, Focus with its reason and evidence, and every Start title with its evidence chip; Stop or fix begins on screen; reasons and first tests at most one tap away |
+| 2 | GATE Action plan | Observations, or moves that only say "fill a row" | Focus, Start and Stop present, but an item lacks a first test, effort or evidence label, or the evidence label does not follow its basis | One Focus not on thin evidence, 2 to 3 Start, 1 to 2 Stop or fix; each with a reason in n of N, a first test, effort, an evidence label by rule and a link to the ads; at least one item builds on the reader's own workhorse or edge and one answers the rival's workhorse; items link to the script direction they need |
+| 3 | GATE Script directions | None, or generic advice ("make engaging content") | Directions named, but some lack a full script, a persona, an exact opening line, or use figures neither brand states | 4 to 6 per reader, each one line a head of marketing can say to the team; persona; why, with the rival's or own evidence; format and length; 2 or more exact opening lines in the category's language mix (Roman script for Hinglish); beats with timings; one full 30 to 45 s script; on-screen and end-card notes; the category's compliance watch-outs; what to measure; unknown figures as [placeholders]; founder-led directions labelled a recommendation; copyable |
+| 4 | GATE Workhorse recognition | Ads counted per row only | Series or long-running ideas named, but not ranked by a stated rule, or concentration missing | Ideas ranked by a stated score from public signals (ads, versions, days live, products or cities re-cut for); concentration as top 1 and top 3 shares; series named with ads, versions, longest days and products; stills and opening lines; the caveat that long life and versions are a sign of continued spend, not of results, wherever leaning is shown; the verdict or plan uses it |
+| 5 | GATE Like for like by product | Different products compared as if the same | Products split, but not checked against the brands' websites, or the other products dropped | Each brand's products read from its own site (site.md with date, URLs, exact claims, failed pages listed); the map compares one product both advertise; the rest summarised per brand with its workhorse; products on the site but in no sampled ad listed; where no product is shared, the page says so |
 
-Banned performance words (line 4): works, winning, winner, best-performing, top-performing, converts, effective, successful, profitable, ROI, ROAS, scaling. "Top" is allowed only as "top by Library impressions" or "top 30".
+## Correct (x1)
 
-## Review procedure (12 minutes)
+| # | Test | 0 | 1 | 2 |
+|---|---|---|---|---|
+| 6 | Verdict sentence | Missing, vague, or describes each brand separately | Has a gap or an edge but not both, lacks numbers, or runs over 30 words | 30 words or fewer; names the product compared; one gap and one edge (a row, an idea or a series); at least two n of N figures, none a share of a small base |
+| 7 | GATE Evidence | Claims with no count or no link to the ads | Counts present, but some lack a denominator or a tap-through, or a tap lands on ads that do not hold the figure | Every claim has n of N with its denominator, and one tap reaches the ads behind it |
+| 8 | GATE Honest limits | Reads as if it knows what works, or a banned performance word appears | Limits stated only in the method section, or the method describes a sample rule the run did not follow | Sample rule, snapshot date and "no spend or results are public" on the first screen; failed parts of the sample stated where they bite; the leaning caveat beside every workhorse view; zero banned performance words; the founder rule wherever founders appear |
+| 9 | Gap map | No per-row comparison | Rows or status do not follow the stated rules, or one medium is missing | All 7 rows for the focus product, both media, status and evidence by the stated thresholds, denominators per medium |
+| 10 | Confidence and small bases | No strength labels, or a share of a base under 10 drives a claim | Labels present but not by rule, or small bases shaded like full ones | Every row and plan item labelled by rule; under 10 ads of a medium on either side: counts, no shading, a note, evidence at most moderate; a zero base reads "none" |
+| 11 | Not generic | The verdict, Focus or a script direction survives the swap test | One plan item or direction survives it | Verdict, every plan item and every script direction are false for any other pair of brands |
+| 12 | Fair both ways | Only what the reader lacks | Edge mentioned with weaker evidence than the gaps, or a plan item praises the rival for something its own ads contradict | Edge in the verdict, at least one plan item builds on it, table stakes shown, and the toggle gives the other brand a distinct and correct verdict, plan and scripts |
+| 13 | Accuracy | Errors found in the spot check | Tag agreement not reported, or one minor error found | Tag agreement reported; 8 claims checked (both verdicts, two plan figures traced to an ad in the named row, idea or series, two script facts traced to the brand's own ads or site, one map row, one contradiction); row counts add up |
+| 14 | Self-contradictions | Not shown | Shown only deep in the page or without links | Up to 5 figures per brand that its own ads (or ads against its site) contradict, each linked to the ads, and at least one Stop or fix item built on them |
 
-1. Minutes 0 to 1: open the page at 390 px width. Read only the first screen. Write down the verdict and move 1 in your own words, and what each brand sells. Score lines 1, 2 and 16.
-2. Minutes 1 to 3: run the swap test on the verdict and each move. Search the page for the banned performance words and the jargon list. Score lines 4, 6, 7, 8 and 15.
-3. Minutes 3 to 7: check 6 claims (one from each verdict, two figures quoted inside moves, one map row, one contradiction). For each move figure, find the ad that says it and confirm it sits in the row the move names. Check one quoted line against the transcript and that row counts add up. Look at every medium total under 10. Score lines 3, 5, 13 and 17.
-4. Minutes 7 to 9: flip the toggle. Check the other brand's verdict and moves are distinct and correct; check the edge and table stakes, and that no move praises the rival for a figure its own ads contradict. Read Now vs always and the India lines; check any festival against its date. Score lines 9, 10 and 14.
-5. Minutes 9 to 12: open two row folds, one standout and the dark theme. Confirm the selection rule is stated and the standout's reason matches the map. Look for unfinished marks (line 11). Check for horizontal scroll and that the page works offline once loaded. Score lines 11 and 12. Total, and log any miss the rubric did not catch.
+## Context and craft (x1)
+
+| # | Test | 0 | 1 | 2 |
+|---|---|---|---|---|
+| 15 | Now vs always | No time view | Launch dates shown but not read | Recent ads that made the sample listed by row and read in one line per brand |
+| 16 | India read | None of language, timing, destination | One covered, or a festival linked to dates without checking | Language split by medium, timing with dates checked against the festival calendar, destination; identical dimensions in one line |
+| 17 | Visual proof on a phone | Text only, or horizontal scroll at 390 px | Stills unpaired, a chart unreadable, or unfinished marks (truncated names, "0 of 0", bars for zero, one-bar charts) | Paired stills, every row and script table legible at 390 px, nothing unfinished, self-contained apart from the font stylesheet |
+| 18 | Craft depth | Summaries only | Standouts without a stated rule, a false reason, a single image, or near-duplicate frames | Opening lines and scripts for every ad; frame by frame for each brand's two highest-scoring video workhorses, distinct frames, a reason that matches the numbers |
+| 19 | Leader language | Visible jargon (DCO, UTM, tercile, concept_id, WPM, static) | One or two terms | None: "versions", "idea", "campaign tag", "words a minute", "image ad" |
+
+Banned performance words (line 8): works, winning, winner, best-performing, top-performing, converts, effective, successful, profitable, ROI, ROAS, scaling. "Top" is allowed only as "top by Library impressions" or "top 30".
+
+## Review procedure (15 minutes)
+
+1. Minutes 0 to 2: open the page at 390 px. Read only the first screen. Write down, in your own words, what you would do on Monday and why. If you cannot, lines 1 and 2 are at most 1. Score lines 1, 2 and 6.
+2. Minutes 2 to 5: open What they lean on. Check the score rule is printed, the concentration figures, the series, and the caveat. Open What each one sells: check each site claim against site.md and one product count against products.json. Score lines 4 and 5.
+3. Minutes 5 to 8: open two script directions. Ask: could a content lead brief a shoot from this alone? Check the full script length, the opening lines, the placeholders, the compliance notes, the founder label. Trace two script facts to the brand's own ads or site. Score line 3.
+4. Minutes 8 to 11: swap test on the verdict, Focus and each direction. Search for banned words and jargon. Check 8 claims as line 13 lists. Look at every medium total under 10. Score lines 7 to 11, 13 and 14.
+5. Minutes 11 to 13: flip the toggle; check the other plan and scripts are distinct and correct. Read Now vs always and the India lines. Score lines 12, 15 and 16.
+6. Minutes 13 to 15: open two row folds, a standout and the dark theme; check for horizontal scroll and offline. Score lines 17 to 19. Total, check the ship rule, and log any miss the rubric did not catch.
 
 ## Change log
 - v1 (19 Nov 2026): first version, written before any comparison was built.
@@ -48,4 +65,13 @@ Banned performance words (line 4): works, winning, winner, best-performing, top-
   - Line 14 re-checked as the v2 to-do asked: useful, not padding. The timing line carried the sharpest fact about the rival (20 of 30 launched on two days), but it said "around Diwali" for 7 October, a month early, and the language line counted image text with video speech. Sharpened to check festival dates and split language by medium; identical dimensions take one line.
   - Row thresholds re-checked (see COMPARE_SPEC.md, "Status and evidence rules"): kept for video; small bases need their own rule.
   - Procedure lengthened to 12 minutes for the extra checks. Maximum 34, ship at 30.
-- To do: put the small-base status and evidence cap into compute.py; run a tag check (n_checked, agreement) for each brand so line 13 can reach 2; prefer two video standouts per brand when the brand has two present video rows.
+- v4 (20 Nov 2026), after the owner's review of the Stable Money vs Wint Wealth page failed it although it scored 28 of 30 on v2. His words, in short: one creative or series can carry a brand (Papa Explaining); compare only the same product, checked against the websites, and summarise the rest; there is no clear actionable; give the content team script directions. What v3 missed, and the fix:
+  - It scored accuracy and layout, not usefulness. New group Useful (lines 1 to 5), counted double, with its own ship threshold (18 of 20) and all five as gates, so an accurate page with no plan or scripts cannot ship.
+  - Moves that "fill a row" passed line 6. Replaced by line 2, an action plan (Focus, Start, Stop or fix) whose items may build on or answer a workhorse, not only a row.
+  - Rows hid workhorses: Papa Explaining (6 ads, three products, 200 days) and Wint Wealth's second-income video (6 ads, 11 versions). New line 4.
+  - The map compared Stable Money's FDs, card, RD and bonds with Wint Wealth's bonds. New line 5: like for like by product, checked against each website.
+  - Nothing for the content team. New line 3: script directions specific enough to brief, with a full script each.
+  - Lines 7 and 17 (v3) merged into line 10; line 16 (v3) split: self-contradictions became line 14, product mix moved into line 5; line 13 now checks 8 claims including plan and script facts.
+  - Maximum 48, ship at 40 with Useful at 18 or more. Procedure 15 minutes.
+- Done in v4: the small-base evidence cap is now in compute.py.
+- To do: run a tag check (n_checked, agreement) for each brand so line 13 can reach 2; try the leaning score weights on Cult.fit vs Fitelo (a sale-led category where city re-cuts matter) before trusting them; have a native Hinglish copywriter read the draft scripts; when the pair shares no product, decide what the like-for-like map becomes.
