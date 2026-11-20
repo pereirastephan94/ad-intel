@@ -30,7 +30,7 @@ The machine text has errors; fixes are from the captions in the frames or from s
 | 55.6-56.6 | Apply now. |
 
 ## First 3 seconds
-0 s: bald, bearded man in glasses mid-speech, no text. 0.5 s: caption "we need to create". 1 s: "1 million" in a green box. 2 s: crowded street, "country". 3 s: black-and-white market sellers, "We're at 100,000" in big yellow. Speech from 0 s; text on screen by 0.5 s. Hook: a jobs statistic. School and programme not named yet.
+0 s: bald, bearded man in glasses mid-speech, no text. 0.5 s: caption "we need to create". 1 s: "1 million" in a green box. 2 s: crowded street, "country". 3 s: black-and-white market sellers, "We're at 100,000" in big yellow. Speech from 0 s; text on screen by 0.5 s. Hook: a jobs statistic.
 
 ## Person on screen
 Two unlabelled men carry the speech; no caption, lower-third or ad text names or labels either. Clip 1 (0 to 1 s): bald, beard, rimless glasses, blue-black check shirt, clip-on mic, gesturing, eyes slightly off the lens. Clip 2 (about 29 to 35 s, 50 s): long dark hair, metal glasses, navy polo, watch, clasped hands, looking to one side, not at the lens. Students and staff in b-roll are unlabelled.

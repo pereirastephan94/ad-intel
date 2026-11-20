@@ -30,7 +30,7 @@ Machine text has errors; fixes come from captions and sound sense, marked [?] wh
 | 57.2-63 | If I was a student in a new age MBA college, like an SSB today, I do think that exposure would have helped. |
 
 ## First 3 seconds
-0 s: bald, bearded man in glasses and a navy check shirt in a classroom with a green SSB wall, caption "If". 0.5 s: "If I was a student". 1 s: event b-roll, "in a new". 2 s: lecture b-roll with a banner "IN CONVERSATION WITH SHANTANU DESHPANDE", "college". 3 s: back to the speaker, SSB logo beside "like an". Text from 0 s; SSB said at about 3.5 s. Hook: a hypothetical "If I was a student".
+0 s: bald, bearded man in glasses and a navy check shirt in a classroom with a green SSB wall, caption "If". 0.5 s: "If I was a student". 1 s: event b-roll, "in a new". 2 s: lecture b-roll with a banner "IN CONVERSATION WITH SHANTANU DESHPANDE", "college". 3 s: back to the speaker, SSB logo beside "like an". Text from 0 s; SSB said at about 3.5 s. Hook: a hypothetical.
 
 ## Person on screen
 No caption or lower-third labels the speaker. He says "when I started Bombay Shaving Company", a different company, so he is not declared an SSB founder. The banner name in b-roll is never tied to him by the ad; nothing is taken from his face. Apparent 40s, calm, small gestures, eyes mostly just off the lens. B-roll people are unlabelled.

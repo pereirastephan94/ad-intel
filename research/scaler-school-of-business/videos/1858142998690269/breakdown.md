@@ -3,7 +3,7 @@
 - Product or programme: "PGP in Management & Tech" (end card); ad text "MBA-equivalent PGP"; not named aloud
 - Length, shape: 56.8 s, square 1:1 (720 x 720); some b-roll sits in a 16:9 band with blurred bars
 - Language: Hinglish
-- Format: seated talking head to camera, cut with b-roll
+- Format: seated talking head with b-roll
 - Ads using it: 3, earliest start 2026-11-19, total copies 5; links:
   - https://www.facebook.com/ads/library/?id=1171956518634001
   - https://www.facebook.com/ads/library/?id=1158472623424651
@@ -26,10 +26,10 @@ Clean transcript to 24 s, then junk; from 24 s lines come from the raw pass and 
 | 51-56.8 | Silent end card. | |
 
 ## First 3 seconds
-0 s: man seated in a tan collared jacket, white tee, gold pendant, yellow-tinted rimless glasses, plain backdrop with a green shape, no text. 0.5 s: "Yaar ek". 1 s: "Yaar ek baat". 2 s: "Yaar ek baat batata hun." 3 s: TV-style pitch set, caption "INVESTING". Text by 0.5 s; he speaks to the lens. Hook: a friendly "let me tell you something". School named at about 18 s.
+0 s: man seated in a tan collared jacket, white tee, gold pendant, yellow-tinted rimless glasses, plain backdrop with a green shape, no text. 0.5 s: "Yaar ek". 1 s: "Yaar ek baat". 2 s: "Yaar ek baat batata hun." 3 s: TV-style pitch set, caption "INVESTING". Text by 0.5 s; he speaks to the lens. Hook: "let me tell you something". School named at about 18 s.
 
 ## Person on screen
-No caption, lower-third or ad text names or labels him. He says he invests "in Shark Tank or hiring", so he plays an investor and employer, but the ad gives no name or role. Apparent 30s to 40s, styled hair, goatee, earring, gestures a lot. Eyes to the lens at 0 to 22 s; in a side-angle shot (38 to 48 s) he looks left. A graphic at 30 s reads "FOUNDING [partly hidden] LEADER" beside an Uber logo over a man in a pink polo.
+No caption, lower-third or ad text names or labels him. He says he invests "in Shark Tank or hiring", so he plays an investor and employer, but the ad gives no name or role. Apparent 30s to 40s, goatee, earring, gestures a lot. Eyes to the lens at 0 to 22 s; in a side shot (38 to 48 s) he looks left. A graphic at 30 s reads "FOUNDING [partly hidden] LEADER" beside an Uber logo over a man in a pink polo.
 
 ## Setting, framing and look
 Seated medium shot, lit, graded, two angles. B-roll: Shark Tank-style pitches (3 s, no credit), a classroom talk, a student pitch (26.6 s).

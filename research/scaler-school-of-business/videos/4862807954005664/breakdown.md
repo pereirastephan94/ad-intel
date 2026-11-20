@@ -3,7 +3,7 @@
 - Product or programme: "PGP in Management & Tech" (end card); voice says "SSB MBA student"; ad text "MBA-equivalent PGP"
 - Length, shape: 15.3 s, vertical 9:16 (720 x 1280); split screen from 2 s; classroom clip at 11.7 s sits in a window with black bars
 - Language: Hinglish
-- Format: event clip with voiceover and captions
+- Format: event clip with voiceover
 - Ads using it: 3, earliest start 2026-11-19, total copies 5; links:
   - https://www.facebook.com/ads/library/?id=1124686257016435
   - https://www.facebook.com/ads/library/?id=2072772623441868
@@ -22,10 +22,10 @@ Speakers not assigned. The second line is garbled in both machine passes; the ca
 | 14.4-15.3 | End card, silent. | |
 
 ## First 3 seconds
-0 s: man in a tan collared jacket and tinted glasses, outdoors by a wall; name card "Anupam Mittal". 0.5 s: captions "My team", huge green "fund", "will". 1 s: "My team fund will you". 2 s: split screen, "₹50 Lakh mein" above young men under a blue tent. 3 s: white flash with "Anupam". Text at 0 s and 0.5 s; speech from 0 s. Hook: pitch-scene dialogue. SSB said at about 5.5 s.
+0 s: man in a tan jacket and tinted glasses outdoors; name card "Anupam Mittal". 0.5 s: captions "My team", huge green "fund", "will". 1 s: "My team fund will you". 2 s: split screen, "₹50 Lakh mein" above young men under a blue tent. 3 s: white flash with "Anupam". Text at 0 s; speech from 0 s. Hook: pitch-scene dialogue. SSB said at 5.5 s.
 
 ## Person on screen
-The card says only "Anupam Mittal", no role. At 5.3 s it becomes "Anupam / Mittal / at SSB", so the ad links him to SSB but never says what he does there. Apparent 40s to 50s, tinted glasses, earring, tan jacket, grey tee; looks to one side, never at the lens. His outfit looks the same as the man in 1858142998690269, which names nobody, so that link rests on clothing only. The students are unlabelled; no caption points to the "SSB MBA student".
+The card says only "Anupam Mittal", no role. At 5.3 s it becomes "Anupam / Mittal / at SSB", so the ad links him to SSB but never says what he does there. Apparent 40s to 50s, tinted glasses, earring, tan jacket, grey tee; looks to one side, never at the lens. His outfit looks the same as the man in 1858142998690269, which names nobody, so that link rests on clothing only. The students are unlabelled.
 
 ## Setting, framing and look
 Outdoor corridor; students under a blue tent; classroom clip at 11.7 s with a slide "Team Formation Rules". Edited event footage, graded.

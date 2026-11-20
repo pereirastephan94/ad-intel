@@ -3,7 +3,7 @@
 - Product or programme: "PGP in Management & Tech" (end card); ad text "MBA-equivalent PGP"; not named aloud
 - Length, shape: 42.3 s, square 1:1 (720 x 720)
 - Language: English
-- Format: interview talking head with caption-led b-roll and a lower-third
+- Format: interview talking head with b-roll and a lower-third
 - Ads using it: 3, earliest start 2026-11-13, total copies 5; links:
   - https://www.facebook.com/ads/library/?id=2559185667923714
   - https://www.facebook.com/ads/library/?id=3476645972514831
@@ -30,7 +30,7 @@ Machine text; doubtful words [?]. Speakers not assigned. Caption at 17.7 s says 
 | 37.4-42.3 | End card. |
 
 ## First 3 seconds
-0 s: man in a dark linen shirt, black and white, hands moving, no text. 0.5 s: caption "By month 3 / at SSB" above an empty green bar. 1 s: the bar fills with a lower-third "STEPHAN PEREIRA" (name only, no role). 2 s: "you'll have more experience". 3 s: "than most". Text by 0.5 s; speech from 0 s, "SSB" said at about 2 s. Hook: a timed claim of more experience than most MBA graduates.
+0 s: man in a dark linen shirt, black and white, hands moving, no text. 0.5 s: caption "By month 3 / at SSB" above an empty green bar. 1 s: the bar fills with a lower-third "STEPHAN PEREIRA" (name only, no role). 2 s: "you'll have more experience". 3 s: "than most". Text by 0.5 s; speech from 0 s, "SSB" said at about 2 s. Hook: a timed claim.
 
 ## Person on screen
 Named by caption only as "STEPHAN PEREIRA"; no role, so the ad does not say founder, faculty or student. Apparent 30s, short dark hair and beard, dark brown linen button-up, smart watch, lively gestures. He looks to one side of the lens (off-camera interviewer), not at it. B-roll people are unlabelled, including a grey-haired man with a lanyard captioned "from McKinsey," (29.2 s).
