@@ -3,9 +3,16 @@
 
 Usage:
   compute.py <research_dir_A> <research_dir_B> <out.json> [--snapshot YYYY-MM-DD] [--country IN] [--previous old.json]
-             [--sample-rule TEXT] [--products products.json] [--focus-product KEY] [--series series.json]
+             [--sample-rule TEXT] [--sample-short TEXT] [--sample-order impressions|default]
+             [--products products.json] [--focus-product KEY] [--series series.json]
 
---products: research/compare/<pair>/products.json ({"labels", "site", "ads": {library_id: product_key}}).
+--sample-rule: the full sample rule, printed in the method section. Say what the run did, not what was planned.
+--sample-short: the few words after "<A> n ads, <B> n:" on the first screen (default: the impressions wording).
+--sample-order: "impressions" (default) when the Library views were sorted by total impressions; "default" when
+  they were taken in the Library's own unsorted order. With "default" the page never says "top by impressions".
+
+--products: research/compare/<pair>/products.json ({"labels", "site", "ads": {library_id: product_key}},
+  optional "cities": {library_id: "city or centre named in the ad"}, counted as re-cuts in the leaning score).
 --focus-product: restrict the 7-row map, table stakes and standouts to ads of this product_key on both sides
   ("auto" picks the key present on both sides with the most ads). The full-sample rows are kept as rows_all.
 --series: research/compare/<pair>/series.json ({"A": [{"name", "ads", "note"}], "B": [...]}); falls back to
@@ -284,7 +291,7 @@ def lean_score(n, versions, days, recuts):
 def group_stats(ads, ids, products):
     sel = [ads[i] for i in ids if i in ads]
     keys = sorted({products.get(i, "unclear") for i in ids if i in ads})
-    cities = {a["tags"].get("city") for a in sel if a["tags"].get("city")}
+    cities = {a.get("city") for a in sel if a.get("city")}
     recuts = max(len(keys), len(cities), 1)
     longest = max(sel, key=lambda a: ((a["days"] or 0), a["versions"])) if sel else None
     n, versions, days = len(sel), sum(a["versions"] for a in sel), max([a["days"] or 0 for a in sel] or [0])
@@ -407,6 +414,8 @@ def main():
     ap.add_argument("--country", default="IN")
     ap.add_argument("--previous")
     ap.add_argument("--sample-rule")
+    ap.add_argument("--sample-short")
+    ap.add_argument("--sample-order", choices=["impressions", "default"], default="impressions")
     ap.add_argument("--products")
     ap.add_argument("--focus-product")
     ap.add_argument("--series")
@@ -447,9 +456,11 @@ def main():
             "top30_all": top30,
         }
 
+    cities = prod_file.get("cities") or {} if prod_file else {}
     for key in ("A", "B"):
         for lid, a in brands[key].items():
             a["product_key"] = products.get(lid) if products else None
+            a["city"] = cities.get(lid) or a["tags"].get("city")
 
     def build_rows(sub, nmed):
         out = []
@@ -530,7 +541,11 @@ def main():
     comp = {
         "meta": {
             "snapshot_date": snapshot, "country": args.country, "rules_version": "rows-v1",
-            "sample_rule": args.sample_rule or SAMPLE_RULE, "brands": meta_brands,
+            "sample_rule": args.sample_rule or SAMPLE_RULE, "sample_order": args.sample_order,
+            "sample_short": args.sample_short or ("the ones the Ad Library ranks highest by impressions"
+                                                  if args.sample_order == "impressions" else
+                                                  "the first the Ad Library shows in its default order"),
+            "brands": meta_brands,
             "tag_check": {"A": checks["A"], "B": checks["B"]},
             "thresholds": {"present": PRESENT, "lead_ratio": LEAD_RATIO, "strong_ads": STRONG_ADS,
                            "strong_ideas": STRONG_IDEAS, "thin_ads": THIN_ADS, "now_days": NOW_DAYS,

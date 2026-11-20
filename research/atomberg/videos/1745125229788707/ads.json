@@ -1,0 +1,36 @@
+[
+ {
+  "library_id": "1324690546431376",
+  "link": "https://www.facebook.com/ads/library/?id=1324690546431376",
+  "page_id": "761127860687721",
+  "page_name": "Atomberg Technologies",
+  "is_active": true,
+  "start_date": "2026-06-05",
+  "days_running": 168,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "https://atomberg.com/pedestal-fans?utm_source=fb&utm_medium=paid&utm_campaign=ET-Fans-035-MOF-VideoViewers-Focused-Locations-Purchase&utm_term=035_AS07_PedestalVideoViewers_Retargeting_Broad_PurchaseFans&utm_content=Fans_TPWE_PedestalFan_035_AS07_CategoryPage_Arpita_ProductVideo_Hindi",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNB1lCJxjLH53KFBwKFiE6Lvgy27SiDaI2N2BSMTv-CI9b1nod8R381kYyFpF_uS63MvOTwGbpWqLSfN-q03ZLZRrP4h1xj6gScSrACZs5Fvw.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=i8WZgfXlHn4Q7kNvwFOF0Ri&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NDUxMjUyMjk3ODg3MDcsImFzc2V0X2FnZV9kYXlzIjoyMjYsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=45dfd44e7bd940cc&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85NDQ3MzFENjJEQTBGRDAzNUExNTZEOThDMkRENkE5RF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhCNEVDRkJCOEU1QkEwOURFNDAxRDVGQzMyNDczMDkxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbG-MeW1MuZBhUCKAJDMywXQESzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=a6y6xkM7BNjG9JxXaIzDNg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTGAvXYVqjC-5zAl9TrjrC-B2PNCKEUAfxeabQgigfulQ&oe=6B05630F",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/662821204_950827057306965_9150357326590050752_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xmaMnaSqEL0Q7kNvwGd7uI2&_nc_oc=Adp5MUf-eocZjjFd7Z7Fc1FSUWL9yYlLt2u9-Gg-Gvtap-2JPH_ZmsRP9YKhTIOi_tc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=a6y6xkM7BNjG9JxXaIzDNg&_nc_ss=7b289&oh=00_AQSWL-8TfIzwt0jT6jT81uVBXaFt5ILyx85Rlfayg8i6jg&oe=6B054FAD",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Brand"
+   ]
+  },
+  "sample_views": {
+   "all": 29
+  },
+  "video_asset": "1745125229788707"
+ }
+]

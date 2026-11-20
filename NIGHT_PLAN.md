@@ -103,3 +103,9 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
 - Comparison 2 (Cult.fit vs Fitelo): an Opus agent is building it end to end and writing teardown/COMPARE_RUNBOOK.md. Output: <scratch>/pages/cult-fit-vs-fitelo/index.html. Publish it when the agent reports (Artifact tool, icon "chart").
 - From now on each comparison = one Opus agent following teardown/COMPARE_RUNBOOK.md, after both brands have write-ups, concepts.md and extras.json.
 - Atomberg: 30 ads pulled; metrics and transcripts running; next: 2 Sonnet write-up agents + concept pass (which also writes extras.json).
+
+## Added 00:45 UTC 20 Nov: after a machine restart
+- A restart kills every background job and agent but keeps the repo and the scratchpad. After any restart: (1) start rr-pull.sh again
+  (list now: "Scaler School of Business" "Qubo" "CaratLane" "DailyObjects|Daily Objects" "Atomberg" "Cult.fit" "Fitelo" "Stable Money" "Wint Wealth"),
+  (2) resume stopped agents with SendMessage to their id, telling them files survived, (3) rerun any prepare/retranscribe job that was mid-way.
+- Running now: rr-pull (9 brands), Atomberg prepare + retranscribe, Opus agent ac14419b734d5d33e on comparison 2.

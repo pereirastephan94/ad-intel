@@ -1,0 +1,153 @@
+{
+ "labels": {
+  "cultpass_elite": "cultpass ELITE (gyms and classes)",
+  "cult_membership": "Cult gym and classes, no pass named",
+  "cultpass_play": "cultpass PLAY (sports)",
+  "cultpass_pro": "cultpass PRO (gyms)",
+  "home_workouts": "Home workouts (cultpass HOME)",
+  "weight_loss_coaching": "Weight-loss coaching",
+  "smart_scale": "Smart scale",
+  "body_map_review": "BodyMap review",
+  "health_plans": "PCOS, thyroid and diabetes plans"
+ },
+ "site": {
+  "fetched": "2026-11-20",
+  "A": [
+   {
+    "key": "cultpass_elite",
+    "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹31,790 in Amritsar",
+    "url": "https://www.cult.fit/fitness"
+   },
+   {
+    "key": "cult_membership",
+    "claim": "No product of this name; group classes come with ELITE or PRO, and the site offers a free trial",
+    "url": "https://www.cult.fit/fitness",
+    "status": "unclear"
+   },
+   {
+    "key": "cultpass_play",
+    "claim": "In the menu under Sports; the page needs a browser and did not load, so no price was read",
+    "url": "https://www.cult.fit/play",
+    "status": "not_read"
+   },
+   {
+    "key": "cultpass_pro",
+    "claim": "Gyms plus 2 group classes a month; offer: 2 months free and ₹1,600 off; no price read",
+    "url": "https://www.cult.fit/fitness"
+   },
+   {
+    "key": "home_workouts",
+    "claim": "cultpass HOME from ₹108 a month (24 months ₹2,599)",
+    "url": "https://www.cult.fit/fitness/cultpass-live"
+   },
+   {
+    "key": "weight_loss_coaching",
+    "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; offer: ₹1,100 gift card and 1.5 months free; no price read",
+    "url": "https://www.cult.fit/fitness"
+   }
+  ],
+  "B": [
+   {
+    "key": "weight_loss_coaching",
+    "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read",
+    "url": "https://fitelo.co/"
+   },
+   {
+    "key": "smart_scale",
+    "claim": "\"A scale that reads more than weight\"; store page did not load, no price on fitelo.co",
+    "url": "https://fitelo.co/"
+   },
+   {
+    "key": "body_map_review",
+    "claim": "BodyMap test, \"100+ parameters\", listed as included in the app; no ₹199 price on the pages read",
+    "url": "https://fitelo.co/"
+   },
+   {
+    "key": "health_plans",
+    "claim": "PCOS, thyroid, diabetes, after pregnancy, menopause and weight gain programmes",
+    "url": "https://fitelo.co/services/plans-overview/"
+   }
+  ]
+ },
+ "ads": {
+  "1529622859191185": "cult_membership",
+  "1583453076375971": "cult_membership",
+  "2348546639313061": "cult_membership",
+  "1131711099318475": "cult_membership",
+  "1088664397267392": "cult_membership",
+  "986842284018835": "cultpass_elite",
+  "2404800830259411": "cult_membership",
+  "1645883207287485": "cultpass_elite",
+  "1153711787290276": "cultpass_elite",
+  "1440279738302594": "cultpass_elite",
+  "2056660201685004": "cultpass_elite",
+  "997032080107644": "cultpass_elite",
+  "1114356351358840": "cultpass_elite",
+  "4606351752947622": "cult_membership",
+  "1644460903932522": "cultpass_elite",
+  "1142965181654720": "cultpass_elite",
+  "28835523932756470": "cult_membership",
+  "1652879219724213": "cultpass_elite",
+  "1182726674293191": "cultpass_elite",
+  "1665600734881123": "cultpass_play",
+  "1126343416846783": "cultpass_play",
+  "2555329068326204": "cultpass_play",
+  "2958662064496104": "cultpass_play",
+  "1844076343579583": "cultpass_play",
+  "3294825420716053": "cultpass_play",
+  "1601836728299392": "cultpass_play",
+  "1763133728096239": "cultpass_elite",
+  "1088984333744777": "cultpass_elite",
+  "1950951139220699": "cultpass_elite",
+  "2127525884795681": "cultpass_play",
+  "2941541369549817": "smart_scale",
+  "1912200749756133": "weight_loss_coaching",
+  "2996269977403566": "weight_loss_coaching",
+  "1685798322850756": "weight_loss_coaching",
+  "1777858350163803": "weight_loss_coaching",
+  "4723519161196734": "weight_loss_coaching",
+  "995872249468747": "weight_loss_coaching",
+  "1836729131107152": "weight_loss_coaching",
+  "1017982897981736": "weight_loss_coaching",
+  "1116659684664030": "weight_loss_coaching",
+  "1130303452837399": "weight_loss_coaching",
+  "1711017009950319": "weight_loss_coaching",
+  "1033007776294158": "smart_scale",
+  "2190284715234477": "weight_loss_coaching",
+  "1129807916396583": "weight_loss_coaching",
+  "925451983928233": "smart_scale",
+  "2166915778033433": "weight_loss_coaching",
+  "2219477718950780": "weight_loss_coaching",
+  "2148142946075233": "weight_loss_coaching",
+  "1130206799365682": "weight_loss_coaching",
+  "4832221937013486": "weight_loss_coaching",
+  "1577870316987974": "weight_loss_coaching",
+  "1637013901394490": "weight_loss_coaching",
+  "1620379199757741": "weight_loss_coaching",
+  "2605110029938293": "body_map_review",
+  "1550858456795923": "weight_loss_coaching",
+  "2008324226545509": "smart_scale",
+  "915290991413947": "body_map_review",
+  "1146824311226546": "weight_loss_coaching",
+  "1449280067157528": "weight_loss_coaching",
+  "29321645884190090": "weight_loss_coaching",
+  "970142368900928": "weight_loss_coaching",
+  "926250147231507": "smart_scale",
+  "1461564966113780": "weight_loss_coaching"
+ },
+ "cities": {
+  "2404800830259411": "Mall Road, Amritsar",
+  "1142965181654720": "Mall Road, Amritsar",
+  "1763133728096239": "Mall Road, Amritsar",
+  "1645883207287485": "VIP Road",
+  "1088984333744777": "VIP Road",
+  "1114356351358840": "Indore",
+  "4606351752947622": "Prahlad Nagar",
+  "1652879219724213": "Prahlad Nagar",
+  "1644460903932522": "Indira Nagar",
+  "28835523932756470": "Chandigarh",
+  "1182726674293191": "Neo Gym",
+  "1950951139220699": "Impackt Fitness Kondapur, Hyderabad"
+ },
+ "_note": "Product per ad drafted by teardown/compare/products.py with product_rules.json, checked against research/<brand>/concepts.md (Products advertised). site from research/<brand>/site.md. cities: the place named in each ad's own text (Cult.fit re-sends one film per centre)."
+}

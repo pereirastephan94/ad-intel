@@ -69,6 +69,87 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh sa ki aap jaante ho, humari har mein hi koshish rahe the ki parents ke khad jaaye. To kuch aisa zarur karein, jisme mummy papa ki life asaan ho. Aap jaante hi humne last month smart lock lagwaye hai, CCTV lagwaye hai, ek aacha TV gift kiya. To jaisa aap logon ne dekha hoga, humne apne Gurgaon wale ghar mein remote wale fan use karke. On-off ka chanjat khatam kardaya tha, but yaha par mummy papa abhi bhi manually fan operate kar rahe hain. Aur humare tarah kabhi kabhi on-off mein lad bhi jaate hain. To hunke liye Atomberg ka smart BLDC pankha bhi mangwale yeh, jo 2-3 din mein aage ya. फिर मम्मी नहीं खुशी से अनबॉक्सिंग करी और देखते देखते कुछी मिन्ट में इसली इस्टाल हो गया. देखिये अब मम्मी पापा दोनों ही बिना प्रॉलॉंग के बस बैटे बैटे अपनी जगा से, रेमोट से ही फैन आउन आउफ कर सकते हैं आप भी कर के देखो अच्छा लगेगा अब देखो कितना अच्छा लग रहा हैं पेरेंट्स को तो कभी किसी चीज़ की जरूद परती ही नहीं यह उनके बच्चे ही होते हैं जो उनकी जरूदों को ख्याल रखते हैं",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 3.6,
+    "text": "Yeh sa ki aap jaante ho, humari har mein hi koshish rahe the ki parents ke khad jaaye."
+   },
+   {
+    "start": 3.6,
+    "end": 6.4,
+    "text": "To kuch aisa zarur karein, jisme mummy papa ki life asaan ho."
+   },
+   {
+    "start": 6.4,
+    "end": 10.5,
+    "text": "Aap jaante hi humne last month smart lock lagwaye hai, CCTV lagwaye hai, ek aacha TV gift kiya."
+   },
+   {
+    "start": 10.5,
+    "end": 14.8,
+    "text": "To jaisa aap logon ne dekha hoga, humne apne Gurgaon wale ghar mein remote wale fan use karke."
+   },
+   {
+    "start": 14.8,
+    "end": 19.8,
+    "text": "On-off ka chanjat khatam kardaya tha, but yaha par mummy papa abhi bhi manually fan operate kar rahe hain."
+   },
+   {
+    "start": 19.8,
+    "end": 22.8,
+    "text": "Aur humare tarah kabhi kabhi on-off mein lad bhi jaate hain."
+   },
+   {
+    "start": 22.8,
+    "end": 27.0,
+    "text": "To hunke liye Atomberg ka smart BLDC pankha bhi mangwale yeh, jo 2-3 din mein aage ya."
+   },
+   {
+    "start": 27.0,
+    "end": 31.7,
+    "text": "फिर मम्मी नहीं खुशी से अनबॉक्सिंग करी और देखते देखते कुछी मिन्ट में इसली इस्टाल हो गया."
+   },
+   {
+    "start": 31.7,
+    "end": 35.5,
+    "text": "देखिये अब मम्मी पापा दोनों ही बिना प्रॉलॉंग के बस बैटे बैटे अपनी जगा से,"
+   },
+   {
+    "start": 35.5,
+    "end": 37.5,
+    "text": "रेमोट से ही फैन आउन आउफ कर सकते हैं"
+   },
+   {
+    "start": 37.5,
+    "end": 38.9,
+    "text": "आप भी कर के देखो अच्छा लगेगा"
+   },
+   {
+    "start": 38.9,
+    "end": 40.3,
+    "text": "अब देखो कितना अच्छा लग रहा हैं"
+   },
+   {
+    "start": 40.3,
+    "end": 42.7,
+    "text": "पेरेंट्स को तो कभी किसी चीज़ की जरूद परती ही नहीं"
+   },
+   {
+    "start": 42.7,
+    "end": 44.3,
+    "text": "यह उनके बच्चे ही होते हैं"
+   },
+   {
+    "start": 44.3,
+    "end": 46.1,
+    "text": "जो उनकी जरूदों को ख्याल रखते हैं"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "جیسا کہ آپ جانتے ہیں ہماری ہر میں نہیں کوشیش رہی کی پیرٹس کے ہر جائیں تو کچھ ایسا ضرور کریں جس میں ممیپاپا کی لائی فاصان ہو آپ جانتے ہیں ہم نے last میں this smart log like ay cctv like ay ke acha tv gift کیا تو جیسا آپ لوگوں نے دیکھا ہوگہ ہم نے اپنے گرنان والے گھر میں remote والے fan use کر کے on of ko janjat khatam qadiyata but yaha but mami baba abhi bhi manoli fan operate کر رہے ہیں اور ہماری طرق کبھی کبھی on of male lalbi",
   "segments": [

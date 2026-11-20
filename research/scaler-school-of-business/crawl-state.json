@@ -1,0 +1,18 @@
+{
+ "done": [],
+ "total": null,
+ "log": [],
+ "keywordsQueued": true,
+ "queue": [
+  {
+   "media": "all"
+  },
+  {
+   "media": "video"
+  },
+  {
+   "media": "image"
+  }
+ ],
+ "stage": 1
+}

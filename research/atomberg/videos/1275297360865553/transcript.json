@@ -69,6 +69,62 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yaroot ke fan ka speed badha do? Mai nahi kar raha hai yaar. Aisa hai na, baat mit karna mugsar. Roos ki chhoti si fan wali jig jig dekh ke, maine sochha ho gaya aap bhot. Aur do din pehli maine fan order kar diya the, jo ki atomberg ka hai aur aaj install bhi ho raha hai. Isme boost time aur sleep jaise kaafi modes hai. Dekhi yeh remote wala fan hi nahi, jisse aap bina hote control kar sakto. Jisse aap on off karne ki ladai to khatam hogi hi hogi, but aap ke liye bhi bhot useful hai. Aur iski best cheez kyunki isme BLDC motor hai, yeh saal mein kuch 1500 rupay bacha leta hai. Long run में तो आप इसको सच्मे फरी ही समझो।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "Yaroot ke fan ka speed badha do?"
+   },
+   {
+    "start": 2.0,
+    "end": 3.0,
+    "text": "Mai nahi kar raha hai yaar."
+   },
+   {
+    "start": 3.0,
+    "end": 5.0,
+    "text": "Aisa hai na, baat mit karna mugsar."
+   },
+   {
+    "start": 5.0,
+    "end": 8.0,
+    "text": "Roos ki chhoti si fan wali jig jig dekh ke, maine sochha ho gaya aap bhot."
+   },
+   {
+    "start": 8.0,
+    "end": 12.0,
+    "text": "Aur do din pehli maine fan order kar diya the, jo ki atomberg ka hai aur aaj install bhi ho raha hai."
+   },
+   {
+    "start": 12.0,
+    "end": 14.0,
+    "text": "Isme boost time aur sleep jaise kaafi modes hai."
+   },
+   {
+    "start": 14.0,
+    "end": 17.0,
+    "text": "Dekhi yeh remote wala fan hi nahi, jisse aap bina hote control kar sakto."
+   },
+   {
+    "start": 17.0,
+    "end": 21.0,
+    "text": "Jisse aap on off karne ki ladai to khatam hogi hi hogi, but aap ke liye bhi bhot useful hai."
+   },
+   {
+    "start": 21.0,
+    "end": 26.0,
+    "text": "Aur iski best cheez kyunki isme BLDC motor hai, yeh saal mein kuch 1500 rupay bacha leta hai."
+   },
+   {
+    "start": 26.0,
+    "end": 28.2,
+    "text": "Long run में तो आप इसको सच्मे फरी ही समझो।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "kaya root ke fan ka jepeed bagidao mani garvayar vasayodah camouflage cdos ki sóti oc</i*** fann value jig prati iphan उनरे एर्प जलिगषारेु लिवा Стोए Puisभीण ब यपपकजं ईपदर षे मि्ञिती सियनद्मुईगा दील पाऴर् सेपकषरेती सुज pierwsze विल साीपट प каб phones यसाची बोग के बिसाची ख़ पिसकोए प्ररर वर विनिभाँ नयीिं जले विप के weekly",
   "segments": [

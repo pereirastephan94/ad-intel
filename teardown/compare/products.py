@@ -10,8 +10,10 @@ case-insensitive, whole words where the keyword is short. The default rules cove
 pass --rules for another category (for example gym_pass, sports_pass, diet_plan).
 
 Ads that match no rule get "unclear" and are printed. Edit the file by hand afterwards; compute.py reads it.
-If <out> already exists, its "labels" and "site" blocks are kept and only "ads" is redrafted.
+If <out> already exists, its "labels", "site" and "cities" blocks are kept and only "ads" is redrafted.
 The "site" block (what each brand sells on its own website) is written by hand from research/<brand>/site.md.
+The optional "cities" block ({library_id: "city or centre"}) is written by hand from the ad text, for brands that
+re-send one film per city or centre; compute.py counts these as re-cuts in the leaning score.
 """
 import argparse
 import json
@@ -68,6 +70,8 @@ def main():
     prev = load(args.out, {}) or {}
     out = {"labels": prev.get("labels") or {k: DEFAULT_LABELS.get(k, k.replace("_", " ").capitalize()) for k in rules},
            "site": prev.get("site") or {"A": [], "B": []}, "ads": {}}
+    if prev.get("cities"):
+        out["cities"] = prev["cities"]
     for d in (args.dir_a, args.dir_b):
         rdir = Path(d)
         for lid, ad in (load(rdir / "ads.json", {}) or {}).items():

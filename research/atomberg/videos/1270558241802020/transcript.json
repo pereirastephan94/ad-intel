@@ -65,6 +65,52 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Mein hindi ka kuda RO water purifier vartana ra? Kaani kada oka chinna question, asal meikku continue ka RO aavsaram hain? Kaani gurthu betkundi, TDS okkate water quality ni decide jayal. Akkade ye atomberg inta lanu meku use hotu hindi. Indu launana adaptive flow technology mein hindi ka chit water quality ni detect jayasi dhani ki taggattu ka sarayana purification path ni automatica choose chaustu hain. Pratisari RO ni use chaikunna, aavsaram hundapada matrami RO ni use chaustu hain. दिन तो अन्नेस्तरी आरू यूसिज्ट तग देखन्ते दाम लो अलागे वेस्टेज वाटर तग देखन्ते दाम लो अनको फिल्टर लाइप पन्ते दाम लो चाला वर्को लेप रहते हैं।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.3,
+    "text": "Mein hindi ka kuda RO water purifier vartana ra?"
+   },
+   {
+    "start": 2.3,
+    "end": 6.0,
+    "text": "Kaani kada oka chinna question, asal meikku continue ka RO aavsaram hain?"
+   },
+   {
+    "start": 6.0,
+    "end": 9.3,
+    "text": "Kaani gurthu betkundi, TDS okkate water quality ni decide jayal."
+   },
+   {
+    "start": 9.3,
+    "end": 12.1,
+    "text": "Akkade ye atomberg inta lanu meku use hotu hindi."
+   },
+   {
+    "start": 12.1,
+    "end": 16.1,
+    "text": "Indu launana adaptive flow technology mein hindi ka chit water quality ni detect jayasi"
+   },
+   {
+    "start": 16.1,
+    "end": 20.0,
+    "text": "dhani ki taggattu ka sarayana purification path ni automatica choose chaustu hain."
+   },
+   {
+    "start": 20.0,
+    "end": 24.2,
+    "text": "Pratisari RO ni use chaikunna, aavsaram hundapada matrami RO ni use chaustu hain."
+   },
+   {
+    "start": 24.2,
+    "end": 32.2,
+    "text": "दिन तो अन्नेस्तरी आरू यूसिज्ट तग देखन्ते दाम लो अलागे वेस्टेज वाटर तग देखन्ते दाम लो अनको फिल्टर लाइप पन्ते दाम लो चाला वर्को लेप रहते हैं।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "te",
   "text": "thirsty because water purifier is not more water than means butslow question continue our solution But wet BigQuery母 うとれる water quality东西と砕まわる تجينclock کہpurmagar ratio sesimgar ghee Nehwagamayur",
   "segments": [
