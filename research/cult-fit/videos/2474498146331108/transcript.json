@@ -1,0 +1,66 @@
+{
+ "asset": "2474498146331108",
+ "first_seen_in": "1644316817619217",
+ "duration_s": 23.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.5,
+   "why": "scene change"
+  },
+  {
+   "t": 11.5,
+   "why": "scene change"
+  },
+  {
+   "t": 12.6,
+   "why": "scene change"
+  },
+  {
+   "t": 13.1,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 15.3,
+   "why": "scene change"
+  },
+  {
+   "t": 23.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "It's always fun to try new formats.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 23.4,
+    "text": "It's always fun to try new formats."
+   }
+  ]
+ }
+}

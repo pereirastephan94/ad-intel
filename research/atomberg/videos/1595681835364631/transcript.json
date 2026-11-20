@@ -69,6 +69,97 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Dekhi aapke ghar ka water source hameisha same ho, zarudi nahi. Society mein municipal supply hoti hai. Lekin garmi mein tanker ya borewell water use ho sakta hai. Aur monsoon mein water quality badal sakti hai. Phir aapka purifier har pani ko same tarikaya se kyun treat kare? Unnecessary RO use se pani mein minerals kam ho sakte hai. Pani waste hota hai aur maintenance cost badati hai. Atomberg Intelon ek adaptive RO hai jo source water ke hisaap se purification select karta hai. लोड टीडियस वाटर हो तो यूवी प्लस यूफ और हाय टीडियस वाटर या हैवी मेटल का रिसक हो तो � aR0 प्लस यूवी मतलब जैसा पानी वैसी प्यूरिफिकेशन इससे मिनेरल रेतेन रहते हैं और फिल्टर की लाइफ एक्स्टेंड हो सकती है मेंटेनेस में भी सेम लोजिक है। पहले दो साल नो सर्विस कौस्ट वारंटी है। और आट साल में मेंटेनेस पर लगबबग पच्छिस हजार तक की सेविंग हो सकती है। तो प्यूरिफिकेशन भी जरूत के इसाब से और मेंटेनेस भी।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Dekhi aapke ghar ka water source hameisha same ho, zarudi nahi."
+   },
+   {
+    "start": 3.4,
+    "end": 5.7,
+    "text": "Society mein municipal supply hoti hai."
+   },
+   {
+    "start": 5.7,
+    "end": 8.9,
+    "text": "Lekin garmi mein tanker ya borewell water use ho sakta hai."
+   },
+   {
+    "start": 8.9,
+    "end": 11.4,
+    "text": "Aur monsoon mein water quality badal sakti hai."
+   },
+   {
+    "start": 11.4,
+    "end": 15.0,
+    "text": "Phir aapka purifier har pani ko same tarikaya se kyun treat kare?"
+   },
+   {
+    "start": 15.0,
+    "end": 18.4,
+    "text": "Unnecessary RO use se pani mein minerals kam ho sakte hai."
+   },
+   {
+    "start": 18.4,
+    "end": 21.2,
+    "text": "Pani waste hota hai aur maintenance cost badati hai."
+   },
+   {
+    "start": 21.2,
+    "end": 26.4,
+    "text": "Atomberg Intelon ek adaptive RO hai jo source water ke hisaap se purification select karta hai."
+   },
+   {
+    "start": 26.4,
+    "end": 29.1,
+    "text": "लोड टीडियस वाटर हो तो यूवी प्लस यूफ"
+   },
+   {
+    "start": 29.1,
+    "end": 33.7,
+    "text": "और हाय टीडियस वाटर या हैवी मेटल का रिसक हो तो � aR0 प्लस यूवी"
+   },
+   {
+    "start": 33.7,
+    "end": 35.8,
+    "text": "मतलब जैसा पानी वैसी प्यूरिफिकेशन"
+   },
+   {
+    "start": 35.8,
+    "end": 37.6,
+    "text": "इससे मिनेरल रेतेन रहते हैं"
+   },
+   {
+    "start": 37.6,
+    "end": 39.9,
+    "text": "और फिल्टर की लाइफ एक्स्टेंड हो सकती है"
+   },
+   {
+    "start": 39.9,
+    "end": 41.5,
+    "text": "मेंटेनेस में भी सेम लोजिक है।"
+   },
+   {
+    "start": 41.5,
+    "end": 43.9,
+    "text": "पहले दो साल नो सर्विस कौस्ट वारंटी है।"
+   },
+   {
+    "start": 43.9,
+    "end": 48.4,
+    "text": "और आट साल में मेंटेनेस पर लगबबग पच्छिस हजार तक की सेविंग हो सकती है।"
+   },
+   {
+    "start": 48.4,
+    "end": 51.4,
+    "text": "तो प्यूरिफिकेशन भी जरूत के इसाब से और मेंटेनेस भी।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "دیکھی آپ کے گھر کا water source ہمے شہ سے مو ضروری نہیں سو سیٹی میں مینسپل سپلائی ہوتی ہے لیکن گرمی میں تنکر یا بوروال water use ہو سکھا اور مون سون میں water quality بلسکتی ہے پھر آپ کا purifier ہر پانی کو same tary gizakyu treat کرے unnecessary RO use سے پانی میں minerals کم ہو سکھتے ہیں پانی waste ہوتا ہے اور maintenance cost burti ہے atombug intelon ایک adaptive RO جو source water ke hisaap se purification select karta low dd s water ho to UV plus UF or higher td s water or heavy metal ka risk ho to RO plus UV مدلت جیسا پانی waste purification اسے minerals retain rhat and filter ki life extent ho sqt hai maintenance may be same rojik hai taira dosaal no service cost war anti hai aur 8 salm maintenance per lakbh pachis hazard taki saving ho sqt hai to purification be",
   "segments": [

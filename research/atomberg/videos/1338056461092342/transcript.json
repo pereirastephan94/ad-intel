@@ -69,6 +69,47 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Chatni besne Atomberg ka chikna mixer lai, chamkeela mixer lai. Dhakar theek lagwa ke chod kar, woh hi texture pae, sil batte ka yeh upae ghar pe. Aane do mummy ji ko ab to kyunki chopper jar base mein samae. मम्मी जींगी सेवा करने को जो इतने पापड बेले रह जाउगी अब यही पे घर तुमारे घर वो बोले देदे उनके घर के लिए भी मिकसर गिफ्स के रैपर में मंदवा के रे वरना रख देंगी अपनी भी चटैनी विसा के रे",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 7.5,
+    "text": "Chatni besne Atomberg ka chikna mixer lai, chamkeela mixer lai."
+   },
+   {
+    "start": 7.5,
+    "end": 16.7,
+    "text": "Dhakar theek lagwa ke chod kar, woh hi texture pae, sil batte ka yeh upae ghar pe."
+   },
+   {
+    "start": 16.7,
+    "end": 24.8,
+    "text": "Aane do mummy ji ko ab to kyunki chopper jar base mein samae."
+   },
+   {
+    "start": 24.8,
+    "end": 30.2,
+    "text": "मम्मी जींगी सेवा करने को जो इतने पापड बेले"
+   },
+   {
+    "start": 30.2,
+    "end": 35.8,
+    "text": "रह जाउगी अब यही पे घर तुमारे घर वो बोले"
+   },
+   {
+    "start": 35.8,
+    "end": 43.6,
+    "text": "देदे उनके घर के लिए भी मिकसर गिफ्स के रैपर में मंदवा के रे"
+   },
+   {
+    "start": 43.6,
+    "end": 51.4,
+    "text": "वरना रख देंगी अपनी भी चटैनी विसा के रे"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "چھٹھنی پیس نے اٹمبرگ کا چکنا میکسر لائے چھمکی لامیکسر لائے ہو دھکنی تیکلگ وانکے چھوڑ کر وہ ہی تکش کر پائے سلمتے کہای ہو پائے گھر پے آنے دو ممیجی کو اب دو کیوں کی چاپر جار بھیس میں سمائے ممیجی کی سے وقر نے کو جو اتنے پاپڑ بھیلے پر جاغوں گی اب یہی پے گھر تمارے گھر وہ بولے دے دے انکے گھر کے لیے بھی میکسر لگیف سے کہ رہ پر میں مندو آکے رے برنا رکھ دیں گی اپنے بھی چھٹھنی بیگھ آکے رے",
   "segments": [

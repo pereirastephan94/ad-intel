@@ -4,8 +4,9 @@
 Usage:
   compute.py <research_dir_A> <research_dir_B> <out.json> [--snapshot YYYY-MM-DD] [--country IN] [--previous old.json]
              [--sample-rule TEXT] [--sample-short TEXT] [--sample-order impressions|default]
-             [--products products.json] [--focus-product KEY] [--series series.json]
+             [--products products.json] [--focus-product KEY] [--series series.json] [--name-a NAME] [--name-b NAME]
 
+--name-a, --name-b: the brand names to print, when the Library page name differs (Cult.fit's page is "cult").
 --sample-rule: the full sample rule, printed in the method section. Say what the run did, not what was planned.
 --sample-short: the few words after "<A> n ads, <B> n:" on the first screen (default: the impressions wording).
 --sample-order: "impressions" (default) when the Library views were sorted by total impressions; "default" when
@@ -415,6 +416,8 @@ def main():
     ap.add_argument("--previous")
     ap.add_argument("--sample-rule")
     ap.add_argument("--sample-short")
+    ap.add_argument("--name-a")
+    ap.add_argument("--name-b")
     ap.add_argument("--sample-order", choices=["impressions", "default"], default="impressions")
     ap.add_argument("--products")
     ap.add_argument("--focus-product")
@@ -439,7 +442,7 @@ def main():
     for key, d in (("A", args.dir_a), ("B", args.dir_b)):
         ads = brands[key]
         page = load_json(Path(d) / "page.json", {}) or {}
-        name = page.get("name") or next((a["page_name"] for a in ads.values() if a.get("page_name")), key)
+        name = (args.name_a if key == "A" else args.name_b) or page.get("name") or next((a["page_name"] for a in ads.values() if a.get("page_name")), key)
         nv = sum(1 for a in ads.values() if a["medium"] == "video")
         ni = len(ads) - nv
         top = [a for a in ads.values() if a["sample_views"] and a["sample_views"].get("all")]

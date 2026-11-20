@@ -2,25 +2,39 @@
  "done": [
   {
    "media": "all"
+  },
+  {
+   "media": "video"
+  },
+  {
+   "media": "image"
   }
  ],
  "total": null,
  "log": [
   "2026-11-20T00:32:44.937Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T00:32:44.938Z stopping after 1 view(s) as asked",
-  "2026-11-20T00:32:44.938Z PAUSED: 0 unique ads of ~null"
+  "2026-11-20T00:32:44.938Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T00:49:47.427Z view {\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T00:49:47.432Z stopping after 1 view(s) as asked",
+  "2026-11-20T00:49:47.433Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T01:54:01.829Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T01:54:01.832Z stopping after 1 view(s) as asked",
+  "2026-11-20T01:54:01.832Z PAUSED: 0 unique ads of ~null"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "media": "video"
-  },
-  {
-   "media": "image"
-  },
-  {
    "media": "all",
-   "retry": 1
+   "retry": 3
+  },
+  {
+   "media": "video",
+   "retry": 3
+  },
+  {
+   "media": "image",
+   "retry": 3
   }
  ],
  "stage": 1

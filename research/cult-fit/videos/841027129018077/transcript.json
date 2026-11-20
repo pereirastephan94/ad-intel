@@ -1,0 +1,232 @@
+{
+ "asset": "841027129018077",
+ "first_seen_in": "1428286499400835",
+ "duration_s": 70.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 12,
+   "why": "scene change"
+  },
+  {
+   "t": 29.8,
+   "why": "scene change"
+  },
+  {
+   "t": 35.7,
+   "why": "scene change"
+  },
+  {
+   "t": 36.1,
+   "why": "scene change"
+  },
+  {
+   "t": 37.2,
+   "why": "scene change"
+  },
+  {
+   "t": 40.4,
+   "why": "scene change"
+  },
+  {
+   "t": 46.9,
+   "why": "scene change"
+  },
+  {
+   "t": 50.7,
+   "why": "scene change"
+  },
+  {
+   "t": 55.2,
+   "why": "scene change"
+  },
+  {
+   "t": 57.1,
+   "why": "scene change"
+  },
+  {
+   "t": 70.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Smod & A-TEM, Coffee & Thandi Ho To-P V-Time Calibal, My Mind is in the Mind Warm Life is a full body workout But honestly, I want to be a bit more actual I have been wanting to get back to sickness But honestly, the part of our traditional gym was a bit intimidating That's why I decided to finally check out Kali Today, I'm Kali's friend plus group workout A little bit nervously Let's see how group workout is Just people like you Moves, walking professionals, big nurse All showing up and giving it their best The best part You don't have to figure it out alone The trainer corrected my posture without making me feel like a total newbie It's not about being the best It's about just showing up Plus, everyone cheers for you It's like a little fitness community I get the hype now Cult is not intimidating Friendly and the most successful is a single member's gym Multiple formats A stretch, dance, yoga With your mood So, if you're in the mood and you're waiting Just join with your kids So don't wait Just come as you are Enjoy your time in the group workout",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3,
+    "text": "Smod & A-TEM, Coffee & Thandi Ho To-P"
+   },
+   {
+    "start": 3,
+    "end": 5.7,
+    "text": "V-Time Calibal, My Mind is in the Mind"
+   },
+   {
+    "start": 5.7,
+    "end": 8.3,
+    "text": "Warm Life is a full body workout"
+   },
+   {
+    "start": 8.3,
+    "end": 11.7,
+    "text": "But honestly, I want to be a bit more actual"
+   },
+   {
+    "start": 11.7,
+    "end": 14.2,
+    "text": "I have been wanting to get back to sickness"
+   },
+   {
+    "start": 14.2,
+    "end": 18,
+    "text": "But honestly, the part of our traditional gym was a bit intimidating"
+   },
+   {
+    "start": 18,
+    "end": 20.9,
+    "text": "That's why I decided to finally check out Kali"
+   },
+   {
+    "start": 20.9,
+    "end": 23.9,
+    "text": "Today, I'm Kali's friend plus group workout"
+   },
+   {
+    "start": 23.9,
+    "end": 25.4,
+    "text": "A little bit nervously"
+   },
+   {
+    "start": 25.4,
+    "end": 28.4,
+    "text": "Let's see how group workout is"
+   },
+   {
+    "start": 28.5,
+    "end": 30,
+    "text": "Just people like you"
+   },
+   {
+    "start": 30,
+    "end": 32.3,
+    "text": "Moves, walking professionals, big nurse"
+   },
+   {
+    "start": 32.3,
+    "end": 34.2,
+    "text": "All showing up and giving it their best"
+   },
+   {
+    "start": 34.2,
+    "end": 35.4,
+    "text": "The best part"
+   },
+   {
+    "start": 35.4,
+    "end": 37.4,
+    "text": "You don't have to figure it out alone"
+   },
+   {
+    "start": 37.4,
+    "end": 41.7,
+    "text": "The trainer corrected my posture without making me feel like a total newbie"
+   },
+   {
+    "start": 41.7,
+    "end": 43.4,
+    "text": "It's not about being the best"
+   },
+   {
+    "start": 43.4,
+    "end": 45,
+    "text": "It's about just showing up"
+   },
+   {
+    "start": 45,
+    "end": 47.1,
+    "text": "Plus, everyone cheers for you"
+   },
+   {
+    "start": 47.1,
+    "end": 49.2,
+    "text": "It's like a little fitness community"
+   },
+   {
+    "start": 49.2,
+    "end": 50.6,
+    "text": "I get the hype now"
+   },
+   {
+    "start": 50.6,
+    "end": 52.2,
+    "text": "Cult is not intimidating"
+   },
+   {
+    "start": 52.2,
+    "end": 54.8,
+    "text": "Friendly and the most successful is a single member's gym"
+   },
+   {
+    "start": 54.8,
+    "end": 56,
+    "text": "Multiple formats"
+   },
+   {
+    "start": 56,
+    "end": 58.6,
+    "text": "A stretch, dance, yoga"
+   },
+   {
+    "start": 58.6,
+    "end": 60.1,
+    "text": "With your mood"
+   },
+   {
+    "start": 60.1,
+    "end": 62.8,
+    "text": "So, if you're in the mood and you're waiting"
+   },
+   {
+    "start": 62.8,
+    "end": 64.8,
+    "text": "Just join with your kids"
+   },
+   {
+    "start": 64.8,
+    "end": 65.8,
+    "text": "So don't wait"
+   },
+   {
+    "start": 65.8,
+    "end": 67.4,
+    "text": "Just come as you are"
+   },
+   {
+    "start": 67.4,
+    "end": 70.2,
+    "text": "Enjoy your time in the group workout"
+   }
+  ]
+ }
+}

@@ -45,8 +45,11 @@ if not st.get("queue"):
 json.dump(st, open(f, "w"), indent=1)
 PY
     if [ "$(python3 -c "import json;print(len(json.load(open('$OUT/crawl-state.json'))['queue']))")" = "0" ]; then continue; fi
-    MAX_VIEWS=1 node scripts/slow-crawl.mjs "$PID" "$OUT" "$VID/$SLUG" 1 1 2>&1 | grep --line-buffered -E "view \{|rror" | sed "s/^/$NAME: /" | cut -c1-220
-    nap
+    LINE=$(MAX_VIEWS=1 node scripts/slow-crawl.mjs "$PID" "$OUT" "$VID/$SLUG" 1 1 2>&1 | grep -E "view \{|rror" | tail -1 | cut -c1-200)
+    echo "$NAME: $LINE"
+    # The Library answers one or two views in full, then sends empty pages until it has been left alone for a while.
+    # So after an empty view rest about 20 minutes; after a full one carry on at the normal pace.
+    if echo "$LINE" | grep -q -- "-> 0 ads"; then sleep $(( 1080 + RANDOM % 240 )); else nap; fi
   done
 done
 echo "$(date -u +%FT%TZ) RR END"

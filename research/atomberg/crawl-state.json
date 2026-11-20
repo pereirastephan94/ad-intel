@@ -2,6 +2,12 @@
  "done": [
   {
    "media": "all"
+  },
+  {
+   "media": "video"
+  },
+  {
+   "media": "image"
   }
  ],
  "total": 308,
@@ -35,15 +41,23 @@
   "2026-11-20T00:26:11.937Z   video 1270558241802020 ok (36.6s, 15 stills)",
   "2026-11-20T00:26:11.938Z view {\"media\":\"all\"} -> 30 ads (window total 308), 30 new, 30 unique of ~308",
   "2026-11-20T00:26:11.939Z stopping after 1 view(s) as asked",
-  "2026-11-20T00:26:11.939Z PAUSED: 30 unique ads of ~308"
+  "2026-11-20T00:26:11.939Z PAUSED: 30 unique ads of ~308",
+  "2026-11-20T01:06:58.521Z view {\"media\":\"video\"} -> 0 ads (window total 0), 0 new, 30 unique of ~308",
+  "2026-11-20T01:06:58.524Z stopping after 1 view(s) as asked",
+  "2026-11-20T01:06:58.525Z PAUSED: 30 unique ads of ~308",
+  "2026-11-20T02:13:39.282Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 30 unique of ~308",
+  "2026-11-20T02:13:39.285Z stopping after 1 view(s) as asked",
+  "2026-11-20T02:13:39.285Z PAUSED: 30 unique ads of ~308"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "media": "video"
+   "media": "video",
+   "retry": 1
   },
   {
-   "media": "image"
+   "media": "image",
+   "retry": 1
   }
  ],
  "stage": 1

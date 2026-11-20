@@ -32,6 +32,10 @@
    "sort": "total_impressions",
    "dir": "desc",
    "retry": 2
+  },
+  {
+   "media": "video",
+   "retry": 7
   }
  ],
  "total": 418,
@@ -69,9 +73,27 @@
   "2026-11-19T20:32:03.444Z view {\"media\":\"all\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 30 ads (window total 418), 3 new, 33 unique of ~418",
   "2026-11-19T20:37:23.873Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":1} -> 0 ads (window total 0), 0 new, 33 unique of ~418",
   "2026-11-19T20:43:06.635Z view {\"media\":\"image\",\"sort\":\"total_impressions\",\"dir\":\"desc\",\"retry\":2} -> 0 ads (window total 0), 0 new, 33 unique of ~418",
-  "2026-11-19T20:49:02.473Z DONE: 33 unique ads of ~418"
+  "2026-11-19T20:49:02.473Z DONE: 33 unique ads of ~418",
+  "2026-11-20T01:35:31.233Z view {\"media\":\"video\",\"retry\":7} -> 0 ads (window total 0), 0 new, 33 unique of ~418",
+  "2026-11-20T01:35:31.235Z stopping after 1 view(s) as asked",
+  "2026-11-20T01:35:31.235Z PAUSED: 33 unique ads of ~418"
  ],
  "keywordsQueued": true,
- "queue": [],
- "stage": 1
+ "queue": [
+  {
+   "media": "image",
+   "retry": 7
+  },
+  {
+   "media": "meme",
+   "retry": 7
+  },
+  {
+   "media": "all",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 7
+  }
+ ],
+ "stage": 2
 }

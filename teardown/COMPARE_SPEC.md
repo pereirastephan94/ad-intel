@@ -345,3 +345,24 @@ Basis kinds: `row:<id>` (focus map row; evidence must equal the row's), `idea:<b
 Plan rules: Focus is the one thing, never on thin evidence; Start 2 to 3; Stop or fix 1 to 2 (contradicting figures, claims the site or the ads' own small print contradict). At least one item builds on the reader's edge or workhorse, and at least one answers the rival's workhorse.
 Script rules: 4 to 6 directions per reader; each a full draft of 30 to 45 seconds. Use only facts the brand's own ads or site state; any figure that varies or is unknown is a placeholder ([your rate range], [your minimum], [tenure]). Founder-led directions carry a `label` saying they are a recommendation, since a founder counts only where an ad says so. Compliance notes name what this category's ads and sites show (for Indian fixed income: "up to" with every rate, tenure next to rate, minimum matching the app, no "guaranteed" or "assured", the risk disclaimer and broker strip, sale before maturity subject to a buyer, DICGC applies to bank FDs only). The page renders each direction as a fold with a "Copy this brief" button that copies a plain-text brief.
 On phones the plan shows Focus with its reason and the titles and evidence chips of Start and Stop; each item's reason and first test open with one tap ("Why and test").
+
+## Version 4.1 (20 Nov 2026): pairs that share no product, and unsorted samples
+Added while building Cult.fit vs Fitelo (a gym and sports pass sold by city against remote weight-loss coaching and a device). All changes are generic; Stable Money vs Wint Wealth rebuilds unchanged with lint 0.
+
+### No shared product
+- `build.py` uses the v4 layout whenever `perspectives.json` has a `plan`, with or without `--focus-product`. With a plan and no focus product (or none shared, so `auto` finds none), the order is: first screen (plan; on phones the plan, then What they lean on), What they lean on, **The whole sample, side by side** (the full-sample map as the main map, under a plain "no shared product" lede), What each one sells, **What is comparable**, row folds, Scripts, Where their own ads disagree, then the usual context sections.
+- The first screen carries one bold line under the sample line saying no product is shared (`extras.products_note`, else built from product counts) with a link to What each one sells.
+- New optional keys in `perspectives.json` `extras`: `products_note` (one line, about 20 words), `map_note` (the lede of the whole-sample map), `comparable` = `{"title", "lede", "rows": [{"label", "A": {"text", "ads": [ids]}, "B": {...}}]}`. Rows are the things two different products can be compared on: offer mechanics, proof used, results claims against small print, concentration, where the button goes, deadlines and age. They render reader first and flip with the toggle; every cell links its ads.
+- What each one sells: the lede says no product appears on both sides, and "What else each one advertises" becomes "What each one advertises, product by product". A site entry may carry `status: "not_read"` ("on the site, page not readable") for a product the site lists whose page did not load.
+- The verdict still names the product compared; with none shared it opens "No product is shared." and takes its gap and edge from rows or series.
+
+### Re-cuts by city or centre
+`products.json` may carry `"cities": {library_id: "place named in the ad's text"}`. `compute.py` counts these places as re-cuts in the leaning score (tags are per video, so a city tag cannot tell the ads of one video apart); `products.py` keeps the block when it redrafts. Cards and series show "re-sent for N named places". The rule text says "product, city or centre".
+
+### Unsorted samples
+`compute.py --sample-order default` records that the Library views were taken in its own unsorted order (`impressions` is the default). The page then never says "top by impressions": the header uses `--sample-short` (for Cult.fit vs Fitelo: "the first the Library shows, in its default order, not by impressions"), the top 30 line reads "first 30 in the Library's all-ads view", and the Now and Method sections drop the impressions reasoning. `--name-a` and `--name-b` override a Library page name that is not the brand name (Cult.fit's page is "cult").
+
+### Phone fixes found on this pair
+- Lists of ad links wrapped as one unbreakable line (19 links ran the page to 674 px wide). Links now wrap between items, and grid columns may shrink (`.pair > * { min-width: 0 }`).
+- The products table had five columns at 390 px; on phones each product now stacks as a labelled block.
+- Plan chips and the phone verdict are a little smaller so that Stop or fix begins on the 390 x 700 first screen with three Start items.

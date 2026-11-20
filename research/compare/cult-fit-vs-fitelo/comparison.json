@@ -3,12 +3,12 @@
   "snapshot_date": "2026-11-20",
   "country": "IN",
   "rules_version": "rows-v1",
-  "sample_rule": "Per brand, the first ads the Ad Library shows for the page in its own default order, read on 19 Nov 2026; the views sorted by total impressions came back empty, so this sample is not a ranking by impressions. Cult.fit: 30 ads; its all-ads and video-only views came back empty on three tries each, and the 30 came from the one view that loaded (the image filter, which listed 35 ads, all of them video), so Cult.fit's sample holds no image ads. Fitelo: the first 30 of about 182 in the all-ads view, plus 4 more from the first 30 of its video-only view (about 150); its image-only view came back empty twice.",
+  "sample_rule": "Per brand, the first ads the Ad Library shows for the page in its own default order, pulled late on 19 Nov 2026 (UTC). Cult.fit's views sorted by total impressions came back empty six times, so both brands were pulled unsorted: this sample is not a ranking by impressions. Cult.fit: 30 ads; its unsorted all-ads view came back empty three times and its video-only view twice, and the 30 came from the one view that loaded (the image filter, which listed 35 ads, all of them video), so Cult.fit's sample holds no image ads. Fitelo: the first 30 of about 182 in the all-ads view, plus 4 more from the first 30 of its video-only view (about 150); its image-only view came back empty twice.",
   "sample_order": "default",
-  "sample_short": "the first the Ad Library shows in its default order, not ranked by impressions",
+  "sample_short": "the first the Library shows, in its default order, not by impressions",
   "brands": {
    "A": {
-    "name": "cult",
+    "name": "Cult.fit",
     "dir": "research/cult-fit",
     "n": 30,
     "n_video": 30,
@@ -447,7 +447,7 @@
     },
     {
      "key": "body_map_review",
-     "claim": "BodyMap test, \"100+ parameters\", listed as included in the app; no ₹199 price on the pages read",
+     "claim": "The BodyMap test, \"100+ parameters\", listed as included in the app; no ₹199 price on the pages read",
      "url": "https://fitelo.co/"
     },
     {
@@ -627,7 +627,7 @@
        "video": 11
       },
       "name": "One film, a new centre and price each time",
-      "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+      "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
       "ad_ids": [
        "2404800830259411",
        "1142965181654720",
@@ -814,7 +814,7 @@
         "video": 8
        },
        "name": "One film, a new centre and price each time",
-       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
        "ad_ids": [
         "1142965181654720",
         "1763133728096239",
@@ -915,7 +915,7 @@
         "video": 3
        },
        "name": "One film, a new centre and price each time",
-       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Eight places in 11 ads.",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
        "ad_ids": [
         "2404800830259411",
         "4606351752947622",
@@ -1194,7 +1194,7 @@
        "video": 16
       },
       "name": "Cashback cheque prop",
-      "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" and \"WINNER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
+      "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
       "ad_ids": [
        "1449280067157528",
        "1912200749756133",
@@ -1237,7 +1237,7 @@
        "image": 2
       },
       "name": "Smart scale at ₹999",
-      "note": "Five ideas sell the same scale at ₹999 against ₹4,999 or ₹5,000, with a free dietitian call; \"this week\", \"3 days\" or \"only 50 left\".",
+      "note": "Five ideas sell the same scale; four say ₹999 against ₹4,999 or ₹5,000 with a free dietitian call, and \"this week\", \"3 days\" or \"Only 50 Scales Left\"; one image shows no price.",
       "ad_ids": [
        "2941541369549817",
        "925451983928233",
@@ -1469,7 +1469,7 @@
         "video": 16
        },
        "name": "Cashback cheque prop",
-       "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" and \"WINNER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
+       "note": "A collage of cheques stamped \"100 % CASHBACK OFFER\" (about ₹4,250 to ₹16,000) in eight videos, while the voice in all but one promises 10X.",
        "ad_ids": [
         "1449280067157528",
         "1912200749756133",
@@ -1662,7 +1662,7 @@
         "image": 2
        },
        "name": "Smart scale at ₹999",
-       "note": "Five ideas sell the same scale at ₹999 against ₹4,999 or ₹5,000, with a free dietitian call; \"this week\", \"3 days\" or \"only 50 left\".",
+       "note": "Five ideas sell the same scale; four say ₹999 against ₹4,999 or ₹5,000 with a free dietitian call, and \"this week\", \"3 days\" or \"Only 50 Scales Left\"; one image shows no price.",
        "ad_ids": [
         "2941541369549817",
         "925451983928233",

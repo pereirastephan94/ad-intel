@@ -154,6 +154,10 @@ class Page:
         self.names = {k: comp["meta"]["brands"][k]["name"] for k in ("A", "B")}
         self.rows = {r["id"]: r for r in comp["rows"]}
         self.extras = persp.get("extras") or {}
+        # v4 layout (plan, workhorses, products, scripts) whenever a focus product is set or a plan is written;
+        # with a plan but no focus product (the brands share no product) the full-sample map is the main map.
+        self.v4 = bool(comp.get("focus")) or any((persp.get(k) or {}).get("plan") for k in ("A", "B"))
+        self.by_impr = comp["meta"].get("sample_order", "impressions") == "impressions"
 
     # ---------- helpers
     def other(self, k):
@@ -201,12 +205,25 @@ class Page:
 <header class="top wrap">
   <h1>{E(self.names['A'])} <span class="vs">vs</span> {E(self.names['B'])}</h1>
   <p class="sample">Meta ads in {E(country)}, snapshot {fmt_date(m['snapshot_date'], short=True)} {m['snapshot_date'][:4]}. <b>{E(self.names['A'])} {A['n']} ads, {E(self.names['B'])} {B['n']}</b>:
-  the ones the Ad Library ranks highest by impressions. <b>No spend or results are public.</b></p>
+  {E(m.get("sample_short") or "the ones the Ad Library ranks highest by impressions")}. <b>No spend or results are public.</b></p>{self.products_note()}
   <div class="controls"><div class="seg" role="group" aria-label="Read this page as">
     <button type="button" data-set-me="A" aria-pressed="true">I am {E(self.names['A'])}</button>
     <button type="button" data-set-me="B" aria-pressed="false">I am {E(self.names['B'])}</button></div>
   <button class="theme" type="button" data-theme-toggle aria-label="Switch colour theme">Theme</button></div>
 </header>"""
+
+    def products_note(self):
+        """First-screen line when the two brands share no advertised product (v4 without a focus product)."""
+        if not self.v4 or self.c.get("focus") or not (self.c.get("products") or {}).get("counts"):
+            return ""
+        note = self.extras.get("products_note")
+        if not note:
+            cnt = self.c["products"]["counts"]
+            def sells(k):
+                return ", ".join(f"{lowfirst(self.plabel(x))} {n}" for x, n in cnt[k].items() if x != "unclear")
+            note = (f"No product is shared. Ads per product: {self.names['A']}, {sells('A')}; "
+                    f"{self.names['B']}, {sells('B')}. The map covers each whole sample.")
+        return f'<p class="sample prodnote"><b>{E(note)}</b> <a href="#products" data-fold="products">What each sells</a></p>'
 
     def verdict_and_moves(self, me):
         p = self.p.get(me, {})
@@ -284,8 +301,17 @@ class Page:
         t = self.c["meta"]["brands"]
         ta, tb = t[me]["top30_all"], t[self.other(me)]["top30_all"]
         if ta and tb:
-            line = (f'Top {max(ta["n"], tb["n"])} by Library impressions: you {ta["video"]} video, '
+            head = (f'Top {max(ta["n"], tb["n"])} by Library impressions' if self.by_impr
+                    else f'First {max(ta["n"], tb["n"])} in the Library\'s default order')
+            line = (f'{head}: you {ta["video"]} video, '
                     f'{ta["image"]} image; {E(self.names[self.other(me)])} {tb["video"]} video, {tb["image"]} image.')
+        elif ta or tb:
+            k = me if ta else self.other(me)
+            t = ta or tb
+            who = "you" if k == me else E(self.names[k])
+            head = "top 30 by Library impressions" if self.by_impr else "first 30 in the Library's all-ads view"
+            line = (f'Video and image lean, {head}: {who} {t["video"]} video, {t["image"]} image; '
+                    f'not recorded for {"you" if k != me else E(self.names[self.other(me)])}.')
         else:
             line = 'Overall video and image lean: not recorded for this sample.'
         return line if bare else f'<p class="top30 num">{line}</p>'
@@ -409,7 +435,8 @@ class Page:
     def lean_rule_text(self):
         r = self.c.get("lean_rule") or {}
         return (f"Leaning score = ads using the idea + half a point per extra version + one point per {r.get('days_per_point', 30)} days "
-                f"of its longest-running ad + {r.get('recut_points', 2)} points per extra product or city it is re-cut for. "
+                f"of its longest-running ad + {r.get('recut_points', 2)} points per extra product, city or centre it is re-cut for "
+                "(places as named in each ad's text). "
                 "Long life and many versions are the nearest public sign that a brand keeps paying for an idea. "
                 "They do not show that it performs: the Library publishes no spend or results.")
 
@@ -422,7 +449,7 @@ class Page:
                 f'<div><div class="whn">{E(self.idea_name(k, x["idea"]))}</div>'
                 f'<div class="q whq">&ldquo;{E(a["hook_text"] or a["headline"])}&rdquo;</div>'
                 f'<div class="whs num">{plural(x["n"], "ad")}, {plural(x["versions"], "version")}, longest {x["longest_days"]} days live'
-                f'{", " + E(prods) if prods else ""}. Score {x.get("score", "")}.</div>'
+                f'{", " + E(prods) if prods else ""}{self.places(x)}. Score {x.get("score", "")}.</div>'
                 f'<div class="adlinks">{self.ad_links(x["ad_ids"]).strip()}</div></div></div>')
 
     def series_card(self, k, x):
@@ -440,7 +467,7 @@ class Page:
         n_brand = self.c["meta"]["brands"][k]["n"]
         return (f'<div class="series" id="{anchor}"><div class="whn">{E(x["name"])}</div>'
                 f'<div class="whs num">{x["n"]} of {n_brand} ads, {plural(x["ideas"], "idea")}, {plural(x["versions"], "version")}, '
-                f'longest {x["longest_days"]} days live; products: {E(prods)}. Score {x["score"]}.</div>'
+                f'longest {x["longest_days"]} days live; products: {E(prods)}{self.places(x)}. Score {x["score"]}.</div>'
                 f'<p class="small">{E(x.get("note", ""))}</p><div class="strip">{"".join(stills[:6])}</div>'
                 f'<div class="adlinks">{self.ad_links(x["ad_ids"]).strip()}</div></div>')
 
@@ -457,7 +484,7 @@ class Page:
             if ser:
                 a = self.ad(ser["lead_ad"])
                 line = (f'<b>{E(ser["name"])}</b>: {ser["n"]} of {lean["n"]} ads, {ser["versions"]} versions, '
-                        f'longest {ser["longest_days"]} days, {plural(len(ser["products"]), "product")}.')
+                        f'longest {ser["longest_days"]} days, {plural(len(ser["products"]), "product")}{self.places(ser)}.')
                 anchor = f'series-{k}-{slug(ser["name"])}'
             else:
                 a = self.ad(top["lead_ad"])
@@ -470,6 +497,10 @@ class Page:
         out.append('<p class="small muted" style="margin:6px 0 0">Long life and many versions show an idea is kept running, '
                    'the nearest public sign a brand keeps paying for it; not that it performs.</p></div>')
         return "".join(out)
+
+    def places(self, x):
+        n = x.get("cities") or 0
+        return f", re-sent for {n} named places" if n > 1 else ""
 
     def lean_section(self):
         if not self.c.get("lean"):
@@ -496,7 +527,8 @@ class Page:
             parts.append(f'<div class="only-{me}"><div class="pair">{"".join(cols)}</div></div>')
         parts.append(f'<p class="note">{E(self.lean_rule_text())}</p>')
         return self.section("lean", "Workhorses", "What they lean on", "".join(parts),
-                            "Counting ads per row hides that one idea or one series can carry a brand. Here are the ideas each brand keeps re-running.")
+                            "Counting ads per row hides that one idea or one series can carry a brand. Here are the ideas each brand keeps re-running. "
+                            "Long life and many versions are a sign a brand keeps paying for an idea, not that it performs.")
 
     # ---------- products: like for like, and the rest
     def products_section(self):
@@ -517,19 +549,23 @@ class Page:
             for k in ("A", "B"):
                 n = counts[k].get(key, 0)
                 se = next((e for e in site.get(k, []) if e["key"] == key), None)
-                on_site = ("on the site" if se and se.get("status") not in ("unclear", "registration_only")
-                           else "unclear on the site" if se and se.get("status") == "unclear"
-                           else "registration only" if se else "not on the site")
-                cells.append(f'<td class="n">{n} of {self.c["meta"]["brands"][k]["n"]}</td><td class="small">{E(on_site)}'
+                st = (se or {}).get("status")
+                on_site = ("not on the site" if not se else "unclear on the site" if st == "unclear"
+                           else "registration only" if st == "registration_only"
+                           else "on the site, page not readable" if st == "not_read" else "on the site")
+                cells.append(f'<td class="n" data-l="{E(self.names[k])} ads">{n} of {self.c["meta"]["brands"][k]["n"]}</td>'
+                             f'<td class="small" data-l="{E(self.names[k])} site">{E(on_site)}'
                              f'{": " + E(lowfirst(se["claim"])) if se else ""}</td>')
             focus_mark = ' class="focusrow"' if f and key == f["key"] else ""
-            rows.append(f'<tr{focus_mark}><td><b>{E(self.plabel(key))}</b></td>{"".join(cells)}</tr>')
+            rows.append(f'<tr{focus_mark}><td class="pname"><b>{E(self.plabel(key))}</b></td>{"".join(cells)}</tr>')
         table = (f'<div class="tablewrap"><table class="t prod"><tr><th>Product</th><th class="n">{E(self.names["A"])} ads</th>'
                  f'<th>{E(self.names["A"])} site</th><th class="n">{E(self.names["B"])} ads</th><th>{E(self.names["B"])} site</th></tr>'
                  f'{"".join(rows)}</table></div>')
         fetched = site.get("fetched")
         lede = ("What each company sells, from its own website" + (f" (read {fmt_date(fetched)})" if fetched else "") +
-                ", against what its sampled ads sell. The map compares only the product both advertise.")
+                ", against what its sampled ads sell. " +
+                ("The map compares only the product both advertise." if f else
+                 "No product appears in both brands' ads, so there is no single-product map; the map above covers each whole sample."))
         # what else each advertises
         other = []
         for k in ("A", "B"):
@@ -548,7 +584,8 @@ class Page:
                          "; ".join(f'{E(self.plabel(e["key"]))} ({E(e["claim"])})' for e in absent) + '.</p>')
             other.append(f'<div><h3 class="bh"><span class="sw {k}"></span>{E(self.names[k])}</h3>{body}</div>')
         return self.section("products", "Like for like", "What each one sells", table +
-                            f'<h3 class="xh" style="margin-top:22px">What else each one advertises</h3><div class="pair">{"".join(other)}</div>', lede)
+                            f'<h3 class="xh" style="margin-top:22px">{"What else each one advertises" if f else "What each one advertises, product by product"}</h3>'
+                            f'<div class="pair">{"".join(other)}</div>', lede)
 
     def focus_map_section(self):
         f = self.c.get("focus")
@@ -565,6 +602,35 @@ class Page:
         lede = (f'Only the ads that sell {E(f["label"].lower())}: {E(self.names["A"])} {b["A"]["n"]} ads ({b["A"]["ideas"]} ideas), '
                 f'{E(self.names["B"])} {b["B"]["n"]} ({b["B"]["ideas"]} ideas).')
         return self.section("bonds", "Like for like", title, "".join(parts), lede)
+
+    def whole_map_section(self):
+        """v4 without a focus product: the full-sample map is the main map, under a plain no-shared-product note."""
+        n = self.c["meta"]["brands"]
+        note = self.extras.get("map_note") or (
+            "These two sell different things, so this map compares each brand's whole sample, not one product. "
+            "Read it as how each one makes ads, and see What each one sells and What is comparable below.")
+        lede = (f'{E(note)} {E(self.names["A"])} {n["A"]["n"]} ads, {E(self.names["B"])} {n["B"]["n"]}.')
+        return self.section("wholemap", "No shared product", "The whole sample, side by side",
+                            self.map("A", scope="all") + self.map("B", scope="all"), lede)
+
+    def comparable_section(self):
+        """extras.comparable: the things two brands with different products can be compared on, reader first."""
+        cp = self.extras.get("comparable")
+        if not cp:
+            return ""
+        parts = []
+        for me in ("A", "B"):
+            th = self.other(me)
+            rows = []
+            for r in cp.get("rows", []):
+                cells = "".join(
+                    f'<div><div class="cmpw"><span class="sw {k}"></span>{"You" if k == me else E(self.names[k])}</div>'
+                    f'<p class="small">{E((r.get(k) or {}).get("text", ""))}{self.ad_links((r.get(k) or {}).get("ads"))}</p></div>'
+                    for k in (me, th))
+                rows.append(f'<div class="cmprow"><h3 class="xh">{E(r["label"])}</h3><div class="pair">{cells}</div></div>')
+            parts.append(f'<div class="only-{me}">{"".join(rows)}</div>')
+        return self.section("comparable", "Like for like", cp.get("title", "What is comparable"), "".join(parts),
+                            E(cp.get("lede", "")))
 
     # ---------- scripts to brief
     def brief_text(self, me, i, d):
@@ -638,7 +704,7 @@ class Page:
                             "Figures that differ between ads of one brand, or inside one ad. A viewer who sees two of them sees both numbers.")
 
     def first_screen(self):
-        if self.c.get("focus"):
+        if self.v4:
             left = self.plan("A") + self.plan("B")
             right = self.lean_compact("A") + self.lean_compact("B")
             return f'{self.header()}<div class="wrap"><div class="hero"><div>{left}</div><div>{right}</div></div></div>'
@@ -796,11 +862,15 @@ class Page:
                 f'<div class="track">{launch_fill(k, self.c["launches"][k].get(mth, 0), mx)}</div>'
                 f'<span class="v num">{self.c["launches"][k].get(mth, 0)}</span></div>' for k in ("A", "B"))
             rows.append(f'<div class="brow"><div class="bl">{fmt_month(mth)}</div><div class="bars">{bars}</div></div>')
+        sub = ("Ads still in the sample, by start month. Impressions add up over time, so older months are favoured." if self.by_impr
+               else "Ads still in the sample, by start month. The sample follows the Library's default order, not impressions.")
         parts.append(f'<div class="chart" style="margin-top:18px"><h3>When the sampled ads started</h3>'
-                     f'<p class="sub">Ads still in the sample, by start month. Impressions add up over time, so older months are favoured.</p>'
+                     f'<p class="sub">{sub}</p>'
                      f'{self.legend()}{"".join(rows)}</div>')
         return self.section("now", "Now vs always", "What is new, and what has stayed", "".join(parts),
-                            "Ads launched recently that already made a sample ranked by lifetime impressions are carrying real weight.")
+                            "Ads launched recently that already made a sample ranked by lifetime impressions are carrying real weight." if self.by_impr
+                            else "Ads launched in the last 30 days, and the months the rest started. This sample is the Library's default order, "
+                                 "so a recent ad here shows what the brand runs now, not what it pays most for.")
 
     def legend(self):
         return (f'<div class="legend"><span><i class="sw A"></i>{E(self.names["A"])}</span>'
@@ -979,6 +1049,10 @@ class Page:
 
     def shares_line(self):
         mb = self.c["meta"]["brands"]
+        if not self.by_impr:
+            return ("<b>Shares.</b> Video rows are shares of a brand's sampled video ads, image rows of its sampled image ads. "
+                    "The views were taken in the Library's default order, so the video and image split is whatever those views returned; "
+                    f"a medium with under {SMALL_BASE} ads on a side shows counts, not shares, and a side with none reads \"none\".")
         base = "<b>Shares.</b> Video rows are shares of a brand's sampled video ads, image rows of its sampled image ads. "
         only_top = [k for k in "AB" if mb[k].get("top30_all") and mb[k]["n_image"] <= mb[k]["top30_all"]["image"]]
         if only_top:
@@ -1000,8 +1074,11 @@ class Page:
             lines.append(f"<b>{E(self.names[k])}.</b> {b['n']} ads: {b['n_video']} video ({b['unique_videos']} distinct videos), "
                          f"{b['n_image']} image. {unc} could not be placed in a row; they count in the totals but in no row.")
         lines += [
-            "<b>No spend or results.</b> The Ad Library does not publish spend, reach or results for these ads. "
-            "We use what is public: whether the Library ranks an ad highest by impressions, how long it has run, and how many versions run.",
+            "<b>No spend or results.</b> The Ad Library does not publish spend, reach or results for these ads. " +
+            ("We use what is public: whether the Library ranks an ad highest by impressions, how long it has run, and how many versions run."
+             if self.by_impr else
+             "We use what is public: which ads the Library shows first, how long each has run, and how many versions run. "
+             "The default order is the Library's own and is not documented, so it is not a ranking by impressions or spend."),
             self.shares_line(),
             "<b>Days live</b> are days so far: ads still running are counted to the snapshot date.",
             "<b>Versions</b> are the Library's count of ads that share a creative. Mixed-format set-ups, where Meta combines images, videos and text, "
@@ -1052,6 +1129,14 @@ class Page:
         return self.section("appendix", "Appendix", "Every ad", "".join(parts))
 
     def build(self):
+        if self.v4 and not self.c.get("focus"):
+            body = [self.first_screen(), self.lean_section(), self.whole_map_section(), self.products_section(),
+                    self.comparable_section(), self.folds(), self.scripts_section(), self.disagree_section(),
+                    self.lead_section(), self.stakes_section(), self.now_section(), self.mix_section(), self.pacing_section(),
+                    self.standouts_section(), self.rerun_section(), self.method_section(), self.appendix(),
+                    f'<footer class="wrap">Built from the public Meta Ad Library on {fmt_date(self.c["meta"]["snapshot_date"])}. '
+                    f'Rules version {E(self.c["meta"]["rules_version"])}.</footer>']
+            return "\n".join(body)
         if self.c.get("focus"):
             body = [self.first_screen(), self.lean_section(), self.focus_map_section(), self.folds(), self.products_section(),
                     self.scripts_section(), self.disagree_section(), self.lead_section(), self.stakes_section(), self.now_section(),

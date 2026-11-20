@@ -1,0 +1,147 @@
+{
+ "asset": "1452541249693923",
+ "first_seen_in": "1539942324830414",
+ "duration_s": 46,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.6,
+   "why": "scene change"
+  },
+  {
+   "t": 11.9,
+   "why": "scene change"
+  },
+  {
+   "t": 18.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.7,
+   "why": "scene change"
+  },
+  {
+   "t": 23.3,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 26.4,
+   "why": "scene change"
+  },
+  {
+   "t": 31.6,
+   "why": "scene change"
+  },
+  {
+   "t": 37.3,
+   "why": "scene change"
+  },
+  {
+   "t": 45.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Some days I'm never in one place for long. Meetings, shoes, random plans all over the place. But training, that stays non-negotiable. Because it's just been easier for me. I'll just find the nearest place and get my session finished. Simple. If you'll corner up, you'll be seeing guys. That's what only keeps me from system. I don't have to keep twice. Just to work. Wherever I go with my training goals with me. That's the contact monitoring. Call. Train anywhere anytime.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.8,
+    "text": "Some days I'm never in one place for long."
+   },
+   {
+    "start": 2.8,
+    "end": 6.4,
+    "text": "Meetings, shoes, random plans all over the place."
+   },
+   {
+    "start": 6.4,
+    "end": 9.4,
+    "text": "But training, that stays non-negotiable."
+   },
+   {
+    "start": 9.4,
+    "end": 11.8,
+    "text": "Because it's just been easier for me."
+   },
+   {
+    "start": 11.8,
+    "end": 14.8,
+    "text": "I'll just find the nearest place and get my session finished."
+   },
+   {
+    "start": 14.8,
+    "end": 15.8,
+    "text": "Simple."
+   },
+   {
+    "start": 15.8,
+    "end": 18.4,
+    "text": "If you'll corner up, you'll be seeing guys."
+   },
+   {
+    "start": 26.4,
+    "end": 28.8,
+    "text": "That's what only keeps me from system."
+   },
+   {
+    "start": 29,
+    "end": 30.6,
+    "text": "I don't have to keep twice."
+   },
+   {
+    "start": 30.6,
+    "end": 31.6,
+    "text": "Just to work."
+   },
+   {
+    "start": 33.4,
+    "end": 35.8,
+    "text": "Wherever I go with my training goals with me."
+   },
+   {
+    "start": 35.8,
+    "end": 37.8,
+    "text": "That's the contact monitoring."
+   },
+   {
+    "start": 40.4,
+    "end": 41.2,
+    "text": "Call."
+   },
+   {
+    "start": 41.2,
+    "end": 43.2,
+    "text": "Train anywhere anytime."
+   }
+  ]
+ }
+}

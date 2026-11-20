@@ -1,0 +1,61 @@
+{
+ "asset": "2017040876100497",
+ "first_seen_in": "1141867424988014",
+ "duration_s": 24.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 18.4,
+   "why": "scene change"
+  },
+  {
+   "t": 24.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Group workout truths, your attendance goes up because your workout friends will notice if you disappear. Nothing wants people faster than collectively struggling with an impossible yoga pose. That 45 minutes, somehow becomes the highlight of your day. You leave with sore muscles and at least three people yelling. See you tomorrow!",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.3,
+    "text": "Group workout truths, your attendance goes up because your workout friends will notice if you disappear."
+   },
+   {
+    "start": 6.3,
+    "end": 11.4,
+    "text": "Nothing wants people faster than collectively struggling with an impossible yoga pose."
+   },
+   {
+    "start": 11.4,
+    "end": 15.3,
+    "text": "That 45 minutes, somehow becomes the highlight of your day."
+   },
+   {
+    "start": 15.3,
+    "end": 20.6,
+    "text": "You leave with sore muscles and at least three people yelling. See you tomorrow!"
+   }
+  ]
+ }
+}

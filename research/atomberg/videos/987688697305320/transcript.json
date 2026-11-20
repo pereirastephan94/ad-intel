@@ -69,6 +69,77 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "To bhai merko na, ghar liye gaya ek saal ho gaya. To mai search kar rahi thi ek bhot hi smart fan, jisko mai baas apne bed pe baitha baitha operate kar sakun. To mai ne na, yeh atomberg ka fan magaya, aur mai ne 3 fan magaya bhai. Aur bhai yeh itne smart hai na, batlab aap isko Alexa se control kar sakte ho. Alexa, turn on your studio fan. To aap isko iski app se control kar sakte ho. Aap isko iski remote se control kar sakte ho. Aur isko jo color hai na, yeh misty teal color. Oh ho ho. Maja hi aajayega bhai use karne me aapko.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "To bhai merko na, ghar liye gaya ek saal ho gaya."
+   },
+   {
+    "start": 2.0,
+    "end": 4.2,
+    "text": "To mai search kar rahi thi ek bhot hi smart fan,"
+   },
+   {
+    "start": 4.2,
+    "end": 7.6,
+    "text": "jisko mai baas apne bed pe baitha baitha operate kar sakun."
+   },
+   {
+    "start": 7.6,
+    "end": 9.4,
+    "text": "To mai ne na, yeh atomberg ka fan magaya,"
+   },
+   {
+    "start": 9.4,
+    "end": 10.7,
+    "text": "aur mai ne 3 fan magaya bhai."
+   },
+   {
+    "start": 10.7,
+    "end": 12.4,
+    "text": "Aur bhai yeh itne smart hai na,"
+   },
+   {
+    "start": 12.4,
+    "end": 14.5,
+    "text": "batlab aap isko Alexa se control kar sakte ho."
+   },
+   {
+    "start": 14.5,
+    "end": 16.6,
+    "text": "Alexa, turn on your studio fan."
+   },
+   {
+    "start": 18.4,
+    "end": 20.6,
+    "text": "To aap isko iski app se control kar sakte ho."
+   },
+   {
+    "start": 20.6,
+    "end": 23.1,
+    "text": "Aap isko iski remote se control kar sakte ho."
+   },
+   {
+    "start": 23.1,
+    "end": 25.4,
+    "text": "Aur isko jo color hai na, yeh misty teal color."
+   },
+   {
+    "start": 25.4,
+    "end": 26.2,
+    "text": "Oh ho ho."
+   },
+   {
+    "start": 26.2,
+    "end": 28.0,
+    "text": "Maja hi aajayega bhai use karne me aapko."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "So br creates mea g boa na ghaniliyee e ai ek sa a la hook ya yo makya se masa aros ko sa kurya tha yess hi mgyi frishep aallet sa yo pakha karo ay ya welcome चर कर सकते हों लिच कर रहना ये मिस्टी तील कलर हों मदे याचा बहीं हों लिच करने में आपों",
   "segments": [

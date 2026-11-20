@@ -1,0 +1,82 @@
+{
+ "asset": "1402061601673758",
+ "first_seen_in": "1018165951266899",
+ "duration_s": 40.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5,
+   "why": "scene change"
+  },
+  {
+   "t": 9.5,
+   "why": "scene change"
+  },
+  {
+   "t": 18.8,
+   "why": "scene change"
+  },
+  {
+   "t": 23.5,
+   "why": "scene change"
+  },
+  {
+   "t": 26.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28,
+   "why": "scene change"
+  },
+  {
+   "t": 28.4,
+   "why": "scene change"
+  },
+  {
+   "t": 29,
+   "why": "scene change"
+  },
+  {
+   "t": 29.4,
+   "why": "scene change"
+  },
+  {
+   "t": 30.6,
+   "why": "scene change"
+  },
+  {
+   "t": 40,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "resistance commission.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 22.6,
+    "text": "resistance commission."
+   }
+  ]
+ }
+}

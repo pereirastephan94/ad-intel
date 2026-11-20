@@ -1,0 +1,142 @@
+{
+ "asset": "935631775778423",
+ "first_seen_in": "1376362647553567",
+ "duration_s": 58,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 8.7,
+   "why": "scene change"
+  },
+  {
+   "t": 14.7,
+   "why": "scene change"
+  },
+  {
+   "t": 18.5,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "scene change"
+  },
+  {
+   "t": 29.5,
+   "why": "scene change"
+  },
+  {
+   "t": 33.9,
+   "why": "scene change"
+  },
+  {
+   "t": 37.3,
+   "why": "scene change"
+  },
+  {
+   "t": 41.2,
+   "why": "scene change"
+  },
+  {
+   "t": 47,
+   "why": "scene change"
+  },
+  {
+   "t": 57.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Ok, quick confession. When you train regularly, you get disciplined, which is great, but you also get very good after putting the same routine. And the moment it starts feeling like autopilot, even with something you love, you know it's time to switch things up. So today I thought, instead of changing my workout, I'll change the room. No one's forcing you, but yet, somehow you're still pushing harder. You know that feeling when you're training but still holding back? Yeah, that doesn't happen in your, I thought I needed something new. Turns out, I just needed a room that pushes back. These group workouts are super fun and challenging made for anyone and everyone. Come sign up for a group class and call it today. Oh, one, two, three.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.4,
+    "text": "Ok, quick confession."
+   },
+   {
+    "start": 5.4,
+    "end": 10.4,
+    "text": "When you train regularly, you get disciplined, which is great, but you also get very good"
+   },
+   {
+    "start": 10.4,
+    "end": 12.1,
+    "text": "after putting the same routine."
+   },
+   {
+    "start": 12.1,
+    "end": 16.5,
+    "text": "And the moment it starts feeling like autopilot, even with something you love, you know it's"
+   },
+   {
+    "start": 16.5,
+    "end": 18.7,
+    "text": "time to switch things up."
+   },
+   {
+    "start": 18.7,
+    "end": 29.8,
+    "text": "So today I thought, instead of changing my workout, I'll change the room."
+   },
+   {
+    "start": 29.8,
+    "end": 33.5,
+    "text": "No one's forcing you, but yet, somehow you're still pushing harder."
+   },
+   {
+    "start": 33.5,
+    "end": 36.7,
+    "text": "You know that feeling when you're training but still holding back?"
+   },
+   {
+    "start": 36.7,
+    "end": 40.4,
+    "text": "Yeah, that doesn't happen in your, I thought I needed something new."
+   },
+   {
+    "start": 40.4,
+    "end": 44.9,
+    "text": "Turns out, I just needed a room that pushes back."
+   },
+   {
+    "start": 44.9,
+    "end": 50,
+    "text": "These group workouts are super fun and challenging made for anyone and everyone."
+   },
+   {
+    "start": 50,
+    "end": 52.8,
+    "text": "Come sign up for a group class and call it today."
+   },
+   {
+    "start": 52.8,
+    "end": 54.8,
+    "text": "Oh, one, two, three."
+   }
+  ]
+ }
+}

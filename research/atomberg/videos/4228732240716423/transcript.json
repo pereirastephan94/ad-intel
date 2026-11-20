@@ -61,6 +61,57 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh hai Atomberg ka Intel On Water Purifier. Jisme 2 saal ki No Questions Asked Warranty to milti hai. 2 saal khatam hone ke baad bhi, iss water purifier pe hai no AMC. Bus jo part kharab ho, unke hi charges do. Lekin meri tech savvy patni ke hisaab se to uska dil, hiski transparency pe feda hai. Kyuki naa sirf isske purification modes mobile app se control ho jaate hain. Balki aap par input, TDS, filter, health, f.e.k.r. sa likar, paani ki savings tak jaisa saara data dikta hai. Itna to aaj kal apne nahi karte, jitna Atomberg meri liye kar raha hai.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.4,
+    "text": "Yeh hai Atomberg ka Intel On Water Purifier."
+   },
+   {
+    "start": 2.4,
+    "end": 5.1,
+    "text": "Jisme 2 saal ki No Questions Asked Warranty to milti hai."
+   },
+   {
+    "start": 5.1,
+    "end": 8.5,
+    "text": "2 saal khatam hone ke baad bhi, iss water purifier pe hai no AMC."
+   },
+   {
+    "start": 8.5,
+    "end": 10.7,
+    "text": "Bus jo part kharab ho, unke hi charges do."
+   },
+   {
+    "start": 10.7,
+    "end": 14.5,
+    "text": "Lekin meri tech savvy patni ke hisaab se to uska dil, hiski transparency pe feda hai."
+   },
+   {
+    "start": 14.5,
+    "end": 17.7,
+    "text": "Kyuki naa sirf isske purification modes mobile app se control ho jaate hain."
+   },
+   {
+    "start": 17.7,
+    "end": 20.5,
+    "text": "Balki aap par input, TDS, filter, health, f.e.k.r. sa likar,"
+   },
+   {
+    "start": 20.5,
+    "end": 22.7,
+    "text": "paani ki savings tak jaisa saara data dikta hai."
+   },
+   {
+    "start": 22.7,
+    "end": 25.9,
+    "text": "Itna to aaj kal apne nahi karte, jitna Atomberg meri liye kar raha hai."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "یہ ہے, Atomberg's Interlorn Water Purifier, which has 2 years of no questions as warranty, 2 years of no-one has no AMC, just the ones who have a lot of charges, but my tech wife, his heart and his transparency is very good. Because not only does it have purification modes, it has control of mobile apps. In fact, you can get input TDS, filter, health, etc. and see all the data of water savings. It is not the time to do so much, which is doing it for Atomberg.",
   "segments": [

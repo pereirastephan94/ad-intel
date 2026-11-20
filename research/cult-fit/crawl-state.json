@@ -53,6 +53,14 @@
   {
    "media": "all",
    "retry": 2
+  },
+  {
+   "media": "video",
+   "retry": 7
+  },
+  {
+   "media": "image",
+   "retry": 7
   }
  ],
  "total": null,
@@ -86,9 +94,35 @@
   "2026-11-19T22:47:36.806Z view {\"media\":\"video\",\"retry\":1} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
   "2026-11-19T22:52:49.888Z view {\"media\":\"all\",\"retry\":2} -> 0 ads (window total 0), 0 new, 30 unique of ~null",
   "2026-11-19T22:52:49.889Z stopping after 6 view(s) as asked",
-  "2026-11-19T22:52:49.889Z PAUSED: 30 unique ads of ~null"
+  "2026-11-19T22:52:49.889Z PAUSED: 30 unique ads of ~null",
+  "2026-11-20T01:14:10.573Z   video 2474498146331108 ok (23.5s, 12 stills)",
+  "2026-11-20T01:15:20.212Z   video 1402061601673758 ok (40.3s, 16 stills)",
+  "2026-11-20T01:17:05.264Z   video 1422506115845554 ok (53.4s, 16 stills)",
+  "2026-11-20T01:18:05.221Z   video 1278969961076851 ok (15.3s, 11 stills)",
+  "2026-11-20T01:19:34.916Z   video 1452541249693923 ok (46s, 16 stills)",
+  "2026-11-20T01:19:35.247Z   video 830649150093682 FAILED: Could not download the video (video.xx.fbcdn.net answered 410). Facebook video links expire after a few hours; call list_ads again for a fresh link.",
+  "2026-11-20T01:21:13.521Z   video 935631775778423 ok (58s, 16 stills)",
+  "2026-11-20T01:23:16.584Z   video 841027129018077 ok (70.5s, 16 stills)",
+  "2026-11-20T01:23:50.984Z   video 2017040876100497 ok (24.6s, 7 stills)",
+  "2026-11-20T01:23:50.985Z view {\"media\":\"video\",\"retry\":7} -> 30 ads (window total 796), 30 new, 60 unique of ~null",
+  "2026-11-20T01:23:50.986Z stopping after 1 view(s) as asked",
+  "2026-11-20T01:23:50.986Z PAUSED: 60 unique ads of ~null",
+  "2026-11-20T02:19:47.421Z view {\"media\":\"image\",\"retry\":7} -> 0 ads (window total 0), 0 new, 60 unique of ~null",
+  "2026-11-20T02:19:47.424Z stopping after 1 view(s) as asked",
+  "2026-11-20T02:19:47.424Z PAUSED: 60 unique ads of ~null"
  ],
  "keywordsQueued": true,
- "queue": [],
- "stage": 1
+ "queue": [
+  {
+   "media": "meme",
+   "retry": 7
+  },
+  {
+   "media": "all",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc",
+   "retry": 7
+  }
+ ],
+ "stage": 2
 }

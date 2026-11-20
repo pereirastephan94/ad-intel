@@ -1,0 +1,24 @@
+{
+ "query": "DailyObjects",
+ "country": "IN",
+ "searched_with": [
+  "exact-phrase search"
+ ],
+ "plausible_matches": 1,
+ "candidates": [
+  {
+   "page_id": "112486528887459",
+   "page_name": "DailyObjects",
+   "name_match": "exact",
+   "rough_active_ads": "unknown",
+   "ads_seen_in_sample": 30,
+   "likes": 0,
+   "categories": [
+    "Profile"
+   ],
+   "page_url": "https://www.instagram.com/_u/storiesofsb",
+   "ads_library_link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&view_all_page_id=112486528887459&search_type=page"
+  }
+ ],
+ "note": "One page matches the name. Use it, and tell the user which page it is."
+}

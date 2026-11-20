@@ -49,6 +49,67 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Uncle, abhi isme bioshield technology hai. Matlab matka andar yandar paani ka bacteria ko maarta rata hai. Aap ek saal bhi isme paani rakhega na to wo purana nahi hota. April fulli banaya, naya water purifier aaya. Yeh hai Atomberg ka Interlon water purifier. Yeh normal RO nahi adaptive RO hai. Isme aapko zyada dimag laganaika zarot nahi hai. Yeh paani ka quality check karke, khus se decide krte ki usko purify kaise krna hai. Aur isme 2 saal ki warranty bhi hai. उसके बाद भी अगर कोई पाट खराब हो जाएं, तो आपको सिर्क उस पाट के पैसे देने और उस पाट पे भी आपको दो साल का वारेन्टी मिलता है।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.3,
+    "text": "Uncle, abhi isme bioshield technology hai."
+   },
+   {
+    "start": 2.3,
+    "end": 5.1,
+    "text": "Matlab matka andar yandar paani ka bacteria ko maarta rata hai."
+   },
+   {
+    "start": 5.1,
+    "end": 7.8,
+    "text": "Aap ek saal bhi isme paani rakhega na to wo purana nahi hota."
+   },
+   {
+    "start": 7.8,
+    "end": 13.3,
+    "text": "April fulli banaya, naya water purifier aaya."
+   },
+   {
+    "start": 13.3,
+    "end": 16.2,
+    "text": "Yeh hai Atomberg ka Interlon water purifier."
+   },
+   {
+    "start": 16.2,
+    "end": 18.4,
+    "text": "Yeh normal RO nahi adaptive RO hai."
+   },
+   {
+    "start": 18.4,
+    "end": 20.6,
+    "text": "Isme aapko zyada dimag laganaika zarot nahi hai."
+   },
+   {
+    "start": 20.6,
+    "end": 24.3,
+    "text": "Yeh paani ka quality check karke, khus se decide krte ki usko purify kaise krna hai."
+   },
+   {
+    "start": 24.3,
+    "end": 26.2,
+    "text": "Aur isme 2 saal ki warranty bhi hai."
+   },
+   {
+    "start": 26.2,
+    "end": 30.0,
+    "text": "उसके बाद भी अगर कोई पाट खराब हो जाएं, तो आपको सिर्क उस पाट के पैसे देने"
+   },
+   {
+    "start": 30.0,
+    "end": 32.8,
+    "text": "और उस पाट पे भी आपको दो साल का वारेन्टी मिलता है।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "அنکل, ابھی اس میں بیوشیل ٹیکنوالی جی ہے مطلب مدھ کا اندری اندر پانی کا بیکٹریہ کو مردہ رہتے آپ ایک سل بھی اس میں پانی رکے گا نا تو وہ پورنا نہیں ہوتا اپرین, فور لگا نایا نایا, وژر پیوری فائر آیا یہ ہے اٹم بکھا, انٹلان وژر پیوری فائر یہ نورمل آروں نہیں, ایڈپٹی آرو ہے اس میں آپ کو زیادہ دیماغلگانے کا ضرورت نہیں ہیں یہ پانی کا کولیٹی چک کر کے خوصے دیسیڈ کر دے کہ اس کو پوری فائی کیسے کرنا ہے اور اس میں دو سل کی وورنٹی بھی ہے اس کے بعد بھی اگر کوئی پتھا ہرہ بوجائیں تو آپ کو صرف اس پتھ کے پیسے دینے اور اس پتھ پی بھی آپ کو دو سل کا وورنٹی ملتا ہے",
   "segments": [

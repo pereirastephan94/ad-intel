@@ -135,7 +135,7 @@ while (state.queue.length) {
   // Facebook sometimes answers a keyword view with nothing even when ads match; try each such view once more, later.
   if (v.q && !res.ads.length && !v.retry) state.queue.push({ ...v, retry: 1 })
   // The same happens to plain views; a sample run has only a few, so try those up to twice more.
-  if (!v.q && !v.from && !v.to && !res.ads.length && !res.total && (v.retry || 0) < 2) state.queue.push({ ...v, retry: (v.retry || 0) + 1 })
+  if (!v.q && !v.from && !v.to && !res.ads.length && !res.total && (v.retry || 0) < 12) state.queue.unshift({ ...v, retry: (v.retry || 0) + 1 })
   state.done.push(v)
   save()
   emptyStreak = res.ads.length === 0 && res.total == null ? emptyStreak + 1 : 0

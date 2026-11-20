@@ -69,6 +69,137 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh mera favorite jar hai, aase sa is ka naam Rasika. Abhi bot din se mein aisa ek mixer grinder dundh ratha, jisme technology bhi ho aur dikhne mei thoda hath ke lage. Tab jaake mer ko yeh mila, Atomberg ka Zenova mixer grinder. Uncle, Rasika ko total kitna bhai bhen hai? Char log hai, char se yad aaya, apna Atomberg mixer grinder ke saath bhi na, char jar milte hai. Yeh mera favorite jar hai, aase sa is ka naam Rasika. Itna sundar hai, yeh pehla apun gaon mein yadana bachpan mein, pital ka bartan rehta tha, ekdham vaise hi hai. दिसाइन भी कितना मस्ट बनाया। आतमबग को मालूम है, इंडिया में लोगो को क्या पसंद आता है। इसले अपना मिखसर के साथ ना ये चॉपपिंग जा रहाता है। मैं सब इसमें सब्जी तर्गारी फटफट चॉप कर दूगा तू फटफट खाना बना दे तो क्या दोनों का कीचन का टाइम बज ज़ाएगा क्या ये चट्नी? नहीं अंकल, सिल बत्या में नहीं बनाया वो आटमबग मिख्सर गेंदर में नहीं पॉर्ष मोड है जिसमें एक्छम सिल्बत्या वाला टेक्ष्टर और टेश्ट मिलता है अंकल, आपके गर पे कौन सा मिख्सर है? जाने का तैम उसका पपा नहां मेरे को नहीं देखा मिख्सर को एसा जाग खे देखा मैं इसका पपा को एना इसका शॉपपिंग लिएंग बेसता हूँ क्योकि यह यह अच्छा डिल मिलेग।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.7,
+    "text": "Yeh mera favorite jar hai, aase sa is ka naam Rasika."
+   },
+   {
+    "start": 5.2,
+    "end": 7.6,
+    "text": "Abhi bot din se mein aisa ek mixer grinder dundh ratha,"
+   },
+   {
+    "start": 7.6,
+    "end": 10.4,
+    "text": "jisme technology bhi ho aur dikhne mei thoda hath ke lage."
+   },
+   {
+    "start": 10.4,
+    "end": 13.6,
+    "text": "Tab jaake mer ko yeh mila, Atomberg ka Zenova mixer grinder."
+   },
+   {
+    "start": 13.6,
+    "end": 16.1,
+    "text": "Uncle, Rasika ko total kitna bhai bhen hai?"
+   },
+   {
+    "start": 16.1,
+    "end": 20.5,
+    "text": "Char log hai, char se yad aaya, apna Atomberg mixer grinder ke saath bhi na,"
+   },
+   {
+    "start": 20.5,
+    "end": 21.6,
+    "text": "char jar milte hai."
+   },
+   {
+    "start": 21.6,
+    "end": 24.2,
+    "text": "Yeh mera favorite jar hai, aase sa is ka naam Rasika."
+   },
+   {
+    "start": 24.2,
+    "end": 27.4,
+    "text": "Itna sundar hai, yeh pehla apun gaon mein yadana bachpan mein,"
+   },
+   {
+    "start": 27.4,
+    "end": 29.6,
+    "text": "pital ka bartan rehta tha, ekdham vaise hi hai."
+   },
+   {
+    "start": 30.0,
+    "end": 31.4,
+    "text": "दिसाइन भी कितना मस्ट बनाया।"
+   },
+   {
+    "start": 31.4,
+    "end": 34.1,
+    "text": "आतमबग को मालूम है, इंडिया में लोगो को क्या पसंद आता है।"
+   },
+   {
+    "start": 34.1,
+    "end": 36.4,
+    "text": "इसले अपना मिखसर के साथ ना ये चॉपपिंग जा रहाता है।"
+   },
+   {
+    "start": 36.4,
+    "end": 38.8,
+    "text": "मैं सब इसमें सब्जी तर्गारी फटफट चॉप कर दूगा"
+   },
+   {
+    "start": 38.8,
+    "end": 40.1,
+    "text": "तू फटफट खाना बना दे"
+   },
+   {
+    "start": 40.1,
+    "end": 41.9,
+    "text": "तो क्या दोनों का कीचन का टाइम बज ज़ाएगा"
+   },
+   {
+    "start": 41.9,
+    "end": 43.1,
+    "text": "क्या ये चट्नी?"
+   },
+   {
+    "start": 43.1,
+    "end": 45.1,
+    "text": "नहीं अंकल, सिल बत्या में नहीं बनाया"
+   },
+   {
+    "start": 45.1,
+    "end": 47.5,
+    "text": "वो आटमबग मिख्सर गेंदर में नहीं पॉर्ष मोड है"
+   },
+   {
+    "start": 47.5,
+    "end": 49.9,
+    "text": "जिसमें एक्छम सिल्बत्या वाला टेक्ष्टर और टेश्ट मिलता है"
+   },
+   {
+    "start": 49.9,
+    "end": 52.3,
+    "text": "अंकल, आपके गर पे कौन सा मिख्सर है?"
+   },
+   {
+    "start": 52.3,
+    "end": 54.3,
+    "text": "जाने का तैम उसका पपा नहां मेरे को नहीं देखा"
+   },
+   {
+    "start": 54.3,
+    "end": 55.5,
+    "text": "मिख्सर को एसा जाग खे देखा"
+   },
+   {
+    "start": 55.5,
+    "end": 57.5,
+    "text": "मैं इसका पपा को एना इसका शॉपपिंग लिएंग बेसता हूँ"
+   },
+   {
+    "start": 57.5,
+    "end": 59.5,
+    "text": "क्योकि यह यह अच्छा डिल मिलेग।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "یہ میرا فیورےٹ جار ہے, ASASKANAM RASIKA CABADESH Sir ابھی بhoottin سے میں ASIKE MIXER RANDER دون رہ تھا جس میں TECHNOLEGY بھی ہو اور دیکھنے میں تھوڑھا ہٹ کے لگے τب جا کے میرا کو یہ میلا ATEMBUCK کا ZENOVA MIXER RANDER ANKAL RASIKA کو TOTAL KITNA BHAI BEHNA چار لوگے چار سے یاد ہے ابھنے ATEMBUCK MIXER RANDER کے ساتھ بھی نہ چار جار مینتے یہ میرا فیورےٹ جار ہے ASASKANAM RASIKA کتنا سندھر ہے یہ پہلے اپنگاومے یادہاں بچ پہنے پیتھل کا برطان رہتا تھا ایک دن میں سے یہ DESIGN بھی کتنا مصب بن ہے ATEMBUCK کو مالوں میں انڈیامے لوگوں کو کیا پسندھا تھا اسلے اپنے مجھر کے ساتھنا یہ چاپنگ جا رہتے میں سو بھی سمے سبزی تارگا ری فتحفت چاپ کر دنگا تو فتحفت کھانا بنا دے تو کیا دونا رہتے کیچن کا تنگ بچ جہے گا کیا یہ چتنی νی اگر سلپت میں نہیں بن ہے وہ ATEMBUCK mixtures goingre میں نا کورس مورڈے جس میں ایک دم سلپتے والا ٹیٹھر اور ٹیٹھ ملتے اگر آپ کے کر کے کن سا مکسر ہے جانے قدنا مصب بھپا نہ میرکو نہیں دے گا mixtures کویسا جاک کے دے کر فاک مصب بھپا کو انا این ایسا شاپنگ کلیم بيس تو Because now we will get a good deal",
   "segments": [

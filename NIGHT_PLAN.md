@@ -109,3 +109,12 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   (list now: "Scaler School of Business" "Qubo" "CaratLane" "DailyObjects|Daily Objects" "Atomberg" "Cult.fit" "Fitelo" "Stable Money" "Wint Wealth"),
   (2) resume stopped agents with SendMessage to their id, telling them files survived, (3) rerun any prepare/retranscribe job that was mid-way.
 - Running now: rr-pull (9 brands), Atomberg prepare + retranscribe, Opus agent ac14419b734d5d33e on comparison 2.
+
+## Added 04:25 UTC 20 Nov (after a second restart; the session was down from about 02:30 to 04:20)
+- PUBLISHED: Cult.fit vs Fitelo https://claude.ai/artifact/5sZG7mWZYjdFsbQarkXo5V (47 of 48). Stable Money vs Wint Wealth republished as v4 (same link).
+- teardown/COMPARE_RUNBOOK.md exists: one Opus agent per comparison follows it.
+- Pull pattern learnt from the 00:26 to 02:30 round: the Library gives one or two full views, then empties until left alone about 15 to 20 minutes.
+  rr-pull.sh now rests about 20 minutes after an empty view and requeues the empty view (slow-crawl retries up to 12 times).
+  The worker session on another machine never pushed anything; ignore it. rr-pull list now has all eleven brands (SSB, Qubo, Mokobara, DailyObjects, GIVA, CaratLane first).
+- Cult.fit now has 60 ads (30 new, from its video view): new videos need prepare, retranscribe, write-ups, concept pass refresh.
+- Atomberg (30 ads, 27 videos): needs write-ups (2 Sonnet agents + concept pass with extras.json), then waits for Qubo.
