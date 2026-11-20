@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I've done three internships, two SSB, I've done two full-time jobs, two SSB.",
+    "offer": "other",
+    "deadline": true,
+    "angle": "outcome",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Technology, 18-month full-time",
+    "one_line": "An unlabelled man speaks as an SSB student about internships, jobs and access to people, over campus b-roll; end card shows an early bird deadline of 1 November 2026.",
+    "script_twin": null,
+    "offer_also": ["early bird deadline 1st November 2026 (end card, no discount stated)"]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

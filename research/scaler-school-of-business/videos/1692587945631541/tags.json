@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "We need to create 1 million jobs a month as a country, where at 100,000 we are not creating employment",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month full-time",
+    "one_line": "Unlabelled speakers say India needs 1 million jobs a month, then say SSB students build brands and AI apps and present to industry leaders; ends on Apply now.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

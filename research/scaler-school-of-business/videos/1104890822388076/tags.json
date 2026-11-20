@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "Most MBAs in India are outdated and one in four MBA graduates is actually unemployable.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "studio",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month, Bangalore",
+    "one_line": "An unnamed man in a tan jacket says most MBAs are outdated, praises SSB's learn-by-doing approach and tells viewers to consider it.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "angle", "row"],
+    "human_checked": false
+  }
+}
