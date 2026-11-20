@@ -91,6 +91,30 @@
   },
   {
    "q": "aap"
+  },
+  {
+   "q": "hai"
+  },
+  {
+   "q": "ke"
+  },
+  {
+   "q": "se"
+  },
+  {
+   "q": "ka"
+  },
+  {
+   "q": "to"
+  },
+  {
+   "q": "in"
+  },
+  {
+   "q": "a"
+  },
+  {
+   "q": "is"
   }
  ],
  "total": 110,
@@ -192,33 +216,50 @@
   "2026-11-20T09:25:02.894Z PAUSED: 30 unique ads of ~110",
   "2026-11-20T09:36:47.610Z view {\"q\":\"aap\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
   "2026-11-20T09:36:47.614Z stopping after 1 view(s) as asked",
-  "2026-11-20T09:36:47.614Z PAUSED: 30 unique ads of ~110"
+  "2026-11-20T09:36:47.614Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T09:42:37.433Z view {\"q\":\"hai\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T09:42:37.436Z stopping after 1 view(s) as asked",
+  "2026-11-20T09:42:37.436Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T09:55:09.410Z view {\"q\":\"ke\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T09:55:09.413Z stopping after 1 view(s) as asked",
+  "2026-11-20T09:55:09.413Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T10:05:58.337Z view {\"q\":\"se\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T10:05:58.341Z stopping after 1 view(s) as asked",
+  "2026-11-20T10:05:58.342Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T10:19:06.747Z view {\"q\":\"ka\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T10:19:06.749Z stopping after 1 view(s) as asked",
+  "2026-11-20T10:19:06.749Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T10:32:10.538Z view {\"q\":\"to\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T10:32:10.541Z stopping after 1 view(s) as asked",
+  "2026-11-20T10:32:10.541Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T10:45:24.410Z view {\"q\":\"in\"} -> 0 ads (window total 0), 0 new, 30 unique of ~110",
+  "2026-11-20T10:45:24.414Z stopping after 1 view(s) as asked",
+  "2026-11-20T10:45:24.414Z PAUSED: 30 unique ads of ~110",
+  "2026-11-20T10:58:07.493Z view {\"q\":\"a\"} -> 2 ads (window total 2), 2 new, 32 unique of ~110",
+  "2026-11-20T10:58:07.495Z stopping after 1 view(s) as asked",
+  "2026-11-20T10:58:07.495Z PAUSED: 32 unique ads of ~110",
+  "2026-11-20T11:10:50.363Z view {\"q\":\"is\"} -> 30 ads (window total 55), 30 new, 62 unique of ~110",
+  "2026-11-20T11:10:50.366Z stopping after 1 view(s) as asked",
+  "2026-11-20T11:10:50.366Z PAUSED: 62 unique ads of ~110"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "q": "hai"
+   "q": "is",
+   "media": "video"
   },
   {
-   "q": "ke"
+   "q": "is",
+   "media": "meme"
   },
   {
-   "q": "se"
+   "q": "is",
+   "media": "image"
   },
   {
-   "q": "ka"
-  },
-  {
-   "q": "to"
-  },
-  {
-   "q": "in"
-  },
-  {
-   "q": "a"
-  },
-  {
-   "q": "is"
+   "q": "is",
+   "sort": "relevancy_monthly_grouped",
+   "dir": "desc"
   },
   {
    "q": "of"
@@ -281,6 +322,30 @@
   },
   {
    "q": "aap",
+   "retry": 1
+  },
+  {
+   "q": "hai",
+   "retry": 1
+  },
+  {
+   "q": "ke",
+   "retry": 1
+  },
+  {
+   "q": "se",
+   "retry": 1
+  },
+  {
+   "q": "ka",
+   "retry": 1
+  },
+  {
+   "q": "to",
+   "retry": 1
+  },
+  {
+   "q": "in",
    "retry": 1
   }
  ],
