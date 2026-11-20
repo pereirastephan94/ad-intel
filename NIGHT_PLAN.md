@@ -97,3 +97,9 @@ Fallback if a brand has under 15 ads or no page is found: fintech Upstox, Dezerv
   pipeline and build "SSB vs Mesa" with the new comparison framework (Mesa data: research/mesa, 249 ads; it has breakdowns but NOT tags.json yet: a tagging pass is needed).
 - Cult.fit and Fitelo are fully written up with concepts.md and extras.json: comparison 2 waits for the v4 framework.
 - Pull worker test (session_018VFYVJ74b98dqPoxK7xT9B): its first two views were empty while this machine's view was full; undecided, check its branch pull/worker-1 later.
+
+## Added 00:35 UTC 20 Nov
+- Comparison 1 republished as v3 (framework v4: plan, workhorses, bonds against bonds, scripts to brief; 47 of 48): https://claude.ai/artifact/MsxdvaRyVXemXciA35N7KJ
+- Comparison 2 (Cult.fit vs Fitelo): an Opus agent is building it end to end and writing teardown/COMPARE_RUNBOOK.md. Output: <scratch>/pages/cult-fit-vs-fitelo/index.html. Publish it when the agent reports (Artifact tool, icon "chart").
+- From now on each comparison = one Opus agent following teardown/COMPARE_RUNBOOK.md, after both brands have write-ups, concepts.md and extras.json.
+- Atomberg: 30 ads pulled; metrics and transcripts running; next: 2 Sonnet write-up agents + concept pass (which also writes extras.json).
