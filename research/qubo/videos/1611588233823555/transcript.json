@@ -1,0 +1,105 @@
+{
+ "asset": "1611588233823555",
+ "first_seen_in": "1471404401411436",
+ "duration_s": 25.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.4,
+   "why": "scene change"
+  },
+  {
+   "t": 7.2,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 16.3,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21,
+   "why": "scene change"
+  },
+  {
+   "t": 25.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "It can up into anyone and that's why I set up Qbo Smart Security Devices. Now when I'm away, I rest easy knowing Qbo AI is on guard and will alert me if anything is off. Whenever the little worry creeps in, I just check the Qbo app. If you can, check. Outdoor cams, check. Qbo AI Security Camera. It doesn't just record, it protects.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8.1,
+    "text": "It can up into anyone and that's why I set up Qbo Smart Security Devices."
+   },
+   {
+    "start": 8.1,
+    "end": 14.2,
+    "text": "Now when I'm away, I rest easy knowing Qbo AI is on guard and will alert me if anything"
+   },
+   {
+    "start": 14.2,
+    "end": 15.2,
+    "text": "is off."
+   },
+   {
+    "start": 15.2,
+    "end": 18,
+    "text": "Whenever the little worry creeps in, I just check the Qbo app."
+   },
+   {
+    "start": 18,
+    "end": 19,
+    "text": "If you can, check."
+   },
+   {
+    "start": 19,
+    "end": 20,
+    "text": "Outdoor cams, check."
+   },
+   {
+    "start": 20,
+    "end": 23,
+    "text": "Qbo AI Security Camera."
+   },
+   {
+    "start": 23,
+    "end": 25.2,
+    "text": "It doesn't just record, it protects."
+   }
+  ]
+ }
+}

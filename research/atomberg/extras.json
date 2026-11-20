@@ -1,0 +1,111 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "Intellon adaptive RO water purifier",
+        10
+      ],
+      [
+        "Smart BLDC ceiling fans",
+        6
+      ],
+      [
+        "Zenova BLDC mixer grinder",
+        8
+      ],
+      [
+        "Renesa BLDC pedestal fan",
+        3
+      ],
+      [
+        "SL 1 smart lock",
+        2
+      ],
+      [
+        "Studio BLDC exhaust fan",
+        1
+      ]
+    ],
+    "note": "Ten of 30 ads sell the Intellon water purifier, ten sell fans (six ceiling, three pedestal, one exhaust), eight sell the Zenova mixer grinder and two sell a smart lock; none shows a price."
+  },
+  "series": [
+    {
+      "name": "Zenova regional demo set",
+      "ads": [
+        "1042770985156535",
+        "1985720855406501",
+        "2233034374286141"
+      ],
+      "note": "Five ads share one headline and one long ad text, started between 2026-08-02 and 2026-08-10 and have run 102 to 110 days, in Tamil, Telugu or unreadable speech."
+    },
+    {
+      "name": "Gag box, then the real product",
+      "ads": [
+        "985790447890966",
+        "1024253483886747"
+      ],
+      "note": "A fake AutoMatka box (water purifier) and a fake AutoSilbatta box (mixer) are pitched as jokes before the real Atomberg product appears."
+    },
+    {
+      "name": "Technician and AMC trust",
+      "ads": [
+        "28649458564750381",
+        "1820644579124274",
+        "962040276504976"
+      ],
+      "note": "Four Intellon ads, from 14 to 242 days live, are built on distrust of RO service bills and the filter-health app."
+    },
+    {
+      "name": "Rupee saving line on fans",
+      "ads": [
+        "1707854647238748",
+        "903369339373221",
+        "1090290693943316"
+      ],
+      "note": "Six of ten fan ads carry a ₹1,500 a year or ₹400 a summer saving, each worded differently between speech, card and ad text."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "The ₹1,500 fan saving is 'every season' in one caption, 'per year' on the box and in the ad text, 'every year' in a headline over a video that never says it, and no period in the speech.",
+      "ads": [
+        "903369339373221",
+        "1322308182660958",
+        "1707854647238748"
+      ]
+    },
+    {
+      "text": "The pedestal saving is 'every season' in the ad text and 'every summer' on the card, and the voice drops 'up to' and says a flat ₹400.",
+      "ads": [
+        "1090290693943316",
+        "1324690546431376",
+        "1087130470664197"
+      ]
+    },
+    {
+      "text": "The Intellon promises a 2-year unconditional warranty, 2 years with no service cost, no AMC, zero maintenance and the lowest maintenance costs, in different ads and with no terms shown.",
+      "ads": [
+        "1393478602160610",
+        "1100991832415673",
+        "962040276504976",
+        "1753637709267652"
+      ]
+    },
+    {
+      "text": "The Intellon's saving is 2X more water saving in one ad, about 25,000 rupees over 8 years in another, a litres-a-day usage chart in a third and up to ₹13,000 on the static.",
+      "ads": [
+        "1393478602160610",
+        "1100991832415673",
+        "962040276504976",
+        "981664110853974"
+      ]
+    },
+    {
+      "text": "The smart lock ad text says 6 ways of unlocking; the box shows five icons and the voice names four.",
+      "ads": [
+        "2607900756305385",
+        "1847305846649162"
+      ]
+    }
+  ]
+}

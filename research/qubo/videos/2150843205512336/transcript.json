@@ -1,0 +1,212 @@
+{
+ "asset": "2150843205512336",
+ "first_seen_in": "952919071005083",
+ "duration_s": 58.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 7.1,
+   "why": "scene change"
+  },
+  {
+   "t": 12.8,
+   "why": "scene change"
+  },
+  {
+   "t": 15.3,
+   "why": "scene change"
+  },
+  {
+   "t": 21,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 32.4,
+   "why": "scene change"
+  },
+  {
+   "t": 37,
+   "why": "scene change"
+  },
+  {
+   "t": 48.5,
+   "why": "scene change"
+  },
+  {
+   "t": 53.3,
+   "why": "scene change"
+  },
+  {
+   "t": 57.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Mmmmmmmmmmm Jee 3,2,1,7 Ayy,Veemal,Ana Who? A kid is not getting the chance to drink Jee,Veemal,Ana Jee,Veemal,Ana I want to rip my doorbell out So that's exactly what I did And replace my regular doorbell with this super cool and smart video doorbell And an even more stylish door lock from Cuba So now whenever my doorbell rings I get a video call on my phone Wherever I am And I can see Darvazhi peko on her Talk to them and even unlock the door without getting up Oh did I mention it even doubles up as an AI security camera And if you're a shopper like me Do not worry you won't even need your keys Because you can just unlock your door with that Your fingerprint I have to think it's so useful Can I got it installed in my mother's house also But the problem is that she talks to me through the bell Doesn't open the door only for me And that's why I've got to put my fingerprint also on her door lock Mom may be a cushion, may be a cushion",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2,
+    "text": "Mmmmmmmmmmm"
+   },
+   {
+    "start": 2,
+    "end": 3,
+    "text": "Jee"
+   },
+   {
+    "start": 3,
+    "end": 4,
+    "text": "3,2,1,7"
+   },
+   {
+    "start": 4,
+    "end": 5,
+    "text": "Ayy,Veemal,Ana"
+   },
+   {
+    "start": 6,
+    "end": 7,
+    "text": "Who?"
+   },
+   {
+    "start": 8,
+    "end": 10,
+    "text": "A kid is not getting the chance to drink"
+   },
+   {
+    "start": 10,
+    "end": 11,
+    "text": "Jee,Veemal,Ana"
+   },
+   {
+    "start": 11,
+    "end": 13,
+    "text": "Jee,Veemal,Ana"
+   },
+   {
+    "start": 13,
+    "end": 15,
+    "text": "I want to rip my doorbell out"
+   },
+   {
+    "start": 15,
+    "end": 17,
+    "text": "So that's exactly what I did"
+   },
+   {
+    "start": 17,
+    "end": 20,
+    "text": "And replace my regular doorbell with this super cool and smart video doorbell"
+   },
+   {
+    "start": 20,
+    "end": 23,
+    "text": "And an even more stylish door lock from Cuba"
+   },
+   {
+    "start": 23,
+    "end": 26,
+    "text": "So now whenever my doorbell rings I get a video call on my phone"
+   },
+   {
+    "start": 26,
+    "end": 28,
+    "text": "Wherever I am"
+   },
+   {
+    "start": 28,
+    "end": 29,
+    "text": "And I can see Darvazhi peko on her"
+   },
+   {
+    "start": 29,
+    "end": 32,
+    "text": "Talk to them and even unlock the door without getting up"
+   },
+   {
+    "start": 32,
+    "end": 36,
+    "text": "Oh did I mention it even doubles up as an AI security camera"
+   },
+   {
+    "start": 36,
+    "end": 38,
+    "text": "And if you're a shopper like me"
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "Do not worry you won't even need your keys"
+   },
+   {
+    "start": 40,
+    "end": 42,
+    "text": "Because you can just unlock your door with that"
+   },
+   {
+    "start": 42,
+    "end": 43,
+    "text": "Your fingerprint"
+   },
+   {
+    "start": 43,
+    "end": 44,
+    "text": "I have to think it's so useful"
+   },
+   {
+    "start": 44,
+    "end": 46,
+    "text": "Can I got it installed in my mother's house also"
+   },
+   {
+    "start": 46,
+    "end": 49,
+    "text": "But the problem is that she talks to me through the bell"
+   },
+   {
+    "start": 49,
+    "end": 51,
+    "text": "Doesn't open the door only for me"
+   },
+   {
+    "start": 51,
+    "end": 53,
+    "text": "And that's why I've got to put my fingerprint also on her door lock"
+   },
+   {
+    "start": 53,
+    "end": 55,
+    "text": "Mom may be a cushion, may be a cushion"
+   }
+  ]
+ }
+}

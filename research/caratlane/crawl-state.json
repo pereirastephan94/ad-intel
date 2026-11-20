@@ -8,6 +8,10 @@
   },
   {
    "media": "image"
+  },
+  {
+   "media": "all",
+   "retry": 3
   }
  ],
  "total": null,
@@ -20,13 +24,16 @@
   "2026-11-20T00:56:25.393Z PAUSED: 0 unique ads of ~null",
   "2026-11-20T01:59:58.982Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T01:59:58.984Z stopping after 1 view(s) as asked",
-  "2026-11-20T01:59:58.984Z PAUSED: 0 unique ads of ~null"
+  "2026-11-20T01:59:58.984Z PAUSED: 0 unique ads of ~null",
+  "2026-11-20T06:03:37.111Z view {\"media\":\"all\",\"retry\":3} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
+  "2026-11-20T06:03:37.113Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:03:37.113Z PAUSED: 0 unique ads of ~null"
  ],
  "keywordsQueued": true,
  "queue": [
   {
    "media": "all",
-   "retry": 3
+   "retry": 4
   },
   {
    "media": "video",

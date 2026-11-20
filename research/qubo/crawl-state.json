@@ -12,6 +12,10 @@
   {
    "media": "all",
    "retry": 3
+  },
+  {
+   "media": "video",
+   "retry": 3
   }
  ],
  "total": 72,
@@ -40,14 +44,23 @@
   "2026-11-20T04:35:19.309Z   video 1323906797467619 ok (26.7s, 16 stills)",
   "2026-11-20T04:35:19.309Z view {\"media\":\"all\",\"retry\":3} -> 30 ads (window total 72), 30 new, 30 unique of ~72",
   "2026-11-20T04:35:19.310Z stopping after 1 view(s) as asked",
-  "2026-11-20T04:35:19.310Z PAUSED: 30 unique ads of ~72"
+  "2026-11-20T04:35:19.310Z PAUSED: 30 unique ads of ~72",
+  "2026-11-20T06:23:25.825Z   video 1392046292709914 ok (83.2s, 16 stills)",
+  "2026-11-20T06:23:43.838Z   video 2150843205512336 ok (58.2s, 16 stills)",
+  "2026-11-20T06:23:51.676Z   video 1579443713377183 ok (12.3s, 9 stills)",
+  "2026-11-20T06:24:09.451Z   video 1157241649985369 ok (60.5s, 16 stills)",
+  "2026-11-20T06:24:20.428Z   video 2542190759618200 ok (62.8s, 16 stills)",
+  "2026-11-20T06:24:27.293Z   video 1611588233823555 ok (25.6s, 13 stills)",
+  "2026-11-20T06:24:37.749Z   video 959816260530618 ok (45.9s, 16 stills)",
+  "2026-11-20T06:24:43.361Z   video 1460594576049356 ok (26.2s, 16 stills)",
+  "2026-11-20T06:24:47.898Z   video 1434575702182418 ok (18.9s, 7 stills)",
+  "2026-11-20T06:25:01.411Z   video 1355670179767202 ok (47.2s, 16 stills)",
+  "2026-11-20T06:25:01.412Z view {\"media\":\"video\",\"retry\":3} -> 30 ads (window total 50), 12 new, 42 unique of ~72",
+  "2026-11-20T06:25:01.412Z stopping after 1 view(s) as asked",
+  "2026-11-20T06:25:01.413Z PAUSED: 42 unique ads of ~72"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "video",
-   "retry": 3
-  },
   {
    "media": "image",
    "retry": 3

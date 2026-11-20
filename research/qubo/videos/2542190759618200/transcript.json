@@ -1,0 +1,202 @@
+{
+ "asset": "2542190759618200",
+ "first_seen_in": "3003013503374014",
+ "duration_s": 62.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.7,
+   "why": "scene change"
+  },
+  {
+   "t": 21.4,
+   "why": "scene change"
+  },
+  {
+   "t": 26.8,
+   "why": "scene change"
+  },
+  {
+   "t": 30.8,
+   "why": "scene change"
+  },
+  {
+   "t": 32.9,
+   "why": "scene change"
+  },
+  {
+   "t": 38.6,
+   "why": "scene change"
+  },
+  {
+   "t": 38.6,
+   "why": "scene change"
+  },
+  {
+   "t": 48,
+   "why": "scene change"
+  },
+  {
+   "t": 62.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "Aaaaah! Yahi ya, if i am with my kids, i can't even think of this. And, when you leave the house, then only one question comes out in your mind. If everything is fine in the house, Now, this tension will not be solved here. We had to take some action. So, we got this, Q.O. smart security camera. This is why we get live monitoring. Just open the app and see if the food is playing or not. Or, if they are talking about the food, then they can scold them. With that, two way top feature. Maaah! This is not right, Jyoti. Is it true? We can take our kids with us every day. And neither can we leave them with anyone. Because, our idea is always on their own. So, security camera can show that what your kids are doing. In fact, Q.O. smart security camera gives you a solution. Can you protect your kids from anywhere? True, Q.O.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2,
+    "text": "Aaaaah!"
+   },
+   {
+    "start": 7,
+    "end": 9,
+    "text": "Yahi ya, if i am with my kids,"
+   },
+   {
+    "start": 9,
+    "end": 11,
+    "text": "i can't even think of this."
+   },
+   {
+    "start": 11,
+    "end": 13,
+    "text": "And, when you leave the house,"
+   },
+   {
+    "start": 13,
+    "end": 15,
+    "text": "then only one question comes out in your mind."
+   },
+   {
+    "start": 15,
+    "end": 17,
+    "text": "If everything is fine in the house,"
+   },
+   {
+    "start": 17,
+    "end": 19,
+    "text": "Now, this tension will not be solved here."
+   },
+   {
+    "start": 19,
+    "end": 21,
+    "text": "We had to take some action."
+   },
+   {
+    "start": 21,
+    "end": 22,
+    "text": "So, we got this,"
+   },
+   {
+    "start": 22,
+    "end": 23,
+    "text": "Q.O. smart security camera."
+   },
+   {
+    "start": 23,
+    "end": 26,
+    "text": "This is why we get live monitoring."
+   },
+   {
+    "start": 26,
+    "end": 30,
+    "text": "Just open the app and see if the food is playing or not."
+   },
+   {
+    "start": 30,
+    "end": 32,
+    "text": "Or, if they are talking about the food,"
+   },
+   {
+    "start": 32,
+    "end": 34,
+    "text": "then they can scold them."
+   },
+   {
+    "start": 34,
+    "end": 35,
+    "text": "With that, two way top feature."
+   },
+   {
+    "start": 35,
+    "end": 36,
+    "text": "Maaah!"
+   },
+   {
+    "start": 36,
+    "end": 38,
+    "text": "This is not right, Jyoti."
+   },
+   {
+    "start": 38,
+    "end": 39,
+    "text": "Is it true?"
+   },
+   {
+    "start": 39,
+    "end": 42,
+    "text": "We can take our kids with us every day."
+   },
+   {
+    "start": 42,
+    "end": 45,
+    "text": "And neither can we leave them with anyone."
+   },
+   {
+    "start": 45,
+    "end": 47,
+    "text": "Because, our idea is always on their own."
+   },
+   {
+    "start": 47,
+    "end": 51,
+    "text": "So, security camera can show that what your kids are doing."
+   },
+   {
+    "start": 52,
+    "end": 56,
+    "text": "In fact, Q.O. smart security camera gives you a solution."
+   },
+   {
+    "start": 56,
+    "end": 59,
+    "text": "Can you protect your kids from anywhere?"
+   },
+   {
+    "start": 59,
+    "end": 60,
+    "text": "True, Q.O."
+   }
+  ]
+ }
+}
