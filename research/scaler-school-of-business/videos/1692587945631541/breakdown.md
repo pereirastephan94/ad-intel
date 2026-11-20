@@ -30,47 +30,40 @@ The machine text has errors; fixes are from the captions in the frames or from s
 | 55.6-56.6 | Apply now. |
 
 ## First 3 seconds
-0 s: a bald, bearded man in glasses mid-speech, hands moving, no text. 0.5 s: same shot, "we need to create". 1 s: "1 million" in a green box. 2 s: crowded street, "country". 3 s: black-and-white market sellers, "We're at 100,000" in large yellow type. Speech from 0 s. Text is on screen by 0.5 s. Hook: a jobs statistic (number claim), not an offer. School and programme are not mentioned.
+0 s: bald, bearded man in glasses mid-speech, no text. 0.5 s: caption "we need to create". 1 s: "1 million" in a green box. 2 s: crowded street, "country". 3 s: black-and-white market sellers, "We're at 100,000" in big yellow. Speech from 0 s; text on screen by 0.5 s. Hook: a jobs statistic. School and programme not named yet.
 
 ## Person on screen
-Two unlabelled men carry the speech; no caption, lower-third or ad text names or labels either, so no role is given. Clip 1 (0 to 1 s): bald, beard, rimless glasses, blue-black check shirt, clip-on mic, gesturing; eyes slightly off the lens. Clip 2 (about 29 to 35 s, 50 s): long dark hair, metal glasses, navy polo, watch, clasped hands; eyes off to one side, not at the lens. Nobody addresses the lens steadily. Students and staff appear in b-roll, unlabelled.
+Two unlabelled men carry the speech; no caption, lower-third or ad text names or labels either. Clip 1 (0 to 1 s): bald, beard, rimless glasses, blue-black check shirt, clip-on mic, gesturing, eyes slightly off the lens. Clip 2 (about 29 to 35 s, 50 s): long dark hair, metal glasses, navy polo, watch, clasped hands, looking to one side, not at the lens. Students and staff in b-roll are unlabelled.
 
 ## Setting, framing and look
-Talking heads in a bright, modern office or campus room, medium shots, graded and shallow focus. B-roll: street crowd (2 s), coaching-centre queue (3.5 s), campus building with sign "SCALER SCHOOL OF BUSINESS" (10.5 s), "Brainstorm and Brew" room with wall text "for the Industry Leaders of Tomorrow" (18 s), a classroom (38.7 s), a laptop showing a chat app in Russian (41.4 s, looks like stock), a green suitcase on a jetty (45.8 s). Professionally edited.
+Talking heads in a bright modern room, graded. B-roll: street crowd, coaching queue, campus building signed "SCALER SCHOOL OF BUSINESS" (10.5 s), a laptop with a Russian-language chat screen (41.4 s, looks like stock), a green suitcase (45.8 s).
 
 ## On-screen text, captions, logos, graphics
-Word-by-word kinetic captions in a serif face, white, yellow or green highlights; "1 million" in a green box; "100,000" in big yellow. Caption "for brands like Mokobara." sits over a suitcase with no visible logo. End card (60.4 s, dark green): SSB shield logo with "SCALER SCHOOL OF BUSINESS", "PGP in Management & Tech", "Apply Now" button, "18-Month | Full-Time | Bangalore Campus".
+Word-by-word serif captions, white with yellow or green highlights. "Mokobara" is a caption over a suitcase with no logo. End card (60.4 s): SSB logo, "PGP in Management & Tech", "Apply Now", "18-Month | Full-Time | Bangalore Campus".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 62 cuts (10.2 per 10 s), first cut 1.84 s, 7 cuts in the first 5 s. 176 words per minute, speech share 0.93, tempo 99 bpm; software guesses a music or sound bed under the voice.
+Measured by software, not heard, so genre and track are unknown. 62 cuts (10.2 per 10 s), first cut 1.84 s, 7 in the first 5 s; 176 words per minute; speech share 0.93; tempo 99 bpm; a sound bed is guessed.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-10.6 | Hook, problem | Jobs gap: 1 million needed, 100,000 created |
-| 10.6-25 | Mechanism | New-age education makes founders; "traditional" cannot |
-| 25-50 | Proof by assertion | Exposure beats hard work; students build brands, AI apps, GTM work for Mokobara |
-| 50-60.7 | CTA, end card | "That's the SSB difference. Apply now." |
+| 0-25 | Hook, mechanism | Jobs gap; new-age education makes founders |
+| 25-60.7 | Proof, CTA, end card | Exposure beats hard work; "Apply now" |
 
 ## Claims and proof
-- "1 million jobs a month ... at 100,000": no source on screen. Not checked.
-- "launching DTC brands, building AI apps and decoding GTM strategies for brands like Mokobara": b-roll only; no student, project or Mokobara logo shown.
-- "presenting all of it to industry leaders": no industry leader is shown or labelled.
-- No placement, salary, hiring-partner, scholarship, seat, fee or deadline figure anywhere.
-- End card (18-Month, Full-Time, Bangalore) is not spoken. The ad text calls the PGP "MBA-equivalent"; the video never says so.
+- "1 million jobs a month ... 100,000": no source on screen.
+- DTC brands, AI apps, GTM for "Mokobara": b-roll only; no project or Mokobara logo.
+- "industry leaders": none shown or labelled.
+- No placement, salary, hiring-partner, scholarship, seat, fee or deadline figure.
+- The end card (18-Month, Full-Time, Bangalore) is never spoken. "MBA-equivalent" appears only in the ad text.
 
 ## Offer and call to action
 Spoken from 55.6 s: "Apply now." Button "Apply now", headline "India's Only B-School Designed by Industry Leaders", landing page scaler.com/school-of-business/minimal-landing/. Ad text: "At SSB, business isn't taught in theory. / It's learned by working on company sourced projects, building AI products, and working with Industry operators. / An MBA-equivalent PGP built for how business actually works today." Link description: "At Scaler School of Business, students don't wait for placements to learn business. / They work on GTMs, build products, and learn directly from people doing the job today. / The role comes later. The skills come first."
 
 ## Why it may work, and where it is weak
 Works:
-- Big-number opener with a caption on screen at 0.5 s and a cut by 1.84 s.
-- Frames the school as a place that makes founders, not just employees.
-- Fast, polished edit that holds attention.
+- Big-number opener, caption at 0.5 s, cut by 1.84 s.
 
 Weak:
-- Opening stat is unsourced and the link to SSB takes 35 s.
-- School named at about 35 s, programme only on the end card.
-- No one is labelled, so authority is unclear.
-- Speakers rarely look at the lens; the stock-looking b-roll proves little.
-- Spoken "industry leaders" claim has no face or name behind it.
+- Stat unsourced; SSB link takes 35 s; nobody labelled; speakers rarely look at the lens.
+- Programme only on the end card.

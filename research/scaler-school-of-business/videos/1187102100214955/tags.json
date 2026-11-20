@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "celebrity_named",
+    "founder_evidence": "caption: '\"If you're 25 and going to a MBA college today, you must be some kind of idiot,\" says Zerodha Co-founder Nikhil Kamath'",
+    "hook": "problem",
+    "hook_text": "In my personal opinion, colleges are dead.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "SSB MBA-equivalent PGP (programme not named in video)",
+    "one_line": "A captioned quote from a named business figure says MBA colleges are outdated, then SSB student scenes show GTM projects, D2C stalls, hackathons and creators.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "hook", "angle", "production"],
+    "human_checked": false
+  }
+}

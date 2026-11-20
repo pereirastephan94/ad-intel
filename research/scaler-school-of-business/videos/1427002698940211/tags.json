@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Just having an MBA or great marks in your exams is not enough to get a good salary or to start up on your own.",
+    "offer": "other",
+    "deadline": true,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month, Bangalore",
+    "one_line": "Unlabelled voices say an MBA and marks are not enough and praise hands-on learning at SSB's labs, cut with campus b-roll; headline gives an early bird deadline of 1 November 2026.",
+    "script_twin": "1438034451855458",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "angle", "offer", "production"],
+    "human_checked": false
+  }
+}

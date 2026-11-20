@@ -1,7 +1,7 @@
 # "Yaar ek baat batata hun": Hinglish investor-style endorsement with event b-roll (1858142998690269)
 - Creative name: not in link
-- Product or programme: "PGP in Management & Tech" on the end card ("18-Month | Full-Time | Bangalore Campus"); ad text says "An MBA-equivalent PGP"; not named aloud
-- Length, shape: 56.8 s, square 1:1 (720 x 720); some b-roll sits in a 16:9 band with blurred bars, the speaker fills the square
+- Product or programme: "PGP in Management & Tech" (end card); ad text "MBA-equivalent PGP"; not named aloud
+- Length, shape: 56.8 s, square 1:1 (720 x 720); some b-roll sits in a 16:9 band with blurred bars
 - Language: Hinglish
 - Format: seated talking head to camera, cut with b-roll
 - Ads using it: 3, earliest start 2026-11-19, total copies 5; links:
@@ -26,46 +26,39 @@ The cleaned transcript is good to 24 s, then turns to junk. From 24 s the lines 
 | 51-56.8 | Silent end card. | |
 
 ## First 3 seconds
-0 s: a man seated in a tan collared jacket, white tee, gold pendant, yellow-tinted rimless glasses, plain light backdrop with a green shape, no text. 0.5 s: caption "Yaar ek". 1 s: "Yaar ek baat". 2 s: "Yaar ek baat batata hun." 3 s: cut to a TV-style pitch set with a man in an olive bomber jacket, caption "INVESTING" (3.3 s: a second man, denim jacket, same caption). Text is on screen by 0.5 s. He speaks to the lens. Hook: a friendly "let me tell you something" opener; no number or offer. School not yet named (said at about 18 s).
+0 s: man seated in a tan collared jacket, white tee, gold pendant, yellow-tinted rimless glasses, plain backdrop with a green shape, no text. 0.5 s: "Yaar ek". 1 s: "Yaar ek baat". 2 s: "Yaar ek baat batata hun." 3 s: TV-style pitch set, caption "INVESTING". Text by 0.5 s; he speaks to the lens. Hook: a friendly "let me tell you something". School named at about 18 s.
 
 ## Person on screen
-No caption, lower-third or ad text names or labels him. He says he invests "in Shark Tank or hiring", so he plays an investor and employer, but the ad gives no name and no role caption. Apparent 30s to 40s, styled hair, goatee, earring, watch, relaxed, many hand gestures. Eyes to the lens in the opening shots (0 to 22 s), then in a side-angle shot (38 to 48 s) he looks off to the left. B-roll people (event speakers, a woman with a mic, a man in a pink polo with a green pin) are unlabelled except a graphic at 30 s reading "FOUNDING [partly hidden] LEADER" beside an Uber logo.
+No caption, lower-third or ad text names or labels him. He says he invests "in Shark Tank or hiring", so he plays an investor and employer, but the ad gives no name or role. Apparent 30s to 40s, styled hair, goatee, earring, gestures a lot. Eyes to the lens at 0 to 22 s; in a side-angle shot (38 to 48 s) he looks left. A graphic at 30 s reads "FOUNDING [partly hidden] LEADER" beside an Uber logo over a man in a pink polo.
 
 ## Setting, framing and look
-Seated medium shot on a stool against a light backdrop with a green SSB shape and a wall of photos; lit, graded, two camera angles. B-roll: Shark Tank-style pitches (3 s), a classroom talk (18 s), a student pitch at an SSB podium (26.6 s), the pink-polo man (30 s), two men presenting (32 s).
+Seated medium shot against a light backdrop with a green SSB shape; lit, graded, two angles. B-roll: Shark Tank-style pitches (3 s, no credit), a classroom talk, a student pitch at an SSB podium (26.6 s).
 
 ## On-screen text, captions, logos, graphics
-White serif captions, a few words at a time, left or centre; "INVESTING" in large capitals over the pitch clips; "build their own D2[C]" at 26.6 s; "ek student se mila" at 32 s; Uber logo at 30 s. End card (56.5 s): SSB logo, "PGP in Management & Tech", "Apply Now" button, "18-Month | Full-Time | Bangalore Campus".
+White serif captions; "INVESTING" in large capitals; "build their own D2[C]" (26.6 s); "ek student se mila" (32 s); Uber logo (30 s). End card (56.5 s): SSB logo, "PGP in Management & Tech", "Apply Now", "18-Month | Full-Time | Bangalore Campus".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 41 cuts (7.2 per 10 s), first cut 2.17 s, 5 cuts in the first 5 s. 178 words per minute, speech share 0.89, 6.3 s of gaps, tempo 117 bpm; software guesses a music or sound bed. The last 2 s are near silent.
+Measured by software, not heard, so genre and track are unknown. 41 cuts (7.2 per 10 s), first cut 2.17 s, 5 in the first 5 s; 178 words per minute; speech share 0.89; tempo 117 bpm; a sound bed is guessed. Last 2 s near silent.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-13 | Hook | "I don't care which college", skills matter |
-| 13-24 | Problem, mechanism | B-schools don't teach it; SSB does |
-| 24-38 | Proof | Students build D2C brands, learn from builders |
-| 38-51 | Outcome | Entrepreneur or "top jobs" |
-| 51-56.8 | End card | Apply Now |
+| 0-24 | Hook, problem | "I don't care which college"; SSB solves it |
+| 24-56.8 | Proof, end card | Students build D2C brands; "top jobs"; Apply Now |
 
 ## Claims and proof
 - "most B-Schools in India don't teach this at all": no source.
-- "Students here have to build their own D2C brands": a student pitch is shown at 26.6 s.
-- "get top jobs at [garbled] ... and so many others": employers cannot be read from the audio; no logos shown. No placement, salary, fee, seat, scholarship or deadline figure.
-- "Shark Tank" is spoken; the pitch clips carry no credit or name caption.
+- "Students here have to build their own D2C brands": a student pitch is shown (26.6 s).
+- "top jobs at [garbled]": employers unreadable; no logos. No placement, salary, fee, seat or deadline figure.
+- "Shark Tank" is spoken; the pitch clips carry no credit.
 
 ## Offer and call to action
-No spoken call to action; end card "Apply Now". Button "Apply now", headline "India's Only B-School Designed by Industry Leaders", landing page scaler.com/school-of-business/minimal-landing/. Ad text (all three ads): "At SSB, business isn't taught in theory. / It's learned by working on company sourced projects, building AI products, and working with Industry operators. / An MBA-equivalent PGP built for how business actually works today." Link description: "At Scaler School of Business, students don't wait for placements to learn business. / They work on GTMs, build products, and learn directly from people doing the job today. / The role comes later. The skills come first."
+No spoken call to action; end card "Apply Now". Button "Apply now", headline "India's Only B-School Designed by Industry Leaders", landing page scaler.com/school-of-business/minimal-landing/. Ad text (all three): "At SSB, business isn't taught in theory. / It's learned by working on company sourced projects, building AI products, and working with Industry operators. / An MBA-equivalent PGP built for how business actually works today." Link description: "At Scaler School of Business, students don't wait for placements to learn business. / They work on GTMs, build products, and learn directly from people doing the job today. / The role comes later. The skills come first."
 
 ## Why it may work, and where it is weak
 Works:
-- Casual Hinglish, eyes to the lens, caption at 0.5 s.
-- "I don't care which college" is a bold, skills-first hook for applicants unsure about a new school.
-- Investor and employer framing gives authority.
+- Casual Hinglish, eyes to the lens, caption at 0.5 s; skills-first hook.
 
 Weak:
-- The speaker is unnamed and unlabelled, so the authority is not transferable.
-- School named at about 18 s; programme only on the end card.
-- The second half is hard to follow (garbled employers, Uber graphic unexplained).
-- No figures or proof of jobs.
+- Speaker unlabelled; school named at about 18 s; programme only on the end card.
+- Second half garbled; no figures.

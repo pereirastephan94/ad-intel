@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "A lot of MBA graduates are probably doing jobs that are not compensated to their skills, to their ambitions and to whatever they've learnt.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month, Bangalore",
+    "one_line": "An unlabelled man says graduates are underused because knowledge is not applied, and schools like SSB bridge the gap; fast b-roll and stock clips in 4:5.",
+    "script_twin": "1126157010131714",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "hook_text", "production", "script_twin"],
+    "human_checked": false
+  }
+}

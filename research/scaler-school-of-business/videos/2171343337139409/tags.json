@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "In less than a year, every MBA student at SSB has built businesses, sold products and pitched to VCs.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "PGP in Management & Tech, 18-month full-time",
+    "one_line": "A man captioned only 'STEPHAN PEREIRA' says every SSB MBA student builds, sells and pitches within a year, then walks through day one, month 3, month 6 and named mentors.",
+    "script_twin": "2029111111083645",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "script_twin"
+    ],
+    "human_checked": false
+  }
+}
