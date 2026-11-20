@@ -11,7 +11,7 @@
 - Same script and footage in another shape: 29253950174255944 (landscape 1280 x 720, 42.2 s).
 
 ## Script (verbatim)
-Machine text; doubtful words are marked [?]. Speakers are not assigned after the opening. The caption at 17.7 s reads "50 lakh rupees"; the machine hears "copies", so the caption is trusted.
+Machine text; doubtful words [?]. Speakers not assigned. Caption at 17.7 s says "50 lakh rupees"; the machine hears "copies", so the caption is used.
 
 | Time | Line |
 |---|---|
@@ -36,7 +36,7 @@ Machine text; doubtful words are marked [?]. Speakers are not assigned after the
 Named by caption only as "STEPHAN PEREIRA"; no role, so the ad does not say founder, faculty or student. Apparent 30s, short dark hair and beard, dark brown linen button-up, smart watch, lively gestures. He looks to one side of the lens (off-camera interviewer), not at it. B-roll people are unlabelled, including a grey-haired man with a lanyard captioned "from McKinsey," (29.2 s).
 
 ## Setting, framing and look
-Interview in a dim room with a blurred SSB wall, medium shot, black and white turning to colour at about 14 s. B-roll: street selling (9.7 s), a street haggle, an event tent, a mall, event talks with a board "Build. Lead. Succeed."
+Dim interview room, medium shot, black and white turning to colour at about 14 s. B-roll: street selling (9.7 s), a haggle, an event tent, a mall, event talks.
 
 ## On-screen text, captions, logos, graphics
 Bold sans-serif captions, white with yellow keywords; green lower-third. No Sequoia, McKinsey, Zomato, Razorpay or Apple logos in the stills. End card (42 s): SSB logo, "PGP in Management & Tech", "Apply Now", "18-Month | Full-Time | Bangalore Campus".

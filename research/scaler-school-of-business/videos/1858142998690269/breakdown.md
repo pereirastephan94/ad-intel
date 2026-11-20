@@ -10,7 +10,7 @@
   - https://www.facebook.com/ads/library/?id=1465550381588400
 
 ## Script (verbatim)
-The cleaned transcript is good to 24 s, then turns to junk. From 24 s the lines come from the first-pass (raw) transcript and the captions, and are marked [?].
+Clean transcript to 24 s, then junk; from 24 s lines come from the raw pass and captions, marked [?].
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -32,7 +32,7 @@ The cleaned transcript is good to 24 s, then turns to junk. From 24 s the lines 
 No caption, lower-third or ad text names or labels him. He says he invests "in Shark Tank or hiring", so he plays an investor and employer, but the ad gives no name or role. Apparent 30s to 40s, styled hair, goatee, earring, gestures a lot. Eyes to the lens at 0 to 22 s; in a side-angle shot (38 to 48 s) he looks left. A graphic at 30 s reads "FOUNDING [partly hidden] LEADER" beside an Uber logo over a man in a pink polo.
 
 ## Setting, framing and look
-Seated medium shot against a light backdrop with a green SSB shape; lit, graded, two angles. B-roll: Shark Tank-style pitches (3 s, no credit), a classroom talk, a student pitch at an SSB podium (26.6 s).
+Seated medium shot, lit, graded, two angles. B-roll: Shark Tank-style pitches (3 s, no credit), a classroom talk, a student pitch (26.6 s).
 
 ## On-screen text, captions, logos, graphics
 White serif captions; "INVESTING" in large capitals; "build their own D2[C]" (26.6 s); "ek student se mila" (32 s); Uber logo (30 s). End card (56.5 s): SSB logo, "PGP in Management & Tech", "Apply Now", "18-Month | Full-Time | Bangalore Campus".
@@ -57,7 +57,7 @@ No spoken call to action; end card "Apply Now". Button "Apply now", headline "In
 
 ## Why it may work, and where it is weak
 Works:
-- Casual Hinglish, eyes to the lens, caption at 0.5 s; skills-first hook.
+- Casual Hinglish, eyes to the lens, caption at 0.5 s.
 
 Weak:
 - Speaker unlabelled; school named at about 18 s; programme only on the end card.

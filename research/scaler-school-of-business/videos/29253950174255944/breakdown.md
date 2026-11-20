@@ -34,7 +34,7 @@ Machine text; doubtful words are marked [?]. Speakers are not assigned after the
 Named by caption only as "STEPHAN PEREIRA"; no role. Apparent 30s, short dark hair and beard, dark brown linen button-up, smart watch, lively gestures. He looks to one side of the lens (off-camera interviewer), not at it. B-roll people are unlabelled, including a grey-haired man with a lanyard captioned "from McKinsey," (29.2 s).
 
 ## Setting, framing and look
-Interview in a dim room with a blurred SSB wall, medium shot, black and white turning to colour at about 14 s; the wider frame shows more room than the square cut. B-roll: street selling, a street haggle, an event tent, a mall, event talks.
+Dim interview room, wider frame than the square cut, black and white turning to colour at about 14 s. B-roll: street selling, a haggle, an event tent, a mall, event talks.
 
 ## On-screen text, captions, logos, graphics
 Bold sans-serif captions, white with yellow keywords ("to 50 lakh rupees."); green lower-third. No Sequoia, McKinsey, Zomato, Razorpay or Apple logos in the stills. End card (41.9 s): SSB logo, "PGP in Management & Tech", "Apply Now", "18-Month | Full-Time | Bangalore Campus".

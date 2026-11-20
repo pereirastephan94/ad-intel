@@ -9,7 +9,7 @@
   - https://www.facebook.com/ads/library/?id=4572207989702796
 
 ## Script (verbatim)
-Machine text is poor in places; unsure words are marked [?]. Where a caption shows the words (the whole Truth, Mokobara) the caption is used. Speakers are not assigned after the opening.
+Machine text is poor in places; unsure words marked [?]; captions used where shown. Speakers not assigned.
 
 | Time | Line |
 |---|---|
@@ -38,13 +38,13 @@ Machine text is poor in places; unsure words are marked [?]. Where a caption sho
 0 s: young man in a lamp-lit cafe-like room, black tee, looking off to one side, no text. 0.5 s: "I've done". 1 s: "internships". 2 s: large SSB logo (where "SSB" is said). 3 s: "two full". Text by 0.5 s. Hook: a personal count of internships and jobs.
 
 ## Person on screen
-Main voice: man in his 20s, dark curly hair, short beard, black tee, hands clasped. No caption, lower-third or ad text labels him (not called student, alumnus or founder), though he speaks of SSB in the first person. He never looks at the lens. Others, all unlabelled: a man in a black shirt in a corridor, a woman in glasses (36.3 s), and a man on a sofa with a microphone captioned "called whole The Truth" (12.6 s, 49 s).
+Main voice: man in his 20s, dark curly hair, short beard, black tee, hands clasped. No caption, lower-third or ad text labels him (not called student, alumnus or founder), though he speaks of SSB in the first person. He never looks at the lens. Others, unlabelled: a corridor man in a black shirt, a woman in glasses, and a man on a sofa captioned "called whole The Truth" (12.6 s, 49 s).
 
 ## Setting, framing and look
-Interview in a cafe-style room; corridor interview; podcast clip. B-roll: group work, men walking (one in a polo reading "SCALER SCHOOL OF BUSINESS", 31 s), a seminar with a "mokobara" logo (57.4 s). Graded, several set-ups.
+Cafe-style interview, corridor interview, podcast clip. B-roll: group work, a polo reading "SCALER SCHOOL OF BUSINESS" (31 s), a seminar with a "mokobara" logo (57.4 s). Graded.
 
 ## On-screen text, captions, logos, graphics
-Large white sans-serif captions. SSB logo at 2 s. End card (67.3 s): SSB logo, "India's First Industry and AI-Led Business School", "Apply Now", "Early Bird Deadline / 1st November 2026", "18-Month Full-Time PG Program in Management & Technology".
+White sans-serif captions; SSB logo at 2 s. End card (67.3 s): SSB logo, "India's First Industry and AI-Led Business School", "Apply Now", "Early Bird Deadline / 1st November 2026", "18-Month Full-Time PG Program in Management & Technology".
 
 ## Sound and pacing
 Measured by software, not heard, so genre and track are unknown. 31 cuts (4.6 per 10 s), first cut 4.4 s, 1 in the first 5 s; 195 words per minute; speech share 0.93; tempo 144 bpm; a sound bed is guessed.
@@ -57,7 +57,7 @@ Measured by software, not heard, so genre and track are unknown. 31 cuts (4.6 pe
 
 ## Claims and proof
 - "three internships", "two full-time jobs": no names or dates shown; employer names are garbled.
-- "two hours with [name]" who "worked with Mark Zuckerberg": heard only.
+- "worked with Mark Zuckerberg" (a guest): heard only.
 - No placement, salary, hiring-partner, scholarship, seat or fee figure; no source for any number.
 - End card says "India's First Industry and AI-Led Business School"; headline on 1406583844890391 says "India's Only B-School Designed by Industry Leaders".
 - "Early Bird Deadline 1st November 2026": both ads started 2026-11-17, so the date was already past.
