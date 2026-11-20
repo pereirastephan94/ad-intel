@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "To lose 10 kg in 90 days",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Body Map Review, 50+ parameters, Rs 199",
+    "script_twin": null,
+    "offer_also": [],
+    "one_line": "A man in a Fitelo polo stands arms crossed beside 'To lose 10 kg in 90 days' and a Body Map Review offered at 199 rupees, was 499."
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

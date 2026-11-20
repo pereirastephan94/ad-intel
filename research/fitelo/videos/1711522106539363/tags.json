@@ -8,7 +8,7 @@
     "offer": "discount",
     "deadline": false,
     "angle": "price_value",
-    "language": "hindi",
+    "language": "english",
     "production": "phone_lofi",
     "concept_id": null,
     "product": "Weight-loss plans, up to 30% off",
@@ -22,8 +22,7 @@
       "row",
       "hook",
       "hook_text",
-      "angle",
-      "language"
+      "angle"
     ],
     "human_checked": false
   }

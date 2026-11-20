@@ -28,7 +28,7 @@ Static photo slideshow. Blurred opening on black; "THEN SHE JOINED" fades in on 
 
 ## On-screen text, captions, logos, graphics
 - "From 104 kg to 66 kg / becoming a stronger mom" (1-6 s); "THEN SHE JOINED" (6.7 s); "Customized diet pla[n]" with a green tick (15.6 s).
-- Always on: "Fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. The results involve maintaining a healthy diet and exercise changes. Individual results may vary."
+- Always on: "Fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. ... Individual results may vary."
 - End card: "COMMENT YES / To start your weight loss journey!"
 
 ## Sound and pacing

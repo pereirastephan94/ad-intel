@@ -2,12 +2,12 @@
 - Creative name: not in link
 - Product or programme: Fitelo "weightloss plans" with a consultation; headline "Get Upto 30% OFF"
 - Length, shape: 23.8 s, vertical 9:16 (720 x 1280)
-- Language: Hindi sounds for 18 s (not recoverable), English voice for the last 5 s; on-screen text English
+- Language: English on screen; English voice for the last 5 s; the earlier sound is unclear
 - Format: customer transformation montage with a template offer end card
 - Ads using it: 1, earliest start 2026-10-23, total copies 1; link: https://www.facebook.com/ads/library/?id=2190284715234477
 
 ## Script (verbatim)
-The machine transcript is garbled for 0 to 18 s and no caption shows spoken words. The sound may be a sung track, not a person talking: the same-template video 992641457088867 transcribes the same stretch as song-like lines. That is an inference. No speaker is shown speaking.
+The machine transcript is garbled for 0 to 18 s and no caption shows spoken words. The sound may be a sung track: the same-template video 992641457088867 has the same cut times and tempo (123 bpm) and its machine text reads like song lyrics. That is an inference. Nobody is shown speaking.
 
 | Time | Line | Gloss |
 |---|---|---|

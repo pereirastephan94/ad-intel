@@ -30,25 +30,25 @@ Full script. The 27-38 s stretch was garbled, so I romanised it from sound and c
 | 51.8-53.9 | Book your consultation now. | English |
 
 ## First 3 seconds
-Grey-haired bearded man in a black Fitelo polo, to camera, grey wall, "fitelo" logo top right. Captions build: "Weight loss can make" (0.5 s), "...you look younger," (1 s), "how ?" (2 s), "Listen to his story" (3 s). Hook: a claim that promises a story; no number or offer first.
+Presenter to camera against a grey wall, "fitelo" logo top right. Captions build: "Weight loss can make" (0.5 s), "...you look younger," (1 s), "how ?" (2 s), "Listen to his story" (3 s). Hook: a claim promising a story.
 
 ## Person on screen
-- Presenter (0-3.7 s and 37 s on): man, 50s to 60s, swept-back grey hair, white-grey beard, black polo. Faces the lens, calm. No name or role given.
-- Testimonial man (3.7-37 s): about 40s, short dark hair, black polo, jeans, watch, red thread bracelet. To camera in the first shot, then walking and in a hotel lobby while his voice continues. No caption names him or says "customer".
-- 3.7 s b-roll: a man in a green embroidered waistcoat and white cap carries a lit plate; unexplained.
+- Presenter (0-3.7 s, 37 s on): man, 50s to 60s, grey swept-back hair, white-grey beard, black polo. To camera. No name or role given.
+- Testimonial man (3.7-37 s): about 40s, dark hair, black polo, jeans, watch. To camera in the first shot, then walking and in a hotel lobby over his voice. No caption names him or says "customer".
+- 3.7 s b-roll: a man in a green waistcoat and white cap carries a lit plate; unexplained.
 
 ## Setting, framing and look
 Presenter: static medium close-up. Testimonial: corridor, hotel steps, glass office, bright clean grade. Red "Fitelo Body Map" scan graphic (6 s), phone search shot. Polished multi-location edit.
 
 ## On-screen text, captions, logos, graphics
 - White serif captions, a few words at a time.
-- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. The results involve maintaining a healthy diet and exercise changes. Individual results may vary."
+- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. ... Individual results may vary."
 - "Fitelo Body Map / 100+ Parameters Analysis" (6 s).
 - About 41-46 s: cheque photos marked "100 % CASHBACK OFFER", "WINNER".
 - End card: "Lose weight, win 10X cashback", "For first 100 customers only", "BOOK NOW".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 17 cuts (3.13 per 10 s), first cut 3.7 s, 1 cut in the first 5 s. 198 words per minute, speech share 0.99, tempo 108 bpm; no gaps to judge.
+Measured by software, not heard, so genre and track cannot be named. 17 cuts (3.13 per 10 s), first cut 3.7 s, 1 in the first 5 s. 198 words per minute, tempo 108 bpm.
 
 ## Structure
 | Time | Beat | What happens |
@@ -65,16 +65,14 @@ Measured by software, not heard, so genre and track cannot be named. 17 cuts (3.
 - No price anywhere.
 
 ## Offer and call to action
-Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians", landing https://wellness.fitelo.co/weightloss-with-fitelo/. Ad text: "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! / ... With Fitelo, you get: Personalised weight-loss plan; 1-on-1 dietitian guidance; Expert coaching & support; Movement, yoga & fitness support; Progress tracking through the Fitelo app / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / ... Book your consultation now!" (middle sentences abbreviated).
+Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians", landing https://wellness.fitelo.co/weightloss-with-fitelo/. Ad text: "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK ... / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / Book your consultation now!" (feature list and middle lines omitted) (the five-point feature list and middle lines omitted)
 
 ## Why it may work, and where it is weak
 Works:
-- Look-younger angle is fresh.
-- Relatable journey (dietitians, yoga, gym, boredom).
-- Scarcity and a big offer close it.
+- Look-younger angle is fresh; relatable journey.
+- Scarcity closes it.
 
 Weak:
-- 28 kg has no proof and exceeds the small print.
-- 10X is never explained; cheques say 100%.
-- Nobody is named or labelled.
-- Dense speech (198 wpm); no price.
+- 28 kg unproven and above the small print.
+- 10X unexplained; cheques say 100%.
+- Nobody named; no price.

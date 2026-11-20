@@ -27,3 +27,7 @@ Read: 1113897927910622 header, verdict section and tags; the bot's report on all
 ## Review 5 (20 Nov 2026): Cult.fit batch B (about the 60th write-up)
 - Read the bot's report. It caught city-by-city prices on identical footage (1,099 / 1,199 / 1,250 / 1,291 "starting at"), a free-trial headline on a video that never mentions a trial, and an Amritsar ad using footage with a Kannada shop sign. That is the level wanted.
 - Gaps: no offer value for a "from" price; deadline without a date; reviewer-tour videos. Ruled in "Rulings from review 5".
+
+## Review 6 (20 Nov 2026): Fitelo batch A (about the 75th write-up)
+- Read the bot's report. It caught: headline results of 25 to 38 kg against small print of "2-3 kg in 4 weeks"; one photo used for two different named results; "10X cashback" spoken over cheque props reading "100% cashback"; an offer "valid till 31st October" on ads still running on 20 November; "25 parameters" spoken over a screenshot saying 18+.
+- Gaps: photo slideshows (V2 or V4), mixed presenter and montage, page category mistaken for a creator credit, which source sets the offer. Ruled in "Rulings from review 6".

@@ -9,7 +9,7 @@
   - https://www.facebook.com/ads/library/?id=1130206799365682
 
 ## Script (verbatim)
-Full script. The Devanagari line at 28.9 s is romanised by me; from 32.7 s the outro comes from the first-pass transcript.
+Full script. The Devanagari line at 28.9 s is romanised by me; the outro is from the first-pass transcript.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -29,24 +29,24 @@ Full script. The Devanagari line at 28.9 s is romanised by me; from 32.7 s the o
 | 43.3-45.5 | Book your consultation now. | English |
 
 ## First 3 seconds
-Woman in a cane chair in a garden, speaking to camera. 0.5 s: name card "Rupam Singh" and caption "Doctor ne mujhe"; 1 s: card reads "Rupam Singh / Homemaker, Jharkhand"; 2 s: "weight lose karo"; 3 s: cut to a photo in an orange salwar suit, "Maine 71 kg se zyada". Hook: a doctor's advice (story opener); the first number comes at 3 s.
+Woman in a garden chair to camera. 0.5 s: name card "Rupam Singh" and caption "Doctor ne mujhe"; 1 s: card adds "Homemaker, Jharkhand"; 2 s: "weight lose karo"; 3 s: photo in an orange suit, "Maine 71 kg se zyada". Hook: a doctor's advice; first number at 3 s.
 
 ## Person on screen
-- Named by the lower-third "Rupam Singh, Homemaker, Jharkhand". Age 30s, long black hair, red lipstick, sindoor, navy floral sleeveless dress, silver bangles. Warm, earnest, to the lens.
-- Photos of her in orange, teal, deep red and pink outfits (the last holding a toddler at a temple); dates not shown.
+- Lower-third: "Rupam Singh, Homemaker, Jharkhand". Age 30s, long black hair, red lipstick, sindoor, navy floral dress. Earnest, to the lens.
+- Photos of her in other outfits, one holding a toddler; dates not shown.
 - Outro presenter: grey-haired bearded man in a black Fitelo polo; no name or role.
 
 ## Setting, framing and look
-Garden chair, then a sofa (31 s); static medium close-up, natural light. Cutaways: phone use, photos. Outro: office set, cheque montage, maroon end card.
+Garden chair, then a sofa; static medium close-up, natural light; photo cutaways. Outro: office set, cheque montage, end card.
 
 ## On-screen text, captions, logos, graphics
 - Name card from 0.5 s; white serif captions with key words ringed.
-- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. The results involve maintaining a healthy diet and exercise changes. Individual results may vary."
+- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. ... Individual results may vary."
 - Cheque montage (37.9 s): "100 % CASHBACK OFFER", "WINNER", ₹12,000, ₹16,000, ₹11,000, ₹4250 as read.
 - End card: "Lose weight, win 10X cashback", "Valid for first 100 customers only", "BOOK NOW".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 20 cuts (4.34 per 10 s), first cut 2.36 s, 1 cut in the first 5 s. 165 words per minute, speech share 0.99, tempo 117 bpm; no gaps to judge.
+Measured by software, not heard, so genre and track cannot be named. 20 cuts (4.34 per 10 s), first cut 2.36 s, 1 in the first 5 s. 165 words per minute, tempo 117 bpm.
 
 ## Structure
 | Time | Beat | What happens |
@@ -63,16 +63,13 @@ Measured by software, not heard, so genre and track cannot be named. 20 cuts (4.
 - No price.
 
 ## Offer and call to action
-Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians"; landing https://wellness.fitelo.co/weightloss-with-fitelo/ (ad 1637013901394490) and /v31/ (ad 1130206799365682). Outro matches 1031452079918986 and 1061307573599046. Ad text A: "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! / ... Personalised weight-loss plan; 1-on-1 dietitian guidance; Expert coaching & support; Movement, yoga & fitness support; Progress tracking through the Fitelo app / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / ... Book your consultation now!" Variant B (the /v31/ ad) opens with an alarm emoji, says "A plan built around your health, habits & lifestyle, with:" and "Fitness & movement support", and drops "Ready to start doing weight loss differently?".
+Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians"; landing https://wellness.fitelo.co/weightloss-with-fitelo/ (ad 1637013901394490) and /v31/ (ad 1130206799365682). Outro matches 1031452079918986 and 1061307573599046. Ad text A: "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK ... / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / Book your consultation now!" (feature list and middle lines omitted) Variant B (the /v31/ ad) opens with an alarm emoji, says "A plan built around your health, habits & lifestyle, with:" and "Fitness & movement support", and drops "Ready to start doing weight loss differently?".
 
 ## Why it may work, and where it is weak
 Works:
-- A named, labelled customer with place and role reads as real.
-- Motherhood and fertility make it emotional and specific.
-- Quick cuts (4.3 per 10 s), ringed captions, Hinglish.
+- A named, labelled customer reads as real; motherhood makes it specific.
 
 Weak:
 - 18 kg has no timeframe; the 71 kg line is unclear.
 - A conception claim with no medical backing is risky.
-- Offer numbers conflict (10X, 100%, 5 lakh versus small cheques).
-- Voice and mood switch abruptly at 32.7 s; no price.
+- Offer numbers conflict; no price.

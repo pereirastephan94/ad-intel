@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "NOT ALL WEIGHT LOSS IS FAT LOSS",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Fitelo Smart Scale, tracks 18 metrics",
+    "one_line": "A black smart scale on a plinth under the headline 'Not all weight loss is fat loss', with a tick list of tracked metrics and a Shop now button.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Fitelo ka plan lene ki galti mat krna",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "A narrator tells the story of a new mother named Ummi whose weight rose after motherhood, shows her result photos, then offers up to 30% off.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

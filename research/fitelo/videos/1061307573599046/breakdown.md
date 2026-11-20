@@ -21,23 +21,23 @@ Full script. Machine text is garbled from 8 to 13.6 s; where a caption shows the
 | 24.2-26.4 | Book your consultation now. | English |
 
 ## First 3 seconds
-Grey-haired bearded man in a black Fitelo polo, to camera, office set with plants. At 0.5 s a photo of a woman in a red kurta slides in with the name "Malika"; 1 s adds "Lost 35 kgs"; 2 s swaps to an after photo in a cream lehenga. Hook: a kilos-lost number about a named customer.
+Presenter to camera in an office set. 0.5 s: a photo of a woman in a red kurta slides in with the name "Malika"; 1 s adds "Lost 35 kgs"; 2 s swaps to an after photo. Hook: a kilos-lost number about a named customer.
 
 ## Person on screen
-- Presenter: man, 50s to 60s, grey swept-back hair, white-grey beard, black polo. Serious then smiling. No name or role given.
-- Customers appear only as captioned photos: "Malika", "Bright" (a man in a blue checked shirt, though the voice says "she"), "Divya Singh". Cheque montage: people holding "WINNER" cheques; printed names read "Anvita Chaturvedi" and "Aakriti".
+- Presenter: man, 50s to 60s, grey hair, white-grey beard, black polo. No name or role given.
+- Customers appear only as captioned photos: "Malika", "Bright" (a man in a blue checked shirt, though the voice says "she"), "Divya Singh". Cheque montage: "WINNER" cheques with printed names "Anvita Chaturvedi" and "Aakriti".
 
 ## Setting, framing and look
 Static medium close-up, bright office set; photo cards float top left. Purple tint at about 8-13 s, red "CASHBACK" pattern at about 15.8 s. Studio quality, steady.
 
 ## On-screen text, captions, logos, graphics
 - White serif captions; name cards "Malika / Lost 35 kgs", "Bright", "Divya Singh / Lost 25 kgs"; "25"; "10 Times / ho sakta hai"; "India's biggest".
-- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. The results involve maintaining a healthy diet and exercise changes. Individual results may vary."
+- Always on: "fitelo" logo; small print "In 4 weeks,a typical Fitelo user can expect to lose 2-3 Kgs. ... Individual results may vary."
 - Cheques (about 18.9 s): "100 % CASHBACK OFFER", "WINNER", amounts read as ₹12,000, ₹16,000, ₹11,000, ₹4250.
 - End card: "Lose weight, win 10X cashback", "Valid for first 100 customers only", "BOOK NOW".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 7 cuts (2.63 per 10 s), first cut 8.0 s, none in the first 5 s. 164 words per minute, speech share 0.99, tempo 152 bpm; no gaps to judge.
+Measured by software, not heard, so genre and track cannot be named. 7 cuts (2.63 per 10 s), first cut 8.0 s, none in the first 5 s. 164 words per minute, tempo 152 bpm.
 
 ## Structure
 | Time | Beat | What happens |
@@ -53,16 +53,14 @@ Measured by software, not heard, so genre and track cannot be named. 7 cuts (2.6
 - No price.
 
 ## Offer and call to action
-Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians", landing https://wellness.fitelo.co/v31/ and /v34/. Ad text (same in both): "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK when you start your personalised weight-loss journey with Fitelo! / ... With Fitelo, you get: Personalised weight-loss plan; 1-on-1 dietitian guidance; Expert coaching & support; Movement, yoga & fitness support; Progress tracking through the Fitelo app / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / ... Book your consultation now!" (middle sentences abbreviated).
+Spoken "Book your consultation now"; button "Book now", headline "Trusted by 2 Lakh+ Indians", landing https://wellness.fitelo.co/v31/ and /v34/. Ad text (same in both): "INDIA'S BIGGEST WEIGHT-LOSS OFFER IS HERE! / Get 10X CASHBACK ... / Trusted by 2 lakh+ Indians across 70+ countries! / 10X CASHBACK is available for the first 100 customers only! / Book your consultation now!" (feature list and middle lines omitted) (the five-point feature list and middle lines omitted)
 
 ## Why it may work, and where it is weak
 Works:
 - Named result and number in the first second.
-- Short, dense: result, offer, scarcity, CTA.
-- Cheque photos make cashback feel real.
+- Short and dense; cheque photos make cashback feel real.
 
 Weak:
-- Cashback maths conflicts: 10X, 100%, up to 5 lakh, cheques of a few thousand.
-- Two of three results have a single photo; "Bright" is a man called "she".
+- Cashback maths conflicts (10X, 100%, 5 lakh, small cheques).
+- Single photos for two of three results; "Bright" is a man called "she".
 - No timeframe, terms or price.
-- First cut at 8 s.

@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "AMANPREET KAUR - WEIGHT 98 kgs",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Weight-loss plans, up to 30% off",
+    "one_line": "Posed full-length photos of a named customer with a 98 kgs caption lead to an end card for up to 30% off weight-loss plans.",
+    "script_twin": "1711522106539363",
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "hook_text",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

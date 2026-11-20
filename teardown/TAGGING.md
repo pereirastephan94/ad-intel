@@ -164,3 +164,12 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 4. **"Don't feel like X? Then don't"** style openers are `callout`.
 5. **Same footage with a different price or city on the end card** is the same idea (same concept_id). Record each price and city in `product` or `one_line`, because the spread across cities is itself a finding.
 6. **production `high_film`** is about craft (graded, stabilised, several set-ups), with or without actors.
+
+## Rulings from review 6 (20 Nov 2026, after Fitelo)
+1. **Photo slideshows** (still photos, before-and-after pictures, captions, music or voiceover, nobody filmed speaking) are V4, not V2. V2 needs filmed people in a scene.
+2. **Presenter plus customer montage of about equal length:** V1 if the presenter opens and closes the video.
+3. **Before-and-after people:** face `customer` when the ad names them or labels the story as a user's (caption, lower-third, ad text); otherwise `actor_model`.
+4. **A Library page category** ("Digital Creator", "Public figure") is not a creator credit. `creator` needs a handle, a name or a partnership label on the ad itself.
+5. **Hook:** a claim that sets up a story ("Weight loss can make you look younger") is `story_open`; a start weight or size as the opener ("108 kg ...") is `problem`; a result as the opener ("He lost 25 kg in 90 days") is `number_claim`.
+6. **Offer when sources differ:** the video itself wins (speech, then end card), then the headline, then the ad text. Put the others in `offer_also`.
+7. **Results claims:** always record the kilos, the timeframe and what the small print says a typical user loses, in `one_line` or the breakdown. The gap between the headline result and the small print is a finding.
