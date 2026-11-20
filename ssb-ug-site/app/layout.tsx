@@ -5,6 +5,7 @@ import Footer from '@/components/site/Footer';
 import { LeadProvider } from '@/components/ui/lead';
 import StoryblokBridge from '@/components/site/StoryblokBridge';
 import { getStory } from '@/lib/storyblok';
+import { PREVIEW } from '@/lib/preview';
 
 export const metadata: Metadata = {
   title: { default: 'UG Programme in Business, Entrepreneurship & AI | Scaler School of Business', template: '%s | SSB UG' },
@@ -25,6 +26,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <Footer config={config} />
         </LeadProvider>
         <StoryblokBridge />
+        {PREVIEW && (
+          <div className="pointer-events-none fixed bottom-3 left-3 z-[70] rounded-full bg-amber-400 px-3 py-1.5 text-[12px] font-semibold text-amber-950 shadow-lg">
+            Internal preview · not the live site · forms are off
+          </div>
+        )}
       </body>
     </html>
   );

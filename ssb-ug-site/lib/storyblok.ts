@@ -1,5 +1,6 @@
 import type { Story } from './types';
 import { localStories } from '@/content';
+import { previewize } from './preview';
 
 // Storyblok Content Delivery API hosts per region.
 const CDN_HOSTS: Record<string, string> = {
@@ -28,11 +29,11 @@ export async function getStory(slug: string): Promise<Story | null> {
       const res = await fetch(url, { next: { revalidate: version === 'draft' ? 0 : 60 } });
       if (res.ok) {
         const data = await res.json();
-        return data.story as Story;
+        return previewize(data.story as Story);
       }
     } catch {
       // fall through to local content
     }
   }
-  return localStories[slug] ?? null;
+  return previewize(localStories[slug] ?? null);
 }

@@ -5,12 +5,13 @@ import { usePathname } from 'next/navigation';
 import { Countdown } from '@/components/ui/client';
 import { Cta } from '@/components/ui/lead';
 import type { Blok } from '@/lib/types';
+import { PREVIEW, assetPath, pageHref } from '@/lib/preview';
 
 export function Logo({ light }: { light?: boolean }) {
   return (
-    <a href="/" className="flex items-center gap-2.5" aria-label="Scaler School of Business, home">
+    <a href={pageHref('/')} className="flex items-center gap-2.5" aria-label="Scaler School of Business, home">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/logos/ssb.svg" alt="" className={`h-8 w-auto ${light ? 'brightness-0 invert' : ''}`} />
+      <img src={assetPath('/logos/ssb.svg')} alt="" className={`h-8 w-auto ${light ? 'brightness-0 invert' : ''}`} />
       <span className={`text-[10px] font-bold uppercase leading-[1.05] tracking-[0.06em] ${light ? 'text-white' : 'text-ink'}`}>
         Scaler
         <br />
@@ -54,7 +55,14 @@ export default function Header({ config }: { config: Blok }) {
           <Logo />
           <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
             {nav.map((n) => {
-              const active = n.href === '/' ? path === '/' : path?.startsWith(n.href);
+              const active = PREVIEW
+                ? !n.href.includes('#') &&
+                  (n.href === 'home.html'
+                    ? /\/((home|index)(\.html)?)?$/.test(path ?? '')
+                    : (path ?? '').replace(/\.html$/, '').endsWith(`/${n.href.replace(/\.html$/, '')}`))
+                : n.href === '/'
+                  ? path === '/'
+                  : path?.startsWith(n.href);
               return (
                 <a
                   key={n._uid}

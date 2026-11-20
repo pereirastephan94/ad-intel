@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
+import { PREVIEW } from '@/lib/preview';
 
 /* ------------------------------------------------------------------ */
 /* Carousel: native horizontal scroll with snap, plus prev/next.      */
@@ -124,6 +125,14 @@ export function VideoTrigger({ video, children, className = '' }: { video?: stri
   const [open, setOpen] = useState(false);
   if (!video) return <div className={className}>{children}</div>;
   const yt = youtubeId(video);
+  // The static preview copy can't embed YouTube, so those videos open on YouTube.
+  if (PREVIEW && yt) {
+    return (
+      <a href={`https://www.youtube.com/watch?v=${yt}`} target="_blank" rel="noreferrer" className={`group block w-full text-left ${className}`}>
+        {children}
+      </a>
+    );
+  }
   return (
     <>
       <button type="button" onClick={() => setOpen(true)} className={`group block w-full text-left ${className}`}>

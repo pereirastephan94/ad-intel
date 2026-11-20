@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+import { PREVIEW } from '@/lib/preview';
 
 // Top-funnel lead capture: "Join the early waitlist", "Download Brochure" and
 // "Book your info session" all open this form with a different intent.
@@ -80,7 +81,7 @@ export function Cta({
 
 function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void }) {
   const copy = COPY[intent] ?? COPY.waitlist;
-  const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
+  const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error' | 'preview'>('idle');
   const [error, setError] = useState('');
 
   useEffect(() => {
@@ -102,6 +103,10 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
       return;
     }
     setError('');
+    if (PREVIEW) {
+      setState('preview');
+      return;
+    }
     setState('sending');
     const params = new URLSearchParams(window.location.search);
     const payload = {
@@ -144,7 +149,11 @@ function LeadModal({ intent, onClose }: { intent: Intent; onClose: () => void })
             </svg>
           </button>
         </div>
-        {state === 'done' ? (
+        {state === 'preview' ? (
+          <div className="mt-6 rounded-xl bg-amber-50 p-5 text-[15px] text-amber-900">
+            This is an internal preview, so sign-ups are switched off. On the live site, this form sends the details to the admissions team.
+          </div>
+        ) : state === 'done' ? (
           <div className="mt-6 rounded-xl bg-brand-soft p-5 text-[15px] text-brand-deep">{copy.done}</div>
         ) : (
           <form onSubmit={submit} className="mt-5 space-y-4">
