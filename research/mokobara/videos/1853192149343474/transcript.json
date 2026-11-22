@@ -1,0 +1,42 @@
+{
+ "asset": "1853192149343474",
+ "first_seen_in": "1489721833224639",
+ "duration_s": 5.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Music",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "Music"
+   }
+  ]
+ }
+}

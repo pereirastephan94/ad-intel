@@ -1,0 +1,125 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "PGP in Management & Tech (end card wording)",
+        22
+      ],
+      [
+        "PG Program in Management & Technology (end card wording)",
+        2
+      ],
+      [
+        "No programme named (logo-only end card)",
+        6
+      ]
+    ],
+    "note": "All 30 ads sell one full-time 18-month postgraduate programme in Bangalore, worded as 'MBA-equivalent PGP' in 29 ads' text (the 30th says 'immersive PGP'), 'PGP in Management & Tech' on 22 end cards, 'PG Program in Management & Technology' on 2 and no programme name on 6; 'MBA' is spoken in 22 ads and 'PGP' in none."
+  },
+  "series": [
+    {
+      "name": "One interview closing line, three scripts",
+      "ads": [
+        "1606603584081935",
+        "954275137769376",
+        "902388459562279"
+      ],
+      "note": "'If I was a student ... like an SSB today, I do think that exposure would have helped' is spoken in five videos and six ads (c03, c05, c08), none of which labels who speaks."
+    },
+    {
+      "name": "Same footage in several shapes",
+      "ads": [
+        "1915321486513257",
+        "1449287253327664",
+        "2559185667923714"
+      ],
+      "note": "Four ideas (c02, c03, c05, c10) run in two shapes each, 16:9 with 9:16, 4:5 or square; the first sentence is dropped or swapped in some cuts."
+    },
+    {
+      "name": "Early bird end card and headline",
+      "ads": [
+        "954275137769376",
+        "1123141853818596",
+        "1406583844890391"
+      ],
+      "note": "Four ads started on 17 and 19 Nov still carry 'Early Bird Deadline 1st November 2026', two in the headline and two on the end card."
+    },
+    {
+      "name": "Openings that run down the MBA",
+      "ads": [
+        "1520277566815599",
+        "1171509055224316",
+        "1641897867684154"
+      ],
+      "note": "11 of 30 ads open by calling the MBA or college outdated, dead, not enough or its graduates underused; 3 of them say 'outdated' and 'unemployable'."
+    },
+    {
+      "name": "Shared ad text and headline",
+      "ads": [
+        "2559185667923714",
+        "1915321486513257",
+        "1406583844890391"
+      ],
+      "note": "27 ads share one main text and one link description, 18 share the headline 'India's Only B-School Designed by Industry Leaders', and all 30 press 'Apply now' to one landing page."
+    },
+    {
+      "name": "50 lakh in three meanings",
+      "ads": [
+        "2559185667923714",
+        "1171509055224316",
+        "1124686257016435"
+      ],
+      "note": "The figure sits in 12 ads as a brand's scale, a target for D2C businesses and an offer of funding."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "The early bird deadline of 1 November 2026 is still in the headline of two ads started on 19 Nov and on the end card of two ads started on 17 Nov; the 4:5 cut of the same film has no date.",
+      "ads": [
+        "954275137769376",
+        "1123141853818596",
+        "1406583844890391",
+        "4572207989702796"
+      ]
+    },
+    {
+      "text": "50 lakh is a brand scaled to 50 lakh rupees (caption), heard as 50 lakh copies in one cut, a D2C aim of 50 lakhs in just 12 [?] and a funding offer to a student, with no source for any.",
+      "ads": [
+        "2559185667923714",
+        "2128818651073533",
+        "1171509055224316",
+        "1124686257016435"
+      ]
+    },
+    {
+      "text": "The end card says 18-Month, the timeline cut promises results by month 3 and in less than a year, and a voiceover says 'the last two years'.",
+      "ads": [
+        "2559185667923714",
+        "2128818651073533",
+        "1171509055224316"
+      ]
+    },
+    {
+      "text": "The programme is 'MBA student' and 'MBA graduates' in speech, 'MBA-equivalent PGP' in ad text, 'PGP in Management & Tech' on 22 end cards and 'PG Program in Management & Technology' on 2; PGP is never spoken.",
+      "ads": [
+        "2128818651073533",
+        "1124686257016435",
+        "1406583844890391"
+      ]
+    },
+    {
+      "text": "The headline says 'India's Only B-School Designed by Industry Leaders' over videos that never say it, while one end card says 'India's First Industry and AI-Led Business School'.",
+      "ads": [
+        "2559185667923714",
+        "1406583844890391",
+        "4572207989702796"
+      ]
+    },
+    {
+      "text": "The ad text of one ad promises to pitch to VCs and unlock placements; its video shows neither a placement figure nor a VC.",
+      "ads": [
+        "4572207989702796"
+      ]
+    }
+  ]
+}
