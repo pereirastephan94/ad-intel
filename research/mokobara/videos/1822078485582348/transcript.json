@@ -1,0 +1,102 @@
+{
+ "asset": "1822078485582348",
+ "first_seen_in": "1208699715201102",
+ "duration_s": 26.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.7,
+   "why": "scene change"
+  },
+  {
+   "t": 6.6,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 10.7,
+   "why": "scene change"
+  },
+  {
+   "t": 12,
+   "why": "scene change"
+  },
+  {
+   "t": 13.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.8,
+   "why": "scene change"
+  },
+  {
+   "t": 17.1,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 21.2,
+   "why": "scene change"
+  },
+  {
+   "t": 26.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Mukubara's Black Friday Salad is life and if you don't know what to get, let me show you. With the Isle trunk, this pack is a massive 105 litres, outfit, shoes, skin care, even the gifts I haven't wrapped yet, everything fits. Inside, there are mesh pockets and a spellproof pocket for the toiletries. So nothing leaks on my clothes and the shadow is an unbreakable folly to the cabinet and the Black Friday Salad is officially live so grab your eyes before it's gone.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.8,
+    "text": "Mukubara's Black Friday Salad is life and if you don't know what to get, let me show you."
+   },
+   {
+    "start": 4.8,
+    "end": 11.4,
+    "text": "With the Isle trunk, this pack is a massive 105 litres, outfit, shoes, skin care, even the gifts"
+   },
+   {
+    "start": 11.4,
+    "end": 16.7,
+    "text": "I haven't wrapped yet, everything fits. Inside, there are mesh pockets and a spellproof pocket"
+   },
+   {
+    "start": 16.7,
+    "end": 21.9,
+    "text": "for the toiletries. So nothing leaks on my clothes and the shadow is an unbreakable folly"
+   },
+   {
+    "start": 21.9,
+    "end": 26.6,
+    "text": "to the cabinet and the Black Friday Salad is officially live so grab your eyes before it's gone."
+   }
+  ]
+ }
+}

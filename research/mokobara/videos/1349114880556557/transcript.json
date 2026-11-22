@@ -1,0 +1,122 @@
+{
+ "asset": "1349114880556557",
+ "first_seen_in": "1945273759767684",
+ "duration_s": 31.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.8,
+   "why": "scene change"
+  },
+  {
+   "t": 6.1,
+   "why": "scene change"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 22,
+   "why": "scene change"
+  },
+  {
+   "t": 22.8,
+   "why": "scene change"
+  },
+  {
+   "t": 24.8,
+   "why": "scene change"
+  },
+  {
+   "t": 25.5,
+   "why": "scene change"
+  },
+  {
+   "t": 31.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Okay, the Mo Khabarablack Friday sale is here and I may have just gone my next everyday bag. This is the Astrid tote and hair's wirem obsessed. First, it has a massive 22-litre capacity, fits my 16-inch laptop in a pair of sleeve and has pockets for all the little things I'm always losing. Second, there's sleeve. For my bottle, so it doesn't tumble around and a key holder, so I find my keys in seconds. And third, is she enough to take from work straight to the weekend plans? Mo Khabarablack Friday sale is like with their lowest prices. Take this as a sign shop.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.7,
+    "text": "Okay, the Mo Khabarablack Friday sale is here and I may have just gone my next everyday bag."
+   },
+   {
+    "start": 4.7,
+    "end": 7.6,
+    "text": "This is the Astrid tote and hair's wirem obsessed."
+   },
+   {
+    "start": 7.6,
+    "end": 13.2,
+    "text": "First, it has a massive 22-litre capacity, fits my 16-inch laptop in a pair of sleeve"
+   },
+   {
+    "start": 13.2,
+    "end": 16.3,
+    "text": "and has pockets for all the little things I'm always losing."
+   },
+   {
+    "start": 16.3,
+    "end": 17.7,
+    "text": "Second, there's sleeve."
+   },
+   {
+    "start": 17.7,
+    "end": 22.6,
+    "text": "For my bottle, so it doesn't tumble around and a key holder, so I find my keys in seconds."
+   },
+   {
+    "start": 22.6,
+    "end": 26.5,
+    "text": "And third, is she enough to take from work straight to the weekend plans?"
+   },
+   {
+    "start": 26.5,
+    "end": 30,
+    "text": "Mo Khabarablack Friday sale is like with their lowest prices."
+   },
+   {
+    "start": 30,
+    "end": 31.7,
+    "text": "Take this as a sign shop."
+   }
+  ]
+ }
+}
