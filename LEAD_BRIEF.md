@@ -3,12 +3,13 @@
 Read this first, whatever model you are. It replaces NIGHT_PLAN.md as the working instructions (NIGHT_PLAN.md is the history).
 You are the lead session. Your job is to keep the pipeline moving and report to the owner in short, plain messages. You do not do the heavy work yourself.
 
-## COS status (updated 20 Nov 07:15 UTC)
-- PAUSED by the owner (usage limits) until Monday 23 Nov 04:31 IST (22 Nov 23:01 UTC). A scheduled reminder will wake the COS then. Nothing is running.
-- On resume: restart rr-pull.sh (10 brands, add "Scaler School of Business" last); rerun Qubo prepare + retranscribe (10 new videos pulled 06:25, Qubo now 42 ads); then SSB idea pass + Mesa extras.json + SSB vs Mesa page (owner's priority, see HANDOVER_SSB_VS_MESA.md); then Atomberg vs Qubo.
-- Done: Atomberg idea pass. SSB write-ups: all 16 videos have tags.
-- Blocked: send_message to the original session and to SSB PG COS2 refused or denied.
-- Published by COS: none yet. SSB vs Mesa page not built yet; Mesa teardown is at https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE .
+## COS status (updated 22 Nov 23:05 UTC, Monday 04:35 IST)
+- Resumed after the owner's pause. Running: rr-pull.sh (10 brands + "Scaler School of Business" last), scratch = /tmp/claude-0/-home-user-ad-intel/a4bcc5c6-4d1a-5676-b1b0-2dff902eac6b/scratchpad, log sample.log.
+- Running: Qubo prepare + retranscribe (10 new videos); Sonnet agents on SSB idea pass and Mesa extras.json.
+- Next: one Opus agent builds SSB vs Mesa (owner's priority), then Qubo write-ups and Atomberg vs Qubo.
+- Done: Atomberg idea pass; SSB write-ups (16 videos).
+- Blocked: send_message to the original session (trusted device) and to SSB PG COS2 (denied).
+- Published by COS: none yet. Mesa teardown: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Prompt doc for others: Google Doc "Competitor ad teardown: prompt for Claude".
 
 ## Who does what (model policy, set by the owner on 20 Nov)
 | Work | Who | Notes |
