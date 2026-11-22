@@ -1,0 +1,119 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "Ascend, part-time hybrid PGP for working professionals",
+        127
+      ],
+      [
+        "PGP in Startup Leadership, full-time",
+        93
+      ],
+      [
+        "Undergraduate, on-campus programme",
+        29
+      ]
+    ],
+    "note": "Ascend carries 127 of 249 ads (30 video, 97 image), the full-time PGP 93 (67 video, 26 image) and the Undergraduate programme 29, all video and no image. Eight image ads have no tags file, so they are placed by programme from headline and landing page."
+  },
+  "series": [
+    {
+      "name": "The Ascend shoot, cut into six ideas",
+      "ads": [
+        "967305892765565",
+        "2378723356222164",
+        "1130619536495111"
+      ],
+      "note": "One interview session (same polo, armchair and teal wall) gives six different answers across 32 ads, each with its own headline naming Ascend, while the speech never does."
+    },
+    {
+      "name": "One investor recording, two edits",
+      "ads": [
+        "4585145681703758",
+        "1652092446560613",
+        "1838523880721234"
+      ],
+      "note": "An outside investor's podcast clip opens on '200 plus startups' in one cut and on '5 lakhs in 8 weeks' in another, 11 ads in all, with the same body script."
+    },
+    {
+      "name": "The 200-person cohort call",
+      "ads": [
+        "2199957264231150",
+        "1290720899885510",
+        "4788179028135367"
+      ],
+      "note": "Thirteen ads share the text 'Mesa is selecting 200 ambitious individuals' over four different videos, nine of them over the cohort call itself."
+    },
+    {
+      "name": "The borrowed-clip selfie",
+      "ads": [
+        "1102583582400522",
+        "2023248235020196",
+        "1443037717945730"
+      ],
+      "note": "One 105 second video with a known investor's stage clip is re-sent in four shapes across seven ads, under two different ad texts."
+    },
+    {
+      "name": "Undergraduate podcast-mic set",
+      "ads": [
+        "983620227695155",
+        "1885584672793111",
+        "1048210408316661"
+      ],
+      "note": "One speaker at a studio microphone tells three student stories in 15 ads; students are talked about and never speak, and 15 Undergraduate video ads carry no text at all."
+    },
+    {
+      "name": "Quit-your-job reassurance cards",
+      "ads": [
+        "4406458639488221",
+        "1003588528844689",
+        "2122854528329541"
+      ],
+      "note": "Four ideas say you need not quit to learn or build, across 32 Ascend image ads, the largest theme in the image set, often in four layouts of one photo."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "Startups that hire from Mesa: one video says 100 plus, the investor cuts say 150 plus, the careers lead says at least 500, and the ad text of the stat video says 100+ live startups.",
+      "ads": [
+        "40210023251944395",
+        "4585145681703758",
+        "1498875895417529",
+        "1634433821103521"
+      ]
+    },
+    {
+      "text": "One student brand: the khakra business does 20 lakh a month in one video and 25 lakh a month in another, and the two ads started on the same day.",
+      "ads": [
+        "1885584672793111",
+        "1512248814079802"
+      ]
+    },
+    {
+      "text": "The 5 lakh line has no stated scope: 'every student has to sell 5 lakhs', 'every single student does 5 lakh', 'over 5 lakh' from a D2C business, and 'almost one crore' for each student business.",
+      "ads": [
+        "4585145681703758",
+        "1576676950895208",
+        "1609473000417031",
+        "29250519677942503",
+        "1358399446249615"
+      ]
+    },
+    {
+      "text": "Pay claims: an average salary 'upwards of 25 lakhs', alumni with a '50 to 60% increase', a '2.8x average salary jump' on an image, beside '100% placements' and '57.5% joined super early stage startups', none defined.",
+      "ads": [
+        "1488536809855650",
+        "40210023251944395",
+        "1498875895417529",
+        "1615063316971151"
+      ]
+    },
+    {
+      "text": "Same interview, two programmes: one speech about a stuck developer ends on an Ascend card in one ad and a full-time PGP card in another, and the Ascend speech never says 'Ascend'.",
+      "ads": [
+        "1156225250083296",
+        "1147193687696430"
+      ]
+    }
+  ]
+}
