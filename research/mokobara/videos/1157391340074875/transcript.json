@@ -1,0 +1,127 @@
+{
+ "asset": "1157391340074875",
+ "first_seen_in": "1012290901232963",
+ "duration_s": 35.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 5.4,
+   "why": "scene change"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10,
+   "why": "scene change"
+  },
+  {
+   "t": 11.5,
+   "why": "scene change"
+  },
+  {
+   "t": 12.3,
+   "why": "scene change"
+  },
+  {
+   "t": 13.1,
+   "why": "scene change"
+  },
+  {
+   "t": 26,
+   "why": "scene change"
+  },
+  {
+   "t": 28.7,
+   "why": "scene change"
+  },
+  {
+   "t": 34.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Mokobara's Black Friday sale is live and if you're a chronic co-op hacker then you need to watch this. So I picked up this large, old drunk and this is definitely the one I would recommend while checking out the sale. But the real question is, can all of this actually fit in your? 105 liters means I can pack what I need, what I might need and what I definitely wouldn't wear. And there's separate space for my toiletries, accessories, bags, so everything stays organized. There's this billproof pocket where it goes all my liquid products and there's also separate space for my dices. So yeah, she's definitely coming everywhere with me. If you also have been eyeing a Mokobara then don't forget to check out the Mokobara's Black Friday sale. It's live now. So this is your sign to get one.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.3,
+    "text": "Mokobara's Black Friday sale is live and if you're a chronic co-op hacker then you need to watch this."
+   },
+   {
+    "start": 4.3,
+    "end": 9.1,
+    "text": "So I picked up this large, old drunk and this is definitely the one I would recommend while checking out the sale."
+   },
+   {
+    "start": 9.1,
+    "end": 12.4,
+    "text": "But the real question is, can all of this actually fit in your?"
+   },
+   {
+    "start": 12.4,
+    "end": 17.2,
+    "text": "105 liters means I can pack what I need, what I might need and what I definitely wouldn't wear."
+   },
+   {
+    "start": 17.2,
+    "end": 21.8,
+    "text": "And there's separate space for my toiletries, accessories, bags, so everything stays organized."
+   },
+   {
+    "start": 21.8,
+    "end": 26.1,
+    "text": "There's this billproof pocket where it goes all my liquid products and there's also separate space for my dices."
+   },
+   {
+    "start": 26.1,
+    "end": 28.4,
+    "text": "So yeah, she's definitely coming everywhere with me."
+   },
+   {
+    "start": 28.4,
+    "end": 32.5,
+    "text": "If you also have been eyeing a Mokobara then don't forget to check out the Mokobara's Black Friday sale."
+   },
+   {
+    "start": 32.5,
+    "end": 33.2,
+    "text": "It's live now."
+   },
+   {
+    "start": 33.2,
+    "end": 34.8,
+    "text": "So this is your sign to get one."
+   }
+  ]
+ }
+}

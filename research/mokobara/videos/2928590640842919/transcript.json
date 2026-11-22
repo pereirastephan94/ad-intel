@@ -1,0 +1,112 @@
+{
+ "asset": "2928590640842919",
+ "first_seen_in": "1599986681883967",
+ "duration_s": 36.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.9,
+   "why": "scene change"
+  },
+  {
+   "t": 7.2,
+   "why": "scene change"
+  },
+  {
+   "t": 10,
+   "why": "scene change"
+  },
+  {
+   "t": 11.4,
+   "why": "scene change"
+  },
+  {
+   "t": 17.7,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 25,
+   "why": "scene change"
+  },
+  {
+   "t": 29.8,
+   "why": "scene change"
+  },
+  {
+   "t": 32.6,
+   "why": "scene change"
+  },
+  {
+   "t": 33.9,
+   "why": "scene change"
+  },
+  {
+   "t": 36.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "If there's one thing you could get in the MocoBara Black Friday sale, let that be the stunning set off to the transit check-in and the transit cabin. Let me convince you, like what do you mean that this comes in such a cute pink color and I get to personalize with my name on it. It's a German Mac Roll-On Shell so it's lightweight but takes a beating. Eight super silent wheels, two zippered compartments plus a spill-proof pocket for toiletries which is such a unique detail by the way. And the small one fits inside the medium one so storing them takes zero space. This is the kind of set that you want to take on your trips with you and it's honestly my color with my name on it. Go get yours before the stock runs out.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7.1,
+    "text": "If there's one thing you could get in the MocoBara Black Friday sale, let that be the stunning set off to the transit check-in and the transit cabin."
+   },
+   {
+    "start": 7.1,
+    "end": 14.2,
+    "text": "Let me convince you, like what do you mean that this comes in such a cute pink color and I get to personalize with my name on it."
+   },
+   {
+    "start": 14.2,
+    "end": 17.7,
+    "text": "It's a German Mac Roll-On Shell so it's lightweight but takes a beating."
+   },
+   {
+    "start": 17.7,
+    "end": 25,
+    "text": "Eight super silent wheels, two zippered compartments plus a spill-proof pocket for toiletries which is such a unique detail by the way."
+   },
+   {
+    "start": 25,
+    "end": 29.7,
+    "text": "And the small one fits inside the medium one so storing them takes zero space."
+   },
+   {
+    "start": 29.7,
+    "end": 34.8,
+    "text": "This is the kind of set that you want to take on your trips with you and it's honestly my color with my name on it."
+   },
+   {
+    "start": 34.8,
+    "end": 36.8,
+    "text": "Go get yours before the stock runs out."
+   }
+  ]
+ }
+}
