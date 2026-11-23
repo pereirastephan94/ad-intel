@@ -5,7 +5,7 @@
   "rules_version": "rows-v1",
   "sample_rule": "Meta ads in India, live on 20 Nov 2026 (UTC), taken in the Ad Library's own default order, not sorted by impressions. Atomberg: the first 30 of about 308 live ads, all from the all-ads view (29 video, 1 image); the video-only view (three tries, one reporting 218 video ads) and the image-only view (two tries) returned no ads, so about 278 Atomberg ads are unseen. Qubo: 42 of about 72 live ads, 30 from the all-ads view (after three empty tries) and 12 more from the video-only view (which showed 30 of about 50 video ads); the image-only view returned no ads in four tries, so Qubo's 12 image ads are only those among its first 30. Both samples are partial and unranked: shares say how each brand's first ads look, not what it pays most for.",
   "sample_order": "default",
-  "sample_short": "x",
+  "sample_short": "Atomberg's are the first 30 of about 308 live ads, Qubo's 42 of about 72, in the Library's default order, not by impressions",
   "brands": {
    "A": {
     "name": "Atomberg",
@@ -3032,6 +3032,10 @@
      "1984592862185202",
      "2386372728528714"
     ],
+    "peak": [
+     "2026-05-26",
+     3
+    ],
     "products": {
      "mixer_grinder": 3
     }
@@ -3047,6 +3051,10 @@
      "2233034374286141",
      "28024802573817859"
     ],
+    "peak": [
+     "2026-08-08",
+     3
+    ],
     "products": {
      "mixer_grinder": 4,
      "pedestal_fan": 1
@@ -3060,6 +3068,10 @@
      "1847305846649162",
      "2607900756305385",
      "1393478602160610"
+    ],
+    "peak": [
+     "2026-09-08",
+     2
     ],
     "products": {
      "smart_lock": 2,
@@ -3077,6 +3089,10 @@
      "1769808607610025",
      "28649458564750381"
     ],
+    "peak": [
+     "2026-11-04",
+     2
+    ],
     "products": {
      "ceiling_fan": 3,
      "water_purifier": 2
@@ -3092,6 +3108,10 @@
      "1401638150930044",
      "1795297537743787",
      "1088717086222561"
+    ],
+    "peak": [
+     "2025-08-18",
+     2
     ],
     "products": {
      "smart_lock": 2,
@@ -3109,6 +3129,10 @@
      "1185700196857594",
      "1503675450757339"
     ],
+    "peak": [
+     "2025-11-06",
+     3
+    ],
     "products": {
      "smart_lock": 5
     }
@@ -3121,6 +3145,10 @@
      "1074296351695746",
      "1471404401411436",
      "2527855497635177"
+    ],
+    "peak": [
+     "2026-08-04",
+     3
     ],
     "products": {
      "security_camera": 3
@@ -3135,6 +3163,10 @@
      "1828691691913803",
      "2155291762071003",
      "38686071964341789"
+    ],
+    "peak": [
+     "2026-09-22",
+     4
     ],
     "products": {
      "security_camera": 2,
@@ -3151,6 +3183,10 @@
      "1092309843401119",
      "1099609059623709",
      "1577327634142497"
+    ],
+    "peak": [
+     "2026-10-16",
+     4
     ],
     "products": {
      "smart_lock": 1,
@@ -3174,6 +3210,10 @@
      "1859211195067641",
      "2326755088112721"
     ],
+    "peak": [
+     "2026-10-30",
+     3
+    ],
     "products": {
      "air_purifier": 7,
      "security_camera": 2
@@ -3187,6 +3227,10 @@
      "1457136399076624",
      "1697443892164420",
      "1140748798813160"
+    ],
+    "peak": [
+     "2026-11-16",
+     2
     ],
     "products": {
      "dashcam": 2,

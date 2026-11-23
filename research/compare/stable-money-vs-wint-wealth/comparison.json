@@ -4,6 +4,8 @@
   "country": "IN",
   "rules_version": "rows-v1",
   "sample_rule": "Per brand, the 30 ads the Ad Library ranks highest by total impressions (all formats). For Stable Money, 3 more from its 30 highest-ranked videos are included. The video-only and image-only views mostly came back empty on the night, so image ads are only those that made each brand's overall top 30.",
+  "sample_order": "impressions",
+  "sample_short": "the ones the Ad Library ranks highest by impressions",
   "brands": {
    "A": {
     "name": "Stable Money",
@@ -2017,6 +2019,135 @@
    "2026-11": 1
   }
  },
+ "creatives": {
+  "A": {
+   "ads": 33,
+   "versions": 38,
+   "video_ads": 30,
+   "videos": 25,
+   "image_ads": 3,
+   "images": 3
+  },
+  "B": {
+   "ads": 30,
+   "versions": 53,
+   "video_ads": 19,
+   "videos": 13,
+   "image_ads": 11,
+   "images": 11
+  }
+ },
+ "clusters": {
+  "A": [
+   {
+    "from": "2026-10-13",
+    "to": "2026-10-16",
+    "n": 7,
+    "ad_ids": [
+     "1414345880897775",
+     "1422041222644076",
+     "1624124105890067",
+     "1650915419954369",
+     "1696884795431012",
+     "2826793054387425",
+     "1646669466828779"
+    ],
+    "peak": [
+     "2026-10-13",
+     6
+    ],
+    "products": {
+     "fixed_deposit": 5,
+     "fd_backed_card": 2
+    }
+   },
+   {
+    "from": "2026-10-30",
+    "to": "2026-11-02",
+    "n": 7,
+    "ad_ids": [
+     "1064086583323093",
+     "1158491436527705",
+     "1684487993244481",
+     "1780853883195705",
+     "2952841455054370",
+     "1098949122752977",
+     "1115779077962422"
+    ],
+    "peak": [
+     "2026-10-30",
+     5
+    ],
+    "products": {
+     "fixed_deposit": 3,
+     "fd_backed_card": 2,
+     "bonds": 2
+    }
+   }
+  ],
+  "B": [
+   {
+    "from": "2026-10-07",
+    "to": "2026-10-08",
+    "n": 20,
+    "ad_ids": [
+     "1010246932113130",
+     "1042794292127507",
+     "1078474831621182",
+     "1102709929308735",
+     "1139217318446573",
+     "1375574504560912",
+     "1574326737333320",
+     "1577736273613796",
+     "1637283661235770",
+     "1653556886374383",
+     "1768821550864003",
+     "1819131125779645",
+     "1953272729391464",
+     "2292299894864285",
+     "2556193758207208",
+     "2603917993354573",
+     "26996845726680317",
+     "955959980393839",
+     "1642456104162744",
+     "2402074240326667"
+    ],
+    "peak": [
+     "2026-10-07",
+     18
+    ],
+    "products": {
+     "bonds": 20
+    }
+   },
+   {
+    "from": "2026-10-12",
+    "to": "2026-10-17",
+    "n": 8,
+    "ad_ids": [
+     "1087294090969954",
+     "1768735924383603",
+     "1065702466447240",
+     "1608750657392609",
+     "1868487757472978",
+     "2876298779421455",
+     "1822092442159366",
+     "28133518736321882"
+    ],
+    "peak": [
+     "2026-10-15",
+     4
+    ],
+    "products": {
+     "bonds": 8
+    }
+   }
+  ]
+ },
+ "cluster_rule": {
+  "gap_days": 3,
+  "min_ads": 3
+ },
  "breakdowns": {
   "hook": {
    "A": {
@@ -2533,7 +2664,8 @@
    "sample_views": {
     "all": 1
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1359085176241049": {
    "brand": "A",
@@ -2580,7 +2712,8 @@
    "sample_views": {
     "all": 2
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1318322580372486": {
    "brand": "A",
@@ -2627,7 +2760,8 @@
    "sample_views": {
     "all": 3
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1044985944652867": {
    "brand": "A",
@@ -2675,7 +2809,8 @@
    "sample_views": {
     "all": 4
    },
-   "product_key": "recurring_deposit"
+   "product_key": "recurring_deposit",
+   "city": null
   },
   "912443471919863": {
    "brand": "A",
@@ -2723,7 +2858,8 @@
    "sample_views": {
     "all": 5
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1115779077962422": {
    "brand": "A",
@@ -2772,7 +2908,8 @@
    "sample_views": {
     "all": 6
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1646669466828779": {
    "brand": "A",
@@ -2823,7 +2960,8 @@
    "sample_views": {
     "all": 7
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "2057230121811704": {
    "brand": "A",
@@ -2872,7 +3010,8 @@
    "sample_views": {
     "all": 8
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1094477860035639": {
    "brand": "A",
@@ -2919,7 +3058,8 @@
    "sample_views": {
     "all": 9
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1624124105890067": {
    "brand": "A",
@@ -2967,7 +3107,8 @@
    "sample_views": {
     "all": 10
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1098949122752977": {
    "brand": "A",
@@ -3016,7 +3157,8 @@
    "sample_views": {
     "all": 11
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1294109162873838": {
    "brand": "A",
@@ -3067,7 +3209,8 @@
    "sample_views": {
     "all": 12
    },
-   "product_key": "recurring_deposit"
+   "product_key": "recurring_deposit",
+   "city": null
   },
   "1414345880897775": {
    "brand": "A",
@@ -3116,7 +3259,8 @@
    "sample_views": {
     "all": 14
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "2826793054387425": {
    "brand": "A",
@@ -3165,7 +3309,8 @@
    "sample_views": {
     "all": 15
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "3115844495284358": {
    "brand": "A",
@@ -3213,7 +3358,8 @@
    "sample_views": {
     "all": 16
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1780853883195705": {
    "brand": "A",
@@ -3259,7 +3405,8 @@
    "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
    "asset": "1752268299241939",
    "sample_views": null,
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1684487993244481": {
    "brand": "A",
@@ -3310,7 +3457,8 @@
    "sample_views": {
     "all": 17
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "1019096030980624": {
    "brand": "A",
@@ -3360,7 +3508,8 @@
    "sample_views": {
     "all": 18
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1462158732420553": {
    "brand": "A",
@@ -3407,7 +3556,8 @@
    "sample_views": {
     "all": 19
    },
-   "product_key": "recurring_deposit"
+   "product_key": "recurring_deposit",
+   "city": null
   },
   "2952841455054370": {
    "brand": "A",
@@ -3456,7 +3606,8 @@
    "sample_views": {
     "all": 20
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "2894685200924911": {
    "brand": "A",
@@ -3506,7 +3657,8 @@
    "sample_views": {
     "all": 21
    },
-   "product_key": "recurring_deposit"
+   "product_key": "recurring_deposit",
+   "city": null
   },
   "1696884795431012": {
    "brand": "A",
@@ -3555,7 +3707,8 @@
    "sample_views": {
     "all": 23
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1422041222644076": {
    "brand": "A",
@@ -3603,7 +3756,8 @@
    "sample_views": {
     "all": 24
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "1409564451139620": {
    "brand": "A",
@@ -3655,7 +3809,8 @@
    "sample_views": {
     "all": 25
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "2029258324332952": {
    "brand": "A",
@@ -3704,7 +3859,8 @@
    "sample_views": {
     "all": 26
    },
-   "product_key": "fixed_deposit"
+   "product_key": "fixed_deposit",
+   "city": null
   },
   "991125217069138": {
    "brand": "A",
@@ -3752,7 +3908,8 @@
    "sample_views": {
     "all": 28
    },
-   "product_key": "recurring_deposit"
+   "product_key": "recurring_deposit",
+   "city": null
   },
   "1650915419954369": {
    "brand": "A",
@@ -3803,7 +3960,8 @@
    "sample_views": {
     "all": 29
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "1064086583323093": {
    "brand": "A",
@@ -3855,7 +4013,8 @@
    "sample_views": {
     "all": 30
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "1059291876995172": {
    "brand": "A",
@@ -3905,7 +4064,8 @@
    "transcript": "Excuse me ma'am, kya ma aap se ek sawaal puchh satta hu? Yes. Aap saal mein kitna flights jeta hu? 6-7 flights to minimum. Aur lounge access ke liye kaunsa card use kar te hu? Stable Money ka FD back credit card hai na, usme saal ke 8 lounge access free hai. Belkul free? Yeh card lifetime free hai. Aur sbse badi baat, kaafi saare cards me lounge access ke liye monthly aur quarterly minimum spends ka criteria hota hai. Is card me wo criteria bhi nahi. Kaise milta hai yeh card? Stable Money App download karo Aur Suryoday Bank jo ek RBI regulated bank hai usme apna FD book karo Lifetime Free Card, Free Launch Access kaafi sahi Agar aapko bhi ye benefits chahiye to Stable Money App download karo Right Now",
    "asset": "1911598616485842",
    "sample_views": null,
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "1158491436527705": {
    "brand": "A",
@@ -3951,7 +4111,8 @@
    "transcript": "Mohit! Abhi, kya ghar nahi hai? Yeh dekh mere account mein kitne paise pade hua hai. Kya baat hai? Kap se tere account mein itne paise pade hua hai? 6 maine se. Are kardeena galti, aap aage diyaan se sunna. Dekho aapki account mein kuch idle paisa pada hua hai, jo invest nahi hua hai, spend bhi nahi hua hai. Aap isse emergency fund ki tarah treat karthe ho, theek hai. Lekin wo paisa grow nahi ho raha hai, baas apni value ko raha hai quietly, har dim. Lekin ek option hai, jaha yeh paisa grow bhi kar skta hai, easily accessible bhi raha skta hai. Aur wo option hai bonds on stable money app. बान्स आपको देता है आपनो 9-12% पर अनम के फिक्स रिटरन्स विथ रेजिलर पेयाओट सीदा आपके बांक अकांट में. और जरूद पड़े तो आप इसे सेल भी कर सकते हूँ. सेम दे विटराल. दूपेर दो बजे से पहले सेल किया तो आजी पैसा अकांट पे. तो अग्जित की कोई एक्ष्रा चाज नहीं। सिव्व थाउजन रूपी से शुरू होता है विट जीरो ब्रोक्रेज। उस सोते हुए अवर्जन्सी फंड को आप काम पे लगाव। Stable Money app download करके Stable Bond section explore करो",
    "asset": "1752268299241939",
    "sample_views": null,
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1022650000551778": {
    "brand": "A",
@@ -4000,7 +4161,8 @@
    "sample_views": {
     "all": 13
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "948406311403969": {
    "brand": "A",
@@ -4049,7 +4211,8 @@
    "sample_views": {
     "all": 22
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "2077379136540472": {
    "brand": "A",
@@ -4097,7 +4260,8 @@
    "sample_views": {
     "all": 27
    },
-   "product_key": "fd_backed_card"
+   "product_key": "fd_backed_card",
+   "city": null
   },
   "1953272729391464": {
    "brand": "B",
@@ -4146,7 +4310,8 @@
    "sample_views": {
     "all": 1
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1375574504560912": {
    "brand": "B",
@@ -4194,7 +4359,8 @@
    "sample_views": {
     "all": 2
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1608750657392609": {
    "brand": "B",
@@ -4241,7 +4407,8 @@
    "sample_views": {
     "all": 3
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "28133518736321882": {
    "brand": "B",
@@ -4288,7 +4455,8 @@
    "sample_views": {
     "all": 4
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "2876298779421455": {
    "brand": "B",
@@ -4335,7 +4503,8 @@
    "sample_views": {
     "all": 5
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1065702466447240": {
    "brand": "B",
@@ -4382,7 +4551,8 @@
    "sample_views": {
     "all": 6
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1822092442159366": {
    "brand": "B",
@@ -4429,7 +4599,8 @@
    "sample_views": {
     "all": 7
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1868487757472978": {
    "brand": "B",
@@ -4476,7 +4647,8 @@
    "sample_views": {
     "all": 8
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "26996845726680317": {
    "brand": "B",
@@ -4525,7 +4697,8 @@
    "sample_views": {
     "all": 9
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1768735924383603": {
    "brand": "B",
@@ -4574,7 +4747,8 @@
    "sample_views": {
     "all": 10
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1139217318446573": {
    "brand": "B",
@@ -4623,7 +4797,8 @@
    "sample_views": {
     "all": 11
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1042794292127507": {
    "brand": "B",
@@ -4671,7 +4846,8 @@
    "sample_views": {
     "all": 12
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "955959980393839": {
    "brand": "B",
@@ -4716,7 +4892,8 @@
    "sample_views": {
     "all": 13
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1577736273613796": {
    "brand": "B",
@@ -4765,7 +4942,8 @@
    "sample_views": {
     "all": 14
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1819131125779645": {
    "brand": "B",
@@ -4814,7 +4992,8 @@
    "sample_views": {
     "all": 15
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1010246932113130": {
    "brand": "B",
@@ -4863,7 +5042,8 @@
    "sample_views": {
     "all": 16
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1078474831621182": {
    "brand": "B",
@@ -4911,7 +5091,8 @@
    "sample_views": {
     "all": 17
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "2292299894864285": {
    "brand": "B",
@@ -4960,7 +5141,8 @@
    "sample_views": {
     "all": 18
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "2556193758207208": {
    "brand": "B",
@@ -5008,7 +5190,8 @@
    "sample_views": {
     "all": 19
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1768821550864003": {
    "brand": "B",
@@ -5056,7 +5239,8 @@
    "sample_views": {
     "all": 20
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1574326737333320": {
    "brand": "B",
@@ -5105,7 +5289,8 @@
    "sample_views": {
     "all": 21
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1642456104162744": {
    "brand": "B",
@@ -5154,7 +5339,8 @@
    "sample_views": {
     "all": 22
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1653556886374383": {
    "brand": "B",
@@ -5203,7 +5389,8 @@
    "sample_views": {
     "all": 23
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "2603917993354573": {
    "brand": "B",
@@ -5252,7 +5439,8 @@
    "sample_views": {
     "all": 24
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "2402074240326667": {
    "brand": "B",
@@ -5300,7 +5488,8 @@
    "sample_views": {
     "all": 25
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1102709929308735": {
    "brand": "B",
@@ -5347,7 +5536,8 @@
    "sample_views": {
     "all": 26
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1637283661235770": {
    "brand": "B",
@@ -5395,7 +5585,8 @@
    "sample_views": {
     "all": 27
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1087294090969954": {
    "brand": "B",
@@ -5444,7 +5635,8 @@
    "sample_views": {
     "all": 28
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1122130514055415": {
    "brand": "B",
@@ -5493,7 +5685,8 @@
    "sample_views": {
     "all": 29
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   },
   "1452959666055721": {
    "brand": "B",
@@ -5542,7 +5735,8 @@
    "sample_views": {
     "all": 30
    },
-   "product_key": "bonds"
+   "product_key": "bonds",
+   "city": null
   }
  },
  "rerun": null

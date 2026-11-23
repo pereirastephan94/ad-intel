@@ -392,7 +392,8 @@ class Page:
     def plan_item(self, me, it, cls, n=None):
         anchor, ids, ev = self.basis_info(it.get("basis"))
         if ev == "seen":
-            chip_ev = f'<span class="chip">In {plural(len(set(ids)), "ad")}</span>' if ids else ""
+            eff_t = f', {E(it["effort"].lower())} effort' if it.get("effort") else ""
+            chip_ev = f'<span class="chip">In {plural(len(set(ids)), "ad")}{eff_t}</span>' if ids else ""
         else:
             ev = it.get("evidence", ev or "thin")
             eff_t = f', {E(it["effort"].lower())} effort' if it.get("effort") else ""
@@ -600,8 +601,8 @@ class Page:
                          f'{E(self.names["B"])} {self.c["meta"]["brands"]["B"]["n"]}. It mixes products, so read it as context only.</span></summary>'
                          f'<div class="foldbody">{self.map("A", self.c["rows_all"], "all", False)}{self.map("B", self.c["rows_all"], "all", False)}</div></details>')
         title = f'{f["label"]} against {lowfirst(f["label"])}'
-        lede = (f'Only the ads that sell {E(lowfirst(f["label"]))}: {E(self.names["A"])} {b["A"]["n"]} ads ({b["A"]["ideas"]} ideas), '
-                f'{E(self.names["B"])} {b["B"]["n"]} ({b["B"]["ideas"]} ideas).')
+        lede = (f'Only the ads that sell {E(lowfirst(f["label"]))}: {E(self.names["A"])} {plural(b["A"]["n"], "ad")} ({plural(b["A"]["ideas"], "idea")}), '
+                f'{E(self.names["B"])} {b["B"]["n"]} ({plural(b["B"]["ideas"], "idea")}).')
         return self.section("bonds", "Like for like", title, "".join(parts), lede)
 
     def whole_map_section(self):
@@ -886,11 +887,15 @@ class Page:
             sent = (f'{plural(x["video_ads"], "video ad")}' + (f', {plural(x["image_ads"], "image ad")}' if x["image_ads"] else ""))
             lines = [f'<p class="small num"><b>Made against sent.</b> {" and ".join(made)} behind {plural(x["ads"], "ad")} '
                      f'({sent}) and {x["versions"]} versions.</p>']
-            items = "".join(
-                f'<li class="small num">{fmt_date(c["from"], short=True)}'
-                f'{" to " + fmt_date(c["to"], short=True) if c["to"] != c["from"] else ""}: {plural(c["n"], "ad")} '
-                f'({E(", ".join(f"{lowfirst(self.plabel(p))} {v}" for p, v in c["products"].items()))})'
-                f'{self.ad_links(c["ad_ids"])}</li>' for c in cl[k])
+            items = []
+            for c in cl[k]:
+                prods = ", ".join(f"{self.plabel(p)} {v}" for p, v in c["products"].items())
+                peak = (f'; busiest {fmt_date(c["peak"][0], short=True)}, {plural(c["peak"][1], "ad")}'
+                        if c.get("peak") and c["from"] != c["to"] else "")
+                more = f' and {len(c["ad_ids"]) - 12} more' if len(c["ad_ids"]) > 12 else ""
+                items.append(f'<li class="small num">{fmt_span(c["from"], c["to"])}: {plural(c["n"], "ad")}; {E(prods)}{peak}'
+                             f'{self.ad_links(c["ad_ids"][:12])}{more}</li>')
+            items = "".join(items)
             lines.append(f'<ul class="clusters">{items}</ul>' if items else '<p class="small muted">No cluster.</p>')
             out.append(f'<div><h3><span class="sw {k}"></span> {E(self.names[k])}</h3>{"".join(lines)}</div>')
         return (f'<div class="chart" style="margin-top:18px"><h3>Ads against what was made, and when they started together</h3>'
@@ -1189,6 +1194,17 @@ def fmt_date(s, short=False):
     y, m, d = s.split("-")
     mon = MONTHS[int(m) - 1]
     return f"{int(d)} {mon[:3]}" if short else f"{int(d)} {mon} {y}"
+
+
+def fmt_span(a, b):
+    """'26 May 2026', '7 to 10 Aug 2026', '27 Oct to 3 Nov 2026' or across years in full."""
+    if a == b:
+        return f"{fmt_date(a, short=True)} {a[:4]}"
+    if a[:4] != b[:4]:
+        return f"{fmt_date(a, short=True)} {a[:4]} to {fmt_date(b, short=True)} {b[:4]}"
+    if a[:7] == b[:7]:
+        return f"{int(a[8:])} to {fmt_date(b, short=True)} {b[:4]}"
+    return f"{fmt_date(a, short=True)} to {fmt_date(b, short=True)} {b[:4]}"
 
 
 def fmt_month(s):

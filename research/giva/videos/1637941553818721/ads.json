@@ -1,0 +1,70 @@
+[
+ {
+  "library_id": "1392592016276824",
+  "link": "https://www.facebook.com/ads/library/?id=1392592016276824",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNG6L3j2w4HKjT33x6y0NSQnMnDHiofK24oCulSo5VxxqoftbC4x1fXPgFT4JY0J6mXo2gPkDkEcne_y-dhB_HUDRsHrwcyPyJY6QDohUpvjg.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=OIxOmIJCVqUQ7kNvwGc3BFk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2Mzc5NDE1NTM4MTg3MjEsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7b4e58fc298d8f3d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wQjRENTgzRjY5OTEyRkM3MUJEQTI4MzM5MjA3NDNBQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhBNDMwOTY4NTI4OEVDNUJFNkI2NTZBQ0MzOUQ0OTlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbCsdPH3-zoBRUCKAJDMywXQCLvGp--dskYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UuumFDgnXnpE49kvIMZe7rkwQGmxcFBUZ5pst1BtgmuRd-Gu96Ezbi9FrXsmiyk7Vs8ibtqvKFUT65eOQvTk0gZGQQHJhgsAq3IMFg70NzvJ4ui1j7n-mMIRM6Q&oh=00_AQTo24KD33pNi-4OClrFxNhV42oRtngmBgP0JuCv_mKCpA&oe=6B09B4DF",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669564738_2244834139656964_3489669118915358951_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jMoMMcCCkzYQ7kNvwEWJAU1&_nc_oc=AdrOfxXnmYnXSxbYOtCofj1jENfgDIh95coBJMR_wqgJmNd0mJYAu8_5FSyWO0_eywA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQS4UMV1PRvvu7Y7Nl46R4hGZg3LMOc_1xub4-_8NuIkzQ&oe=6B09E5A3",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 23
+  },
+  "video_asset": "1637941553818721"
+ },
+ {
+  "library_id": "2218022492390541",
+  "link": "https://www.facebook.com/ads/library/?id=2218022492390541",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-15",
+  "days_running": 39,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNG6L3j2w4HKjT33x6y0NSQnMnDHiofK24oCulSo5VxxqoftbC4x1fXPgFT4JY0J6mXo2gPkDkEcne_y-dhB_HUDRsHrwcyPyJY6QDohUpvjg.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=OIxOmIJCVqUQ7kNvwGc3BFk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2Mzc5NDE1NTM4MTg3MjEsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7b4e58fc298d8f3d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wQjRENTgzRjY5OTEyRkM3MUJEQTI4MzM5MjA3NDNBQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhBNDMwOTY4NTI4OEVDNUJFNkI2NTZBQ0MzOUQ0OTlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbCsdPH3-zoBRUCKAJDMywXQCLvGp--dskYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UiMEdBFkm9YoBH-w2AgjMW67dodKS7jUWjUIsajXCyqoFDdDx-1NeYDIyu0lVbadFMJYY9sO1A6drst534is54BBtWOUDgWwEwT3AswsnCHRJ_vfwkPa_6St6nI&oh=00_AQTo24KD33pNi-4OClrFxNhV42oRtngmBgP0JuCv_mKCpA&oe=6B09B4DF",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669564738_2244834139656964_3489669118915358951_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jMoMMcCCkzYQ7kNvwEWJAU1&_nc_oc=AdrOfxXnmYnXSxbYOtCofj1jENfgDIh95coBJMR_wqgJmNd0mJYAu8_5FSyWO0_eywA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQS4UMV1PRvvu7Y7Nl46R4hGZg3LMOc_1xub4-_8NuIkzQ&oe=6B09E5A3",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 24
+  },
+  "video_asset": "1637941553818721"
+ }
+]

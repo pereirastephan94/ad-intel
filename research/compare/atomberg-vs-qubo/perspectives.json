@@ -1,0 +1,1361 @@
+{
+ "A": {
+  "verdict": "Smart locks: Qubo's lock catalogue ads are 10 of 42, up to 605 days; you run 2 of 30. Your edge: a Hinglish family film; Qubo's lock ads are English.",
+  "plan": {
+   "focus": {
+    "title": "Run SL 1 image cards, one claim each.",
+    "why": "Qubo's lock catalogue set is 10 of its 42 ads, 8 of them image cards, live 373 to 605 days: fingerprint, 7 ways, fitting, warranty. You run one image ad, no lock card.",
+    "basis": "series:B:Smart lock catalogue cards",
+    "evidence": "strong",
+    "effort": "Low",
+    "first_test": "Four SL 1 cards: 6 ways to unlock, data stored in India, [price] or [EMI a month], free installation in select pincodes."
+   },
+   "start": [
+    {
+     "title": "Cut the parents' door film to 40 seconds.",
+     "why": "Your only lock idea, 2 ads and 3 versions in Hinglish, shows the lock at 25 s of 71.5 and ends with no card or price. All 13 of Qubo's lock ads are English.",
+     "basis": "idea:A:AT-c02",
+     "evidence": "moderate",
+     "effort": "Low",
+     "first_test": "Recut: fingerprint unlock by second 5, phone access and the log, end card with SL 1, 6 ways and [price].",
+     "script": 1
+    },
+    {
+     "title": "Give the lock a Tamil and a Telugu voice.",
+     "why": "Your Zenova regional set runs 5 ads, 4 in Tamil or Telugu; 8 of your 29 videos are Tamil or Telugu. None of Qubo's 30 videos is.",
+     "basis": "series:A:Zenova regional demo set",
+     "evidence": "strong",
+     "effort": "Low",
+     "first_test": "Native Tamil and Telugu voiceovers on the 40-second lock cut, captions in the same language, same end card.",
+     "script": 4
+    },
+    {
+     "title": "Put a presenter on the lock's data and PIN safety.",
+     "why": "Your technician series, 4 Intellon ads live up to 242 days, has a presenter answer one doubt to camera. No lock ad of either brand puts a person to camera.",
+     "basis": "series:A:Technician and AMC trust (Intellon)",
+     "evidence": "strong",
+     "effort": "Low",
+     "first_test": "One presenter, 36 seconds, Hinglish: data stored in India, the lock-out after 5 wrong PINs, the key as backup.",
+     "script": 3
+    }
+   ],
+   "stop": [
+    {
+     "title": "Show all six unlocking ways the ad text promises.",
+     "why": "Both lock ads say 6 ways of unlocking; the box shows five icons and the voice names four. The SL 1 page lists six.",
+     "basis": "ads:2607900756305385,1847305846649162",
+     "effort": "Low",
+     "first_test": "Add a six-icon caption at the fingerprint shot: fingerprint, PIN, remote OTP, NFC card, app, key.",
+     "script": 2
+    },
+    {
+     "title": "Give each saving one figure and one period.",
+     "why": "₹1,500 is every season, per year or has no period across 3 fan ads; ₹400 is a season or a summer, up to or flat; the Intellon carries four cost promises.",
+     "basis": "contradictions:A",
+     "effort": "Low",
+     "first_test": "Today: \"up to ₹1,500 a year\" wherever it appears, as the Renesa Halo page says; source the ₹400 or drop it."
+    }
+   ]
+  },
+  "workhorse_read": "You spread 30 ads over 26 ideas; no idea has more than 2 ads, and your largest series are the fan saving line (6 ads) and the technician films (4). Qubo leans on its lock catalogue set, 10 ads live up to 605 days, inside the product you share.",
+  "now_read": "5 of your 30 started in the last 30 days, all on 4 to 6 Nov: three ceiling fan ads and two Intellon technician cuts; no lock ad since 8 Sep. Qubo started 15 of 42 in that time, 7 of them purifiers and 1 a lock card.",
+  "india_read": [
+   "Language: video, you speak Hinglish in 17 of 29, Tamil in 5, Telugu in 3, English in 2; Qubo Hinglish in 19 of 30, English in 11, no regional language. Image: your 1 and Qubo's 12 are English. Locks: your 2 Hinglish, Qubo's 13 English.",
+   "Timing: your 5 newest started 4 to 6 Nov, the days before Diwali (8 Nov 2026); Qubo's 9 ads of 27 Oct to 3 Nov, 7 of them purifiers, came in the two weeks before it.",
+   "Destination: 29 of your 30 go to atomberg.com and 1 to Amazon.in; all 42 of Qubo's go to quboworld.com. Both your lock ads land on the SL 1 page; 11 of Qubo's land on its lock collection."
+  ],
+  "scripts": [
+   {
+    "title": "Parents' front door in 40 seconds: the lock opens by second 5",
+    "persona": "30 to 40, lives away from their parents, buys for the parents' home; speaks Hinglish.",
+    "why": "Your only lock idea runs as 2 ads and 3 versions: a son fits the SL 1 for his parents. The lock appears at 25 s of 71.5, and the film ends with no card or price. All 13 of Qubo's lock ads are in English.",
+    "evidence_ads": [
+     "2607900756305385",
+     "1847305846649162"
+    ],
+    "format": "Family vlog, phone footage, one voiceover, vertical 9:16, captions on",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Mummy ko ab chaabi dhoondhni nahi padti.",
+     "Papa ne pehli baar bina chaabi ke darwaza khola.",
+     "Har mahine parents ke ghar ke liye ek chhota sa upgrade."
+    ],
+    "beats": [
+     {
+      "t": "0-5 s",
+      "beat": "Payoff hook",
+      "note": "The payoff first; the lock in frame from second 1."
+     },
+     {
+      "t": "5-12 s",
+      "beat": "Problem",
+      "note": "The problem your film already uses, in 7 seconds instead of 24."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Six ways",
+      "note": "All six, so the ad text's \"6 ways\" is true on screen."
+     },
+     {
+      "t": "20-28 s",
+      "beat": "Phone access",
+      "note": "The son's job in the story."
+     },
+     {
+      "t": "28-34 s",
+      "beat": "Trust",
+      "note": "The trust line, as the product page words it."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "Ask",
+      "note": "Spoken ask and an end card, which the current film lacks."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-5 s",
+      "voice": "Mummy ko ab chaabi dhoondhni nahi padti.",
+      "screen": "Mother's finger on the SL 1 reader; the door opens. Caption: \"Bina chaabi\".",
+      "note": "The payoff first; the lock in frame from second 1."
+     },
+     {
+      "t": "5-12 s",
+      "voice": "Pehle main door ka purana lock tha. Bahar se kholna unke liye mushkil hota tha.",
+      "screen": "The old key lock; father turning a key.",
+      "note": "The problem your film already uses, in 7 seconds instead of 24."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Ab fingerprint, PIN, phone, OTP, card ya chaabi. Chhe tareeke.",
+      "screen": "Six icons, one per word: Fingerprint, PIN, Remote OTP, NFC card, App, Key.",
+      "note": "All six, so the ad text's \"6 ways\" is true on screen."
+     },
+     {
+      "t": "20-28 s",
+      "voice": "Koi aaye toh main office se hi access de deta hoon. Log mein dikh jaata hai kaun aaya, kaun gaya.",
+      "screen": "The app's access screen, readable; caption \"Access from your phone\".",
+      "note": "The son's job in the story."
+     },
+     {
+      "t": "28-34 s",
+      "voice": "Aur data India mein hi store hota hai.",
+      "screen": "Caption: \"Data stored in India\".",
+      "note": "The trust line, as the product page words it."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "Atomberg SL 1. Parents ke ghar ke liye. Link neeche hai.",
+      "screen": "End card: SL 1, 6 ways to unlock, [price], [EMI a month], free installation in select pincodes.",
+      "note": "Spoken ask and an end card, which the current film lacks."
+     }
+    ],
+    "on_screen": "Lock in frame from second 1; six icons when the six ways are said; app screen readable; no house number.",
+    "end_card": "Atomberg SL 1, \"6 Ways to Unlock\", [price] or [EMI a month], \"Free installation in select pincodes\", atomberg.com.",
+    "compliance": [
+     "Say \"6 ways to unlock\" only when all six are shown or listed: fingerprint, PIN, remote OTP, NFC card, the Atomberg Home App and the key.",
+     "Data claims exactly as the SL 1 page puts them: \"Data Stored in India\", AES128 from app to lock, AES256 from app to cloud. No \"unhackable\", \"100% safe\" or \"no break-in\".",
+     "Price and EMI as on the product page on the day of the edit, with \"M.R.P. incl. of all taxes\"; no cost EMI applies to the cards the page lists.",
+     "Free installation \"in select pincodes\", as the page says; never \"free installation everywhere\".",
+     "Warranty: 2 years, as the SL 1 page states.",
+     "Written consent from every family member on screen; hide house numbers, gate names and the street."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the 71.5-second parents' film (your only lock idea)",
+     "Clicks to the SL 1 page and add-to-cart there",
+     "Comments asking for the price or for fitting in a named city",
+     "Installation bookings by pincode in the 14 days after"
+    ]
+   },
+   {
+    "title": "Six ways, one door: count them on screen, one by one",
+    "persona": "First-time smart lock buyer comparing feature lists, who has seen Qubo's \"7 ways\" cards.",
+    "why": "Both your lock ads promise 6 ways of unlocking in the text, while the box shows five icons and the voice names four. Qubo's lock cards say \"7 ways to unlock\" on three cards and never list them.",
+    "evidence_ads": [
+     "2607900756305385",
+     "1847305846649162",
+     "1180214570703089",
+     "3319211058286132"
+    ],
+    "format": "Product demo, hands only, one door, macro shots, vertical, on-screen counter",
+    "length": "35 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Ek darwaza, chhe tareeke. Ginte jaana.",
+     "Chaabi sirf chhatha tareeka hai.",
+     "Is lock ko kholne ke chhe tareeke hain. Dekho."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Count hook",
+      "note": "A count the viewer follows."
+     },
+     {
+      "t": "3-9 s",
+      "beat": "Ways 1 and 2",
+      "note": "Hands only, no face needed."
+     },
+     {
+      "t": "9-16 s",
+      "beat": "Ways 3 and 4",
+      "note": "The two the current film never shows."
+     },
+     {
+      "t": "16-23 s",
+      "beat": "Ways 5 and 6",
+      "note": "Ends the six; the key as backup."
+     },
+     {
+      "t": "23-30 s",
+      "beat": "Safety",
+      "note": "A safety fact from the product page."
+     },
+     {
+      "t": "30-35 s",
+      "beat": "End card",
+      "note": "Warranty as the page states it."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Ek darwaza, chhe tareeke. Ginte jaana.",
+      "screen": "SL 1 on a door, close up. Counter \"0 of 6\".",
+      "note": "A count the viewer follows."
+     },
+     {
+      "t": "3-9 s",
+      "voice": "Ek: fingerprint. Do: PIN.",
+      "screen": "Finger on the reader, then a hand on the keypad; counter 2 of 6.",
+      "note": "Hands only, no face needed."
+     },
+     {
+      "t": "9-16 s",
+      "voice": "Teen: NFC card. Chaar: Atomberg Home App.",
+      "screen": "Card tap, then the app's unlock button; counter 4 of 6.",
+      "note": "The two the current film never shows."
+     },
+     {
+      "t": "16-23 s",
+      "voice": "Paanch: remote OTP, guest ke liye. Chhe: chaabi, emergency ke liye.",
+      "screen": "An OTP on a phone, typed on the keypad; the key in the cylinder; counter 6 of 6.",
+      "note": "Ends the six; the key as backup."
+     },
+     {
+      "t": "23-30 s",
+      "voice": "Paanch galat PIN par lock ek minute ke liye ruk jaata hai.",
+      "screen": "Caption: \"Restricted access for 1 minute after 5 false PIN attempts\".",
+      "note": "A safety fact from the product page."
+     },
+     {
+      "t": "30-35 s",
+      "voice": "Atomberg SL 1. Do saal ki warranty.",
+      "screen": "End card.",
+      "note": "Warranty as the page states it."
+     }
+    ],
+    "on_screen": "A counter from 0 of 6 to 6 of 6; each way named as it is shown; the safety line in the page's own words.",
+    "end_card": "Atomberg SL 1, \"6 Ways to Unlock\", \"2 Year Warranty\", [price], atomberg.com.",
+    "compliance": [
+     "Say \"6 ways to unlock\" only when all six are shown or listed: fingerprint, PIN, remote OTP, NFC card, the Atomberg Home App and the key.",
+     "Data claims exactly as the SL 1 page puts them: \"Data Stored in India\", AES128 from app to lock, AES256 from app to cloud. No \"unhackable\", \"100% safe\" or \"no break-in\".",
+     "Price and EMI as on the product page on the day of the edit, with \"M.R.P. incl. of all taxes\"; no cost EMI applies to the cards the page lists.",
+     "Free installation \"in select pincodes\", as the page says; never \"free installation everywhere\".",
+     "Warranty: 2 years, as the SL 1 page states.",
+     "Written consent from every family member on screen; hide house numbers, gate names and the street."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the 71.5-second parents' film (your only lock idea)",
+     "Clicks to the SL 1 page and add-to-cart there",
+     "Comments asking for the price or for fitting in a named city",
+     "Installation bookings by pincode in the 14 days after"
+    ]
+   },
+   {
+    "title": "Where does your door's data go? A presenter answers in 36 seconds",
+    "persona": "35 to 50, careful about privacy and apps, unsure a lock should be online.",
+    "why": "Your technician series, 4 Intellon ads live up to 242 days, has a presenter answer one doubt to camera. Your lock film says data stays in India in one line; no lock ad of either brand puts a person to camera.",
+    "evidence_ads": [
+     "28649458564750381",
+     "1769808607610025",
+     "1820644579124274",
+     "2607900756305385"
+    ],
+    "format": "Presenter to camera beside a fitted door, one set, captions, vertical",
+    "length": "36 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Smart lock lagane se pehle ek sawaal: aapke darwaze ka data jaata kahan hai?",
+     "Smart lock hack ho sakta hai? Yeh poochna bilkul theek hai.",
+     "Darwaza aapka, data bhi aapka. Dekhiye kaise."
+    ],
+    "beats": [
+     {
+      "t": "0-4 s",
+      "beat": "Doubt",
+      "note": "The doubt, as your technician films open on one."
+     },
+     {
+      "t": "4-12 s",
+      "beat": "Where data lives",
+      "note": "The page's security lines, word for word."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "PIN safety",
+      "note": "One safety mechanism, shown."
+     },
+     {
+      "t": "20-27 s",
+      "beat": "Owner control",
+      "note": "Control stays with the owner."
+     },
+     {
+      "t": "27-32 s",
+      "beat": "Backup",
+      "note": "The last worry."
+     },
+     {
+      "t": "32-36 s",
+      "beat": "Ask",
+      "note": "Spoken ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-4 s",
+      "voice": "Smart lock lagane se pehle ek sawaal: aapke darwaze ka data jaata kahan hai?",
+      "screen": "Presenter to camera beside a door with the SL 1. Lower-third: [name], [role], Atomberg.",
+      "note": "The doubt, as your technician films open on one."
+     },
+     {
+      "t": "4-12 s",
+      "voice": "Atomberg SL 1 mein data India mein store hota hai. App se lock tak Bluetooth par AES128, app se cloud tak AES256.",
+      "screen": "Captions: \"Data stored in India\" / \"AES128\" / \"AES256 over HTTPS\".",
+      "note": "The page's security lines, word for word."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Koi PIN guess karne ki koshish kare? Paanch galat try ke baad lock ek minute ruk jaata hai.",
+      "screen": "Keypad, wrong PIN, lock-out tone; caption with the page's line.",
+      "note": "One safety mechanism, shown."
+     },
+     {
+      "t": "20-27 s",
+      "voice": "Aur access aap dete ho, phone se. Log mein sab dikhta hai.",
+      "screen": "App access and log screens, readable.",
+      "note": "Control stays with the owner."
+     },
+     {
+      "t": "27-32 s",
+      "voice": "Battery khatam? Chaabi hamesha backup hai.",
+      "screen": "Key in the cylinder.",
+      "note": "The last worry."
+     },
+     {
+      "t": "32-36 s",
+      "voice": "Atomberg SL 1. Details neeche.",
+      "screen": "End card.",
+      "note": "Spoken ask."
+     }
+    ],
+    "on_screen": "Every security line as the SL 1 page words it; the presenter named with a role; no comparison with another brand.",
+    "end_card": "Atomberg SL 1, \"Data Stored in India\", \"6 Ways to Unlock\", [price], atomberg.com.",
+    "compliance": [
+     "Say \"6 ways to unlock\" only when all six are shown or listed: fingerprint, PIN, remote OTP, NFC card, the Atomberg Home App and the key.",
+     "Data claims exactly as the SL 1 page puts them: \"Data Stored in India\", AES128 from app to lock, AES256 from app to cloud. No \"unhackable\", \"100% safe\" or \"no break-in\".",
+     "Price and EMI as on the product page on the day of the edit, with \"M.R.P. incl. of all taxes\"; no cost EMI applies to the cards the page lists.",
+     "Free installation \"in select pincodes\", as the page says; never \"free installation everywhere\".",
+     "Warranty: 2 years, as the SL 1 page states.",
+     "Written consent from every family member on screen; hide house numbers, gate names and the street."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the 71.5-second parents' film (your only lock idea)",
+     "Clicks to the SL 1 page and add-to-cart there",
+     "Comments asking for the price or for fitting in a named city",
+     "Installation bookings by pincode in the 14 days after"
+    ]
+   },
+   {
+    "title": "The same door in Tamil and in Telugu, for South Indian homes",
+    "persona": "Tamil or Telugu speaking son or daughter buying for parents in Chennai, Coimbatore or Hyderabad.",
+    "why": "Your Zenova regional set runs 5 ads, 4 of them in Tamil or Telugu, and 8 of your 29 videos are Tamil or Telugu. None of Qubo's 30 videos is, and all 13 of its lock ads are English.",
+    "evidence_ads": [
+     "28024802573817859",
+     "1976667336337869",
+     "2233034374286141",
+     "903369339373221",
+     "1393478602160610"
+    ],
+    "format": "Direction 1's footage, two new voiceovers by native speakers, captions in each language, vertical",
+    "length": "40 seconds",
+    "language": "Tamil and Telugu (one cut each)",
+    "openings": [
+     "Tamil: Amma ippo saaviya thedave vendaam.",
+     "Telugu: Amma ippudu taalam chevi vetakakkarledu.",
+     "Tamil: Appa Amma veettu kadhava aaru vazhiyila thirakkalaam."
+    ],
+    "beats": [
+     {
+      "t": "0-5 s",
+      "beat": "Payoff hook",
+      "note": "The same payoff hook as direction 1."
+     },
+     {
+      "t": "5-12 s",
+      "beat": "Problem",
+      "note": "Problem."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Six ways",
+      "note": "Six ways."
+     },
+     {
+      "t": "20-28 s",
+      "beat": "Phone access",
+      "note": "Phone access."
+     },
+     {
+      "t": "28-34 s",
+      "beat": "Trust",
+      "note": "Trust."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "Ask",
+      "note": "Ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-5 s",
+      "voice": "Tamil cut: \"Amma ippo saaviya thedave vendaam.\" Telugu cut: \"Amma ippudu taalam chevi vetakakkarledu.\"",
+      "screen": "Mother's finger on the reader, door opens. Caption in the same language.",
+      "note": "The same payoff hook as direction 1."
+     },
+     {
+      "t": "5-12 s",
+      "voice": "[Voice of: \"The old lock was hard for her from outside.\"]",
+      "screen": "Old key lock.",
+      "note": "Problem."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "[Voice of: \"Fingerprint, PIN, phone, OTP, card or key: six ways.\"]",
+      "screen": "Six icons, labels in English with the language caption under them.",
+      "note": "Six ways."
+     },
+     {
+      "t": "20-28 s",
+      "voice": "[Voice of: \"I give access from my phone and see who came in.\"]",
+      "screen": "App screens.",
+      "note": "Phone access."
+     },
+     {
+      "t": "28-34 s",
+      "voice": "[Voice of: \"The data stays in India.\"]",
+      "screen": "Caption: \"Data stored in India\".",
+      "note": "Trust."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "[Voice of: \"Atomberg SL 1. Link below.\"]",
+      "screen": "End card in the same language.",
+      "note": "Ask."
+     }
+    ],
+    "on_screen": "Captions in the voice's language; product names and \"6 ways\" in English, as your Zenova regional ads keep the product name.",
+    "end_card": "Atomberg SL 1, \"6 Ways to Unlock\", [price], \"Free installation in select pincodes\", in the cut's language.",
+    "label": "A recommendation: the opening lines are a non-native draft and the lines in [brackets] are for a native Tamil or Telugu writer to write; have both checked before the shoot.",
+    "compliance": [
+     "Say \"6 ways to unlock\" only when all six are shown or listed: fingerprint, PIN, remote OTP, NFC card, the Atomberg Home App and the key.",
+     "Data claims exactly as the SL 1 page puts them: \"Data Stored in India\", AES128 from app to lock, AES256 from app to cloud. No \"unhackable\", \"100% safe\" or \"no break-in\".",
+     "Price and EMI as on the product page on the day of the edit, with \"M.R.P. incl. of all taxes\"; no cost EMI applies to the cards the page lists.",
+     "Free installation \"in select pincodes\", as the page says; never \"free installation everywhere\".",
+     "Warranty: 2 years, as the SL 1 page states.",
+     "Written consent from every family member on screen; hide house numbers, gate names and the street."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the 71.5-second parents' film (your only lock idea)",
+     "Clicks to the SL 1 page and add-to-cart there",
+     "Comments asking for the price or for fitting in a named city",
+     "Installation bookings by pincode in the 14 days after"
+    ]
+   },
+   {
+    "title": "AutoChaabi: a fake gadget box, then the real SL 1 at the gate",
+    "persona": "Hinglish-speaking family audience who stops for a sketch; parents in their 60s and their grown children.",
+    "why": "Your gag-box series runs 2 ads on two products, live up to 178 days: a fake AutoMatka box before the Intellon and a fake AutoSilbatta box before the Zenova. No lock ad of either brand is a sketch.",
+    "evidence_ads": [
+     "985790447890966",
+     "1024253483886747"
+    ],
+    "format": "Two-person sketch at a house gate, phone footage, vertical, captions",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Uncle, yeh dekhiye: AutoChaabi. Chaabi khud dhoondh ke deta hai.",
+     "Naya gadget aaya hai, AutoChaabi!",
+     "Beta, chaabi dhoondhni hi kyun hai?"
+    ],
+    "beats": [
+     {
+      "t": "0-6 s",
+      "beat": "Gag hook",
+      "note": "The gag box, as your AutoMatka and AutoSilbatta films open."
+     },
+     {
+      "t": "6-12 s",
+      "beat": "Turn",
+      "note": "The turn: the real product beats the joke."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Six ways",
+      "note": "All six."
+     },
+     {
+      "t": "20-28 s",
+      "beat": "Phone access",
+      "note": "Phone access."
+     },
+     {
+      "t": "28-34 s",
+      "beat": "Close gag",
+      "note": "Close the gag."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "End card",
+      "note": "Brand and product."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-6 s",
+      "voice": "Uncle, yeh dekhiye: AutoChaabi. Chaabi khud dhoondh ke deta hai.",
+      "screen": "A man holds a fake \"AutoChaabi\" box out to an older man at a gate.",
+      "note": "The gag box, as your AutoMatka and AutoSilbatta films open."
+     },
+     {
+      "t": "6-12 s",
+      "voice": "Beta, chaabi dhoondhni hi kyun hai?",
+      "screen": "The older man presses his finger on an SL 1; the door opens.",
+      "note": "The turn: the real product beats the joke."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Fingerprint, PIN, phone, OTP, card, aur chaabi bhi. Chhe tareeke.",
+      "screen": "Six icons over quick shots.",
+      "note": "All six."
+     },
+     {
+      "t": "20-28 s",
+      "voice": "Beta access de deta hai phone se, aur pata chal jaata hai kaun aaya.",
+      "screen": "Phone access and log.",
+      "note": "Phone access."
+     },
+     {
+      "t": "28-34 s",
+      "voice": "AutoChaabi wapas le jao.",
+      "screen": "The fake box goes back in a bag.",
+      "note": "Close the gag."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "Atomberg SL 1.",
+      "screen": "End card.",
+      "note": "Brand and product."
+     }
+    ],
+    "on_screen": "The fake box clearly a prop (no real brand on it); six icons when the six ways are said.",
+    "end_card": "Atomberg SL 1, \"6 Ways to Unlock\", [price], atomberg.com.",
+    "compliance": [
+     "Say \"6 ways to unlock\" only when all six are shown or listed: fingerprint, PIN, remote OTP, NFC card, the Atomberg Home App and the key.",
+     "Data claims exactly as the SL 1 page puts them: \"Data Stored in India\", AES128 from app to lock, AES256 from app to cloud. No \"unhackable\", \"100% safe\" or \"no break-in\".",
+     "Price and EMI as on the product page on the day of the edit, with \"M.R.P. incl. of all taxes\"; no cost EMI applies to the cards the page lists.",
+     "Free installation \"in select pincodes\", as the page says; never \"free installation everywhere\".",
+     "Warranty: 2 years, as the SL 1 page states.",
+     "Written consent from every family member on screen; hide house numbers, gate names and the street."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the 71.5-second parents' film (your only lock idea)",
+     "Clicks to the SL 1 page and add-to-cart there",
+     "Comments asking for the price or for fitting in a named city",
+     "Installation bookings by pincode in the 14 days after"
+    ]
+   }
+  ]
+ },
+ "B": {
+  "verdict": "Smart locks: Atomberg sells its lock in Hinglish, a family film, 2 of 30 ads; your 13 are English. Your edge: catalogue ads, 10 of 42, up to 605 days.",
+  "plan": {
+   "focus": {
+    "title": "Run \"Don't buy a smart lock\" in Hinglish.",
+    "why": "Your Don't buy lists run 4 ads on a camera, a dashcam and a purifier, live up to 154 days. All 13 of your lock ads are English, and none puts a person to camera.",
+    "basis": "series:B:Don't buy X reverse-psychology lists",
+    "evidence": "strong",
+    "effort": "Low",
+    "first_test": "One man, 40 seconds, Hinglish: three sarcastic reasons (keys, the maid's hours, who came in), then fingerprint, timed passcode, free fitting.",
+    "script": 1
+   },
+   "start": [
+    {
+     "title": "Tell one household's door story, in Hinglish.",
+     "why": "Atomberg's one lock idea is a Hinglish family film: a son fits the SL 1 for his parents, gives access from his phone and reads the log; 2 ads, 3 versions.",
+     "basis": "idea:A:AT-c02",
+     "evidence": "moderate",
+     "effort": "Medium",
+     "first_test": "A working couple, 40 seconds, Hinglish: a one-time OTP for a guest, a 7 to 9 am passcode for the maid.",
+     "script": 2
+    },
+    {
+     "title": "Cut your four-customer film to 40 seconds.",
+     "why": "Your oldest ad, live 620 days, is four customers on easy fitting, remote access for maids and gardeners, logs and a rose gold finish; your only lock film where customers speak.",
+     "basis": "idea:B:QB-c04",
+     "evidence": "moderate",
+     "effort": "Low",
+     "first_test": "Three customers, 40 seconds, English with Hinglish captions, end card with 7 ways and free fitting in 60+ cities.",
+     "script": 3
+    }
+   ],
+   "stop": [
+    {
+     "title": "Fill the brand field; state one warranty per lock.",
+     "why": "10 of your 13 lock ads show unfilled brand text. Two cards say 3 Years Warranty, two say 2+ Years; the Select page says 2 years, the Nova 3.",
+     "basis": "ads:1146227830992511,1154658286222128,1180214570703089,1185700196857594,1401638150930044,1503675450757339,1514583869585266,1795297537743787,2040285316467019,972112558410325",
+     "effort": "Low",
+     "first_test": "Today: fill the brand in the catalogue, set each card's warranty to its product page, drop \"Get offer\" where none exists."
+    },
+    {
+     "title": "Stop calling AI Guard free.",
+     "why": "One camera ad says AI Guard is built in free; its app frame reads AI Guard Pro Current Plan, and your cameras page says the features need an active plan.",
+     "basis": "ads:1140748798813160",
+     "effort": "Low",
+     "first_test": "Recut the line to \"AI Guard plan included for [period]\", or drop it, to match the cameras page."
+    }
+   ]
+  },
+  "workhorse_read": "Your largest series is the lock catalogue set, 10 of 42 ads live 373 to 605 days, all made in 2025; your newest weight is the purifier push (6 ads since 16 Oct). Atomberg's 30 ads sit on 26 ideas, none above 2 ads; its lock is one family film.",
+  "now_read": "15 of your 42 started in the last 30 days: 7 purifiers, 3 cameras, 2 doorbells, 2 dashcam road clips and 1 lock card (21 Oct). Atomberg started 5 of 30 in that time, all on 4 to 6 Nov: ceiling fans and Intellon, no lock.",
+  "india_read": [
+   "Language: video, you speak Hinglish in 19 of 30 and English in 11; Atomberg Hinglish in 17 of 29, Tamil in 5, Telugu in 3, English in 2. Image: your 12 and Atomberg's 1 are English. Locks: your 13 English, Atomberg's 2 Hinglish.",
+   "Timing: your 9 ads of 27 Oct to 3 Nov, 7 of them purifiers, came in the two weeks before Diwali (8 Nov 2026); Atomberg's 5 newest started 4 to 6 Nov. 11 of your 13 lock ads started between March and November 2025.",
+   "Destination: all 42 of yours go to quboworld.com, 11 lock ads to the lock collection and 2 to the Select page; 29 of Atomberg's 30 go to atomberg.com and 1 to Amazon.in."
+  ],
+  "scripts": [
+   {
+    "title": "\"Don't buy a smart lock\": three sarcastic reasons, in Hinglish",
+    "persona": "25 to 40, rents or owns a flat in a city with domestic help, scrolls past product cards.",
+    "why": "Your Don't buy lists run 4 ads on a camera, a dashcam and a purifier, live up to 154 days. All 13 of your lock ads are English; none puts a person to camera. Atomberg's lock film is Hinglish.",
+    "evidence_ads": [
+     "1074296351695746",
+     "2155291762071003",
+     "914360977729905",
+     "1397233215855053",
+     "2607900756305385"
+    ],
+    "format": "One man to camera at a door, sarcastic list, cutaways to the lock and app, vertical",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Smart door lock bilkul mat khareedna.",
+     "Three reasons not to buy a Qubo smart lock.",
+     "Chaabi dhoondhne ka maza hi kuch aur hai, hai na?"
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Reverse hook",
+      "note": "Your Don't buy opening, on the lock."
+     },
+     {
+      "t": "3-11 s",
+      "beat": "Reason 1, keys",
+      "note": "Fingerprint, shown under the joke."
+     },
+     {
+      "t": "11-20 s",
+      "beat": "Reason 2, the maid",
+      "note": "The site's timed access for support staff."
+     },
+     {
+      "t": "20-28 s",
+      "beat": "Reason 3, the log",
+      "note": "Access logs."
+     },
+     {
+      "t": "28-34 s",
+      "beat": "Offer",
+      "note": "The site's offer, inside the sarcasm."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "Close",
+      "note": "Your series' own close."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Smart door lock bilkul mat khareedna.",
+      "screen": "A man at a front door, holding a bunch of keys. Caption: \"Don't buy a smart lock\".",
+      "note": "Your Don't buy opening, on the lock."
+     },
+     {
+      "t": "3-11 s",
+      "voice": "Reason number one: chaabi dhoondhne ka alag hi maza hai. Roz subah, bag mein, pocket mein.",
+      "screen": "Keys spilling from a bag; then a finger on the Select's reader, door opens.",
+      "note": "Fingerprint, shown under the joke."
+     },
+     {
+      "t": "11-20 s",
+      "voice": "Reason number two: maid subah saat baje aaye, toh aapko ghar pe rukna hi chahiye.",
+      "screen": "App: timed passcode, 7 to 9 am. Caption: \"Timed access\".",
+      "note": "The site's timed access for support staff."
+     },
+     {
+      "t": "20-28 s",
+      "voice": "Reason number three: kaun aaya, kaun gaya, jaanna hi kyun hai?",
+      "screen": "App event log, readable.",
+      "note": "Access logs."
+     },
+     {
+      "t": "28-34 s",
+      "voice": "Aur free installation 60+ cities mein? Itni aasaan life kisko chahiye?",
+      "screen": "Fitter at a door; caption \"Free installation in 60+ cities\".",
+      "note": "The site's offer, inside the sarcasm."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "Agar yeh aapki lifestyle hai, toh smart lock mat lena. Warna, aapko pata hai kya karna hai.",
+      "screen": "End card.",
+      "note": "Your series' own close."
+     }
+    ],
+    "on_screen": "Each reason numbered on screen; the lock and app shown under every joke; the fitting cities as the lock page states them.",
+    "end_card": "Qubo Smart Door Lock Select, \"7 Ways to Unlock\", [price], \"Free installation in 60+ cities\", quboworld.com.",
+    "compliance": [
+     "One warranty per model, as its product page states (Select 2 years, Nova 3 years); never \"2+ years\" or a figure the page does not show.",
+     "Free installation \"in 60+ cities\" for locks, as the lock page says (70+ is the doorbell page's figure).",
+     "\"Starting at\" names the model at that price (Optima, ₹7,990 on 23 Nov); a Select card shows the Select's price.",
+     "No \"hack-proof\", \"unbreakable\" or \"India's #1\" without a test report or a source on screen.",
+     "Fill the brand field before any catalogue ad goes live; no unfilled placeholder text.",
+     "Written consent from customers and any staff shown; hide house numbers; show the maid's access as a feature, never her face without consent."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the four-customer film (your oldest lock ad, 620 days)",
+     "Clicks to the lock collection and the Select page, and add-to-cart",
+     "Installation bookings in the 60+ fitting cities",
+     "Comments that name the maid, guests or parents, a sign the persona landed"
+    ]
+   },
+   {
+    "title": "The office desk: a one-time OTP for guests, the maid's 7 to 9 passcode",
+    "persona": "Working couple, 28 to 40, both out all day, with domestic help and visitors.",
+    "why": "Atomberg's one lock idea is a Hinglish family film: a son gives his parents access from his phone and reads the log, 2 ads and 3 versions. Your lock ads tell no story; your four-customer film mentions maids only in passing.",
+    "evidence_ads": [
+     "2607900756305385",
+     "1847305846649162",
+     "1789087895202463"
+    ],
+    "format": "Persona story, two locations (office, front door), phone footage, vertical, captions",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Main office mein hoon, aur ghar pe mehmaan aa gaye.",
+     "Didi aa gayi, aur main ghar pe nahi hoon. Koi baat nahi.",
+     "Chaabi ki copy banwana band."
+    ],
+    "beats": [
+     {
+      "t": "0-4 s",
+      "beat": "Situation",
+      "note": "The working couple's moment."
+     },
+     {
+      "t": "4-12 s",
+      "beat": "Guest OTP",
+      "note": "One time guest access, from the site."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Maid's slot",
+      "note": "Timed access for support staff."
+     },
+     {
+      "t": "20-27 s",
+      "beat": "Log",
+      "note": "Access logs."
+     },
+     {
+      "t": "27-33 s",
+      "beat": "Seven ways",
+      "note": "All seven, which the cards never list."
+     },
+     {
+      "t": "33-40 s",
+      "beat": "Offer and ask",
+      "note": "Offer and ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-4 s",
+      "voice": "Main office mein hoon, aur ghar pe mehmaan aa gaye.",
+      "screen": "A woman at an office desk, phone buzzing. Lower-third optional.",
+      "note": "The working couple's moment."
+     },
+     {
+      "t": "4-12 s",
+      "voice": "Unko ek one-time OTP bhej diya. Bas.",
+      "screen": "Phone sends a one-time code; at the door, a guest types it and walks in.",
+      "note": "One time guest access, from the site."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Didi ke liye passcode sirf subah saat se nau.",
+      "screen": "App: timed access 7 to 9 am.",
+      "note": "Timed access for support staff."
+     },
+     {
+      "t": "20-27 s",
+      "voice": "Aur shaam ko log dekh leti hoon, kaun kab aaya.",
+      "screen": "Event log, readable.",
+      "note": "Access logs."
+     },
+     {
+      "t": "27-33 s",
+      "voice": "Fingerprint, passcode, card, app, remote, OTP, aur chaabi. Saat tareeke.",
+      "screen": "Seven icons.",
+      "note": "All seven, which the cards never list."
+     },
+     {
+      "t": "33-40 s",
+      "voice": "Qubo Smart Door Lock. Free installation, 60+ cities mein.",
+      "screen": "End card.",
+      "note": "Offer and ask."
+     }
+    ],
+    "on_screen": "Codes and log screens readable; the seven ways named as the lock page lists them; no house number.",
+    "end_card": "Qubo Smart Door Lock [model], [price], \"Free installation in 60+ cities\", quboworld.com.",
+    "compliance": [
+     "One warranty per model, as its product page states (Select 2 years, Nova 3 years); never \"2+ years\" or a figure the page does not show.",
+     "Free installation \"in 60+ cities\" for locks, as the lock page says (70+ is the doorbell page's figure).",
+     "\"Starting at\" names the model at that price (Optima, ₹7,990 on 23 Nov); a Select card shows the Select's price.",
+     "No \"hack-proof\", \"unbreakable\" or \"India's #1\" without a test report or a source on screen.",
+     "Fill the brand field before any catalogue ad goes live; no unfilled placeholder text.",
+     "Written consent from customers and any staff shown; hide house numbers; show the maid's access as a feature, never her face without consent."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the four-customer film (your oldest lock ad, 620 days)",
+     "Clicks to the lock collection and the Select page, and add-to-cart",
+     "Installation bookings in the 60+ fitting cities",
+     "Comments that name the maid, guests or parents, a sign the persona landed"
+    ]
+   },
+   {
+    "title": "Your four customers, cut to 40 seconds with captions",
+    "persona": "Homeowner who has just renovated or is about to, and trusts other owners more than a brand.",
+    "why": "Your oldest ad, live 620 days, is four customers on easy fitting, remote access for maids and gardeners, logs and a rose gold finish. It is your only lock film in which customers speak, and it runs over a minute.",
+    "evidence_ads": [
+     "1789087895202463"
+    ],
+    "format": "Customer testimonials recut from existing footage, vertical, burned-in captions",
+    "length": "40 seconds",
+    "language": "English with Hinglish captions",
+    "openings": [
+     "\"The installation process was very easy.\"",
+     "\"We are able to kind of provide remote access to maids.\"",
+     "\"The rose gold finish was very premium.\""
+    ],
+    "beats": [
+     {
+      "t": "0-4 s",
+      "beat": "Customer hook",
+      "note": "Keep the film's own first line."
+     },
+     {
+      "t": "4-14 s",
+      "beat": "Remote access",
+      "note": "Remote access, the strongest use."
+     },
+     {
+      "t": "14-22 s",
+      "beat": "Logs",
+      "note": "Logs."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Design",
+      "note": "Design, a reason nobody else gives."
+     },
+     {
+      "t": "30-36 s",
+      "beat": "Scale line",
+      "note": "Two site lines."
+     },
+     {
+      "t": "36-40 s",
+      "beat": "End card",
+      "note": "Ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-4 s",
+      "voice": "\"The installation process was very easy.\"",
+      "screen": "Customer 1, from the existing film. Caption in English and Hinglish.",
+      "note": "Keep the film's own first line."
+     },
+     {
+      "t": "4-14 s",
+      "voice": "\"We are able to kind of provide remote access to maids.\" \"Same goes with the gardener.\"",
+      "screen": "Customer 1 or 2; cut to the app.",
+      "note": "Remote access, the strongest use."
+     },
+     {
+      "t": "14-22 s",
+      "voice": "\"And it has different logs so that's definitely makes it more secure.\"",
+      "screen": "Customer 2; event log on a phone.",
+      "note": "Logs."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "\"The rose gold finish was very premium.\"",
+      "screen": "Customer 3; the lock in rose gold on the door.",
+      "note": "Design, a reason nobody else gives."
+     },
+     {
+      "t": "30-36 s",
+      "voice": "(no voice)",
+      "screen": "Caption: \"Trusted by 1,00,000+ lock users\" / \"7 ways to unlock\".",
+      "note": "Two site lines."
+     },
+     {
+      "t": "36-40 s",
+      "voice": "(no voice)",
+      "screen": "End card.",
+      "note": "Ask."
+     }
+    ],
+    "on_screen": "Customers' own words only, as said in the film; no names unless each customer agrees in writing.",
+    "end_card": "Qubo Smart Door Locks, \"Free installation in 60+ cities\", quboworld.com/smart-locks.",
+    "compliance": [
+     "One warranty per model, as its product page states (Select 2 years, Nova 3 years); never \"2+ years\" or a figure the page does not show.",
+     "Free installation \"in 60+ cities\" for locks, as the lock page says (70+ is the doorbell page's figure).",
+     "\"Starting at\" names the model at that price (Optima, ₹7,990 on 23 Nov); a Select card shows the Select's price.",
+     "No \"hack-proof\", \"unbreakable\" or \"India's #1\" without a test report or a source on screen.",
+     "Fill the brand field before any catalogue ad goes live; no unfilled placeholder text.",
+     "Written consent from customers and any staff shown; hide house numbers; show the maid's access as a feature, never her face without consent."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the four-customer film (your oldest lock ad, 620 days)",
+     "Clicks to the lock collection and the Select page, and add-to-cart",
+     "Installation bookings in the 60+ fitting cities",
+     "Comments that name the maid, guests or parents, a sign the persona landed"
+    ]
+   },
+   {
+    "title": "One door, one fitter, one take: \"Installed in Minutes\", shown",
+    "persona": "Owner who wants a smart lock but fears drilling, damage or a long visit.",
+    "why": "Your lock catalogue cards run 10 ads, live 373 to 605 days; two say \"Installed in Minutes\" and two \"Don't wait for renovation\" with no damage. No lock ad of yours shows a fitting from start to end.",
+    "evidence_ads": [
+     "1795297537743787",
+     "1401638150930044",
+     "972112558410325",
+     "2040285316467019"
+    ],
+    "format": "Demo, one fitter at one door, a timer on screen, vertical",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Purana lock nikalo, Qubo lagao. Dekhte hain kitna time lagta hai.",
+     "Renovation ka wait mat karo. Dekho.",
+     "Smart lock lagane mein kitna time lagta hai? Timer on."
+    ],
+    "beats": [
+     {
+      "t": "0-4 s",
+      "beat": "Timer hook",
+      "note": "Your card says \"Installed in Minutes\"; show it."
+     },
+     {
+      "t": "4-14 s",
+      "beat": "Fitting",
+      "note": "The fitting, in steps."
+     },
+     {
+      "t": "14-22 s",
+      "beat": "Set-up",
+      "note": "Set-up in the app."
+     },
+     {
+      "t": "22-30 s",
+      "beat": "Done, no damage",
+      "note": "\"No damage\", which your renovation card claims, shown."
+     },
+     {
+      "t": "30-35 s",
+      "beat": "Offer",
+      "note": "The offer, as the site states it."
+     },
+     {
+      "t": "35-40 s",
+      "beat": "Ask",
+      "note": "Ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-4 s",
+      "voice": "Purana lock nikalo, Qubo lagao. Dekhte hain kitna time lagta hai.",
+      "screen": "Fitter at a wooden door, a timer starts on screen.",
+      "note": "Your card says \"Installed in Minutes\"; show it."
+     },
+     {
+      "t": "4-14 s",
+      "voice": "Pehle purana lock. Phir mortise, phir bolt.",
+      "screen": "Old lock out, Select body in, bolts throw.",
+      "note": "The fitting, in steps."
+     },
+     {
+      "t": "14-22 s",
+      "voice": "Fingerprint register karo, family ke sabke.",
+      "screen": "Family members register fingerprints.",
+      "note": "Set-up in the app."
+     },
+     {
+      "t": "22-30 s",
+      "voice": "Bas. [fitting time] mein ho gaya. Darwaze pe koi naya ched nahi.",
+      "screen": "Timer stops at [fitting time]; door edge close up.",
+      "note": "\"No damage\", which your renovation card claims, shown."
+     },
+     {
+      "t": "30-35 s",
+      "voice": "Trained aur authorised carpenters, free, 60+ cities mein.",
+      "screen": "Caption with the lock page's line.",
+      "note": "The offer, as the site states it."
+     },
+     {
+      "t": "35-40 s",
+      "voice": "Qubo Smart Door Lock. Book karo.",
+      "screen": "End card.",
+      "note": "Ask."
+     }
+    ],
+    "on_screen": "A real timer, never sped up without saying so; the fitting time as filmed, in [brackets] until then.",
+    "end_card": "Qubo Smart Door Lock [model], \"Free installation in 60+ cities\", [price], quboworld.com.",
+    "compliance": [
+     "One warranty per model, as its product page states (Select 2 years, Nova 3 years); never \"2+ years\" or a figure the page does not show.",
+     "Free installation \"in 60+ cities\" for locks, as the lock page says (70+ is the doorbell page's figure).",
+     "\"Starting at\" names the model at that price (Optima, ₹7,990 on 23 Nov); a Select card shows the Select's price.",
+     "No \"hack-proof\", \"unbreakable\" or \"India's #1\" without a test report or a source on screen.",
+     "Fill the brand field before any catalogue ad goes live; no unfilled placeholder text.",
+     "Written consent from customers and any staff shown; hide house numbers; show the maid's access as a feature, never her face without consent."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the four-customer film (your oldest lock ad, 620 days)",
+     "Clicks to the lock collection and the Select page, and add-to-cart",
+     "Installation bookings in the 60+ fitting cities",
+     "Comments that name the maid, guests or parents, a sign the persona landed"
+    ]
+   },
+   {
+    "title": "See, talk, unlock: the doorbell and the lock on one phone",
+    "persona": "Owner who gets deliveries and visitors while out, already looking at a video doorbell.",
+    "why": "Your November doorbell pair, 2 ads started 11 Nov, shows the doorbell and, in one, a fingerprint lock beside it; your site sells them as Smart Entrance. No lock ad of yours shows a remote unlock.",
+    "evidence_ads": [
+     "952919071005083",
+     "1785722476024970"
+    ],
+    "format": "Persona story, phone screen and door cut together, vertical, captions",
+    "length": "40 seconds",
+    "language": "Hinglish",
+    "openings": [
+     "Ghanti baji, aur main ghar pe nahi hoon.",
+     "Darwaze pe kaun hai? Phone pe dekho.",
+     "Delivery aayi, main office mein. Koi baat nahi."
+    ],
+    "beats": [
+     {
+      "t": "0-4 s",
+      "beat": "Ring",
+      "note": "Your doorbell skits' opening, on a working day."
+     },
+     {
+      "t": "4-12 s",
+      "beat": "See and talk",
+      "note": "See and talk."
+     },
+     {
+      "t": "12-20 s",
+      "beat": "Unlock",
+      "note": "Remote unlock, which needs the doorbell or Wi-Fi gateway."
+     },
+     {
+      "t": "20-28 s",
+      "beat": "Relock and log",
+      "note": "Close the loop."
+     },
+     {
+      "t": "28-34 s",
+      "beat": "Brand line",
+      "note": "The site's own line."
+     },
+     {
+      "t": "34-40 s",
+      "beat": "Bundle ask",
+      "note": "The bundle ask."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-4 s",
+      "voice": "Ghanti baji, aur main ghar pe nahi hoon.",
+      "screen": "Phone shows a doorbell video call; a delivery person at the door.",
+      "note": "Your doorbell skits' opening, on a working day."
+     },
+     {
+      "t": "4-12 s",
+      "voice": "Phone pe dekha, baat ki.",
+      "screen": "Two-way talk on the Video Doorbell Pro.",
+      "note": "See and talk."
+     },
+     {
+      "t": "12-20 s",
+      "voice": "Aur wahin se darwaza khol diya.",
+      "screen": "Remote unlock in the app; the Select opens.",
+      "note": "Remote unlock, which needs the doorbell or Wi-Fi gateway."
+     },
+     {
+      "t": "20-28 s",
+      "voice": "Parcel andar, darwaza phir se lock.",
+      "screen": "Door closes and locks; log entry appears.",
+      "note": "Close the loop."
+     },
+     {
+      "t": "28-34 s",
+      "voice": "Qubo Smart Entrance: dekho, baat karo, kholo. Ek app se.",
+      "screen": "Caption: \"See, talk, and unlock your door from anywhere with one app\".",
+      "note": "The site's own line."
+     },
+     {
+      "t": "34-40 s",
+      "voice": "Doorbell aur lock, saath mein.",
+      "screen": "End card.",
+      "note": "The bundle ask."
+     }
+    ],
+    "on_screen": "Say that remote unlock needs the Video Doorbell Pro or the Wi-Fi gateway, as the Select page states.",
+    "end_card": "Qubo Smart Entrance: Video Doorbell Pro and Smart Door Lock, [bundle price], \"Free installation\", quboworld.com.",
+    "compliance": [
+     "One warranty per model, as its product page states (Select 2 years, Nova 3 years); never \"2+ years\" or a figure the page does not show.",
+     "Free installation \"in 60+ cities\" for locks, as the lock page says (70+ is the doorbell page's figure).",
+     "\"Starting at\" names the model at that price (Optima, ₹7,990 on 23 Nov); a Select card shows the Select's price.",
+     "No \"hack-proof\", \"unbreakable\" or \"India's #1\" without a test report or a source on screen.",
+     "Fill the brand field before any catalogue ad goes live; no unfilled placeholder text.",
+     "Written consent from customers and any staff shown; hide house numbers; show the maid's access as a feature, never her face without consent."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds, against the four-customer film (your oldest lock ad, 620 days)",
+     "Clicks to the lock collection and the Select page, and add-to-cart",
+     "Installation bookings in the 60+ fitting cities",
+     "Comments that name the maid, guests or parents, a sign the persona landed"
+    ]
+   }
+  ]
+ },
+ "extras": {
+  "source": "Read from each brand's ads by hand (research/<brand>/concepts.md) and from each brand's website (research/<brand>/site.md, both read 23 Nov 2026). Atomberg's sample is the first 30 of about 308 live ads; Qubo's is 42 of about 72. Compare shares, not counts.",
+  "contradictions": {
+   "A": [
+    {
+     "text": "The ₹1,500 fan saving is \"every season\" in one caption, \"per year\" on the box and in the ad text, \"every year\" in a headline over a video that never says it, and has no period in the speech.",
+     "ads": [
+      "903369339373221",
+      "1322308182660958",
+      "1707854647238748"
+     ]
+    },
+    {
+     "text": "The pedestal saving is \"every season\" in the ad text and \"every summer\" on the card, and one voice drops \"up to\" and says a flat ₹400. No page read on the site gives ₹400.",
+     "ads": [
+      "1090290693943316",
+      "1324690546431376",
+      "1087130470664197"
+     ]
+    },
+    {
+     "text": "The Intellon promises a 2-year unconditional warranty, 2 years with no service cost, no AMC, zero maintenance and the lowest maintenance costs, in different ads, with no terms shown; the site says a 2-year \"No Service Cost\" warranty.",
+     "ads": [
+      "1393478602160610",
+      "1100991832415673",
+      "962040276504976",
+      "1753637709267652"
+     ]
+    },
+    {
+     "text": "The Intellon's saving is 2X more water saving in one ad, about 25,000 rupees over 8 years in another (the site's figure), a litres-a-day usage chart in a third and up to ₹13,000 on the image ad, a figure on no page read.",
+     "ads": [
+      "1393478602160610",
+      "1100991832415673",
+      "962040276504976",
+      "981664110853974"
+     ]
+    },
+    {
+     "text": "The smart lock ad text says 6 ways of unlocking; the box shows five icons and the voice names four. The SL 1 page lists six.",
+     "ads": [
+      "2607900756305385",
+      "1847305846649162"
+     ]
+    }
+   ],
+   "B": [
+    {
+     "text": "The lock cards say 3 Years Warranty with no asterisk in one pair of ads and 2+ Years Warranty with starred free installation and unstated terms in another; the Select page says 2 years.",
+     "ads": [
+      "1795297537743787",
+      "1401638150930044",
+      "2040285316467019",
+      "972112558410325"
+     ]
+    },
+    {
+     "text": "AI Guard is said to be built in free while the app frame reads AI Guard Pro Current Plan with an Upgrade button; the cameras page says the features need an active AI Guard plan.",
+     "ads": [
+      "1140748798813160"
+     ]
+    },
+    {
+     "text": "The Q1000 is about 1000 sq ft in a caption and the ad text, 600 m3 per hour and 19,900 only by voice (the product page lists ₹19,990), with a blurred figure in the sister ad.",
+     "ads": [
+      "1158325139855724",
+      "1120606077408108"
+     ]
+    },
+    {
+     "text": "The dashcam ads name 2K to 4K, front 2K and back HD, 2K + 1080P and a 3K model across three landing pages, with a ₹6,490 deal that has no end date (the page lists ₹6,990) and a heat risk called completely zero.",
+     "ads": [
+      "1695379508422011",
+      "1068646366168711",
+      "1355670179767202"
+     ]
+    },
+    {
+     "text": "The doorbell ads give a 4.5 rating from 700+ customers and free installation in 70+ cities, or a lowest price of INR 5990, only in text no video shows; the product page lists ₹8,990 on 23 Nov.",
+     "ads": [
+      "1785722476024970",
+      "952919071005083",
+      "1828691691913803"
+     ]
+    }
+   ]
+  },
+  "comparable": {
+   "title": "Water purifier against air purifier, and other like for like",
+   "lede": "Atomberg's Intellon cleans drinking water; Qubo's Q200 and Q1000 clean room air. They are different products, so neither is in the lock map above. These are the things the two purifier pushes, and the two samples, can fairly be set side by side on.",
+   "rows": [
+    {
+     "label": "The purifier each one sells",
+     "A": {
+      "text": "The Intellon water purifier: 10 of 30 ads across 9 ideas; 4 are a person to camera, 3 of them on service visits and bills.",
+      "ads": [
+       "28649458564750381",
+       "1769808607610025",
+       "1820644579124274",
+       "962040276504976",
+       "1100991832415673"
+      ]
+     },
+     "B": {
+      "text": "Air purifiers: 9 of 42 ads across 5 ideas; the smoke demo carries 5, and 3 are presenters on room size, auto mode or the Don't buy list.",
+      "ads": [
+       "1859211195067641",
+       "1397233215855053",
+       "1120606077408108",
+       "1158325139855724"
+      ]
+     }
+    },
+    {
+     "label": "The running-cost story",
+     "A": {
+      "text": "Service bills as the doubt to answer: the technician series, 4 ads up to 242 days, shows each filter's health in the app; one ad says about 25,000 rupees saved over 8 years.",
+      "ads": [
+       "28649458564750381",
+       "1769808607610025",
+       "1820644579124274",
+       "962040276504976",
+       "1100991832415673"
+      ]
+     },
+     "B": {
+      "text": "Filters as a sarcastic aside: \"filter saste mein aur aasaani se mil jaata hai\" is reason three of the Don't buy list; the smoke demo shows a dirty filter.",
+      "ads": [
+       "1397233215855053",
+       "1859211195067641"
+      ]
+     }
+    },
+    {
+     "label": "A price in the ad",
+     "A": {
+      "text": "None of 30 ads shows a price; the only money figures are savings.",
+      "ads": []
+     },
+     "B": {
+      "text": "5 of 42 show or state one: ₹3,490 and ₹7,990 on images, INR 5990 and ₹6,490 in text, 19,900 said aloud.",
+      "ads": [
+       "1088717086222561",
+       "1011962618598558",
+       "1828691691913803",
+       "1068646366168711",
+       "1158325139855724"
+      ]
+     }
+    },
+    {
+     "label": "Free installation",
+     "A": {
+      "text": "No ad offers free installation; the site offers it in select pincodes.",
+      "ads": []
+     },
+     "B": {
+      "text": "8 of 42 ads say free installation: six lock ads and two doorbell ads.",
+      "ads": [
+       "1795297537743787",
+       "1401638150930044",
+       "972112558410325",
+       "2040285316467019",
+       "1011962618598558",
+       "3319211058286132",
+       "952919071005083",
+       "1785722476024970"
+      ]
+     }
+    },
+    {
+     "label": "Made against sent",
+     "A": {
+      "text": "28 distinct videos and images behind 30 ads and 35 versions: nearly every ad is its own creative.",
+      "ads": []
+     },
+     "B": {
+      "text": "31 distinct videos and images behind 42 ads and 54 versions; four lock cards each run as two ads, and the smoke demo as five.",
+      "ads": [
+       "1795297537743787",
+       "1401638150930044",
+       "1859211195067641",
+       "3010177869346117"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

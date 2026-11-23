@@ -69,6 +69,32 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh ek Hinglish ad hai, Roman script mein likha hua. GIVA silver jewellery, 925 sterling silver, earrings, pendant App download karo, aaj hi invest karo, best offer, kya aap jaante ho? GIVA silver jewellery, 925 sterling silver, earrings, pendant जीवा ।",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 9.0,
+    "text": "Yeh ek Hinglish ad hai, Roman script mein likha hua. GIVA silver jewellery, 925 sterling silver, earrings, pendant"
+   },
+   {
+    "start": 9.0,
+    "end": 17.0,
+    "text": "App download karo, aaj hi invest karo, best offer, kya aap jaante ho?"
+   },
+   {
+    "start": 17.0,
+    "end": 25.0,
+    "text": "GIVA silver jewellery, 925 sterling silver, earrings, pendant"
+   },
+   {
+    "start": 30.0,
+    "end": 30.5,
+    "text": "जीवा ।"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "pt",
   "text": "Despeda, se fico roca, rascante e aspira um trascino, desliza de lado, com mesa teu rio, peciro em que cadinho.",
   "segments": [

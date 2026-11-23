@@ -38,7 +38,7 @@ Site only, in no sampled ad: wall fans, table fans (Renesa Table Fan ₹3,149), 
 ## Results and scale claims on the site
 - Top banner: "1 Cr + People Trust Atomberg Fans". The fan collection pages say "25 Lakhs+ customers bought Atomberg fans"; the home page says "25 Lakhs+ customers bought Atomberg ceiling fans". Two scale figures for one customer base, unsourced.
 - Ratings on tiles: SL 1 4.6 (437 reviews); Azhero 4.4 (541).
-- Intellon page: "8-Year Total Cost of Ownership"; "Up to ₹25,000 in 8 years" saving against other ROs whose cost "Can go up to ~₹30,000–₹35,000 over 8 years"; "Zero Wastage in Adaptive Mode with municipal water".
+- Intellon page: "8-Year Total Cost of Ownership"; "Up to ₹25,000 in 8 years" saving against other ROs whose cost "Can go up to ~₹30,000 to ₹35,000 over 8 years" (the site's dash written as "to"); "Zero Wastage in Adaptive Mode with municipal water".
 
 ## Terms and legal lines
 - Price Match Guarantee against Amazon.in and Flipkart within 24 hours of purchase; "our only authorized sellers online are Amazon.in & Flipkart".

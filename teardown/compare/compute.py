@@ -403,6 +403,7 @@ def start_clusters(ads):
     if cur:
         runs.append(cur)
     return [{"from": r[0][0], "to": r[-1][0], "n": len(r), "ad_ids": [l for _, l in r],
+             "peak": list(Counter(d for d, _ in r).most_common(1)[0]),
              "products": dict(Counter(ads[l]["product_key"] or "unclear" for _, l in r).most_common())}
             for r in runs if len(r) >= CLUSTER_MIN]
 
