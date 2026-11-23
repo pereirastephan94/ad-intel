@@ -9,6 +9,9 @@
   },
   {
    "media": "video"
+  },
+  {
+   "media": "image"
   }
  ],
  "total": 279,
@@ -43,12 +46,16 @@
   "2026-11-23T08:49:45.988Z   video 1498974331625554 ok (25.4s, 12 stills)",
   "2026-11-23T08:49:45.988Z view {\"media\":\"video\"} -> 28 ads (window total 28), 27 new, 57 unique of ~279",
   "2026-11-23T08:49:45.990Z stopping after 1 view(s) as asked",
-  "2026-11-23T08:49:45.990Z PAUSED: 57 unique ads of ~279"
+  "2026-11-23T08:49:45.990Z PAUSED: 57 unique ads of ~279",
+  "2026-11-23T10:36:42.865Z view {\"media\":\"image\"} -> 0 ads (window total 0), 0 new, 57 unique of ~279",
+  "2026-11-23T10:36:42.868Z stopping after 1 view(s) as asked",
+  "2026-11-23T10:36:42.868Z PAUSED: 57 unique ads of ~279"
  ],
  "keywordsQueued": true,
  "queue": [
   {
-   "media": "image"
+   "media": "image",
+   "retry": 1
   }
  ],
  "stage": 1
