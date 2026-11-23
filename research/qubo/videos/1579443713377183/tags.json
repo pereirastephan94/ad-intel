@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "Qubo ON!",
+    "offer": "none",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "ai_or_stock",
+    "concept_id": null,
+    "product": "Qubo Smart Security Cameras (Smart Cam 360)",
+    "one_line": "Night CCTV shows a hooded thief at a car; a red box tracks him, a light floods the drive and 'Qubo ON! Chor GONE!' appears.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

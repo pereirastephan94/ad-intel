@@ -173,3 +173,12 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 5. **Hook:** a claim that sets up a story ("Weight loss can make you look younger") is `story_open`; a start weight or size as the opener ("108 kg ...") is `problem`; a result as the opener ("He lost 25 kg in 90 days") is `number_claim`.
 6. **Offer when sources differ:** the video itself wins (speech, then end card), then the headline, then the ad text. Put the others in `offer_also`.
 7. **Results claims:** always record the kilos, the timeframe and what the small print says a typical user loses, in `one_line` or the breakdown. The gap between the headline result and the small print is a finding.
+
+## Rulings from review 7 (23 Nov 2026, after Qubo)
+- Feature or slogan headline as the opening ("Colour Night Vision", "Fingerprint is the new key"): hook `callout`. Testimonial or skit that opens on a story: `story_open`; on a rating or count: `social_proof`.
+- Silent video: fill the Script table and `hook_text` from on-screen text, and say so. A machine transcript that does not fit the pictures is ignored and noted.
+- Offer taken from the ad text or link description when the video has none; a flat price only in the ad text is `price_from`; a feature called "free" (built-in software) is not an offer: `none`, noted in prose.
+- A person the ad text names but no frame or caption ties to the face: tag `celebrity_named`, never name them in prose from the face. A possibly famous unlabelled person: `actor_model`, flag unsure.
+- CCTV or found footage of strangers (intruders, road clips): row V4 (scene, no presenter).
+- The same footage reused in different edits is not a `script_twin`; note the overlap in prose.
+- `music_bed_guess`: report the measured level beside the guess when they disagree.

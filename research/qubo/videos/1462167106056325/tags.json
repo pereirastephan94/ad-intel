@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Hello, hey man, I'm five minutes away.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo Smart Video Doorbell Pro",
+    "one_line": "A skit: a friend keeps phoning instead of ringing the bell, then the owner reveals the doorbell rings as a video call on his phone.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "ROAD FAILS",
+    "offer": "none",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "english",
+    "production": "ai_or_stock",
+    "concept_id": null,
+    "product": "Qubo Dashcam (3K front and rear)",
+    "one_line": "Road-incident dashcam clips under 'Expect the Unexpected on Indian Roads', ending on the Qubo Dashcam and an 'India's #1' badge.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

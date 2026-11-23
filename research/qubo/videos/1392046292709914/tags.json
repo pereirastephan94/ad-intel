@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Aapke ghar ke bade se living space ke liye air purifier chahiye, toh kam se kam teen air purifier lagenge, kyunki bada area hai.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Qubo Q1000 air purifier, 19,900 spoken",
+    "one_line": "A presenter argues one Qubo Q1000 purifier, around 1000 sq ft, beats buying three units, shows the app, and names the price as 19,900.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

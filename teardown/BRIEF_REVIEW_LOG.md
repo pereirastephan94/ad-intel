@@ -31,3 +31,7 @@ Read: 1113897927910622 header, verdict section and tags; the bot's report on all
 ## Review 6 (20 Nov 2026): Fitelo batch A (about the 75th write-up)
 - Read the bot's report. It caught: headline results of 25 to 38 kg against small print of "2-3 kg in 4 weeks"; one photo used for two different named results; "10X cashback" spoken over cheque props reading "100% cashback"; an offer "valid till 31st October" on ads still running on 20 November; "25 parameters" spoken over a screenshot saying 18+.
 - Gaps: photo slideshows (V2 or V4), mixed presenter and montage, page category mistaken for a creator credit, which source sets the offer. Ruled in "Rulings from review 6".
+
+## Review 7 (23 Nov 2026): Qubo, 23 videos and 12 images
+- Bots caught: lock warranty "3 Years" against "2+ Years"; "AI Guard built in free" over an "Upgrade" screen; "2K to 4K" over a 2K landing page; unsourced "India's #1 brand of dashcams"; Q1000 app screens on a Q200 landing page; "*T&C AApply" small print; possible third-party footage watermarks.
+- Gaps: slogan hooks, silent videos, ad-text offers, named-but-unlinked presenters, CCTV footage row, reused footage. Ruled in "Rulings from review 7".

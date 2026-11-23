@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So, recently I got the Qubo Video Doorbell Pro and it's honestly a game changer.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo Video Doorbell Pro, INR 5990",
+    "one_line": "A woman reviews the Qubo Video Doorbell Pro: it calls her phone, she sees and talks to visitors, and the team installed it easily.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

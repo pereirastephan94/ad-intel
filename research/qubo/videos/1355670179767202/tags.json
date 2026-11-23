@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "number_claim",
+    "hook_text": "40°C, 43°C aur dheere dheere temperature 50°C tak pahunch raha hai.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo Dashcam with supercapacitor",
+    "one_line": "A presenter says lithium-ion dashcams swell in 40 to 50°C heat while the Qubo dashcam's supercapacitor keeps recording, and calls the risk completely zero.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
