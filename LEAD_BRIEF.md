@@ -5,7 +5,8 @@ You are the lead session. Your job is to keep the pipeline moving and report to 
 
 ## COS status (updated 23 Nov 10:15 UTC)
 - Running: rr-pull.sh (restarted 10:12 UTC; it had sat idle 00:50 to 08:12 after a machine restart), scratch = /tmp/claude-0/-home-user-ad-intel/a4bcc5c6-4d1a-5676-b1b0-2dff902eac6b/scratchpad, log sample.log.
-- Running: two Sonnet agents on Qubo write-ups (23 videos, 12 images). Next: Qubo idea pass, then one Opus agent on Atomberg vs Qubo.
+- Running (11:00 UTC): Opus agent on Atomberg vs Qubo; Sonnet agent on Cult.fit's 8 new write-ups; prepare + retranscribe for Mokobara (31 ads), DailyObjects (30), GIVA (57), log prep3.log. CaratLane: no ads yet.
+- Done 23 Nov: Qubo write-ups (23 videos, 12 images), idea pass (31 ideas), TAGGING rulings review 7.
 - Done: SSB vs Mesa page built (rubric 47 of 48). Artifact publish was denied, so it went to the owner as a file: deliverables/ssb-vs-mesa.html. Atomberg idea pass; SSB idea pass; Mesa extras.json; Qubo prepare + retranscribe.
 - Blocked: send_message to the original session (trusted device) and to SSB PG COS2 (denied).
 - Published by COS: none yet. Mesa teardown: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Prompt doc for others: Google Doc "Competitor ad teardown: prompt for Claude".
