@@ -6,23 +6,26 @@
   {
    "media": "all",
    "retry": 3
+  },
+  {
+   "media": "all",
+   "retry": 4
   }
  ],
- "total": null,
+ "total": 63,
  "log": [
   "2026-11-20T02:07:03.073Z view {\"media\":\"all\"} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T02:07:03.078Z stopping after 1 view(s) as asked",
   "2026-11-20T02:07:03.078Z PAUSED: 0 unique ads of ~null",
   "2026-11-20T05:25:09.913Z view {\"media\":\"all\",\"retry\":3} -> 0 ads (window total 0), 0 new, 0 unique of ~null",
   "2026-11-20T05:25:09.914Z stopping after 1 view(s) as asked",
-  "2026-11-20T05:25:09.914Z PAUSED: 0 unique ads of ~null"
+  "2026-11-20T05:25:09.914Z PAUSED: 0 unique ads of ~null",
+  "2026-11-22T23:22:22.889Z view {\"media\":\"all\",\"retry\":4} -> 0 ads (window total 63), 0 new, 0 unique of ~63",
+  "2026-11-22T23:22:22.891Z stopping after 1 view(s) as asked",
+  "2026-11-22T23:22:22.891Z PAUSED: 0 unique ads of ~63"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "all",
-   "retry": 4
-  },
   {
    "media": "video",
    "retry": 3

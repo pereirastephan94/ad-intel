@@ -69,6 +69,72 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Qya hota hai ek job of a smart security camera? Koi yeh nahi hai ki ek crime hua hai, uski aapko footage dekha di. It should actually help detect the threat when it's happening. Phone ek bilkuli alag approach diye. Catch, alert, stop. Qubo ka built-in AI intelligently detect karta hai people and motion. Second, alert. Important situations ke liye aapko phone karega directly aur finally stop pa. Automatically bright spot light on ho jaati hai. Loud alarms can scare the intruder away. AI Guard comes built in free within all Cubo security cameras.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.7,
+    "text": "Qya hota hai ek job of a smart security camera?"
+   },
+   {
+    "start": 2.7,
+    "end": 5.9,
+    "text": "Koi yeh nahi hai ki ek crime hua hai, uski aapko footage dekha di."
+   },
+   {
+    "start": 5.9,
+    "end": 8.4,
+    "text": "It should actually help detect the threat when it's happening."
+   },
+   {
+    "start": 8.4,
+    "end": 10.3,
+    "text": "Phone ek bilkuli alag approach diye."
+   },
+   {
+    "start": 10.3,
+    "end": 12.5,
+    "text": "Catch, alert, stop."
+   },
+   {
+    "start": 12.5,
+    "end": 17.1,
+    "text": "Qubo ka built-in AI intelligently detect karta hai people and motion."
+   },
+   {
+    "start": 17.1,
+    "end": 18.5,
+    "text": "Second, alert."
+   },
+   {
+    "start": 18.5,
+    "end": 21.6,
+    "text": "Important situations ke liye aapko phone karega directly"
+   },
+   {
+    "start": 21.6,
+    "end": 23.4,
+    "text": "aur finally stop pa."
+   },
+   {
+    "start": 23.4,
+    "end": 25.6,
+    "text": "Automatically bright spot light on ho jaati hai."
+   },
+   {
+    "start": 25.6,
+    "end": 28.4,
+    "text": "Loud alarms can scare the intruder away."
+   },
+   {
+    "start": 28.4,
+    "end": 32.6,
+    "text": "AI Guard comes built in free within all Cubo security cameras."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "کی BA transition, K Stop! So you go to built-in AI, Intelligent detect people and motion. Second alert, Portant situations, you will call directly and finally stop automatically bright smoke like on. Now the alarms can start to open. AI Guard comes built in free within all cubo security cameras. Because security isn't just not protecting your home it's also protecting your data. Cubo uses encrypted cloud first storage because if your footage only lives on an SD card then it can be done. If a thief simply takes a camera and takes it out of the camera then the card and all the footage which is going to be taken is a complete range made in India, for Indian homes with Indian customization.",
   "segments": [

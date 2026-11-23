@@ -1,0 +1,159 @@
+{
+ "asset": "2046440422736751",
+ "first_seen_in": "2279621895937402",
+ "duration_s": 35.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 10.2,
+   "why": "scene change"
+  },
+  {
+   "t": 11.1,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 13.8,
+   "why": "scene change"
+  },
+  {
+   "t": 15.3,
+   "why": "scene change"
+  },
+  {
+   "t": 22.2,
+   "why": "scene change"
+  },
+  {
+   "t": 25.5,
+   "why": "scene change"
+  },
+  {
+   "t": 30.9,
+   "why": "scene change"
+  },
+  {
+   "t": 34.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Mokubara's Black Friday say this now, life if you're confused as what to get, he has a suitcase that has been where travel them by any and lately. Because I've been living my life out of a suitcase from last 15 days, one day I'm in Delhi, second day I'm in Agra, third day I'm in Ayodh, then now back to Delhi. This is their transit luggage in large. It has 100 liter of space, two separate compartments with closing zips, so you can clearly segregate everything. It also has a T.S. lock and a beautiful lightweight structure. Plus it has three or warranty, one year free airline damage cover and also 30 days risk free time. Black Friday say this life, go get your hands on Mokubara's finest pieces now.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.7,
+    "text": "Mokubara's Black Friday say this now,"
+   },
+   {
+    "start": 1.7,
+    "end": 3.6,
+    "text": "life if you're confused as what to get,"
+   },
+   {
+    "start": 3.6,
+    "end": 5,
+    "text": "he has a suitcase that has been"
+   },
+   {
+    "start": 5,
+    "end": 6.4,
+    "text": "where travel them by any and lately."
+   },
+   {
+    "start": 6.4,
+    "end": 8.5,
+    "text": "Because I've been living my life out of a suitcase"
+   },
+   {
+    "start": 8.5,
+    "end": 10.4,
+    "text": "from last 15 days, one day I'm in Delhi,"
+   },
+   {
+    "start": 10.4,
+    "end": 12.5,
+    "text": "second day I'm in Agra, third day I'm in Ayodh,"
+   },
+   {
+    "start": 12.5,
+    "end": 13.8,
+    "text": "then now back to Delhi."
+   },
+   {
+    "start": 13.8,
+    "end": 16.1,
+    "text": "This is their transit luggage in large."
+   },
+   {
+    "start": 16.1,
+    "end": 17.7,
+    "text": "It has 100 liter of space,"
+   },
+   {
+    "start": 17.7,
+    "end": 20,
+    "text": "two separate compartments with closing zips,"
+   },
+   {
+    "start": 20,
+    "end": 21.9,
+    "text": "so you can clearly segregate everything."
+   },
+   {
+    "start": 21.9,
+    "end": 25.5,
+    "text": "It also has a T.S. lock and a beautiful lightweight structure."
+   },
+   {
+    "start": 25.5,
+    "end": 27,
+    "text": "Plus it has three or warranty,"
+   },
+   {
+    "start": 27,
+    "end": 30,
+    "text": "one year free airline damage cover and also 30 days"
+   },
+   {
+    "start": 30,
+    "end": 31,
+    "text": "risk free time."
+   },
+   {
+    "start": 31,
+    "end": 32,
+    "text": "Black Friday say this life,"
+   },
+   {
+    "start": 32,
+    "end": 35,
+    "text": "go get your hands on Mokubara's finest pieces now."
+   }
+  ]
+ }
+}

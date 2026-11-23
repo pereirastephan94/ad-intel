@@ -69,6 +69,77 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "40°C, 43°C aur dhire dhire temperature 50°C tak poj ja raha hai. Aise weather mein gadgets ki battery phool jaati hai, kavi-kavi to blast bhi ho jata hai. But you know what's crazy? Qubo dashcam tab bhi non-stop record karta rata hai. Simple si baat hai boss, regular dashcam saste lithium ion battery pe chalte hai. But Qubo dashcam works on super capacitor, jo ek bahot badhiya tech hai and it's way safer and more reliable in extreme Indian heat. Jaha hai gaadi dhook mein khadi ho, ya cabin ikdum oven ban gaya ho. Qubo Dashcam keeps recording smoothly. हां Dashcam की body को touch करोगे तो थोड़ा सा गरम लगेगा क्योकि गरमी में तो गरम body होई जाती है But the risk is completely zero. इसले Qubo Dashcams are actually safe, secure and built for Indian conditions.",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 4.8,
+    "text": "40°C, 43°C aur dhire dhire temperature 50°C tak poj ja raha hai."
+   },
+   {
+    "start": 4.8,
+    "end": 8.9,
+    "text": "Aise weather mein gadgets ki battery phool jaati hai, kavi-kavi to blast bhi ho jata hai."
+   },
+   {
+    "start": 8.9,
+    "end": 12.9,
+    "text": "But you know what's crazy? Qubo dashcam tab bhi non-stop record karta rata hai."
+   },
+   {
+    "start": 12.9,
+    "end": 16.6,
+    "text": "Simple si baat hai boss, regular dashcam saste lithium ion battery pe chalte hai."
+   },
+   {
+    "start": 16.6,
+    "end": 21.1,
+    "text": "But Qubo dashcam works on super capacitor, jo ek bahot badhiya tech hai"
+   },
+   {
+    "start": 21.1,
+    "end": 24.8,
+    "text": "and it's way safer and more reliable in extreme Indian heat."
+   },
+   {
+    "start": 24.8,
+    "end": 28.6,
+    "text": "Jaha hai gaadi dhook mein khadi ho, ya cabin ikdum oven ban gaya ho."
+   },
+   {
+    "start": 28.6,
+    "end": 30.9,
+    "text": "Qubo Dashcam keeps recording smoothly."
+   },
+   {
+    "start": 30.9,
+    "end": 33.4,
+    "text": "हां Dashcam की body को touch करोगे तो थोड़ा सा गरम लगेगा"
+   },
+   {
+    "start": 33.4,
+    "end": 35.7,
+    "text": "क्योकि गरमी में तो गरम body होई जाती है"
+   },
+   {
+    "start": 35.7,
+    "end": 37.6,
+    "text": "But the risk is completely zero."
+   },
+   {
+    "start": 37.6,
+    "end": 40.6,
+    "text": "इसले Qubo Dashcams are actually safe, secure"
+   },
+   {
+    "start": 40.6,
+    "end": 42.5,
+    "text": "and built for Indian conditions."
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "hi",
   "text": "4 Lakh Degree, Theral Degree & Dere Dere Temperature 5 Lakh Degree, Tach Degree, Tach Degree ASS A PEDER ME GASJETS KI BATRIE FULJATI HAYA KABHI KABHI TOP BLAST BIEU LATA BUT YOU KNOW WHAT'S CRAZY? QVW DASH CAM TABHI BEEN NONSTOP RECORD KERTA NETA Simplesy Bath Havos, RIGGLER DASH CAM SISTE LITHIM AND BATRIE PACHALTAI BUT QVW DASH CAM WORKS ON SUPER CAPACITAR JOO EG BOTH BADHIA TECH HAYA AND IT'S WAY SAFER AND MORE RELABLE IN EXPREME IN DIA NEET Jahae, Garde, Dhoompne Khaadi ho Ya Kebhin Ikdham Avan banke hao QVW DASH CAM KEEP SREQUORDING SMOOTH NETA Haan DASH CAM KEEP BODY KOTUCH KALOKE HOTO TO THO' DAS A GARAM LAGGAE BECAUSE HE GARMEEN METTO GARAM BODY HOI JATI HAYA BUT THE RISK IS COMPLITLY ZERO ISLAY QVW DASH CAM SISTE LITHIM AND BILFOR INDIAN CONDITIONS",
   "segments": [

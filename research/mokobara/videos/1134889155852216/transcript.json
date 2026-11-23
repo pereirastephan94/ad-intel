@@ -1,0 +1,57 @@
+{
+ "asset": "1134889155852216",
+ "first_seen_in": "1470837681915878",
+ "duration_s": 8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "ko",
+  "text": "bodies' picture time 숙주avors 방송땐 설정",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8,
+    "text": "bodies' picture time"
+   },
+   {
+    "start": 14,
+    "end": 18.2,
+    "text": "숙주avors"
+   },
+   {
+    "start": 18.2,
+    "end": 21,
+    "text": "방송땐"
+   },
+   {
+    "start": 21,
+    "end": 27.8,
+    "text": "설정"
+   }
+  ]
+ }
+}

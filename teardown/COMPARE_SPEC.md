@@ -366,3 +366,10 @@ Added while building Cult.fit vs Fitelo (a gym and sports pass sold by city agai
 - Lists of ad links wrapped as one unbreakable line (19 links ran the page to 674 px wide). Links now wrap between items, and grid columns may shrink (`.pair > * { min-width: 0 }`).
 - The products table had five columns at 390 px; on phones each product now stacks as a labelled block.
 - Plan chips and the phone verdict are a little smaller so that Stop or fix begins on the 390 x 700 first screen with three Start items.
+
+## Version 4.2 (22 Nov 2026): Scaler School of Business vs Mesa
+Small tool changes made while building this pair; the two earlier pairs rebuild with lint 0 and scrollWidth 390.
+- `compute.py` `idea_names` also reads image-idea ids (`XX-s01`) from concepts.md, so image ideas show their headline instead of "Untitled idea".
+- `build.py` `idea_name` drops quote marks only when the whole name is one quotation; a name such as `"By month 3 at SSB": day one` keeps both marks instead of losing the first.
+- `build.py` uses `lowfirst` instead of `.lower()` on product labels mid-sentence, so acronyms survive ("full-time PGP", not "full-time pgp").
+- Pairs of very different sample size (SSB 30, Mesa 249): say so in the sample rule and the header (`--sample-short`), and read shares, not counts. A programme (product) key may be set per ad from the landing page when one video is sent to two programmes (Mesa's c20 interview runs under Ascend and the full-time PGP).

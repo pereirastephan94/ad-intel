@@ -48,6 +48,7 @@ Script rules: a one-line title the team can repeat (persona-led, member or creat
 6. A "single burst" overcount (28 of 30 in October, when the burst was 20 on two days).
 7. Language counted across media ("14 of 30 in English" mixed image text with video speech); split by medium.
 Found on Cult.fit vs Fitelo: "five scale ideas say ₹999" when one shows no price; "no recurring character" when the rival has a recurring unnamed presenter; "eight places" when the ids gave seven; a method line saying the impressions views failed for both brands when only one was tried.
+Found on SSB vs Mesa: a figure from another video of the rival (its careers lead) inside a reason whose basis is the investor recording; "you have no ad naming seats" when the reader's own film says "the next 100 students"; "three shapes" for three cuts in two shapes. Check every "none of your" against the reader's transcripts, not only its ad text.
 
 ## 7. Build, lint, look
 ```

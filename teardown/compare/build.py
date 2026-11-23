@@ -180,7 +180,8 @@ class Page:
         n = (self.c.get("idea_names") or {}).get(k, {}).get(idea)
         if not n:
             return "Untitled idea"
-        n = n.strip('"')
+        if n.startswith('"') and n.endswith('"') and n.count('"') == 2:   # a name that is one quote: drop the marks
+            n = n[1:-1]
         return re.sub(r"^Static:\s*", "Image ad: ", n)
 
     def plabel(self, key):
@@ -577,7 +578,7 @@ class Page:
                 items.append(f'<div class="op"><div class="whn">{E(self.plabel(key))}: <span class="num">{wh["n"]} ads, '
                              f'{plural(wh["ideas_total"], "idea")}</span></div><div class="small muted">Leans on:</div>'
                              f'{self.idea_card(k, x)}</div>')
-            body = "".join(items) or f'<p class="small">Every sampled ad sells {E((f or {}).get("label", "one product").lower())}.</p>'
+            body = "".join(items) or f'<p class="small">Every sampled ad sells {E(lowfirst((f or {}).get("label", "one product")))}.</p>'
             absent = [e for e in site.get(k, []) if counts[k].get(e["key"], 0) == 0]
             if absent:
                 body += ('<p class="small"><b>On the site but in none of the sampled ads:</b> ' +
@@ -598,8 +599,8 @@ class Page:
                          f'<span class="sumstat">The same map over the whole sample: {E(self.names["A"])} {self.c["meta"]["brands"]["A"]["n"]} ads, '
                          f'{E(self.names["B"])} {self.c["meta"]["brands"]["B"]["n"]}. It mixes products, so read it as context only.</span></summary>'
                          f'<div class="foldbody">{self.map("A", self.c["rows_all"], "all", False)}{self.map("B", self.c["rows_all"], "all", False)}</div></details>')
-        title = f'{f["label"]} against {f["label"].lower()}'
-        lede = (f'Only the ads that sell {E(f["label"].lower())}: {E(self.names["A"])} {b["A"]["n"]} ads ({b["A"]["ideas"]} ideas), '
+        title = f'{f["label"]} against {lowfirst(f["label"])}'
+        lede = (f'Only the ads that sell {E(lowfirst(f["label"]))}: {E(self.names["A"])} {b["A"]["n"]} ads ({b["A"]["ideas"]} ideas), '
                 f'{E(self.names["B"])} {b["B"]["n"]} ({b["B"]["ideas"]} ideas).')
         return self.section("bonds", "Like for like", title, "".join(parts), lede)
 
@@ -724,7 +725,7 @@ class Page:
             for k in ("A", "B"):
                 s = r[k]
                 d = f'median {s["median_days"]:.0f} days live' if s["median_days"] is not None else "no ads"
-                fl = f'{self.flabel().lower()} ' if self.flabel() else ""
+                fl = f'{lowfirst(self.flabel())} ' if self.flabel() else ""
                 if self.nmed(k, r["medium"]) == 0:
                     stat = f'No {fl}{r["medium"]} ads in the sample.'
                     sides.append(f'<div class="side"><h4><span class="sw {k}"></span>{E(self.names[k])}</h4>'
@@ -813,7 +814,7 @@ class Page:
                              + f'. Evidence {r["evidence"]}.</span></li>')
             body = f'<ul class="facts">{"".join(items)}</ul>' if items else '<p>We found no row where you lead.</p>'
             out.append(f'<div class="only-{me}">{body}</div>')
-        scope = f" in {self.flabel().lower()}" if self.flabel() else ""
+        scope = f" in {lowfirst(self.flabel())}" if self.flabel() else ""
         return self.section("lead", "Fair both ways", f"Where you lead{scope}", "".join(out),
                             "The same rules as the gaps: present at 3 ads, a lead at twice the rival's share.")
 
@@ -829,7 +830,7 @@ class Page:
             items.append(f'<li><b>{E(r["label"])}</b> <span class="num">({r["medium"]}): {E(self.names["A"])} {r["A"]["n"]}, '
                          f'{E(self.names["B"])} {r["B"]["n"]}.</span> Neither of you runs it enough to count. Open ground, '
                          f'but with no evidence either way.</li>')
-        scope = f" in {self.flabel().lower()}" if self.flabel() else ""
+        scope = f" in {lowfirst(self.flabel())}" if self.flabel() else ""
         return self.section("stakes", "Context", f"Table stakes and open ground{scope}",
                             f'<ul class="facts">{"".join(items) or "<li>None.</li>"}</ul>')
 
@@ -974,7 +975,7 @@ class Page:
 
     def standouts_section(self):
         rule = ("Rule: for each brand, its two video ideas with the highest leaning score"
-                + (f" among its {self.flabel().lower()} ads" if self.flabel() else "") + " (see What they lean on)."
+                + (f" among its {lowfirst(self.flabel())} ads" if self.flabel() else "") + " (see What they lean on)."
                 if self.c.get("lean") else
                 "Rule: for each brand, its two rows where its share is furthest above the other brand's "
                 "(at least one video row when it has one), and in each row the idea with the most days live, ties broken by versions.")
@@ -1007,7 +1008,7 @@ class Page:
         if s.get("score") is not None:
             a = self.ad(s["ad_id"])
             g = self.lean_group(k, "idea", s["idea"]) or {}
-            scope = f' {self.flabel().lower()}' if self.flabel() else ""
+            scope = f' {lowfirst(self.flabel())}' if self.flabel() else ""
             return (f'{"Its highest" if i == 0 else "Its second highest"}-scoring{scope} video idea by leaning score ({s["score"]}): '
                     f'{plural(g.get("n", 1), "ad")}, {plural(g.get("versions", a["versions"]), "version")}, longest {g.get("longest_days", a["days"])} days live.')
         r = self.rows[s["row"]]

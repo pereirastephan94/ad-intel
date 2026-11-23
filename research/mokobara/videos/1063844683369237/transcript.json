@@ -1,0 +1,79 @@
+{
+ "asset": "1063844683369237",
+ "first_seen_in": "1124103903331394",
+ "duration_s": 21.9,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.7,
+   "why": "scene change"
+  },
+  {
+   "t": 8.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.2,
+   "why": "scene change"
+  },
+  {
+   "t": 11.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.6,
+   "why": "scene change"
+  },
+  {
+   "t": 21.6,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "nn",
+  "text": "PELACITY FANTASIạ",
+  "segments": [
+   {
+    "start": 1,
+    "end": 11,
+    "text": "PELACITY"
+   },
+   {
+    "start": 15.9,
+    "end": 27.4,
+    "text": "FANTASIạ"
+   }
+  ]
+ }
+}

@@ -273,12 +273,12 @@ def frames_for(rdir, ad):
 
 
 def idea_names(rdir):
-    """Short names per idea from the table in research/<brand>/concepts.md (| XX-c01 | Short name | ...)."""
+    """Short names per idea from the tables in research/<brand>/concepts.md (| XX-c01 | Short name | ...; image ideas XX-s01)."""
     out = {}
     p = Path(rdir) / "concepts.md"
     if p.exists():
         for line in p.read_text().splitlines():
-            m = re.match(r"^\|\s*([A-Za-z]+-c\d+)\s*\|\s*(.*?)\s*\|", line)
+            m = re.match(r"^\|\s*([A-Za-z]+-[cs]\d+)\s*\|\s*(.*?)\s*\|", line)
             if m:
                 out[m.group(1)] = m.group(2)
     return out
