@@ -1,0 +1,142 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "Smart door locks",
+        13
+      ],
+      [
+        "Smart security cameras",
+        10
+      ],
+      [
+        "Smart air purifiers",
+        9
+      ],
+      [
+        "Dashcams",
+        6
+      ],
+      [
+        "Video doorbell Pro",
+        3
+      ],
+      [
+        "Security bundle (cameras and doorbell)",
+        1
+      ]
+    ],
+    "note": "Thirteen of 42 ads sell smart door locks, ten sell security cameras, nine sell air purifiers, six sell dashcams, three sell the video doorbell and one sells a camera and doorbell bundle; five ads show or state a price."
+  },
+  "series": [
+    {
+      "name": "Don't buy X reverse-psychology lists",
+      "ads": [
+        "1074296351695746",
+        "914360977729905",
+        "1397233215855053"
+      ],
+      "note": "Four ads in which a man sarcastically lists three reasons not to buy a camera, a dashcam or a purifier; started 2026-06-19 to 2026-09-22 and have run 59 to 154 days."
+    },
+    {
+      "name": "India's #1 brand of dashcams end line",
+      "ads": [
+        "914360977729905",
+        "1695379508422011",
+        "1697443892164420"
+      ],
+      "note": "All six dashcam ads end on the same rank line, with no source or year; four are presenters and two are silent road clips."
+    },
+    {
+      "name": "Doesn't just record. It protects.",
+      "ads": [
+        "1140748798813160",
+        "38686071964341789",
+        "1700224211606846"
+      ],
+      "note": "Six camera ads, from 3 to 108 days live, use the line in an end card, headline or ad text; two reuse one night parking clip under different hooks."
+    },
+    {
+      "name": "November doorbell pair",
+      "ads": [
+        "1785722476024970",
+        "952919071005083"
+      ],
+      "note": "Two Video Doorbell Pro ads started on 2026-11-11 share an ad text line about a 4.5 rating and free installation in 70+ cities that neither video shows."
+    },
+    {
+      "name": "Q1000 living-room pair",
+      "ads": [
+        "1120606077408108",
+        "1158325139855724"
+      ],
+      "note": "Two Q1000 presenter ads started on 2026-10-27 share one headline and ad text over two different scripts."
+    },
+    {
+      "name": "Purifier winter push",
+      "ads": [
+        "1859211195067641",
+        "3010177869346117",
+        "1092309843401119"
+      ],
+      "note": "Six purifier ads with the See details button and one collection page, started 2026-10-16 to 2026-11-03; five run the smoke demo."
+    },
+    {
+      "name": "Lock catalogue placeholders",
+      "ads": [
+        "1795297537743787",
+        "972112558410325",
+        "1514583869585266"
+      ],
+      "note": "Eleven catalogue ads with unfilled brand text, ten for smart locks and one for cameras, have run 373 to 605 days."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "The lock card says 3 Years Warranty with no asterisk in one pair of ads and 2+ Years Warranty with starred free installation and unstated terms in another.",
+      "ads": [
+        "1795297537743787",
+        "1401638150930044",
+        "2040285316467019",
+        "972112558410325"
+      ]
+    },
+    {
+      "text": "The Q1000 is about 1000 sq ft in a caption and the ad text, 600 m3 per hour and 19,900 only by voice, with a blurred CADR in the sister ad and an app PM2.5 reading that differs from the unit display.",
+      "ads": [
+        "1158325139855724",
+        "1120606077408108"
+      ]
+    },
+    {
+      "text": "The dashcam ads name 2K to 4K, front 2K and back HD, 2K + 1080P and a 3K model across three landing pages, with a 6,490 deal that has no end date and a heat risk called completely zero.",
+      "ads": [
+        "1695379508422011",
+        "1068646366168711",
+        "1355670179767202"
+      ]
+    },
+    {
+      "text": "One camera clip shows an outdoor bullet camera while the end card and landing page sell an indoor Smart Cam 360, and two ads with the same text land on different camera pages.",
+      "ads": [
+        "1700224211606846",
+        "2527855497635177",
+        "1471404401411436"
+      ]
+    },
+    {
+      "text": "The AI Guard feature is said to be built in free while the app frame reads AI Guard Pro Current Plan with an Upgrade button.",
+      "ads": [
+        "1140748798813160"
+      ]
+    },
+    {
+      "text": "The doorbell ads give a 4.5 rating from 700+ customers and free installation in 70+ cities, or a lowest price of INR 5990, only in text that no video shows.",
+      "ads": [
+        "1785722476024970",
+        "952919071005083",
+        "1828691691913803"
+      ]
+    }
+  ]
+}
