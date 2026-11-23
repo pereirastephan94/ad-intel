@@ -3,18 +3,22 @@
     "items": [
       [
         "cultpass ELITE gym pass",
-        14
+        41
       ],
       [
-        "Cult gym and group workouts, two free classes",
-        8
+        "Cult gym and group workouts, no pass named",
+        10
       ],
       [
         "cultpass PLAY sports pass",
         8
+      ],
+      [
+        "Not yet written up",
+        1
       ]
     ],
-    "note": "Fourteen of 30 ads sell the ELITE gym pass, and eight sell the PLAY sports pass; the other eight sell Cult gym and classes with no pass named."
+    "note": "Forty-one of 60 ads sell the ELITE gym pass and eight sell the PLAY sports pass; ten sell Cult gym and group classes with no pass named, and one ad (1891868971786839) has no video write-up yet."
   },
   "series": [
     {
@@ -24,16 +28,16 @@
         "2958662064496104",
         "1950951139220699"
       ],
-      "note": "A silent six-second astronaut and rupee coin card carries all nine sale ads, with the starting price changing between ₹1,104, ₹1,145 and ₹1,162."
+      "note": "A silent six-second astronaut and rupee coin card carries all nine sale ads, which started on 16 or 17 November, with the starting price changing between ₹1,104, ₹1,145 and ₹1,162."
     },
     {
       "name": "Break-up gag, same answer each time",
       "ads": [
         "1644460903932522",
         "1763133728096239",
-        "1182726674293191"
+        "1533712601774060"
       ],
-      "note": "One man reacts to four life events and says 'chalo cult chalte hai' each time; the same clip runs under four different centres."
+      "note": "One man reacts to four life events and says 'chalo cult chalte hai' each time; the same clip runs in six ads: four under different centres and two September 'For Every Moment' ads with no centre."
     },
     {
       "name": "One film, a new city and price each time",
@@ -43,6 +47,33 @@
         "28835523932756470"
       ],
       "note": "The same gym films are re-sent with a new centre in the text and a new price on the end card."
+    },
+    {
+      "name": "September app-link run, no price",
+      "ads": [
+        "1088713540807221",
+        "1018165951266899",
+        "1736977457415163"
+      ],
+      "note": "Twenty-nine ads (c03 2, c06 7, c07 3, c08 4, c10 10, c11 1, c12 1, plus one not written up) send to one app link with 'Learn more', 'Download' or 'See details'; 28 started 8 to 25 September, one on 30 October, and none shows a price."
+    },
+    {
+      "name": "Catalogue placeholder text",
+      "ads": [
+        "1091108850133335",
+        "1630996375334902",
+        "1088713540807221"
+      ],
+      "note": "Sixteen ads (c03 1, c06 6, c10 9) carry '{{product.name}} | {{product.brand}}' as headline and text, so only the creative can be read."
+    },
+    {
+      "name": "Many formats, never bored",
+      "ads": [
+        "1736977457415163",
+        "1539942324830414",
+        "1644316817619217"
+      ],
+      "note": "Seven ideas lean on class variety (c01, c07, c08, c10, c11, c12 and the c02 text): a trainer explainer with 3 ads, a train-anywhere voiceover with 4, a workout-picker teaser with 10, and single ads for a first-timer mother and a man who changed the room; each has its own script."
     }
   ],
   "contradictions": [
@@ -82,6 +113,41 @@
       "ads": [
         "1763133728096239",
         "1182726674293191"
+      ]
+    },
+    {
+      "text": "Same gag film, no promise: the two 'For Every Moment' ads show no trial and no price, while the centre ads over the same film say 'Claim your FREE GYM TRIAL' or 'Lowest Prices on cultpass'.",
+      "ads": [
+        "1533712601774060",
+        "1644460903932522",
+        "1763133728096239"
+      ]
+    },
+    {
+      "text": "Formats promised against shown: the trainer explainer's text shows boxing and yoga emoji but the voice names Burn, HRX and strength, and the train-anywhere text says multiple formats over cardio and calisthenics only.",
+      "ads": [
+        "1736977457415163",
+        "1539942324830414"
+      ]
+    },
+    {
+      "text": "Install button against the pass: the group-class jokes end on 'Get cultpass ELITE' but the button is 'Install now' to a Play Store page.",
+      "ads": [
+        "1141867424988014"
+      ]
+    },
+    {
+      "text": "Transformation without figures: the trek montage says 'I gained muscle & lost fat' and 'Conquered the Bali pass' with no kilos or dates, and its text says 'him' where the captions say 'I'.",
+      "ads": [
+        "1018165951266899"
+      ]
+    },
+    {
+      "text": "'Best prices' with no price: every ELITE end card in the September run says 'Best prices' or 'Bonus offers' and no figure appears, while the October and November ads show ₹1,099 to ₹1,291.",
+      "ads": [
+        "1736977457415163",
+        "1088713540807221",
+        "1018165951266899"
       ]
     }
   ]

@@ -69,6 +69,42 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Yeh ek Hinglish ad hai, Roman script mein likha hua. DailyObjects phone cases, bags, desk accessories App download karo, aaj hi invest karo, best offer, kya aap jaante ho? DailyObjects phone cases, bags, desk accessories App download karo, aaj hi invest karo, best offer, kya aap jaante ho? DailyObjects phone cases, bags, desk accessories",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "Yeh ek Hinglish ad hai, Roman script mein likha hua."
+   },
+   {
+    "start": 2.0,
+    "end": 4.0,
+    "text": "DailyObjects phone cases, bags, desk accessories"
+   },
+   {
+    "start": 4.0,
+    "end": 6.0,
+    "text": "App download karo, aaj hi invest karo, best offer, kya aap jaante ho?"
+   },
+   {
+    "start": 6.0,
+    "end": 8.0,
+    "text": "DailyObjects phone cases, bags, desk accessories"
+   },
+   {
+    "start": 8.0,
+    "end": 10.0,
+    "text": "App download karo, aaj hi invest karo, best offer, kya aap jaante ho?"
+   },
+   {
+    "start": 10.0,
+    "end": 12.0,
+    "text": "DailyObjects phone cases, bags, desk accessories"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "nn",
   "text": "1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%",
   "segments": [

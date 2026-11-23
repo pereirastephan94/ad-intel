@@ -57,6 +57,17 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Lintas",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 2.9,
+    "text": "Lintas"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "nn",
   "text": "1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%",
   "segments": [

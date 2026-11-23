@@ -65,6 +65,17 @@
   }
  ],
  "transcript": {
+  "language": "hinglish (roman, second pass)",
+  "text": "Music",
+  "segments": [
+   {
+    "start": 0.0,
+    "end": 14.4,
+    "text": "Music"
+   }
+  ]
+ },
+ "transcript_raw": {
   "language": "ko",
   "text": "bild치 뵙 Rs 3これ gun",
   "segments": [
