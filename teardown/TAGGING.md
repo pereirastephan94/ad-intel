@@ -182,3 +182,4 @@ Stills: app screen in 5 of 8, the man in 2. Row V3 (he is to camera in only 2 st
 - CCTV or found footage of strangers (intruders, road clips): row V4 (scene, no presenter).
 - The same footage reused in different edits is not a `script_twin`; note the overlap in prose.
 - `music_bed_guess`: report the measured level beside the guess when they disagree.
+- (Cult.fit batch, same day) "Best prices", "Bonus offers" or "Exciting deals" with no figure or condition: offer `none`. `ad_text_missing` is true when most of the asset's ads carry placeholder text. Speaker to camera with b-roll cut in: V1 if the speaker holds more than half the run time, else V2.

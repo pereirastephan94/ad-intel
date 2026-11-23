@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook",
+      "production",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

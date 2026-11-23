@@ -1,0 +1,168 @@
+{
+ "labels": {
+  "smart_lock": "Smart door locks",
+  "water_purifier": "Water purifier (Intellon)",
+  "air_purifier": "Air purifiers",
+  "mixer_grinder": "Mixer grinder (Zenova)",
+  "ceiling_fan": "Ceiling fans",
+  "pedestal_fan": "Pedestal fan",
+  "exhaust_fan": "Exhaust fan",
+  "security_camera": "Security cameras",
+  "dashcam": "Dashcams",
+  "video_doorbell": "Video doorbell",
+  "security_bundle": "Security bundle",
+  "kitchen_other": "Juicers, blenders, other fans",
+  "auto_other": "Car, tracker and lighting lines"
+ },
+ "site": {
+  "fetched": "2026-11-23",
+  "A": [
+   {
+    "key": "smart_lock",
+    "claim": "The SL 1: \"6 Ways Unlocking\", data stored in India, 5 steel bolts, 2 year warranty; ₹14,999 (list ₹25,000), EMI from ₹1,250 a month; free installation in select pincodes. Azhero ₹10,499 and Cypheo Elite ₹29,999 also listed",
+    "url": "https://atomberg.com/products/atomberg-smart-lock-key-free-locks-care-free-lifestyle"
+   },
+   {
+    "key": "water_purifier",
+    "claim": "The Intellon, \"India's 1st Adaptive Water Purifier*\" (for home and domestic use), 2-year \"No Service Cost\" warranty, \"Up to ₹25,000 in 8 years\" saving; ₹18,999 (list ₹27,999)",
+    "url": "https://atomberg.com/products/intellon-waterpurifier"
+   },
+   {
+    "key": "mixer_grinder",
+    "claim": "The Zenova: \"Unique Coarse Mode for Silbatta-like Texture\", BLDC motor, 4 jars with chopper, 2+1 year warranty; ₹7,399 (list ₹11,999)",
+    "url": "https://atomberg.com/products/atomberg-zenova-mixer-grinder-with-coarse-mode"
+   },
+   {
+    "key": "ceiling_fan",
+    "claim": "\"Save Up to 65% on Electricity\"; the Renesa Halo \"Saves Up To ₹ 1500/Year\"; Aris Contour smart fan ₹7,099, Renesa Halo from ₹4,099",
+    "url": "https://atomberg.com/collections/atomberg-ceiling-fans"
+   },
+   {
+    "key": "pedestal_fan",
+    "claim": "The Renesa pedestal fan: \"up to 65% less energy compared to regular fans\", 35 W, 1500 RPM, remote; ₹3,699. No ₹400 saving on the page",
+    "url": "https://atomberg.com/collections/pedestal-fans"
+   },
+   {
+    "key": "exhaust_fan",
+    "claim": "The Studio exhaust fan, \"Say goodbye to fumes and odours\"; ₹1,799",
+    "url": "https://atomberg.com/collections/exhaust-fans"
+   },
+   {
+    "key": "kitchen_other",
+    "claim": "Juicers, blenders, the Yulia and Tavi mixer grinders, wall, table and personal fans",
+    "url": "https://atomberg.com/"
+   }
+  ],
+  "B": [
+   {
+    "key": "smart_lock",
+    "claim": "Five locks from ₹7,990 (Optima) to ₹19,990 (Ultra Wi-Fi); \"7 Ways to Unlock\", \"Free Installation in 60+ cities\", \"Trusted by 1,00,000+ LOCK USERS\"; Select ₹13,990 with a 2 year warranty, Nova 3 years",
+    "url": "https://www.quboworld.com/collections/smart-door-locks"
+   },
+   {
+    "key": "security_camera",
+    "claim": "\"Built to Protect, Not Just Record\"; Smart Cam 360 3MP ₹2,890, Bullet Cam Pro 4MP ₹3,990; AI Guard features \"Needs an active AI Guard plan\", AI Guard Pro ₹1,490",
+    "url": "https://www.quboworld.com/collections/smart-security-cameras"
+   },
+   {
+    "key": "air_purifier",
+    "claim": "Ten models from 200 to 1000 sq ft; Q1000 \"1000 sq. ft. coverage area and 600 m3/h CADR\", ₹19,990, 1 year warranty; Q200 ₹6,990",
+    "url": "https://www.quboworld.com/products/q1000-smart-air-purifier"
+   },
+   {
+    "key": "dashcam",
+    "claim": "\"India's #1 Brand of Dashcams\", no source; Pro 2K front and rear ₹6,990, Pro 3K ₹12,990, 3-Channel Trio ₹10,990",
+    "url": "https://www.quboworld.com/collections/dashcams"
+   },
+   {
+    "key": "video_doorbell",
+    "claim": "Video Doorbell Pro 2K, ₹8,990, \"Free Home Installation in 70+ cities\", 4.5 from 704 reviews, 1 year warranty",
+    "url": "https://www.quboworld.com/products/smart-video-doorbell-pro"
+   },
+   {
+    "key": "security_bundle",
+    "claim": "Camera and doorbell bundles that include an AI Guard plan; no single bundle price read",
+    "url": "https://www.quboworld.com/pages/security-bundles"
+   },
+   {
+    "key": "auto_other",
+    "claim": "Tyre inflators, jump starters, car air purifiers, GPS trackers, smart bulbs and plugs, power banks",
+    "url": "https://www.quboworld.com/"
+   }
+  ]
+ },
+ "ads": {
+  "1024253483886747": "mixer_grinder",
+  "985790447890966": "water_purifier",
+  "1984592862185202": "mixer_grinder",
+  "1820644579124274": "water_purifier",
+  "28024802573817859": "mixer_grinder",
+  "2386372728528714": "mixer_grinder",
+  "28649458564750381": "water_purifier",
+  "1985720855406501": "mixer_grinder",
+  "903369339373221": "ceiling_fan",
+  "2607900756305385": "smart_lock",
+  "1847305846649162": "smart_lock",
+  "1322308182660958": "ceiling_fan",
+  "2233034374286141": "mixer_grinder",
+  "1448549386633875": "ceiling_fan",
+  "1771966834102683": "ceiling_fan",
+  "1753637709267652": "water_purifier",
+  "1769808607610025": "water_purifier",
+  "794075307105430": "water_purifier",
+  "1707854647238748": "ceiling_fan",
+  "1100991832415673": "water_purifier",
+  "1090290693943316": "pedestal_fan",
+  "2196136394504676": "exhaust_fan",
+  "1042770985156535": "mixer_grinder",
+  "1087130470664197": "pedestal_fan",
+  "1976667336337869": "mixer_grinder",
+  "1821826982190361": "ceiling_fan",
+  "962040276504976": "water_purifier",
+  "981664110853974": "water_purifier",
+  "1324690546431376": "pedestal_fan",
+  "1393478602160610": "water_purifier",
+  "1859211195067641": "air_purifier",
+  "3010177869346117": "air_purifier",
+  "2326755088112721": "air_purifier",
+  "1688019089779159": "air_purifier",
+  "1092309843401119": "air_purifier",
+  "1128142260039107": "air_purifier",
+  "1099609059623709": "security_bundle",
+  "1795297537743787": "smart_lock",
+  "1401638150930044": "smart_lock",
+  "972112558410325": "smart_lock",
+  "1088717086222561": "security_camera",
+  "1146227830992511": "smart_lock",
+  "1185700196857594": "smart_lock",
+  "1695379508422011": "dashcam",
+  "1180214570703089": "smart_lock",
+  "1154658286222128": "smart_lock",
+  "1120606077408108": "air_purifier",
+  "1397233215855053": "air_purifier",
+  "2040285316467019": "smart_lock",
+  "1789087895202463": "smart_lock",
+  "1514583869585266": "smart_lock",
+  "1011962618598558": "smart_lock",
+  "3319211058286132": "smart_lock",
+  "1074296351695746": "security_camera",
+  "2155291762071003": "security_camera",
+  "1577327634142497": "security_camera",
+  "1828691691913803": "video_doorbell",
+  "914360977729905": "dashcam",
+  "1785722476024970": "video_doorbell",
+  "38686071964341789": "security_camera",
+  "1503675450757339": "smart_lock",
+  "1158325139855724": "air_purifier",
+  "2527855497635177": "security_camera",
+  "952919071005083": "video_doorbell",
+  "1700224211606846": "security_camera",
+  "1140748798813160": "security_camera",
+  "3003013503374014": "security_camera",
+  "1471404401411436": "security_camera",
+  "1068646366168711": "dashcam",
+  "1697443892164420": "dashcam",
+  "1457136399076624": "dashcam",
+  "1669828470973849": "dashcam"
+ }
+}

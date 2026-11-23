@@ -1,0 +1,13 @@
+{
+ "security_bundle": ["bundle"],
+ "video_doorbell": ["doorbell"],
+ "dashcam": ["dashcam", "dashcams"],
+ "security_camera": ["camera", "cameras"],
+ "smart_lock": ["smart lock", "door lock", "door locks", "lock", "locks"],
+ "water_purifier": ["intellon", "water purifier", "ro purifier"],
+ "air_purifier": ["air purifier", "air purifiers", "q1000"],
+ "mixer_grinder": ["mixer", "zenova"],
+ "pedestal_fan": ["pedestal"],
+ "exhaust_fan": ["exhaust"],
+ "ceiling_fan": ["ceiling fan"]
+}

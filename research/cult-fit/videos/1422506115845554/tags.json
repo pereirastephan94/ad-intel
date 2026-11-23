@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Cult group formats (Burn, HRX, strength), cultpass ELITE",
+    "one_line": "A man in a gym explains three class formats that break a boring routine, then an end card says best prices on cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "angle",
+      "production",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

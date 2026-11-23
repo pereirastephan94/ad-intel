@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Okay, quick confession.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Cult group workouts",
+    "one_line": "A man who trains says he changed the room, not the workout, and that a group class pushes him harder; he asks viewers to sign up.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

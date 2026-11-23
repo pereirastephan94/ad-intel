@@ -26,6 +26,7 @@ Rules are in ../COMPARE_SPEC.md; keep the two in step.
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
 import re
 import statistics
@@ -53,6 +54,8 @@ SMALL_BASE = 10      # a medium total under this on either side caps evidence at
 LEAN_DAYS = 30       # leaning score: one point per this many days of the longest-running ad
 LEAN_RECUT = 2       # leaning score: points per extra product or city an idea or series is re-cut for
 WORKHORSES = 5       # ideas listed per brand
+CLUSTER_GAP = 3      # start-date clusters: a gap of more than this many days starts a new cluster
+CLUSTER_MIN = 3      # start-date clusters: ads needed for a run of start dates to count
 SAMPLE_RULE = ("Per brand, three Ad Library views, each sorted by the Library's total impressions, high to low: "
                "all ads, video only and image only, about 30 each, overlapping. The sample is the ads the Library "
                "ranks highest by impressions, with video and image each guaranteed a look.")
@@ -376,6 +379,34 @@ def standouts(key, other, rows, ads, rdir, k=2):
     return out
 
 
+def creatives_of(ads, rdir):
+    """Distinct creatives behind the sampled ads: video assets, and image files told apart by their bytes."""
+    imgs = set()
+    for a in ads.values():
+        if a["medium"] == "image" and a["still"]:
+            imgs.add(hashlib.md5((Path(rdir) / a["still"]).read_bytes()).hexdigest())
+    nv = sum(1 for a in ads.values() if a["medium"] == "video")
+    return {"ads": len(ads), "versions": sum(int(a["versions"] or 1) for a in ads.values()),
+            "video_ads": nv, "videos": len({a["asset"] for a in ads.values() if a["asset"]}),
+            "image_ads": len(ads) - nv, "images": len(imgs)}
+
+
+def start_clusters(ads):
+    """Runs of start dates with no gap over CLUSTER_GAP days, holding CLUSTER_MIN or more ads."""
+    dated = sorted((a["start_date"], l) for l, a in ads.items() if a["start_date"])
+    runs, cur = [], []
+    for d, l in dated:
+        if cur and (dt.date.fromisoformat(d) - dt.date.fromisoformat(cur[-1][0])).days > CLUSTER_GAP:
+            runs.append(cur)
+            cur = []
+        cur.append((d, l))
+    if cur:
+        runs.append(cur)
+    return [{"from": r[0][0], "to": r[-1][0], "n": len(r), "ad_ids": [l for _, l in r],
+             "products": dict(Counter(ads[l]["product_key"] or "unclear" for _, l in r).most_common())}
+            for r in runs if len(r) >= CLUSTER_MIN]
+
+
 def snapshot_of(ads):
     c = Counter()
     for a in ads.values():
@@ -565,6 +596,9 @@ def main():
         "table_stakes": [r["id"] for r in rows if r["status"] == "even"],
         "now": now,
         "launches": launches,
+        "creatives": {k: creatives_of(brands[k], d) for k, d in (("A", args.dir_a), ("B", args.dir_b))},
+        "clusters": {k: start_clusters(brands[k]) for k in ("A", "B")},
+        "cluster_rule": {"gap_days": CLUSTER_GAP, "min_ads": CLUSTER_MIN},
         "breakdowns": breakdowns,
         "pacing": {k: pacing(brands[k], uv[k]) for k in ("A", "B")},
         "standouts": {

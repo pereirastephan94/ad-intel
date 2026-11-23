@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "It's more than 8 am, coffee thandi ho chuki hai, me time ka level mere minus mein jaa chuka hai.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Cult group workouts, strength plus class",
+    "one_line": "A busy mother says she wants real strength, tries a strength plus group class, and tells viewers one membership gives many formats and to just come as you are.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

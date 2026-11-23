@@ -868,10 +868,35 @@ class Page:
         parts.append(f'<div class="chart" style="margin-top:18px"><h3>When the sampled ads started</h3>'
                      f'<p class="sub">{sub}</p>'
                      f'{self.legend()}{"".join(rows)}</div>')
+        parts.append(self.creatives_and_clusters())
         return self.section("now", "Now vs always", "What is new, and what has stayed", "".join(parts),
                             "Ads launched recently that already made a sample ranked by lifetime impressions are carrying real weight." if self.by_impr
                             else "Ads launched in the last 30 days, and the months the rest started. This sample is the Library's default order, "
                                  "so a recent ad here shows what the brand runs now, not what it pays most for.")
+
+    def creatives_and_clusters(self):
+        """Distinct videos and images against ads and versions, and start-date clusters, per brand (when computed)."""
+        cr, cl, rule = self.c.get("creatives"), self.c.get("clusters"), self.c.get("cluster_rule")
+        if not cr or not cl:
+            return ""
+        out = []
+        for k in ("A", "B"):
+            x = cr[k]
+            made = [plural(x["videos"], "distinct video")] + ([plural(x["images"], "distinct image")] if x["image_ads"] else [])
+            sent = (f'{plural(x["video_ads"], "video ad")}' + (f', {plural(x["image_ads"], "image ad")}' if x["image_ads"] else ""))
+            lines = [f'<p class="small num"><b>Made against sent.</b> {" and ".join(made)} behind {plural(x["ads"], "ad")} '
+                     f'({sent}) and {x["versions"]} versions.</p>']
+            items = "".join(
+                f'<li class="small num">{fmt_date(c["from"], short=True)}'
+                f'{" to " + fmt_date(c["to"], short=True) if c["to"] != c["from"] else ""}: {plural(c["n"], "ad")} '
+                f'({E(", ".join(f"{lowfirst(self.plabel(p))} {v}" for p, v in c["products"].items()))})'
+                f'{self.ad_links(c["ad_ids"])}</li>' for c in cl[k])
+            lines.append(f'<ul class="clusters">{items}</ul>' if items else '<p class="small muted">No cluster.</p>')
+            out.append(f'<div><h3><span class="sw {k}"></span> {E(self.names[k])}</h3>{"".join(lines)}</div>')
+        return (f'<div class="chart" style="margin-top:18px"><h3>Ads against what was made, and when they started together</h3>'
+                f'<p class="sub">Versions are the Library\'s count of ads sharing one creative. A start-date cluster is '
+                f'{rule["min_ads"]} or more sampled ads whose start dates follow each other with gaps of {rule["gap_days"]} days or less.</p>'
+                f'<div class="pair">{"".join(out)}</div></div>')
 
     def legend(self):
         return (f'<div class="legend"><span><i class="sw A"></i>{E(self.names["A"])}</span>'
@@ -1140,7 +1165,7 @@ class Page:
             return "\n".join(body)
         if self.c.get("focus"):
             body = [self.first_screen(), self.lean_section(), self.focus_map_section(), self.folds(), self.products_section(),
-                    self.scripts_section(), self.disagree_section(), self.lead_section(), self.stakes_section(), self.now_section(),
+                    self.comparable_section(), self.scripts_section(), self.disagree_section(), self.lead_section(), self.stakes_section(), self.now_section(),
                     self.mix_section(), self.pacing_section(), self.standouts_section(), self.rerun_section(),
                     self.method_section(), self.appendix(),
                     f'<footer class="wrap">Built from the public Meta Ad Library on {fmt_date(self.c["meta"]["snapshot_date"])}. '

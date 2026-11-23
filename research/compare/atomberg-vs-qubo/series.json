@@ -1,0 +1,136 @@
+{
+ "_note": "Series and recurring devices per brand, from research/<brand>/concepts.md and extras.json, every ad id listed. Read by compute.py --series.",
+ "A": [
+  {
+   "name": "Technician and AMC trust (Intellon)",
+   "ads": [
+    "1769808607610025",
+    "1820644579124274",
+    "28649458564750381",
+    "962040276504976"
+   ],
+   "note": "Four Intellon ads built on distrust of RO service visits and bills, all showing the filter-health app; live 14 to 242 days."
+  },
+  {
+   "name": "Zenova regional demo set",
+   "ads": [
+    "1042770985156535",
+    "1976667336337869",
+    "1985720855406501",
+    "2233034374286141",
+    "28024802573817859"
+   ],
+   "note": "Five mixer ads with one headline and one long ad text, started 2 to 10 August 2026; four in Tamil or Telugu, none with a price."
+  },
+  {
+   "name": "Rupee saving line on fans",
+   "ads": [
+    "1087130470664197",
+    "1090290693943316",
+    "1322308182660958",
+    "1324690546431376",
+    "1707854647238748",
+    "903369339373221"
+   ],
+   "note": "Six of the ten fan ads give a saving: ₹1,500 a year on ceiling fans or ₹400 a summer on the pedestal fan, worded differently in speech, card and ad text."
+  },
+  {
+   "name": "Gag box, then the real product",
+   "ads": [
+    "1024253483886747",
+    "985790447890966"
+   ],
+   "note": "A fake product box is pitched as a joke (AutoMatka for the purifier, AutoSilbatta for the mixer) before the real Atomberg product appears."
+  }
+ ],
+ "B": [
+  {
+   "name": "Doesn't just record. It protects.",
+   "ads": [
+    "1140748798813160",
+    "1471404401411436",
+    "1700224211606846",
+    "2527855497635177",
+    "3003013503374014",
+    "38686071964341789"
+   ],
+   "note": "Six camera ads use the line in an end card, headline or ad text; two reuse one night parking clip under different hooks."
+  },
+  {
+   "name": "Smart lock catalogue cards",
+   "ads": [
+    "1146227830992511",
+    "1154658286222128",
+    "1180214570703089",
+    "1185700196857594",
+    "1401638150930044",
+    "1503675450757339",
+    "1514583869585266",
+    "1795297537743787",
+    "2040285316467019",
+    "972112558410325"
+   ],
+   "note": "Ten lock ads from the product catalogue with an unfilled brand field and a Hero Group headline, live 373 to 605 days."
+  },
+  {
+   "name": "Don't buy X reverse-psychology lists",
+   "ads": [
+    "1074296351695746",
+    "1397233215855053",
+    "2155291762071003",
+    "914360977729905"
+   ],
+   "note": "A man sarcastically lists three reasons not to buy a camera, a dashcam or a purifier, in Hinglish; live 59 to 154 days."
+  },
+  {
+   "name": "India's #1 brand of dashcams end line",
+   "ads": [
+    "1068646366168711",
+    "1457136399076624",
+    "1669828470973849",
+    "1695379508422011",
+    "1697443892164420",
+    "914360977729905"
+   ],
+   "note": "All six dashcam ads end on the same rank line, with no source or year; four are presenters, two silent road clips."
+  },
+  {
+   "name": "Purifier winter push",
+   "ads": [
+    "1092309843401119",
+    "1128142260039107",
+    "1688019089779159",
+    "1859211195067641",
+    "2326755088112721",
+    "3010177869346117"
+   ],
+   "note": "Six purifier ads with the See details button and one collection page, started 16 October to 3 November 2026; five run the smoke demo."
+  },
+  {
+   "name": "October 2026 lock and camera images",
+   "ads": [
+    "1011962618598558",
+    "1099609059623709",
+    "1577327634142497",
+    "3319211058286132"
+   ],
+   "note": "Four plain image ads started 16 to 21 October 2026, the only image ads outside the catalogue: two lock cards and two camera cards."
+  },
+  {
+   "name": "November doorbell pair",
+   "ads": [
+    "1785722476024970",
+    "952919071005083"
+   ],
+   "note": "Two doorbell ads started 11 November 2026 share a rating and free installation line that neither video shows."
+  },
+  {
+   "name": "Q1000 living-room pair",
+   "ads": [
+    "1120606077408108",
+    "1158325139855724"
+   ],
+   "note": "Two Q1000 presenter ads started 27 October 2026 share one headline and ad text over two different scripts."
+  }
+ ]
+}

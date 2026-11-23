@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Group workout truths: your attendance goes up because your workout friends will notice if you disappear.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Group classes, cultpass ELITE",
+    "one_line": "A deadpan voiceover lists jokes about group classes (friends notice, 45 minutes, sore muscles) over an acted class, then cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "production",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,37 @@
+[
+ {
+  "library_id": "1668887338277124",
+  "link": "https://www.facebook.com/ads/library/?id=1668887338277124",
+  "page_id": "112486528887459",
+  "page_name": "DailyObjects",
+  "is_active": true,
+  "start_date": "2026-11-04",
+  "days_running": 19,
+  "media_type": "VIDEO",
+  "body": "i\u2019ve been using the stack ecosystem by @dailyobjects_official for the longest time now, and i\u2019m never getting bored of it \ud83d\ude19\n\n#ad",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.dailyobjects.com/collection?f=cname~stackecosystem,page~collection",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQNFLOsJEEZYsKFqa4LBklIKS_3ouDX8_2s3g_G9XqmOKukZlQY1kZPpsul2m3SSFBYV1oI8qpUW9V2f23ZHZdrqnyvvndFVVFvAVnJ8rg.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=jg26UFFjxWAQ7kNvwFfEiDM&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDYwNjc4MjM5MzYxNzYxLCJhc3NldF9hZ2VfZGF5cyI6MTksInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozOCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=G_DgyxPKuKIiKfHggWEJEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTPZnTVppEzzq7JcxT3OoXslT7ZAF43bgfvAbb-rCS3CA&oe=6B09C3FF",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/888575551_2357238838014483_13167208218290814_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iKKeuYpcxUAQ7kNvwGRzLo-&_nc_oc=AdriLHjYGOn1ijFAqspltYKu01fFnA5dhyhNGj3UAhJ4MUhzF8-6d1FR5AGgIafIcu8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=G_DgyxPKuKIiKfHggWEJEQ&_nc_ss=7b289&oh=00_AQSPYcvA0eXsKycRgVxI6zFdrzY_Cz8CitJSVTjNJE1hKA&oe=6B09BF39",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "AUDIENCE_NETWORK",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 15
+  },
+  "video_asset": "1460678239361761"
+ }
+]
