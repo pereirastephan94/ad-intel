@@ -21,7 +21,7 @@ Machine text; captions at 8.9 to 21 s do not line up with its timestamps, so tim
 | 23-25.2 | It doesn't just record, it protects. | |
 
 ## First 3 seconds
-0 s: a bearded man in a dark shirt sits at a glass table looking at a phone, no logo. 0.5 to 2 s: yellow news-style cards stack up: "BURGLARS BREAK INTO 3 DWARKA FLATS IN ONE NIGHT, LOOT RS 70 LAKH JEWELLERY FROM GATED", "DOMESTIC HELP STEALS OVER RS 8 LAKH CASH, GOLD FROM NOIDA EMPLOYER'S HOME", "2 MEN POSING AS COPS ROB JEWELLERY WORTH LAKHS FROM BENGALURUHOUSE". 3 s: profile shot, caption "It can happen to anyone". Hook: a stated risk over three crime headlines.
+0 s: a bearded man in a dark shirt sits at a glass table looking at a phone, no logo. 0.5 to 2 s: yellow news-style cards stack up: "BURGLARS BREAK INTO 3 DWARKA FLATS IN ONE NIGHT, LOOT RS 70 LAKH JEWELLERY FROM GATED", "DOMESTIC HELP STEALS OVER RS 8 LAKH CASH, GOLD FROM NOIDA EMPLOYER'S HOME", "2 MEN POSING AS COPS ROB JEWELLERY WORTH LAKHS FROM BENGALURUHOUSE". 3 s: profile shot, caption "It can happen to anyone". Hook: stated risk over crime headlines.
 
 ## Person on screen
 Unnamed and unlabelled; the ad does not say who he is. Man, apparent age 30s, beard, dark hair in a top knot, navy corduroy shirt, cream trousers, white wristband, arm tattoos. Calm; he looks down, away or at his phone, never at the lens, so the voice reads as voiceover.
@@ -51,17 +51,16 @@ Measured by software, not heard, so genre and track cannot be named. 8 cuts in 2
 - Rs 70 lakh, 3 flats, Rs 8 lakh headlines: unsourced and undated.
 - "Qubo AI is on guard and will alert me": no alert screen shown; the app shows only a baby-cam feed.
 - Ad text lists "AI-Powered Person & Motion Detection", "Colored Night Vision", "Complete Control with Qubo App": none visible on screen.
-- Outdoor and indoor cams are shown, but the linked product is one indoor model.
 
 ## Offer and call to action
-No spoken call to action; end card URL only. Button "Shop now", landing https://www.quboworld.com/products/smart-cam-360-3mp. Ad text: "Qubo Smart AI Cameras by Hero Group. Built to Protect, Not Just Record - ✅ AI-Powered Person & Motion Detection ✅ Colored Night Vision ✅ Complete Control with Qubo App". No headline. The same copy runs on 1323906797467619.
+No spoken call to action; end card URL only. Button "Shop now", landing https://www.quboworld.com/products/smart-cam-360-3mp. Ad text: "Qubo Smart AI Cameras by Hero Group. Built to Protect, Not Just Record - ✅ AI-Powered Person & Motion Detection ✅ Colored Night Vision ✅ Complete Control with Qubo App". No headline. Same copy as 1323906797467619.
 
 ## Why it may work, and where it is weak
 Works:
-- Local crime headlines (Dwarka, Noida, Bengaluru) make the risk real.
+- Local crime headlines make the risk real.
 - Calm "I rest easy" payoff after fear.
 
 Weak:
 - Presenter is unnamed, so no endorsement is credited.
-- Headlines are unsourced, with errors.
+- Headlines unsourced, with cut-off text.
 - Ad-text features not shown; no price or offer.
