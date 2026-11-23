@@ -211,8 +211,8 @@
   "link_description": "",
   "cta": "Shop now",
   "landing_url": "https://www.giva.co/collections/all-1",
-  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPRob2LQfC4Vu49JQUCe297FCfRP1yhGAiXTef5fz_zWFU_OWMxfxJFUOI9b44YwY8bhX19e2g1ZRmvnwXscjK6a6ASTB9POuhkX_qbcg.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=EFpkqzkLi7UQ7kNvwEIOLRb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMzc2NzcxNjM0NjQ2NTE1LCJhc3NldF9hZ2VfZGF5cyI6ODMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=7882rhDkcgEVf_vtCLSZ5g&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS5Juf75-4h7Nvq11_eTuqM29kQjGnmMGCJ2xhkG3hWyw&oe=6B0943D6",
-  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/783856929_3356926867823370_6088264730456043885_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=10lhcdnvYK0Q7kNvwEqp-OQ&_nc_oc=AdqEAcl1qBpCGWyX7EOLA5SMWTx3CGNzaZZYP3ojdxrqIBy6LLHQ3W-vJVt-v9dPUbQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=7882rhDkcgEVf_vtCLSZ5g&_nc_ss=7b289&oh=00_AQQ7IQf-uaYwu9bT9iafaBNL-XYj96wiqP0Lwu4vJopPgQ&oe=6B093AE4",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPRob2LQfC4Vu49JQUCe297FCfRP1yhGAiXTef5fz_zWFU_OWMxfxJFUOI9b44YwY8bhX19e2g1ZRmvnwXscjK6a6ASTB9POuhkX_qbcg.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=bXTP5a3BgvoQ7kNvwHinc0D&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMzc2NzcxNjM0NjQ2NTE1LCJhc3NldF9hZ2VfZGF5cyI6ODQsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQKFCH1rt0s71ivLuQIJ4_bBUNO0S-dg4oXjH84PKBXfg&oe=6B09B456",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/783856929_3356926867823370_6088264730456043885_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=10lhcdnvYK0Q7kNvwEuP3MP&_nc_oc=AdrUQpziLf2RAiNw8I5B-5rRpNb-WLlkFjJtyrRy1uwIi48P-f3TySCS068-iw7-LPE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQQay3e49mkwuUuqJUsGOnb0DwmITtv2afpjYFktVNhGbg&oe=6B09E3A4",
   "copies": 2,
   "platforms": [
    "FACEBOOK",
@@ -227,7 +227,8 @@
    ]
   },
   "sample_views": {
-   "all": 7
+   "all": 7,
+   "video": 1
   },
   "video_asset": "1376771634646515"
  },
@@ -991,5 +992,921 @@
   "sample_views": {
    "all": 30
   }
+ },
+ "1805374843985588": {
+  "library_id": "1805374843985588",
+  "link": "https://www.facebook.com/ads/library/?id=1805374843985588",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "A little desi, a little extra, exactly the vibe.\n\n(GIVA jewellery, GIVA jewellery exchange fest, Silver jewellery, Fine silver Jewellery)\n\n#AD #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPRob2LQfC4Vu49JQUCe297FCfRP1yhGAiXTef5fz_zWFU_OWMxfxJFUOI9b44YwY8bhX19e2g1ZRmvnwXscjK6a6ASTB9POuhkX_qbcg.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=bXTP5a3BgvoQ7kNvwHinc0D&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMzc2NzcxNjM0NjQ2NTE1LCJhc3NldF9hZ2VfZGF5cyI6ODQsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQKFCH1rt0s71ivLuQIJ4_bBUNO0S-dg4oXjH84PKBXfg&oe=6B09B456",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840034513_3058459527831574_7722060490192942027_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oNdEqV9c7qMQ7kNvwFIDOMq&_nc_oc=Adot3cdxF1t9SvW3YVcnK0Ojq90HsataSBbe-VlqlOPoEdkuIPicg009A_HVtawAusU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQRDrqXYFqxXwPMkqPgF-Bo0RcI-zum5WS5UatLekGlomw&oe=6B09D087",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 2
+  },
+  "video_asset": "1376771634646515"
+ },
+ "39690423243905854": {
+  "library_id": "39690423243905854",
+  "link": "https://www.facebook.com/ads/library/?id=39690423243905854",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-01",
+  "days_running": 22,
+  "media_type": "VIDEO",
+  "body": "Just a girl and her never-ending love for pretty jewellery! 🎀🤍\nUse code NEW15 for 15% OFF ✨ Shop through my Wishlink!\n@giva.co",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://giva.co/collections/diwali-collection",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPIyB41eYBu2T922_xv5rFR7rPk7C4BatHovjRHcrq7tRQbyGPv9OvCERPZkrW8P9802ytN7JQEyiAvd4gr9XBr90Klab_Xt76NsnSMJw.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Tv8KUTdcYgwQ7kNvwHAFbPc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMzg1NjEzMzE2NzA3NjMyLCJhc3NldF9hZ2VfZGF5cyI6MjIsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ0AKBfRh2OoLCcWw8gnnfkBXnvLeJCvfrK32mVmKntIg&oe=6B09B741",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/864101825_1481222743853831_1208909213218251932_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0Dy_BZ2cv9IQ7kNvwG4eRzW&_nc_oc=AdrC5kcXHetjnR7DtDFUe6POn__XzyQiYkWfwNUZTDKEskZ27-6uWM8GdIktx0X0tbM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQQBBAolOqhJpCa2ZJ8wWQsL5aAVXeC3lfkWT8yTdf4nEw&oe=6B09E464",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Digital creator"
+   ]
+  },
+  "sample_views": {
+   "video": 3
+  },
+  "video_asset": "1385613316707632"
+ },
+ "1519936816608280": {
+  "library_id": "1519936816608280",
+  "link": "https://www.facebook.com/ads/library/?id=1519936816608280",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "Consider this her not-so-subtle hints and GIVA gets you the most brownie points.😉\n\n(Couple Gifting, Gift Ideas, Silver Jewellery, Romantic Gifting, Gifts for Her)\n\n#AD #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPNuZGBeDFBxEgzC_9xmsGMXYaIJeUSd0aRL0qvcdfcm0zd2QIGwMGTpvqFqQ5hrLeavWuVBQr5fF6IZ0S2-H5pswMRWvOwlz7BVfISeA.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=pxeFsmUQuykQ7kNvwFscvzz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNjM0NTA4NjQ0NzIxNjE2LCJhc3NldF9hZ2VfZGF5cyI6NjUsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo4MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSLGR5OR33NrFu8_km7ylP0--SPLHSF-86C65PiHv-rjQ&oe=6B09C23D",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/796238544_1057677757070841_9219728326910874090_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-cKx-rA-9cEQ7kNvwEcy1bJ&_nc_oc=AdqfJgLpTC3RBaGKM8WDhZXJF0csDcnX--GormuLgyWfj93araF0D3xSJDdnOhpxIBE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQRm0zJWTuGJKUbOkq9_KUHGa1qvWHPFQFZrHqXVW6Bs9w&oe=6B09D07E",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 4
+  },
+  "video_asset": "1634508644721616"
+ },
+ "1618294676370194": {
+  "library_id": "1618294676370194",
+  "link": "https://www.facebook.com/ads/library/?id=1618294676370194",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "For every spontaneous plan and every unforgettable night. ✨ \nUnique designs, made for every moment\n\n(Jewellery for girl’s night, Best anti tanish jewellery, jewellery for brunch, jewellery on party wear, jewellery reel)\n\n#ad #givajewellery #finesilverjewellery #stylesealedinsilver",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNEXVUnugyTGDdKhVHQbZlJZ0JAwdN_aOEDHn8m9n8BUF3O60gJkH1FeDa7wUzxWvbYbOUcXT7eHKx1cQhgmB-6NXD8COn2T03qbJFYbg.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=VgRdCSL96Q8Q7kNvwFPQ6dO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5MTI3NTc5ODgzMjQ4ODgsImFzc2V0X2FnZV9kYXlzIjo1OCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ3S5UumwvW8MWr3MIVwkk0zrQ3izdzX-y70MTL4WyT9g&oe=6B09B952",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/829647524_3337383606651694_4688991189331182373_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TbdAHmCMiJ0Q7kNvwHneHD5&_nc_oc=AdroiIKAWqlbuXxsqIU_qX9UYO_U5W0nvW_-a7Np4hEbaPppDHBB928jSi3Ic-Jk23Q&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSB_6TdCG74ulYTodA6gyNXnBHN592WqNCC-c8rInQqfQ&oe=6B09C737",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Design & Fashion"
+   ]
+  },
+  "sample_views": {
+   "video": 5
+  },
+  "video_asset": "912757988324888"
+ },
+ "1144931334940298": {
+  "library_id": "1144931334940298",
+  "link": "https://www.facebook.com/ads/library/?id=1144931334940298",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 6,
+  "media_type": "VIDEO",
+  "body": "For every spontaneous plan and every unforgettable night. ✨ \nUnique designs, made for every moment\n\n(Jewellery for girl’s night, Best anti tanish jewellery, jewellery for brunch, jewellery on party wear, jewellery reel)\n\n#ad #givajewellery #finesilverjewellery #stylesealedinsilver",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNEXVUnugyTGDdKhVHQbZlJZ0JAwdN_aOEDHn8m9n8BUF3O60gJkH1FeDa7wUzxWvbYbOUcXT7eHKx1cQhgmB-6NXD8COn2T03qbJFYbg.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=VgRdCSL96Q8Q7kNvwFPQ6dO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo5MTI3NTc5ODgzMjQ4ODgsImFzc2V0X2FnZV9kYXlzIjo1OCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ3S5UumwvW8MWr3MIVwkk0zrQ3izdzX-y70MTL4WyT9g&oe=6B09B952",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/914308861_1172674798529860_6533921252400140047_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZN-mz2kbbmAQ7kNvwEdx9cH&_nc_oc=Adq6Yu2zuXSyKbU0g7nB6zfVXNv5t-OAFAadvz2ntihM5duTY2XOJUX0SiqubMAnUUc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQTor_GprfPLNtAZuEyj3njB9DW2gXAsfAl5XZmE8sdmeg&oe=6B09BCDB",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Design & Fashion"
+   ]
+  },
+  "sample_views": {
+   "video": 6
+  },
+  "video_asset": "912757988324888"
+ },
+ "1140822805300303": {
+  "library_id": "1140822805300303",
+  "link": "https://www.facebook.com/ads/library/?id=1140822805300303",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-26",
+  "days_running": 28,
+  "media_type": "VIDEO",
+  "body": "Tyohar Anek, Feeling Ek. ✨\n\nDifferent celebrations, same excuse to gift a little love.\nMake their festive season extra special with silver.\n\n(925 silver jewellery, 925 sterling silver, real silver jewellery, gifts for her , gifts for him, navratri jewellery, Pujo jewllery)\n\n#AD #GIVAJewellery #TyoharAnekFeelingEk #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQOOVdIDPE_9ICPfS_KwjdjwHAP_NKuftD1Pw9vuRGhUsbBHAI0m7MPWnn4qR34vtd-vCAypfn26qOqF-TbtkRsqw-vjYgwg74i-FkGMsQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=gY5Uk5uvH18Q7kNvwFZ1OZ2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMTczMTY2Mjc2ODg1NjAxLCJhc3NldF9hZ2VfZGF5cyI6NTMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo1MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UtjUeVNLttPK_PQBaMYub3VKHacd-thBZ0lrn0Y9aeqszhCQQksqRTRxQJw9eI54-jZyiVJ5WcplIAj8jjixQZ8IJ7lqc0E1nX9vHiG0w_-2p2kk6pUlSk8bG7E&oh=00_AQQY9aZ468ZQlQaAZjY8vFgBY7OThWKGUU9Em9ZBySrbCg&oe=6B09E02C",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/866023988_999882709819515_444558740504359930_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=LMFmeecurTkQ7kNvwGwX5ju&_nc_oc=AdreH2Bjjeb2oix8J0O_cnfeVi2p67ToKGyippSyUWSSk2g93RLpSiNSmrK2Cz9f7wc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSGVqpqIuYTeXvHSkmc-RoxuLm5SFR9mrzeUhlEnou6HA&oe=6B09B3EC",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 7
+  },
+  "video_asset": "2173166276885601"
+ },
+ "1382365270334356": {
+  "library_id": "1382365270334356",
+  "link": "https://www.facebook.com/ads/library/?id=1382365270334356",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "Catching flights while GIVA stays on the itinerary.\n\n(Summer jewellery, jewellery for vacation, Fine silver jewellery, Rose gold jewellery, Everyday jewellery, Cool girl jewellery)\n\n#AD #GIVAJewellery  #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPn-E_vsP9y2i4UK_kyEqnm-DtfcVLsYydC_1fyRa_Xm-PnJKaz_1JcrXSTYmGfPz7tsFJ8eAa9CxkxnBneqCKHudyTuNoQcncbG2Go7g.mp4?_nc_cat=104&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=AK9pF54hsP4Q7kNvwEfCCUX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDQ0MjUxNDg3NTIwMjk0LCJhc3NldF9hZ2VfZGF5cyI6NjYsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UrnvfAVd_D0GVbe22SH-VNTPDm7NsdAz1bRE_ip0fRyNQsVAZK_jg7vOn26RmM1SO8quswXYOJWws3BtKZP6wIZfV6RBMPtdC4yCoplR87nnZ9Md1Tum9ShheMQ&oh=00_AQQ_dqi0IMLoDe6B5UNaQ6WpesQmyutCbSSZoehS4qL4cQ&oe=6B09BB6A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/795868717_1084965304019478_128643463265329388_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3g3rQm81QSQQ7kNvwEQJNkL&_nc_oc=Adp4yS2ZYsgGEVFFtMg2DmpV_cr6f13FLOxZDx7w4QMrTQ1ujlhVTmbShJxU_YOU1cM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQQb9H5KmOYt7-OLf9PDzV2Ow4M7DcqggIlv0txviq7E1g&oe=6B09E239",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 8
+  },
+  "video_asset": "1444251487520294"
+ },
+ "1247021461306981": {
+  "library_id": "1247021461306981",
+  "link": "https://www.facebook.com/ads/library/?id=1247021461306981",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-04",
+  "days_running": 19,
+  "media_type": "VIDEO",
+  "body": "Running late, but making it sparkle with 15% OFF using code NEW15 at @giva.co! 🎀✨\nSome things are worth taking an extra minute for. 🤍\nShop now at Giva.co!",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQNDzec9eLe_NvvImv3DamrNt_MNmNlBsuJghviGgaa7c9pIAIl2_mLZFouvcgafbWC4-hsa9LQmltVj8xIA6rkc4JYJGY_jpqgrhP1HuQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=fR4kURF_DPIQ7kNvwFNeSqf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDk0NjY3Mzc2MDU5NjA1LCJhc3NldF9hZ2VfZGF5cyI6MTksInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSBJh_EcwUYL6Vu_JTDBkqzSndLnETycuJ1JXkxxLEzwA&oe=6B09E82A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/888035643_39869695409345647_2030687586400150609_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SPu7E-abSGEQ7kNvwHhiywF&_nc_oc=Adrbd3ekzPq0uCLtCC6prQ4fVjrP_Zb63m0FGhLnPG7fzCwGrJQ5YHBLzBGQmfJtD8U&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQRSbW8LmRnuL2N_sKtbxPw_tGS8mlzf5-1VlNC6AAJBtQ&oe=6B09BD27",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Actor"
+   ]
+  },
+  "sample_views": {
+   "video": 9
+  },
+  "video_asset": "1494667376059605"
+ },
+ "1181938367564348": {
+  "library_id": "1181938367564348",
+  "link": "https://www.facebook.com/ads/library/?id=1181938367564348",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-18",
+  "days_running": 5,
+  "media_type": "VIDEO",
+  "body": "Running late, but making it sparkle with 15% OFF using code NEW15 at @giva.co! 🎀✨\nSome things are worth taking an extra minute for. 🤍\nShop now at Giva.co!",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQNDzec9eLe_NvvImv3DamrNt_MNmNlBsuJghviGgaa7c9pIAIl2_mLZFouvcgafbWC4-hsa9LQmltVj8xIA6rkc4JYJGY_jpqgrhP1HuQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=fR4kURF_DPIQ7kNvwFNeSqf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDk0NjY3Mzc2MDU5NjA1LCJhc3NldF9hZ2VfZGF5cyI6MTksInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSBJh_EcwUYL6Vu_JTDBkqzSndLnETycuJ1JXkxxLEzwA&oe=6B09E82A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/906652197_1820857802452850_5321955420688972850_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=A0nhm44tHX0Q7kNvwGOQhpd&_nc_oc=AdroQ4cH3negIO-H1ZaH7EYKEtyC4iEsSjdE5SSnQwGVl4xe4EexTQLV5wz04OLw6YQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQS8HXiLkLgyuuJ27caRn3aLiJaI3bsMpHZ2baSDKxdqBw&oe=6B09E5AF",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Actor"
+   ]
+  },
+  "sample_views": {
+   "video": 10
+  },
+  "video_asset": "1494667376059605"
+ },
+ "1641202894463916": {
+  "library_id": "1641202894463916",
+  "link": "https://www.facebook.com/ads/library/?id=1641202894463916",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-14",
+  "days_running": 9,
+  "media_type": "VIDEO",
+  "body": "Celebrate every side of who you are this Men’s Day with @giva.co’s Men’s Collection. Bold, minimal, or layered - wear what speaks for you.\n​Which side are you playing today: Dark Blue or Light Blue? 👇\n\n(Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts)\n\n#AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-him",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQN8dyYkHF9yDnbX5CiZq4rBXkO-Gn9SSMv-pAiUlNK7FozkQLMm3hWUeQIUGZlrUiGoPLWaEBT78RK2o1fhNf89Z9oD4RXOPhB1Twhpzw.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=nJPJnwnHh58Q7kNvwHw2P6_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzMwOTI3NTg1MjU5ODgxLCJhc3NldF9hZ2VfZGF5cyI6OCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQ3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UkRpwsrz6camSjsBmp9cVfrxh17LDIMuagqDXSg1L-tJwnmWX48sGvQdO1HOYmjtYKQhZ6BQB7fj7QvJtf3Yl1dYfdliTVEL1CfXwpKTzQFjodhuFMXXtYEKoUw&oh=00_AQR0O9H-jTYkQxLrT2vcW_c_Y1V2MwT4gjFcBJSho8HklA&oe=6B09E369",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/907644274_2352535548615545_8369529799049372382_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pu2UuMUvnYMQ7kNvwG8UW12&_nc_oc=AdqnaZ6b7MUg_-iX2Hl3A5Mh59wCbBO9Wk4RKnV7UiQ8vDJ1FMPTKl3a2PFaKBdyBMw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQR7MLEIhhWWh33g8WtW5CZKXxE23oDUCGfrBCZcDKfq7A&oe=6B09C672",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Artist"
+   ]
+  },
+  "sample_views": {
+   "video": 11
+  },
+  "video_asset": "1730927585259881"
+ },
+ "1695791128841991": {
+  "library_id": "1695791128841991",
+  "link": "https://www.facebook.com/ads/library/?id=1695791128841991",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 6,
+  "media_type": "VIDEO",
+  "body": "Caught red-handed stealing all the attention. GIVA MEN is the evidence.\n\n(Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts)\n\n#AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-him",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQMc-vr8J-DhRKPiR7LyjPlY667YtX2938sDW1hZjs3ACXMJbUCOkzCALyLN1d32jOS3k-YOEwnBGkLa0buDEE3IEHoFRR0xTTyxNKOeIQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=kGurBtOX9JEQ7kNvwFSrviS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyOTY4MDUzMTU2ODIxNzY1MSwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQNaNFfu0UkVQ-9I8xbuf9YCpsI_Y8HBmuUPuNQ7ZI2AQ&oe=6B09D96E",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914160632_1191659486841055_7865474962069967256_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UQkV7BFaMioQ7kNvwFPhuTN&_nc_oc=AdqjqNCQxGCchqMruZXudQC7FOJyjkMUWc5cMh6_v_yB8kGWORrXIsPLiVg4KVzfx-M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQT5QoM5SQgTVB9ayvoOXmiPik6mu65PuwmXPSXT8aDFnQ&oe=6B09C59B",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Blogger"
+   ]
+  },
+  "sample_views": {
+   "video": 12
+  },
+  "video_asset": "29680531568217652"
+ },
+ "1125336073326009": {
+  "library_id": "1125336073326009",
+  "link": "https://www.facebook.com/ads/library/?id=1125336073326009",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-29",
+  "days_running": 25,
+  "media_type": "VIDEO",
+  "body": "Serving Hot Girl Summer with a side of Thalassa.\n\nSea you there!\n\nUse code PREKSHA15 for 15% off\n\n(Summer jewellery, Beach vacation, Fine silver jewellery, Rose gold jewellery, Everyday jewellery, Cool girl jewellery)\n\n@kavyanshiramani🫶🏻\n \n #AD #Thalassa #SeaYouThere #StyleSealedInSilver GIVAJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/thalassa-collection",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNn7fs4piMNyoZJ9EmUNYQridLMllwXtTdFH1j_4EaccWwa8nPVJDUCIVn12-6ibF_rO1b6E_dcPt4SY8FcPSb00rAJfiQqzP6_rFlVvw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=vn5xf_I6TjAQ7kNvwFddzJL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzA5NTQ1NjgzNTA5NDA4LCJhc3NldF9hZ2VfZGF5cyI6MTY3LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTXQBCG7HiKRNHMsUj4j0i59Y4nY3pbYxsFxwZeRSb_SA&oe=6B09B856",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/721160338_1386760546661885_3000102417047866392_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ww2f2zXxi2sQ7kNvwGPNfQb&_nc_oc=Ado2Xw_hhZVNW5GaoyDu_vTsNZAiyP97MO_HHER34rbuoj-R8MAS4sJrl7V39loDq6c&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSKu-MoImO8QhFhGZLpmrv1a_hTAbh7VnMrK2jb0PX3ZA&oe=6B09D2C2",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 13
+  },
+  "video_asset": "1709545683509408"
+ },
+ "2338917666965850": {
+  "library_id": "2338917666965850",
+  "link": "https://www.facebook.com/ads/library/?id=2338917666965850",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-21",
+  "days_running": 2,
+  "media_type": "VIDEO",
+  "body": "WARNING: your wishlist might get a lot longer. \nThe GIVA Black Friday Sale is here! Consider yourself warned. \n\n(Black Friday Sale, GIVA Black Friday Sale, Black Friday Deals, Biggest Sale of the Year, Jewellery Sale, Silver Jewellery Sale, Up to 30% Off, Jewellery Deals, Silver Jewellery, 925 Sterling Silver)\n\n#GIVABlackFridaySale #GIVAJewellery #StyleSealedInSilver #finesilverjewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "No button",
+  "landing_url": "https://www.giva.co/?utm_source=SMM&utm_medium=Meta&utm_campaign=Influencer_Surina_Nov2026",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQO5UUIXJsTR8K_SgdGsOivAdS-h-ncW2SdK1Mc_1W0BSGuD9Yk61La_umE12TkzmX0YvxjDNbLwfUtOKv_MyfHYOsfoGv9P3veeSDNu4w.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=EZ_wbO_ZPd0Q7kNvwEAq-OV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDk5ODM2MjgyMDQ1OTU5LCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSKZ7bN-EFTQNDdtAKrokFZlOLJT-hFK6MXgA3-vtcBAQ&oe=6B09DC12",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/911227830_1678913657185618_4724029616460338504_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0dIdWJuRXyoQ7kNvwGTZYBa&_nc_oc=AdpkoylSyDmchATyY3Qn_YGQ0_baN8s4krWAbGEMYfqe7ISumbKCZue9rRbZZHKhUfE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQRpCJFgfu_AD3V90fcfDvX1m1LqM3LW7bAIwN3LzkMBWA&oe=6B09BFD6",
+  "copies": 2,
+  "platforms": [
+   "INSTAGRAM"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 14
+  },
+  "video_asset": "1499836282045959"
+ },
+ "4582498505399694": {
+  "library_id": "4582498505399694",
+  "link": "https://www.facebook.com/ads/library/?id=4582498505399694",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-22",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "WARNING: your wishlist might get a lot longer. \nThe GIVA Black Friday Sale is here! Consider yourself warned. \n\n(Black Friday Sale, GIVA Black Friday Sale, Black Friday Deals, Biggest Sale of the Year, Jewellery Sale, Silver Jewellery Sale, Up to 30% Off, Jewellery Deals, Silver Jewellery, 925 Sterling Silver)\n\n#GIVABlackFridaySale #GIVAJewellery #StyleSealedInSilver #finesilverjewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQO5UUIXJsTR8K_SgdGsOivAdS-h-ncW2SdK1Mc_1W0BSGuD9Yk61La_umE12TkzmX0YvxjDNbLwfUtOKv_MyfHYOsfoGv9P3veeSDNu4w.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=EZ_wbO_ZPd0Q7kNvwEAq-OV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDk5ODM2MjgyMDQ1OTU5LCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSKZ7bN-EFTQNDdtAKrokFZlOLJT-hFK6MXgA3-vtcBAQ&oe=6B09DC12",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915714755_1519201733423875_7503974726592482370_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jEYn69-GfWoQ7kNvwF_Oy_D&_nc_oc=Adpn2v9VNmSfi8OzqySbSylW5l9_KwZK0fNQosxvBp1nYUaYehOL163F1TnnRKGiIDo&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSDHvaecy-gbXr5dQTuBrkFaEy6ETTDtTRWAGT169xNiQ&oe=6B09E728",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 15
+  },
+  "video_asset": "1499836282045959"
+ },
+ "2121373598516440": {
+  "library_id": "2121373598516440",
+  "link": "https://www.facebook.com/ads/library/?id=2121373598516440",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-20",
+  "days_running": 3,
+  "media_type": "VIDEO",
+  "body": "Not saying you need a reason to shop but GIVA just gave us one!✨\n\nGIVA’s Black Friday Sale is almost here, and my wishlist is already getting longer! \n\n(Black Friday Sale, GIVA Black Friday Sale, Black Friday Deals, Biggest Sale of the Year, Jewellery Sale, Silver Jewellery Sale, Up to 30% Off, Jewellery Deals, Silver Jewellery, 925 Sterling Silver)\n\n#GIVABlackFridaySale #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQNA6wWRsq5PYYunSSq2pPIIrD8Tg1HGcnKLwIxKJ_2SmkvKCZPNWWj8YElBJBXIXyEBPwpRPrvNQiVsNBn7hKIw1JIVKQfxOlVpnKJ3mw.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=3hV4CRlwLjEQ7kNvwEDOhqi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMTQzODY4Mzk4MzQxMTIxLCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQ0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS0dDExBaqTHLGA8v1IhajKfw21z51AMFwF6OgknomurA&oe=6B09BD8D",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915696424_1849316316197057_2883729287942336295_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wpq7hTBSsuEQ7kNvwF9gQ8r&_nc_oc=Adq2Z549Jnz-Y2gJQouMt7l4wiScoPhCBFssZF5fP3RdVxrIWfHshUsK_FZIRgTDmsQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQTWJo2Ix9mEPeOzAAvUuyKwPjUwrcN5W0fRHJaqieTh5g&oe=6B09E9CC",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Digital Creator"
+   ]
+  },
+  "sample_views": {
+   "video": 16
+  },
+  "video_asset": "1143868398341121"
+ },
+ "3361006940750709": {
+  "library_id": "3361006940750709",
+  "link": "https://www.facebook.com/ads/library/?id=3361006940750709",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 6,
+  "media_type": "VIDEO",
+  "body": "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co \n\n(Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel)\n\n#AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQMmLklmLJa2O5u1bUduzi5iUx62_keeURYiwT0WkZJxUFITmixzdtIsXIHlqnXA_Tpj80BjJFVckl0sAEcGs10yoPQSzMEB7l1HK7ZYAQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=kdwemtMWDfsQ7kNvwFgq1cK&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjo0MDU3MjU0NjAxMjM2ODA3LCJhc3NldF9hZ2VfZGF5cyI6NzEsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR1gtUgZmIrW3TGLHWuBJKKaU3EgqWzEmaXQBWH8ihY9Q&oe=6B09DE5A",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/915017539_2204588060429975_6108615603930975963_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7Oti0DwXoxEQ7kNvwHzzbDY&_nc_oc=AdrPFaz2o03TXbN4V4udWZltD-hEDbAz9yOtxJimTEeFjankDwbGAZ4QxndPEiMiVdk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQRE5EU6oHkhUmm7vjPlSZNdywNaQPKXweGDAIwDOntVAQ&oe=6B09BC58",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Designer"
+   ]
+  },
+  "sample_views": {
+   "video": 17
+  },
+  "video_asset": "4057254601236807"
+ },
+ "1132227376365400": {
+  "library_id": "1132227376365400",
+  "link": "https://www.facebook.com/ads/library/?id=1132227376365400",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 6,
+  "media_type": "VIDEO",
+  "body": "Made to shine through every plan, every look, every late night.\n\n(925 silver jewellery, 925 sterling silver, real silver jewellery, gifts for her , gifts for him)\n\n#ad #givajewellery #stylesealedinsilver #finesilverjewellery #giva",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQOuXqh9unkgQsWl4hhW7A9Z22eUQBGdD67ddTOvwzkTJ7Eqavso6kzBjxFryGifa-W-izd1euNcWTxXFvAbNBU38LiEuiWX0c1EIoizHA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=k8CqmUxwQdkQ7kNvwE9T_ed&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzQzMzI3ODUzNjExODAyLCJhc3NldF9hZ2VfZGF5cyI6NjAsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTdszB6WD_BbP60h-Ga8VY0mKEYBieLuRL0HroLD811lQ&oe=6B09DB81",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/912202562_1795417431715813_4430061336833755422_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HR7h3IgNGX0Q7kNvwEyvyjM&_nc_oc=AdrOHqa19AFm2dAu4U60oUmxSYWWJJvyberh0ojaMmycgI20l__vOkqN4tZAACemH_0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQQViU-5kwwL40d-e8WPke0b_hGEnspHlC_ACSSa5s93PQ&oe=6B09D146",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Digital Creator"
+   ]
+  },
+  "sample_views": {
+   "video": 18
+  },
+  "video_asset": "1743327853611802"
+ },
+ "1607038831146627": {
+  "library_id": "1607038831146627",
+  "link": "https://www.facebook.com/ads/library/?id=1607038831146627",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-29",
+  "days_running": 25,
+  "media_type": "VIDEO",
+  "body": "Running exclusively on silver energy. Catch me in my shiny era!\n\nUse code CHRM15 for 15% off\n\n(GIVA jewellery, GIVA jewellery exchange fest, Silver jewellery, Fine silver Jewellery)\n\n#AD #ArtificialDoSilverLo #GIVAJewelleryExchangeFestIsBack #GIVAJewellery #StyleSealedInSilver",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/pendants",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQOZ1RtZQgFWkN9pCgAJFSZsHr9q-X3JEs6xX-gJzHnifWJOaxHnQ1s3gVgKZmUXOKcRKEoy4XWWvaKU-KA_xhrmumhwhsJKD0OygTxGTQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=YyixG4QKB1gQ7kNvwF_30pT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMDM2MjEwNzg4NzMzNDE1LCJhc3NldF9hZ2VfZGF5cyI6MTUwLCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTfwnR800bGl1EzP7RxmLzgq0ckEdHJ520EaoPNN4d5oQ&oe=6B09C33B",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/736449051_26964175429927117_2607229408495358099_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PDd00qJWdI0Q7kNvwFx8_F1&_nc_oc=Adocdg8yBTJ9ZCKx-XuBijPHaCwRKmQIdf4x3C4gKSH5LlUfrt2pWBFJP-utSiPQjis&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQTYFF5z3z3m3haIDnvot6pL0fR53lx0bBFJq0FYNlAZmQ&oe=6B09DB18",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 19
+  },
+  "video_asset": "1036210788733415"
+ },
+ "1131794193178758": {
+  "library_id": "1131794193178758",
+  "link": "https://www.facebook.com/ads/library/?id=1131794193178758",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-17",
+  "days_running": 6,
+  "media_type": "VIDEO",
+  "body": "Food deliveries and coffee orders pe toh paani ki tarah paisa beh raha hai… 💸 But when it comes to pretty jewellery, I like to shop smart! 🎀✨\n\nAll the sparkle, all the pretty, without making it a whole financial crisis. 🤍\n\nUse code NEW15 for 15% OFF your first purchase!\nShop through my Wishlink!\n@giva.co\n\n#GIVA #GIVAJewellery #NEW15 #jewellerylove",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQPo3hGCzCM5BeraXKmQRD7QuNobkwOgrthuCMYIvCj3p85wWaAzmg96-0dFJweyblAVmQILzCVfiVAkgPoPdh6JrVL69KkXcTWlAZQgrw.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=nmWp7E_ZifIQ7kNvwGHurJq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxMDA3ODUwMzI4MzI2NzI0LCJhc3NldF9hZ2VfZGF5cyI6MTEsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS6ol8zDC4t5FLZ-HWV9RC19rF86KtdPzZa5y2E3kNGHQ&oe=6B09B53D",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/914939875_1181320737798025_5697426514274660630_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0hDNF6gnMMoQ7kNvwFufLdh&_nc_oc=AdpN02pQIhoS72IpXw5zdEPrnnmOmOxGPGKI1o_J_RKE_aFsK5R3gV854ZGLaHy8BgA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQR7Qdh43jddNVp53PpIkkmfElCs48IvJxdBCMeVQfiAjA&oe=6B09E1D7",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Personal blog"
+   ]
+  },
+  "sample_views": {
+   "video": 20
+  },
+  "video_asset": "1007850328326724"
+ },
+ "1801625404293475": {
+  "library_id": "1801625404293475",
+  "link": "https://www.facebook.com/ads/library/?id=1801625404293475",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMvsEe3vCCNcp1RyZl-yi1XX-u2mG4jwr_jH0EGbCWA7iSQ3QsuQ3VfSgjS94GE0AqToSS5gyC905oNcHq2JSdeMcZZJLkXm21FzY-493SI6Q.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=LF0bk8jMCfQQ7kNvwFjFigV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyNzIyNjcyMTc3NDcyNzUsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7e290312afdb2207&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GRTQ4REUwRUU2RUEzM0Q1NjJCQTVFQ0ZGQUM4MzFCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FENDFBMkU2OTAwRUNEQUU1RTFFQzU3MUI4MTk2MUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaW9ZW52cfCBBUCKAJDMywXQClxJul41P4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRy-I1_xSmEMFnlZ6xiqq26M_xmRNxgUjiisu-u8sHNuA&oe=6B09DC9E",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669613522_2797065467305225_3832323989769633686_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=FjcujbBMCEcQ7kNvwEvllI7&_nc_oc=AdrdKRx1VuUPY2SACF1aAr4HL7NZKIXCgJ7Y2q0gpU7Afb2tyUsCs3A02ZVCI0QIX4s&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSbFnnCua6IDZ-ug2s2On1GWMr4UfHh8G6XpzemNjafWQ&oe=6B09E149",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 21
+  },
+  "video_asset": "1272267217747275"
+ },
+ "1956267245777911": {
+  "library_id": "1956267245777911",
+  "link": "https://www.facebook.com/ads/library/?id=1956267245777911",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-15",
+  "days_running": 39,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMvsEe3vCCNcp1RyZl-yi1XX-u2mG4jwr_jH0EGbCWA7iSQ3QsuQ3VfSgjS94GE0AqToSS5gyC905oNcHq2JSdeMcZZJLkXm21FzY-493SI6Q.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=LF0bk8jMCfQQ7kNvwFjFigV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyNzIyNjcyMTc3NDcyNzUsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7e290312afdb2207&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GRTQ4REUwRUU2RUEzM0Q1NjJCQTVFQ0ZGQUM4MzFCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FENDFBMkU2OTAwRUNEQUU1RTFFQzU3MUI4MTk2MUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaW9ZW52cfCBBUCKAJDMywXQClxJul41P4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRy-I1_xSmEMFnlZ6xiqq26M_xmRNxgUjiisu-u8sHNuA&oe=6B09DC9E",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669613522_2797065467305225_3832323989769633686_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=FjcujbBMCEcQ7kNvwEvllI7&_nc_oc=AdrdKRx1VuUPY2SACF1aAr4HL7NZKIXCgJ7Y2q0gpU7Afb2tyUsCs3A02ZVCI0QIX4s&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSbFnnCua6IDZ-ug2s2On1GWMr4UfHh8G6XpzemNjafWQ&oe=6B09E149",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 22
+  },
+  "video_asset": "1272267217747275"
+ },
+ "1392592016276824": {
+  "library_id": "1392592016276824",
+  "link": "https://www.facebook.com/ads/library/?id=1392592016276824",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-12",
+  "days_running": 42,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNG6L3j2w4HKjT33x6y0NSQnMnDHiofK24oCulSo5VxxqoftbC4x1fXPgFT4JY0J6mXo2gPkDkEcne_y-dhB_HUDRsHrwcyPyJY6QDohUpvjg.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=OIxOmIJCVqUQ7kNvwGc3BFk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2Mzc5NDE1NTM4MTg3MjEsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7b4e58fc298d8f3d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wQjRENTgzRjY5OTEyRkM3MUJEQTI4MzM5MjA3NDNBQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhBNDMwOTY4NTI4OEVDNUJFNkI2NTZBQ0MzOUQ0OTlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbCsdPH3-zoBRUCKAJDMywXQCLvGp--dskYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UuumFDgnXnpE49kvIMZe7rkwQGmxcFBUZ5pst1BtgmuRd-Gu96Ezbi9FrXsmiyk7Vs8ibtqvKFUT65eOQvTk0gZGQQHJhgsAq3IMFg70NzvJ4ui1j7n-mMIRM6Q&oh=00_AQTo24KD33pNi-4OClrFxNhV42oRtngmBgP0JuCv_mKCpA&oe=6B09B4DF",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669564738_2244834139656964_3489669118915358951_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jMoMMcCCkzYQ7kNvwEWJAU1&_nc_oc=AdrOfxXnmYnXSxbYOtCofj1jENfgDIh95coBJMR_wqgJmNd0mJYAu8_5FSyWO0_eywA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQS4UMV1PRvvu7Y7Nl46R4hGZg3LMOc_1xub4-_8NuIkzQ&oe=6B09E5A3",
+  "copies": 2,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 23
+  },
+  "video_asset": "1637941553818721"
+ },
+ "2218022492390541": {
+  "library_id": "2218022492390541",
+  "link": "https://www.facebook.com/ads/library/?id=2218022492390541",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-15",
+  "days_running": 39,
+  "media_type": "VIDEO",
+  "body": "{{product.brand}}",
+  "headline": "{{product.name}}",
+  "link_description": "{{product.description}}",
+  "cta": "Shop now",
+  "landing_url": "http://play.google.com/store/apps/details?id=co.giva.jewellery",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNG6L3j2w4HKjT33x6y0NSQnMnDHiofK24oCulSo5VxxqoftbC4x1fXPgFT4JY0J6mXo2gPkDkEcne_y-dhB_HUDRsHrwcyPyJY6QDohUpvjg.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=OIxOmIJCVqUQ7kNvwGc3BFk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2Mzc5NDE1NTM4MTg3MjEsImFzc2V0X2FnZV9kYXlzIjoyMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7b4e58fc298d8f3d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wQjRENTgzRjY5OTEyRkM3MUJEQTI4MzM5MjA3NDNBQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhBNDMwOTY4NTI4OEVDNUJFNkI2NTZBQ0MzOUQ0OTlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbCsdPH3-zoBRUCKAJDMywXQCLvGp--dskYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UiMEdBFkm9YoBH-w2AgjMW67dodKS7jUWjUIsajXCyqoFDdDx-1NeYDIyu0lVbadFMJYY9sO1A6drst534is54BBtWOUDgWwEwT3AswsnCHRJ_vfwkPa_6St6nI&oh=00_AQTo24KD33pNi-4OClrFxNhV42oRtngmBgP0JuCv_mKCpA&oe=6B09B4DF",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/669564738_2244834139656964_3489669118915358951_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jMoMMcCCkzYQ7kNvwEWJAU1&_nc_oc=AdrOfxXnmYnXSxbYOtCofj1jENfgDIh95coBJMR_wqgJmNd0mJYAu8_5FSyWO0_eywA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQS4UMV1PRvvu7Y7Nl46R4hGZg3LMOc_1xub4-_8NuIkzQ&oe=6B09E5A3",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 3,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 24
+  },
+  "video_asset": "1637941553818721"
+ },
+ "1457780296455244": {
+  "library_id": "1457780296455244",
+  "link": "https://www.facebook.com/ads/library/?id=1457780296455244",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-29",
+  "days_running": 25,
+  "media_type": "VIDEO",
+  "body": "Evidence collected: One silver stack. Endless compliments👮🏻‍♀️\n\nUse Code STEP15 for 15% off\n\n(Fine silver jewellery, Rose gold jewellery, Everyday jewellery, Cool girl jewellery)\n\n #AD #StyleSealedInSilver #GIVAJewellery #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/pages/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQM6iSUQTGz9SekPS3bOCYPl0OHZYsR50LBBWxzKrurT0ttya2Gr7ii24fAc5zxUcDzouodgUO99bmAtNyE3d0RSd_ylP2qgPXa0q0CHAA.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=9A6MCZdjWXkQ7kNvwEyuGj1&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyNTI2MDY0NDQ3ODA3OTM5LCJhc3NldF9hZ2VfZGF5cyI6MTQ0LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRXFEUWqbUSO3xfT7g3Lve1ThgpkeCEYSiH5FTsnQLRjg&oe=6B09E98E",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/741447069_27720764657555834_4253259908383628417_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=d717c_npnF0Q7kNvwH7Lztb&_nc_oc=Adoh40pY6oB8GTI2QkWh8eyTWYLWzJlAuN8Yo77nAI3uG7bXo3NgYiLX-rXZCWfKbok&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSe38HuFvSSzRutSR9-PCw3hzbzkBKgIQu9BcgC0nIJIw&oe=6B09C86C",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 25
+  },
+  "video_asset": "2526064447807939"
+ },
+ "29568214479481422": {
+  "library_id": "29568214479481422",
+  "link": "https://www.facebook.com/ads/library/?id=29568214479481422",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-22",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "Some things are worth dressing up for. GIVA’s Black Friday Sale is one. \n\n(Black Friday Sale, GIVA Black Friday Sale, Black Friday Deals, Biggest Sale of the Year, Jewellery Sale, Silver Jewellery Sale, Up to 30% Off, Jewellery Deals, Silver Jewellery, 925 Sterling Silver)\n\n#GIVABlackFridaySale #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQOIAXcwF3rW-HvcrSjIUrUIYj71cFLAiRSGdFz7Fbn7GGOHgtx_d2q4PMgnt5Ykwmgg8gGbLootP0Lr5S7vDixTubqurpLUnugKpeC6kw.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=u0RMojDST94Q7kNvwHEF02M&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNDQ5MTE1MjEzNDY5NDUxLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSMjet63TJngU-JOCnrAj6nzCUcITH1gF23FF-8BX93MQ&oe=6B09CDD7",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/923948993_4781043772034372_7366051524858401564_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hdfCbcmZFd0Q7kNvwF6jGle&_nc_oc=AdplpN1xLXd4fKo2pI0Pn74jHsCbsM0lRym3qTkaLQfq6n40lDceeSPN_tqVIJfUBso&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQTx1mlyG995FEMY0uF3dRo-3gIEcGKCKBg7TD2m2iigAQ&oe=6B09BFBE",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Profile"
+   ]
+  },
+  "sample_views": {
+   "video": 26
+  },
+  "video_asset": "1449115213469451"
+ },
+ "1139674745449811": {
+  "library_id": "1139674745449811",
+  "link": "https://www.facebook.com/ads/library/?id=1139674745449811",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-11-22",
+  "days_running": 1,
+  "media_type": "VIDEO",
+  "body": "Get ready to shop your favourite GIVA pieces at the BIGGEST deals of the year.\n\n(Black Friday Sale, GIVA Black Friday Sale, Black Friday Deals, Biggest Sale of the Year, Jewellery Sale, Silver Jewellery Sale, Up to 30% Off, Jewellery Deals, Silver Jewellery, 925 Sterling Silver)\n\n#AD #GIVABlackFridaySale #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery",
+  "headline": "",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://checkout.giva.co/collections/gifts-for-her",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m367/AQPqozpRE5YkT6ejzFOofSe2DJ3nZDQgxskc9jIk5ttyr7QxL53t9fIKvCwSKZv1dFxPQbj1qitoDkrfYW0HT3HGvDkU5Jwb8aNsFfP9cA.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=JgZbeiSMjeEQ7kNvwFzz9A9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMTQ3NzU1NjEyNTAwMDMwLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSFprxQj-AotaXzWrsbI7txa_IrxhqliRsuXlPJN9gZag&oe=6B09DB86",
+  "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/910494331_1490306302982185_1351004392916933883_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kxG-bbA6hpQQ7kNvwF446-a&_nc_oc=AdpwQjFEAIQ5plHxAQULb0pZO5qCqcCjb4wwF4uNAjCGo6P_-ZdwT-xLgSNf-VmNgQg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQSbiLJP--6f-3RXNw7Trf27fGsoZtLGzaXgsa0Dbt4n6A&oe=6B09C072",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 0,
+   "display_format": "VIDEO",
+   "categories": [
+    "Personal blog"
+   ]
+  },
+  "sample_views": {
+   "video": 27
+  },
+  "video_asset": "2147755612500030"
+ },
+ "1655569609248443": {
+  "library_id": "1655569609248443",
+  "link": "https://www.facebook.com/ads/library/?id=1655569609248443",
+  "page_id": "350941852220221",
+  "page_name": "GIVA",
+  "is_active": true,
+  "start_date": "2026-10-13",
+  "days_running": 41,
+  "media_type": "VIDEO",
+  "body": "Crafted in 925 Silver, designed to feel just as precious every day. ✨\n\n✔ Certified Jewellery\n✔ Hypoallergenic\n✔ Anti-microbial\n\nEnjoy Flat 15% OFF on your first order\nUse code: NEW15\n\nStep into your style.",
+  "headline": "Get 15% OFF – Code: NEW15",
+  "link_description": "",
+  "cta": "Shop now",
+  "landing_url": "https://www.giva.co/collections/all-1",
+  "video_url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQO9R4Ri2oiTebAI41FY73XhRbpPhZ-pPfz1BVi0ZuRLlM5ux939OOXckaVgLnBxBr7VVjKBXdk9AkbxL375WSacxGe3HWuaFgJ3OCl-41r_xw.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=YNn3i3LxyUMQ7kNvwGF5M5Z&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0OTg5NzQzMzE2MjU1NTQsImFzc2V0X2FnZV9kYXlzIjoyMDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoyNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b0675ee737485e76&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BQjQzMjM5RUY0QTdGQUE0QjA4NkI1QUFBNUE2RjRBQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzUxNENFRjgyQTY0NzI0OEFDRUIyQTEyMDQ4NDgzMThBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACakgYOJ5dOpBRUCKAJDMywXQDlGZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ6PjzXcCxemWH0e2PLZ8sgX9BAlrvRZGXhsdnqRyxhUw&oe=6B09D21B",
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/819376690_1108858161699836_4246284545060088632_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IQDlJ6jI0Q4Q7kNvwEsv3JK&_nc_oc=AdoIX9BzW1aAOy8v-Vtughdgk9070me8iPQBECMuUQEch52gDbmfow0KLRteVy3mpLY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1UdoOW54P_cYPjPAutOCEQ&_nc_ss=7b289&oh=00_AQQX4hwpu1DZDpcC5eVtJSoBywkSxznhbjqqcWK-Z843NA&oe=6B09B777",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 2,
+   "display_format": "DCO",
+   "categories": [
+    "Jewelry/watches"
+   ]
+  },
+  "sample_views": {
+   "video": 28
+  },
+  "video_asset": "1498974331625554"
  }
 }

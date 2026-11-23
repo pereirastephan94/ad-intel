@@ -1,0 +1,132 @@
+{
+ "asset": "1499836282045959",
+ "first_seen_in": "2338917666965850",
+ "duration_s": 41.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 5.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.3,
+   "why": "scene change"
+  },
+  {
+   "t": 10.5,
+   "why": "scene change"
+  },
+  {
+   "t": 11.1,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "scene change"
+  },
+  {
+   "t": 16.9,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 23.2,
+   "why": "scene change"
+  },
+  {
+   "t": 28.8,
+   "why": "scene change"
+  },
+  {
+   "t": 31.5,
+   "why": "scene change"
+  },
+  {
+   "t": 41.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Stop! A little warning before you watch this. These jury sets come with a serious allegation of wanting more unexpected compliments, endless outfit planning and a sudden urge to own them all. Ever since I got married, it's been one function after another and every occasion comes with a new reason to shop. I told myself at the little break, but then, Giva's Black Friday sale is here up to 30% of starting 25th November. I mean, can you blame me? So don't say I didn't want you. Go find your favourite set at Giva.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.1,
+    "text": "Stop!"
+   },
+   {
+    "start": 3.1,
+    "end": 6,
+    "text": "A little warning before you watch this."
+   },
+   {
+    "start": 6,
+    "end": 11.6,
+    "text": "These jury sets come with a serious allegation of wanting more unexpected compliments, endless"
+   },
+   {
+    "start": 11.6,
+    "end": 15,
+    "text": "outfit planning and a sudden urge to own them all."
+   },
+   {
+    "start": 15,
+    "end": 20.2,
+    "text": "Ever since I got married, it's been one function after another and every occasion comes"
+   },
+   {
+    "start": 20.2,
+    "end": 22,
+    "text": "with a new reason to shop."
+   },
+   {
+    "start": 22,
+    "end": 27.6,
+    "text": "I told myself at the little break, but then, Giva's Black Friday sale is here up to 30%"
+   },
+   {
+    "start": 27.6,
+    "end": 29.9,
+    "text": "of starting 25th November."
+   },
+   {
+    "start": 29.9,
+    "end": 31.7,
+    "text": "I mean, can you blame me?"
+   },
+   {
+    "start": 31.7,
+    "end": 33.8,
+    "text": "So don't say I didn't want you."
+   },
+   {
+    "start": 33.8,
+    "end": 36.1,
+    "text": "Go find your favourite set at Giva."
+   }
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "asset": "3752132068284285",
+ "first_seen_in": "973511655827179",
+ "duration_s": 50.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 10.2,
+   "why": "scene change"
+  },
+  {
+   "t": 12.3,
+   "why": "scene change"
+  },
+  {
+   "t": 36.1,
+   "why": "scene change"
+  },
+  {
+   "t": 43.3,
+   "why": "scene change"
+  },
+  {
+   "t": 50.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "If you're obsessed with growth the way I am you know how important systems are. So let's go through what's in my bag for a regular cafe work block. This is the puffed tote I'm carrying today. It fits every single thing I need and I love the little charm on it. Now my phone typically has one of these two phone cases on it, this mint green one and then the cat one. I just switched depending on my mood but I find the cat one's so cute. I also stick this stack wallet at the back. It's slim and it holds my metro card so I don't have to dig through my bag every time. For content stuff I keep my mic and storage in this park that kid. It's a sturdy hard case so absolutely nothing gets damaged in the bag. Then my MacBook because obviously we're not getting any work done without it. And of course your phones because we always need music on the go. My Hippis Kishti is here so I'm getting to work. Thank you so much for watching.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.2,
+    "text": "If you're obsessed with growth the way I am you know how important systems are."
+   },
+   {
+    "start": 4.2,
+    "end": 7.8,
+    "text": "So let's go through what's in my bag for a regular cafe work block."
+   },
+   {
+    "start": 7.8,
+    "end": 10.4,
+    "text": "This is the puffed tote I'm carrying today."
+   },
+   {
+    "start": 10.4,
+    "end": 14.4,
+    "text": "It fits every single thing I need and I love the little charm on it."
+   },
+   {
+    "start": 14.4,
+    "end": 19.5,
+    "text": "Now my phone typically has one of these two phone cases on it, this mint green one and then the"
+   },
+   {
+    "start": 19.5,
+    "end": 24.7,
+    "text": "cat one. I just switched depending on my mood but I find the cat one's so cute."
+   },
+   {
+    "start": 24.7,
+    "end": 29.9,
+    "text": "I also stick this stack wallet at the back. It's slim and it holds my metro card so I don't"
+   },
+   {
+    "start": 29.9,
+    "end": 35.4,
+    "text": "have to dig through my bag every time. For content stuff I keep my mic and storage in this park"
+   },
+   {
+    "start": 35.4,
+    "end": 40.6,
+    "text": "that kid. It's a sturdy hard case so absolutely nothing gets damaged in the bag. Then my MacBook"
+   },
+   {
+    "start": 40.6,
+    "end": 44.9,
+    "text": "because obviously we're not getting any work done without it. And of course your phones because"
+   },
+   {
+    "start": 44.9,
+    "end": 50.1,
+    "text": "we always need music on the go. My Hippis Kishti is here so I'm getting to work. Thank you so much for"
+   },
+   {
+    "start": 50.1,
+    "end": 51.3,
+    "text": "watching."
+   }
+  ]
+ }
+}

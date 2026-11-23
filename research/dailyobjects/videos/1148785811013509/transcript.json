@@ -1,0 +1,120 @@
+{
+ "asset": "1148785811013509",
+ "first_seen_in": "1626584954996932",
+ "duration_s": 34.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.6,
+   "why": "scene change"
+  },
+  {
+   "t": 10.1,
+   "why": "scene change"
+  },
+  {
+   "t": 18.2,
+   "why": "scene change"
+  },
+  {
+   "t": 26.6,
+   "why": "scene change"
+  },
+  {
+   "t": 28.1,
+   "why": "scene change"
+  },
+  {
+   "t": 30.5,
+   "why": "scene change"
+  },
+  {
+   "t": 34.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "If you're in your 20s, it has your reason to gift yourself something super cute. Like I'm currently building my dream girl there and we're starting with my desk. So I picked out a few things from daily objects and I have a formula for a desk that is fun but does not take up all my space. First up, note, it's a lamp, a charging stand, all in one. We love and over-discheever guys. Next up, array. Because see, I have a million little things but unfortunately I do not have a million square feet of desk space. Also, it is stackable. Yeah, I think when your hobbies turn into something bigger, your space needs to keep up with you. Anyway, if you want to build your own girl there, comment, desk and I will send the product links to you.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 3.5,
+    "text": "If you're in your 20s, it has your reason to gift yourself something super cute."
+   },
+   {
+    "start": 3.5,
+    "end": 6.6,
+    "text": "Like I'm currently building my dream girl there and we're starting with my desk."
+   },
+   {
+    "start": 6.6,
+    "end": 11,
+    "text": "So I picked out a few things from daily objects and I have a formula for a desk that is fun"
+   },
+   {
+    "start": 11,
+    "end": 12.6,
+    "text": "but does not take up all my space."
+   },
+   {
+    "start": 12.6,
+    "end": 16.6,
+    "text": "First up, note, it's a lamp, a charging stand, all in one."
+   },
+   {
+    "start": 16.6,
+    "end": 18.2,
+    "text": "We love and over-discheever guys."
+   },
+   {
+    "start": 18.2,
+    "end": 19.2,
+    "text": "Next up, array."
+   },
+   {
+    "start": 19.2,
+    "end": 24.1,
+    "text": "Because see, I have a million little things but unfortunately I do not have a million square feet of desk space."
+   },
+   {
+    "start": 24.1,
+    "end": 26.1,
+    "text": "Also, it is stackable."
+   },
+   {
+    "start": 26.2,
+    "end": 30.5,
+    "text": "Yeah, I think when your hobbies turn into something bigger, your space needs to keep up with you."
+   },
+   {
+    "start": 30.5,
+    "end": 34.4,
+    "text": "Anyway, if you want to build your own girl there, comment, desk and I will send the product links to you."
+   }
+  ]
+ }
+}

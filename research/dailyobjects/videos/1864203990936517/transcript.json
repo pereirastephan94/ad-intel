@@ -1,0 +1,89 @@
+{
+ "asset": "1864203990936517",
+ "first_seen_in": "1587769119420000",
+ "duration_s": 24.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 8.2,
+   "why": "scene change"
+  },
+  {
+   "t": 9.7,
+   "why": "scene change"
+  },
+  {
+   "t": 11,
+   "why": "scene change"
+  },
+  {
+   "t": 12.7,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.5,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 21.5,
+   "why": "scene change"
+  },
+  {
+   "t": 24.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "What exactly did we have today? Learn a new way. Then there is again, your can",
+  "segments": [
+   {
+    "start": 0,
+    "end": 12,
+    "text": "What exactly did we have today?"
+   },
+   {
+    "start": 12,
+    "end": 20.6,
+    "text": "Learn a new way."
+   },
+   {
+    "start": 20.6,
+    "end": 21.8,
+    "text": "Then there is again,"
+   },
+   {
+    "start": 21.8,
+    "end": 22.8,
+    "text": "your can"
+   }
+  ]
+ }
+}

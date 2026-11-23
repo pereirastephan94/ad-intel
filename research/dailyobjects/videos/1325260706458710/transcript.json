@@ -1,0 +1,51 @@
+{
+ "asset": "1325260706458710",
+ "first_seen_in": "2006853093331617",
+ "duration_s": 20.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 16.4,
+   "why": "scene change"
+  },
+  {
+   "t": 19.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Without 있다고, my heart unwavering Park is bracken. Walk...",
+  "segments": [
+   {
+    "start": 0,
+    "end": 9.1,
+    "text": "Without 있다고, my heart unwavering Park is bracken."
+   },
+   {
+    "start": 9.1,
+    "end": 19.6,
+    "text": "Walk..."
+   }
+  ]
+ }
+}

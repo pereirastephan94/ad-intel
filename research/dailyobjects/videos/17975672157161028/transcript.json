@@ -1,0 +1,25 @@
+{
+ "asset": "17975672157161028",
+ "first_seen_in": "1145242458447678",
+ "duration_s": 2.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  }
+ ],
+ "transcript": null,
+ "transcript_error": "This video has no audio track."
+}

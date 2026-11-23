@@ -1,0 +1,147 @@
+{
+ "asset": "1631040661736872",
+ "first_seen_in": "4594272790820701",
+ "duration_s": 36.6,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 8.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.7,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 20.4,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "scene change"
+  },
+  {
+   "t": 25.3,
+   "why": "scene change"
+  },
+  {
+   "t": 27.3,
+   "why": "scene change"
+  },
+  {
+   "t": 32,
+   "why": "scene change"
+  },
+  {
+   "t": 36.3,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Guys, I just got myself new iPhone 17 Pro and here are 4 cases that I'm obsessed with. First, Lagoon Loop. It has such a bgc shell wipe. This one's my favorite and I love that it looks good while keeping my phone protected. Then, fake. The silver on the phone looks so good with it and it works with Naxave which makes wireless charging super convenient. Next, to allow it blue. The leather it feels is so nice and it's sweat and fingerprint resistant. So it stays looking clean. Both the Aliyah Red has the same premium leather like feel and red is always a good pick. Honestly, I love switching my cases depending on the outfit and mood. So which one would you pick? Chalibai, the other one.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.9,
+    "text": "Guys, I just got myself new iPhone 17 Pro and here are 4 cases that I'm obsessed with."
+   },
+   {
+    "start": 5.9,
+    "end": 6.9,
+    "text": "First, Lagoon Loop."
+   },
+   {
+    "start": 6.9,
+    "end": 8.9,
+    "text": "It has such a bgc shell wipe."
+   },
+   {
+    "start": 8.9,
+    "end": 12.9,
+    "text": "This one's my favorite and I love that it looks good while keeping my phone protected."
+   },
+   {
+    "start": 12.9,
+    "end": 13.9,
+    "text": "Then, fake."
+   },
+   {
+    "start": 13.9,
+    "end": 18.1,
+    "text": "The silver on the phone looks so good with it and it works with Naxave which makes wireless"
+   },
+   {
+    "start": 18.1,
+    "end": 19.4,
+    "text": "charging super convenient."
+   },
+   {
+    "start": 19.4,
+    "end": 21,
+    "text": "Next, to allow it blue."
+   },
+   {
+    "start": 21,
+    "end": 24.7,
+    "text": "The leather it feels is so nice and it's sweat and fingerprint resistant."
+   },
+   {
+    "start": 24.7,
+    "end": 26,
+    "text": "So it stays looking clean."
+   },
+   {
+    "start": 26,
+    "end": 30.7,
+    "text": "Both the Aliyah Red has the same premium leather like feel and red is always a good pick."
+   },
+   {
+    "start": 30.7,
+    "end": 34.2,
+    "text": "Honestly, I love switching my cases depending on the outfit and mood."
+   },
+   {
+    "start": 34.2,
+    "end": 35.4,
+    "text": "So which one would you pick?"
+   },
+   {
+    "start": 35.4,
+    "end": 36.6,
+    "text": "Chalibai, the other one."
+   }
+  ]
+ }
+}

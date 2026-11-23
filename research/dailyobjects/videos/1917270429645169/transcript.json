@@ -1,0 +1,42 @@
+{
+ "asset": "1917270429645169",
+ "first_seen_in": "2551011332075229",
+ "duration_s": 8.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 8,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "i",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.8,
+    "text": "i"
+   }
+  ]
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "asset": "1011624121965699",
+ "first_seen_in": "1788239835589553",
+ "duration_s": 45.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.9,
+   "why": "scene change"
+  },
+  {
+   "t": 17.6,
+   "why": "scene change"
+  },
+  {
+   "t": 18.3,
+   "why": "scene change"
+  },
+  {
+   "t": 20,
+   "why": "scene change"
+  },
+  {
+   "t": 20.7,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 27,
+   "why": "scene change"
+  },
+  {
+   "t": 37.5,
+   "why": "scene change"
+  },
+  {
+   "t": 38.3,
+   "why": "scene change"
+  },
+  {
+   "t": 45.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I don't believe in living in the moment because I want to document everything. Pictures, videos, more pictures and everything in between. So naturally my phone is at 13% most of the times which is why I carry loop from daily objects. It is a 10,000 mah power bank that can fully charge my phone twice in one day. But listen, if I'm carrying my phone everywhere I want it to do more. That's where stat comes in. It's a phone case that lets me add a lanyard, a wallet for my handy cash and cards, plus a bunch of other add-ons I can switch between. So when you spend a few hours with your friends and then come back home with this little ball of glowing light in your chest. Yeah, I want to hold on to that. I don't want to live this legend, wait for it, deri time and never live it again. So loop keeps me charged, stat keeps me sorted and I keep documenting every little moment.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4,
+    "text": "I don't believe in living in the moment because I want to document everything."
+   },
+   {
+    "start": 4,
+    "end": 8,
+    "text": "Pictures, videos, more pictures and everything in between."
+   },
+   {
+    "start": 8,
+    "end": 13,
+    "text": "So naturally my phone is at 13% most of the times which is why I carry loop from daily objects."
+   },
+   {
+    "start": 13,
+    "end": 18,
+    "text": "It is a 10,000 mah power bank that can fully charge my phone twice in one day."
+   },
+   {
+    "start": 18,
+    "end": 21,
+    "text": "But listen, if I'm carrying my phone everywhere I want it to do more."
+   },
+   {
+    "start": 21,
+    "end": 24,
+    "text": "That's where stat comes in. It's a phone case that lets me add a lanyard,"
+   },
+   {
+    "start": 24,
+    "end": 29,
+    "text": "a wallet for my handy cash and cards, plus a bunch of other add-ons I can switch between."
+   },
+   {
+    "start": 29,
+    "end": 34,
+    "text": "So when you spend a few hours with your friends and then come back home with this little ball of glowing light in your chest."
+   },
+   {
+    "start": 34,
+    "end": 36,
+    "text": "Yeah, I want to hold on to that."
+   },
+   {
+    "start": 36,
+    "end": 38,
+    "text": "I don't want to live this legend, wait for it,"
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "deri time and never live it again."
+   },
+   {
+    "start": 40,
+    "end": 45,
+    "text": "So loop keeps me charged, stat keeps me sorted and I keep documenting every little moment."
+   }
+  ]
+ }
+}

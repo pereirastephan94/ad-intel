@@ -1,0 +1,127 @@
+{
+ "asset": "2526064447807939",
+ "first_seen_in": "1457780296455244",
+ "duration_s": 34.7,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4,
+   "why": "scene change"
+  },
+  {
+   "t": 10.8,
+   "why": "scene change"
+  },
+  {
+   "t": 13.4,
+   "why": "scene change"
+  },
+  {
+   "t": 14.9,
+   "why": "scene change"
+  },
+  {
+   "t": 17.2,
+   "why": "scene change"
+  },
+  {
+   "t": 19.3,
+   "why": "scene change"
+  },
+  {
+   "t": 21.9,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 25.6,
+   "why": "scene change"
+  },
+  {
+   "t": 32.1,
+   "why": "scene change"
+  },
+  {
+   "t": 34.4,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "9-1-1, watch out my car. There's been a robbery. Jeeva has been stealing all my attention lately and honestly I have evidence. It started with one Jeeva piece and then another. Now every outfit starts with Jeeva. Every look feels more put together and every detail feels more stylish. And these pieces made the headlines and that's the Jeeva effect. Oh yes, Jeeva is absolutely the culprit and I have no plans to stop because Krendi Dool Rae just hits different and Jeeva became my go to place. Rajay.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.7,
+    "text": "9-1-1, watch out my car."
+   },
+   {
+    "start": 2.7,
+    "end": 4,
+    "text": "There's been a robbery."
+   },
+   {
+    "start": 4,
+    "end": 9.4,
+    "text": "Jeeva has been stealing all my attention lately and honestly I have evidence."
+   },
+   {
+    "start": 9.4,
+    "end": 12.1,
+    "text": "It started with one Jeeva piece and then another."
+   },
+   {
+    "start": 12.1,
+    "end": 14.5,
+    "text": "Now every outfit starts with Jeeva."
+   },
+   {
+    "start": 14.5,
+    "end": 18.7,
+    "text": "Every look feels more put together and every detail feels more stylish."
+   },
+   {
+    "start": 18.7,
+    "end": 22.3,
+    "text": "And these pieces made the headlines and that's the Jeeva effect."
+   },
+   {
+    "start": 22.3,
+    "end": 27.8,
+    "text": "Oh yes, Jeeva is absolutely the culprit and I have no plans to stop because"
+   },
+   {
+    "start": 27.8,
+    "end": 32,
+    "text": "Krendi Dool Rae just hits different and Jeeva became my go to place."
+   },
+   {
+    "start": 32,
+    "end": 33,
+    "text": "Rajay."
+   }
+  ]
+ }
+}

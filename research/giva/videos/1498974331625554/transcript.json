@@ -1,0 +1,81 @@
+{
+ "asset": "1498974331625554",
+ "first_seen_in": "1655569609248443",
+ "duration_s": 25.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.8,
+   "why": "scene change"
+  },
+  {
+   "t": 4.9,
+   "why": "scene change"
+  },
+  {
+   "t": 9.4,
+   "why": "scene change"
+  },
+  {
+   "t": 9.5,
+   "why": "scene change"
+  },
+  {
+   "t": 15.6,
+   "why": "scene change"
+  },
+  {
+   "t": 15.7,
+   "why": "scene change"
+  },
+  {
+   "t": 25.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Ok, I was not expecting this to look so good in person. The little zircon stars catch light in the prettiest way. Its light weed enough to wear every day and the packaging makes it a perfect gift. If you are on the fence just get it.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.1,
+    "text": "Ok, I was not expecting this to look so good in person."
+   },
+   {
+    "start": 5.1,
+    "end": 10,
+    "text": "The little zircon stars catch light in the prettiest way."
+   },
+   {
+    "start": 10,
+    "end": 16.4,
+    "text": "Its light weed enough to wear every day and the packaging makes it a perfect gift."
+   },
+   {
+    "start": 16.4,
+    "end": 18.6,
+    "text": "If you are on the fence just get it."
+   }
+  ]
+ }
+}

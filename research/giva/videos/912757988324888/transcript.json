@@ -1,0 +1,97 @@
+{
+ "asset": "912757988324888",
+ "first_seen_in": "1618294676370194",
+ "duration_s": 37.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.9,
+   "why": "scene change"
+  },
+  {
+   "t": 4.6,
+   "why": "scene change"
+  },
+  {
+   "t": 5.6,
+   "why": "scene change"
+  },
+  {
+   "t": 9.2,
+   "why": "scene change"
+  },
+  {
+   "t": 11.8,
+   "why": "scene change"
+  },
+  {
+   "t": 17.8,
+   "why": "scene change"
+  },
+  {
+   "t": 19.2,
+   "why": "scene change"
+  },
+  {
+   "t": 20.1,
+   "why": "scene change"
+  },
+  {
+   "t": 21.8,
+   "why": "scene change"
+  },
+  {
+   "t": 22.6,
+   "why": "scene change"
+  },
+  {
+   "t": 36.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Looks like a plan just happened. And of course I have exactly 30 minutes. Obviously Jeeba had to be part of the look. Unique designs made to last from brunch to girls night.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7,
+    "text": "Looks like a plan just happened."
+   },
+   {
+    "start": 7,
+    "end": 12,
+    "text": "And of course I have exactly 30 minutes."
+   },
+   {
+    "start": 12,
+    "end": 29,
+    "text": "Obviously Jeeba had to be part of the look."
+   },
+   {
+    "start": 29,
+    "end": 36,
+    "text": "Unique designs made to last from brunch to girls night."
+   }
+  ]
+ }
+}

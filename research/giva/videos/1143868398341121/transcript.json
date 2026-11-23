@@ -1,0 +1,117 @@
+{
+ "asset": "1143868398341121",
+ "first_seen_in": "2121373598516440",
+ "duration_s": 44.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 17.4,
+   "why": "scene change"
+  },
+  {
+   "t": 19,
+   "why": "scene change"
+  },
+  {
+   "t": 23.7,
+   "why": "scene change"
+  },
+  {
+   "t": 25.8,
+   "why": "scene change"
+  },
+  {
+   "t": 27.4,
+   "why": "scene change"
+  },
+  {
+   "t": 29.6,
+   "why": "scene change"
+  },
+  {
+   "t": 31.1,
+   "why": "scene change"
+  },
+  {
+   "t": 32.7,
+   "why": "scene change"
+  },
+  {
+   "t": 36,
+   "why": "scene change"
+  },
+  {
+   "t": 44.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "Guys you know what? So as I was saying... Anyways guys I was just saying... Okay don't judge me but do you want to know what I've been getting? Okay so clearly I've been treating myself but I have a good reason. Jeva's Black Friday series coming up with a 30% off starting 25th November. And obviously I couldn't keep this little secret to myself so get your wishlist ready because we are shopping together. Because honestly some things are too good to leave in your wishlist.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.2,
+    "text": "Guys you know what?"
+   },
+   {
+    "start": 4.8,
+    "end": 6.3,
+    "text": "So as I was saying..."
+   },
+   {
+    "start": 8.6,
+    "end": 10.6,
+    "text": "Anyways guys I was just saying..."
+   },
+   {
+    "start": 12.5,
+    "end": 16.7,
+    "text": "Okay don't judge me but do you want to know what I've been getting?"
+   },
+   {
+    "start": 22.1,
+    "end": 25.3,
+    "text": "Okay so clearly I've been treating myself but I have a good reason."
+   },
+   {
+    "start": 25.3,
+    "end": 30,
+    "text": "Jeva's Black Friday series coming up with a 30% off starting 25th November."
+   },
+   {
+    "start": 30,
+    "end": 33.8,
+    "text": "And obviously I couldn't keep this little secret to myself so get your wishlist ready"
+   },
+   {
+    "start": 33.8,
+    "end": 38.9,
+    "text": "because we are shopping together. Because honestly some things are too good to leave in your wishlist."
+   }
+  ]
+ }
+}

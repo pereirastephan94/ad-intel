@@ -1,0 +1,317 @@
+{
+ "asset": "1634508644721616",
+ "first_seen_in": "1519936816608280",
+ "duration_s": 81.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.2,
+   "why": "scene change"
+  },
+  {
+   "t": 9.9,
+   "why": "scene change"
+  },
+  {
+   "t": 15.8,
+   "why": "scene change"
+  },
+  {
+   "t": 25.2,
+   "why": "scene change"
+  },
+  {
+   "t": 31.8,
+   "why": "scene change"
+  },
+  {
+   "t": 39.9,
+   "why": "scene change"
+  },
+  {
+   "t": 46.8,
+   "why": "scene change"
+  },
+  {
+   "t": 53.6,
+   "why": "scene change"
+  },
+  {
+   "t": 62.3,
+   "why": "scene change"
+  },
+  {
+   "t": 71.3,
+   "why": "scene change"
+  },
+  {
+   "t": 81,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "hi",
+  "text": "چی کی ماری چی ملمشا دیو رہی ہے 5 5 Thank you There's a very important contract and you need to sign The official gifting contract Cancelation not an option Of course not an option First class Important dates Burdays, anniversaries, Valentine's Basically any important date that's important to me should be important date What about the random dates? That brings me to my next point Random gifts Like remember how you gifted me this jiu jiu jiu jiu on a random day Something like that I absolutely adore this next piece How freedom looking it is And it's anti-tarnish Exactly the kind of jiu jiu jiu women can kill for So I have to give you a really random date right? No You don't buy jiu jiu randomly You never buy jiu jiu random dates You buy it thoughtfully Last and final class Do not ask the following questions What is this? Do you need this? Why does it need so much? That is again which flag? Red flag See how trained are you? I would like you to sign please How am I supposed to sign this? I'm not this easy for you You actually print the Yes You actually promise to abide by all the rules I promise Same as jiu jiu jiu and it's anti-tarnish promise Same as jiu jiu and it's anti-tarnish promise Alright Pleasure doing business with you Sign this and sign it to me I will",
+  "segments": [
+   {
+    "start": 0,
+    "end": 1.6,
+    "text": "چی کی ماری چی ملمشا دیو رہی ہے"
+   },
+   {
+    "start": 1.6,
+    "end": 2.4,
+    "text": "5"
+   },
+   {
+    "start": 2.4,
+    "end": 3.1,
+    "text": "5"
+   },
+   {
+    "start": 3.1,
+    "end": 4.1,
+    "text": "Thank you"
+   },
+   {
+    "start": 4.1,
+    "end": 6.1,
+    "text": "There's a very important contract and you need to sign"
+   },
+   {
+    "start": 6.1,
+    "end": 8.4,
+    "text": "The official gifting contract"
+   },
+   {
+    "start": 9.4,
+    "end": 10.8,
+    "text": "Cancelation not an option"
+   },
+   {
+    "start": 10.8,
+    "end": 11.9,
+    "text": "Of course not an option"
+   },
+   {
+    "start": 11.9,
+    "end": 12.8,
+    "text": "First class"
+   },
+   {
+    "start": 12.8,
+    "end": 13.9,
+    "text": "Important dates"
+   },
+   {
+    "start": 13.9,
+    "end": 16.7,
+    "text": "Burdays, anniversaries, Valentine's"
+   },
+   {
+    "start": 16.7,
+    "end": 19.1,
+    "text": "Basically any important date that's important to me"
+   },
+   {
+    "start": 19.1,
+    "end": 20.2,
+    "text": "should be important date"
+   },
+   {
+    "start": 20.2,
+    "end": 21.4,
+    "text": "What about the random dates?"
+   },
+   {
+    "start": 21.4,
+    "end": 23,
+    "text": "That brings me to my next point"
+   },
+   {
+    "start": 23,
+    "end": 24.2,
+    "text": "Random gifts"
+   },
+   {
+    "start": 24.2,
+    "end": 27.3,
+    "text": "Like remember how you gifted me this jiu jiu jiu jiu on a random day"
+   },
+   {
+    "start": 27.3,
+    "end": 28.4,
+    "text": "Something like that"
+   },
+   {
+    "start": 28.4,
+    "end": 30.6,
+    "text": "I absolutely adore this next piece"
+   },
+   {
+    "start": 30.6,
+    "end": 32.1,
+    "text": "How freedom looking it is"
+   },
+   {
+    "start": 32.1,
+    "end": 33.9,
+    "text": "And it's anti-tarnish"
+   },
+   {
+    "start": 33.9,
+    "end": 36.7,
+    "text": "Exactly the kind of jiu jiu jiu women can kill for"
+   },
+   {
+    "start": 36.7,
+    "end": 38.7,
+    "text": "So I have to give you a really random date right?"
+   },
+   {
+    "start": 38.7,
+    "end": 39.6,
+    "text": "No"
+   },
+   {
+    "start": 39.6,
+    "end": 41.2,
+    "text": "You don't buy jiu jiu randomly"
+   },
+   {
+    "start": 41.2,
+    "end": 43.4,
+    "text": "You never buy jiu jiu random dates"
+   },
+   {
+    "start": 43.4,
+    "end": 44.7,
+    "text": "You buy it thoughtfully"
+   },
+   {
+    "start": 44.7,
+    "end": 46,
+    "text": "Last and final class"
+   },
+   {
+    "start": 46,
+    "end": 48,
+    "text": "Do not ask the following questions"
+   },
+   {
+    "start": 48,
+    "end": 49.3,
+    "text": "What is this?"
+   },
+   {
+    "start": 49.3,
+    "end": 50.8,
+    "text": "Do you need this?"
+   },
+   {
+    "start": 50.8,
+    "end": 53,
+    "text": "Why does it need so much?"
+   },
+   {
+    "start": 53,
+    "end": 54.9,
+    "text": "That is again which flag?"
+   },
+   {
+    "start": 54.9,
+    "end": 55.9,
+    "text": "Red flag"
+   },
+   {
+    "start": 55.9,
+    "end": 58,
+    "text": "See how trained are you?"
+   },
+   {
+    "start": 58,
+    "end": 60,
+    "text": "I would like you to sign please"
+   },
+   {
+    "start": 60,
+    "end": 61.6,
+    "text": "How am I supposed to sign this?"
+   },
+   {
+    "start": 61.6,
+    "end": 62.4,
+    "text": "I'm not this easy for you"
+   },
+   {
+    "start": 62.4,
+    "end": 63.5,
+    "text": "You actually print the"
+   },
+   {
+    "start": 63.5,
+    "end": 64.1,
+    "text": "Yes"
+   },
+   {
+    "start": 64.1,
+    "end": 66.3,
+    "text": "You actually promise to abide by all the rules"
+   },
+   {
+    "start": 66.3,
+    "end": 67.5,
+    "text": "I promise"
+   },
+   {
+    "start": 67.5,
+    "end": 69.4,
+    "text": "Same as jiu jiu jiu and it's anti-tarnish promise"
+   },
+   {
+    "start": 69.4,
+    "end": 71.7,
+    "text": "Same as jiu jiu and it's anti-tarnish promise"
+   },
+   {
+    "start": 71.7,
+    "end": 72.5,
+    "text": "Alright"
+   },
+   {
+    "start": 72.5,
+    "end": 73.8,
+    "text": "Pleasure doing business with you"
+   },
+   {
+    "start": 73.8,
+    "end": 75.2,
+    "text": "Sign this and sign it to me"
+   },
+   {
+    "start": 75.2,
+    "end": 76.2,
+    "text": "I will"
+   }
+  ]
+ }
+}

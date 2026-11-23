@@ -1017,5 +1017,39 @@
   "sample_views": {
    "all": 30
   }
+ },
+ "1594583851628685": {
+  "library_id": "1594583851628685",
+  "link": "https://www.facebook.com/ads/library/?id=1594583851628685",
+  "page_id": "877758885907009",
+  "page_name": "Mokobara",
+  "is_active": true,
+  "start_date": "2026-05-18",
+  "days_running": 189,
+  "media_type": "DPA",
+  "body": "No matter where you’re going, we’ll get you there feeling like a million bucks. Discover Mokobara.",
+  "headline": "{{product.name}}",
+  "link_description": "Elevate the joy of travel with Mokobara. Shop thoughtfully designed luggage & suitcase bags, travel bags, duffels, and backpacks. Made for modern travel.",
+  "cta": "Shop now",
+  "landing_url": "https://mokobara.com/",
+  "video_url": null,
+  "thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/702273219_1545929820467307_8945705386128964905_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6OlA0rK1_-sQ7kNvwEQOYmI&_nc_oc=AdqJ2llmbsZtGeUEHeDFfTEO3052i4jwe9_l2VN2pEAMGycbd2aENvu_QkpimVQe6qY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=xwsYg2gBBl_dgJP0uByLNA&_nc_ss=7b289&oh=00_AQRC288IW3_PPZizQoOzK6GSyknVb-puTWQFOz3LjrUolA&oe=6B09D5E1",
+  "copies": 1,
+  "platforms": [
+   "FACEBOOK",
+   "INSTAGRAM",
+   "MESSENGER",
+   "THREADS"
+  ],
+  "extra": {
+   "cards": 6,
+   "display_format": "DPA",
+   "categories": [
+    "Bags & Luggage"
+   ]
+  },
+  "sample_views": {
+   "image": 1
+  }
  }
 }

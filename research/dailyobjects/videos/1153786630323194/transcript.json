@@ -1,0 +1,112 @@
+{
+ "asset": "1153786630323194",
+ "first_seen_in": "2312384699609513",
+ "duration_s": 23.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.7,
+   "why": "scene change"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 9.8,
+   "why": "scene change"
+  },
+  {
+   "t": 10.7,
+   "why": "scene change"
+  },
+  {
+   "t": 13.2,
+   "why": "scene change"
+  },
+  {
+   "t": 15,
+   "why": "scene change"
+  },
+  {
+   "t": 17,
+   "why": "scene change"
+  },
+  {
+   "t": 18,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 21.2,
+   "why": "scene change"
+  },
+  {
+   "t": 22.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "I finally found a backpack that fits all my shoot essentials and actually looks good. As a content creator I'm always carrying my camera, iPad, skincare essentials and a couple of accessories. So I got myself the pivot backpack from daily objects and now everything fits in one place. And the best part, it actually goes with my outfit so I don't have to compromise on style. One less thing to worry about before heading out for a shoot.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.3,
+    "text": "I finally found a backpack that fits all my shoot essentials and actually looks good."
+   },
+   {
+    "start": 4.3,
+    "end": 9.5,
+    "text": "As a content creator I'm always carrying my camera, iPad, skincare essentials and a couple"
+   },
+   {
+    "start": 9.5,
+    "end": 10.5,
+    "text": "of accessories."
+   },
+   {
+    "start": 10.5,
+    "end": 15.4,
+    "text": "So I got myself the pivot backpack from daily objects and now everything fits in one"
+   },
+   {
+    "start": 15.4,
+    "end": 16.4,
+    "text": "place."
+   },
+   {
+    "start": 16.4,
+    "end": 20.6,
+    "text": "And the best part, it actually goes with my outfit so I don't have to compromise on style."
+   },
+   {
+    "start": 20.6,
+    "end": 23,
+    "text": "One less thing to worry about before heading out for a shoot."
+   }
+  ]
+ }
+}

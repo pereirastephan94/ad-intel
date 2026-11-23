@@ -1,0 +1,100 @@
+{
+ "asset": "1442842164628257",
+ "first_seen_in": "1136260058896288",
+ "duration_s": 24.8,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 7.4,
+   "why": "scene change"
+  },
+  {
+   "t": 11.7,
+   "why": "scene change"
+  },
+  {
+   "t": 17.9,
+   "why": "scene change"
+  },
+  {
+   "t": 19.1,
+   "why": "scene change"
+  },
+  {
+   "t": 20.2,
+   "why": "scene change"
+  },
+  {
+   "t": 21.1,
+   "why": "scene change"
+  },
+  {
+   "t": 22.1,
+   "why": "scene change"
+  },
+  {
+   "t": 24.5,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "nn",
+  "text": "1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4,
+    "text": "1.5%"
+   },
+   {
+    "start": 4,
+    "end": 8,
+    "text": "1.5%"
+   },
+   {
+    "start": 8,
+    "end": 12,
+    "text": "1.5%"
+   },
+   {
+    "start": 12,
+    "end": 16,
+    "text": "1.5%"
+   },
+   {
+    "start": 16,
+    "end": 20,
+    "text": "1.5%"
+   },
+   {
+    "start": 20,
+    "end": 24,
+    "text": "1.5%"
+   },
+   {
+    "start": 24,
+    "end": 28,
+    "text": "1.5%"
+   }
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "asset": "1444251487520294",
+ "first_seen_in": "1382365270334356",
+ "duration_s": 45.3,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.7,
+   "why": "scene change"
+  },
+  {
+   "t": 7,
+   "why": "scene change"
+  },
+  {
+   "t": 10.1,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 17.4,
+   "why": "scene change"
+  },
+  {
+   "t": 21.7,
+   "why": "scene change"
+  },
+  {
+   "t": 23.5,
+   "why": "scene change"
+  },
+  {
+   "t": 26.9,
+   "why": "scene change"
+  },
+  {
+   "t": 30.2,
+   "why": "scene change"
+  },
+  {
+   "t": 35.9,
+   "why": "scene change"
+  },
+  {
+   "t": 45,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "pt",
+  "text": "Despeda, se fico roca, rascante e aspira um trascino, desliza de lado, com mesa teu rio, peciro em que cadinho.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 24,
+    "text": "Despeda, se fico roca, rascante e aspira um trascino, desliza de lado, com mesa teu rio, peciro em que cadinho."
+   }
+  ]
+ }
+}

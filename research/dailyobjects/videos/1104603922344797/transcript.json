@@ -1,0 +1,152 @@
+{
+ "asset": "1104603922344797",
+ "first_seen_in": "40409194465345644",
+ "duration_s": 42.2,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.2,
+   "why": "scene change"
+  },
+  {
+   "t": 8.9,
+   "why": "scene change"
+  },
+  {
+   "t": 9.7,
+   "why": "scene change"
+  },
+  {
+   "t": 16.8,
+   "why": "scene change"
+  },
+  {
+   "t": 20.8,
+   "why": "scene change"
+  },
+  {
+   "t": 23,
+   "why": "scene change"
+  },
+  {
+   "t": 24.7,
+   "why": "scene change"
+  },
+  {
+   "t": 32.5,
+   "why": "scene change"
+  },
+  {
+   "t": 36.4,
+   "why": "scene change"
+  },
+  {
+   "t": 38.8,
+   "why": "scene change"
+  },
+  {
+   "t": 41.9,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "You think your phone case is just meant for protection? Think again. Meet Stack by Daily Objects. Let me show you how this system makes my life easier. The wallet attaches directly to the phone case. It holds my ID, debit card and a little bit of cash. That's one less thing to carry and it doubles up as a phone stand. When I need to set up a short, the kickstand comes in handy. The grip makes it easier to hold the phone without constantly worrying about dropping it. And when I'm shooting in my hands a busy, the lanyard keeps my phone hands free so I can take BTS footage on the go. The best part about this system is that everything attaches to the phone case. So I can swap things in and out as in a neat. It's functional, modular and colourful. And that's pretty much everything I want from the things that I carry every day.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.6,
+    "text": "You think your phone case is just meant for protection?"
+   },
+   {
+    "start": 2.6,
+    "end": 3.6,
+    "text": "Think again."
+   },
+   {
+    "start": 3.6,
+    "end": 5.8,
+    "text": "Meet Stack by Daily Objects."
+   },
+   {
+    "start": 5.8,
+    "end": 8.6,
+    "text": "Let me show you how this system makes my life easier."
+   },
+   {
+    "start": 8.6,
+    "end": 10.8,
+    "text": "The wallet attaches directly to the phone case."
+   },
+   {
+    "start": 10.8,
+    "end": 13.4,
+    "text": "It holds my ID, debit card and a little bit of cash."
+   },
+   {
+    "start": 13.4,
+    "end": 16.8,
+    "text": "That's one less thing to carry and it doubles up as a phone stand."
+   },
+   {
+    "start": 16.8,
+    "end": 19.8,
+    "text": "When I need to set up a short, the kickstand comes in handy."
+   },
+   {
+    "start": 20.8,
+    "end": 24,
+    "text": "The grip makes it easier to hold the phone without constantly worrying about dropping it."
+   },
+   {
+    "start": 24,
+    "end": 27.8,
+    "text": "And when I'm shooting in my hands a busy, the lanyard keeps my phone hands free"
+   },
+   {
+    "start": 27.8,
+    "end": 29.8,
+    "text": "so I can take BTS footage on the go."
+   },
+   {
+    "start": 30.2,
+    "end": 33.8,
+    "text": "The best part about this system is that everything attaches to the phone case."
+   },
+   {
+    "start": 33.8,
+    "end": 36.4,
+    "text": "So I can swap things in and out as in a neat."
+   },
+   {
+    "start": 36.4,
+    "end": 38.8,
+    "text": "It's functional, modular and colourful."
+   },
+   {
+    "start": 38.8,
+    "end": 42,
+    "text": "And that's pretty much everything I want from the things that I carry every day."
+   }
+  ]
+ }
+}

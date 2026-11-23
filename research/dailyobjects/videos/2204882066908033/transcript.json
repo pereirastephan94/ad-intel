@@ -1,0 +1,117 @@
+{
+ "asset": "2204882066908033",
+ "first_seen_in": "28976750415325681",
+ "duration_s": 42,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 3.5,
+   "why": "scene change"
+  },
+  {
+   "t": 7.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.5,
+   "why": "scene change"
+  },
+  {
+   "t": 16.1,
+   "why": "scene change"
+  },
+  {
+   "t": 19.9,
+   "why": "scene change"
+  },
+  {
+   "t": 24,
+   "why": "scene change"
+  },
+  {
+   "t": 27.1,
+   "why": "scene change"
+  },
+  {
+   "t": 30.9,
+   "why": "scene change"
+  },
+  {
+   "t": 34,
+   "why": "scene change"
+  },
+  {
+   "t": 37.2,
+   "why": "scene change"
+  },
+  {
+   "t": 41.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "The desk is where my ideas come to life. I spend a substantial amount of time working at my desk, be it for office work, editing for content, paying down ideas, and the best way to transition between these workflows is by an anchor that holds all the things I need. The array from daily objects is such an organizer that holds the things I need, compartmentalized and need clean sections. Different tasks demand different tools. Some reach out to more often than the others. The array makes room to accommodate all types. From its storage trays, a pen stand to provisions for cables. And while you're at it, don't forget to give it a little personal touch. After all, it's your desk, your space, and an array of ideas waiting to come alive.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.1,
+    "text": "The desk is where my ideas come to life. I spend a substantial amount of time working at my desk,"
+   },
+   {
+    "start": 5.1,
+    "end": 10.3,
+    "text": "be it for office work, editing for content, paying down ideas, and the best way to transition"
+   },
+   {
+    "start": 10.3,
+    "end": 15.4,
+    "text": "between these workflows is by an anchor that holds all the things I need. The array from daily"
+   },
+   {
+    "start": 15.4,
+    "end": 21.3,
+    "text": "objects is such an organizer that holds the things I need, compartmentalized and need clean sections."
+   },
+   {
+    "start": 21.3,
+    "end": 26.1,
+    "text": "Different tasks demand different tools. Some reach out to more often than the others."
+   },
+   {
+    "start": 26.1,
+    "end": 31.4,
+    "text": "The array makes room to accommodate all types. From its storage trays, a pen stand to provisions"
+   },
+   {
+    "start": 31.4,
+    "end": 36.2,
+    "text": "for cables. And while you're at it, don't forget to give it a little personal touch. After all,"
+   },
+   {
+    "start": 36.2,
+    "end": 42,
+    "text": "it's your desk, your space, and an array of ideas waiting to come alive."
+   }
+  ]
+ }
+}

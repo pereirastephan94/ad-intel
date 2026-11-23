@@ -1,0 +1,81 @@
+{
+ "asset": "1675773990788472",
+ "first_seen_in": "1757183232006825",
+ "duration_s": 34.4,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 28.9,
+   "why": "scene change"
+  },
+  {
+   "t": 34.1,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "The things you carry in your bag says a lot about you. Here are some of my things that are always in my bag. Number one is my phone obviously and unfortunately. Number two is my power bank to always keep my phone going. I had been eyeing this one specifically from daily objects. This is their loop power bank. I love how sleek and convenient this is. I got a 20,000 image so it caught me and my sisters. And it has this tiny stand so I can scroll or work uninterrupted. Very important. Number three will be the book that I'm currently reading. This is Sheehan by Annie Ernault. A reading lamp comes in very handy when you're stuck in traffic. These mere objects together make me feel prepared, secure and powerful. So what are some of your daily objects?",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.6,
+    "text": "The things you carry in your bag says a lot about you. Here are some of my things that are always in my bag."
+   },
+   {
+    "start": 4.6,
+    "end": 9.8,
+    "text": "Number one is my phone obviously and unfortunately. Number two is my power bank to always keep my phone going."
+   },
+   {
+    "start": 9.8,
+    "end": 13.9,
+    "text": "I had been eyeing this one specifically from daily objects. This is their loop power bank."
+   },
+   {
+    "start": 13.9,
+    "end": 18.3,
+    "text": "I love how sleek and convenient this is. I got a 20,000 image so it caught me and my sisters."
+   },
+   {
+    "start": 18.3,
+    "end": 22.8,
+    "text": "And it has this tiny stand so I can scroll or work uninterrupted. Very important."
+   },
+   {
+    "start": 22.8,
+    "end": 26.2,
+    "text": "Number three will be the book that I'm currently reading. This is Sheehan by Annie Ernault."
+   },
+   {
+    "start": 26.2,
+    "end": 32.6,
+    "text": "A reading lamp comes in very handy when you're stuck in traffic. These mere objects together make me feel prepared, secure and powerful."
+   },
+   {
+    "start": 32.6,
+    "end": 34.6,
+    "text": "So what are some of your daily objects?"
+   }
+  ]
+ }
+}

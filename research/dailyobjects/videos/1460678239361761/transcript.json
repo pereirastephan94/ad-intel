@@ -1,0 +1,132 @@
+{
+ "asset": "1460678239361761",
+ "first_seen_in": "1668887338277124",
+ "duration_s": 38,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 6.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10,
+   "why": "scene change"
+  },
+  {
+   "t": 12.1,
+   "why": "scene change"
+  },
+  {
+   "t": 14.5,
+   "why": "scene change"
+  },
+  {
+   "t": 16.9,
+   "why": "scene change"
+  },
+  {
+   "t": 20.9,
+   "why": "scene change"
+  },
+  {
+   "t": 22.1,
+   "why": "scene change"
+  },
+  {
+   "t": 23.3,
+   "why": "scene change"
+  },
+  {
+   "t": 28.1,
+   "why": "scene change"
+  },
+  {
+   "t": 30.7,
+   "why": "scene change"
+  },
+  {
+   "t": 37.7,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "en",
+  "text": "My phone goes everywhere with me but what I carry with it changes every single day, which is why I've been loving the satiaco system by daily objects. My everyday setup is the blue trees with a black plate and my partner has the exact opposite one, the black on low and I think that's a dollar food. When I'm running errands without a bag, I just snap on the wall of sand, it holds my cards, some cash and even doubles as a kickstand. For slow sand days at a cafe, I switch to the flex stand and when I'm on set, the Lena is a lifesaver because I don't have to keep holding my phone all day. Plus, I love switching of the colors depending on the mode. This tag ecosystem has one dream international design awards and I can see why it's roughly designed, it's functional and it actually keeps up with it.",
+  "segments": [
+   {
+    "start": 0,
+    "end": 4.3,
+    "text": "My phone goes everywhere with me but what I carry with it changes every single day, which"
+   },
+   {
+    "start": 4.3,
+    "end": 7,
+    "text": "is why I've been loving the satiaco system by daily objects."
+   },
+   {
+    "start": 7,
+    "end": 11.8,
+    "text": "My everyday setup is the blue trees with a black plate and my partner has the exact opposite"
+   },
+   {
+    "start": 11.8,
+    "end": 14.6,
+    "text": "one, the black on low and I think that's a dollar food."
+   },
+   {
+    "start": 14.6,
+    "end": 18.2,
+    "text": "When I'm running errands without a bag, I just snap on the wall of sand, it holds my"
+   },
+   {
+    "start": 18.2,
+    "end": 20.9,
+    "text": "cards, some cash and even doubles as a kickstand."
+   },
+   {
+    "start": 20.9,
+    "end": 24.4,
+    "text": "For slow sand days at a cafe, I switch to the flex stand and when I'm on set, the"
+   },
+   {
+    "start": 24.4,
+    "end": 28,
+    "text": "Lena is a lifesaver because I don't have to keep holding my phone all day."
+   },
+   {
+    "start": 28,
+    "end": 30.8,
+    "text": "Plus, I love switching of the colors depending on the mode."
+   },
+   {
+    "start": 30.8,
+    "end": 35.3,
+    "text": "This tag ecosystem has one dream international design awards and I can see why it's roughly"
+   },
+   {
+    "start": 35.3,
+    "end": 37.8,
+    "text": "designed, it's functional and it actually keeps up with it."
+   }
+  ]
+ }
+}

@@ -3,11 +3,10 @@
 Read this first, whatever model you are. It replaces NIGHT_PLAN.md as the working instructions (NIGHT_PLAN.md is the history).
 You are the lead session. Your job is to keep the pipeline moving and report to the owner in short, plain messages. You do not do the heavy work yourself.
 
-## COS status (updated 22 Nov 23:05 UTC, Monday 04:35 IST)
-- Resumed after the owner's pause. Running: rr-pull.sh (10 brands + "Scaler School of Business" last), scratch = /tmp/claude-0/-home-user-ad-intel/a4bcc5c6-4d1a-5676-b1b0-2dff902eac6b/scratchpad, log sample.log.
-- Running: Qubo prepare + retranscribe (10 new videos); Sonnet agents on SSB idea pass and Mesa extras.json.
-- Next: one Opus agent builds SSB vs Mesa (owner's priority), then Qubo write-ups and Atomberg vs Qubo.
-- Done: Atomberg idea pass; SSB write-ups (16 videos).
+## COS status (updated 23 Nov 10:15 UTC)
+- Running: rr-pull.sh (restarted 10:12 UTC; it had sat idle 00:50 to 08:12 after a machine restart), scratch = /tmp/claude-0/-home-user-ad-intel/a4bcc5c6-4d1a-5676-b1b0-2dff902eac6b/scratchpad, log sample.log.
+- Running: two Sonnet agents on Qubo write-ups (23 videos, 12 images). Next: Qubo idea pass, then one Opus agent on Atomberg vs Qubo.
+- Done: SSB vs Mesa page built (rubric 47 of 48). Artifact publish was denied, so it went to the owner as a file: deliverables/ssb-vs-mesa.html. Atomberg idea pass; SSB idea pass; Mesa extras.json; Qubo prepare + retranscribe.
 - Blocked: send_message to the original session (trusted device) and to SSB PG COS2 (denied).
 - Published by COS: none yet. Mesa teardown: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Prompt doc for others: Google Doc "Competitor ad teardown: prompt for Claude".
 

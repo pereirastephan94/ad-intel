@@ -1,0 +1,83 @@
+{
+ "asset": "1821331599184436",
+ "first_seen_in": "2515782665895946",
+ "duration_s": 14.5,
+ "stills": [
+  {
+   "t": 0,
+   "why": "opening"
+  },
+  {
+   "t": 0.5,
+   "why": "opening"
+  },
+  {
+   "t": 1,
+   "why": "opening"
+  },
+  {
+   "t": 2,
+   "why": "opening"
+  },
+  {
+   "t": 3,
+   "why": "opening"
+  },
+  {
+   "t": 4.2,
+   "why": "scene change"
+  },
+  {
+   "t": 5,
+   "why": "scene change"
+  },
+  {
+   "t": 6.6,
+   "why": "scene change"
+  },
+  {
+   "t": 9.1,
+   "why": "scene change"
+  },
+  {
+   "t": 9.9,
+   "why": "scene change"
+  },
+  {
+   "t": 10.9,
+   "why": "scene change"
+  },
+  {
+   "t": 11.8,
+   "why": "scene change"
+  },
+  {
+   "t": 12.5,
+   "why": "scene change"
+  },
+  {
+   "t": 13.5,
+   "why": "scene change"
+  },
+  {
+   "t": 14.2,
+   "why": "last frame"
+  }
+ ],
+ "transcript": {
+  "language": "ko",
+  "text": "bild치 뵙 Rs 3これ gun",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.2,
+    "text": "bild치 뵙 Rs 3これ"
+   },
+   {
+    "start": 8.9,
+    "end": 12.6,
+    "text": "gun"
+   }
+  ]
+ }
+}
