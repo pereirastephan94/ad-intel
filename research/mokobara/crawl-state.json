@@ -10,6 +10,9 @@
   {
    "media": "all",
    "retry": 2
+  },
+  {
+   "media": "video"
   }
  ],
  "total": 73,
@@ -34,13 +37,13 @@
   "2026-11-22T23:17:16.271Z   video 1120852310731483 ok (5.1s, 6 stills)",
   "2026-11-22T23:17:16.551Z view {\"media\":\"all\",\"retry\":2} -> 30 ads (window total 73), 30 new, 30 unique of ~73",
   "2026-11-22T23:17:16.555Z stopping after 1 view(s) as asked",
-  "2026-11-22T23:17:16.555Z PAUSED: 30 unique ads of ~73"
+  "2026-11-22T23:17:16.555Z PAUSED: 30 unique ads of ~73",
+  "2026-11-23T08:12:27.954Z view {\"media\":\"video\"} -> 0 ads (window total 61), 0 new, 30 unique of ~73",
+  "2026-11-23T08:12:27.958Z stopping after 1 view(s) as asked",
+  "2026-11-23T08:12:27.958Z PAUSED: 30 unique ads of ~73"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "video"
-  },
   {
    "media": "image"
   }
