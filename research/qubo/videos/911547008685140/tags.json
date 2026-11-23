@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Kaunsa air purifier kharidna hai, is now the big question.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Q1000 large-room smart air purifier",
+    "one_line": "A presenter gives five reasons the Q1000 beats other purifiers: big rooms, AQI-matched AI, 99.9% filtration, app and voice control, and quiet running.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

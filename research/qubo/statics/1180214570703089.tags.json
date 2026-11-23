@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Easy to use. Hard to break.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Smart door lock, 7 unlock ways, steel bolts",
+    "one_line": "A dark card says Easy to use. Hard to break. and lists 7 ways to unlock, app control, stainless steel bolts and aerospace-grade alloy.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

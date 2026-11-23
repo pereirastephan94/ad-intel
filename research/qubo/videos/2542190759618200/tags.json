@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Yeh hi agar mere bachche ke saath hua toh main soch bhi nahi sakti.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Indoor security camera for pets, two-way talk",
+    "one_line": "After a pet-abuse news clip, a family gets a Qubo camera to watch and talk to their dogs; ad text adds free shipping, COD, EMI.",
+    "script_twin": null,
+    "offer_also": [
+      "emi_or_bundle"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

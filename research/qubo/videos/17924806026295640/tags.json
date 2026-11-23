@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Don't buy a smart security camera at all.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo smart security camera",
+    "one_line": "A man sarcastically lists three reasons not to buy a security camera (theft, slow theft, intruders while parents sleep), naming alerts, alarm and two-way talk.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

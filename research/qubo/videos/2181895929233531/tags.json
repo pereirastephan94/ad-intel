@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Three reasons not to buy a Qubo Smart Air Purifier.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo smart air purifier, auto mode, app",
+    "one_line": "A man sarcastically lists three reasons not to buy a purifier (pollution is fun, it self-switches, cheap filters) showing auto mode, app and upkeep.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

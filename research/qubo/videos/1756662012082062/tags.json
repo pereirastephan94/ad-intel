@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "celebrity_named",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Jo pollution aapke aas-paas hai na, it's much worse than this smoke.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Smart air purifiers: AI Sense, Smart Presence, CADR",
+    "one_line": "A smoke demo and an expert-style voice argue that Indian winter pollution needs a purifier with AI Sense, Smart Presence, pre-filters and a higher CADR.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

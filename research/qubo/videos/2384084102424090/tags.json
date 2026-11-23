@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Aaj kal bahut saare dashcam market mein aa gaye hain, lekin ek accha dashcam kya hota hai?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo dashcams, 2K to 4K and installation",
+    "one_line": "A driver explains four things that make a good dashcam (resolution, low light, app, home installation) and says Qubo wins on each.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

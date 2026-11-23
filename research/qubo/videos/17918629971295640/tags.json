@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Don't buy a dashcam at all.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Qubo dashcam, proof after accidents",
+    "one_line": "A man on a street mocks buying a dashcam in three sarcastic reasons (road rows, insurance claims, fines); the point is a dashcam gives proof.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

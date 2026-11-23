@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Bhai, tu yeh kya kar raha hai?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Smart air purifier, AI auto on and off",
+    "one_line": "Two friends joke about breathing imported mountain air and Scottish fresh air, until one points to a Qubo purifier that switches on when pollution rises.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "language"
+    ],
+    "human_checked": false
+  }
+}

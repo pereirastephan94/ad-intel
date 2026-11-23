@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Don't wait for renovation!",
+    "offer": "free",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Smart door lock, free installation, 2+ year warranty",
+    "one_line": "A card says don't wait for renovation and promises installation in minutes with free installation, no damage and a 2+ year warranty.",
+    "script_twin": null,
+    "offer_also": [
+      "other"
+    ],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

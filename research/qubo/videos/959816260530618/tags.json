@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Kal ko tumhari gaadi mein peeche se koi bike wala aakar touch kar jaaye, ya phir wrong side se saamne se koi bike wala aakar maar de.",
+    "offer": "other",
+    "deadline": false,
+    "angle": "trust_safety",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Dashcam Pro 2K front and rear, ₹6,490",
+    "one_line": "A man opens on a bike scraping a car, asks what proof you have, and says his Qubo dashcam gives evidence; ad text: ₹6,490.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Smart Door Locks. Go Keyless. And Worry Less.",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Smart door lock, from ₹7,990, free installation",
+    "one_line": "A blue card shows a fingerprint door lock and a man pointing at it, with Go Keyless, a starting price of ₹7,990 and free installation.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Installed in Minutes. Protects for Years.",
+    "offer": "free",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Smart door lock, free installation, 3-year warranty",
+    "one_line": "A dark card promises install in minutes and years of protection, with free installation and a 3-year warranty icon.",
+    "script_twin": null,
+    "offer_also": [
+      "other"
+    ],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

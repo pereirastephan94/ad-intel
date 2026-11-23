@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "unclear",
+    "hook_text": "Colour Night Vision",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Smart bullet camera, colour night vision, from ₹3,490",
+    "one_line": "A silent animated card shows a night break-in, Colour Night Vision, AI person detection and auto spotlight, with a price chip reading Starting at ₹3,490.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}
