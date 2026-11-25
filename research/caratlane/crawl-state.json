@@ -24,6 +24,10 @@
   {
    "media": "image",
    "retry": 3
+  },
+  {
+   "media": "image",
+   "retry": 4
   }
  ],
  "total": 14,
@@ -48,13 +52,16 @@
   "2026-11-23T08:55:41.071Z PAUSED: 0 unique ads of ~14",
   "2026-11-23T10:55:59.331Z view {\"media\":\"image\",\"retry\":3} -> 0 ads (window total 0), 0 new, 0 unique of ~14",
   "2026-11-23T10:55:59.333Z stopping after 1 view(s) as asked",
-  "2026-11-23T10:55:59.333Z PAUSED: 0 unique ads of ~14"
+  "2026-11-23T10:55:59.333Z PAUSED: 0 unique ads of ~14",
+  "2026-11-25T20:12:03.128Z view {\"media\":\"image\",\"retry\":4} -> 0 ads (window total 0), 0 new, 0 unique of ~14",
+  "2026-11-25T20:12:03.134Z stopping after 1 view(s) as asked",
+  "2026-11-25T20:12:03.135Z PAUSED: 0 unique ads of ~14"
  ],
  "keywordsQueued": true,
  "queue": [
   {
    "media": "image",
-   "retry": 4
+   "retry": 5
   }
  ],
  "stage": 1
