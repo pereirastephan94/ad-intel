@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "So the rumours are true, I think GIVA has been keeping a secret from us.",
+    "offer": "discount",
+    "deadline": true,
+    "angle": "price_value",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "GIVA jewellery, Black Friday up to 30% off",
+    "one_line": "A woman in a lift and a studio shoot says GIVA pieces are up to 30% off this Black Friday, from 25th November.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "deadline"
+    ],
+    "human_checked": false
+  }
+}

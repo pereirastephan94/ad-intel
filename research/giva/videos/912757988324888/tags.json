@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Looks like a plan just happened!",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Party jewellery, 925 silver, rhodium plated",
+    "one_line": "A woman finds a girls' night note, has exactly 30 minutes to get ready, and wears GIVA pieces made to last.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

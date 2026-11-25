@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "That's enough!",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "925 silver workwear jewellery, 9 to 5 silver",
+    "one_line": "A woman rants against the 9 to 5, then says GIVA silver has no tarnish, no fading and no fuzz through meetings and coffee.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

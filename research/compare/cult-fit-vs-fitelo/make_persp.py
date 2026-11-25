@@ -416,12 +416,12 @@ persp = {
         "verdict": "No product is shared. Fitelo hands 19 of its 34 ads to customer stories; your 60 name no member. Your edge: scene or story, 33 of 60 videos.",
         "plan": {
             "focus": {"title": "Name real members of each centre, on camera.",
-                      "why": "Fitelo hands 19 of its 34 ads to customer stories, 10 ideas ending on one offer card. Your first-person films (trek montage, mother, confession) name nobody and no centre.",
+                      "why": "Fitelo hands 19 of its 34 ads to customer stories, 10 ideas, one offer card. Your first-person films (trek montage, mother, confession) name nobody.",
                       "basis": SER_B_STORY, "evidence": "strong", "effort": "Medium",
                       "first_test": "Two members of one centre, 40 seconds each, Hinglish: why they joined and what they do there, named and filmed in that centre.",
                       "script": 1},
             "start": [
-                {"title": "Send the many-formats films under named centres.",
+                {"title": "Re-send the many-formats films by centre.",
                  "why": "Your largest series: five films, 19 ads, 42 versions, live up to 73 days, all to the app link with no centre or price. Your 11 centre ads use three other films.",
                  "basis": SER_A_FORMATS, "evidence": "strong", "effort": "Low",
                  "first_test": "Re-send the 10-ad workout-picker film under two centres' names with the lead form, beside its app-link version.",
@@ -449,8 +449,8 @@ persp = {
                  "first_test": "Put the two free group workouts from your other film into voice and end card, or drop the trial headline."},
             ],
         },
-        "workhorse_read": "You spread 60 ads over 12 ideas: your largest series, five films selling class variety, carries 19 ads and 42 versions, and three films re-sent by place carry 11 in 7 places. Fitelo spreads 34 over 23 ideas but hands 19 to one format, a customer story ending on the same cashback card.",
-        "now_read": "24 of your 60 sampled ads started in the last 30 days: 12 on 4 November, 10 on 16 and 17 November (the 9 Fitstart cards among them) and 2 on 30 October; 28 date from September. Fitelo started 16 of 34 in that time, 11 of them person to camera.",
+        "workhorse_read": "You spread 60 ads over 13 ideas (one is an ad not yet written up): your largest series, five films selling class variety, carries 19 ads and 42 versions, and three films re-sent by place carry 11 in 7 places. Fitelo spreads 34 over 23 ideas but hands 19 to one format, a customer story ending on the same cashback card.",
+        "now_read": "24 of your 60 sampled ads started in the last 30 days: 12 on 4 November, 10 on 16 and 17 November (the 9 Fitstart cards among them) and 2 on 30 October; 28 date from September. Your starts come in five bursts (8 to 9 Sep, 23 to 25 Sep, 18 to 19 Oct, 4 Nov, 16 to 17 Nov), 23 videos behind 60 ads. Fitelo started 16 of 34 in the last 30 days, 11 of them person to camera, and 25 of its 34 in one run, 16 to 31 October.",
         "india_read": [
             "Language: your videos speak Hinglish in 24 of 60 and English in 35 (9 of those are silent sale cards), with 1 not written up; Fitelo's speak Hinglish in 21 of 30 and its 4 image ads are English.",
             "Timing: you launched 28 ads in September (19 on 25 September), 12 on 4 November, four days before Diwali (8 November), and the Fitstart sale on 16 and 17 November; Fitelo launched 27 of 34 in October, 8 on 16 October.",
@@ -495,8 +495,8 @@ persp = {
                  "script": 1},
             ],
         },
-        "workhorse_read": "You lean on one format: customer stories carry 19 of your 34 ads across 10 ideas, and the nursing officer video alone 7. Cult.fit spreads 60 ads over 12 ideas; its largest series, five films selling class variety, carries 19, and it re-sends three films by place, 11 ads in 7 places.",
-        "now_read": "16 of your 34 sampled ads started in the last 30 days, 11 of them person to camera; 27 of 34 started in October. Cult.fit started 24 of its 60 in the same 30 days, 9 of them Fitstart sale cards, and 28 of its 60 date from September.",
+        "workhorse_read": "You lean on one format: customer stories carry 19 of your 34 ads across 10 ideas, and the nursing officer video alone 7. Cult.fit spreads 60 ads over 13 ideas; its largest series, five films selling class variety, carries 19, and it re-sends three films by place, 11 ads in 7 places.",
+        "now_read": "16 of your 34 sampled ads started in the last 30 days, 11 of them person to camera; 25 of 34 started in one run, 16 to 31 October, 8 of them on 16 October. Cult.fit started 24 of its 60 in the same 30 days, 9 of them Fitstart sale cards; its starts come in five bursts from 8 September to 17 November, 23 videos behind 60 ads.",
         "india_read": [
             "Language: your videos speak Hinglish in 21 of 30 and English in 9, and your 4 image ads are English; Cult.fit's speak Hinglish in 24 of 60 and English in 35 (9 of those are silent sale cards).",
             "Timing: you launched 27 of 34 in October, 8 on 16 October, about three weeks before Diwali (8 November); Cult.fit launched 28 in September, 12 on 4 November and its Fitstart sale on 16 and 17 November.",
@@ -507,7 +507,7 @@ persp = {
     "extras": {
         "source": "Read from each brand's ads by hand (research/<brand>/concepts.md: Cult.fit's 60 ads, Fitelo's 34 written-up ads) and from each brand's own website on 20 and 25 Nov 2026 (research/<brand>/site.md).",
         "products_note": "No shared product: gym and sports passes priced by city against remote weight-loss coaching, a scale and a ₹199 review.",
-        "map_note": "These two sell different things, a gym and sports pass against remote diet coaching and a device, so this map compares each whole sample, not one product. The like-for-like is the buyer's job, get fit or lose weight: see What is comparable below.",
+        "map_note": "These two sell different things, a gym and sports pass against remote diet coaching and a device, so this map compares each whole sample, not one product. The like-for-like is the buyer's job, get fit or lose weight: see What is comparable below. Fitelo's image rows hold only its 4 written-up image ads; 24 newer image ads have no write-ups yet.",
         "comparable": {
             "title": "What is comparable",
             "lede": "Different products, the same buyer. These are the parts of the two brands' ads that can be set side by side.",
@@ -528,7 +528,7 @@ persp = {
                  "B": {"text": "Headline kilos of 18 to 38 against the small print \"In 4 weeks, a typical Fitelo user can expect to lose 2-3 Kgs\"; 25 kg in 90 days is about 8 kg a month. The line leaves before the offer in 7 ideas and is missing from both BodyMap images.",
                        "ads": ["4832221937013486", "4723519161196734", "2605110029938293"]}},
                 {"label": "Concentration",
-                 "A": {"text": "12 ideas in 60 ads (1 not written up): the break-up gag, highest by score, carries 6 (10%), the three highest-scoring ideas 25 (42%); one series, five films on class variety, carries 19 (32%).", "ads": ["1533712601774060", "1411563457759054"]},
+                 "A": {"text": "13 ideas in 60 ads, one of them an ad not yet written up: the break-up gag, highest by score, carries 6 (10%), the three highest-scoring ideas 25 (42%); one series, five films on class variety, carries 19 (32%).", "ads": ["1533712601774060", "1411563457759054"]},
                  "B": {"text": "23 ideas in 34 ads: the highest-scoring carries 7 (21%), the three highest 9 (26%); but one format, the customer story, carries 19.", "ads": ["4723519161196734"]}},
                 {"label": "Where the button goes",
                  "A": {"text": "30 of 60 to a lead form on Facebook with a \"Get offer\" button and \"we'll call you\"; 29 to the Cult app link with \"Learn more\", \"Download\" or \"See details\"; 1 to Google Play.", "ads": ["1645883207287485", "1736977457415163", "1141867424988014"]},

@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "911 what's your emergency?",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "GIVA everyday stack, gold and silver tones",
+    "one_line": "A woman reports GIVA as the thief of her attention in a 911 skit; code STEP15 for 15% off appears only in the ad text.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

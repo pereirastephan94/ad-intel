@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "creator",
+    "founder_evidence": "ad text: '@kavyanshiramani'",
+    "hook": "callout",
+    "hook_text": "Hot Girl Summer starts now.",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Thalassa collection, summer jewellery",
+    "one_line": "A woman spends a pool-day picnic in a summer film for the Thalassa collection; the ad text gives creator code PREKSHA15 for 15% off.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook",
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

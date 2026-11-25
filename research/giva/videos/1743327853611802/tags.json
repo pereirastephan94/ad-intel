@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "5 pm hits and suddenly I have places to be because the best part of the day starts when the 9 to 5 ends.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "925 silver jewellery, 9 to 5 silver",
+    "one_line": "A woman says her best hours start after 5 pm, then close-ups of silver pendants, ear cuffs and rings, ending on a spec card.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "product_mix": {
+    "items": [
+      [
+        "Phone cases and Stack add-ons",
+        9
+      ],
+      [
+        "Loop power banks",
+        6
+      ],
+      [
+        "Backpacks and bags",
+        5
+      ],
+      [
+        "Desk organisers",
+        4
+      ],
+      [
+        "Gifting and work-bag mixes",
+        3
+      ],
+      [
+        "Artist-collection phone cases",
+        2
+      ],
+      [
+        "Node ecosystem",
+        1
+      ]
+    ],
+    "note": "Nine of 30 ads sell phone cases and Stack add-ons, six sell the Loop power bank, five sell bags, four sell desk organisers, three mix gifts, two sell artist cases and one launches Node; no ad shows or states a price."
+  },
+  "series": [
+    {
+      "name": "Pivot studio pack-ups",
+      "ads": [
+        "1587769119420000",
+        "28604292765855047",
+        "2312384699609513"
+      ],
+      "note": "Two silent studio films of a person packing a named backpack, with one ad-text line, run 125 and 91 days; a creator ad for the same range shares their landing page."
+    },
+    {
+      "name": "iPhone 18 case set",
+      "ads": [
+        "1737526587462512",
+        "2147362132562237",
+        "1082503661262265"
+      ],
+      "note": "Six ads link to the iPhone 18 collection, two silent brand films (70 days) and four creator-style ads (19 to 57 days), started 2026-09-14 to 2026-11-04."
+    },
+    {
+      "name": "Loop power banks",
+      "ads": [
+        "28858961853760943",
+        "2219639381939147",
+        "1788239835589553"
+      ],
+      "note": "Six ads for one power bank, from a creator test to a silent climbing film; started 2026-09-30 to 2026-11-05, with sizes and certification wording that vary between them."
+    },
+    {
+      "name": "Array desk organiser",
+      "ads": [
+        "1045706445147837",
+        "1136260058896288",
+        "28976750415325681"
+      ],
+      "note": "Three films for one organiser (two silent unboxings, one voiceover) plus a desk build that also uses it; started 2026-10-16 to 2026-11-13."
+    },
+    {
+      "name": "Silent films",
+      "ads": [
+        "1587769119420000",
+        "1737526587462512",
+        "1136260058896288"
+      ],
+      "note": "Fifteen of 30 ads have no speech and rely on on-screen text or ad text, including the five oldest ads."
+    },
+    {
+      "name": "Creator-style ad text",
+      "ads": [
+        "1668887338277124",
+        "28976750415325681",
+        "2118286432127187"
+      ],
+      "note": "Thirteen ads tag the brand handle in the ad text and six carry a paid-partnership tag; no creator name or handle appears on screen."
+    }
+  ],
+  "contradictions": [
+    {
+      "text": "Loop capacity and wording differ: three sizes from 5,000 to 20,000 mAh and 'true MagSafe' in one ad, '10000 mAh' printed on the unit and 'Qi2-certified' in the ad text of others, and '20,000' by voice in a bag reveal.",
+      "ads": [
+        "28858961853760943",
+        "2219639381939147",
+        "2006853093331617",
+        "1757183232006825"
+      ]
+    },
+    {
+      "text": "The phone model changes between speech and link: iPhone 17 Pro said over an iPhone 18 collection page, and iPhone 18 Pro said over a link that says iPhone 18.",
+      "ads": [
+        "4594272790820701",
+        "1082503661262265"
+      ]
+    },
+    {
+      "text": "One discount code appears in two ads for two different products and neither states what it takes off.",
+      "ads": [
+        "28858961853760943",
+        "1082503661262265"
+      ]
+    },
+    {
+      "text": "A Loop monologue spends about half its script on Stack while its ad text and link name only the Loop.",
+      "ads": [
+        "1788239835589553"
+      ]
+    },
+    {
+      "text": "The Node launch text says 'Power that moves when you do' over a film that shows no battery, charger or phone.",
+      "ads": [
+        "1015591378165168"
+      ]
+    },
+    {
+      "text": "Claims with nothing on screen to back them: design awards for Stack, seven expressions and a 70 year-old artist, and 'our biggest case collection yet' over six named colours.",
+      "ads": [
+        "1668887338277124",
+        "1664136018471636",
+        "2147362132562237"
+      ]
+    }
+  ]
+}

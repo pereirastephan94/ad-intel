@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "My business is my business and none of your business.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Festive jewellery, rose-gold toned, gift boxes",
+    "one_line": "A woman in a yellow outfit talks festive style in Hinglish, shows rose-gold pieces and gift boxes, and says shop the festive collection.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}
