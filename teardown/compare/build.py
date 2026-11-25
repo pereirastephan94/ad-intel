@@ -930,7 +930,7 @@ class Page:
                 fill = f'<div class="fill {k}" style="width:{share * 100:.1f}%"></div>' if v else ""
                 bars += (f'<div class="bar" title="{E(self.names[k])}: {v} of {denom[k]}">'
                          f'<div class="track">{fill}</div>'
-                         f'<span class="v num">{f"{v} of {denom[k]}" if denom[k] else "none sampled"}</span></div>')
+                         f'<span class="v num">{f"{v} of {denom[k]}" if denom[k] else "none"}</span></div>')
             rows.append(f'<div class="brow"><div class="bl">{E(nice(c)[:1].upper() + nice(c)[1:])}</div><div class="bars">{bars}</div></div>')
         return f'<div class="chart"><h3>{E(title)}</h3><p class="sub">{E(sub)}</p>{"".join(rows)}</div>'
 

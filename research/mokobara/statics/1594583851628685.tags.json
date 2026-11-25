@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Grey backpack, catalogue ad, no price",
+    "one_line": "A plain catalogue shot of a grey Mokobara backpack on white with no text, in an ad promising to make you feel like a million bucks.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

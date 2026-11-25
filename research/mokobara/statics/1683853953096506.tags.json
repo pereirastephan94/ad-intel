@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Be caught in 24k",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Stash Card Case, 24k Mokogram, ₹1999",
+    "one_line": "A close-up of a hand with rings holding a blue gold-monogram card case on green satin, with the slogan Be caught in 24k and a ₹1999 price tag.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "offer",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

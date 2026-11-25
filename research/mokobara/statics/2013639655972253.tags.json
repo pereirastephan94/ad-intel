@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "row": "I1",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "BLACK FRIDAY SALE up to 60% OFF",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Stash Card Case (brown, perforated), ₹1,799 from ₹2,999",
+    "one_line": "A receipt-style card shows Stash Card Case at ₹1,799 against an MRP of ₹2,999 under a huge Black Friday up to 60% off headline.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "mokobara",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Rogue Toggle Backpack, ₹9999 from ₹13999",
+    "one_line": "A model in yellow-lens sunglasses carries the Rogue backpack, labelled Rouge on the image, with a price of ₹9999 against ₹13999.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

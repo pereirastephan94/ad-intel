@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Be caught in 24k",
+    "offer": "price_from",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Stash Card Sleeve, 24k Mokogram, ₹1699",
+    "one_line": "A styled casino-mood photo of a laughing woman holding poker chip and blue gold-monogram card holders, with Be caught in 24k and a ₹1699 price tag.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

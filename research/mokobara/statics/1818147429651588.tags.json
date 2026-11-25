@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Sensitive Content. These Black Friday deals are unrealistic.",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Store-wide Black Friday sale, up to 60% off",
+    "one_line": "A fake sensitive-content warning screen jokes that the Black Friday deals are unrealistic, with up to 60% off in small print.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

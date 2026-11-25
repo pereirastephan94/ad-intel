@@ -7,7 +7,7 @@
 - Ads using it: 1, earliest start 2026-11-17, total copies 1; links: https://www.facebook.com/ads/library/?id=3361006940750709
 
 ## Script (verbatim)
-The machine text for 1 to 11 s ("Move in once and I'll get it") does not match the captions, so the captions are used there. Brand transcribed as "Jiva"; read as GIVA from the card. Speaker not named.
+The machine text for 1 to 11 s ("Move in once and I'll get it") does not match the captions, so captions are used there. The brand is transcribed "Jiva"; read as GIVA. Speaker not named.
 
 | Time | Line | Gloss |
 |---|---|---|
@@ -20,46 +20,44 @@ The machine text for 1 to 11 s ("Move in once and I'll get it") does not match t
 | 34-37.6 | Silent end card. | |
 
 ## First 3 seconds
-0 s: a woman in a navy strapless button top and wide-leg navy trousers walks toward the camera along a brick pavement, reading a tablet, books in her arm, white sky. 0.5 s: "THAT'S ENOUGH!" slides in at the top in blue condensed serif capitals. 1 s: the full title. 2 s: small black "Who even wants a". 3 s: "9 to 5?!" in large serif. She talks as she walks. Hook: an exclamation, then a question.
+0 s: a woman in a navy strapless button top and wide-leg navy trousers walks toward the camera along a brick pavement reading a tablet, books in her arm. 0.5 to 1 s: "THAT'S ENOUGH!" slides in at the top in blue condensed serif capitals. 2 s: "Who even wants a". 3 s: "9 to 5?!" in large serif. She talks as she walks. Hook: an exclamation, then a question.
 
 ## Person on screen
-Unnamed; the ad text credits only the brand handle @giva.co. Apparent 20s, hair in a top bun then a high ponytail, round black glasses (later sunglasses on her head), a layered pendant, emerald-stone ring, bracelet with a flower charm, earrings. Printed tote bag with partial lettering. Exasperated, fast, theatrical; talks toward the lens in the opening, then appears in cutaways and walking shots.
+Unnamed; the ad text credits only @giva.co. Apparent 20s, hair in a bun then a ponytail, round black glasses, layered pendant, emerald-stone ring, bracelet with a flower charm. Printed tote bag. Exasperated, theatrical; talks toward the lens in the opening, then appears in cutaways and walking shots.
 
 ## Setting, framing and look
-A city pavement and a glass-fronted cafe with a table of notebooks and two pink GIVA boxes. A low-angle walking shot, crouching to pick up dropped books, macro of hands writing on a tablet, a blank beige card at 13 s, a phone call at the cafe. Daylight, handheld or gimbal, bright grade. Between phone and polished: I lean phone-made.
+A city pavement and a glass-fronted cafe with notebooks and two pink GIVA boxes. Low-angle walking shot, crouching to pick up dropped books, macro of hands writing on a tablet, a blank beige card (13 s), a phone call. Daylight, handheld or gimbal, bright grade; I lean phone-made.
 
 ## On-screen text, captions, logos, graphics
-- Blue serif: "THAT'S ENOUGH!", "9 to 5?!"; black bold sans: "Who even wants a".
-- Pale yellow bold caption "Hypoallergenic" near 19 to 23 s (not spoken).
-- End card, 37.3 s: crimson, GIVA logo, "Style, Sealed in Silver!", a stat line that renders garbled ("3000+ Fresh Styl| 350+ Stores |fetime Plating").
+- Blue serif: "THAT'S ENOUGH!", "9 to 5?!"; black sans: "Who even wants a".
+- Pale yellow caption "Hypoallergenic" near 19 to 23 s (not spoken).
+- End card, 37.3 s: crimson, GIVA logo, "Style, Sealed in Silver!", a garbled stat line ("3000+ Fresh Styl| 350+ Stores |fetime Plating").
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 34 cuts in 37.6 s (9.1 per 10 s), first cut 5.27 s, none in the first 5 s. 107 words per minute, speech share 0.91, tempo 108 bpm. Software guesses a sound bed; gaps are 15 dB below speech (-31.6 vs -16.7 dB).
+Measured by software, not heard, so genre and track cannot be named. 34 cuts (9.1 per 10 s), first cut 5.27 s, none in the first 5 s; 107 words per minute; speech share 0.91; tempo 108 bpm. Gaps are 15 dB below speech (-31.6 vs -16.7 dB), so the sound-bed guess is plausible.
 
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-11 | Hook | Rant against a 9 to 5, dropped books. |
-| 11-30 | Claims | "Workwear that outlasts the workday"; no tarnish. |
-| 30-34 | Tagline | "9 to 5 silver from GIVA". |
-| 34-37.6 | End card | Brand and stat line. |
+| 0-11 | Hook | Rant against a 9 to 5. |
+| 11-30 | Claims | "Outlasts the workday"; no tarnish. |
+| 30-37.6 | Tagline, end card | "9 to 5 silver from GIVA". |
 
 ## Claims and proof
-- "No tarnish, no fading, no fuzz": absolute, with no test or terms shown. The card says only "Lifetime Plating" (plating wears; "no tarnish" is a property of the metal). Other end cards add "6-Month Warranty" and "Rhodium Plated".
+- "No tarnish, no fading, no fuzz": absolute, with no test or terms. The card says only "Lifetime Plating" (plating wears; "no tarnish" is about the metal). Other end cards add "6-Month Warranty".
 - "Hypoallergenic" is a caption only, with no certificate.
-- Store count reads "350+" here; 400 on other end cards. "No fuzz" is unexplained.
+- "350+" stores here; 400 on other end cards.
 
 ## Offer and call to action
-No offer; the spoken close is the tagline. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text: "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co (Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel) #AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver". Same line as 1743327853611802 and 29680531568217652 in a different skit.
+No offer; the close is the tagline. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text: "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co (Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel) #AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver". Same campaign line as 1743327853611802 and 29680531568217652.
 
 ## Why it may work, and where it is weak
 Works:
-- A shared irritation (9 to 5) opens the ad on a loud first beat.
-- The proof words (tarnish, fading, spilled coffee) are workplace-specific.
-- No cut for 5 s lets the opening line land.
+- A shared irritation (9 to 5) on a loud first beat.
+- Workplace-specific proof (back-to-back meetings, spilled coffee).
+- No cut for 5 s lets the opener land.
 
 Weak:
-- Absolute "no tarnish" claim, with weak small print.
-- Opening audio is unclear in the transcript.
-- No offer, price or product close-up long enough to read.
-- The stat line on the end card is garbled.
+- Absolute "no tarnish" with weak small print.
+- No offer; no close-up long enough to read.
+- The end-card stat line is garbled.

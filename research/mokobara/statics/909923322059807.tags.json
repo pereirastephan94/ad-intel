@@ -1,0 +1,31 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "mokobara",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Terra Work Backpack, ₹9499 from ₹16999",
+    "one_line": "A smiling man carries the navy Terra Work backpack against a blue sky, with a price of ₹9499 against ₹16999 and a 30-day trial badge.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "offer",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

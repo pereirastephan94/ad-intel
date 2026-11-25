@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "mokobara",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Beetle Toggle Backpack, ₹8999 from ₹12999",
+    "one_line": "A model in orange sunglasses carries the Beetle backpack on white, with the logo and a price of ₹8999 against ₹12999.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "row"
+    ],
+    "human_checked": false
+  }
+}

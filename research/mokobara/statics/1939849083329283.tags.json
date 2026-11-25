@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "mokobara",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Hovercraft Backpack, ₹6999 from ₹10999",
+    "one_line": "A smiling woman carries the navy Hovercraft backpack on grey with the logo and a price of ₹6999 against ₹10999.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
