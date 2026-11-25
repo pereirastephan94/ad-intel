@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Red-stone drop earrings",
+    "one_line": "A bare pair of red-stone drop earrings; the text pitches jewellery gifts for him and her with 15% off, code NEW15.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

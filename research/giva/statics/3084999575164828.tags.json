@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Gold solitaire ring",
+    "one_line": "A bare gold solitaire ring packshot; the text pitches Heer gold lab-grown diamond jewellery with 0 making charges.",
+    "script_twin": null,
+    "offer_also": [
+      "other"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Rose-gold heart pendant",
+    "one_line": "A bare rose-gold heart pendant packshot; the text pitches workwear jewellery with 15% off first order, code NEW15.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

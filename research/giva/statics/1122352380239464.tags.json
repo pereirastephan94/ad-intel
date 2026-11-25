@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "popularity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Fan-shaped open ring",
+    "one_line": "A bare fan-shaped silver ring packshot; the text says celeb-approved picks and offers 15% off with code NEW15.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

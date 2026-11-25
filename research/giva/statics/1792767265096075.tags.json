@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Open ring with two teal stones",
+    "one_line": "A bare teal two-stone open ring packshot; long text lists trust points and 1 Crore+ customers with 15% off, code NEW15.",
+    "script_twin": null,
+    "offer_also": [
+      "free"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

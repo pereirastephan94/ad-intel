@@ -1,6 +1,6 @@
 # Fitelo: what the website sells
 
-Fetched 20 Nov 2026 with curl through the session proxy. Comparison: research/compare/cult-fit-vs-fitelo/.
+Fetched 20 Nov 2026 with curl through the session proxy; home page, plans and terms re-read 25 Nov 2026. Comparison: research/compare/cult-fit-vs-fitelo/.
 
 ## Pages read
 - https://fitelo.co/ (200): the whole offer on one long page (programme, BodyMap, results, team, five-year guarantee, centres, FAQ).
@@ -37,3 +37,9 @@ Also on the site: live classes every day, 1000+ recipes, centres in Gurugram and
 - BodyMap: ads sell a "Body Map Review" at ₹199 with "50+ parameters" (one video shows "100+ Parameters Analysis"); the site says 100+ parameters and lists the test as included in the app.
 - Typical result: the ads' small print says "In 4 weeks, a typical Fitelo user can expect to lose 2-3 Kgs"; the site says about half a kilo a week after a quicker first fortnight. The two agree; the ads' headline kilos (25 to 38 kg) are individual stories, as the site's are.
 - "10 year anniversary" (ads) matches "10 years in business" (site); "Trusted by 2 lakh+ Indians across 70+ countries" (ad text on 18 ads) matches "2 lakh+ users across 70+ countries" (site).
+
+## Re-check, 25 Nov 2026
+- fitelo.co, /services/plans-overview/ and /terms-conditions/ (200): still no cashback, 10X, "5 lakh" or "first 100" offer on any page read; still no price; "claims no Guarantee of results" and the 40% administrative fee unchanged; "about half a kilo a week" and "2 lakh+ users across 70+ countries" unchanged.
+- Coaches: "800+" coaches and experts as before, and another block says "over 300+ highly-qualified Fitelo coaches"; the ads say 1000+.
+- The ads' landing pages on wellness.fitelo.co still refused by the proxy (403).
+- Sample note: Fitelo's ads.json gained 24 image ads on 23 Nov; they have no write-ups yet, so this file's ad counts stay on the 34 written-up ads.

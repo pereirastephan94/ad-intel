@@ -1,6 +1,6 @@
 # Cult.fit: what the website sells
 
-Fetched 20 Nov 2026 with curl through the session proxy (and Playwright for two script-only pages). Comparison: research/compare/cult-fit-vs-fitelo/.
+Fetched 20 Nov 2026 with curl through the session proxy (and Playwright for two script-only pages); prices and offers re-checked 25 Nov 2026 (the 35 24-month cultpass ELITE pack pages in the sitemap, /fitness and /fitness/cultpass-live). Comparison: research/compare/cult-fit-vs-fitelo/.
 
 ## Pages read
 - https://www.cult.fit/fitness (200): product menu, current offers, free-trial buttons, FAQ.
@@ -18,9 +18,9 @@ Fetched 20 Nov 2026 with curl through the session proxy (and Playwright for two 
 
 | Key | Product | Headline price or claim | In the sampled ads |
 |---|---|---|---|
-| cultpass_elite | cultpass ELITE | FAQ: "unlimited access to cult group classes, gyms and At-home workouts". Packs of 1, 3, 6, 12 and 24 months; offer on /fitness: "FREE ₹1,500 Amazon Pay Gift Card + 1-Month Extension on cultpass ELITE", with an "Ends In" timer. 24-month pack in Bangalore and Hyderabad ₹27,890 (list ₹32,090), which is ₹1,162 a month. | 14 ads (tour, break-up gag, Fitstart barbell card) |
-| cult_membership | No product of this name | The ads' "Cult" with "two free group workouts" and no pass named; on the site group classes come with ELITE (unlimited) or PRO (2 a month). /fitness shows "TRY FOR FREE" and "START A FREE TRIAL". | 8 ads ("don't feel like the gym") |
-| cultpass_play | cultpass PLAY (sports) | Listed under SPORTS in the menu; the PLAY page did not load (see above). No price read. | 8 ads (Fitstart astronaut card) |
+| cultpass_elite | cultpass ELITE | FAQ: "unlimited access to cult group classes, gyms and At-home workouts". Packs of 1, 3, 6, 12 and 24 months; offer on /fitness: "FREE ₹1,500 Amazon Pay Gift Card + 1-Month Extension on cultpass ELITE", with an "Ends In" timer. 24-month pack in Bangalore and Hyderabad ₹27,890 (list ₹32,090), which is ₹1,162 a month. | 41 of 60 ads (tour, break-up gag, Fitstart barbell card, trek montage, format explainer, train anywhere, group truths, workout picker) |
+| cult_membership | No product of this name | The ads' "Cult" with "two free group workouts" and no pass named; on the site group classes come with ELITE (unlimited) or PRO (2 a month). /fitness shows "TRY FOR FREE" and "START A FREE TRIAL". | 10 of 60 ads ("don't feel like the gym" 8, the mother's first class 1, the confession 1) |
+| cultpass_play | cultpass PLAY (sports) | Listed under SPORTS in the menu; the PLAY page did not load (see above). No price read. | 8 of 60 ads (Fitstart astronaut card) |
 | cultpass_pro | cultpass PRO | FAQ: "unlimited access to gyms and At-home workouts and limited access to cult group classes" (2 sessions a month at cult centres or ELITE gyms). Offer: "FREE 2 Months Extension + Extra ₹1,600 OFF on cultpass PRO". No price read. | none |
 | home_workouts | cultpass HOME (LIVE) | "Starting at ₹108 / month*", 24 months ₹2,599; "*Effective Monthly Pricing including Extension, if any"; offer "FREE ₹200 Amazon Pay Gift Card + 3 Months Extension". | none |
 | weight_loss_coaching | cult Transform | FAQ: a Transform coach on WhatsApp and calls "to achieve your health goals which include fat loss, weight loss and getting fit", workout plan, nutrition guidance; "this does not include a gym membership". Offer: "FREE ₹1,100 Amazon Pay Gift Card + 1.5 Months Extension on cult TRANSFORM". Page itself did not load; no price read. | none |
@@ -48,6 +48,13 @@ Also in the menu: Bootcamp, Transform Plus, Luxury Gyms, a store (redirects to c
 - Ad prices by place against the 24-month pack a month on the site: Amritsar ₹1,250 (site ₹1,325); Prahlad Nagar, Ahmedabad ₹1,199 (site ₹1,274); Chandigarh ₹1,291 (site's Chandigarh Tricity packs ₹4,671, so the ad price matches no pack read); VIP Road ₹1,199 (the site's only VIP Road centre is in Surat, ₹1,174). The no-city ₹1,099 matches no pack page read (lowest: Indore ₹1,065). Prices may have moved since the ads started, so these are differences on 20 Nov, not errors proven.
 - "Fitstart Days", "Fitstart Sale" and "India's biggest fitness sale" appear on none of the pages read; the site's live offers are gift cards and extensions.
 - "Lowest Prices Today" (ad headlines): no comparison or date on the site.
-- cult Transform, Cult's weight-loss coaching, is on the site and in none of the 30 sampled ads.
+- cult Transform, Cult's weight-loss coaching, is on the site and in none of the 60 sampled ads.
 - Legal and claims lines: pack pages say the workouts "are guaranteed to show results"; /fitness shows a 4.8 rating. Formats named: boxing, dance fitness, yoga, Adidas Strength+, Burn, HRX.
+- The trek montage (7 ads) captions "I gained muscle & lost fat" with no figures; the site's pack pages say the workouts "are guaranteed to show results" (all 35 24-month pages on 25 Nov).
 - No person is named in any sampled ad; this file names none either.
+
+## Re-check, 25 Nov 2026
+- 24-month cultpass ELITE pack prices are unchanged on 25 Nov for Bangalore and Hyderabad (₹27,890), Indore (₹25,560), Surat and Jaipur (₹28,176), Amritsar (₹31,790), Delhi NCR (₹33,050) and Chandigarh Tricity (₹1,12,100). Ahmedabad fell from ₹30,576 to ₹25,490 (list ₹29,690), which is ₹1,062 a month against the ads' ₹1,199 for Prahlad Nagar. Other 24-month packs read: Mumbai ₹40,590, Chennai and Pune ₹28,450, Lucknow ₹28,176, Kanpur ₹31,150, Patna ₹37,790, Navi Mumbai and Thane ₹27,890; several smaller cities show ₹1,12,100 or ₹86,900. Only 24-month pages were re-read.
+- /fitness offers on 25 Nov: "Extra ₹3,000 OFF + 1-Month of membership pause on cultpass ELITE"; "Extra ₹2,000 OFF + 1-Month Membership Pause on cultpass PRO"; "FREE ₹800 Amazon Pay Gift Card + 1-Month Extension on cult TRANSFORM PLUS"; a gift card and 3-month extension on cultpass HOME. The 20 Nov gift-card offers on ELITE (₹1,500), PRO and Transform (₹1,100) are gone. Still no "Fitstart" on the pages read.
+- cultpass HOME: still "Starting at ₹108 / month*", 24 months ₹2,599.
+- Not retried: the next.cult.fit pages, PLAY and Transform, which failed on 20 Nov for proxy reasons.

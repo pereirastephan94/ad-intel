@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "I2",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Plain ball stud earrings",
+    "one_line": "A bare pair of silver ball studs; the text pitches statement outfits and 15% off the first order, code NEW15.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
