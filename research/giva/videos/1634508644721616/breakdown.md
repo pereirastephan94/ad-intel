@@ -28,10 +28,10 @@ Speakers not assigned. The main transcript turns to noise after 28 s, so 28 to 7
 0 s: a woman on a beige sofa, laptop on her knee, mid-gesture; a man's head at the left edge. No text. 1.7 s: cut to the man, deadpan, laptop screen showing "...TRACT". Speech garbled. Hook: skit opener, no offer or number.
 
 ## Person on screen
-Two unnamed actors. Woman, apparent 20s to 30s, shoulder-length dark hair, pale blue strapless ruffled dress, drop necklace, bracelet, rings, chest tattoo; animated, never looks at the lens. Man, apparent 30s, short dark hair, lilac open-collar shirt, cream trousers, pendant chain; deadpan, never looks at the lens.
+Two unnamed actors, neither looks at the lens. Woman, apparent 20s to 30s, dark hair, pale blue strapless ruffled dress, drop necklace, bracelet, chest tattoo; animated. Man, apparent 30s, lilac open-collar shirt, cream trousers, pendant chain; deadpan.
 
 ## Setting, framing and look
-One living room: beige sofa, pink roses, lamp, warm low light. Two-shots and over-the-shoulder, shallow depth, graded. Cutaways: necklace on skin (25.2 s), hair flip in a light blue frame (31.8 s), a "SIGN THIS" paper with a pink seal (62.3 s). Produced, not phone-made.
+One living room: beige sofa, pink roses, lamp, warm low light. Two-shots and over-the-shoulder, shallow depth, graded. Cutaways: necklace on skin (25.2 s), hair flip (31.8 s), a "SIGN THIS" paper with a pink seal (62.3 s). Produced, not phone-made.
 
 ## On-screen text, captions, logos, graphics
 - 15.8 s: "Birthdays", "Anniversaries", white italic serif.
@@ -57,7 +57,7 @@ Measured by software, not heard, so genre and track cannot be named. 49 cuts (6.
 - Metal, price and discount are never stated.
 
 ## Offer and call to action
-No spoken call to action, no offer. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text (one variant): "Consider this her not-so-subtle hints and GIVA gets you the most brownie points.😉 (Couple Gifting, Gift Ideas, Silver Jewellery, Romantic Gifting, Gifts for Her) #AD #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery". Aimed at the gift-giver.
+No spoken call to action, no offer. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text (one variant): "Consider this her not-so-subtle hints and GIVA gets you the most brownie points.😉 (Couple Gifting, Gift Ideas, Silver Jewellery, Romantic Gifting, Gifts for Her) #AD #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery". 
 
 ## Why it may work, and where it is weak
 Works:

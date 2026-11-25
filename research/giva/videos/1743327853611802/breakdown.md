@@ -23,7 +23,7 @@ Speaker shown only in the first seconds. Captions in a white serif confirm the w
 Unnamed; the Library category "Digital Creator" is not a credit and the ad text has no handle. Apparent 20s, dark hair in a bun, yellow waistcoat, white wide trousers, layered silver pendants, ear cuff, rings, bracelet. Friendly, direct; speaks to the lens for about 7 s, then appears only in details and a walking shot.
 
 ## Setting, framing and look
-A city street in daylight, shallow depth. Medium shot, then macro close-ups: pendants (10.9 s), ear cuff (15.2 s), rings (18.7 s), a walk past pink GIVA boxes on the pavement (22.8 s), hands and bracelet (30.1 s). A streaked transition at 6.9 s. Gimbal or good phone work, graded.
+A city street in daylight, shallow depth. Medium shot, then macro close-ups: pendants (10.9 s), ear cuff (15.2 s), rings (18.7 s), a walk past pink GIVA boxes on the pavement (22.8 s), hands and bracelet (30.1 s). A streaked transition at 6.9 s. Graded.
 
 ## On-screen text, captions, logos, graphics
 - White serif captions: "5 pm.", "hits and suddenly", "Just a little silver, in designs", "that make every after hour plans looks better." (caption wording).
@@ -50,7 +50,7 @@ No offer. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad 
 ## Why it may work, and where it is weak
 Works:
 - A time of day ("5 pm") is relatable to office workers.
-- Clear, well-lit close-ups; the spec card holds long enough to read.
+- Clear close-ups; the spec card holds long enough to read.
 
 Weak:
 - No discount, price or code.

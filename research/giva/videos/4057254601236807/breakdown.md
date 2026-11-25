@@ -23,10 +23,10 @@ The machine text for 1 to 11 s ("Move in once and I'll get it") does not match t
 0 s: a woman in a navy strapless button top and wide-leg navy trousers walks toward the camera along a brick pavement reading a tablet, books in her arm. 0.5 to 1 s: "THAT'S ENOUGH!" slides in at the top in blue condensed serif capitals. 2 s: "Who even wants a". 3 s: "9 to 5?!" in large serif. She talks as she walks. Hook: an exclamation, then a question.
 
 ## Person on screen
-Unnamed; the ad text credits only @giva.co. Apparent 20s, hair in a bun then a ponytail, round black glasses, layered pendant, emerald-stone ring, bracelet with a flower charm. Printed tote bag. Exasperated, theatrical; talks toward the lens in the opening, then appears in cutaways and walking shots.
+Unnamed; the ad text credits only @giva.co. Apparent 20s, bun then ponytail, round black glasses, layered pendant, emerald-stone ring, flower-charm bracelet. Theatrical; talks toward the lens in the opening, then appears in cutaways.
 
 ## Setting, framing and look
-A city pavement and a glass-fronted cafe with notebooks and two pink GIVA boxes. Low-angle walking shot, crouching to pick up dropped books, macro of hands writing on a tablet, a blank beige card (13 s), a phone call. Daylight, handheld or gimbal, bright grade; I lean phone-made.
+A city pavement and a glass-fronted cafe with two pink GIVA boxes. Low-angle walk, dropped books, macro of hands writing, a blank beige card (13 s), a phone call. Daylight, handheld; I lean phone-made.
 
 ## On-screen text, captions, logos, graphics
 - Blue serif: "THAT'S ENOUGH!", "9 to 5?!"; black sans: "Who even wants a".
@@ -34,7 +34,7 @@ A city pavement and a glass-fronted cafe with notebooks and two pink GIVA boxes.
 - End card, 37.3 s: crimson, GIVA logo, "Style, Sealed in Silver!", a garbled stat line ("3000+ Fresh Styl| 350+ Stores |fetime Plating").
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 34 cuts (9.1 per 10 s), first cut 5.27 s, none in the first 5 s; 107 words per minute; speech share 0.91; tempo 108 bpm. Gaps are 15 dB below speech (-31.6 vs -16.7 dB), so the sound-bed guess is plausible.
+Measured by software, not heard, so genre and track cannot be named. 34 cuts (9.1 per 10 s), first cut 5.27 s, none in the first 5 s; 107 words per minute; speech share 0.91; tempo 108 bpm. Gaps are 15 dB below speech, so the sound-bed guess is plausible.
 
 ## Structure
 | Time | Beat | What happens |
@@ -45,17 +45,16 @@ Measured by software, not heard, so genre and track cannot be named. 34 cuts (9.
 
 ## Claims and proof
 - "No tarnish, no fading, no fuzz": absolute, with no test or terms. The card says only "Lifetime Plating" (plating wears; "no tarnish" is about the metal). Other end cards add "6-Month Warranty".
-- "Hypoallergenic" is a caption only, with no certificate.
+- "Hypoallergenic": caption only, no certificate.
 - "350+" stores here; 400 on other end cards.
 
 ## Offer and call to action
-No offer; the close is the tagline. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text: "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co (Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel) #AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver". Same campaign line as 1743327853611802 and 29680531568217652.
+No offer. Button "Shop now", no headline, link to giva.co/collections/all-1. Ad text: "9 to 5 may not be your thing.But 925 silver? Always a good idea. ✨ @giva.co (Jewellery for work, Best anti tanish jewellery for work, jewellery for professional work environments, jewellery on formal wear, jewellery reel) #AD #GIVAJewellery #FineSilverJewellery #StyleSealedInSilver". Same campaign as 1743327853611802.
 
 ## Why it may work, and where it is weak
 Works:
 - A shared irritation (9 to 5) on a loud first beat.
-- Workplace-specific proof (back-to-back meetings, spilled coffee).
-- No cut for 5 s lets the opener land.
+- Workplace-specific proof words.
 
 Weak:
 - Absolute "no tarnish" with weak small print.

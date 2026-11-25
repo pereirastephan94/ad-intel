@@ -20,18 +20,17 @@ Captions confirm the first two lines. Machine timings after 12 s are coarse. Spe
 0 s: a hand with silver bangles hovers over a service bell on a marble counter. 1 s: a ringed hand on a blue chair. 2 s: a place setting with a handwritten note: "!!GIRLS NIGHT!! I'LL PICK YOU UP AT 8PM GET GLAMMED UP!! KISSES, MUAH!", a GIVA box beside it. The voice says "Looks like a plan just happened!" (caption at 5.6 s). Hook: a story statement over a visual set-up.
 
 ## Person on screen
-Unnamed; no caption or credit. Apparent 20s to 30s, long straight light-brown hair, then a sleek ponytail; white fitted button-front top, pendant, anchor tattoo on the wrist; later a beaded cream crop top and skirt with a tennis necklace, stacked ring, bracelet. Playful; looks at the lens at 5.6 s and 9.2 s.
+Unnamed; no caption or credit. Apparent 20s to 30s, light-brown hair, then a ponytail; white button-front top, pendant, anchor tattoo on the wrist; later a beaded cream crop top and skirt with a tennis necklace and stacked ring. Playful; looks at the lens at 5.6 and 9.2 s.
 
 ## Setting, framing and look
-A dim restaurant table with a glass cloche, then a grandfather clock, a dark curtain and a hallway. Macro shots (necklace, ear, hand), mediums and a walking shot. Warm, low key, several set-ups: high production.
+A dim restaurant table, a grandfather clock, a curtained hallway. Macro shots (necklace, ear, hand), mediums, a walking shot. Warm, low key: high production.
 
 ## On-screen text, captions, logos, graphics
 - White serif captions: "Looks like a plan just happened!", "And of course, I have exactly", "30 minutes."
-- The note, handwritten in red, blue and green.
 - End card, 36.9 s: black pattern, GIVA, "Silver | Gold | Lab Grown Diamonds", "More than A PRETTY PIECE", tiles "925 Silver", "Rhodium Plated", "Lifetime Plating", "15-Day Returns", "6-Month Warranty".
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 18 cuts (4.8 per 10 s), first cut 0.64 s, 6 in the first 5 s; 53 words per minute, speech share 0.97 (the low word count suggests part may be a song); tempo 172 bpm. Software guesses a sound bed (speech -14.8, gaps -22.3 dB).
+Measured by software, not heard, so genre and track cannot be named. 18 cuts (4.8 per 10 s), first cut 0.64 s, 6 in the first 5 s; 53 words per minute, speech share 0.97; tempo 172 bpm. Software guesses a sound bed (speech -14.8, gaps -22.3 dB).
 
 ## Structure
 | Time | Beat | What happens |
@@ -52,7 +51,6 @@ No offer; the tagline closes. Button "Shop now", no headline, link to giva.co/co
 Works:
 - A clear occasion with a time limit gives a story.
 - The spec card gives five comparable proof points.
-- Run again from 17 November with identical text, which suggests GIVA kept it.
 
 Weak:
 - No offer or code on a party-season ad.

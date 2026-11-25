@@ -25,10 +25,10 @@ Speakers not assigned. The transcript is rough from 22 s; doubtful words marked 
 0 s: a man in a navy textured shirt, wrists bound, a black hood over his head, a woman's bangled hand lifting it. 0.5 s: the hood comes off. 1 s: he squints, a height chart behind. 2 s: a charge board: "POLICE DEPARTMENT / INDORE, M.P. / ... Yash Shrivastava / Being Stylish / DATE: 31/10/2026". A small white GIVA logo sits top right from 0 s. Hook: a skit opener, a charge.
 
 ## Person on screen
-The prop charge board names "Yash Shrivastava", crime "Being Stylish"; the man holds it in the mugshot, so I take it as his character's label; it may not be his real name. Apparent 20s to 30s, short dark hair, stubble, navy textured shirt, a ring and bracelet, then a chain. Comic wince, then a smirk; looks at the lens in the close-ups. The questioner, apparent 30s, ponytail, striped shirt, bangles, is unnamed.
+The prop charge board names "Yash Shrivastava", crime "Being Stylish"; the man holds it in the mugshot, so it is his character's label, not necessarily his real name. Apparent 20s to 30s, dark hair, stubble, navy textured shirt, ring, bracelet, then a chain. Comic wince, then a smirk. The questioner (30s, ponytail, striped shirt) is unnamed.
 
 ## Setting, framing and look
-A police interview room (wood slats, dark table, height chart), then a map-wall backdrop for chain, bracelet and ring close-ups, then a mugshot on a blue wall. Static mediums and tight close-ups, graded; a built set. Near-black frames from 35 s lead to the end card.
+A built police interview room, then a map-wall backdrop for close-ups, then a mugshot on a blue wall. Static mediums and tight close-ups, graded. Near-black frames from 35 s lead to the end card.
 
 ## On-screen text, captions, logos, graphics
 - GIVA logo, white, top right, throughout.
@@ -46,17 +46,16 @@ Measured by software, not heard, so genre and track cannot be named. 41 cuts (9.
 | 34-42 | CTA | Mugshot, end card. |
 
 ## Claims and proof
-- "9 to 5 silver pieces that go with literally everything": each piece shows about a second; no hallmark.
+- "go with literally everything": each piece shows about a second; no hallmark.
 - "lifetime ... of this too": the audio is unclear; the card says "Lifetime Plating", a coating, not a guarantee.
 - "400 Stores": two other end cards say "350+ Stores".
 
 ## Offer and call to action
-Spoken: "So [shop?] your favourites now." No offer. Button "Shop now", no headline, link to checkout.giva.co/collections/gifts-for-him. Ad text: "Caught red-handed stealing all the attention. GIVA MEN is the evidence. (Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts) #AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery". Same end card and landing page as 1730927585259881.
+Spoken: "So [shop?] your favourites now." No offer. Button "Shop now", no headline, link to checkout.giva.co/collections/gifts-for-him. Ad text: "Caught red-handed stealing all the attention. GIVA MEN is the evidence. (Mens content, Mens fashion, outfit inspiration, styling tips, Gifts for men, gifts for boyfriend, gifts for him, gifts for brother, GIVA jewellery, GIVA silver jewellery, thoughtful gifts) #AD #GIVAMEN #GIVAJewellery #StyleSealedInSilver #FineSilverJewellery". Same end card as 1730927585259881.
 
 ## Why it may work, and where it is weak
 Works:
 - A funny, visual opening (hood, board) stops the scroll.
-- The "crime of being stylish" joke carries the range.
 
 Weak:
 - No offer on a gifting occasion.

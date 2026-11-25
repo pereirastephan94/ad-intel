@@ -25,10 +25,10 @@ Voiceover, speaker not shown. Words follow the burned-in captions where they sho
 0 to 1 s: a blurred pool behind a wooden chessboard mid-game, no people, no text. 2 to 3 s: a three-panel stack (black-and-white, colour, black-and-white) of two men seated opposite each other. The voice asks "Ever played a game that both players refuse to lose?" Hook: a question to the viewer.
 
 ## Person on screen
-Two unnamed men; the ad text credits only @giva.co. Both apparent 30s, bearded. One in a white linen shirt and white trousers; the other in a navy blazer over a light blue open-collar shirt, with silver chains, a flat bangle, rings. Serious, still; neither looks at the lens.
+Two unnamed men; the ad text credits only @giva.co. Both apparent 30s, bearded. One in a white linen shirt and white trousers; the other in a navy blazer over a light blue open-collar shirt, with silver chains, a flat bangle, rings. Serious; neither looks at the lens.
 
 ## Setting, framing and look
-A poolside terrace, hedge and white pillars, cane chairs, a chessboard on a wooden box. Tilt-shift opening, close-ups of hands, wrists and chains, a wide black-and-white two-shot. Warm daylight, graded, several set-ups: high production.
+A poolside terrace, cane chairs, a chessboard on a wooden box. Tilt-shift opening, close-ups of hands, wrists and chains, a wide black-and-white two-shot. Graded, several set-ups: high production.
 
 ## On-screen text, captions, logos, graphics
 - Captions, small white sans, centred low, a few words at a time ("refuse to lose?", "From statement rings to", "your style speak.", "Every side").
@@ -60,4 +60,4 @@ Works:
 Weak:
 - No offer or code on a gifting occasion.
 - Chains and bangles show for a second or two each.
-- Small captions; the close is unclear.
+- Small captions.
