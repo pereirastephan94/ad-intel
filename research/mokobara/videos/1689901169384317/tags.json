@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "DISCOUNTED PRICE ₹8,999",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": null,
+    "product": "Beetle Toggle Backpack, ₹8,999 from ₹12,999",
+    "one_line": "A receipt prints out showing the Beetle Toggle Backpack at ₹8,999 against an MRP of ₹12,999 under a Black Friday up to 60% off banner.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

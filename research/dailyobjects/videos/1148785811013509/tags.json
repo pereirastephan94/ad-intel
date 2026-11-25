@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "If you're in your twenties, here's your reason to gift yourself something super cute.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Note lamp-charger and Array desk organiser",
+    "one_line": "A woman builds a 'girl lair' desk with the Note lamp and charger and the Array organiser, and asks viewers to comment DESK for links.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook_text",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

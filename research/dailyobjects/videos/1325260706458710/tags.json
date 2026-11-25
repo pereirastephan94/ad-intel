@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "All that a power bank should have",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Magnetic power bank, 10000mAh",
+    "one_line": "A silent close-up demo of a black power bank being picked up and snapped magnetically onto a phone case, under two short text cards.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["hook", "angle"],
+    "human_checked": false
+  }
+}

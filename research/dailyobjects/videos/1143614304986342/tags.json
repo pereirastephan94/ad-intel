@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "If you're shopping for a guy this Diwali and have absolutely no idea what to get him,",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Gift guide: tech kit, Note charger, Stack wallet",
+    "one_line": "A woman shows three DailyObjects gifts for a guy: a cable tech kit, the Note lamp and charger, and a Stack wallet stand.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

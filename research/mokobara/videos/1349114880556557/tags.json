@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Okay, the Mokobara Black Friday sale is here and I may have just found my next everyday bag.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Astrid tote, 22 L everyday bag",
+    "one_line": "A woman reviews the Astrid tote through three reasons: 22 L with laptop sleeve, bottle sleeve and key holder, and work-to-weekend style.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Winter phone stack upgrade",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Stack case, flip wallet and stand unboxing",
+    "one_line": "Silent unboxing of a Daily Objects box with a Stack case, flip-open wallet and stand, under the title 'Winter phone stack upgrade'.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

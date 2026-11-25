@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "creator",
+    "founder_evidence": "ad text: '#ad'; spoken: 'As a content creator I'm always carrying my camera, iPad...'",
+    "hook": "story_open",
+    "hook_text": "I finally found a backpack that fits all my shoot essentials and actually looks good.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Pivot backpack",
+    "one_line": "A content creator packs an iPad and small items into the Pivot backpack and says it fits his shoot kit and matches his outfit.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

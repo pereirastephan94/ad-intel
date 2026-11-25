@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Node ecosystem accessory, new launch",
+    "one_line": "A silent 3D film of a green ridged disc rolling over sculpted orange and blue shapes, ending on the DO logo, for the Node launch.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["angle", "production", "row"],
+    "human_checked": false
+  }
+}

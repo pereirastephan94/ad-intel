@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "a day in my life",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Phone cases in maroon, tan, navy, blue-grey",
+    "one_line": "Silent time-stamped Mumbai day-in-the-life montage in which new DailyObjects phone cases appear at breakfast, coffee, the sea and shopping.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}
