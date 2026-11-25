@@ -24,6 +24,10 @@
   {
    "media": "meme",
    "retry": 7
+  },
+  {
+   "media": "meme",
+   "retry": 8
   }
  ],
  "total": 182,
@@ -61,14 +65,13 @@
   "2026-11-20T02:24:55.579Z PAUSED: 34 unique ads of ~182",
   "2026-11-23T09:54:52.187Z view {\"media\":\"meme\",\"retry\":7} -> 0 ads (window total 0), 0 new, 34 unique of ~182",
   "2026-11-23T09:54:52.190Z stopping after 1 view(s) as asked",
-  "2026-11-23T09:54:52.190Z PAUSED: 34 unique ads of ~182"
+  "2026-11-23T09:54:52.190Z PAUSED: 34 unique ads of ~182",
+  "2026-11-23T11:57:22.029Z view {\"media\":\"meme\",\"retry\":8} -> 28 ads (window total 28), 24 new, 58 unique of ~182",
+  "2026-11-23T11:57:22.032Z stopping after 1 view(s) as asked",
+  "2026-11-23T11:57:22.032Z PAUSED: 58 unique ads of ~182"
  ],
  "keywordsQueued": true,
  "queue": [
-  {
-   "media": "meme",
-   "retry": 8
-  },
   {
    "media": "all",
    "sort": "relevancy_monthly_grouped",

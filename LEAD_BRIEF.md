@@ -9,7 +9,8 @@ You are the lead session. Your job is to keep the pipeline moving and report to 
 - Done 23 Nov: Qubo write-ups (23 videos, 12 images), idea pass (31 ideas), TAGGING rulings review 7.
 - Done: SSB vs Mesa page built (rubric 47 of 48). Artifact publish was denied, so it went to the owner as a file: deliverables/ssb-vs-mesa.html. Atomberg idea pass; SSB idea pass; Mesa extras.json; Qubo prepare + retranscribe.
 - Blocked: send_message to the original session (trusted device) and to SSB PG COS2 (denied).
-- Published by COS: none yet. Mesa teardown: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Prompt doc for others: Google Doc "Competitor ad teardown: prompt for Claude".
+- 25 Nov 20:12 UTC: puller restarted after sitting idle since 23 Nov 12:04 (worker restart). Mokobara, DailyObjects, GIVA prepared and retranscribed; next their write-ups. Cult.fit idea pass refreshed (60 ads); next rebuild page 2.
+- Published by COS: Atomberg vs Qubo https://claude.ai/artifact/CN6fqqQxZqPdYLkNfnBy5h (47 of 48). Mesa teardown: https://claude.ai/artifact/AkQYkZB3ZuVR8hV7rRyrtE . Prompt doc for others: Google Doc "Competitor ad teardown: prompt for Claude".
 
 ## Who does what (model policy, set by the owner on 20 Nov)
 | Work | Who | Notes |
@@ -41,7 +42,7 @@ Never read sub-agent transcripts or `list_events` of other sessions: they flood 
 ## The pairs
 1. Stable Money vs Wint Wealth: PUBLISHED https://claude.ai/artifact/MsxdvaRyVXemXciA35N7KJ
 2. Cult.fit vs Fitelo: PUBLISHED https://claude.ai/artifact/5sZG7mWZYjdFsbQarkXo5V
-3. Atomberg vs Qubo: Atomberg pulled (30 ads) and being written up; Qubo has no ads yet.
+3. Atomberg vs Qubo: PUBLISHED https://claude.ai/artifact/CN6fqqQxZqPdYLkNfnBy5h
 4. Mokobara vs DailyObjects: nothing pulled yet (DailyObjects page found by search only on 20 Nov 01:01).
 5. GIVA vs CaratLane: nothing pulled yet.
 6. Scaler School of Business (the owner's own school) vs Mesa: SSB 30 of 36 ads pulled 04:26 UTC; Mesa has 249 ads, video tags done, image tags in progress. The owner wants "what Mesa does that we do not".
