@@ -1,6 +1,6 @@
 # Playground monologue selling Loop power bank and Stack case (1011624121965699)
 - Creative name: not in link
-- Product or programme: Loop power bank (10,000 mAh) and Stack phone case with add-ons, both named in speech; the link goes to the "Loop Qi2 certified MagSafe compatible aluminium power bank 10000 mAh Titanium" page (from the URL)
+- Product or programme: Loop power bank (10,000 mAh) and Stack phone case, named in speech; link goes to the "Loop Qi2 certified MagSafe compatible aluminium power bank 10000 mAh Titanium" page (from the URL)
 - Length, shape: 45.7 s, vertical 9:16 (720 x 1280)
 - Language: English
 - Format: first-person lifestyle monologue, phone-shot, product close-ups cut in
@@ -8,7 +8,7 @@
   - https://www.facebook.com/ads/library/?id=1788239835589553
 
 ## Script (verbatim)
-Captions match the speech; "stat" in the machine text is "STACK" in the caption, and "legend ... deri time" is the caption "legen- wait for it -dary".
+Captions fix the machine text: "stat" is STACK; "legend ... deri time" is "legen- wait for it -dary".
 
 | Time | Line |
 |---|---|
@@ -42,19 +42,19 @@ Measured by software, not heard, so genre and track cannot be named. 16 cuts (3.
 ## Structure
 | Time | Beat | What happens |
 |---|---|---|
-| 0-8 | Hook | Documenting everything, photos and videos |
+| 0-8 | Hook | Documenting everything |
 | 8-18 | Product 1 | Phone at 13%, Loop, 10,000 mAh |
-| 18-29 | Product 2 | Stack case, lanyard, wallet, add-ons |
-| 29-45 | Emotional close | Holding on to moments, "Loop keeps me charged, Stack keeps me sorted" |
+| 18-29 | Product 2 | Stack case, lanyard, wallet |
+| 29-45 | Close | "Loop keeps me charged, Stack keeps me sorted" |
 
 ## Claims and proof
-- "my phone is at 13% most of the times": personal, no screen shown.
-- "fully charge my phone twice in one day": no test, no battery screen, no small print; the caption gives only "10,000 mAh".
+- "my phone is at 13% most of the times": personal; no screen shown.
+- "fully charge my phone twice in one day": no test or small print; the caption gives only "10,000 mAh".
 - Stack "lets me add a lanyard, a wallet for my handy cash and cards": a wallet is shown on the case (27 s); cards and cash are not visible.
-- Mismatch: roughly half the script sells Stack, but the ad text and link name only the Loop power bank.
+- Mismatch: about half the script sells Stack; the ad text and link name only the Loop power bank.
 
 ## Offer and call to action
-No offer, price, code or spoken call to action. Button "Shop now". Link goes to the Loop power bank product page. Ad text: "i refuse to get a new phone till i get the most out of it, so best believe i'm attached to the loop power bank by @dailyobjects_official" plus hashtags #phoneaccesories #phonecovers #dailyobjects. No headline.
+No offer, price, code or spoken call to action. Button "Shop now"; link to the Loop power bank page. Ad text: "i refuse to get a new phone till i get the most out of it, so best believe i'm attached to the loop power bank by @dailyobjects_official" plus #phoneaccesories #phonecovers #dailyobjects. No headline.
 
 ## Why it may work, and where it is weak
 Works:
