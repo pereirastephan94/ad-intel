@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "What's new?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "iPhone 18 case range, six colours",
+    "one_line": "Silent animated reveal of rendered cases in six named colours, stands, clear and artist cases, ending on the DA logo.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

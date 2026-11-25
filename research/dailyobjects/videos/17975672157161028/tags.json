@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "creator",
+    "founder_evidence": "ad headline: 'peacharchive.zip'; ad text: 'loving the new cases from @dailyobjects_official'",
+    "hook": "callout",
+    "hook_text": "Case Rotation",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "iPhone 18 cases, colour range",
+    "one_line": "Silent 2.5 second split screen: a grid of six cases beside quick outfit and desk clips, titled Case Rotation.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

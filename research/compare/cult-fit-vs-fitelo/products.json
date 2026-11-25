@@ -8,14 +8,15 @@
   "weight_loss_coaching": "Weight-loss coaching",
   "smart_scale": "Smart scale",
   "body_map_review": "BodyMap review",
-  "health_plans": "PCOS, thyroid and diabetes plans"
+  "health_plans": "PCOS, thyroid and diabetes plans",
+  "unclear": "Not yet written up"
  },
  "site": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-25",
   "A": [
    {
     "key": "cultpass_elite",
-    "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹31,790 in Amritsar",
+    "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹25,490 in Ahmedabad, ₹31,790 in Amritsar; offer: ₹3,000 off and a 1-month pause",
     "url": "https://www.cult.fit/fitness"
    },
    {
@@ -32,7 +33,7 @@
    },
    {
     "key": "cultpass_pro",
-    "claim": "Gyms plus 2 group classes a month; offer: 2 months free and ₹1,600 off; no price read",
+    "claim": "Gyms plus 2 group classes a month; offer: ₹2,000 off and a 1-month pause; no price read",
     "url": "https://www.cult.fit/fitness"
    },
    {
@@ -42,14 +43,14 @@
    },
    {
     "key": "weight_loss_coaching",
-    "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; offer: ₹1,100 gift card and 1.5 months free; no price read",
+    "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; the live offer names Transform Plus (₹800 Amazon Pay gift card and a 1-month extension); no price read",
     "url": "https://www.cult.fit/fitness"
    }
   ],
   "B": [
    {
     "key": "weight_loss_coaching",
-    "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read",
+    "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read on 20 or 25 Nov",
     "url": "https://fitelo.co/"
    },
    {
@@ -68,6 +69,20 @@
     "url": "https://fitelo.co/services/plans-overview/"
    }
   ]
+ },
+ "cities": {
+  "2404800830259411": "Mall Road, Amritsar",
+  "1142965181654720": "Mall Road, Amritsar",
+  "1763133728096239": "Mall Road, Amritsar",
+  "1645883207287485": "VIP Road",
+  "1088984333744777": "VIP Road",
+  "1114356351358840": "Indore",
+  "4606351752947622": "Prahlad Nagar",
+  "1652879219724213": "Prahlad Nagar",
+  "1644460903932522": "Indira Nagar",
+  "28835523932756470": "Chandigarh",
+  "1182726674293191": "Neo Gym",
+  "1950951139220699": "Impackt Fitness Kondapur, Hyderabad"
  },
  "ads": {
   "1529622859191185": "cult_membership",
@@ -100,6 +115,36 @@
   "1088984333744777": "cultpass_elite",
   "1950951139220699": "cultpass_elite",
   "2127525884795681": "cultpass_play",
+  "1644316817619217": "cultpass_elite",
+  "1088713540807221": "cultpass_elite",
+  "2580009365745961": "cultpass_elite",
+  "1071699242138573": "cultpass_elite",
+  "3777167249097356": "cultpass_elite",
+  "1538544364972905": "cultpass_elite",
+  "1103691235330977": "cultpass_elite",
+  "1411563457759054": "cultpass_elite",
+  "1994434544566484": "cultpass_elite",
+  "978478648611022": "cultpass_elite",
+  "1018165951266899": "cultpass_elite",
+  "1630996375334902": "cultpass_elite",
+  "2546809982481655": "cultpass_elite",
+  "1078845298197942": "cultpass_elite",
+  "1241821461451508": "cultpass_elite",
+  "1736977457415163": "cultpass_elite",
+  "1391597625770579": "cultpass_elite",
+  "1377499714564377": "cultpass_elite",
+  "2255850804958365": "cultpass_elite",
+  "4479660248969408": "cultpass_elite",
+  "1533712601774060": "cultpass_elite",
+  "1539942324830414": "cultpass_elite",
+  "1420904529947518": "cultpass_elite",
+  "1789362585527298": "cultpass_elite",
+  "3743836662431497": "cultpass_elite",
+  "1891868971786839": "unclear",
+  "1091108850133335": "cultpass_elite",
+  "1376362647553567": "cult_membership",
+  "1428286499400835": "cult_membership",
+  "1141867424988014": "cultpass_elite",
   "2941541369549817": "smart_scale",
   "1912200749756133": "weight_loss_coaching",
   "2996269977403566": "weight_loss_coaching",
@@ -135,19 +180,5 @@
   "926250147231507": "smart_scale",
   "1461564966113780": "weight_loss_coaching"
  },
- "cities": {
-  "2404800830259411": "Mall Road, Amritsar",
-  "1142965181654720": "Mall Road, Amritsar",
-  "1763133728096239": "Mall Road, Amritsar",
-  "1645883207287485": "VIP Road",
-  "1088984333744777": "VIP Road",
-  "1114356351358840": "Indore",
-  "4606351752947622": "Prahlad Nagar",
-  "1652879219724213": "Prahlad Nagar",
-  "1644460903932522": "Indira Nagar",
-  "28835523932756470": "Chandigarh",
-  "1182726674293191": "Neo Gym",
-  "1950951139220699": "Impackt Fitness Kondapur, Hyderabad"
- },
- "_note": "Product per ad drafted by teardown/compare/products.py with product_rules.json, checked against research/<brand>/concepts.md (Products advertised). site from research/<brand>/site.md. cities: the place named in each ad's own text (Cult.fit re-sends one film per centre)."
+ "_note": "Product per ad drafted by teardown/compare/products.py with product_rules.json, checked against research/<brand>/concepts.md (Products advertised). site from research/<brand>/site.md. cities: the place named in each ad's own text (Cult.fit re-sends one film per centre). Fitelo: only its 34 written-up ads (written_up.py); the 24 image ads pulled on 23 Nov have no write-ups. Cult.fit: all 60, one (1891868971786839) not yet written up, so 'unclear'."
 }

@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "If you're obsessed with growth the way I am you know how important systems are.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Tote, phone cases, stack wallet, tech case",
+    "one_line": "A woman at a cafe table shows what is in her work bag, including DailyObjects items, without naming the brand aloud.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Sherlock holmes & spooky season",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Sherlock artist phone case, Amrit Pal collection",
+    "one_line": "Silent cosy Halloween home scene where a woman unboxes and holds the Sherlock-design artist case, ending on a mirror selfie.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

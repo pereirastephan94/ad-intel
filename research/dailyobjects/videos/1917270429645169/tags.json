@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "your next trip has a date!",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Travel bags and carry essentials",
+    "one_line": "Silent 8 second clip where a calendar over a packed bag fills with photo tiles under the line 'your next trip has a date!'.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

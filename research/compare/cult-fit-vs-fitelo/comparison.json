@@ -3,26 +3,26 @@
   "snapshot_date": "2026-11-20",
   "country": "IN",
   "rules_version": "rows-v1",
-  "sample_rule": "Per brand, the first ads the Ad Library shows for the page in its own default order, pulled late on 19 Nov 2026 (UTC). Cult.fit's views sorted by total impressions came back empty six times, so both brands were pulled unsorted: this sample is not a ranking by impressions. Cult.fit: 30 ads; its unsorted all-ads view came back empty three times and its video-only view twice, and the 30 came from the one view that loaded (the image filter, which listed 35 ads, all of them video), so Cult.fit's sample holds no image ads. Fitelo: the first 30 of about 182 in the all-ads view, plus 4 more from the first 30 of its video-only view (about 150); its image-only view came back empty twice.",
+  "sample_rule": "Per brand, the first ads the Ad Library shows for the page in its own default order, pulled 19 to 20 Nov 2026 (UTC). Cult.fit's views sorted by total impressions came back empty six times, so both brands were pulled unsorted: this sample is not a ranking by impressions. Cult.fit: 60 ads, all video; 30 from its image filter on 19 Nov (it listed 35 ads, all of them video) and 30 more from its video-only view on 20 Nov (about 796); its all-ads view came back empty three times, so Cult.fit's sample holds no image ads, and one video (1 of 60) could not be downloaded and has no write-up. Fitelo: the first 30 of about 182 in the all-ads view, plus 4 more from the first 30 of its video-only view (about 150); its image-only view came back empty twice. A later Fitelo image view on 23 Nov listed 28 image ads, 24 of them new; those 24 have no write-ups yet and are left out, so Fitelo's 34 hold 4 image ads.",
   "sample_order": "default",
   "sample_short": "the first the Library shows, in its default order, not by impressions",
   "brands": {
    "A": {
     "name": "Cult.fit",
     "dir": "research/cult-fit",
-    "n": 30,
-    "n_video": 30,
+    "n": 60,
+    "n_video": 60,
     "n_image": 0,
-    "unique_videos": 14,
+    "unique_videos": 23,
     "unclear": {
-     "video": 0,
+     "video": 1,
      "image": 0
     },
     "top30_all": null
    },
    "B": {
     "name": "Fitelo",
-    "dir": "research/fitelo",
+    "dir": "/tmp/claude-0/-home-user-ad-intel/a4bcc5c6-4d1a-5676-b1b0-2dff902eac6b/scratchpad/fitelo-written",
     "n": 34,
     "n_video": 30,
     "n_image": 4,
@@ -58,13 +58,19 @@
    "label": "Person to camera",
    "medium": "video",
    "A": {
-    "n": 4,
-    "share": 0.1333,
-    "ideas": 1,
-    "median_days": 27.0,
-    "versions": 4,
+    "n": 10,
+    "share": 0.1667,
+    "ideas": 3,
+    "median_days": 56.0,
+    "versions": 27,
     "founder": 0,
     "ad_ids": [
+     "1391597625770579",
+     "1377499714564377",
+     "1533712601774060",
+     "1736977457415163",
+     "1376362647553567",
+     "1091108850133335",
      "1644460903932522",
      "1088984333744777",
      "1763133728096239",
@@ -101,12 +107,13 @@
    },
    "status": "B_lead",
    "lead": "B",
-   "ratio": 4,
+   "ratio": 3,
    "evidence": "strong",
    "small_base": false,
    "cards": {
     "A": [
-     "1644460903932522"
+     "1391597625770579",
+     "1533712601774060"
     ],
     "B": [
      "925451983928233",
@@ -119,19 +126,35 @@
    "label": "Scene or story",
    "medium": "video",
    "A": {
-    "n": 17,
-    "share": 0.5667,
-    "ideas": 2,
-    "median_days": 16,
-    "versions": 24,
+    "n": 33,
+    "share": 0.55,
+    "ideas": 6,
+    "median_days": 33,
+    "versions": 59,
     "founder": 0,
     "ad_ids": [
+     "1411563457759054",
+     "978478648611022",
+     "1420904529947518",
+     "1789362585527298",
+     "1103691235330977",
+     "1994434544566484",
+     "1088713540807221",
+     "1539942324830414",
+     "1644316817619217",
+     "2580009365745961",
+     "1071699242138573",
+     "3777167249097356",
+     "1538544364972905",
+     "1428286499400835",
      "1529622859191185",
      "1583453076375971",
      "1131711099318475",
      "4606351752947622",
      "2348546639313061",
      "1088664397267392",
+     "1141867424988014",
+     "3743836662431497",
      "1153711787290276",
      "986842284018835",
      "2404800830259411",
@@ -157,12 +180,12 @@
    "status": "only_A",
    "lead": "A",
    "ratio": null,
-   "evidence": "moderate",
+   "evidence": "strong",
    "small_base": false,
    "cards": {
     "A": [
-     "1529622859191185",
-     "1153711787290276"
+     "1411563457759054",
+     "1420904529947518"
     ],
     "B": []
    }
@@ -210,13 +233,20 @@
    "label": "Text and motion",
    "medium": "video",
    "A": {
-    "n": 9,
-    "share": 0.3,
-    "ideas": 2,
-    "median_days": 4,
-    "versions": 16,
+    "n": 16,
+    "share": 0.2667,
+    "ideas": 3,
+    "median_days": 4.0,
+    "versions": 33,
     "founder": 0,
     "ad_ids": [
+     "4479660248969408",
+     "2255850804958365",
+     "1018165951266899",
+     "1630996375334902",
+     "2546809982481655",
+     "1078845298197942",
+     "1241821461451508",
      "2958662064496104",
      "1665600734881123",
      "1126343416846783",
@@ -250,13 +280,13 @@
    },
    "status": "even",
    "lead": null,
-   "ratio": 1.11,
+   "ratio": 1.25,
    "evidence": "strong",
    "small_base": false,
    "cards": {
     "A": [
-     "2958662064496104",
-     "1950951139220699"
+     "4479660248969408",
+     "2958662064496104"
     ],
     "B": [
      "1711017009950319",
@@ -377,9 +407,10 @@
  "products": {
   "counts": {
    "A": {
-    "cultpass_elite": 14,
-    "cult_membership": 8,
-    "cultpass_play": 8
+    "cultpass_elite": 41,
+    "cult_membership": 10,
+    "cultpass_play": 8,
+    "unclear": 1
    },
    "B": {
     "weight_loss_coaching": 27,
@@ -396,14 +427,15 @@
    "weight_loss_coaching": "Weight-loss coaching",
    "smart_scale": "Smart scale",
    "body_map_review": "BodyMap review",
-   "health_plans": "PCOS, thyroid and diabetes plans"
+   "health_plans": "PCOS, thyroid and diabetes plans",
+   "unclear": "Not yet written up"
   },
   "site": {
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-25",
    "A": [
     {
      "key": "cultpass_elite",
-     "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹31,790 in Amritsar",
+     "claim": "Unlimited group classes, gyms and home workouts; 24-month pack ₹27,890 in Bangalore and Hyderabad (₹1,162 a month), ₹25,560 in Indore, ₹25,490 in Ahmedabad, ₹31,790 in Amritsar; offer: ₹3,000 off and a 1-month pause",
      "url": "https://www.cult.fit/fitness"
     },
     {
@@ -420,7 +452,7 @@
     },
     {
      "key": "cultpass_pro",
-     "claim": "Gyms plus 2 group classes a month; offer: 2 months free and ₹1,600 off; no price read",
+     "claim": "Gyms plus 2 group classes a month; offer: ₹2,000 off and a 1-month pause; no price read",
      "url": "https://www.cult.fit/fitness"
     },
     {
@@ -430,14 +462,14 @@
     },
     {
      "key": "weight_loss_coaching",
-     "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; offer: ₹1,100 gift card and 1.5 months free; no price read",
+     "claim": "cult Transform: a coach on WhatsApp and calls for fat loss and weight loss, no gym included; the live offer names Transform Plus (₹800 Amazon Pay gift card and a 1-month extension); no price read",
      "url": "https://www.cult.fit/fitness"
     }
    ],
    "B": [
     {
      "key": "weight_loss_coaching",
-     "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read",
+     "claim": "\"A weight loss program made around you\", built on BodyMap; no price on the site; no cashback offer on the pages read on 20 or 25 Nov",
      "url": "https://fitelo.co/"
     },
     {
@@ -461,9 +493,67 @@
  "lean": {
   "A": {
    "all": {
-    "n": 30,
-    "ideas_total": 5,
+    "n": 60,
+    "ideas_total": 13,
     "top": [
+     {
+      "n": 6,
+      "versions": 16,
+      "longest_days": 56,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 4,
+      "ideas": 1,
+      "score": 18.87,
+      "lead_ad": "1533712601774060",
+      "rows": {
+       "V1": 6
+      },
+      "media": {
+       "video": 6
+      },
+      "idea": "CF-c03",
+      "ad_ids": [
+       "1533712601774060",
+       "1091108850133335",
+       "1644460903932522",
+       "1088984333744777",
+       "1763133728096239",
+       "1182726674293191"
+      ]
+     },
+     {
+      "n": 10,
+      "versions": 20,
+      "longest_days": 73,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 0,
+      "ideas": 1,
+      "score": 17.43,
+      "lead_ad": "1411563457759054",
+      "rows": {
+       "V2": 10
+      },
+      "media": {
+       "video": 10
+      },
+      "idea": "CF-c10",
+      "ad_ids": [
+       "1411563457759054",
+       "978478648611022",
+       "1103691235330977",
+       "1994434544566484",
+       "1088713540807221",
+       "1644316817619217",
+       "2580009365745961",
+       "1071699242138573",
+       "3777167249097356",
+       "1538544364972905"
+      ]
+     },
      {
       "n": 9,
       "versions": 12,
@@ -524,89 +614,85 @@
       ]
      },
      {
-      "n": 8,
-      "versions": 15,
-      "longest_days": 4,
+      "n": 7,
+      "versions": 17,
+      "longest_days": 73,
       "products": [
-       "cultpass_play"
+       "cultpass_elite"
       ],
       "cities": 0,
       "ideas": 1,
-      "score": 11.63,
-      "lead_ad": "2958662064496104",
+      "score": 14.43,
+      "lead_ad": "4479660248969408",
       "rows": {
-       "V4": 8
+       "V4": 7
       },
       "media": {
-       "video": 8
+       "video": 7
       },
-      "idea": "CF-c04",
+      "idea": "CF-c06",
       "ad_ids": [
-       "2958662064496104",
-       "1665600734881123",
-       "1126343416846783",
-       "1844076343579583",
-       "3294825420716053",
-       "2127525884795681",
-       "2555329068326204",
-       "1601836728299392"
-      ]
-     },
-     {
-      "n": 4,
-      "versions": 4,
-      "longest_days": 38,
-      "products": [
-       "cultpass_elite"
-      ],
-      "cities": 4,
-      "ideas": 1,
-      "score": 11.27,
-      "lead_ad": "1644460903932522",
-      "rows": {
-       "V1": 4
-      },
-      "media": {
-       "video": 4
-      },
-      "idea": "CF-c03",
-      "ad_ids": [
-       "1644460903932522",
-       "1088984333744777",
-       "1763133728096239",
-       "1182726674293191"
-      ]
-     },
-     {
-      "n": 1,
-      "versions": 1,
-      "longest_days": 4,
-      "products": [
-       "cultpass_elite"
-      ],
-      "cities": 1,
-      "ideas": 1,
-      "score": 1.13,
-      "lead_ad": "1950951139220699",
-      "rows": {
-       "V4": 1
-      },
-      "media": {
-       "video": 1
-      },
-      "idea": "CF-c05",
-      "ad_ids": [
-       "1950951139220699"
+       "4479660248969408",
+       "2255850804958365",
+       "1018165951266899",
+       "1630996375334902",
+       "2546809982481655",
+       "1078845298197942",
+       "1241821461451508"
       ]
      }
     ],
     "concentration": {
-     "top1": 0.3,
-     "top3": 0.8333,
-     "top1_n": 9,
+     "top1": 0.1,
+     "top3": 0.4167,
+     "top1_n": 6,
      "top3_n": 25
     },
     "series": [
+     {
+      "n": 19,
+      "versions": 42,
+      "longest_days": 73,
+      "products": [
+       "cult_membership",
+       "cultpass_elite"
+      ],
+      "cities": 0,
+      "ideas": 5,
+      "score": 34.93,
+      "lead_ad": "1391597625770579",
+      "rows": {
+       "V1": 4,
+       "V2": 15
+      },
+      "media": {
+       "video": 19
+      },
+      "name": "Many formats, never bored",
+      "note": "Five films, each with its own script, sell class variety as the cure for a boring routine: a man explaining three formats (3 ads), a train-anywhere voiceover (4), a workout-picker teaser (10), a first-timer mother (1) and a man who changed the room (1). All go to the app link.",
+      "ad_ids": [
+       "1736977457415163",
+       "1391597625770579",
+       "1377499714564377",
+       "1539942324830414",
+       "1420904529947518",
+       "1789362585527298",
+       "3743836662431497",
+       "1644316817619217",
+       "1088713540807221",
+       "2580009365745961",
+       "1071699242138573",
+       "3777167249097356",
+       "1538544364972905",
+       "1103691235330977",
+       "1411563457759054",
+       "1994434544566484",
+       "978478648611022",
+       "1428286499400835",
+       "1376362647553567"
+      ],
+      "share": 0.3167
+     },
      {
       "n": 11,
       "versions": 11,
@@ -627,7 +713,7 @@
        "video": 11
       },
       "name": "One film, a new centre and price each time",
-      "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
+      "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads, all started 13 October to 16 November.",
       "ad_ids": [
        "2404800830259411",
        "1142965181654720",
@@ -641,7 +727,36 @@
        "28835523932756470",
        "1182726674293191"
       ],
-      "share": 0.3667
+      "share": 0.1833
+     },
+     {
+      "n": 6,
+      "versions": 16,
+      "longest_days": 56,
+      "products": [
+       "cultpass_elite"
+      ],
+      "cities": 4,
+      "ideas": 1,
+      "score": 18.87,
+      "lead_ad": "1533712601774060",
+      "rows": {
+       "V1": 6
+      },
+      "media": {
+       "video": 6
+      },
+      "name": "Break-up gag, same answer each time",
+      "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs in six ads, four under different centres and two September \"For Every Moment\" ads that name no centre.",
+      "ad_ids": [
+       "1644460903932522",
+       "1763133728096239",
+       "1088984333744777",
+       "1182726674293191",
+       "1533712601774060",
+       "1091108850133335"
+      ],
+      "share": 0.1
      },
      {
       "n": 9,
@@ -674,42 +789,73 @@
        "2127525884795681",
        "1950951139220699"
       ],
-      "share": 0.3
-     },
-     {
-      "n": 4,
-      "versions": 4,
-      "longest_days": 38,
-      "products": [
-       "cultpass_elite"
-      ],
-      "cities": 4,
-      "ideas": 1,
-      "score": 11.27,
-      "lead_ad": "1644460903932522",
-      "rows": {
-       "V1": 4
-      },
-      "media": {
-       "video": 4
-      },
-      "name": "Break-up gag, same answer each time",
-      "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs under four different centres.",
-      "ad_ids": [
-       "1644460903932522",
-       "1763133728096239",
-       "1088984333744777",
-       "1182726674293191"
-      ],
-      "share": 0.1333
+      "share": 0.15
      }
     ]
    },
    "by_product": {
     "cultpass_elite": {
-     "n": 14,
-     "ideas_total": 3,
+     "n": 41,
+     "ideas_total": 8,
      "top": [
+      {
+       "n": 6,
+       "versions": 16,
+       "longest_days": 56,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 4,
+       "ideas": 1,
+       "score": 18.87,
+       "lead_ad": "1533712601774060",
+       "rows": {
+        "V1": 6
+       },
+       "media": {
+        "video": 6
+       },
+       "idea": "CF-c03",
+       "ad_ids": [
+        "1533712601774060",
+        "1091108850133335",
+        "1644460903932522",
+        "1088984333744777",
+        "1763133728096239",
+        "1182726674293191"
+       ]
+      },
+      {
+       "n": 10,
+       "versions": 20,
+       "longest_days": 73,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 17.43,
+       "lead_ad": "1411563457759054",
+       "rows": {
+        "V2": 10
+       },
+       "media": {
+        "video": 10
+       },
+       "idea": "CF-c10",
+       "ad_ids": [
+        "1411563457759054",
+        "978478648611022",
+        "1103691235330977",
+        "1994434544566484",
+        "1088713540807221",
+        "1644316817619217",
+        "2580009365745961",
+        "1071699242138573",
+        "3777167249097356",
+        "1538544364972905"
+       ]
+      },
       {
        "n": 9,
        "versions": 12,
@@ -741,60 +887,107 @@
        ]
       },
       {
-       "n": 4,
-       "versions": 4,
-       "longest_days": 38,
+       "n": 7,
+       "versions": 17,
+       "longest_days": 73,
        "products": [
         "cultpass_elite"
        ],
-       "cities": 4,
+       "cities": 0,
        "ideas": 1,
-       "score": 11.27,
-       "lead_ad": "1644460903932522",
+       "score": 14.43,
+       "lead_ad": "4479660248969408",
        "rows": {
-        "V1": 4
+        "V4": 7
+       },
+       "media": {
+        "video": 7
+       },
+       "idea": "CF-c06",
+       "ad_ids": [
+        "4479660248969408",
+        "2255850804958365",
+        "1018165951266899",
+        "1630996375334902",
+        "2546809982481655",
+        "1078845298197942",
+        "1241821461451508"
+       ]
+      },
+      {
+       "n": 4,
+       "versions": 10,
+       "longest_days": 73,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 9.43,
+       "lead_ad": "1420904529947518",
+       "rows": {
+        "V2": 4
        },
        "media": {
         "video": 4
        },
-       "idea": "CF-c03",
+       "idea": "CF-c08",
        "ad_ids": [
-        "1644460903932522",
-        "1088984333744777",
-        "1763133728096239",
-        "1182726674293191"
-       ]
-      },
-      {
-       "n": 1,
-       "versions": 1,
-       "longest_days": 4,
-       "products": [
-        "cultpass_elite"
-       ],
-       "cities": 1,
-       "ideas": 1,
-       "score": 1.13,
-       "lead_ad": "1950951139220699",
-       "rows": {
-        "V4": 1
-       },
-       "media": {
-        "video": 1
-       },
-       "idea": "CF-c05",
-       "ad_ids": [
-        "1950951139220699"
+        "1420904529947518",
+        "1789362585527298",
+        "1539942324830414",
+        "3743836662431497"
        ]
       }
      ],
      "concentration": {
-      "top1": 0.6429,
-      "top3": 1.0,
-      "top1_n": 9,
-      "top3_n": 14
+      "top1": 0.1463,
+      "top3": 0.6098,
+      "top1_n": 6,
+      "top3_n": 25
      },
      "series": [
+      {
+       "n": 17,
+       "versions": 39,
+       "longest_days": 73,
+       "products": [
+        "cultpass_elite"
+       ],
+       "cities": 0,
+       "ideas": 3,
+       "score": 30.43,
+       "lead_ad": "1391597625770579",
+       "rows": {
+        "V1": 3,
+        "V2": 14
+       },
+       "media": {
+        "video": 17
+       },
+       "name": "Many formats, never bored",
+       "note": "Five films, each with its own script, sell class variety as the cure for a boring routine: a man explaining three formats (3 ads), a train-anywhere voiceover (4), a workout-picker teaser (10), a first-timer mother (1) and a man who changed the room (1). All go to the app link.",
+       "ad_ids": [
+        "1736977457415163",
+        "1391597625770579",
+        "1377499714564377",
+        "1539942324830414",
+        "1420904529947518",
+        "1789362585527298",
+        "3743836662431497",
+        "1644316817619217",
+        "1088713540807221",
+        "2580009365745961",
+        "1071699242138573",
+        "3777167249097356",
+        "1538544364972905",
+        "1103691235330977",
+        "1411563457759054",
+        "1994434544566484",
+        "978478648611022"
+       ],
+       "share": 0.4146
+      },
       {
        "n": 8,
        "versions": 8,
@@ -814,7 +1007,7 @@
         "video": 8
        },
        "name": "One film, a new centre and price each time",
-       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads, all started 13 October to 16 November.",
        "ad_ids": [
         "1142965181654720",
         "1763133728096239",
@@ -825,40 +1018,42 @@
         "1644460903932522",
         "1182726674293191"
        ],
-       "share": 0.5714
+       "share": 0.1951
       },
       {
-       "n": 4,
-       "versions": 4,
-       "longest_days": 38,
+       "n": 6,
+       "versions": 16,
+       "longest_days": 56,
        "products": [
         "cultpass_elite"
        ],
        "cities": 4,
        "ideas": 1,
-       "score": 11.27,
-       "lead_ad": "1644460903932522",
+       "score": 18.87,
+       "lead_ad": "1533712601774060",
        "rows": {
-        "V1": 4
+        "V1": 6
        },
        "media": {
-        "video": 4
+        "video": 6
        },
        "name": "Break-up gag, same answer each time",
-       "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs under four different centres.",
+       "note": "One man reacts to four life events and says \"chalo cult chalte hai\" each time; the same clip runs in six ads, four under different centres and two September \"For Every Moment\" ads that name no centre.",
        "ad_ids": [
         "1644460903932522",
         "1763133728096239",
         "1088984333744777",
-        "1182726674293191"
+        "1182726674293191",
+        "1533712601774060",
+        "1091108850133335"
        ],
-       "share": 0.2857
+       "share": 0.1463
       }
      ]
     },
     "cult_membership": {
-     "n": 8,
-     "ideas_total": 1,
+     "n": 10,
+     "ideas_total": 3,
      "top": [
       {
        "n": 8,
@@ -888,13 +1083,57 @@
         "2404800830259411",
         "28835523932756470"
        ]
+      },
+      {
+       "n": 1,
+       "versions": 2,
+       "longest_days": 56,
+       "products": [
+        "cult_membership"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 3.37,
+       "lead_ad": "1376362647553567",
+       "rows": {
+        "V1": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "CF-c12",
+       "ad_ids": [
+        "1376362647553567"
+       ]
+      },
+      {
+       "n": 1,
+       "versions": 1,
+       "longest_days": 56,
+       "products": [
+        "cult_membership"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 2.87,
+       "lead_ad": "1428286499400835",
+       "rows": {
+        "V2": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "CF-c11",
+       "ad_ids": [
+        "1428286499400835"
+       ]
       }
      ],
      "concentration": {
-      "top1": 1.0,
+      "top1": 0.8,
       "top3": 1.0,
       "top1_n": 8,
-      "top3_n": 8
+      "top3_n": 10
      },
      "series": [
       {
@@ -915,13 +1154,39 @@
         "video": 3
        },
        "name": "One film, a new centre and price each time",
-       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads.",
+       "note": "The \"don't go to the gym\" film, the gym tour and the break-up gag are re-sent with \"Start your fitness journey at Cult <place>\" in the text and, on the first two, a new price on the end card. Seven places in 11 ads, all started 13 October to 16 November.",
        "ad_ids": [
         "2404800830259411",
         "4606351752947622",
         "28835523932756470"
        ],
-       "share": 0.375
+       "share": 0.3
+      },
+      {
+       "n": 2,
+       "versions": 3,
+       "longest_days": 56,
+       "products": [
+        "cult_membership"
+       ],
+       "cities": 0,
+       "ideas": 2,
+       "score": 4.37,
+       "lead_ad": "1376362647553567",
+       "rows": {
+        "V2": 1,
+        "V1": 1
+       },
+       "media": {
+        "video": 2
+       },
+       "name": "Many formats, never bored",
+       "note": "Five films, each with its own script, sell class variety as the cure for a boring routine: a man explaining three formats (3 ads), a train-anywhere voiceover (4), a workout-picker teaser (10), a first-timer mother (1) and a man who changed the room (1). All go to the app link.",
+       "ad_ids": [
+        "1428286499400835",
+        "1376362647553567"
+       ],
+       "share": 0.2
       }
      ]
     },
@@ -998,6 +1263,41 @@
        "share": 1.0
       }
      ]
+    },
+    "unclear": {
+     "n": 1,
+     "ideas_total": 1,
+     "top": [
+      {
+       "n": 1,
+       "versions": 4,
+       "longest_days": 56,
+       "products": [
+        "unclear"
+       ],
+       "cities": 0,
+       "ideas": 1,
+       "score": 4.37,
+       "lead_ad": "1891868971786839",
+       "rows": {
+        "unclear": 1
+       },
+       "media": {
+        "video": 1
+       },
+       "idea": "solo-1891868971786839",
+       "ad_ids": [
+        "1891868971786839"
+       ]
+      }
+     ],
+     "concentration": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_n": 1,
+      "top3_n": 1
+     },
+     "series": []
     }
    }
   },
@@ -1719,7 +2019,14 @@
    "CF-c02": "Gym tour: \"I recently checked out cult fit\"",
    "CF-c03": "\"Break-up hua hai? Chalo cult chalte hai\"",
    "CF-c04": "Fitstart Days: swimming astronaut, cultpass PLAY",
-   "CF-c05": "Fitstart Days: barbell astronaut, cultpass ELITE"
+   "CF-c05": "Fitstart Days: barbell astronaut, cultpass ELITE",
+   "CF-c06": "\"I wanted to do the Parvati trek\"",
+   "CF-c07": "\"I sat down with the expert trainers at cult\"",
+   "CF-c08": "\"Some days I'm never in one place for long\"",
+   "CF-c09": "\"Group workout truths\"",
+   "CF-c10": "\"The hardest part at cult is picking today's workout\"",
+   "CF-c11": "\"Mom life is a full body workout\"",
+   "CF-c12": "\"Okay, quick confession\""
   },
   "B": {
    "FT-c01": "Smart scale, \"5000 ka scale ab only at triple 9\"",
@@ -1757,7 +2064,7 @@
  ],
  "now": {
   "A": {
-   "n": 22,
+   "n": 24,
    "ad_ids": [
     "2555329068326204",
     "1601836728299392",
@@ -1780,12 +2087,14 @@
     "1142965181654720",
     "28835523932756470",
     "1652879219724213",
-    "1763133728096239"
+    "1763133728096239",
+    "3743836662431497",
+    "1141867424988014"
    ],
    "by_row": {
     "V4": 9,
     "V1": 2,
-    "V2": 11
+    "V2": 13
    }
   },
   "B": {
@@ -1816,7 +2125,8 @@
  },
  "launches": {
   "A": {
-   "2026-10": 8,
+   "2026-09": 28,
+   "2026-10": 10,
    "2026-11": 22
   },
   "B": {
@@ -1827,14 +2137,213 @@
    "2026-11": 1
   }
  },
+ "creatives": {
+  "A": {
+   "ads": 60,
+   "versions": 123,
+   "video_ads": 60,
+   "videos": 23,
+   "image_ads": 0,
+   "images": 0
+  },
+  "B": {
+   "ads": 34,
+   "versions": 58,
+   "video_ads": 30,
+   "videos": 21,
+   "image_ads": 4,
+   "images": 4
+  }
+ },
+ "clusters": {
+  "A": [
+   {
+    "from": "2026-09-08",
+    "to": "2026-09-09",
+    "n": 8,
+    "ad_ids": [
+     "1377499714564377",
+     "1391597625770579",
+     "1411563457759054",
+     "1420904529947518",
+     "1789362585527298",
+     "4479660248969408",
+     "978478648611022",
+     "1103691235330977"
+    ],
+    "peak": [
+     "2026-09-08",
+     7
+    ],
+    "products": {
+     "cultpass_elite": 8
+    }
+   },
+   {
+    "from": "2026-09-23",
+    "to": "2026-09-25",
+    "n": 20,
+    "ad_ids": [
+     "1994434544566484",
+     "1018165951266899",
+     "1071699242138573",
+     "1078845298197942",
+     "1088713540807221",
+     "1091108850133335",
+     "1241821461451508",
+     "1376362647553567",
+     "1428286499400835",
+     "1533712601774060",
+     "1538544364972905",
+     "1539942324830414",
+     "1630996375334902",
+     "1644316817619217",
+     "1736977457415163",
+     "1891868971786839",
+     "2255850804958365",
+     "2546809982481655",
+     "2580009365745961",
+     "3777167249097356"
+    ],
+    "peak": [
+     "2026-09-25",
+     19
+    ],
+    "products": {
+     "cultpass_elite": 17,
+     "cult_membership": 2,
+     "unclear": 1
+    }
+   },
+   {
+    "from": "2026-10-18",
+    "to": "2026-10-19",
+    "n": 6,
+    "ad_ids": [
+     "1131711099318475",
+     "1529622859191185",
+     "1583453076375971",
+     "4606351752947622",
+     "1088664397267392",
+     "2348546639313061"
+    ],
+    "peak": [
+     "2026-10-18",
+     4
+    ],
+    "products": {
+     "cult_membership": 6
+    }
+   },
+   {
+    "from": "2026-11-04",
+    "to": "2026-11-04",
+    "n": 12,
+    "ad_ids": [
+     "1114356351358840",
+     "1142965181654720",
+     "1153711787290276",
+     "1440279738302594",
+     "1645883207287485",
+     "1652879219724213",
+     "1763133728096239",
+     "2056660201685004",
+     "2404800830259411",
+     "28835523932756470",
+     "986842284018835",
+     "997032080107644"
+    ],
+    "peak": [
+     "2026-11-04",
+     12
+    ],
+    "products": {
+     "cultpass_elite": 10,
+     "cult_membership": 2
+    }
+   },
+   {
+    "from": "2026-11-16",
+    "to": "2026-11-17",
+    "n": 10,
+    "ad_ids": [
+     "1126343416846783",
+     "1182726674293191",
+     "1665600734881123",
+     "1844076343579583",
+     "1950951139220699",
+     "2958662064496104",
+     "3294825420716053",
+     "1601836728299392",
+     "2127525884795681",
+     "2555329068326204"
+    ],
+    "peak": [
+     "2026-11-16",
+     7
+    ],
+    "products": {
+     "cultpass_play": 8,
+     "cultpass_elite": 2
+    }
+   }
+  ],
+  "B": [
+   {
+    "from": "2026-10-16",
+    "to": "2026-10-31",
+    "n": 25,
+    "ad_ids": [
+     "1129807916396583",
+     "1461564966113780",
+     "1577870316987974",
+     "1685798322850756",
+     "1912200749756133",
+     "2008324226545509",
+     "2941541369549817",
+     "970142368900928",
+     "1550858456795923",
+     "2996269977403566",
+     "1449280067157528",
+     "1637013901394490",
+     "2190284715234477",
+     "995872249468747",
+     "1146824311226546",
+     "2148142946075233",
+     "2166915778033433",
+     "1017982897981736",
+     "1836729131107152",
+     "4723519161196734",
+     "1116659684664030",
+     "1130206799365682",
+     "1130303452837399",
+     "2219477718950780",
+     "29321645884190090"
+    ],
+    "peak": [
+     "2026-10-16",
+     8
+    ],
+    "products": {
+     "weight_loss_coaching": 23,
+     "smart_scale": 2
+    }
+   }
+  ]
+ },
+ "cluster_rule": {
+  "gap_days": 3,
+  "min_ads": 3
+ },
  "breakdowns": {
   "hook": {
    "A": {
     "video": {
-     "story_open": 9,
+     "story_open": 24,
+     "problem": 11,
+     "callout": 9,
      "offer": 9,
-     "callout": 8,
-     "question": 4
+     "question": 6
     },
     "image": {}
    },
@@ -1856,6 +2365,7 @@
   },
   "offer": {
    "A": {
+    "none": 29,
     "price_from": 17,
     "free": 12,
     "other": 1
@@ -1869,10 +2379,12 @@
   },
   "angle": {
    "A": {
+    "feature": 21,
+    "outcome": 10,
     "quality_design": 9,
     "price_value": 9,
-    "feature": 8,
-    "identity": 4
+    "identity": 6,
+    "convenience_speed": 4
    },
    "B": {
     "outcome": 23,
@@ -1882,8 +2394,8 @@
   },
   "language": {
    "A": {
-    "hinglish": 21,
-    "english": 9
+    "english": 35,
+    "hinglish": 24
    },
    "B": {
     "hinglish": 21,
@@ -1892,9 +2404,9 @@
   },
   "production": {
    "A": {
-    "phone_lofi": 13,
-    "animation_craft": 9,
-    "high_film": 8
+    "high_film": 27,
+    "phone_lofi": 23,
+    "animation_craft": 9
    },
    "B": {
     "phone_lofi": 24,
@@ -1905,8 +2417,10 @@
   },
   "face": {
    "A": {
-    "presenter": 21,
-    "none": 9
+    "presenter": 32,
+    "actor_model": 11,
+    "none": 9,
+    "customer": 7
    },
    "B": {
     "customer": 23,
@@ -1917,7 +2431,8 @@
   },
   "destination": {
    "A": {
-    "lead_form": 30
+    "lead_form": 30,
+    "app": 30
    },
    "B": {
     "web": 34
@@ -1935,33 +2450,33 @@
  "pacing": {
   "A": {
    "all": {
-    "videos": 14,
+    "videos": 22,
     "duration_s": 32.1,
     "cuts_per_10s": 4.67,
-    "wpm": 122.5,
+    "wpm": 117.0,
     "first_cut_s": 0.9
    },
    "by_row": {
     "V1": {
-     "videos": 2,
+     "videos": 5,
      "duration_s": 15.3,
      "cuts_per_10s": 4.59,
-     "wpm": 83.0,
+     "wpm": 83,
      "first_cut_s": 0.9
     },
     "V2": {
-     "videos": 9,
+     "videos": 13,
      "duration_s": 36.5,
-     "cuts_per_10s": 8.22,
+     "cuts_per_10s": 5.29,
      "wpm": 146,
-     "first_cut_s": 0.07
+     "first_cut_s": 0.92
     },
     "V4": {
-     "videos": 3,
-     "duration_s": 6.0,
+     "videos": 4,
+     "duration_s": 6.05,
      "cuts_per_10s": 0.0,
-     "wpm": 0,
-     "first_cut_s": null
+     "wpm": 0.0,
+     "first_cut_s": 4.97
     }
    }
   },
@@ -2001,192 +2516,152 @@
  "standouts": {
   "A": [
    {
-    "ad_id": "1153711787290276",
-    "row": "V2",
-    "idea": "CF-c02",
-    "score": 17.03,
+    "ad_id": "1533712601774060",
+    "row": "V1",
+    "idea": "CF-c03",
+    "score": 18.87,
     "why": "",
     "frames": [
      {
       "t": 0,
-      "still": "videos/1908146520592418/still00_0s.jpg",
-      "spoken": "So I recently checked out cultfit and let me show you guys how it's like."
+      "still": "videos/1278969961076851/still00_0s.jpg",
+      "spoken": "Break up hua hai? Chalo cult chaltein."
      },
      {
       "t": 0.5,
-      "still": "videos/1908146520592418/still01_0.5s.jpg",
-      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "still": "videos/1278969961076851/still01_0.5s.jpg",
+      "spoken": "Break up hua hai? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
       "t": 1,
-      "still": "videos/1908146520592418/still02_1s.jpg",
-      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "still": "videos/1278969961076851/still02_1s.jpg",
+      "spoken": "Break up hua hai? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
       "t": 2,
-      "still": "videos/1908146520592418/still03_2s.jpg",
-      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
-      "spoken_repeat": true
+      "still": "videos/1278969961076851/still03_2s.jpg",
+      "spoken": "Boss ne chalaya? Chalo cult chaltein."
      },
      {
       "t": 3,
-      "still": "videos/1908146520592418/still04_3s.jpg",
-      "spoken": "So I recently checked out cultfit and let me show you guys how it's like.",
+      "still": "videos/1278969961076851/still04_3s.jpg",
+      "spoken": "Boss ne chalaya? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
-      "t": 5.8,
-      "still": "videos/1908146520592418/still05_5.8s.jpg",
-      "spoken": "Kese pehle, the gym is really clean, spacious and well maintained."
-     },
-     {
-      "t": 5.9,
-      "still": "videos/1908146520592418/still06_5.9s.jpg",
-      "spoken": "Kese pehle, the gym is really clean, spacious and well maintained.",
+      "t": 3.3,
+      "still": "videos/1278969961076851/still05_3.3s.jpg",
+      "spoken": "Boss ne chalaya? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
-      "t": 11.3,
-      "still": "videos/1908146520592418/still07_11.3s.jpg",
-      "spoken": "Yaha strength training se leke free weights aur cardio thug workout ke liye kaafi options rahe hai."
+      "t": 4.4,
+      "still": "videos/1278969961076851/still06_4.4s.jpg",
+      "spoken": "Shaadi fix hua hai? Chalo cult chaltein."
      },
      {
-      "t": 15.1,
-      "still": "videos/1908146520592418/still08_15.1s.jpg",
-      "spoken": "But the best part is the group workouts."
-     },
-     {
-      "t": 17.6,
-      "still": "videos/1908146520592418/still09_17.6s.jpg",
-      "spoken": "Gym, strength training, dance, fitness and yoga."
-     },
-     {
-      "t": 21.9,
-      "still": "videos/1908146520592418/still10_21.9s.jpg",
-      "spoken": "Aur coaches bhi help karne ke liye available rahe the hai."
-     },
-     {
-      "t": 22.9,
-      "still": "videos/1908146520592418/still11_22.9s.jpg",
-      "spoken": "Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai."
-     },
-     {
-      "t": 25.9,
-      "still": "videos/1908146520592418/still12_25.9s.jpg",
-      "spoken": "Chaahe aapko strength training karne ho, group class karne ho, cardio karna ho, options kaafi hai.",
+      "t": 5.5,
+      "still": "videos/1278969961076851/still07_5.5s.jpg",
+      "spoken": "Shaadi fix hua hai? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
-      "t": 29.5,
-      "still": "videos/1908146520592418/still13_29.5s.jpg",
-      "spoken": "तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स."
+      "t": 6.7,
+      "still": "videos/1278969961076851/still08_6.7s.jpg",
+      "spoken": "Promotion mila hai? Chalo cult chaltein."
      },
      {
-      "t": 29.9,
-      "still": "videos/1908146520592418/still14_29.9s.jpg",
-      "spoken": "तो वोराल मुझे इसका सेटआप काफी कणविनियेंट लगा फोर एवरी दे वॉर्काउट्स.",
+      "t": 7.9,
+      "still": "videos/1278969961076851/still09_7.9s.jpg",
+      "spoken": "Promotion mila hai? Chalo cult chaltein.",
       "spoken_repeat": true
      },
      {
-      "t": 39.8,
-      "still": "videos/1908146520592418/still15_39.8s.jpg",
+      "t": 15,
+      "still": "videos/1278969961076851/still10_15s.jpg",
       "spoken": ""
      }
     ]
    },
    {
-    "ad_id": "1529622859191185",
+    "ad_id": "1411563457759054",
     "row": "V2",
-    "idea": "CF-c01",
-    "score": 15.1,
+    "idea": "CF-c10",
+    "score": 17.43,
     "why": "",
     "frames": [
      {
       "t": 0,
-      "still": "videos/1111715114658510/still00_0s.jpg",
-      "spoken": "आज gym jaane ka man nahi hai, to mat jao."
+      "still": "videos/2474498146331108/still00_0s.jpg",
+      "spoken": "It's always fun to try new formats."
      },
      {
       "t": 0.5,
-      "still": "videos/1111715114658510/still01_0.5s.jpg",
-      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "still": "videos/2474498146331108/still01_0.5s.jpg",
+      "spoken": "It's always fun to try new formats.",
       "spoken_repeat": true
      },
      {
       "t": 1,
-      "still": "videos/1111715114658510/still02_1s.jpg",
-      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "still": "videos/2474498146331108/still02_1s.jpg",
+      "spoken": "It's always fun to try new formats.",
       "spoken_repeat": true
      },
      {
       "t": 2,
-      "still": "videos/1111715114658510/still03_2s.jpg",
-      "spoken": "आज gym jaane ka man nahi hai, to mat jao.",
+      "still": "videos/2474498146331108/still03_2s.jpg",
+      "spoken": "It's always fun to try new formats.",
       "spoken_repeat": true
      },
      {
       "t": 3,
-      "still": "videos/1111715114658510/still04_3s.jpg",
-      "spoken": "क्योकि fitness ka matlab saif gym jaana nahi hota."
-     },
-     {
-      "t": 5.7,
-      "still": "videos/1111715114658510/still05_5.7s.jpg",
-      "spoken": ""
-     },
-     {
-      "t": 8.3,
-      "still": "videos/1111715114658510/still06_8.3s.jpg",
-      "spoken": "कबी dance karne ka, to kabhi yoga se unwind karne ka."
-     },
-     {
-      "t": 11.2,
-      "still": "videos/1111715114658510/still07_11.2s.jpg",
-      "spoken": "Yehi to cult ko interesting bana tha hai."
-     },
-     {
-      "t": 14,
-      "still": "videos/1111715114658510/still08_14s.jpg",
-      "spoken": ""
-     },
-     {
-      "t": 15.8,
-      "still": "videos/1111715114658510/still09_15.8s.jpg",
-      "spoken": "Yeha aapne choice ki saab se workout kar sakte hai."
-     },
-     {
-      "t": 16.9,
-      "still": "videos/1111715114658510/still10_16.9s.jpg",
-      "spoken": "Gym, strength training, dance, fitness, ya yoga."
-     },
-     {
-      "t": 18.3,
-      "still": "videos/1111715114658510/still11_18.3s.jpg",
-      "spoken": "Gym, strength training, dance, fitness, ya yoga.",
+      "still": "videos/2474498146331108/still04_3s.jpg",
+      "spoken": "It's always fun to try new formats.",
       "spoken_repeat": true
      },
      {
-      "t": 18.7,
-      "still": "videos/1111715114658510/still12_18.7s.jpg",
-      "spoken": "Gym, strength training, dance, fitness, ya yoga.",
+      "t": 7.5,
+      "still": "videos/2474498146331108/still05_7.5s.jpg",
+      "spoken": "It's always fun to try new formats.",
       "spoken_repeat": true
      },
      {
-      "t": 19.9,
-      "still": "videos/1111715114658510/still13_19.9s.jpg",
-      "spoken": "क्योकि consistency tabhi aati hai,"
+      "t": 11.5,
+      "still": "videos/2474498146331108/still06_11.5s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
      },
      {
-      "t": 23.6,
-      "still": "videos/1111715114658510/still14_23.6s.jpg",
-      "spoken": "Because the best workout is the one you enjoy."
+      "t": 12.6,
+      "still": "videos/2474498146331108/still07_12.6s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
      },
      {
-      "t": 31.8,
-      "still": "videos/1111715114658510/still15_31.8s.jpg",
-      "spoken": ""
+      "t": 13.1,
+      "still": "videos/2474498146331108/still08_13.1s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 13.8,
+      "still": "videos/2474498146331108/still09_13.8s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 15.3,
+      "still": "videos/2474498146331108/still10_15.3s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
+     },
+     {
+      "t": 23.2,
+      "still": "videos/2474498146331108/still11_23.2s.jpg",
+      "spoken": "It's always fun to try new formats.",
+      "spoken_repeat": true
      }
     ]
    }
@@ -3911,6 +4386,1514 @@
    "product_key": "cultpass_play",
    "city": null
   },
+  "1644316817619217": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1644316817619217",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "Join cult today 🚀",
+   "body": "Too many options? 😵‍💫 Yoga 🧘 Boxing 🥊 Dance 💃 Strength 🏋️\nGood 😏 you’ll never get bored here",
+   "link_description": "",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 1
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1088713540807221": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 11,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1088713540807221",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 2
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "2580009365745961": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=2580009365745961",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 3
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1071699242138573": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1071699242138573",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 4
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "3777167249097356": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=3777167249097356",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 5
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1538544364972905": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1538544364972905",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 6
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1103691235330977": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 72,
+   "versions": 1,
+   "start_date": "2026-09-09",
+   "link": "https://www.facebook.com/ads/library/?id=1103691235330977",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 7
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1411563457759054": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1411563457759054",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 8
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1994434544566484": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 58,
+   "versions": 1,
+   "start_date": "2026-09-23",
+   "link": "https://www.facebook.com/ads/library/?id=1994434544566484",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 9
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "978478648611022": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "The hardest part at cult... Picking today's workout",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c10",
+    "product": "Cult multi-format workouts, cultpass ELITE",
+    "one_line": "Captions say the hardest part at cult is picking today's workout while a woman trains; she says it is always fun to try new formats.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=978478648611022",
+   "still": "videos/2474498146331108/still02_1s.jpg",
+   "hook_text": "The hardest part at cult... Picking today's workout",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's always fun to try new formats.",
+   "asset": "2474498146331108",
+   "sample_views": {
+    "video": 10
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1018165951266899": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 5,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1018165951266899",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "Start Strong. Start with cult 💪",
+   "body": "From low endurance to peak performance 🚀 cult helped him crush his mountain goal 🏔️\nThis is your sign to start training for your big goal with Cultfit 🎯🔥",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 11
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1630996375334902": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1630996375334902",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 12
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "2546809982481655": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=2546809982481655",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 13
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1078845298197942": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1078845298197942",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 14
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1241821461451508": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1241821461451508",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 15
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1736977457415163": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c07",
+    "product": "Cult group formats (Burn, HRX, strength), cultpass ELITE",
+    "one_line": "A man in a gym explains three class formats that break a boring routine, then an end card says best prices on cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "production",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 7,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1736977457415163",
+   "still": "videos/1422506115845554/still02_1s.jpg",
+   "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+   "headline": "So Many Formats. Never Bored. 💪",
+   "body": "Bored of the same gym routine? 😴\nDon’t quit—switch the workout. 🔥 With cult , try multiple 🥊🧘🏻‍♀️🏋🏻‍♀️ formats & keep fitness fun 💪✨",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "I sat down with the expert trainer Tekkal and he was their secret to breaking one's warring gym routine. So here's the first one, burn. If your body is stuck in the same reps, same machines, then this will switch things up. Burn your calories, will stamina and test your endurance. Then you have HRX. It will have your whole body moving. More reps, more moves, with the right weights. Overall conditioning is what these sessions are all about. And finally strength, you're now ready to hit the weights. Builds raw strength, teaches you the right form and has you building everyday strength. So if you're stuck, don't ditch the workout. Switch the format, your body adapts fast, your training shoot too. And honestly, that's been my biggest game changer.",
+   "asset": "1422506115845554",
+   "sample_views": {
+    "video": 16
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1391597625770579": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c07",
+    "product": "Cult group formats (Burn, HRX, strength), cultpass ELITE",
+    "one_line": "A man in a gym explains three class formats that break a boring routine, then an end card says best prices on cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "production",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1391597625770579",
+   "still": "videos/1422506115845554/still02_1s.jpg",
+   "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+   "headline": "So Many Formats. Never Bored. 💪",
+   "body": "Bored of the same gym routine? 😴\nDon’t quit—switch the workout. 🔥 With cult , try multiple 🥊🧘🏻‍♀️🏋🏻‍♀️ formats & keep fitness fun 💪✨",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "I sat down with the expert trainer Tekkal and he was their secret to breaking one's warring gym routine. So here's the first one, burn. If your body is stuck in the same reps, same machines, then this will switch things up. Burn your calories, will stamina and test your endurance. Then you have HRX. It will have your whole body moving. More reps, more moves, with the right weights. Overall conditioning is what these sessions are all about. And finally strength, you're now ready to hit the weights. Builds raw strength, teaches you the right form and has you building everyday strength. So if you're stuck, don't ditch the workout. Switch the format, your body adapts fast, your training shoot too. And honestly, that's been my biggest game changer.",
+   "asset": "1422506115845554",
+   "sample_views": {
+    "video": 17
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1377499714564377": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c07",
+    "product": "Cult group formats (Burn, HRX, strength), cultpass ELITE",
+    "one_line": "A man in a gym explains three class formats that break a boring routine, then an end card says best prices on cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "angle",
+     "production",
+     "hook"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1377499714564377",
+   "still": "videos/1422506115845554/still02_1s.jpg",
+   "hook_text": "I sat down with the expert trainers at cult and here's their secret to breaking a boring gym routine.",
+   "headline": "So Many Formats. Never Bored. 💪",
+   "body": "Bored of the same gym routine? 😴\nDon’t quit—switch the workout. 🔥 With cult , try multiple 🥊🧘🏻‍♀️🏋🏻‍♀️ formats & keep fitness fun 💪✨",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "I sat down with the expert trainer Tekkal and he was their secret to breaking one's warring gym routine. So here's the first one, burn. If your body is stuck in the same reps, same machines, then this will switch things up. Burn your calories, will stamina and test your endurance. Then you have HRX. It will have your whole body moving. More reps, more moves, with the right weights. Overall conditioning is what these sessions are all about. And finally strength, you're now ready to hit the weights. Builds raw strength, teaches you the right form and has you building everyday strength. So if you're stuck, don't ditch the workout. Switch the format, your body adapts fast, your training shoot too. And honestly, that's been my biggest game changer.",
+   "asset": "1422506115845554",
+   "sample_views": {
+    "video": 18
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "2255850804958365": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 7,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=2255850804958365",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 19
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "4479660248969408": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V4",
+   "tags": {
+    "row": "V4",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "I wanted to do the Parvati trek",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c06",
+    "product": "Gym training for fitness goals, cultpass ELITE, no price",
+    "one_line": "A silent captioned montage says the narrator gained muscle, lost fat and conquered the Bali pass; ends on cultpass ELITE with no price.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "face",
+     "hook",
+     "production",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=4479660248969408",
+   "still": "videos/1402061601673758/still02_1s.jpg",
+   "hook_text": "I wanted to do the Parvati trek",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "resistance commission.",
+   "asset": "1402061601673758",
+   "sample_views": {
+    "video": 20
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1533712601774060": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Gym access via cultpass ELITE, no price shown",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; same footage as 1775031486837424 with new ad text.",
+    "script_twin": "1775031486837424",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "offer",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 11,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1533712601774060",
+   "still": "videos/1278969961076851/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "For Every Moment, There’s Cult ✨",
+   "body": "Life happens ✨\nTough days 💔 New beginnings 🌱 Big moments 🎉 \nWhatever it is,  Cult keeps you moving forward 💪🔥",
+   "link_description": "",
+   "cta": "See details",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "1278969961076851",
+   "sample_views": {
+    "video": 21
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1539942324830414": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Some days I'm never in one place for long.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c08",
+    "product": "cultpass ELITE, train anywhere, anytime",
+    "one_line": "A busy man says training stays non-negotiable wherever he is, over home, café and gym scenes, ending on train anywhere, anytime.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 7,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1539942324830414",
+   "still": "videos/1452541249693923/still02_1s.jpg",
+   "hook_text": "Some days I'm never in one place for long.",
+   "headline": "Consistency Made Easy 💪",
+   "body": "Your routine may change, your fitness shouldn’t 🧭\nAccess multiple workout formats and train your way, every day 💪",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Some days I'm never in one place for long. Meetings, shoes, random plans all over the place. But training, that stays non-negotiable. Because it's just been easier for me. I'll just find the nearest place and get my session finished. Simple. If you'll corner up, you'll be seeing guys. That's what only keeps me from system. I don't have to keep twice. Just to work. Wherever I go with my training goals with me. That's the contact monitoring. Call. Train anywhere anytime.",
+   "asset": "1452541249693923",
+   "sample_views": {
+    "video": 22
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1420904529947518": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Some days I'm never in one place for long.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c08",
+    "product": "cultpass ELITE, train anywhere, anytime",
+    "one_line": "A busy man says training stays non-negotiable wherever he is, over home, café and gym scenes, ending on train anywhere, anytime.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1420904529947518",
+   "still": "videos/1452541249693923/still02_1s.jpg",
+   "hook_text": "Some days I'm never in one place for long.",
+   "headline": "Consistency Made Easy 💪",
+   "body": "Your routine may change, your fitness shouldn’t 🧭\nAccess multiple workout formats and train your way, every day 💪",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Some days I'm never in one place for long. Meetings, shoes, random plans all over the place. But training, that stays non-negotiable. Because it's just been easier for me. I'll just find the nearest place and get my session finished. Simple. If you'll corner up, you'll be seeing guys. That's what only keeps me from system. I don't have to keep twice. Just to work. Wherever I go with my training goals with me. That's the contact monitoring. Call. Train anywhere anytime.",
+   "asset": "1452541249693923",
+   "sample_views": {
+    "video": 23
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1789362585527298": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Some days I'm never in one place for long.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c08",
+    "product": "cultpass ELITE, train anywhere, anytime",
+    "one_line": "A busy man says training stays non-negotiable wherever he is, over home, café and gym scenes, ending on train anywhere, anytime.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 73,
+   "versions": 1,
+   "start_date": "2026-09-08",
+   "link": "https://www.facebook.com/ads/library/?id=1789362585527298",
+   "still": "videos/1452541249693923/still02_1s.jpg",
+   "hook_text": "Some days I'm never in one place for long.",
+   "headline": "Consistency Made Easy 💪",
+   "body": "Your routine may change, your fitness shouldn’t 🧭\nAccess multiple workout formats and train your way, every day 💪",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Some days I'm never in one place for long. Meetings, shoes, random plans all over the place. But training, that stays non-negotiable. Because it's just been easier for me. I'll just find the nearest place and get my session finished. Simple. If you'll corner up, you'll be seeing guys. That's what only keeps me from system. I don't have to keep twice. Just to work. Wherever I go with my training goals with me. That's the contact monitoring. Call. Train anywhere anytime.",
+   "asset": "1452541249693923",
+   "sample_views": {
+    "video": 24
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "3743836662431497": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Some days I'm never in one place for long.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c08",
+    "product": "cultpass ELITE, train anywhere, anytime",
+    "one_line": "A busy man says training stays non-negotiable wherever he is, over home, café and gym scenes, ending on train anywhere, anytime.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "face",
+     "hook",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 1,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=3743836662431497",
+   "still": "videos/1452541249693923/still02_1s.jpg",
+   "hook_text": "Some days I'm never in one place for long.",
+   "headline": "Consistency Made Easy 💪",
+   "body": "Your routine may change, your fitness shouldn’t 🧭\nAccess multiple workout formats and train your way, every day 💪",
+   "link_description": "",
+   "cta": "Download",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Some days I'm never in one place for long. Meetings, shoes, random plans all over the place. But training, that stays non-negotiable. Because it's just been easier for me. I'll just find the nearest place and get my session finished. Simple. If you'll corner up, you'll be seeing guys. That's what only keeps me from system. I don't have to keep twice. Just to work. Wherever I go with my training goals with me. That's the contact monitoring. Call. Train anywhere anytime.",
+   "asset": "1452541249693923",
+   "sample_views": {
+    "video": 25
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1891868971786839": {
+   "brand": "A",
+   "medium": "video",
+   "row": null,
+   "tags": {},
+   "tagging": {},
+   "days": 56,
+   "versions": 4,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1891868971786839",
+   "still": null,
+   "hook_text": "Train Your Way with cult 💪",
+   "headline": "Train Your Way with cult 💪",
+   "body": "Busy days? 🕒 Bored workouts? 😩\ncult fits your life with fun formats 🏋️‍♂️🧘‍♀️🏃‍♀️, flexible timings ⌛ & real consistency 💪\nStart Your journey Today!!!🎯",
+   "link_description": "",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "",
+   "asset": "830649150093682",
+   "sample_views": {
+    "video": 26
+   },
+   "product_key": "unclear",
+   "city": null
+  },
+  "1091108850133335": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Break-up hua hai?",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": "CF-c03",
+    "product": "Gym access via cultpass ELITE, no price shown",
+    "one_line": "A man reacts to a break-up, a shouting boss, a wedding and a promotion, each time saying let's go to cult; same footage as 1775031486837424 with new ad text.",
+    "script_twin": "1775031486837424",
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "offer",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1091108850133335",
+   "still": "videos/1278969961076851/still02_1s.jpg",
+   "hook_text": "Break-up hua hai?",
+   "headline": "{{product.name}}",
+   "body": "{{product.brand}}",
+   "link_description": "{{product.description}}",
+   "cta": "See details",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Break up hua hai? Chalo cult chaltein. Boss ne chalaya? Chalo cult chaltein. Shaadi fix hua hai? Chalo cult chaltein. Promotion mila hai? Chalo cult chaltein.",
+   "asset": "1278969961076851",
+   "sample_views": {
+    "video": 27
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
+  "1376362647553567": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V1",
+   "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Okay, quick confession.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": "CF-c12",
+    "product": "Cult group workouts",
+    "one_line": "A man who trains says he changed the room, not the workout, and that a group class pushes him harder; he asks viewers to sign up.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 2,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1376362647553567",
+   "still": "videos/935631775778423/still02_1s.jpg",
+   "hook_text": "Okay, quick confession.",
+   "headline": "Join the Fitness Squad 💥",
+   "body": "Switch things up 🔥 Group Workouts at cult bring unmatched energy & push limits like never before 💪 Feel the difference from session one.",
+   "link_description": "",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Ok, quick confession. When you train regularly, you get disciplined, which is great, but you also get very good after putting the same routine. And the moment it starts feeling like autopilot, even with something you love, you know it's time to switch things up. So today I thought, instead of changing my workout, I'll change the room. No one's forcing you, but yet, somehow you're still pushing harder. You know that feeling when you're training but still holding back? Yeah, that doesn't happen in your, I thought I needed something new. Turns out, I just needed a room that pushes back. These group workouts are super fun and challenging made for anyone and everyone. Come sign up for a group class and call it today. Oh, one, two, three.",
+   "asset": "935631775778423",
+   "sample_views": {
+    "video": 28
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "1428286499400835": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "It's more than 8 am, coffee thandi ho chuki hai, me time ka level mere minus mein jaa chuka hai.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "hinglish",
+    "production": "high_film",
+    "concept_id": "CF-c11",
+    "product": "Cult group workouts, strength plus class",
+    "one_line": "A busy mother says she wants real strength, tries a strength plus group class, and tells viewers one membership gives many formats and to just come as you are.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "row",
+     "hook",
+     "angle",
+     "production"
+    ],
+    "human_checked": false
+   },
+   "days": 56,
+   "versions": 1,
+   "start_date": "2026-09-25",
+   "link": "https://www.facebook.com/ads/library/?id=1428286499400835",
+   "still": "videos/841027129018077/still02_1s.jpg",
+   "hook_text": "It's more than 8 am, coffee thandi ho chuki hai, me time ka level mere minus mein jaa chuka hai.",
+   "headline": "Join Group Workouts Today",
+   "body": "Mom life keeps you moving… but is it building your strength? 👀 Start your strength journey with cult group workouts today 💪",
+   "link_description": "",
+   "cta": "Learn more",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "It's more than 8 am, coffee thandi ho chuki hai, me time ka level mere minus mein jaa chuka hai. Warm life is a full body workout, but honestly, mujhe thoda actual strength chahiye. I have been wanting to get back to sickness, but honestly, we thought our traditional gym was a bit intimidating. That's why I decided to finally check out cult. Today, I am trying the strength plus group workout. Thoda sa nervousness. Chalo, dekhte hain, group workout kaise hain? sistemas नाजायां कोई नेiquरी ता 내용 आपके दिन्कणिक का हला अण मिनुकुनु for जाए का हती। थान्पार करते दव और सबसे अच्छी बाद एक मेमबर्शिप मल्तिपल फॉमाट्स आज स्ट्रेंज सेशिन, कल दान्स, परसो योगा, मूट के साब से सॉएच्छ तो अगर आप पूने में हो और वेट कर रहे हो कि फिट हो जाओं फिर जोइन करूँगी तो डोंट वेट Just come as you are. Me time enjoy karo group workout mein.",
+   "asset": "841027129018077",
+   "sample_views": {
+    "video": 29
+   },
+   "product_key": "cult_membership",
+   "city": null
+  },
+  "1141867424988014": {
+   "brand": "A",
+   "medium": "video",
+   "row": "V2",
+   "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Group workout truths: your attendance goes up because your workout friends will notice if you disappear.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "outcome",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": "CF-c09",
+    "product": "Group classes, cultpass ELITE",
+    "one_line": "A deadpan voiceover lists jokes about group classes (friends notice, 45 minutes, sore muscles) over an acted class, then cultpass ELITE.",
+    "script_twin": null,
+    "offer_also": []
+   },
+   "tagging": {
+    "model": "sonnet",
+    "unsure": [
+     "hook",
+     "production",
+     "face",
+     "angle"
+    ],
+    "human_checked": false
+   },
+   "days": 21,
+   "versions": 4,
+   "start_date": "2026-10-30",
+   "link": "https://www.facebook.com/ads/library/?id=1141867424988014",
+   "still": "videos/2017040876100497/still02_1s.jpg",
+   "hook_text": "Group workout truths: your attendance goes up because your workout friends will notice if you disappear.",
+   "headline": "Find Your People at Cult 💪",
+   "body": "😂 One class, endless laughs, sore muscles and new friends. Who knew getting fit could be this much fun? 🔥 Show up, sweat together and make every workout count with Cultpass Elite!",
+   "link_description": "",
+   "cta": "Install now",
+   "destination": "app",
+   "campaign_tag": null,
+   "transcript": "Group workout truths, your attendance goes up because your workout friends will notice if you disappear. Nothing wants people faster than collectively struggling with an impossible yoga pose. That 45 minutes, somehow becomes the highlight of your day. You leave with sore muscles and at least three people yelling. See you tomorrow!",
+   "asset": "2017040876100497",
+   "sample_views": {
+    "video": 30
+   },
+   "product_key": "cultpass_elite",
+   "city": null
+  },
   "2941541369549817": {
    "brand": "B",
    "medium": "video",
@@ -4553,7 +6536,8 @@
    "transcript": "",
    "asset": null,
    "sample_views": {
-    "all": 13
+    "all": 13,
+    "meme": 1
    },
    "product_key": "smart_scale",
    "city": null
@@ -5153,7 +7137,8 @@
    "transcript": "",
    "asset": null,
    "sample_views": {
-    "all": 25
+    "all": 25,
+    "meme": 3
    },
    "product_key": "body_map_review",
    "city": null
@@ -5253,7 +7238,8 @@
    "transcript": "",
    "asset": null,
    "sample_views": {
-    "all": 27
+    "all": 27,
+    "meme": 2
    },
    "product_key": "smart_scale",
    "city": null
@@ -5301,7 +7287,8 @@
    "transcript": "",
    "asset": null,
    "sample_views": {
-    "all": 28
+    "all": 28,
+    "meme": 5
    },
    "product_key": "body_map_review",
    "city": null

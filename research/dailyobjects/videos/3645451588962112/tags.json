@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "creator",
+    "founder_evidence": "ad text: 'Use this code for a discount: DOXNABEEL5' (creator-style code; no frame names him)",
+    "hook": "callout",
+    "hook_text": "Apne naya iPhone 18 Pro mein sim dalne ke pehle yeh karo",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "feature",
+    "language": "hinglish",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Stack cases for iPhone 18 Pro",
+    "one_line": "A bearded man shows the Stack Clear, Leatherette, Wallet Stand and Lanyard for the iPhone 18 Pro and says build your stack.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}
