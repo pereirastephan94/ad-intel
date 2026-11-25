@@ -26,7 +26,7 @@ No text, no speech. Hook: visual only (a rolling object).
 Nobody on screen.
 
 ## Setting, framing and look
-All computer-generated: pale studio void, glossy orange sculpted shapes, then a matte grey-blue form (3.7 to 7.1 s). Extreme close-ups and wide shots; the camera follows the disc; soft light; strong warm and cool contrast. High production. No stills between 7.1 s and 26.4 s, so those 19 s are not visible in the frames.
+All computer-generated: pale studio void, glossy orange sculpted shapes, then a matte grey-blue form (3.7 to 7.1 s). Close-ups and wides; the camera follows the disc; soft light; strong warm and cool contrast. High production. No stills between 7.1 s and 26.4 s, so those 19 s are not visible in the frames.
 
 ## On-screen text, captions, logos, graphics
 No captions. Black DO logo, small, centred on near-white at 26.4 s. No URL, price or button in the video.
@@ -52,10 +52,10 @@ No ask in the video. Button "Shop now"; no headline or link description. Link go
 Works:
 - Rolling disc is an easy-to-follow motion that stops the scroll.
 - Colour contrast of green on orange is strong and brand-clean.
-- Needs no sound or reading.
+- Needs no sound.
 
 Weak:
 - Never says or shows what Node is or does.
 - The only meaning sits in the ad text; the video has no word at all.
-- No price, spec, offer or button on screen.
+- No price, spec, offer or button.
 - About 70 per cent of the runtime was not sampled, so any later reveal is unknown.

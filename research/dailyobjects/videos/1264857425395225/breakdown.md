@@ -24,10 +24,10 @@ No speech (empty transcript, speech share 0). Script taken from on-screen text.
 No speech. Hook: product-name card over a staged action.
 
 ## Person on screen
-Unnamed, no role stated. Apparent age 20s to 30s. Long straight dark hair, light-blue checked loose shirt with rolled sleeves over a white tee, dark trousers, a ring, painted nails. Calm, unhurried, neutral face. Looks down at the bag throughout, never at the lens.
+Unnamed, no role stated. Apparent age 20s to 30s. Long straight dark hair, light-blue checked loose shirt with rolled sleeves over a white tee, dark trousers, a ring, painted nails. Calm. Looks down at the bag, never at the lens.
 
 ## Setting, framing and look
-Grey seamless studio backdrop, low beige table. Props: laptop on a red-pink sleeve, red mini pouch with a keyring, white flask, small purple pack. Locked-off medium-wide shots alternate with tight close-ups (3, 9.1, 14.5, 17.7 s). Soft even light, muted grade. Studio production.
+Grey seamless studio backdrop, low beige table. Props: laptop on a red-pink sleeve, red mini pouch, white flask, small purple pack. Locked-off medium-wide shots alternate with tight close-ups (3, 9.1, 14.5, 17.7 s). Soft even light, muted grade.
 
 ## On-screen text, captions, logos, graphics
 "PIVOT" and "LUNAR DAYPACK" in thin white capitals, 0.5 to about 2 s. No captions. White DO logo centred over the empty studio at 22.2 s. No URL, price or button in the video.
@@ -44,7 +44,7 @@ Measured by software, not heard, so genre and track cannot be named. 8 cuts in 2
 | 19-22.5 | End | Table clears, logo |
 
 ## Claims and proof
-No claims in the video. Ad text: "The week fits. So does everything else." The video shows about five items, no week of anything, no litres or dimensions. Ad-text tags "Sustainable Bags", "Marine Weave", "Conscious Carryalls", "One Year of Pivot": none is shown or labelled in any frame. No small print.
+No claims in the video. Ad text "The week fits. So does everything else." The video shows about five items, no litres or dimensions. Ad-text tags "Sustainable Bags", "Marine Weave", "Conscious Carryalls", "One Year of Pivot": none is shown or labelled in any frame. No small print.
 
 ## Offer and call to action
 No ask in the video. Button "Shop now"; no headline. Link goes to the backpacks landing page (cid 1201), not a product page. One ad text: "The week fits. So does everything else. / With the Lunar Daypack. / Always somewhere. Pivot. / Shop on DailyObjects.com / [ One Year of Pivot, DailyObjects, Everyday Carry, Sustainable Bags, Marine Weave, Conscious Carryalls ]"
@@ -54,10 +54,8 @@ Works:
 - Capacity is shown, not told.
 - Clean studio, name card in the first second.
 - Readable with sound off.
-- The red pouch is the one colour pop.
 
 Weak:
 - No size, price, material or laptop fit on screen.
-- Sustainability and fabric claims sit only in tags.
-- Nobody looks at the viewer; no voice.
-- Never shown worn.
+- Sustainability claims only in tags.
+- No voice; never shown worn.

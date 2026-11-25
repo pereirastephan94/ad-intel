@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "My new rule of gifting can be please a tie of the gates that are just there because I love a pretty gift",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Gifting: cable kit, Stack case and wallet stand, lamp",
+    "one_line": "A presenter mocks sweets-and-snacks gifting, then shows DailyObjects pieces (cable kit, phone case, wallet stand, lamp) as gifts that are pretty and useful.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "hook", "hook_text"],
+    "human_checked": false
+  }
+}

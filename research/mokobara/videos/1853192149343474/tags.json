@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "BLACK FRIDAY SALE up to 60% OFF",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "animation_craft",
+    "concept_id": null,
+    "product": "Transit Briefcase, ₹4,499 from ₹8,999",
+    "one_line": "A receipt shows the Transit Briefcase at ₹4,499 against an MRP of ₹8,999 under a Black Friday up to 60% off banner, then a model with the bag.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

@@ -28,7 +28,7 @@ Captions trusted where they show the words.
 Unnamed woman, apparent 20s to 30s. Pink-and-white check long-sleeved shirt, wide white trousers, barefoot, long dark wavy hair, ring. Calm, light energy. Looks at the case or the clothes in every frame, not clearly at the lens. Speech reads as voiceover over action.
 
 ## Setting, framing and look
-Bright living room: bouclé sofa, wood-panelled wall, window, rug. Handheld phone, natural light. Close-ups of the shell, handle and combination lock; the interior (yellow lining, mesh and clear zip pockets) at 10-12 s; she lifts and flips the case at 13 s.
+Bright living room: bouclé sofa, wood-panelled wall, window, rug. Handheld phone, natural light. Close-ups of the shell and lock; interior (yellow lining, mesh and clear zip pockets) at 10-12 s.
 
 ## On-screen text, captions, logos, graphics
 Thin white sans captions, lower case with a few capitals, top left or right: "MOKOBARA's black friday sale is live", "if you are a CHRONIC OVERPACKER", "the large aisle trunk" (4.5-8.9 s), "can all of this actually fit in here?", "this is your SIGN to get one" with a pointing emoji. No logo overlay, price or end card.
@@ -51,16 +51,14 @@ Software measures, nothing was heard. 15 cuts in 35.2 s (4.26 per 10 s), first c
 - No price or percentage, despite "sale".
 
 ## Offer and call to action
-"Don't forget to check out the sale", "your sign to get one". Button "Shop now", no headline. Ad text: "@mokobara black friday sale is live, so if you have been waiting for the right time, then this is your sign to get yours now🫵🌟 ( travel, travel luggage, black friday sale, bag, mokobara, large luggage ) #travelluggage #explorepage #foryoupage #fyp #instagram". No paid-partnership label is visible.
+"Don't forget to check out the sale", "your sign to get one". Button "Shop now", no headline. Ad text: "@mokobara black friday sale is live, so if you have been waiting for the right time, then this is your sign to get yours now🫵🌟 ( travel, travel luggage, black friday sale, bag, mokobara, large luggage ) #travelluggage #explorepage #foryoupage #fyp #instagram".
 
 ## Why it may work, and where it is weak
 Works:
 - Real-room, relatable overpacking pain.
 - Interior shown at length.
-- Spoken sale plus caption in the first second.
 
 Weak:
 - No price, discount or deadline.
 - She seldom looks at the lens.
-- Machine transcript errors ("co-op hacker") suggest fast, unclear speech.
 - Closing frame has no brand end card.

@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "creator",
+    "founder_evidence": "ad text: '#ad' (paid disclosure; no creator handle or name is given)",
+    "hook": "story_open",
+    "hook_text": "My phone goes everywhere with me but what I carry with it changes every single day",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Stack ecosystem: wallet stand, Flex Stand, colour plates",
+    "one_line": "A creator walks through a day with the Stack phone system (wallet stand, Flex Stand, colour swaps) and says it has won design awards.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["row", "face", "angle"],
+    "human_checked": false
+  }
+}

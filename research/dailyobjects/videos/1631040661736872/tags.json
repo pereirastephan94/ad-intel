@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Guys, I just got myself new iPhone 17 Pro and here are 4 cases that I'm obsessed with.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "iPhone 17 Pro cases, four colours, circle texture",
+    "one_line": "A creator shows a new iPhone 17 Pro box, then four DailyObjects cases, praising leather-like feel and fingerprint resistance, and asks which you would pick.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "language", "angle"],
+    "human_checked": false
+  }
+}

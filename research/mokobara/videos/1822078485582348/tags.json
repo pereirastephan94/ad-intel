@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "creator",
+    "founder_evidence": "ad text ends 'ad' and tags @mokobara (paid-content disclosure; the speaker is not named)",
+    "hook": "callout",
+    "hook_text": "Mokobara's Black Friday sale is live, and if you don't know what to get, let me show you.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Aisle Trunk large suitcase, 105 L",
+    "one_line": "A woman introduces the large Aisle Trunk and shows it packing 105 litres, mesh pockets and a spill-proof pocket, ending on the Black Friday sale.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

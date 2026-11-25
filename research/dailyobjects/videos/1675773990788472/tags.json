@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "The things you carry in your bag says a lot about you.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Loop power bank in a what's-in-my-bag list",
+    "one_line": "A creator lists what is in their bag, features the DailyObjects Loop power bank with a stand, then asks viewers what their daily objects are.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": ["face", "hook", "angle"],
+    "human_checked": false
+  }
+}

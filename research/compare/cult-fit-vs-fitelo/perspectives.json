@@ -1,17 +1,26 @@
 {
  "A": {
-  "verdict": "No product is shared. Fitelo hands 19 of its 34 ads to customer stories; none of your 30 shows a member. Your edge: scene or story, 17 of 30 videos.",
+  "verdict": "No product is shared. Fitelo hands 19 of its 34 ads to customer stories; your 60 name no member. Your edge: scene or story, 33 of 60 videos.",
   "plan": {
    "focus": {
-    "title": "Put real members of each centre on camera.",
-    "why": "Fitelo hands 19 of its 34 ads to customer stories, 10 ideas ending on one offer card. None of your 30 shows a member, a rating or a result.",
+    "title": "Name real members of each centre, on camera.",
+    "why": "Fitelo hands 19 of its 34 ads to customer stories, 10 ideas ending on one offer card. Your first-person films (trek montage, mother, confession) name nobody and no centre.",
     "basis": "series:B:Customer story, same cashback end card",
     "evidence": "strong",
     "effort": "Medium",
-    "first_test": "Two members of one centre, 40 seconds each, Hinglish: why they joined and what they do there, filmed in that centre.",
+    "first_test": "Two members of one centre, 40 seconds each, Hinglish: why they joined and what they do there, named and filmed in that centre.",
     "script": 1
    },
    "start": [
+    {
+     "title": "Send the many-formats films under named centres.",
+     "why": "Your largest series: five films, 19 ads, 42 versions, live up to 73 days, all to the app link with no centre or price. Your 11 centre ads use three other films.",
+     "basis": "series:A:Many formats, never bored",
+     "evidence": "strong",
+     "effort": "Low",
+     "first_test": "Re-send the 10-ad workout-picker film under two centres' names with the lead form, beside its app-link version.",
+     "script": 5
+    },
     {
      "title": "Re-shoot the tour in each centre it names.",
      "why": "Three films run as 11 ads with the place in the text, across 7 places, longest 38 days. The break-up shopfront has a Kannada sign under Amritsar.",
@@ -23,21 +32,12 @@
     },
     {
      "title": "Sell cult Transform to Fitelo's weight-loss buyer.",
-     "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions. cult Transform, your coaching for weight loss on the site, is in none of your 30 ads.",
+     "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions. cult Transform, your coaching for weight loss on the site, is in none of your 60 ads.",
      "basis": "idea:B:FT-c05",
      "evidence": "strong",
      "effort": "Medium",
      "first_test": "A Transform coach answers \"I want to lose weight, not join a gym\" to camera, 40 seconds, price as [your Transform price].",
      "script": 4
-    },
-    {
-     "title": "Make the break-up gag a titled series.",
-     "why": "The gag runs as 4 ads under four centres, two of them your longest-running at 38 days: one man, four life events, one answer.",
-     "basis": "idea:A:CF-c03",
-     "evidence": "moderate",
-     "effort": "Low",
-     "first_test": "Two 30-second episodes with the same man, new events, each ending \"Chalo cult chalte hai\" in a named centre.",
-     "script": 2
     }
    ],
    "stop": [
@@ -46,7 +46,7 @@
      "why": "One film shows ₹1,099, ₹1,199, ₹1,250 or ₹1,291 by centre; the sale card ₹1,104 or ₹1,145. Your site's Hyderabad 24-month pack comes to ₹1,162 a month, the ELITE sale figure.",
      "basis": "contradictions:A",
      "first_test": "Add \"[pack length] pack, [city]\" under the price on the five ₹1,099 tour ads first.",
-     "script": 5
+     "script": 6
     },
     {
      "title": "Stop \"Claim your FREE GYM TRIAL\" over videos that say buy.",
@@ -56,22 +56,23 @@
     }
    ]
   },
-  "workhorse_read": "You spread 30 ads over 5 ideas and lean on re-sending them by place: one series covers 11 ads in 7 places. Fitelo spreads 34 over 23 ideas but hands 19 to one format, a customer story ending on the same cashback card.",
-  "now_read": "22 of your 30 sampled ads started in the last 30 days: 12 on 4 November and 10 on 16 and 17 November, the 9 Fitstart cards among them. Fitelo started 16 of 34 in that time, 11 of them person to camera.",
+  "workhorse_read": "You spread 60 ads over 12 ideas: your largest series, five films selling class variety, carries 19 ads and 42 versions, and three films re-sent by place carry 11 in 7 places. Fitelo spreads 34 over 23 ideas but hands 19 to one format, a customer story ending on the same cashback card.",
+  "now_read": "24 of your 60 sampled ads started in the last 30 days: 12 on 4 November, 10 on 16 and 17 November (the 9 Fitstart cards among them) and 2 on 30 October; 28 date from September. Fitelo started 16 of 34 in that time, 11 of them person to camera.",
   "india_read": [
-   "Language: you and Fitelo each speak Hinglish in 21 of 30 videos; your other 9 are silent sale cards with English text, Fitelo's 9 are in English; its 4 image ads are English.",
-   "Timing: you launched 12 ads on 4 November, four days before Diwali (8 November), and the Fitstart sale on 16 and 17 November; Fitelo launched 27 of 34 in October, 8 on 16 October.",
-   "Destination: all 30 of your ads open a lead form on Facebook (\"we'll call you\"); all 34 of Fitelo's go to its own web pages, for coaching or the scale store."
+   "Language: your videos speak Hinglish in 24 of 60 and English in 35 (9 of those are silent sale cards), with 1 not written up; Fitelo's speak Hinglish in 21 of 30 and its 4 image ads are English.",
+   "Timing: you launched 28 ads in September (19 on 25 September), 12 on 4 November, four days before Diwali (8 November), and the Fitstart sale on 16 and 17 November; Fitelo launched 27 of 34 in October, 8 on 16 October.",
+   "Destination: 30 of your 60 ads open a lead form on Facebook (\"we'll call you\"), 29 go to the Cult app link and 1 to Google Play; all 34 of Fitelo's go to its own web pages."
   ],
   "scripts": [
    {
     "title": "Member-led stories: one real member per centre, filmed in that centre",
     "persona": "25 to 40, lives near one named centre, has paid for a gym before and stopped going.",
-    "why": "Fitelo hands 19 of its 34 ads to customer stories and puts a customer on screen in 23; none of your 30 ads shows a member, and your own films already run per centre.",
+    "why": "Fitelo hands 19 of its 34 ads to customer stories and puts a customer on screen in 23, most with a name and a town. Your first-person films (a trek montage on 7 ads, a mother's first class, a confession) name nobody and no centre.",
     "evidence_ads": [
      "4723519161196734",
      "1449280067157528",
-     "2404800830259411"
+     "1018165951266899",
+     "1428286499400835"
     ],
     "format": "Member to camera in the centre, phone, vertical, with B-roll of the class they do",
     "length": "40 seconds",
@@ -152,12 +153,12 @@
      "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
      "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
      "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
      "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
     ],
     "measure": [
      "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-     "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
      "Calls connected, free workouts booked and centre visits, by centre",
      "Passes bought within 14 days of the lead, and which pack length"
     ]
@@ -165,12 +166,12 @@
    {
     "title": "A character series: the break-up guy, one life event per episode",
     "persona": "22 to 30, uses humour as a reason, would not watch a gym advert but would watch a running joke.",
-    "why": "Your break-up gag runs as 4 ads under four centres, two of them your longest-running at 38 days: one man, four events, one answer. Fitelo's only recurring face is the unnamed man on its offer card, who never plays a scene.",
+    "why": "Your break-up gag is your highest-scoring idea: 6 ads, 16 versions, live up to 56 days, one man, four events, one answer; four of the six run under named centres. Fitelo's only recurring face is the unnamed man on its offer card, who never plays a scene.",
     "evidence_ads": [
+     "1533712601774060",
      "1644460903932522",
      "1088984333744777",
-     "1763133728096239",
-     "1182726674293191"
+     "1763133728096239"
     ],
     "format": "Scene, phone, vertical; same actor, same line, a title card that repeats",
     "length": "30 seconds",
@@ -251,12 +252,12 @@
      "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
      "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
      "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
      "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
     ],
     "measure": [
      "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-     "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
      "Calls connected, free workouts booked and centre visits, by centre",
      "Passes bought within 14 days of the lead, and which pack length"
     ]
@@ -264,7 +265,7 @@
    {
     "title": "Centre tour scripts: the same tour, re-shot in each centre it is sent to",
     "persona": "Someone searching for a gym near home in one city, comparing two or three on the way to work.",
-    "why": "Your gym tour is your highest-scoring idea, 9 ads and 12 versions, and three films run as 11 ads across 7 named places; but the tour's app screen reads Cult Vaishali Nagar under Indore, Amritsar, VIP Road and Prahlad Nagar.",
+    "why": "Your gym tour runs as 9 ads with 12 versions, and three films run as 11 ads across 7 named places; but the tour's app screen reads Cult Vaishali Nagar under Indore, Amritsar, VIP Road and Prahlad Nagar.",
     "evidence_ads": [
      "1153711787290276",
      "1114356351358840",
@@ -350,12 +351,12 @@
      "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
      "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
      "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
      "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
     ],
     "measure": [
      "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-     "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
      "Calls connected, free workouts booked and centre visits, by centre",
      "Passes bought within 14 days of the lead, and which pack length"
     ]
@@ -363,7 +364,7 @@
    {
     "title": "Coach-led scripts for the weight-loss buyer: a cult Transform coach to camera",
     "persona": "28 to 45, wants to lose weight, does not want a gym, is weighing a diet coaching app.",
-    "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions, and 27 of its 34 ads sell weight-loss coaching. cult Transform, your coaching for weight loss on the site, is in none of your 30.",
+    "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions, and 27 of its 34 ads sell weight-loss coaching. cult Transform, your coaching for weight loss on the site, is in none of your 60.",
     "evidence_ads": [
      "4723519161196734",
      "995872249468747"
@@ -447,12 +448,111 @@
      "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
      "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
      "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
      "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
     ],
     "measure": [
      "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-     "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
+     "Calls connected, free workouts booked and centre visits, by centre",
+     "Passes bought within 14 days of the lead, and which pack length"
+    ]
+   },
+   {
+    "title": "Workout-picker re-cuts: the picker film, sent under one named centre",
+    "persona": "Someone who quit a gym because every day was the same routine, and lives near one Cult centre.",
+    "why": "Your largest series sells class variety: five films, 19 ads, 42 versions, live up to 73 days, all to the app link with no centre or price; the workout-picker teaser alone runs as 10 ads. Your 11 centre ads use three other films.",
+    "evidence_ads": [
+     "1644316817619217",
+     "1411563457759054",
+     "1736977457415163",
+     "1539942324830414"
+    ],
+    "format": "Captioned teaser, one member moving through that centre's formats, phone, vertical",
+    "length": "30 seconds",
+    "language": "Hinglish voice, English captions as in the current teaser",
+    "openings": [
+     "The hardest part at Cult [centre name]? Picking today's workout.",
+     "Aaj kya karein: [format 1], [format 2] ya [format 3]?",
+     "Roz wahi machine? Yahan roz naya format."
+    ],
+    "beats": [
+     {
+      "t": "0-3 s",
+      "beat": "Hook",
+      "note": "The teaser's own caption, with the centre's name, over its signboard."
+     },
+     {
+      "t": "3-10 s",
+      "beat": "Problem",
+      "note": "One line on the same routine every day."
+     },
+     {
+      "t": "10-20 s",
+      "beat": "Mechanism",
+      "note": "Three formats from this centre's timetable, about three seconds each."
+     },
+     {
+      "t": "20-25 s",
+      "beat": "Proof",
+      "note": "This centre's class list on the app screen."
+     },
+     {
+      "t": "25-28 s",
+      "beat": "Offer",
+      "note": "Two free group workouts on the Cult app."
+     },
+     {
+      "t": "28-30 s",
+      "beat": "Call to action",
+      "note": "Get offer, we call you; centre name on the card."
+     }
+    ],
+    "script": [
+     {
+      "t": "0-3 s",
+      "voice": "Cult [centre name] mein sabse mushkil kaam? Aaj ka workout chunna.",
+      "screen": "Caption: \"The hardest part at Cult [centre name]... picking today's workout\"; signboard in frame."
+     },
+     {
+      "t": "3-10 s",
+      "voice": "Pehle gym mein roz wahi machine, wahi reps. Teesre hafte bore.",
+      "screen": "One shot of a lone treadmill."
+     },
+     {
+      "t": "10-20 s",
+      "voice": "Yahan aaj [format 1], kal [format 2], parson [format 3].",
+      "screen": "Captions name each format as it plays; only formats on this centre's timetable."
+     },
+     {
+      "t": "20-25 s",
+      "voice": "Sab app pe dikhta hai, class book karo aur aa jao.",
+      "screen": "App screen showing Cult [centre name] and its classes."
+     },
+     {
+      "t": "25-28 s",
+      "voice": "Pehle do group workouts free.",
+      "screen": "Text: \"2 free group workouts on the Cult app\"."
+     },
+     {
+      "t": "28-30 s",
+      "voice": "Get offer dabao, team call karegi.",
+      "screen": "End card: Cult [centre name], Get offer."
+     }
+    ],
+    "on_screen": "Show only formats that this centre's timetable lists that week; the app screen names the same centre as the caption.",
+    "end_card": "Cult [centre name], \"2 free group workouts\", Get offer; a price only as the city's pack page gives it, with pack length.",
+    "compliance": [
+     "Every price says \"starting at\", the pack length it assumes and the city, as the city's pack page shows it on the day of the edit; explain the asterisk on screen.",
+     "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
+     "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
+     "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
+     "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
+    ],
+    "measure": [
+     "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
      "Calls connected, free workouts booked and centre visits, by centre",
      "Passes bought within 14 days of the lead, and which pack length"
     ]
@@ -546,12 +646,12 @@
      "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
      "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
      "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+     "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
      "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them."
     ],
     "measure": [
      "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-     "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+     "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
      "Calls connected, free workouts booked and centre visits, by centre",
      "Passes bought within 14 days of the lead, and which pack length"
     ]
@@ -559,7 +659,7 @@
   ]
  },
  "B": {
-  "verdict": "No product is shared. Cult.fit runs scene or story in 17 of 30 videos; you run none of 30. Your edge: customer stories, 19 of your 34 ads.",
+  "verdict": "No product is shared. Cult.fit runs scene or story in 33 of 60 videos; you run none of 30. Your edge: customer stories, 19 of your 34 ads.",
   "plan": {
    "focus": {
     "title": "Keep customer stories, with timeframe and typical line on screen.",
@@ -573,16 +673,16 @@
    "start": [
     {
      "title": "Tell one story as a scene, as Cult.fit does.",
-     "why": "Cult.fit runs scene or story in 17 of its 30 videos across 2 ideas, a gym tour and a \"don't feel like the gym\" film. You run none of your 30.",
+     "why": "Cult.fit runs scene or story in 33 of its 60 videos across 6 ideas, among them a gym tour and a mother trying her first group class. You run none of your 30.",
      "basis": "row:V2",
-     "evidence": "moderate",
+     "evidence": "strong",
      "effort": "Medium",
      "first_test": "A 40-second kitchen scene: a family dinner, roti stays, the dietitian's call changes the timing; typical line on screen.",
      "script": 2
     },
     {
      "title": "Open each story on the customer's town.",
-     "why": "Cult.fit re-sends three films with the place in the text: 11 of its 30 ads across 7 places. Your stories caption towns such as Bareilly and Indore, but run under the same ad text.",
+     "why": "Cult.fit re-sends three films with the place in the text: 11 of its 60 ads across 7 places. Your stories caption towns such as Bareilly and Indore, but run under the same ad text.",
      "basis": "series:A:One film, a new centre and price each time",
      "evidence": "strong",
      "effort": "Low",
@@ -615,12 +715,12 @@
     }
    ]
   },
-  "workhorse_read": "You lean on one format: customer stories carry 19 of your 34 ads across 10 ideas, and the nursing officer video alone 7. Cult.fit has only 5 ideas in 30 ads and leans on re-sending them by place, 11 ads in 7 places.",
-  "now_read": "16 of your 34 sampled ads started in the last 30 days, 11 of them person to camera; 27 of 34 started in October. Cult.fit started 22 of its 30 in the same 30 days, 9 of them Fitstart sale cards.",
+  "workhorse_read": "You lean on one format: customer stories carry 19 of your 34 ads across 10 ideas, and the nursing officer video alone 7. Cult.fit spreads 60 ads over 12 ideas; its largest series, five films selling class variety, carries 19, and it re-sends three films by place, 11 ads in 7 places.",
+  "now_read": "16 of your 34 sampled ads started in the last 30 days, 11 of them person to camera; 27 of 34 started in October. Cult.fit started 24 of its 60 in the same 30 days, 9 of them Fitstart sale cards, and 28 of its 60 date from September.",
   "india_read": [
-   "Language: you and Cult.fit each speak Hinglish in 21 of 30 videos; your other 9 are in English and its 9 are silent sale cards with English text; your 4 image ads are English.",
-   "Timing: you launched 27 of 34 in October, 8 on 16 October, about three weeks before Diwali (8 November); Cult.fit launched 12 on 4 November and its Fitstart sale on 16 and 17 November.",
-   "Destination: all 34 of your ads go to your own web pages, for coaching or the scale store; all 30 of Cult.fit's open a lead form on Facebook (\"we'll call you\")."
+   "Language: your videos speak Hinglish in 21 of 30 and English in 9, and your 4 image ads are English; Cult.fit's speak Hinglish in 24 of 60 and English in 35 (9 of those are silent sale cards).",
+   "Timing: you launched 27 of 34 in October, 8 on 16 October, about three weeks before Diwali (8 November); Cult.fit launched 28 in September, 12 on 4 November and its Fitstart sale on 16 and 17 November.",
+   "Destination: all 34 of your ads go to your own web pages, for coaching or the scale store; 30 of Cult.fit's 60 open a lead form on Facebook (\"we'll call you\") and 30 go to its app or app store page."
   ],
   "scripts": [
    {
@@ -724,8 +824,9 @@
    {
     "title": "Scene scripts: a family dinner where the plan changes the timing, not the food",
     "persona": "The person who cooks for a family and will not cook a separate diet meal.",
-    "why": "Cult.fit runs scene or story in 17 of its 30 videos, a gym tour and a \"don't feel like the gym\" film; you run none of your 30. Your site's line \"Roti and rice stay. Timing and portions change\" is in no ad.",
+    "why": "Cult.fit runs scene or story in 33 of its 60 videos across 6 ideas, among them a mother trying her first group class; you run none of your 30. Your site's line \"Roti and rice stay. Timing and portions change\" is in no ad.",
     "evidence_ads": [
+     "1428286499400835",
      "1529622859191185",
      "1153711787290276"
     ],
@@ -821,7 +922,7 @@
    {
     "title": "Town-led re-cuts: one member story per town, the town in the first frame",
     "persona": "A viewer in a smaller city who doubts a national app knows food like theirs.",
-    "why": "Cult.fit re-sends three films with the place in the text: 11 of its 30 ads across 7 places. Your stories already caption towns (Bareilly, Indore, Delhi, Jharkhand), but each runs under the same ad text.",
+    "why": "Cult.fit re-sends three films with the place in the text: 11 of its 60 ads across 7 places. Your stories already caption towns (Bareilly, Indore, Delhi, Jharkhand), but each runs under the same ad text.",
     "evidence_ads": [
      "2404800830259411",
      "4606351752947622",
@@ -920,7 +1021,7 @@
    {
     "title": "Smart scale demo scripts: step on, read the app, one price and one end date",
     "persona": "Someone who already weighs themselves and wants more than one number, shopping for a scale.",
-    "why": "Five scale ideas: four say ₹999 against ₹4,999 or ₹5,000, and they count 18 or 25 metrics; two have run 129 days. Product demo is 2 of your 30 videos and 0 of Cult.fit's 30.",
+    "why": "Five scale ideas: four say ₹999 against ₹4,999 or ₹5,000, and they count 18 or 25 metrics; two have run 129 days. Product demo is 2 of your 30 videos and 0 of Cult.fit's 60.",
     "evidence_ads": [
      "2941541369549817",
      "925451983928233",
@@ -1108,7 +1209,7 @@
   ]
  },
  "extras": {
-  "source": "Read from each brand's ads by hand (research/<brand>/concepts.md) and from each brand's own website on 20 Nov 2026 (research/<brand>/site.md).",
+  "source": "Read from each brand's ads by hand (research/<brand>/concepts.md: Cult.fit's 60 ads, Fitelo's 34 written-up ads) and from each brand's own website on 20 and 25 Nov 2026 (research/<brand>/site.md).",
   "products_note": "No shared product: gym and sports passes priced by city against remote weight-loss coaching, a scale and a ₹199 review.",
   "map_note": "These two sell different things, a gym and sports pass against remote diet coaching and a device, so this map compares each whole sample, not one product. The like-for-like is the buyer's job, get fit or lose weight: see What is comparable below.",
   "comparable": {
@@ -1118,11 +1219,12 @@
     {
      "label": "Offer mechanics",
      "A": {
-      "text": "A price from, by place: ₹1,099 to ₹1,291 a month on the end card; two free group workouts or a free gym trial on 12 of 30; a sale card on 9 (₹1,104 to ₹1,162). No ad says which pack the price is for.",
+      "text": "On the 30 lead-form ads, a price from, by place: ₹1,099 to ₹1,291 a month on the end card; two free group workouts on 8 and a free gym trial headline on 3; a sale card on 9 (₹1,104 to ₹1,162). No ad says which pack the price is for. The other 30 show no price or offer.",
       "ads": [
        "1529622859191185",
        "28835523932756470",
-       "1665600734881123"
+       "1665600734881123",
+       "1411563457759054"
       ]
      },
      "B": {
@@ -1137,10 +1239,11 @@
     {
      "label": "Proof",
      "A": {
-      "text": "The venue: a voice tours a clean gym with coaches and classes on 9 ads; elsewhere an unnamed presenter or a gag. No member, rating or result in any of the 30.",
+      "text": "The venue: a voice tours a clean gym with coaches and classes on 9 ads. First-person films name nobody: a trek montage captioned \"I gained muscle & lost fat\" (7 ads), a mother's first class, a confession. No rating or named member in any of the 60.",
       "ads": [
        "1153711787290276",
-       "1644460903932522"
+       "1018165951266899",
+       "1428286499400835"
       ]
      },
      "B": {
@@ -1155,8 +1258,11 @@
     {
      "label": "Results claims against small print",
      "A": {
-      "text": "None: no ad states a result. Cult.fit's own pack pages say its workouts \"are guaranteed to show results\".",
-      "ads": []
+      "text": "One, with no figure: the trek montage says \"I gained muscle & lost fat\" with no kilos, dates or days (7 ads). Cult.fit's own pack pages say its workouts \"are guaranteed to show results\".",
+      "ads": [
+       "1018165951266899",
+       "4479660248969408"
+      ]
      },
      "B": {
       "text": "Headline kilos of 18 to 38 against the small print \"In 4 weeks, a typical Fitelo user can expect to lose 2-3 Kgs\"; 25 kg in 90 days is about 8 kg a month. The line leaves before the offer in 7 ideas and is missing from both BodyMap images.",
@@ -1170,9 +1276,10 @@
     {
      "label": "Concentration",
      "A": {
-      "text": "5 ideas in 30 ads: the gym tour carries 9 (30%), the three highest-scoring ideas 25 (83%).",
+      "text": "12 ideas in 60 ads (1 not written up): the break-up gag, highest by score, carries 6 (10%), the three highest-scoring ideas 25 (42%); one series, five films on class variety, carries 19 (32%).",
       "ads": [
-       "1153711787290276"
+       "1533712601774060",
+       "1411563457759054"
       ]
      },
      "B": {
@@ -1185,9 +1292,11 @@
     {
      "label": "Where the button goes",
      "A": {
-      "text": "30 of 30 to a lead form on Facebook with a \"Get offer\" button; the text says \"we'll call you\" or \"download cult.fit\".",
+      "text": "30 of 60 to a lead form on Facebook with a \"Get offer\" button and \"we'll call you\"; 29 to the Cult app link with \"Learn more\", \"Download\" or \"See details\"; 1 to Google Play.",
       "ads": [
-       "1645883207287485"
+       "1645883207287485",
+       "1736977457415163",
+       "1141867424988014"
       ]
      },
      "B": {
@@ -1201,10 +1310,11 @@
     {
      "label": "Deadlines and age",
      "A": {
-      "text": "No dated deadline (\"Limited-time deal\" on 2 ads, an undated sale on 9). Every ad started between 13 October and 17 November; the longest has run 38 days.",
+      "text": "No dated deadline (\"Limited-time deal\" on 2 ads, an undated sale on 9). Ads started between 8 September and 17 November; seven started on 8 September and have run 73 days.",
       "ads": [
        "4606351752947622",
-       "1088984333744777"
+       "1088984333744777",
+       "1411563457759054"
       ]
      },
      "B": {
@@ -1232,10 +1342,11 @@
      ]
     },
     {
-     "text": "Against the site: the Amritsar ads say from ₹1,250, the site's Amritsar 24-month pack comes to ₹1,325 a month; Chandigarh's ₹1,291 matches no Chandigarh pack read (24 months: ₹4,671 a month).",
+     "text": "Against the site on 25 Nov: the Amritsar ads say from ₹1,250, the Amritsar 24-month pack comes to ₹1,325 a month; Prahlad Nagar says ₹1,199, the Ahmedabad pack ₹1,062; Chandigarh's ₹1,291 matches no Chandigarh pack read (24 months: ₹4,671 a month).",
      "ads": [
       "2404800830259411",
       "1142965181654720",
+      "4606351752947622",
       "28835523932756470"
      ]
     },
@@ -1298,7 +1409,7 @@
      ]
     },
     {
-     "text": "Coaches: \"1000+ experienced coaches\" in the text of 8 ads; the site says 800+ coaches and experts.",
+     "text": "Coaches: \"1000+ experienced coaches\" in the text of 8 ads; the site says 800+ coaches and experts, and 300+ coaches in another block.",
      "ads": [
       "1685798322850756",
       "2190284715234477",

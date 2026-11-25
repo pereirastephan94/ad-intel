@@ -21,16 +21,16 @@ Silent as far as the frames show. The machine transcript ("guid password", "sabe
 0 s: empty deep-red gradient. 0.5 s: a gloved hand and the bowl of a champagne flute enter from the left. 1 s: glove holds the empty flute, tilted. 2 s: flute upright in close-up, gold ring on the glove. 3 s: gloved hand fans cards with gold-patterned backs on red felt. No words, no speech. Hook: visual only.
 
 ## Person on screen
-No face. Only hands in dark burgundy leather gloves with gold rings (one signet style), at 0.5-3 s and 11.8-15.6 s. Slow, deliberate gestures.
+No face. Only hands in dark burgundy leather gloves with gold rings (one signet style), at 0.5-3 s and 11.8-15.6 s. Slow gestures.
 
 ## Setting, framing and look
-Built red set: felt poker table, chips (green, white, red, blue), playing cards printed with the brand monogram. Macro and top-down shots, saturated red grade, hard studio light. 9.2 s: gold flake drops into the flute (reads as a "24k" nod). Several set-ups, high production.
+Built red set: poker table, chips, playing cards printed with the monogram. Macro and top-down shots, saturated red grade. 9.2 s: gold flake drops into the flute. Several set-ups, high production.
 
 ## On-screen text, captions, logos, graphics
-Three white capital captions, centred near the top, no highlight. No logo overlay, no end card, no button. The brand name appears only embossed on the wallet and printed on the cards. Final frame: three card holders (maroon, black, blue) in the gold monogram on red, no text.
+Three white capital captions, centred near the top. No logo overlay, end card or button. The brand name appears only on the wallet and cards. Final frame: three holders (maroon, black, blue) on red.
 
 ## Sound and pacing
-Software measures, nothing was heard. 8 cuts in 21.9 s (3.65 per 10 s), first cut 7.72 s, none in the first 5 s. 5 words per minute, so no real speech. It marks 73 percent of the time as speech-like at -20.5 dB, which with a nonsense transcript suggests a sung or processed track. Tempo 161 bpm. Music guess: "likely music or sound bed". Genre and track cannot be named.
+Software measures, nothing was heard. 8 cuts in 21.9 s (3.65 per 10 s), first cut 7.72 s, none in the first 5 s. 5 words per minute, so no real speech. It marks 73 percent as speech-like at -20.5 dB, which with a nonsense transcript suggests a sung or processed track. Tempo 161 bpm. Music guess: "likely music or sound bed". Genre and track cannot be named.
 
 ## Structure
 | Time | Beat | What happens |
@@ -42,22 +42,20 @@ Software measures, nothing was heard. 8 cuts in 21.9 s (3.65 per 10 s), first cu
 
 ## Claims and proof
 - "2x quick-draw slots" front and back: shown with a blank card. Matches the link description "4 quick-access card slots".
-- "Centered slip pocket": shown holding a banknote prop. Link description says it fits cash, cards and receipts.
-- "Soft, natural-grain leather": not shown close up.
+- "Centered slip pocket": shown holding a banknote prop.
 - "24k": a collection name. No frame or small print says whether any real gold is used.
 - No price in the video. The card sleeve is ₹1,699 on static 878789688629860.
 
 ## Offer and call to action
-No call to action in the video. Button "Shop now", headline "Get caught in 24k ✨", landing on the product page. Ad text: "Finished with our signature Mokogram print, now traced in gold - the 24k Mokogram Collection is made for the moments that call for some shine." Link description: "Crafted with soft, natural-grain leather. 4 quick-access card slots. Comes with a sleeve for cash, extra cards and receipts. Clean, monostriped finish." The ad is a two-card dynamic creative.
+No call to action in the video. Button "Shop now", headline "Get caught in 24k ✨", landing on the product page. Ad text: "Finished with our signature Mokogram print, now traced in gold - the 24k Mokogram Collection is made for the moments that call for some shine." Link description: "Crafted with soft, natural-grain leather. 4 quick-access card slots. Comes with a sleeve for cash, extra cards and receipts. Clean, monostriped finish."
 
 ## Why it may work, and where it is weak
 Works:
-- Red and gold set is distinctive and expensive-looking.
+- Distinctive, expensive-looking red and gold set.
 - Captions name each feature as it is handled.
-- Hands only, so no casting needed.
 
 Weak:
-- 7.7 s pass before any product; no price or sale.
-- No brand name or end card.
-- Portrait 5:6 does not fill 9:16 placements.
-- "24k" with no explanation.
+- 7.7 s before any product; no price or sale.
+- No end card.
+- 5:6 does not fill 9:16 placements.
+- "24k" unexplained.

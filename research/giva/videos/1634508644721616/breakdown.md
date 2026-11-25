@@ -66,7 +66,7 @@ Works:
 - Warm, well-lit production; the product is tied to the "thoughtful" point.
 
 Weak:
-- 81 s, and the necklace is on screen for about 3 s.
+- 81 s, and the jewellery appears only in short cutaways.
 - No offer, price or product name; the end card is the only brand moment.
 - Garbled opening and a numbering slip in the clauses.
 - "Anti-tarnish" has no support, and the card says plating.

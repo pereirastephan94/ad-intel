@@ -23,16 +23,16 @@ No speech. The machine transcript (a Hinglish sentence describing itself, then "
 Hook: title card over rapid cuts, no speech.
 
 ## Person on screen
-No face. One forearm in a dark grey ribbed fingerless sleeve. Unnamed; "@dailyobjects_official" in the ad text is the brand's handle.
+No face. One forearm in a dark grey ribbed fingerless sleeve. Unnamed.
 
 ## Setting, framing and look
-White chest of drawers, cream wall, soft daylight, warm muted grade. Handheld phone footage, top-down and static wides. Cutaways: record spinning (9.9 s), tea poured (10.4 s), phone showing Fleetwood Mac in the front tray (11.8 s), glowing desk at the end (14.4 s). Third-party props: CLAW turntable, Donna Tartt book, Apple iPad.
+White chest of drawers, cream wall, soft daylight, warm muted grade. Handheld phone footage. Cutaways: record spinning (9.9 s), tea poured (10.4 s), phone showing Fleetwood Mac in the front tray (11.8 s), glowing desk at the end (14.4 s).
 
 ## On-screen text, captions, logos, graphics
-"a fall" (small sans), "desk reset" (large cream serif), "ft. Array Desk Organiser" (small sans), stacked left, 0 to about 2.5 s. Box print "Daily Objects / Array Desk Organiser" on a green band at 3 s. No end card, URL or button.
+"a fall" (small sans), "desk reset" (large cream serif), "ft. Array Desk Organiser" (small sans), stacked left, 0 to about 2.5 s. Box print "Daily Objects / Array Desk Organiser" at 3 s. No end card, URL or button.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 19 cuts in 14.7 s (12.91 per 10 s), first cut 0.4 s, 9 cuts in the first 5 s. Audio is continuous with no gaps (speech share 1.0 and 7 words are artefacts), tempo 152 bpm.
+Measured by software, not heard, so genre and track cannot be named. 19 cuts in 14.7 s (12.91 per 10 s), first cut 0.4 s, 9 cuts in the first 5 s. Audio is continuous (speech share 1.0 and 7 words are artefacts), tempo 152 bpm.
 
 ## Structure
 | Time | Beat | What happens |
@@ -49,12 +49,12 @@ No ask in the video. Button "Shop now"; no headline. Link goes to the desk-organ
 
 ## Why it may work, and where it is weak
 Works:
-- Looks like a friend's desk post, not an ad.
+- Looks like a friend's desk post.
 - Shows real contents: glasses, watch, pens, phone.
 - Product name in the first frames.
 
 Weak:
 - Title is gone by 3 s; nothing says why to buy.
-- Props (turntable, book) compete with the product.
+- Props compete with the product.
 - No price, size, offer or ask.
-- Same product in grey (1442842164628257) lands on a product page; this one on a category page.
+- Grey version (1442842164628257) lands on a product page; this one on a category page.

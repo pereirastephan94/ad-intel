@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "creator",
+    "founder_evidence": "ad text ends '#mokobara #ad' (paid-content disclosure; the speaker is not named)",
+    "hook": "callout",
+    "hook_text": "If there's one thing you could get in the Mokobara Black Friday sale, let that be the stunning set of the Transit check-in and the Transit cabin.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Transit luggage set of 2, pink, with name tag",
+    "one_line": "A woman with a mic recommends the pink Transit check-in and cabin set, its name personalisation, spill-proof pocket and nesting, in the sale.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "row",
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

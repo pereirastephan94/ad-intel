@@ -17,10 +17,10 @@ Silent (software finds no speech; the "km" transcript is empty). Only on-screen 
 0 s: a maroon card sleeve with a gold monogram floats edge-on before a blurred courtyard with warm lights. 0.5 s: it turns to show its face. 1 s: a hand with gold bangles and rings catches it. 2 s: macro of a neck, necklace pendant and hand against red cloth. 3 s: wide shot of a woman in a red draped halter saree walking in profile past a fiddle-leaf fig, long braid swinging. No words. Hook: visual only.
 
 ## Person on screen
-One unnamed woman, apparent 20s to 30s. Look one: red halter saree with gold border, stacked gold bangles, rings, pendant, ear drops, long braid with a red tassel. Look two (from about 14 s): oversized black shirt-jacket, wide black trousers, gold top beneath, braid again. Serious, confident, posed; she looks at the lens in a few shots (about 16 s) and holds the wallet to her chest at 5.3 s.
+One unnamed woman, apparent 20s to 30s. Look one: red halter saree with gold border, stacked gold bangles, rings, pendant, ear drops, long braid with a red tassel. Look two (from about 14 s): oversized black shirt-jacket, wide black trousers, gold top beneath, braid again. Serious, posed; looks at the lens in a few shots and holds the wallet to her chest at 5.3 s.
 
 ## Setting, framing and look
-Cream arched courtyard, lanterns, carved wooden console, a staircase. Warm golden light, shallow focus, slow motion, low angles, many set-ups. 20.9 s: hands hold a black and gold zip wallet on a sunlit ledge. 29.4 s: wide stair shot, wallet held up to the face. Cinematic production.
+Cream arched courtyard, lanterns, carved console, staircase. Warm light, shallow focus, slow motion, many set-ups. 20.9 s: hands hold a black and gold zip wallet on a ledge. Cinematic production.
 
 ## On-screen text, captions, logos, graphics
 Only one title card, bottom centre at 5.3 s and 6 s: "The 24K" (white serif), "Mokobara" (gold script), "Stash Card Sleeve" (white). No price, button, logo overlay or end card. The wallet is embossed "mokobara".
@@ -49,10 +49,8 @@ No call to action in the video. Button "Shop now", no headline, landing on /prod
 Works:
 - High-craft, festive-season look; very fast opening cuts.
 - Wallet appears in the first second.
-- Gold on red or black matches the collection name.
 
 Weak:
 - No price, feature or offer.
-- The wallet is small in most shots.
 - Title product differs from the landing product.
 - No end card or call to action.
