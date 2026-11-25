@@ -32,10 +32,10 @@ The main transcript has no text from 27.8 to 57.8 s and is in Devanagari after 5
 0 s: a bearded man at a desk holds two power banks. 0.5 s: he thrusts them at the lens. 1 and 2 s: a phone with a power bank on each side fills the frame under bold white-and-black text "TRUE MAGSAFE POWERBANKS". 3 s: back to the desk. Speech starts at 0 s. Hook: a feature headline plus a doubt ("are they really true MagSafe?").
 
 ## Person on screen
-Not named on screen or in the ad text. The code reads DOXNABEEL5, but nothing says it is his name. Apparent age 30s to 40s, full dark beard, dark curly hair, blue t-shirt with a small chest logo. Wide-eyed and animated, looks at the lens when talking.
+Not named on screen or in the ad text. The code reads DOXNABEEL5, but nothing says it is his name. Apparent age 30s to 40s, full dark beard, dark curly hair, blue t-shirt with a small chest logo. Animated; to the lens when talking.
 
 ## Setting, framing and look
-Desk with a chair, blue wall and monitor behind (talking head); white-background close-ups for the demos. Medium frontal shot, static, bright even light, saturated colour; whip-pan transitions. Home-studio level.
+Desk, chair, blue wall and monitor behind for the talking head; white-background close-ups for demos. Static medium shot, bright even light, whip-pan transitions. Home-studio level.
 
 ## On-screen text, captions, logos, graphics
 "TRUE MAGSAFE POWERBANKS" (1 to 3 s). iPhone charging ring "42% Charged" (28.7 s). End text "CODE: DOXNABEEL5 / dailyobjects.com" (80.8 s). No DailyObjects logo card. A power bank display shows a small readout (47 s).
@@ -64,11 +64,11 @@ Spoken and written: use the code at dailyobjects.com for a "great discount"; no 
 ## Why it may work, and where it is weak
 Works:
 - "True MagSafe?" is a doubt the buyer has, so it reads as a test.
-- Three sizes and the code give a clear way to act.
+- Three sizes and a code give a clear way to act.
 - Fast cuts and big text suit a creator review.
 
 Weak:
 - 81 s at 360 x 640 looks soft.
-- Key proof (the 15W reading) is not visible in the frames.
+- The key proof (the 15W reading) is not visible in the frames.
 - The discount size is never stated.
 - The ad links to a collection, not the product tested.

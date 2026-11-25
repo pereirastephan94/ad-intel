@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Two minutes and I still don't know what to wear.",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "convenience_speed",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Everyday 925 silver jewellery, 15% off NEW15",
+    "one_line": "A woman running late for a big day grabs GIVA jewellery, cites free lifetime plating and a six-month warranty, and gives code NEW15 for 15% off.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "angle",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

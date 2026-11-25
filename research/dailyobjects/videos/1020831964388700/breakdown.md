@@ -18,19 +18,19 @@ No speech: the machine transcript holds only "..." and the pictures show nobody 
 | 3-29.5 | no text in any still |
 
 ## First 3 seconds
-0 s: a dark green "Daily Objects" gift box on a bed, a lit candle beside it. 0.5 to 3 s: hands lift the box towards the lens while the title builds in. No speech. Hook: a headline-style caption, no number or offer.
+0 s: a dark green "Daily Objects" gift box on a bed beside a lit candle. 0.5 to 3 s: hands lift the box towards the lens as the title builds in. No speech. Hook: a headline caption; no number or offer.
 
 ## Person on screen
-Mostly hands with dark red nails and a striped cuff. One shot (22.4 and 26.6 s) shows a young woman in a cream striped top at a table, eyes down, using a case propped on its stand. Not named in the ad. Never looks at the lens.
+Mostly hands with dark red nails. One shot (22.4 and 26.6 s) shows a young woman in a cream striped top at a table, eyes down, a case propped on a stand. Not named; never looks at the lens.
 
 ## Setting, framing and look
-Bedroom with gingham bedding and a candle, then a white desk with a tablet, a Starbucks mug and a wood-slat wall, then a pink-curtained room with a teddy bear. Handheld phone, close and medium shots, soft warm light, cosy "aesthetic" grade. Ends on a fade to black (29.5 s).
+A bedroom with gingham bedding and a candle, then a white desk with a tablet and a Starbucks mug, then a pink-curtained room with a teddy bear. Handheld phone, close and medium shots, soft warm light. Fade to black at 29.5 s.
 
 ## On-screen text, captions, logos, graphics
 Title as above, bubbly font with sparkles. The Daily Objects name is on the box, the packs show "Stack Flex Stand" and the DA mark sits on the case and wallet. No end card, price, button text or small print.
 
 ## Sound and pacing
-Measured by software, not heard, so genre and track cannot be named. 20 cuts (6.7 per 10 s), first cut 1.2 s, 3 cuts in the first 5 s. The software heard no words (3 detected, all "..."); sound was present throughout at about -18 dB, tempo 144 bpm, but the music-bed guess was "no gaps to judge".
+Measured by software, not heard, so genre and track cannot be named. 20 cuts (6.7 per 10 s), first cut 1.2 s, 3 in the first 5 s. The software found no words; sound sits at about -18 dB throughout, tempo 144 bpm, no gaps to judge a music bed.
 
 ## Structure
 | Time | Beat | What happens |
@@ -49,12 +49,12 @@ None in the video. Button "Shop now"; link to the Stack ecosystem collection. Ad
 
 ## Why it may work, and where it is weak
 Works:
-- Unboxing is a familiar, low-effort format and the demo needs no words.
-- Cuts come fast (first at 1.2 s) and the wallet and stand are seen working.
-- The Stack collection link matches what is shown.
+- Unboxing is a familiar format and the demo needs no words.
+- Fast cuts (first at 1.2 s); the wallet and stand are seen working.
+- The Stack link matches what is shown.
 
 Weak:
-- Nothing says what the wallet or stand do, what they cost or why to buy.
-- No voice, no end card, no price or call to action.
+- Nothing says what the wallet or stand do, cost or why to buy.
+- No voice, end card, price or call to action.
 - The title promises a winter upgrade that is never explained.
-- The ad text is mostly pasted search keywords, not a pitch.
+- The ad text is mostly pasted search keywords.

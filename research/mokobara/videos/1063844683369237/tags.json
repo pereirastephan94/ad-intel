@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "2x QUICK-DRAW SLOTS (FRONT)",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "24k Stash Card Sleeve, leather card holder",
+    "one_line": "A silent red-set film with gloved hands, cards and chips shows the 24k Stash card sleeve slots front and back before a three-colour lineup.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "hook",
+      "angle"
+    ],
+    "human_checked": false
+  }
+}

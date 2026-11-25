@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "Mokobara's Black Friday sale is live and if you're a chronic overpacker then you need to watch this.",
+    "offer": "none",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Aisle Trunk large suitcase, 105 L",
+    "one_line": "A woman unpacks a pile of clothes and shows the large Aisle Trunk interior, its 105 litres and spill-proof pocket, ending on the Black Friday sale.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

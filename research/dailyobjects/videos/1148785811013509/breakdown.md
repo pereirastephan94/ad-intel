@@ -25,16 +25,16 @@ Captions follow the speech word by word; I used them where the machine text was 
 | 30.5-34.4 | Anyway, if you want to build your own girl lair, comment "desk" and I will send the product links to you. |
 
 ## First 3 seconds
-0 s to 3 s: a woman in a pink knit top, long dark wavy hair, mid-gesture, talking to the lens in a warm bedroom. Title in yellow at the top: "GIRL LAIR" and "Ft. gifting yourself". From 0.5 s, four photo tiles (organiser, gift wrap, lamp, a cap with fruit) frame her and yellow word-by-word captions run ("in", "twenties", "to", "super"). Hook: a callout to women in their twenties, with a permission to treat yourself.
+0 to 3 s: a woman in a pink knit top, long wavy hair, mid-gesture, talking to the lens in a bedroom. Yellow title "GIRL LAIR / Ft. gifting yourself". From 0.5 s, four photo tiles frame her and yellow word-by-word captions run. Hook: a callout to women in their twenties, with permission to treat yourself.
 
 ## Person on screen
-Not named in the video or ad text. The Library lists the page category "Blogger", which is not a credit for her. Apparent age 20s, long dark wavy hair, pink short-sleeve button knit, long beaded drop earrings, pink blush, a fluffy clip-on microphone. Animated, fast, expressive hands, direct to the lens.
+Not named in the video or ad text. The Library page category "Blogger" is not a credit for her. Apparent age 20s, long wavy dark hair, pink short-sleeve button knit, long beaded drop earrings, a fluffy clip-on microphone. Animated, expressive hands, direct to the lens.
 
 ## Setting, framing and look
-A bedroom desk corner: monstera plant, bed, shelves with coloured boxes, an orange lamp glow. Medium selfie frame, static, warm light, some tint. Product shots: stacked green boxes held up (6.6 and 10.1 s), an orange organiser held (18.2 s), then a cutaway of the organiser on a desk with a hand dropping an item in (28.1 s).
+A bedroom desk corner: monstera, bed, shelves, orange lamp glow. Static medium selfie frame, warm light. Product shots: stacked green boxes held up (6.6, 10.1 s), an orange organiser held (18.2 s), then a desk cutaway with a hand dropping an item in (28.1 s).
 
 ## On-screen text, captions, logos, graphics
-Yellow bold title "GIRL LAIR / Ft. gifting yourself" (0 to 3 s). Word-by-word yellow captions. Script-font "Dream girl lair" over a floating collage of cute objects (3.5 s). "ARRAY" in bold yellow and "Next" in italic (18.2 s). "COMMENT DESK!" and "links" (34.2 s). Sticker: a goldfish (10.1 s). No end card, price or logo card.
+Yellow bold title (0 to 3 s). Word-by-word yellow captions. Script-font "Dream girl lair" over a floating collage (3.5 s). "ARRAY" bold and "Next" italic (18.2 s). "COMMENT DESK!" and "links" (34.2 s). A goldfish sticker (10.1 s). No end card, price or logo card.
 
 ## Sound and pacing
 Measured by software, not heard, so genre and track cannot be named. 7 cuts (2.0 per 10 s), first cut 3.5 s, 1 in the first 5 s. 247 words per minute, speech share 0.99, tempo 152 bpm; no gaps to judge a music bed.
@@ -48,22 +48,20 @@ Measured by software, not heard, so genre and track cannot be named. 7 cuts (2.0
 | 30-34.5 | CTA | Comment "desk" for links |
 
 ## Claims and proof
-- Note "a lamp, a charging stand, all in one": the boxes are shown; the lamp lit and charging are not in the frames.
-- Array "stackable": the organiser has a base and body in the 28.1 s shot; stacking is not clearly shown.
-- "does not take up all my space": spoken only; no size or measurements.
-- No prices or numbers.
+- Note "a lamp, a charging stand, all in one": boxes shown; the lamp lit and charging are not in the frames.
+- Array "stackable": a base and body appear at 28.1 s; stacking is not clearly shown.
+- "does not take up all my space": spoken only; no measurements. No prices or numbers.
 
 ## Offer and call to action
-No discount. Spoken and on-screen call to action: comment "desk" and she will send product links (on screen: "COMMENT DESK! links"). Button "Shop now"; link goes to the home page. Ad text: "Comment DESK for the links // Get yourself some cute stuff, maybe? ♥️🫧🦢 @dailyobjects_official" followed by blank lines and a keyword list ("desk setup, daily objects, desk accessories, desk tour, desk finds"). No headline.
+No discount. Call to action, spoken and on screen: comment "desk" and she will send links. Button "Shop now"; link to the home page. Ad text: "Comment DESK for the links // Get yourself some cute stuff, maybe? ♥️🫧🦢 @dailyobjects_official" then a keyword list (desk setup, daily objects, desk accessories, desk tour, desk finds). No headline.
 
 ## Why it may work, and where it is weak
 Works:
-- "Gift yourself" and "girl lair" give an identity, not a feature list.
-- A comment call to action invites engagement and gives the team a lead list.
-- Two products with one reason each (lamp plus charger, organiser that saves space).
+- "Gift yourself" and "girl lair" sell an identity, not a feature list.
+- A comment call to action invites engagement and builds a lead list.
+- Two products, one reason each.
 
 Weak:
-- The comment trigger needs someone to reply with links; this cannot be checked from the ad.
-- No price or offer; the link is the home page, not the two items.
-- Product shots are brief, so the viewer sees little of Note or Array.
-- Array also features in two other DailyObjects videos (1426980919633646 and 2204882066908033), so the pitch is not exclusive to this one.
+- The comment trigger needs someone to send links; this cannot be checked from the ad.
+- No price or offer; the link is the home page.
+- Product shots are brief, so Note and Array are barely seen.

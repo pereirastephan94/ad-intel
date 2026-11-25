@@ -33,7 +33,7 @@ Machine text corrected with the burned-in captions. Lines at 17.6-29.5 s are gar
 Unnamed. The Library category "Actor" is a page category, not a credit. Woman, apparent 30s, wavy shoulder-length dark brown hair, olive-green sleeveless square-neck top, mid-wash jeans, brown bucket bag, layered pendants, bracelet, a large solitaire-style ring. Flustered then relaxed and smiling; looks at the lens at 4.2 s, 26 s, 37.7 s and 40.2 s, otherwise at her hands or phone.
 
 ## Setting, framing and look
-Home sitting area, a jewellery tray (8.3 s, 18.2 s), then a rainy car door and a car interior (35-40 s). Handheld, warm and soft, close insets of hands and jewellery. Two set-ups and a graded look, produced rather than phone-lofi.
+Home sitting area, a jewellery tray (8.3 s, 18.2 s), then a rainy car door and car interior (35-40 s). Handheld, warm, graded, with close inserts of hands and jewellery.
 
 ## On-screen text, captions, logos, graphics
 Gold italic serif, centre: "Running Late For The Big Day" (3-4.2 s), "Your Favourites, Made To Last." (33 s), "Get Your Everyday GIVA Favourites" (37.7 s), "With 15% Off Using NEW15." (40.2 s). End card (45.6 s) is black pattern: "GIVA", "Silver | Gold | Lab Grown Diamonds", "More than A PRETTY PIECE", "925 Silver", "Rhodium Plated", "Lifetime Plating", "15-Day Returns", "6-Month Warranty". No code on the card.
@@ -60,13 +60,11 @@ Spoken: get your favourites with 15% off using NEW15, go shop now. Button "Shop 
 
 ## Why it may work, and where it is weak
 Works:
-- A real-life problem (nothing to wear, cab in two minutes) shown, not told.
+- A real problem (nothing to wear, cab in two minutes) shown, not told.
 - Voice, captions and ad text all repeat NEW15.
-- Warranty and plating are spoken and carded.
 
 Weak:
 - Offer arrives at 38 s; first cut at 4.2 s.
-- Garbled mid-section reads as filler.
 - Jewellery is small and rarely in frame.
 - Claim terms missing.
-- Another 925-silver, plating, NEW15 pitch beside 1007850328326724 and 1385613316707632.
+- Same pitch as 1007850328326724 and 1385613316707632, different script.

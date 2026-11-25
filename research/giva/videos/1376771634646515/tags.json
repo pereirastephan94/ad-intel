@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "visual_only",
+    "hook_text": "",
+    "offer": "none",
+    "deadline": false,
+    "angle": "identity",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Silver jewellery brand film, no offer",
+    "one_line": "Two women in saris carry and drop red GIVA boxes in a Kerala market, posing in layered jewellery; no speech, no offer, GIVA tagline at the end.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "language",
+      "face",
+      "hook_text"
+    ],
+    "human_checked": false
+  }
+}

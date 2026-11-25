@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Guys, you know what?",
+    "offer": "discount",
+    "deadline": true,
+    "angle": "price_value",
+    "language": "english",
+    "production": "studio",
+    "concept_id": null,
+    "product": "Black Friday, up to 30% off from 25 Nov",
+    "one_line": "A woman gossips on a crimson set, unboxes red GIVA gifts over a jewellery montage, then announces the Black Friday sale of 30% off from 25th November.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "face",
+      "hook",
+      "deadline"
+    ],
+    "human_checked": false
+  }
+}

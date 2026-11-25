@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "celebrity_named",
+    "founder_evidence": "title card: 'AFTER PARTY EDIT / STARRING SALONI'",
+    "hook": "story_open",
+    "hook_text": "They say the best part of the night is often what happens after.",
+    "offer": "discount",
+    "deadline": true,
+    "angle": "price_value",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Black Friday, up to 30% off from 25 Nov",
+    "one_line": "A silhouetted after-party film with voiceover about dressing up for another occasion ends on the Black Friday sale, up to 30% off from 25th November.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "angle",
+      "offer"
+    ],
+    "human_checked": false
+  }
+}

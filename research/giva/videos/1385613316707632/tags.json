@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "question",
+    "hook_text": "Where did I get it from",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "feature",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "925 silver necklace, earrings, bracelet, 15% off NEW15",
+    "one_line": "A creator shows pieces she wears, says they are 925 silver and skin friendly with lifetime plating, and gives code NEW15 for 15% off.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

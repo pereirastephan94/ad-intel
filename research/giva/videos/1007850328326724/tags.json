@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "presenter",
+    "founder_evidence": "",
+    "hook": "problem",
+    "hook_text": "Oops, paise toh paani ki tarah food deliveries aur coffee mein beh raha hai",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "hinglish",
+    "production": "studio",
+    "concept_id": null,
+    "product": "925 silver everyday jewellery, 15% off NEW15",
+    "one_line": "A creator pours water out of a glass to show money draining on food and coffee, then pitches 925 silver, warranty and plating and code NEW15.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "production",
+      "hook",
+      "face"
+    ],
+    "human_checked": false
+  }
+}

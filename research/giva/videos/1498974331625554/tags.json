@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V1",
+    "face": "customer",
+    "founder_evidence": "",
+    "hook": "story_open",
+    "hook_text": "Okay, I was not expecting this to look so good in person.",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "phone_lofi",
+    "concept_id": null,
+    "product": "Star necklace, 925 silver per ad text, Flat 15% off",
+    "one_line": "A woman reviews a star necklace to camera, praising its sparkle, weight and gift box, then an end card gives Flat 15% off with code NEW15.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "face",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

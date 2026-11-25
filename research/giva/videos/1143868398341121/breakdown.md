@@ -57,7 +57,6 @@ Spoken: get your wishlist ready. Button "Shop now", no headline, link https://ch
 Works:
 - Early-access framing: a sale announced before it starts builds a wishlist.
 - Gift boxes and sparkle close-ups look premium.
-- Same end card as the other Black Friday videos.
 
 Weak:
 - The offer arrives at 25 s; first cut at 8.9 s and 18.8 s of silence.

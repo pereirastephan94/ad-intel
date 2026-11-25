@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "row": "V4",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "BLACK FRIDAY SALE",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "ai_or_stock",
+    "concept_id": null,
+    "product": "Store-wide Black Friday sale, up to 60% off",
+    "one_line": "Boxes and suitcases tumble down a warehouse aisle, then BLACK FRIDAY SALE and up to 60% OFF appear.",
+    "script_twin": null,
+    "offer_also": []
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "hook",
+      "production"
+    ],
+    "human_checked": false
+  }
+}

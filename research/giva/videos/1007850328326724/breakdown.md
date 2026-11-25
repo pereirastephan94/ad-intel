@@ -29,7 +29,7 @@ Main transcript is garbled and ends in non-Roman junk. Filled from the first-pas
 Not named in the video or ad text (ad says "my Wishlink", handle only for GIVA). Woman, apparent 20s to early 30s, hair slicked into a high ponytail, white puff-sleeve ruched corset-style dress, dark brown almond nails, small earrings, a wrist tattoo. Deadpan then animated, open-palm gestures, mostly eyes to lens.
 
 ## Setting, framing and look
-Styled set: pink blossom wallpaper, teal button-tufted sofa, glass bowl. Soft bright light, warm high-key grade, polished. Medium shots to camera, macro jewellery inserts (GIVA pink boxes flat-lay at 11.1 s, necklace on a black tray at 21.5 s, bracelets and rings on hand at 28 s).
+Styled set: pink blossom wallpaper, teal tufted sofa. Soft bright light, warm grade, polished. Medium shots to camera, macro inserts (GIVA pink boxes at 11.1 s, necklace on black tray 21.5 s, bracelets and rings 28 s).
 
 ## On-screen text, captions, logos, graphics
 Word-by-word serif captions, centre-low. Cards: "925 SILVER / made for everyday" (14.1 s), "ONE PIECE / multiple looks" (18.7 s), "6 MONTHS WARRANTY / lifetime plating" (21.5-24.1 s), "use code NEW15 to get" (33.7 s). GIVA on the boxes only. No end card: last frame is black.
@@ -61,8 +61,7 @@ Works:
 - Code is spoken and captioned.
 
 Weak:
-- Offer, warranty and plating claims carry no terms.
+- Warranty, plating and offer carry no terms.
 - No end card, price or product name.
-- The sentence at 25.6 s is the first real CTA.
 - Landing page is gifts, not everyday silver.
-- Same pitch (925, plating, NEW15) as 1385613316707632 and 1494667376059605, but a different script.
+- Same pitch as 1385613316707632 and 1494667376059605, different script.

@@ -19,16 +19,16 @@ Captions match the speech.
 | 20.6-23 | One less thing to worry about before heading out for a shoot. |
 
 ## First 3 seconds
-0 s: a man in a white t-shirt looks down while lifting a black flap-top backpack with two buckles. 0.5 s to 3 s: he looks at the lens and holds the bag up with one hand, then both hands. White caption "I finally found a backpack that fits" (0.5 and 1 s), "all my shoot essentials" (2 s). Speech starts at 0 s. Hook: a first-person "I finally found" claim, no number or offer.
+0 s: a man in a white t-shirt looks down, lifting a black flap-top backpack with two buckles. 0.5 to 3 s: he looks at the lens and holds it up. White caption "I finally found a backpack that fits" (0.5, 1 s), "all my shoot essentials" (2 s). Speech from 0 s. Hook: a first-person "I finally found" claim; no number or offer.
 
 ## Person on screen
-Not named on screen. The ad text carries "#ad" and he says "As a content creator", but no handle or name is given. Apparent age 30s, dark wavy hair, white fitted t-shirt, black pleated trousers, black chunky patent loafers (17 s), black wristwatch, a ring. Calm and deadpan; looks at the lens in the first 4 s and then away or down.
+Not named on screen. The ad text has "#ad" and he says "As a content creator", but no handle or name is given. Apparent age 30s, dark wavy hair, white fitted t-shirt, black pleated trousers, black patent loafers (17 s), black watch. Deadpan; to the lens in the first 4 s, then away or down.
 
 ## Setting, framing and look
-A plain white wall with a wooden sideboard, a vintage-style radio and small ornaments; a striped bedspread for the flat-lay. Medium full-body frame, static, then top-down hand shots over the open bag (6.7 to 9.8 s), a flat-lay of the contents (13.2 s) and a table shot of the closed bag (15 s). Natural light, clean, neutral. Phone-shot level.
+A white wall, wooden sideboard, small ornaments; a striped bedspread for the flat-lay. Static full-body frame, then top-down hand shots over the open bag (6.7 to 9.8 s), a flat-lay of the contents (13.2 s) and a table shot of the closed bag (15 s). Natural light, neutral, phone-shot level.
 
 ## On-screen text, captions, logos, graphics
-White sans-serif captions, centre of frame, two lines at a time, subtle fade, no highlight colour. The small DA tag is on the bag. No logo card, price, end card or button text in the frames.
+White sans-serif captions, centred, two lines at a time, subtle fade. A small DA tag on the bag. No logo card, price, end card or button text.
 
 ## Sound and pacing
 Measured by software, not heard, so genre and track cannot be named. 16 cuts (6.9 per 10 s) but the first cut is at 6.7 s and none occur in the first 5 s. 204 words per minute, speech share 0.99, tempo 129 bpm; no gaps to judge a music bed.
@@ -51,12 +51,12 @@ No offer or spoken call to action. Button "Shop now"; the link goes to the backp
 
 ## Why it may work, and where it is weak
 Works:
-- A specific user (a content creator) and a specific load (camera, iPad, skincare).
-- A visible packing sequence proves the idea in 4 shots.
+- A specific user (a content creator) and a specific load.
+- A visible packing sequence proves the idea.
 - The #ad label is clear and the pitch is short.
 
 Weak:
-- The camera and capacity are not proven in frame.
-- The creator is unnamed, so there is no one to follow or trust.
+- The camera and the capacity are not proven in frame.
+- The creator is unnamed, so there is no one to trust or follow.
 - No price, offer or reason to buy now.
-- The first cut is late (6.7 s), then 16 cuts in 16 s with no change of idea.
+- First cut at 6.7 s, then every cut lands in the last 16 s.

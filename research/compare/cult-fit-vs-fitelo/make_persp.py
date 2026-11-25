@@ -16,7 +16,7 @@ COMPLIANCE_CULT = [
     "Drop \"Lowest Prices\" unless the ad shows what it is lower than and on what date.",
     "Say what the free offer is (two free group workouts on the Cult app) in voice and on the card; never put a free-trial headline over a voice that says buy.",
     "Film the centre the ad names. No other city's shopfront or app screen under a local caption.",
-    "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). Members speak about their own experience only, with written consent.",
+    "No result promises: no kilos, no \"guaranteed to show results\" (a line on Cult's own pack pages). A result such as \"I gained muscle & lost fat\" is one named member's own, with written consent, and the ad text says \"I\" as the captions do, not \"him\".",
     "Name the sale one way (Fitstart Days or Fitstart Sale, not both) and show its end date; gift cards and extensions as the site words them.",
 ]
 COMPLIANCE_FITELO = [
@@ -29,7 +29,7 @@ COMPLIANCE_FITELO = [
 ]
 MEASURE_CULT = [
     "Hold to 3 seconds and to 15 seconds against the current tour or \"don't go\" film in the same city",
-    "Lead form completion rate (all 30 sampled ads open a lead form) and cost per lead, by centre",
+    "Lead form completion rate and cost per lead, by centre (30 of your 60 sampled ads open a lead form; the other 30 go to the app or its store page)",
     "Calls connected, free workouts booked and centre visits, by centre",
     "Passes bought within 14 days of the lead, and which pack length",
 ]
@@ -45,8 +45,8 @@ A_SCRIPTS = [
     {
         "title": "Member-led stories: one real member per centre, filmed in that centre",
         "persona": "25 to 40, lives near one named centre, has paid for a gym before and stopped going.",
-        "why": "Fitelo hands 19 of its 34 ads to customer stories and puts a customer on screen in 23; none of your 30 ads shows a member, and your own films already run per centre.",
-        "evidence_ads": ["4723519161196734", "1449280067157528", "2404800830259411"],
+        "why": "Fitelo hands 19 of its 34 ads to customer stories and puts a customer on screen in 23, most with a name and a town. Your first-person films (a trek montage on 7 ads, a mother's first class, a confession) name nobody and no centre.",
+        "evidence_ads": ["4723519161196734", "1449280067157528", "1018165951266899", "1428286499400835"],
         "format": "Member to camera in the centre, phone, vertical, with B-roll of the class they do",
         "length": "40 seconds",
         "language": "Hinglish",
@@ -77,8 +77,8 @@ A_SCRIPTS = [
     {
         "title": "A character series: the break-up guy, one life event per episode",
         "persona": "22 to 30, uses humour as a reason, would not watch a gym advert but would watch a running joke.",
-        "why": "Your break-up gag runs as 4 ads under four centres, two of them your longest-running at 38 days: one man, four events, one answer. Fitelo's only recurring face is the unnamed man on its offer card, who never plays a scene.",
-        "evidence_ads": ["1644460903932522", "1088984333744777", "1763133728096239", "1182726674293191"],
+        "why": "Your break-up gag is your highest-scoring idea: 6 ads, 16 versions, live up to 56 days, one man, four events, one answer; four of the six run under named centres. Fitelo's only recurring face is the unnamed man on its offer card, who never plays a scene.",
+        "evidence_ads": ["1533712601774060", "1644460903932522", "1088984333744777", "1763133728096239"],
         "format": "Scene, phone, vertical; same actor, same line, a title card that repeats",
         "length": "30 seconds",
         "language": "Hinglish",
@@ -109,7 +109,7 @@ A_SCRIPTS = [
     {
         "title": "Centre tour scripts: the same tour, re-shot in each centre it is sent to",
         "persona": "Someone searching for a gym near home in one city, comparing two or three on the way to work.",
-        "why": "Your gym tour is your highest-scoring idea, 9 ads and 12 versions, and three films run as 11 ads across 7 named places; but the tour's app screen reads Cult Vaishali Nagar under Indore, Amritsar, VIP Road and Prahlad Nagar.",
+        "why": "Your gym tour runs as 9 ads with 12 versions, and three films run as 11 ads across 7 named places; but the tour's app screen reads Cult Vaishali Nagar under Indore, Amritsar, VIP Road and Prahlad Nagar.",
         "evidence_ads": ["1153711787290276", "1114356351358840", "1142965181654720", "1645883207287485"],
         "format": "Presenter to camera, then a walk-through with voice-over, phone, vertical",
         "length": "40 seconds",
@@ -141,7 +141,7 @@ A_SCRIPTS = [
     {
         "title": "Coach-led scripts for the weight-loss buyer: a cult Transform coach to camera",
         "persona": "28 to 45, wants to lose weight, does not want a gym, is weighing a diet coaching app.",
-        "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions, and 27 of its 34 ads sell weight-loss coaching. cult Transform, your coaching for weight loss on the site, is in none of your 30.",
+        "why": "Fitelo's most re-used idea, a nursing officer's 90-day story, runs as 7 ads with 13 versions, and 27 of its 34 ads sell weight-loss coaching. cult Transform, your coaching for weight loss on the site, is in none of your 60.",
         "evidence_ads": ["4723519161196734", "995872249468747"],
         "format": "Coach to camera, phone, vertical, with phone screens of the WhatsApp check-in",
         "length": "40 seconds",
@@ -242,8 +242,8 @@ B_SCRIPTS = [
     {
         "title": "Scene scripts: a family dinner where the plan changes the timing, not the food",
         "persona": "The person who cooks for a family and will not cook a separate diet meal.",
-        "why": "Cult.fit runs scene or story in 17 of its 30 videos, a gym tour and a \"don't feel like the gym\" film; you run none of your 30. Your site's line \"Roti and rice stay. Timing and portions change\" is in no ad.",
-        "evidence_ads": ["1529622859191185", "1153711787290276"],
+        "why": "Cult.fit runs scene or story in 33 of its 60 videos across 6 ideas, among them a mother trying her first group class; you run none of your 30. Your site's line \"Roti and rice stay. Timing and portions change\" is in no ad.",
+        "evidence_ads": ["1428286499400835", "1529622859191185", "1153711787290276"],
         "format": "Scene, phone, vertical, a kitchen and dining table, no talking to camera",
         "length": "40 seconds",
         "language": "Hinglish",
@@ -274,7 +274,7 @@ B_SCRIPTS = [
     {
         "title": "Town-led re-cuts: one member story per town, the town in the first frame",
         "persona": "A viewer in a smaller city who doubts a national app knows food like theirs.",
-        "why": "Cult.fit re-sends three films with the place in the text: 11 of its 30 ads across 7 places. Your stories already caption towns (Bareilly, Indore, Delhi, Jharkhand), but each runs under the same ad text.",
+        "why": "Cult.fit re-sends three films with the place in the text: 11 of its 60 ads across 7 places. Your stories already caption towns (Bareilly, Indore, Delhi, Jharkhand), but each runs under the same ad text.",
         "evidence_ads": ["2404800830259411", "4606351752947622", "2190284715234477", "1685798322850756"],
         "format": "Member to camera with a town caption, three cuts of one shoot, vertical",
         "length": "35 seconds",
@@ -306,7 +306,7 @@ B_SCRIPTS = [
     {
         "title": "Smart scale demo scripts: step on, read the app, one price and one end date",
         "persona": "Someone who already weighs themselves and wants more than one number, shopping for a scale.",
-        "why": "Five scale ideas: four say ₹999 against ₹4,999 or ₹5,000, and they count 18 or 25 metrics; two have run 129 days. Product demo is 2 of your 30 videos and 0 of Cult.fit's 30.",
+        "why": "Five scale ideas: four say ₹999 against ₹4,999 or ₹5,000, and they count 18 or 25 metrics; two have run 129 days. Product demo is 2 of your 30 videos and 0 of Cult.fit's 60.",
         "evidence_ads": ["2941541369549817", "925451983928233", "926250147231507", "2008324226545509"],
         "format": "Product demo, phone, vertical, bathroom floor and phone screen",
         "length": "30 seconds",
@@ -439,7 +439,7 @@ persp = {
                  "first_test": "A 40-second kitchen scene: a family dinner, roti stays, the dietitian's call changes the timing; typical line on screen.",
                  "script": 2},
                 {"title": "Open each story on the customer's town.",
-                 "why": "Cult.fit re-sends three films with the place in the text: 11 of its 30 ads across 7 places. Your stories caption towns such as Bareilly and Indore, but run under the same ad text.",
+                 "why": "Cult.fit re-sends three films with the place in the text: 11 of its 60 ads across 7 places. Your stories caption towns such as Bareilly and Indore, but run under the same ad text.",
                  "basis": SER_A_CITY, "evidence": "strong", "effort": "Low",
                  "first_test": "Three cuts of one story, each opening \"[town] se [member name]\", each sent to that town's state.",
                  "script": 3},

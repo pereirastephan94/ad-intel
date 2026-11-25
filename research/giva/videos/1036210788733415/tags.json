@@ -1,0 +1,30 @@
+{
+  "tags": {
+    "row": "V2",
+    "face": "actor_model",
+    "founder_evidence": "",
+    "hook": "callout",
+    "hook_text": "MAXED OUT SHINE",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "quality_design",
+    "language": "english",
+    "production": "high_film",
+    "concept_id": null,
+    "product": "Silver jewellery, pendants page, 15% off CHRM15",
+    "one_line": "A model poses with a yellow sports car in tilted fast cuts wearing stacked silver jewellery under the title MAXED OUT SHINE; no speech, code only in ad text.",
+    "script_twin": null,
+    "offer_also": [
+      "other"
+    ]
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "angle",
+      "language",
+      "hook"
+    ],
+    "human_checked": false
+  }
+}

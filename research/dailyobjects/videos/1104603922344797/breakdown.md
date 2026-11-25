@@ -29,13 +29,13 @@ The burned-in captions match the speech; where the machine text is odd I used th
 | 38.8-42 | And that's pretty much everything I want from the things that I carry every day. |
 
 ## First 3 seconds
-0 s: macro of two cases, navy and red, on a green cutting mat, a hand holding the navy one. 0.5 to 3 s: kinetic white text builds one word at a time, "phone", "is just", "protection?", "Think" over close-ups of the case's round pods. Speech starts at 0 s. Hook: a question to the viewer, then a challenge.
+0 s: macro of a navy and a red case on a green cutting mat, a hand holding the navy one. 0.5 to 3 s: kinetic white text builds one word at a time ("phone", "is just", "protection?", "Think") over close-ups of the case pods. Speech from 0 s. Hook: a question to the viewer, then a challenge.
 
 ## Person on screen
-Not named on screen or in the ad text. Apparent age 20s to 30s, dark curly hair, round clear-framed glasses, small earring, black t-shirt with a small red emblem on the chest. Calm, explanatory, direct to the lens in some shots and glancing at products in others.
+Not named on screen or in the ad text. Apparent age 20s to 30s, dark curly hair, round clear-framed glasses, small earring, black t-shirt with a small red emblem. Calm and explanatory; to the lens in some shots, glancing at products in others.
 
 ## Setting, framing and look
-A cluttered creator room: tripod with a camera, a fan, a wall map, plants. Cutaways to macro product shots on a green cutting mat. Shallow depth of field, a darker, teal-and-orange grade, steady frame. Craft level above phone-shot (tripod camera, graded footage, macro lens).
+A cluttered creator room (tripod camera, fan, wall map, plants) with macro cutaways on a green cutting mat. Shallow depth of field, teal-and-orange grade, steady frame. Above phone-shot craft.
 
 ## On-screen text, captions, logos, graphics
 Opening kinetic title as above, light italic font. From 5.8 s, small white italic captions at the bottom, a phrase at a time. A large orange "Stack" title at 41.9 s over the grip. DA mark visible on the products. No end card, price or button text.
@@ -64,12 +64,11 @@ No offer, price or spoken call to action. Button "Shop now"; link to the Stack e
 ## Why it may work, and where it is weak
 Works:
 - The question reframes a dull product in two seconds.
-- Each add-on is tied to one job the creator does, which is easy to copy.
-- Clean macro shots show the pods and colours well.
+- Each add-on is tied to one job, which is easy to copy.
+- Clean macro shots show the pods and colours.
 
 Weak:
 - 4:3 on a vertical feed leaves a small picture.
 - No price, offer, end card or call to action.
 - The hook is about protection but no protection claim follows.
-- Phone fit is never stated (which models).
-- The first cut is at 6.2 s, so the first 5 s are a single shot.
+- Phone fit is never stated.

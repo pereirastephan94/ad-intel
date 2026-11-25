@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "row": "V3",
+    "face": "none",
+    "founder_evidence": "",
+    "hook": "offer",
+    "hook_text": "Flat 15% OFF",
+    "offer": "discount",
+    "deadline": false,
+    "angle": "price_value",
+    "language": "english",
+    "production": "designed_static",
+    "concept_id": null,
+    "product": "Blue-stone bracelet catalogue clip, 15% off NEW15",
+    "one_line": "A split screen of a bracelet on a wrist and a product photo sits under a Flat 15% OFF NEW15 banner, then a pink end card; no speech.",
+    "script_twin": null,
+    "offer_also": [],
+    "ad_text_missing": true
+  },
+  "tagging": {
+    "model": "sonnet",
+    "unsure": [
+      "row",
+      "production",
+      "language"
+    ],
+    "human_checked": false
+  }
+}
